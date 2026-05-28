@@ -530,10 +530,10 @@
     var charS   = 1 - ss(0.28, 0.58, p) * 0.12;
     var charOp  = 1 - ss(0.52, 0.72, p);
     var charTY  = ss(0.28, 0.65, p) * -18;
-    [cW, cM].forEach(function (c) {
-      c.style.transform = 'scale(' + charS + ') translateY(' + charTY + 'px)';
-      c.style.opacity   = charOp;
-    });
+    cW.style.transform = 'scale(' + charS + ') translateY(' + charTY + 'px)';
+    cW.style.opacity   = charOp;
+    cM.style.transform = 'scale(' + charS + ') translateY(' + charTY + 'px) scaleX(-1)';
+    cM.style.opacity   = charOp;
 
     /* ── Headline: fades out as gnomes come in ── */
     var hOp = 1 - ss(0.20, 0.44, p);
