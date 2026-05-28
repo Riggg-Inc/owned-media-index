@@ -90,6 +90,7 @@ nav:
               - Hidden Cost: patterns/package/titles/hidden-cost.md
               - Big Question: patterns/package/titles/big-question.md
               - Role Guide: patterns/package/titles/role-guide.md
+              - Authority Claim: patterns/package/titles/authority-claim.md
           - Descriptions:
               - patterns/package/descriptions/index.md
               - Problem-Credibility-Takeaway: patterns/package/descriptions/problem-credibility-takeaway.md
@@ -97,6 +98,7 @@ nav:
               - Audience Pain Breakdown: patterns/package/descriptions/audience-pain-breakdown.md
               - Guest Story Arc: patterns/package/descriptions/guest-story-arc.md
               - Thesis-Takeaways-CTA: patterns/package/descriptions/thesis-takeaways-cta.md
+              - Credential-Context-Learn: patterns/package/descriptions/credential-context-learn.md
           - Clips:
               - patterns/package/clips/index.md
               - Hot Take: patterns/package/clips/hot-take.md

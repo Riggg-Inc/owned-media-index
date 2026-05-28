@@ -17,6 +17,7 @@ Descriptions are the second packaging decision after titles. They appear in RSS 
 | [Audience Pain Breakdown](audience-pain-breakdown.md) | Tactical, solution-oriented episodes | 4 |
 | [Guest Story Arc](guest-story-arc.md) | Narrative-driven interviews | 4 |
 | [Thesis-Takeaways-CTA](thesis-takeaways-cta.md) | Concise, high-signal episodes | 4 |
+| [Credential-Context-Learn](credential-context-learn.md) | High-authority guests, explicit value promise (DOAC style) | 5 |
 
 ## Quality Bar
 

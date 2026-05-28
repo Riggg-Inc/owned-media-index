@@ -26,6 +26,7 @@ Each style below is documented with examples, evidence, a quality bar, and a Rig
 | [Hidden Cost](hidden-cost.md) | Problem-aware audiences | 4 |
 | [Big Question](big-question.md) | Thought leadership, complex topics | 3 |
 | [Role Guide](role-guide.md) | Role-specific, niche audiences | 4 |
+| [Authority Claim](authority-claim.md) | High-authority guests, bold statements (DOAC style) | 5 |
 
 ## Quality Bar
 
