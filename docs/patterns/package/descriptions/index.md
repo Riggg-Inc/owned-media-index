@@ -24,3 +24,28 @@ A strong description should:
 - Include key takeaways, timestamps, or chapter markers where appropriate
 - End with a clear CTA (subscribe, visit, follow)
 - Work within platform truncation limits (first 120 chars matter most)
+
+## Platform Constraints
+
+Hard limits and truncation behavior for episode descriptions.
+
+| Platform | Max Length | Visible Before Truncation | Format Notes |
+|---|---|---|---|
+| Apple Podcasts | 4,000 chars | ~120 chars before "more" | Supports basic line breaks, no HTML |
+| Spotify | 4,000 chars | ~150 chars in episode view | Limited formatting |
+| YouTube | 5,000 chars | ~100-150 chars before "Show more" | Supports links, timestamps, hashtags |
+| Google Podcasts | 4,000 chars | ~120 chars | Plain text |
+| Amazon Music | 4,000 chars | ~100 chars | Plain text |
+| Pocket Casts | 4,000 chars | ~200 chars | Supports basic HTML in some views |
+| Overcast | 4,000 chars | ~200 chars | Supports show notes links |
+| RSS (standard) | No hard limit | Varies by reader | CDATA sections support HTML |
+| Website/Blog | No limit | Full page | Full HTML, SEO structured data |
+
+### Recommended Defaults
+
+- **First sentence:** Must stand alone — this is all most people see (~120 chars)
+- **Total length:** 150-300 words (covers all platforms without hitting limits)
+- **YouTube:** Include timestamps for chapter markers
+- **RSS:** Include links in full description for apps that render them
+
+_Last verified: May 2026._

@@ -32,3 +32,28 @@ A strong title should:
 - Work standalone in search, social, and feed contexts
 - Avoid clickbait that overpromises
 - Be under 70 characters for full display in most platforms
+
+## Platform Constraints
+
+Hard limits and truncation behavior for episode titles across major platforms.
+
+| Platform | Max Length | Visible Before Truncation | Format Notes |
+|---|---|---|---|
+| Apple Podcasts | 255 chars | ~50-60 chars in list view | No HTML, no emoji rendering in some views |
+| Spotify | 255 chars | ~55-65 chars in browse | Plain text only |
+| YouTube | 100 chars | ~70 chars in search, ~50 on mobile | Supports emoji, avoid ALL CAPS |
+| Google Podcasts | 255 chars | ~60 chars in cards | Plain text |
+| Amazon Music | 255 chars | ~55 chars in browse | Plain text |
+| Pocket Casts | 255 chars | ~60 chars | Plain text |
+| Overcast | 255 chars | Full title shown in most views | Plain text |
+| LinkedIn (post) | No title field | First line of post acts as hook | ~140 chars before "see more" |
+| Twitter/X (post) | 280 chars total | Full tweet visible | Title + link must fit in 280 |
+| RSS (standard) | No hard limit | Varies by reader | Keep under 100 chars for safety |
+
+### Recommended Defaults
+
+- **Primary target:** Under 70 characters (safe across all platforms)
+- **Absolute max:** 100 characters (YouTube hard limit)
+- **Mobile priority:** First 50 characters must carry the value
+
+_Last verified: May 2026. Platform limits change — verify before relying on edge cases._

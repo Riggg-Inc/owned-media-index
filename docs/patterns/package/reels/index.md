@@ -23,3 +23,35 @@ A strong reel should:
 - Deliver one clear idea in 15–60 seconds
 - End with a reason to follow, subscribe, or watch the full episode
 - Be natively vertical — not a cropped horizontal video
+
+## Platform Constraints
+
+Hard limits for vertical short-form video (9:16).
+
+| Platform | Max Duration | Recommended Duration | Aspect Ratio | Resolution | Max File Size |
+|---|---|---|---|---|---|
+| Instagram Reels | 90 seconds | 15-30 seconds | 9:16 | 1080x1920 | 4 GB |
+| YouTube Shorts | 60 seconds | 15-60 seconds | 9:16 | 1080x1920 | N/A (upload limit) |
+| TikTok | 10 minutes | 15-60 seconds | 9:16 | 1080x1920 | 287.6 MB (mobile), 4 GB (desktop) |
+| LinkedIn (vertical) | 10 minutes | 15-30 seconds | 9:16 | 1080x1920 | 5 GB |
+| Facebook Reels | 90 seconds | 15-30 seconds | 9:16 | 1080x1920 | 4 GB |
+| Pinterest Idea Pins | 60 seconds per clip | 15-30 seconds | 9:16 | 1080x1920 | 20 MB per clip |
+
+### Platform-Specific Notes
+
+| Platform | Cover Image | Hashtags | Audio | Captions |
+|---|---|---|---|---|
+| Instagram Reels | Required (1:1 for grid) | Up to 30, 3-5 recommended | Original or licensed | Auto-gen + editable |
+| YouTube Shorts | Auto-selected or custom | Limited impact | Original | Auto-gen |
+| TikTok | Auto-selected or custom | 3-5 recommended | Original or library | Auto-gen + editable |
+| LinkedIn | First frame | 3-5 recommended | Original | Burned-in recommended |
+
+### Recommended Defaults
+
+- **Duration:** 15-30 seconds (optimal across all platforms)
+- **Aspect ratio:** 9:16 (never crop from 16:9 — shoot or produce natively vertical)
+- **Safe zone:** Keep text within center 80% to avoid UI overlap (profile icons, captions, buttons)
+- **Captions:** Always burn in
+- **Hook:** First 2 seconds must stop the scroll — no logos, no intros
+
+_Last verified: May 2026._

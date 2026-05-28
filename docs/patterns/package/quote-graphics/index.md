@@ -21,3 +21,36 @@ Quote graphics extract the most shareable moments from a session and package the
 - Speaker attribution must be clear (name, title, company)
 - Brand colors and fonts consistent with show identity
 - Works at 1:1 (Instagram/LinkedIn) and 16:9 (Twitter/LinkedIn) sizes
+
+## Platform Constraints
+
+Image specs for quote graphics across platforms.
+
+| Platform | Recommended Sizes | Aspect Ratios | Max File Size | Format |
+|---|---|---|---|---|
+| Instagram (feed) | 1080x1080 or 1080x1350 | 1:1 or 4:5 | 30 MB | JPEG, PNG |
+| Instagram (story) | 1080x1920 | 9:16 | 30 MB | JPEG, PNG |
+| LinkedIn (feed) | 1200x1200 or 1200x628 | 1:1 or 1.91:1 | 10 MB | JPEG, PNG |
+| Twitter/X | 1600x900 or 1200x1200 | 16:9 or 1:1 | 5 MB (per image) | JPEG, PNG, GIF |
+| Facebook | 1200x1200 or 1200x630 | 1:1 or 1.91:1 | 8 MB | JPEG, PNG |
+| Pinterest | 1000x1500 | 2:3 | 20 MB | JPEG, PNG |
+
+### Text Legibility Constraints
+
+| Element | Guideline |
+|---|---|
+| Quote text | 30 words max, 18-24pt equivalent at 1080px width |
+| Speaker name | 12-14pt equivalent, bold |
+| Speaker title | 10-12pt equivalent |
+| Logo/branding | Corner placement, max 10% of image area |
+| Background contrast | Min 4.5:1 contrast ratio (WCAG AA) |
+
+### Recommended Defaults
+
+- **Produce at 1080x1080** (1:1) as the primary — works everywhere
+- **Second version at 1080x1920** (9:16) for stories
+- **Max 30 words** of quote text
+- **Always include:** speaker name, title, company
+- **Export as PNG** for text-heavy graphics (JPEG compression blurs text)
+
+_Last verified: May 2026._

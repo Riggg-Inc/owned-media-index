@@ -23,3 +23,33 @@ A strong clip should:
 - Deliver one clear idea in under 90 seconds
 - End with a natural close or curiosity hook
 - Work in both horizontal (16:9) and vertical (9:16) formats
+
+## Platform Constraints
+
+Hard limits for short-form video clips (horizontal 16:9).
+
+| Platform | Max Duration | Recommended Duration | Max File Size | Aspect Ratio | Format |
+|---|---|---|---|---|---|
+| YouTube (standard) | 12 hours | 30-90 seconds for clips | 256 GB | 16:9 | MP4 (H.264) |
+| LinkedIn (native video) | 10 minutes | 30-90 seconds | 5 GB | 16:9 or 1:1 | MP4 |
+| Twitter/X (native video) | 2:20 | 30-60 seconds | 512 MB | 16:9 or 1:1 | MP4 |
+| Facebook (native video) | 240 minutes | 30-90 seconds for clips | 10 GB | 16:9 | MP4 |
+| Website embed | No limit | 30-90 seconds | Varies by host | 16:9 | MP4/WebM |
+
+### Caption & Text Requirements
+
+| Platform | Burned-In Captions | Platform Captions | Caption File |
+|---|---|---|---|
+| LinkedIn | Recommended | Auto-generated (poor quality) | SRT upload supported |
+| Twitter/X | Recommended | Auto-generated | SRT supported |
+| YouTube | Optional | Auto-generated + editable | SRT/VTT upload |
+| Facebook | Recommended | Auto-generated | SRT upload supported |
+
+### Recommended Defaults
+
+- **Duration:** 30-90 seconds (sweet spot across all platforms)
+- **Format:** MP4 H.264, AAC audio
+- **Resolution:** 1920x1080 minimum
+- **Captions:** Always burn in — 80%+ of social video is watched without sound
+
+_Last verified: May 2026._
