@@ -568,7 +568,8 @@
 
     fps.forEach(function (fp, i) {
       var fp_p = ss(0.62 + i * 0.05, 0.94, p);
-      fp.style.transform = 'translateY(' + ((1 - fp_p) * 28) + 'px)';
+      var flip = fp.classList.contains('fp--right') ? ' scaleX(-1)' : '';
+      fp.style.transform = 'translateY(' + ((1 - fp_p) * 28) + 'px)' + flip;
       fp.style.opacity   = fp_p;
     });
 
