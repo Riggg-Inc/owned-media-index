@@ -37,3 +37,27 @@ Avoid when the transformation is not dramatic enough, or when the guest cannot a
 ## Related Patterns
 
 - [Guest Authority](guest-authority.md) — when the guest's name is a bigger draw than the transformation
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Before-After Playbook pattern.
+
+Format: From [Before State] to [After State]: [Guest]'s Playbook
+
+Context:
+- Before state: [where they started — should be relatable]
+- After state: [where they ended — should be aspirational]
+- Guest name: [who achieved this transformation]
+- Key steps: [what did they do to get there]
+
+Requirements:
+- Under 70 characters
+- Before state must be relatable to the audience
+- After state must be aspirational and specific
+- "Playbook" implies actionable steps — deliver them
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

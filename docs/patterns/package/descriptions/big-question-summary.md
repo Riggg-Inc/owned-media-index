@@ -30,3 +30,27 @@ Leading with a big question creates intellectual curiosity. Practitioners who th
 ## When Not To Use
 
 Avoid for tactical episodes where the listener wants "how to do X" — not "what should we think about."
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode description using the Big Question Summary pattern.
+
+Format: Big Question → Conversation Summary → Key Takeaways → Links
+
+Context:
+- Central question: [the big question driving the episode]
+- Conversation arc: [how did the discussion unfold]
+- Key takeaways (3-5): [main insights]
+- Resources/links: [any URLs or references mentioned]
+
+Requirements:
+- Question must be genuinely interesting, not rhetorical
+- Summary should cover the arc, not just the topic
+- Key takeaways should be scannable
+- Under 300 words
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

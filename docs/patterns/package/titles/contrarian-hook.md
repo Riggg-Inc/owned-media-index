@@ -38,3 +38,27 @@ Avoid when the guest is not opinionated enough to defend the contrarian take, or
 
 - [How-To Outcome](how-to-outcome.md) — when the value is in the solution, not the challenge
 - [Hidden Cost](hidden-cost.md) — when the cost is structural, not belief-based
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Contrarian Hook pattern.
+
+Format: Why [Common Belief] Is Costing [Audience] [Consequence]
+
+Context:
+- Common belief being challenged: [what does the audience currently believe or do]
+- Target audience: [who holds this belief]
+- Consequence: [what is the real cost of this belief]
+- Episode summary: [1-2 sentences about the alternative presented]
+
+Requirements:
+- Under 70 characters
+- The challenged belief must be genuinely common, not a strawman
+- The consequence must be specific and real
+- The episode must deliver the alternative, not just criticize
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

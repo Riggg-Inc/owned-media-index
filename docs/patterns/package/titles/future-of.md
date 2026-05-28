@@ -36,3 +36,27 @@ Avoid when the episode is purely tactical. "Future of" titles set expectations f
 ## Related Patterns
 
 - [Big Question](big-question.md) — when the framing is exploratory rather than predictive
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Future Of pattern.
+
+Format: The Future of [Category]: What [Audience] Needs To Know
+
+Context:
+- Category or trend: [what domain is being analyzed]
+- Target audience: [who needs to know about this]
+- Key thesis: [what is the forward-looking claim]
+- Episode summary: [1-2 sentences]
+
+Requirements:
+- Under 70 characters
+- Must contain a genuine forward-looking thesis, not vague speculation
+- Category must be specific enough to be useful
+- Guest should have credible foresight or data
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

@@ -29,3 +29,26 @@ Pain-first descriptions earn attention immediately. The listener feels seen, the
 ## When Not To Use
 
 Avoid when the episode is more inspirational than tactical.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode description using the Audience Pain Breakdown pattern.
+
+Format: Audience Pain → Practical Breakdown → Resources
+
+Context:
+- Audience pain point: [what specific problem do they have]
+- Practical solution discussed: [what breakdown does the episode provide]
+- Resources or templates: [any links, downloads, or tools mentioned]
+
+Requirements:
+- Pain must be specific and common, not dramatic
+- Breakdown must preview real tactical content
+- Under 250 words
+- First sentence must hook with the pain point
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

@@ -22,3 +22,23 @@ Stories are memorable. A 60-second story clip lands harder than a 60-second advi
 ## When Not To Use
 
 Avoid when the story requires setup from earlier in the conversation, or when the emotional moment does not translate without visual cues.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Identify and extract a Story Beat clip moment from this transcript. Look for a compelling narrative moment — an anecdote, origin story, or turning point.
+
+Transcript excerpt:
+[paste transcript section]
+
+Requirements:
+- Story has a clear arc (setup, tension, resolution)
+- Fits within 60-90 seconds
+- Emotional beat is genuine, not performed
+- Illustrates a transferable lesson
+- Provide: start/end timestamps, the story summary, and a suggested clip title
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

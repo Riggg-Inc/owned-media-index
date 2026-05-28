@@ -23,3 +23,31 @@ Multiple quick hits keep the viewer watching. Each new point resets the attentio
 ## When Not To Use
 
 Avoid when the insights are too nuanced for 5-second treatment.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write a Rapid Fire reel script with 3-5 quick insights.
+
+Context:
+- Episode topic: [what is this about]
+- Insights (3-5): [list each quick insight]
+- Target audience: [who is this for]
+
+Format:
+HOOK (0-2s): ["3 things every [audience] should know about [topic]"]
+POINT 1 (2-8s): [insight + text overlay]
+POINT 2 (8-14s): [insight + text overlay]
+POINT 3 (14-20s): [insight + text overlay]
+CTA (20-25s): [call to action]
+
+Requirements:
+- Each point gets 5-8 seconds max
+- Text overlays for each point
+- Pacing must be energetic
+- 20-30 seconds total
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

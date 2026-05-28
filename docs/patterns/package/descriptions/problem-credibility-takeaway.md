@@ -30,3 +30,29 @@ This pattern front-loads relevance. The listener sees their problem in the first
 ## When Not To Use
 
 Avoid when the guest is not well-credentialed or when the episode is more exploratory than prescriptive.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode description using the Problem-Credibility-Takeaway pattern.
+
+Format: Problem → Guest Credibility → What You Will Learn → CTA
+
+Context:
+- Audience problem: [what pain point does this episode address]
+- Guest name: [full name]
+- Guest credentials: [title, company, key achievement]
+- Key takeaways (3-5): [what will the listener learn]
+- CTA: [subscribe, visit website, leave review, etc.]
+
+Requirements:
+- Problem in the first sentence
+- Guest credential must be specific (title, company, achievement)
+- Takeaways must be concrete, not vague
+- Under 300 words
+- First 120 characters must stand alone (platform truncation)
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

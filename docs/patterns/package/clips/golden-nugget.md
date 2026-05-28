@@ -22,3 +22,23 @@ Practitioners share tactics. When someone hears a specific, usable insight, they
 ## When Not To Use
 
 Avoid when the advice requires significant context to understand, or when the insight is too basic for the target audience.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Identify and extract a Golden Nugget clip moment from this transcript. Look for a single, actionable piece of advice or insight the audience can apply immediately.
+
+Transcript excerpt:
+[paste transcript section]
+
+Requirements:
+- One clear, actionable insight
+- Specific enough to act on immediately
+- No jargon requiring context
+- 30-90 seconds when spoken
+- Provide: start/end timestamps, the quote, and a suggested clip title
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

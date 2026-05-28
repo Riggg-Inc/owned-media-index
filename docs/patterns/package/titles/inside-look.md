@@ -36,3 +36,27 @@ Avoid when the company or process is not distinctive enough to warrant the "insi
 ## Related Patterns
 
 - [Guest Authority](guest-authority.md) — when the person is the draw, not the company
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Inside Look pattern.
+
+Format: Inside [Company/Process]: How [Result] Happened
+
+Context:
+- Company or process being revealed: [what are we going inside]
+- Specific result: [what was achieved — use numbers if possible]
+- Why this is normally hidden: [what makes this an "inside" look]
+- Episode summary: [1-2 sentences]
+
+Requirements:
+- Under 70 characters
+- Must promise genuine behind-the-scenes detail
+- Result must be specific and impressive
+- "Inside" framing must feel earned, not forced
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

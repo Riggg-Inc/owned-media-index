@@ -36,3 +36,27 @@ Avoid when the cost is already well-known. "The Hidden Cost of Not Having a Webs
 ## Related Patterns
 
 - [Contrarian Hook](contrarian-hook.md) — when challenging a belief rather than revealing a cost
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Hidden Cost pattern.
+
+Format: The Hidden Cost of [Broken Process]
+
+Context:
+- Process or decision: [what common thing has a hidden cost]
+- The hidden cost: [what is the audience losing without realizing]
+- Who is affected: [target audience]
+- Episode summary: [1-2 sentences about the alternative]
+
+Requirements:
+- Under 70 characters
+- The cost must be genuinely hidden or underappreciated
+- Quantify the cost where possible
+- Episode must deliver the alternative, not just the warning
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

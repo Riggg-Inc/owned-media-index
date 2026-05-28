@@ -22,3 +22,23 @@ Data creates authority. A single surprising statistic can reframe an entire conv
 ## When Not To Use
 
 Avoid when the statistic is well-known, when the source is questionable, or when the number requires heavy context to be meaningful.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Identify and extract a Data Drop clip moment from this transcript. Look for a surprising statistic, benchmark, or data point that reframes understanding.
+
+Transcript excerpt:
+[paste transcript section]
+
+Requirements:
+- Statistic is surprising or counterintuitive
+- Source is credible and recent
+- Speaker contextualizes the number
+- 30-60 seconds when spoken
+- Provide: start/end timestamps, the data point, and a suggested clip title
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

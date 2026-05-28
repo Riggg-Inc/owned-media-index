@@ -36,3 +36,27 @@ Avoid for tactical, step-by-step episodes. "How to think about" sets expectation
 ## Related Patterns
 
 - [Future Of](future-of.md) — when the framing is forward-looking rather than conceptual
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Big Question pattern.
+
+Format: How To Think About [Complex Topic]
+
+Context:
+- Complex topic: [what subject needs a mental model]
+- Target audience: [who is wrestling with this question]
+- Framework or lens: [what mental model does the episode offer]
+- Episode summary: [1-2 sentences]
+
+Requirements:
+- Under 70 characters
+- Topic must be genuinely complex — not something with one clear answer
+- Episode must deliver a framework, not just opinions
+- Best for senior, strategic audiences
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

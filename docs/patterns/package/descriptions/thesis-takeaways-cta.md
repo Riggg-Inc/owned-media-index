@@ -29,3 +29,28 @@ Brevity wins in truncated environments. Podcast apps, social previews, and searc
 ## When Not To Use
 
 Avoid for narrative-heavy episodes where a story arc description would be more compelling.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode description using the Thesis-Takeaways-CTA pattern.
+
+Format: Topic Thesis → Three Takeaways → Subscribe/CTA
+
+Context:
+- Thesis statement: [one clear, defensible claim]
+- Takeaway 1: [specific insight]
+- Takeaway 2: [specific insight]
+- Takeaway 3: [specific insight]
+- CTA: [one action — subscribe, visit, etc.]
+
+Requirements:
+- Thesis must be a clear, defensible claim
+- Three takeaways must be specific and distinct
+- CTA must be one action, not three
+- Under 150 words — this is the concise format
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

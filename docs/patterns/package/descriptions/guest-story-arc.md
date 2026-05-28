@@ -29,3 +29,27 @@ Stories are memorable. When the guest's journey is compelling, leading with narr
 ## When Not To Use
 
 Avoid when the guest's story is not distinctive enough to lead with.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode description using the Guest Story Arc pattern.
+
+Format: Guest Story → Lessons → Application
+
+Context:
+- Guest name: [full name]
+- Their story: [what happened — the compelling journey]
+- Key lessons: [what did they learn]
+- Application: [how does this apply to the listener]
+
+Requirements:
+- Story must be genuinely compelling, not generic
+- Lessons must be extractable and applicable
+- Connect to the listener's situation
+- Under 300 words
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

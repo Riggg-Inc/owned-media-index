@@ -23,3 +23,30 @@ Visual contrast is inherently engaging. The audience processes the difference in
 ## When Not To Use
 
 Avoid when the before/after difference is not visually obvious.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write a Before-After Reveal reel script.
+
+Context:
+- Before state: [what did it look like before]
+- After state: [what does it look like now]
+- What changed: [the key action or process]
+- Episode reference: [which episode covers this]
+
+Format:
+BEFORE (0-5s): [show the before state]
+TRANSITION (5-7s): [visual transition — swipe, fade, etc.]
+AFTER (7-20s): [reveal the after state]
+CTA (20-25s): [call to action]
+
+Requirements:
+- Visual contrast must be immediately obvious
+- Transformation must be real, not staged
+- 15-30 seconds
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

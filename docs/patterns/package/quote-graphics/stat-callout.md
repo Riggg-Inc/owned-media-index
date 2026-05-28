@@ -19,3 +19,27 @@ A graphic that highlights a specific data point or benchmark from the session, w
 ## When Not To Use
 
 Avoid when the statistic requires heavy context or when the source is not credible.
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Create a quote graphic using the Stat Callout pattern.
+
+Context:
+- Statistic or data point: [the number]
+- Context line: [what does this number mean]
+- Source: [where does this data come from]
+- Speaker (if attributed): [name, title]
+- Show brand colors: [hex codes]
+
+Requirements:
+- Number must be the dominant visual element
+- Context must be clear in one line
+- Source attribution visible
+- Readable at mobile size
+- Both 1:1 and 16:9 versions
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

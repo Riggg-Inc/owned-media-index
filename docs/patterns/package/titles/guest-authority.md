@@ -38,3 +38,27 @@ Avoid when the guest is not well-known to the target audience. A name-drop title
 
 - [Inside Look](inside-look.md) — when the company/process is the draw, not the individual
 - [Before-After Playbook](before-after-playbook.md) — when the transformation arc is the story
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Guest Authority pattern.
+
+Format: What [Expert/Company] Learned From [Specific Experience]
+
+Context:
+- Guest name: [full name]
+- Guest title/company: [their role and organization]
+- Specific experience: [what did they do, build, or go through]
+- Key insight: [the main lesson from their experience]
+
+Requirements:
+- Under 70 characters
+- Guest must have genuine authority or recognizable credentials
+- Experience must be specific, not generic "leadership lessons"
+- Title must promise insight, not just name-drop
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

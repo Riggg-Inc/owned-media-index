@@ -38,3 +38,27 @@ Avoid when the episode is exploratory rather than prescriptive, when the guest s
 
 - [Numbered Insight](numbered-insight.md) — when the episode is more list-driven
 - [Contrarian Hook](contrarian-hook.md) — when challenging a belief is the bigger draw
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the How-To Outcome pattern.
+
+Format: How [Audience] Can [Outcome] Without [Pain]
+
+Context:
+- Audience: [who is this for — be specific about role/industry]
+- Outcome: [what will they achieve]
+- Pain to remove: [what friction or sacrifice are you eliminating]
+- Episode summary: [1-2 sentences about what the episode covers]
+
+Requirements:
+- Under 70 characters
+- Audience must be specific (not "people" or "everyone")
+- Outcome must be concrete and desirable
+- The "without" clause must address a real, recognized friction
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

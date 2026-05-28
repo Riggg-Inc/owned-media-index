@@ -34,3 +34,32 @@ A platform-specific version of the Quote Share social post type, optimized for T
 ## Example
 
 _Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write a Quote Share social post for Twitter/X (Twitter Quote Card version).
+
+Context:
+- Episode title: [title of the episode]
+- Guest name: [guest full name]
+- Guest company/title: [their role]
+- Key insight or quote: [the main moment to highlight]
+- Episode link: [URL]
+- Relevant hashtags: [industry hashtags if appropriate]
+
+Platform: Twitter/X
+Character limit: 280 characters per tweet
+
+Requirements:
+- First line must stop the scroll
+- Body must add value beyond the episode title
+- CTA must be specific and singular
+- Platform-native formatting (line breaks, emojis, hashtags per Twitter/X norms)
+- Tag guest when appropriate
+- Never use the same copy across platforms
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

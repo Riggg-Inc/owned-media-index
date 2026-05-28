@@ -37,3 +37,27 @@ Avoid when the episode content applies equally to many roles. Forcing a role-spe
 ## Related Patterns
 
 - [How-To Outcome](how-to-outcome.md) — when the audience is broader than one role
+
+## Prompt Template
+
+Copy and customize this prompt to generate this pattern:
+
+```
+Write an episode title using the Role Guide pattern.
+
+Format: The [Role] Guide to [Specific Outcome]
+
+Context:
+- Target role: [specific job title or function]
+- Desired outcome: [what will they achieve]
+- Why this role specifically: [what is unique about their perspective]
+- Episode summary: [1-2 sentences]
+
+Requirements:
+- Under 70 characters
+- Role must be specific and recognizable
+- Outcome must be relevant to that role's priorities
+- Content must be calibrated to that role's expertise level
+```
+
+Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
