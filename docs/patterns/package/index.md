@@ -1,12 +1,19 @@
-# Package Patterns
+# Package
 
-Packaging patterns turn the source session into assets people can understand, click, watch, listen to, and share.
+**Framework Stage:** Package
 
-## Current Patterns
+Packaging is the work that turns raw media into publishable assets. Every session should produce a complete media package — not just one deliverable, but a coordinated set of assets designed for different platforms, audiences, and purposes.
 
-- [Top Performing Title Styles](top-performing-title-styles.md)
-- [RSS Feed Description Patterns](rss-feed-description-patterns.md)
-- [Clip Selection Patterns](clip-selection-patterns.md)
-- [Vertical Reel Package Standard](vertical-reel-package-standard.md)
-- [Thumbnail Hook Patterns](thumbnail-hook-patterns.md)
+## Deliverable Types
 
+| Type | What It Covers |
+|---|---|
+| [Titles](titles/index.md) | Episode title styles and patterns |
+| [Descriptions](descriptions/index.md) | RSS, YouTube, and show notes descriptions |
+| [Clips](clips/index.md) | Short-form extracted video segments |
+| [Reels](reels/index.md) | Vertical short-form video (9:16) |
+| [Thumbnails](thumbnails/index.md) | Visual packaging for episode discovery |
+| [Quote Graphics](quote-graphics/index.md) | Shareable static visual assets |
+| [Social Posts](social-posts/index.md) | Written copy for social distribution |
+
+Each type has its own index page with ranked styles and individual pages for each pattern.

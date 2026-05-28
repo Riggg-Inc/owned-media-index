@@ -77,11 +77,88 @@ nav:
           - OBS Real-Time Production: patterns/produce/obs-production-standard.md
       - Package:
           - patterns/package/index.md
-          - Top Title Styles: patterns/package/top-performing-title-styles.md
-          - RSS Descriptions: patterns/package/rss-feed-description-patterns.md
-          - Clip Selection: patterns/package/clip-selection-patterns.md
-          - Vertical Reels: patterns/package/vertical-reel-package-standard.md
-          - Thumbnail Hooks: patterns/package/thumbnail-hook-patterns.md
+          - Titles:
+              - patterns/package/titles/index.md
+              - How-To Outcome: patterns/package/titles/how-to-outcome.md
+              - Contrarian Hook: patterns/package/titles/contrarian-hook.md
+              - Guest Authority: patterns/package/titles/guest-authority.md
+              - Numbered Insight: patterns/package/titles/numbered-insight.md
+              - Inside Look: patterns/package/titles/inside-look.md
+              - Future Of: patterns/package/titles/future-of.md
+              - Before-After Playbook: patterns/package/titles/before-after-playbook.md
+              - Hidden Cost: patterns/package/titles/hidden-cost.md
+              - Big Question: patterns/package/titles/big-question.md
+              - Role Guide: patterns/package/titles/role-guide.md
+          - Descriptions:
+              - patterns/package/descriptions/index.md
+              - Problem-Credibility-Takeaway: patterns/package/descriptions/problem-credibility-takeaway.md
+              - Big Question Summary: patterns/package/descriptions/big-question-summary.md
+              - Audience Pain Breakdown: patterns/package/descriptions/audience-pain-breakdown.md
+              - Guest Story Arc: patterns/package/descriptions/guest-story-arc.md
+              - Thesis-Takeaways-CTA: patterns/package/descriptions/thesis-takeaways-cta.md
+          - Clips:
+              - patterns/package/clips/index.md
+              - Hot Take: patterns/package/clips/hot-take.md
+              - Golden Nugget: patterns/package/clips/golden-nugget.md
+              - Story Beat: patterns/package/clips/story-beat.md
+              - Debate Moment: patterns/package/clips/debate-moment.md
+              - Data Drop: patterns/package/clips/data-drop.md
+          - Reels:
+              - patterns/package/reels/index.md
+              - Hook-Insight-CTA: patterns/package/reels/hook-insight-cta.md
+              - Quote Card Motion: patterns/package/reels/quote-card-motion.md
+              - Before-After Reveal: patterns/package/reels/before-after-reveal.md
+              - Rapid Fire: patterns/package/reels/rapid-fire.md
+              - Teaser Trailer: patterns/package/reels/teaser-trailer.md
+          - Thumbnails:
+              - patterns/package/thumbnails/index.md
+              - Guest Headshot + Text: patterns/package/thumbnails/guest-headshot-text.md
+              - Emotion Close-Up: patterns/package/thumbnails/emotion-close-up.md
+              - Branded Template: patterns/package/thumbnails/branded-template.md
+              - Data Visual: patterns/package/thumbnails/data-visual.md
+              - Scene Still: patterns/package/thumbnails/scene-still.md
+          - Quote Graphics:
+              - patterns/package/quote-graphics/index.md
+              - Speaker + Quote: patterns/package/quote-graphics/speaker-quote.md
+              - Stat Callout: patterns/package/quote-graphics/stat-callout.md
+              - Conversation Exchange: patterns/package/quote-graphics/conversation-exchange.md
+              - Branded Pull Quote: patterns/package/quote-graphics/branded-pull-quote.md
+              - Audiogram Card: patterns/package/quote-graphics/audiogram-card.md
+          - Social Posts:
+              - patterns/package/social-posts/index.md
+              - Episode Announcement:
+                  - patterns/package/social-posts/types/episode-announcement/index.md
+                  - LinkedIn Long-Form: patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
+                  - Twitter/X Punchy: patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
+                  - Instagram Caption: patterns/package/social-posts/types/episode-announcement/instagram-caption.md
+              - Guest Tag:
+                  - patterns/package/social-posts/types/guest-tag/index.md
+                  - LinkedIn Gratitude: patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
+                  - Twitter/X Shoutout: patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
+              - Quote Share:
+                  - patterns/package/social-posts/types/quote-share/index.md
+                  - LinkedIn Quote Post: patterns/package/social-posts/types/quote-share/linkedin-quote-post.md
+                  - Twitter/X Quote Card: patterns/package/social-posts/types/quote-share/twitter-quote-card.md
+              - Thread Breakdown:
+                  - patterns/package/social-posts/types/thread-breakdown/index.md
+                  - Twitter/X Thread: patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
+                  - LinkedIn Carousel: patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
+              - Behind the Scenes:
+                  - patterns/package/social-posts/types/behind-the-scenes/index.md
+                  - Instagram BTS Story: patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
+                  - LinkedIn Process Post: patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
+              - Key Takeaway:
+                  - patterns/package/social-posts/types/key-takeaway/index.md
+                  - LinkedIn Insight: patterns/package/social-posts/types/key-takeaway/linkedin-insight.md
+                  - Twitter/X One-Liner: patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md
+              - Clip Companion:
+                  - patterns/package/social-posts/types/clip-companion/index.md
+                  - LinkedIn Video Post: patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
+                  - Instagram Reel Caption: patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
+              - Evergreen Reshare:
+                  - patterns/package/social-posts/types/evergreen-reshare/index.md
+                  - LinkedIn Throwback: patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
+                  - Twitter/X Resurface: patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
       - Publish:
           - patterns/publish/index.md
           - Canonical Episode Page: patterns/publish/canonical-episode-page.md

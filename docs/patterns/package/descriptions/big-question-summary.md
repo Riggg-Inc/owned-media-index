@@ -1,0 +1,32 @@
+# Big Question Summary
+
+**Stage:** Package → Descriptions  
+**Score:** 4  
+**Evidence:** practitioner observation
+
+## Pattern
+
+**Big Question → Conversation Summary → Key Takeaways → Links**
+
+## What It Is
+
+A description that opens with the central question driving the episode, summarizes the conversation arc, and lists the key takeaways.
+
+## Why It Works
+
+Leading with a big question creates intellectual curiosity. Practitioners who think about this question already will recognize the episode as relevant to their work.
+
+## Example
+
+> What happens when your owned media strategy outlasts your marketing team? This episode explores the tension between building a durable content engine and the reality of team turnover, budget shifts, and platform changes. Key takeaways: why systemization beats talent, how to document your production workflow, and what "content resilience" actually means. Links and resources at riggg.com/episodes.
+
+## Quality Bar
+
+- Question must be genuinely interesting, not rhetorical
+- Summary should cover the arc, not just the topic
+- Key takeaways should be scannable
+- Include links to resources mentioned
+
+## When Not To Use
+
+Avoid for tactical episodes where the listener wants "how to do X" — not "what should we think about."
