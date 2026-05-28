@@ -11,6 +11,29 @@
 .md-main__inner { max-width: 100% !important; padding: 0 !important; }
 .md-content__inner { margin: 0 !important; padding: 0 !important; }
 
+/* ─── Floating tabs over hero ────────────────────────────────── */
+.md-tabs {
+  background: transparent !important;
+  position: absolute !important;
+  width: 100% !important;
+  z-index: 20 !important;
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  opacity: 1 !important;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.md-tabs__indicator {
+  background-color: #008080 !important;
+}
+
 /* ─── Scroll driver ──────────────────────────────────────────── */
 .omi-driver { height: 320vh; position: relative; }
 
@@ -735,7 +758,7 @@
 
 
 {% block tabs %}
-
+{{ super() }}
 <div class="omi-driver">
   <div class="omi-sticky" id="scene">
 
