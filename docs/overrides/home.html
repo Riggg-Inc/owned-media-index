@@ -48,17 +48,13 @@
    ═════════════════════════════════════════════════════════ */
 #l2 {
   position: absolute;
-  bottom: -10%;
-  left: -4%; right: -4%;
-  height: 75%;
+  inset: -4% -2%;
   background-image: url('{{ "assets/imagery/layer2-gnomes.png" | url }}');
-  background-size: contain;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   z-index: 3;
-  will-change: transform, opacity;
+  will-change: opacity;
   opacity: 0;
-  transform: translateY(60px);
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -91,41 +87,19 @@
   transform: translateY(20px) scale(0.96);
 }
 
-/* panel backgrounds — illustrated gradient portraits */
-.fp--teal { background: linear-gradient(160deg, #0a2535 0%, #0d3535 60%, #0a2020 100%); }
-.fp--navy { background: linear-gradient(160deg, #0d1830 0%, #1a2040 60%, #0a1020 100%); }
-
-/* stylised person silhouette */
-.fp-person {
-  position: absolute;
-  bottom: 44px;
-  left: 50%; transform: translateX(-50%);
-  width: 55%;
-  height: 78%;
+/* panel backgrounds — crop the real host/guest illustration */
+.fp--teal {
+  background-image: url('{{ "assets/imagery/layer1-hosts.png" | url }}');
+  background-size: 260%;
+  background-position: 18% 35%;
+}
+.fp--navy {
+  background-image: url('{{ "assets/imagery/layer1-hosts.png" | url }}');
+  background-size: 260%;
+  background-position: 82% 35%;
 }
 
-.fp--teal .fp-person {
-  background: radial-gradient(ellipse at 50% 25%, #1a5555 0%, #0d3030 55%, transparent 80%);
-  border-radius: 50% 50% 0 0 / 55% 55% 0 0;
-}
-
-.fp--navy .fp-person {
-  background: radial-gradient(ellipse at 50% 25%, #1a2f5a 0%, #0d1835 55%, transparent 80%);
-  border-radius: 50% 50% 0 0 / 55% 55% 0 0;
-}
-
-/* head circle */
-.fp-head {
-  position: absolute;
-  top: 0; left: 50%;
-  transform: translateX(-50%);
-  width: 38%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-}
-
-.fp--teal .fp-head { background: radial-gradient(circle at 40% 35%, #2a7070, #0d4040); }
-.fp--navy .fp-head { background: radial-gradient(circle at 40% 35%, #2a3f70, #0d1840); }
+/* no separate person elements needed — bg image handles it */
 
 /* corner accent chips */
 .fp-chip {
@@ -384,7 +358,6 @@
     {# ── L3: Final Produced Frame (pure CSS) ── #}
     <div id="l3">
       <div class="fp fp--teal">
-        <div class="fp-person"><div class="fp-head"></div></div>
         <div class="fp-chip fp-chip--tl"></div>
         <div class="fp-chip fp-chip--br"></div>
         <div class="fp-dots">
@@ -407,7 +380,6 @@
       </div>
 
       <div class="fp fp--navy">
-        <div class="fp-person"><div class="fp-head"></div></div>
         <div class="fp-chip fp-chip--tl"></div>
         <div class="fp-chip fp-chip--br"></div>
         <div class="fp-dots">
@@ -492,10 +464,9 @@
     var scale1 = 1.18 - ss(0, 0.70, p) * 0.18;   /* 1.18 → 1.0 */
     l1.style.transform = 'scale(' + scale1 + ')';
 
-    /* ── L2: gnomes slide up ── */
-    var l2p = ss(0.25, 0.60, p);
-    l2.style.opacity   = l2p;
-    l2.style.transform = 'translateY(' + ((1 - l2p) * 80) + 'px)';
+    /* ── L2: gnomes crossfade in ── */
+    var l2p = ss(0.25, 0.58, p);
+    l2.style.opacity = l2p;
 
     /* ── Text fades out ── */
     var tp = 1 - ss(0.22, 0.48, p);
