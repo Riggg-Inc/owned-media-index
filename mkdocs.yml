@@ -1,0 +1,73 @@
+site_name: Owned Media Index
+site_description: Open patterns, tools, standards, and benchmarks for producing, publishing, measuring, and preserving owned media.
+site_url: https://riggg-inc.github.io/owned-media-index/
+repo_url: https://github.com/Riggg-Inc/owned-media-index
+repo_name: Riggg-Inc/owned-media-index
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/riggg-mark.svg
+  favicon: assets/favicon.svg
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep orange
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Framework: framework.md
+  - Patterns:
+      - patterns/index.md
+      - Produce:
+          - patterns/produce/index.md
+          - OBS Real-Time Production: patterns/produce/obs-production-standard.md
+      - Package:
+          - patterns/package/index.md
+          - Top Title Styles: patterns/package/top-performing-title-styles.md
+          - RSS Descriptions: patterns/package/rss-feed-description-patterns.md
+          - Clip Selection: patterns/package/clip-selection-patterns.md
+          - Vertical Reels: patterns/package/vertical-reel-package-standard.md
+          - Thumbnail Hooks: patterns/package/thumbnail-hook-patterns.md
+      - Publish:
+          - patterns/publish/index.md
+          - Canonical Episode Page: patterns/publish/canonical-episode-page.md
+          - LinkedIn Release Posts: patterns/publish/linkedin-release-post-patterns.md
+          - Simulcast Standard: patterns/publish/simulcast-standard.md
+          - RSS Metadata: patterns/publish/feed-metadata-standard.md
+          - YouTube Packaging: patterns/publish/youtube-title-and-description-standard.md
+      - Prove:
+          - patterns/prove/index.md
+          - Session Performance Scorecard: patterns/prove/session-performance-scorecard.md
+      - Preserve:
+          - patterns/preserve/index.md
+          - Content Memory Standard: patterns/preserve/content-memory-standard.md
+  - Scoring: scoring.md
+  - Evidence: evidence.md
+  - Roadmap: roadmap.md
+  - Contribute: contribute.md
+
