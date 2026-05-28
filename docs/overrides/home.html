@@ -383,11 +383,352 @@
   color: rgba(255,255,255,0.45);
 }
 
-/* ─── Below-fold ─────────────────────────────────────────────── */
-#below {
-  max-width: 960px;
+/* ═══════════════════════════════════════════════════════════════
+   BELOW-FOLD SECTIONS
+   ═══════════════════════════════════════════════════════════════ */
+
+.omi-section {
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 4rem 2rem 3rem;
+  padding: 4rem 2rem;
+}
+
+.omi-section--alt {
+  background: var(--riggg-mint, #ECF6F5);
+}
+
+[data-md-color-scheme="slate"] .omi-section--alt {
+  background: rgba(255,255,255,0.03);
+}
+
+.omi-section--dark {
+  background: #0b1626;
+  color: #fff;
+}
+
+.omi-section--navy {
+  background: var(--riggg-navy, #2B3E74);
+  color: #fff;
+}
+
+.omi-section h2 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 2.4em !important;
+  letter-spacing: 0.06em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.3rem !important;
+  text-align: center;
+}
+
+.omi-section--dark h2,
+.omi-section--navy h2 {
+  color: #fff !important;
+}
+
+.omi-section .omi-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.omi-section--dark .omi-subtitle,
+.omi-section--navy .omi-subtitle {
+  color: rgba(255,255,255,0.75);
+}
+
+/* ─── Feature cards ──────────────────────────────────────────── */
+.omi-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.omi-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.8rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.omi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+[data-md-color-scheme="slate"] .omi-card {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.08);
+}
+
+.omi-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.omi-card h3 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.4em !important;
+  letter-spacing: 0.06em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.5rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-card h3 {
+  color: #eceff4 !important;
+}
+
+.omi-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88em;
+  color: #555;
+  line-height: 1.65;
+  margin: 0;
+}
+
+[data-md-color-scheme="slate"] .omi-card p {
+  color: rgba(255,255,255,0.7);
+}
+
+/* Colored top border on cards */
+.omi-card--teal    { border-top: 3px solid #008080; }
+.omi-card--navy    { border-top: 3px solid #2B3E74; }
+.omi-card--burgundy { border-top: 3px solid #953F4E; }
+.omi-card--mint    { border-top: 3px solid #5abfb5; }
+.omi-card--cream   { border-top: 3px solid #d4a843; }
+
+/* ─── Pattern anatomy ────────────────────────────────────────── */
+.omi-anatomy {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.omi-anatomy-visual {
+  flex: 1;
+  min-width: 280px;
+  background: var(--riggg-navy, #2B3E74);
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82em;
+}
+
+.omi-anatomy-visual .anat-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.omi-anatomy-visual .anat-row:last-child {
+  border-bottom: none;
+}
+
+.anat-label {
+  background: rgba(0,128,128,0.4);
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.anat-desc {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.92em;
+}
+
+.omi-anatomy-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.omi-anatomy-text h3 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.6em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.6rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-anatomy-text h3 {
+  color: #eceff4 !important;
+}
+
+.omi-anatomy-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+/* ─── Audience cards ─────────────────────────────────────────── */
+.omi-audience {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.omi-audience-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1.4rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: background 0.2s;
+}
+
+.omi-audience-card:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.omi-audience-card h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.15em !important;
+  letter-spacing: 0.06em !important;
+  color: #fff !important;
+  margin: 0 0 0.35rem !important;
+}
+
+.omi-audience-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78em;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── Updates list ───────────────────────────────────────────── */
+.omi-updates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.omi-update {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.4rem;
+  border-left: 4px solid #008080;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+[data-md-color-scheme="slate"] .omi-update {
+  background: rgba(255,255,255,0.05);
+}
+
+.omi-update-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #008080;
+  margin-bottom: 0.4rem;
+}
+
+.omi-update h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.2em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.3rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-update h4 {
+  color: #eceff4 !important;
+}
+
+.omi-update p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── CTA banner ─────────────────────────────────────────────── */
+.omi-cta-banner {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.omi-cta-banner h2 {
+  color: #fff !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.omi-cta-banner p {
+  color: rgba(255,255,255,0.85);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  max-width: 520px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.omi-cta-btns {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ─── Riggg footer section ───────────────────────────────────── */
+.omi-riggg-footer {
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+}
+
+.omi-riggg-footer img {
+  height: 48px;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.omi-riggg-footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88em;
+  color: #666;
+  max-width: 560px;
+  margin: 0 auto 0.5rem;
+  line-height: 1.7;
+}
+
+.omi-riggg-footer .omi-footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.omi-riggg-footer .omi-footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #008080 !important;
+  text-decoration: none;
+}
+
+.omi-riggg-footer .omi-footer-links a:hover {
+  color: #00a0a0 !important;
 }
 </style>
 {% endblock %}
@@ -595,12 +936,12 @@
 
 
 {% block content %}
-<div id="below">
-  <div class="riggg-accent-bar"></div>
 
-  <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2.2em;letter-spacing:0.06em;color:#2B3E74;margin:0 0 0.4rem;">The Framework</h2>
-  <p style="font-family:'Montserrat',sans-serif;color:#666;max-width:640px;line-height:1.7;margin:0 0 1.5rem;">
-    Every entry maps to one of five stages of the owned media operating system.
+<!-- ═══ Section 1: The Framework ═══ -->
+<div class="omi-section">
+  <h2>The Framework</h2>
+  <p class="omi-subtitle">
+    Every entry in the index maps to one of five stages of the owned media operating system.
   </p>
 
   <div class="riggg-pipeline">
@@ -610,24 +951,212 @@
     <div class="riggg-step"><span class="step-label">Prove</span><span class="step-sub">Analytics · Benchmarks · ROI</span></div>
     <div class="riggg-step"><span class="step-label">Preserve</span><span class="step-sub">Transcripts · Memory · Reuse</span></div>
   </div>
+</div>
 
-  <div class="riggg-accent-bar"></div>
 
-  <table>
-    <thead><tr><th>Section</th><th>What you'll find</th></tr></thead>
-    <tbody>
-      <tr><td><strong>Patterns</strong></td><td>Ranked, reusable patterns for every stage</td></tr>
-      <tr><td><strong>Scoring</strong></td><td>How patterns earn a 1–5 Riggg score</td></tr>
-      <tr><td><strong>Evidence</strong></td><td>How every claim is sourced</td></tr>
-      <tr><td><strong>Roadmap</strong></td><td>What's coming next, quarterly</td></tr>
-      <tr><td><strong>Contribute</strong></td><td>How to submit patterns and corrections</td></tr>
-    </tbody>
-  </table>
+<!-- ═══ Section 2: Everything You Need ═══ -->
+<div class="omi-section omi-section--alt">
+  <h2>Everything You Need</h2>
+  <p class="omi-subtitle">
+    Ranked patterns, evidence-backed standards, and opinionated guidance for every stage of owned media.
+  </p>
 
-  <div class="riggg-accent-bar"></div>
-  <p style="text-align:center;font-family:'Montserrat',sans-serif;font-size:0.82em;color:#999;padding:1rem 0 0;">
-    Published by <strong><a href="https://riggg.com" style="color:#008080;">Riggg</a></strong>
-    &nbsp;·&nbsp; CC BY-SA 4.0 &nbsp;·&nbsp; Open to community contribution
+  <div class="omi-cards">
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">🎬</span>
+      <h3>Production Patterns</h3>
+      <p>Real-time production standards, OBS workflows, recording setups, and live show production guides. From raw capture to broadcast-quality output.</p>
+    </div>
+    <div class="omi-card omi-card--navy">
+      <span class="omi-card-icon">✂️</span>
+      <h3>Packaging Standards</h3>
+      <p>Top-performing title styles, RSS descriptions, clip selection criteria, reel packaging, thumbnail hooks, and everything that wraps your content for publishing.</p>
+    </div>
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">🚀</span>
+      <h3>Publishing Playbooks</h3>
+      <p>Website-first canonical pages, YouTube packaging, LinkedIn release posts, RSS metadata, simulcast standards, and live premiere checklists.</p>
+    </div>
+    <div class="omi-card omi-card--burgundy">
+      <span class="omi-card-icon">📊</span>
+      <h3>Performance Benchmarks</h3>
+      <p>Session performance scorecards, per-episode metrics, conversion events, attribution models, and the numbers that prove owned media works.</p>
+    </div>
+    <div class="omi-card omi-card--navy">
+      <span class="omi-card-icon">🧠</span>
+      <h3>Content Memory</h3>
+      <p>Transcript standards, vector search indexing, content library architecture, AEO visibility, and how to make every session findable forever.</p>
+    </div>
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">⭐</span>
+      <h3>Riggg Scored</h3>
+      <p>Every pattern earns a 1–5 score based on evidence, reliability, and real-world production results. Nothing gets a 5 without proof.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 3: How Patterns Work ═══ -->
+<div class="omi-section">
+  <h2>How Patterns Work</h2>
+  <p class="omi-subtitle">
+    Every entry in the index follows the same structure. No blog posts disguised as guides. No vibes without evidence.
+  </p>
+
+  <div class="omi-anatomy">
+    <div class="omi-anatomy-visual">
+      <div class="anat-row">
+        <span class="anat-label">What</span>
+        <span class="anat-desc">What this pattern is for</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">When</span>
+        <span class="anat-desc">When you should use it</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Why</span>
+        <span class="anat-desc">Why it works</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Examples</span>
+        <span class="anat-desc">Concrete, usable examples</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Quality</span>
+        <span class="anat-desc">What good looks like</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Score</span>
+        <span class="anat-desc">1–5 Riggg score with evidence</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Tradeoffs</span>
+        <span class="anat-desc">When not to use it</span>
+      </div>
+    </div>
+    <div class="omi-anatomy-text">
+      <h3>Opinionated. Sourced. Specific.</h3>
+      <p>Most owned media advice is scattered across blog posts, vendor marketing, and Twitter threads. The Index cuts through that by forcing every entry through a structured template.</p>
+      <p>Each pattern answers three questions: What is this for? When do you use it? What does good look like? If it can't answer all three with evidence, it doesn't ship.</p>
+      <p>Patterns are scored on a 1–5 scale. A 5 means industry standard with production data behind it. A 1 means it's documented for context but not recommended.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 4: Built For Practitioners ═══ -->
+<div class="omi-section omi-section--navy">
+  <h2>Built for Practitioners</h2>
+  <p class="omi-subtitle">
+    Not for vendors. Not for executives who want a deck. For the people actually building and running owned media programs.
+  </p>
+
+  <div class="omi-audience">
+    <div class="omi-audience-card">
+      <h4>🎙️ Podcast Teams</h4>
+      <p>Producers, editors, and hosts running recurring shows. Find title patterns, clip workflows, and distribution playbooks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>📹 Webinar Teams</h4>
+      <p>Marketing teams running webinars as lead-gen. Get simulcast standards, repurposing pipelines, and performance benchmarks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>🌐 Virtual Event Teams</h4>
+      <p>Event producers turning sessions into content libraries. Find packaging standards and post-event publishing playbooks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>💡 Founder-Led Media</h4>
+      <p>Founders and executives building thought leadership through content. Get expert interview patterns and authority-building guides.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>🎯 Agency Strategists</h4>
+      <p>Consultants managing owned media for clients. Use the Index as your operational playbook and quality standard.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>📊 Marketing Leaders</h4>
+      <p>In-house teams integrating owned media into the full marketing stack. Prove ROI with benchmarks and attribution models.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 5: What's New ═══ -->
+<div class="omi-section">
+  <h2>What's New</h2>
+  <p class="omi-subtitle">
+    The Index is a living document. Here's what shipped recently.
+  </p>
+
+  <div class="omi-updates">
+    <div class="omi-update">
+      <div class="omi-update-tag">Package</div>
+      <h4>Top Performing Title Styles</h4>
+      <p>10 ranked title patterns for expert interviews, roundtables, and solo episodes — with evidence from real production data.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Publish</div>
+      <h4>Simulcast Standard</h4>
+      <p>The complete guide to simultaneous live streaming across LinkedIn, YouTube, Facebook, and vertical social platforms.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Produce</div>
+      <h4>OBS Production Standard</h4>
+      <p>Real-time production workflows using OBS Studio for broadcast-quality shows with lower thirds, transitions, and multi-cam.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Preserve</div>
+      <h4>Content Memory Standard</h4>
+      <p>How to build a searchable, reusable content library using vector databases and transcript indexing.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Package</div>
+      <h4>RSS Feed Description Patterns</h4>
+      <p>Ranked description styles that improve discoverability across Apple Podcasts, Spotify, and podcast directories.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Prove</div>
+      <h4>Session Performance Scorecard</h4>
+      <p>A standardized framework for measuring what each session produced, where it shipped, and what it generated.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 6: Open Source CTA ═══ -->
+<div class="omi-section omi-section--dark omi-cta-banner">
+  <h2>Open Source. Opinionated.</h2>
+  <p>
+    The Owned Media Index is open to the community. Submit a pattern. Correct an entry. Propose a new section. Every contribution is reviewed by the Riggg team.
+  </p>
+  <div class="omi-cta-btns">
+    <a href="{{ 'contribute/' | url }}" class="omi-btn omi-btn--p">How to Contribute</a>
+    <a href="https://github.com/Riggg-Inc/owned-media-index" class="omi-btn omi-btn--o">View on GitHub</a>
+  </div>
+</div>
+
+
+<!-- ═══ Section 7: Published by Riggg ═══ -->
+<div class="omi-section omi-riggg-footer">
+  <img src="{{ 'assets/riggg-mark.svg' | url }}" alt="Riggg" style="filter:none;">
+  <p>
+    <strong>Riggg</strong> is the owned media engine for expert-led companies.
+    We produce podcasts, webinars, livestreams, and virtual events like real shows,
+    turn every session into a complete media package, and publish it across the right channels.
+  </p>
+  <p style="font-size:0.82em;color:#999;">
+    The Owned Media Index is how we contribute to the community building the practice of owned media.
+  </p>
+  <div class="omi-footer-links">
+    <a href="https://riggg.com">Riggg.com</a>
+    <a href="https://github.com/Riggg-Inc/owned-media-index">GitHub</a>
+    <a href="https://www.linkedin.com/company/riggg">LinkedIn</a>
+    <a href="{{ 'framework/' | url }}">Framework</a>
+    <a href="{{ 'patterns/' | url }}">Patterns</a>
+    <a href="{{ 'roadmap/' | url }}">Roadmap</a>
+  </div>
+  <p style="font-size:0.72em;color:#aaa;margin-top:2rem;">
+    © 2026 Riggg Inc. · CC BY-SA 4.0 · Open to community contribution
   </p>
 </div>
+
 {% endblock %}
