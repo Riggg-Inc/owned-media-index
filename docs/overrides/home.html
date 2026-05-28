@@ -163,12 +163,20 @@
   background-color: #0a2030;
 }
 
-/* Crop man image into right panel */
+/* Crop man image into right panel — flipped to face left (toward host) */
 .fp--right {
   background-image: url('{{ "assets/imagery/char-man.png" | url }}');
   background-size: 160%;
   background-position: 45% 15%;
   background-color: #0a1530;
+  transform: scaleX(-1);
+}
+
+/* Flip lower-third text back so it reads correctly */
+.fp--right .fp-lt,
+.fp--right .fp-chip,
+.fp--right .fp-dots {
+  transform: scaleX(-1);
 }
 
 /* Corner accent chips */
