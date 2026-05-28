@@ -1,3 +1,7 @@
+---
+description: "How to make owned media content citable by AI search systems. Page authority, content citability, and structural requirements."
+---
+
 # Citation Architecture
 
 **Stage:** Publish → AI Search Optimization  

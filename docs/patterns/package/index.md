@@ -1,3 +1,7 @@
+---
+description: "Packaging patterns for owned media. Titles, descriptions, clips, reels, thumbnails, quote graphics, and social posts with ranked styles and prompt templates."
+---
+
 # Package
 
 **Framework Stage:** Package

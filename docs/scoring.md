@@ -1,3 +1,7 @@
+---
+description: "How patterns in the Owned Media Index earn a 1-5 Riggg score based on evidence, reliability, and real-world production results."
+---
+
 # Scoring
 
 The Owned Media Index scores patterns, tools, benchmarks, and standards from 1 to 5.

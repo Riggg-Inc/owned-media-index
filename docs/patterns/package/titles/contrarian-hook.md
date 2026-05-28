@@ -1,3 +1,7 @@
+---
+description: "The Contrarian Hook title pattern. Format: Why [Common Belief] Is Costing [Audience] [Consequence]. Examples, evidence, and prompt template."
+---
+
 # Contrarian Hook
 
 **Stage:** Package → Titles  

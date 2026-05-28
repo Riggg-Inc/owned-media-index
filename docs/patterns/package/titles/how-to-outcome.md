@@ -1,3 +1,7 @@
+---
+description: "The How-To Outcome title pattern for podcasts. Format: How [Audience] Can [Outcome] Without [Pain]. Examples, quality bar, and prompt template."
+---
+
 # How-To Outcome
 
 **Stage:** Package → Titles  

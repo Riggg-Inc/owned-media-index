@@ -1,3 +1,7 @@
+---
+description: "The Before-After Playbook title pattern. Format: From [Before] to [After]: [Guest]'s Playbook. Transformation stories with actionable steps."
+---
+
 # Before-After Playbook
 
 **Stage:** Package → Titles  

@@ -1,3 +1,7 @@
+---
+description: "The Future Of title pattern. Format: The Future of [Category]: What [Audience] Needs To Know. Strategic, forward-looking episodes."
+---
+
 # Future Of
 
 **Stage:** Package → Titles  

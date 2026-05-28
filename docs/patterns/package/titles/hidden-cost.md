@@ -1,3 +1,7 @@
+---
+description: "The Hidden Cost title pattern. Format: The Hidden Cost of [Broken Process]. Reveals unseen costs that trigger loss aversion."
+---
+
 # Hidden Cost
 
 **Stage:** Package → Titles  

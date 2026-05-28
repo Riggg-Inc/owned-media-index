@@ -1,3 +1,7 @@
+---
+description: "How to contribute to the Owned Media Index. Submit patterns, correct entries, propose new sections. Every contribution is reviewed by the Riggg team."
+---
+
 # Contribute
 
 The Owned Media Index is a practical library of patterns, standards, tools, and benchmarks for owned media.

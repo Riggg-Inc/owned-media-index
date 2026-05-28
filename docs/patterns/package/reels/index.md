@@ -1,3 +1,7 @@
+---
+description: "5 ranked vertical reel patterns for Instagram Reels, YouTube Shorts, and TikTok. Platform constraints and prompt templates included."
+---
+
 # Reels
 
 **Stage:** Package

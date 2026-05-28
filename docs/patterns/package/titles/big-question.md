@@ -1,3 +1,7 @@
+---
+description: "The Big Question title pattern. Format: How To Think About [Complex Topic]. Mental models and frameworks for senior audiences."
+---
+
 # Big Question
 
 **Stage:** Package → Titles  

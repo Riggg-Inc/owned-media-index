@@ -1,3 +1,7 @@
+---
+description: "How to optimize podcast transcripts for AI search. Speaker identification, timestamps, topic headers, and clean-up standards."
+---
+
 # Transcript Optimization
 
 **Stage:** Publish → AI Search Optimization  

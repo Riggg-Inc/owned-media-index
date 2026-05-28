@@ -1,3 +1,7 @@
+---
+description: "5 ranked quote graphic styles for owned media. Speaker quotes, stat callouts, conversation exchanges, and audiogram cards."
+---
+
 # Quote Graphics
 
 **Stage:** Package

@@ -1,3 +1,7 @@
+---
+description: "5 ranked thumbnail styles for podcasts and video episodes. Platform specs for YouTube, Apple Podcasts, Spotify, and social."
+---
+
 # Thumbnails
 
 **Stage:** Package

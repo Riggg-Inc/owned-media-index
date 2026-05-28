@@ -1,3 +1,7 @@
+---
+description: "How to measure AI search visibility for owned media. Direct signals, proxy signals, competitive tracking, and measurement tools."
+---
+
 # Measurement
 
 **Stage:** Publish → AI Search Optimization  

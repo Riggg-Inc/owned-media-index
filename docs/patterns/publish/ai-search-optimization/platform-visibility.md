@@ -1,3 +1,7 @@
+---
+description: "How to appear in Google AI Overviews, Perplexity, ChatGPT, Bing Copilot, and Claude. Crawler access and indexing requirements."
+---
+
 # Platform Visibility
 
 **Stage:** Publish → AI Search Optimization  

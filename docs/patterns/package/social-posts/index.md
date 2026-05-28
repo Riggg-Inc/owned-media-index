@@ -1,3 +1,7 @@
+---
+description: "8 social post types with platform-specific versions for LinkedIn, Twitter/X, and Instagram. Character limits, formatting rules, and prompt templates."
+---
+
 # Social Posts
 
 **Stage:** Package

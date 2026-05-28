@@ -1,3 +1,7 @@
+---
+description: "The Guest Authority title pattern. Format: What [Expert] Learned From [Experience]. Best for expert interviews with name recognition."
+---
+
 # Guest Authority
 
 **Stage:** Package → Titles  

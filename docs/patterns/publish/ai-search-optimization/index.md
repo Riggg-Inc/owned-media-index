@@ -1,3 +1,7 @@
+---
+description: "AI Search Optimization for owned media. GEO, AEO, LLMO, and AIO explained. How to make podcasts, webinars, and video content discoverable by AI systems."
+---
+
 # AI Search Optimization
 
 **Stage:** Publish

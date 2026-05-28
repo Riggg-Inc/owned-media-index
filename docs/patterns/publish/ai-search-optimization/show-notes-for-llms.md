@@ -1,3 +1,7 @@
+---
+description: "How to structure show notes so AI systems can extract and cite your content. Q&A formatting, key claims, and direct answer architecture."
+---
+
 # Show Notes for LLMs
 
 **Stage:** Publish → AI Search Optimization  

@@ -1,3 +1,7 @@
+---
+description: "Publishing patterns for owned media. Website-first pages, RSS, YouTube, LinkedIn, simulcast, live premieres, and AI search optimization."
+---
+
 # Publish Patterns
 
 Publishing patterns get the finished media into the right places.

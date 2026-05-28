@@ -1,3 +1,7 @@
+---
+description: "5 ranked clip selection patterns for short-form video. Hot takes, golden nuggets, story beats, debate moments, and data drops."
+---
+
 # Clips
 
 **Stage:** Package

@@ -1,3 +1,7 @@
+---
+description: "Evidence standards for the Owned Media Index. How claims are sourced from internal data, teardowns, platform documentation, and practitioner observation."
+---
+
 # Evidence Rules
 
 The Owned Media Index should be opinionated, but not hand-wavy.

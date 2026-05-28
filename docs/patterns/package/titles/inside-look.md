@@ -1,3 +1,7 @@
+---
+description: "The Inside Look title pattern. Format: Inside [Company]: How [Result] Happened. Behind-the-scenes and case study episodes."
+---
+
 # Inside Look
 
 **Stage:** Package → Titles  

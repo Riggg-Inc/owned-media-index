@@ -1,3 +1,7 @@
+---
+description: "The Owned Media Index roadmap. What shipped, what is next, and how the index evolves quarterly."
+---
+
 # Roadmap
 
 The Owned Media Index should grow from a useful pattern library into a quarterly authority publication.

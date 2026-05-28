@@ -1,3 +1,7 @@
+---
+description: "The Role Guide title pattern. Format: The [Role] Guide to [Outcome]. Role-specific targeting for niche B2B audiences."
+---
+
 # Role Guide
 
 **Stage:** Package → Titles  

@@ -1,3 +1,7 @@
+---
+description: "The Numbered Insight title pattern. Format: [Number] Mistakes [Audience] Makes When [Task]. Ranked list-driven title style."
+---
+
 # Numbered Insight
 
 **Stage:** Package → Titles  

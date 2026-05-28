@@ -1,3 +1,7 @@
+---
+description: "Browse all patterns in the Owned Media Index. Ranked, reusable patterns for producing, packaging, publishing, measuring, and preserving owned media."
+---
+
 # Pattern Library
 
 Patterns are reusable answers to production, packaging, publishing, measurement, and preservation problems.

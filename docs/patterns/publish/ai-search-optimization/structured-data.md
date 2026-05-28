@@ -1,3 +1,7 @@
+---
+description: "Schema.org structured data for podcast episodes. JSON-LD templates for PodcastEpisode, FAQPage, and VideoObject markup."
+---
+
 # Structured Data
 
 **Stage:** Publish → AI Search Optimization  
