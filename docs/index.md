@@ -1,3 +1,8 @@
+---
+template: home.html
+title: Owned Media Index
+---
+
 # Owned Media Index
 
 <div class="riggg-hero">

@@ -1,0 +1,538 @@
+{% extends "main.html" %}
+
+{% block styles %}
+{{ super() }}
+<style>
+  /* ── Reset nav/header for hero page ─────────────────────────── */
+  .md-main { margin-top: 0; }
+  .md-content { padding: 0; max-width: 100%; }
+  .md-content__inner { margin: 0; padding: 0; max-width: 100%; }
+  .md-sidebar { display: none; }
+  .md-main__inner { gap: 0; }
+
+  /* ── Scene container ─────────────────────────────────────────── */
+  #scene {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #0d1b2a;
+  }
+
+  /* ── Layers ──────────────────────────────────────────────────── */
+  .scene-layer {
+    position: absolute;
+    inset: -10% -5%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+    transition: opacity 0.6s ease;
+  }
+
+  #layer-studio {
+    background-image: url('../assets/imagery/hero-studio.png');
+    z-index: 1;
+    opacity: 1;
+  }
+
+  #layer-production {
+    background-image: url('../assets/imagery/hero-production.png');
+    z-index: 2;
+    opacity: 0;
+  }
+
+  /* dark vignette over the scene */
+  #scene::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 8;
+    background: radial-gradient(ellipse at center,
+      transparent 30%,
+      rgba(10, 18, 40, 0.65) 100%);
+    pointer-events: none;
+  }
+
+  /* bottom gradient to blend into page */
+  #scene-fade {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 220px;
+    z-index: 9;
+    background: linear-gradient(to bottom, transparent, #fff);
+    pointer-events: none;
+  }
+
+  [data-md-color-scheme="slate"] #scene-fade {
+    background: linear-gradient(to bottom, transparent, #1a2535);
+  }
+
+  /* ── Final Product Reveal ────────────────────────────────────── */
+  #layer-final {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s ease;
+  }
+
+  .final-card {
+    position: relative;
+    width: 420px;
+    max-width: 45%;
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+    transform: scale(0.92);
+    transition: transform 0.8s ease;
+    background: #1a2535;
+  }
+
+  .final-card.active { transform: scale(1); }
+
+  .final-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* Riggg-style lower third */
+  .lower-third {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    padding: 0.6rem 0.85rem 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .lt-left { display: flex; flex-direction: column; gap: 2px; }
+
+  .lt-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15em;
+    letter-spacing: 0.08em;
+    color: #fff;
+    line-height: 1;
+  }
+
+  .lt-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.58em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.85);
+  }
+
+  .lt-dots {
+    display: grid;
+    grid-template-columns: repeat(3, 6px);
+    gap: 4px;
+    opacity: 0.6;
+  }
+
+  .lt-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.8);
+  }
+
+  .card-teal .lower-third  { background: #008080; }
+  .card-navy .lower-third  { background: #2B3E74; }
+
+  /* corner accent blocks */
+  .corner-tl, .corner-br {
+    position: absolute;
+    width: 18px; height: 18px;
+    border-radius: 2px;
+  }
+
+  .corner-tl { top: 0; left: 0; }
+  .corner-br { bottom: 44px; right: 0; }
+
+  .card-teal .corner-tl { background: #2B3E74; }
+  .card-teal .corner-br { background: #2B3E74; }
+  .card-navy .corner-tl { background: #008080; }
+  .card-navy .corner-br { background: #008080; }
+
+  /* ── Hero Text ───────────────────────────────────────────────── */
+  #hero-text {
+    position: absolute;
+    bottom: 14%;
+    left: 0; right: 0;
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  #hero-text h1 {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-size: clamp(2.8rem, 6vw, 5.5rem) !important;
+    letter-spacing: 0.06em !important;
+    color: #fff !important;
+    line-height: 1 !important;
+    margin: 0 0 0.4rem !important;
+    text-shadow: 0 4px 24px rgba(0,0,0,0.5);
+  }
+
+  #hero-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(0.9rem, 1.6vw, 1.15rem);
+    color: rgba(255,255,255,0.88);
+    max-width: 560px;
+    margin: 0 auto 1.6rem;
+    line-height: 1.65;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-cta {
+    display: inline-block;
+    padding: 0.65em 1.6em;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.82em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    transition: all 0.2s;
+  }
+
+  .hero-cta-primary {
+    background: #008080;
+    color: #fff !important;
+    box-shadow: 0 4px 16px rgba(0,128,128,0.4);
+  }
+
+  .hero-cta-primary:hover {
+    background: #00a0a0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,128,128,0.5);
+  }
+
+  .hero-cta-outline {
+    background: transparent;
+    color: #fff !important;
+    border: 2px solid rgba(255,255,255,0.5);
+  }
+
+  .hero-cta-outline:hover {
+    border-color: #fff;
+    background: rgba(255,255,255,0.1);
+  }
+
+  /* ── Stage label ─────────────────────────────────────────────── */
+  #stage-label {
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    background: rgba(0,0,0,0.3);
+    padding: 0.35em 1em;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    transition: opacity 0.4s;
+  }
+
+  /* ── Scroll indicator ────────────────────────────────────────── */
+  #scroll-hint {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    color: rgba(255,255,255,0.55);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.65em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: opacity 0.4s;
+  }
+
+  .scroll-arrow {
+    width: 20px; height: 20px;
+    border-right: 2px solid rgba(255,255,255,0.45);
+    border-bottom: 2px solid rgba(255,255,255,0.45);
+    transform: rotate(45deg);
+    animation: bounce-arrow 1.6s infinite;
+  }
+
+  @keyframes bounce-arrow {
+    0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.5; }
+    50%       { transform: rotate(45deg) translateY(5px); opacity: 1; }
+  }
+
+  /* ── Progress bar ────────────────────────────────────────────── */
+  #scene-progress {
+    position: absolute;
+    bottom: 0; left: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(90deg, #008080, #953F4E);
+    z-index: 20;
+    transition: width 0.1s linear;
+  }
+
+  /* ── Below-fold content ──────────────────────────────────────── */
+  #below-fold {
+    background: #fff;
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  [data-md-color-scheme="slate"] #below-fold {
+    background: #1a2535;
+  }
+
+  /* ── Sticky scene on scroll ──────────────────────────────────── */
+  #scene-sticky {
+    position: sticky;
+    top: 48px; /* below header */
+    width: 100%;
+    height: calc(100vh - 48px);
+    z-index: 0;
+  }
+
+  .scene-scroll-driver {
+    height: 300vh;
+    position: relative;
+  }
+
+  .scene-scroll-driver .sticky-wrap {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- ── Scroll-driven parallax scene ─────────────────────────── -->
+<div class="scene-scroll-driver">
+  <div class="sticky-wrap">
+    <div id="scene">
+
+      <!-- Layer 1: Raw studio (background, moves slowest) -->
+      <div class="scene-layer" id="layer-studio"></div>
+
+      <!-- Layer 2: Production crew reveal -->
+      <div class="scene-layer" id="layer-production"></div>
+
+      <!-- Layer 3: Final product (CSS-built branded frames) -->
+      <div id="layer-final">
+        <div class="final-card card-teal">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#1a2d4a,#0d2035);display:flex;align-items:center;justify-content:center;">
+            <div style="width:72%;height:72%;border-radius:50%;background:radial-gradient(circle,#2B3E74,#0d1b2a);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.15);font-size:3rem;">👤</div>
+          </div>
+          <div class="corner-tl"></div>
+          <div class="corner-br"></div>
+          <div class="lower-third">
+            <div class="lt-left">
+              <span class="lt-name">Your Expert Guest</span>
+              <span class="lt-title">Title · Company Name</span>
+            </div>
+            <div class="lt-dots">
+              {% for i in range(9) %}<div class="lt-dot"></div>{% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="final-card card-navy">
+          <div style="width:100%;height:100%;background:linear-gradient(135deg,#004040,#002020);display:flex;align-items:center;justify-content:center;">
+            <div style="width:72%;height:72%;border-radius:50%;background:radial-gradient(circle,#008080,#004040);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.15);font-size:3rem;">👤</div>
+          </div>
+          <div class="corner-tl"></div>
+          <div class="corner-br"></div>
+          <div class="lower-third">
+            <div class="lt-left">
+              <span class="lt-name">Your Show Host</span>
+              <span class="lt-title">Host · Program Name</span>
+            </div>
+            <div class="lt-dots">
+              {% for i in range(9) %}<div class="lt-dot"></div>{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stage label -->
+      <div id="stage-label">Raw Recording</div>
+
+      <!-- Scene progress bar -->
+      <div id="scene-progress"></div>
+
+      <!-- Dark vignette + fade -->
+      <div id="scene-fade"></div>
+
+      <!-- Hero text -->
+      <div id="hero-text">
+        <h1>The Open Standard<br>for Owned Media</h1>
+        <p>Patterns, tools, benchmarks, and standards for turning expert conversations into published owned media.</p>
+        <div class="hero-ctas">
+          <a href="{{ 'framework/' | url }}" class="hero-cta hero-cta-primary">Read the Framework</a>
+          <a href="{{ 'patterns/' | url }}" class="hero-cta hero-cta-outline">Browse Patterns</a>
+        </div>
+      </div>
+
+      <!-- Scroll hint -->
+      <div id="scroll-hint">
+        <div class="scroll-arrow"></div>
+        <span>Scroll</span>
+      </div>
+
+    </div><!-- /#scene -->
+  </div><!-- /.sticky-wrap -->
+</div><!-- /.scene-scroll-driver -->
+
+<!-- ── Below-fold page content ──────────────────────────────── -->
+<div id="below-fold">
+  <div style="margin-bottom:2rem;">
+    <div class="riggg-accent-bar"></div>
+    <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2.2em;letter-spacing:0.06em;color:#2B3E74;margin:0 0 0.5rem;">The Framework</h2>
+    <p style="font-family:'Montserrat',sans-serif;color:#555;max-width:640px;line-height:1.7;">Every entry in the index maps to one of five stages of the owned media operating system.</p>
+  </div>
+
+  <div class="riggg-pipeline">
+    <div class="riggg-step"><span class="step-label">Produce</span><span class="step-sub">Capture · Record · Live</span></div>
+    <div class="riggg-step"><span class="step-label">Package</span><span class="step-sub">Titles · Clips · Reels · Copy</span></div>
+    <div class="riggg-step"><span class="step-label">Publish</span><span class="step-sub">RSS · YouTube · LinkedIn · Live</span></div>
+    <div class="riggg-step"><span class="step-label">Prove</span><span class="step-sub">Analytics · Benchmarks · ROI</span></div>
+    <div class="riggg-step"><span class="step-label">Preserve</span><span class="step-sub">Transcripts · Memory · Reuse</span></div>
+  </div>
+
+  <div class="riggg-accent-bar"></div>
+
+  <table>
+    <thead>
+      <tr><th>Section</th><th>What you'll find</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Patterns</strong></td><td>Ranked, reusable patterns for every stage — titles, clips, distributions, reels, thumbnails, and more</td></tr>
+      <tr><td><strong>Scoring</strong></td><td>How patterns earn a 1–5 Riggg score and what each level means</td></tr>
+      <tr><td><strong>Evidence</strong></td><td>How every claim is sourced — internal data, teardowns, platform docs, or practitioner observation</td></tr>
+      <tr><td><strong>Roadmap</strong></td><td>What's coming next and how the index evolves quarterly</td></tr>
+      <tr><td><strong>Contribute</strong></td><td>How to submit a pattern, correct an entry, or propose a new section</td></tr>
+    </tbody>
+  </table>
+
+  <div class="riggg-accent-bar"></div>
+
+  <div style="text-align:center;padding:2rem 0 1rem;">
+    <p style="font-family:'Montserrat',sans-serif;font-size:0.85em;color:#888;">Published by <strong><a href="https://riggg.com" style="color:#008080;">Riggg</a></strong> &nbsp;·&nbsp; CC BY-SA 4.0 &nbsp;·&nbsp; Open to community contribution</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const scene      = document.getElementById('scene');
+  const layerBg    = document.getElementById('layer-studio');
+  const layerProd  = document.getElementById('layer-production');
+  const layerFinal = document.getElementById('layer-final');
+  const stageLabel = document.getElementById('stage-label');
+  const scrollHint = document.getElementById('scroll-hint');
+  const progress   = document.getElementById('scene-progress');
+  const heroText   = document.getElementById('hero-text');
+  const cards      = document.querySelectorAll('.final-card');
+  const driver     = document.querySelector('.scene-scroll-driver');
+
+  const stages = ['Raw Recording', 'Production', 'Final Product'];
+  let currentStage = -1;
+  let ticking = false;
+
+  function setStage(idx) {
+    if (idx === currentStage) return;
+    currentStage = idx;
+    stageLabel.textContent = stages[idx] || '';
+  }
+
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(update);
+  }
+
+  function update() {
+    ticking = false;
+    const rect    = driver.getBoundingClientRect();
+    const dHeight = driver.offsetHeight - window.innerHeight;
+    const scrolled = Math.max(0, -rect.top);
+    const p       = Math.min(1, scrolled / dHeight); // 0 → 1
+
+    // Progress bar
+    progress.style.width = (p * 100) + '%';
+
+    // Hide scroll hint after small scroll
+    scrollHint.style.opacity = p < 0.04 ? '1' : '0';
+
+    // ── Phase 1: 0 – 0.35 ─ Raw studio parallax ──────────────
+    const bgY = p * -60; // moves up slowly
+    layerBg.style.transform = `translateY(${bgY}px)`;
+
+    // ── Phase 2: 0.35 – 0.65 ─ Production reveal ─────────────
+    const prodOpacity = smoothstep(0.35, 0.60, p);
+    layerProd.style.opacity = prodOpacity;
+    const prodY = (1 - p) * 40;
+    layerProd.style.transform = `translateY(${prodY}px)`;
+
+    // Hero text fades as production reveals
+    heroText.style.opacity  = 1 - smoothstep(0.3, 0.55, p);
+    heroText.style.transform = `translateY(${p * -40}px)`;
+
+    // ── Phase 3: 0.65 – 1.0 ─ Final product reveal ───────────
+    const finalOpacity = smoothstep(0.65, 0.88, p);
+    layerFinal.style.opacity = finalOpacity;
+    layerFinal.style.pointerEvents = finalOpacity > 0.5 ? 'auto' : 'none';
+
+    cards.forEach((c, i) => {
+      const delay = smoothstep(0.65 + i * 0.06, 0.92 + i * 0.04, p);
+      c.style.transform = `scale(${0.88 + delay * 0.12}) translateY(${(1 - delay) * 30}px)`;
+    });
+
+    // Stage labels
+    if (p < 0.35)      setStage(0);
+    else if (p < 0.65) setStage(1);
+    else               setStage(2);
+  }
+
+  function smoothstep(edge0, edge1, x) {
+    const t = Math.max(0, Math.min(1, (x - edge0) / (edge1 - edge0)));
+    return t * t * (3 - 2 * t);
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  update(); // initial
+})();
+</script>
+{% endblock %}
