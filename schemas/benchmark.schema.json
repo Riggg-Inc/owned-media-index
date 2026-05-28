@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Riggg-Inc/owned-media-index/schemas/benchmark.schema.json",
+  "title": "Owned Media Benchmark",
+  "type": "object",
+  "required": ["name", "metric", "scope", "qualityBar"],
+  "properties": {
+    "name": { "type": "string" },
+    "metric": { "type": "string" },
+    "scope": { "type": "string" },
+    "qualityBar": { "type": "string" },
+    "source": { "type": "string" },
+    "updatedAt": { "type": "string", "format": "date" }
+  }
+}
+

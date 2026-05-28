@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Riggg-Inc/owned-media-index/schemas/pattern.schema.json",
+  "title": "Owned Media Pattern",
+  "type": "object",
+  "required": [
+    "name",
+    "stage",
+    "category",
+    "summary",
+    "bestFor",
+    "whyItWorks",
+    "qualityBar",
+    "score",
+    "evidenceLevel"
+  ],
+  "properties": {
+    "name": { "type": "string" },
+    "stage": {
+      "type": "string",
+      "enum": ["produce", "package", "publish", "prove", "preserve"]
+    },
+    "category": { "type": "string" },
+    "summary": { "type": "string" },
+    "bestFor": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "whyItWorks": { "type": "string" },
+    "examplePatterns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "qualityBar": { "type": "string" },
+    "whenNotToUse": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "evidenceLevel": {
+      "type": "string",
+      "enum": ["hypothesis", "practitioner-observation", "internal-data", "external-research", "benchmark-backed"]
+    },
+    "relatedPatterns": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
+

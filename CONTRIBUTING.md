@@ -1,81 +1,52 @@
 # Contributing
 
-Thanks for helping improve the Owned Asset Media Index.
+The Owned Media Index is a practical library of patterns, standards, tools, and benchmarks for owned media.
 
-This repository is a practical decision library. Contributions should help people choose better tools, workflows, formats, and publishing practices for episodic owned media.
+## Good Contributions
 
-## What To Contribute
+Good contributions are:
+
+- Specific.
+- Evidence-informed.
+- Useful in real production.
+- Clear about tradeoffs.
+- Free of vendor fluff.
+
+## Entry Types
 
 You can contribute:
 
-- New tool entries.
-- Corrections to existing entries.
-- Production workflow notes.
-- Hardware recommendations.
-- Publishing checklist improvements.
-- Format templates.
-- Case examples from real production environments.
-- Stale or outdated information reports.
+- Patterns.
+- Tool entries.
+- Hardware entries.
+- Benchmarks.
+- Distribution standards.
+- Corrections.
+- Stale-entry reports.
 
-## Contribution Standards
+## Pattern Standard
 
-Every contribution should answer:
+Every pattern should answer:
 
-1. **What is this for?**
-2. **When do you use it?**
-3. **What does good look like?**
+- What is it?
+- Best for what?
+- Why does it work?
+- Example patterns.
+- Quality bar.
+- When not to use it.
+- Score.
+- Evidence.
+- Related patterns.
 
-Be specific. Avoid vague praise, marketing copy, or generic AI-generated summaries.
+## Scoring
 
-## Two-Tier Contribution Model
+- **5:** Recommended default. Strong evidence and broad usefulness.
+- **4:** Strong fit. Works well in common scenarios.
+- **3:** Viable. Useful with tradeoffs.
+- **2:** Niche. Good for a narrow case.
+- **1:** Not recommended as a default.
 
-### Community Contributor
+## Review
 
-Community contributors can:
-
-- Open issues suggesting tools, formats, or corrections.
-- File pull requests with new entries or updates.
-- Use GitHub Discussions to share what is working in production.
-
-Community contributors do not have merge access.
-
-### Riggg-Reviewed
-
-Riggg reviews community pull requests against the scoring criteria.
-
-Accepted entries may be:
-
-- Merged.
-- Tagged with `riggg-reviewed`.
-- Added to the changelog.
-- Included in quarterly review.
-
-Rejected entries should receive a clear reason.
-
-## Pull Request Flow
-
-1. Open an issue or pull request.
-2. Explain the use case and evidence.
-3. Include tradeoffs, not just benefits.
-4. Riggg reviews against scoring criteria.
-5. If accepted, the entry is merged and noted in `CHANGELOG.md`.
-6. If rejected, feedback is provided in the pull request or issue.
-
-## Scoring Model
-
-- **5:** Industry standard. Recommended default.
-- **4:** Strong fit. Used regularly in Riggg workflows.
-- **3:** Viable option. Works with tradeoffs noted.
-- **2:** Niche case. Specific use case only.
-- **1:** Not recommended. Included for completeness or context.
-
-## Quarterly Review
-
-Riggg should audit the index quarterly:
-
-- Flag stale entries.
-- Review score changes.
-- Update pricing or product changes.
-- Remove or archive outdated recommendations.
-- Add changelog notes for major updates.
+Riggg reviews contributions before merge. Accepted entries may be tagged `riggg-reviewed`.
 

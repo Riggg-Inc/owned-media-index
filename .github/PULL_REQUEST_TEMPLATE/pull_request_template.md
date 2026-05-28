@@ -1,25 +1,23 @@
 ## Summary
 
-Describe what this pull request changes.
+What changed?
 
 ## Type
 
-- [ ] New entry
-- [ ] Update existing entry
+- [ ] Pattern
+- [ ] Tool
+- [ ] Benchmark
+- [ ] Distribution standard
 - [ ] Correction
-- [ ] Governance/documentation
-- [ ] Stale entry cleanup
+- [ ] Repo structure/docs
 
 ## Checklist
 
-- [ ] Answers "What is this for?"
-- [ ] Answers "When do you use it?"
-- [ ] Answers "What does good look like?"
-- [ ] Includes tradeoffs or limitations
-- [ ] Includes evidence where possible
-- [ ] Suggests or updates score where applicable
-
-## Notes for Riggg Review
-
-Anything reviewers should pay special attention to?
+- [ ] Clear stage: Produce / Package / Publish / Prove / Preserve
+- [ ] Explains what it is
+- [ ] Explains best-fit use cases
+- [ ] Explains why it works
+- [ ] Defines quality bar
+- [ ] Notes tradeoffs or when not to use
+- [ ] Includes evidence level or source context
 

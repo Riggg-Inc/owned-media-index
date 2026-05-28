@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Riggg-Inc/owned-media-index/schemas/distribution.schema.json",
+  "title": "Owned Media Distribution Standard",
+  "type": "object",
+  "required": ["channel", "assetTypes", "requiredFields", "qualityBar"],
+  "properties": {
+    "channel": { "type": "string" },
+    "assetTypes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "requiredFields": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "qualityBar": { "type": "string" },
+    "publishingChecklist": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
+

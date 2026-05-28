@@ -1,25 +1,24 @@
 # Changelog
 
-All notable changes to the Owned Asset Media Index will be documented here.
+## 0.2.0 - Riggg Framework Restructure
 
-## 0.1.0 - Initial V1 Scope
+Reworked the repository around the owned media operating model:
 
-Initial repository scaffold.
+- Produce
+- Package
+- Publish
+- Prove
+- Preserve
 
-Included:
+Added:
 
-- Project overview and quick-start in `README.md`.
-- Contribution guide and scoring model in `CONTRIBUTING.md`.
-- Stack category index in `stack/README.md`.
-- Hardware tier philosophy in `hardware/README.md`.
-- Five content format summaries in `formats/README.md`.
-- Website-first publishing standard in `publishing/owned-channel-standard.md`.
-- Governance scoring model in `governance/scoring-model.md`.
-- GitHub issue and pull request templates.
+- `FRAMEWORK.md`
+- Pattern-first repository structure
+- Seed pattern entries
+- JSON schemas
+- GitHub templates
 
-Planned next:
+## 0.1.0 - Initial Scaffold
 
-- Q2: Fill out stack categories with scored tool entries.
-- Q3: Expand hardware to mid and pro tiers.
-- Q4: Add distribution checklist and repurposing pipeline docs.
+Initial documentation-library scaffold.
 
