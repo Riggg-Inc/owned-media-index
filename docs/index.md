@@ -1,37 +1,79 @@
 # Owned Media Index
 
-The **Owned Media Index** is an open library of patterns, standards, tools, and benchmarks for turning expert conversations into published owned media.
+<div class="riggg-hero">
+  <h1>The Open Standard for Owned Media</h1>
+  <p>
+    Patterns, tools, benchmarks, and standards for turning expert conversations
+    into published owned media. Maintained by Riggg. Open to the community.
+  </p>
+  <a href="framework/" class="riggg-btn">Read the Framework</a>
+  <a href="patterns/" class="riggg-btn riggg-btn--outline">Browse Patterns</a>
+</div>
 
-It is built for podcasts, webinars, livestreams, virtual events, and recurring media programs that should create more value than a recording in a folder.
+<div class="riggg-accent-bar"></div>
 
-## The Operating Model
+## The Framework
 
-Owned media works when teams run the full chain:
+Everything in this index maps to five stages of the owned media operating system.
 
-1. **Produce** the source media.
-2. **Package** it into assets people can understand, click, watch, listen to, and share.
-3. **Publish** it across the right channels.
-4. **Prove** what worked.
-5. **Preserve** the knowledge so it compounds.
+<div class="riggg-pipeline">
+  <div class="riggg-step">
+    <span class="step-label">Produce</span>
+    <span class="step-sub">Capture · Record · Live</span>
+  </div>
+  <div class="riggg-step">
+    <span class="step-label">Package</span>
+    <span class="step-sub">Titles · Clips · Reels · Copy</span>
+  </div>
+  <div class="riggg-step">
+    <span class="step-label">Publish</span>
+    <span class="step-sub">RSS · YouTube · LinkedIn · Live</span>
+  </div>
+  <div class="riggg-step">
+    <span class="step-label">Prove</span>
+    <span class="step-sub">Analytics · Benchmarks · ROI</span>
+  </div>
+  <div class="riggg-step">
+    <span class="step-label">Preserve</span>
+    <span class="step-sub">Transcripts · Memory · Reuse</span>
+  </div>
+</div>
 
-[Explore the framework](framework.md){ .md-button .md-button--primary }
-[Browse patterns](patterns/index.md){ .md-button }
+<div class="riggg-accent-bar"></div>
 
-## What You Will Find Here
+## What's Inside
 
-- Title and description patterns.
-- Clip and reel packaging standards.
-- Website-first publishing standards.
-- LinkedIn, RSS, YouTube, and live distribution patterns.
-- Scoring and evidence rules.
-- Content memory and preservation standards.
+| Section | What you'll find |
+|---|---|
+| **Patterns** | Ranked, reusable patterns for every stage — titles, clips, distributions, reels, thumbnails, and more |
+| **Scoring** | How patterns earn a 1–5 Riggg score and what each level means |
+| **Evidence** | How every claim is sourced — internal data, teardowns, platform docs, or practitioner observation |
+| **Roadmap** | What's coming next and how the index evolves quarterly |
+| **Contribute** | How to submit a pattern, correct an entry, or propose a new section |
 
-!!! note "Current Status"
-    This project is early. The first public layer is focused on packaging and publishing patterns because distribution is where owned media most often breaks.
+<div class="riggg-accent-bar"></div>
 
-## Core Belief
+## Why This Exists
 
-Owned media should not stop at asset creation.
+Most owned media advice is scattered, generic, or vendor-pitched.
 
-The best teams produce it intentionally, package it clearly, publish it consistently, measure what happened, and preserve the knowledge for future use.
+This index is opinionated. Every pattern answers three questions:
 
+1. **What is this for?** — Use case and context.
+2. **When do you use it?** — Trigger conditions, skill level, format.
+3. **What does good look like?** — Quality bar, benchmark, or minimum standard.
+
+Entries are scored and sourced. Nothing earns a 5 without evidence.
+
+<div class="riggg-accent-bar"></div>
+
+## Published by Riggg
+
+[Riggg](https://riggg.com) is the owned media engine for expert-led companies.
+We produce podcasts, webinars, livestreams, and virtual events like real shows,
+turn every session into a complete media package, and publish it across the right channels.
+
+This index is how we give back to the community building the practice of owned media.
+
+[Read the Framework →](framework.md){ .md-button }
+[Browse All Patterns →](patterns/index.md){ .md-button .md-button--secondary }

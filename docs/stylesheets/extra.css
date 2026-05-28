@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+/* ─── Riggg Brand Tokens ─────────────────────────────────────── */
+:root {
+  --riggg-teal:      #008080;
+  --riggg-teal-lt:   #00a0a0;
+  --riggg-teal-dk:   #006060;
+  --riggg-burgundy:  #953F4E;
+  --riggg-navy:      #2B3E74;
+  --riggg-mint:      #ECF6F5;
+  --riggg-cream:     #FFF6E0;
+  --riggg-light-blue:#ECF1FF;
+
+  --md-primary-fg-color:        var(--riggg-teal);
+  --md-primary-fg-color--light: var(--riggg-teal-lt);
+  --md-primary-fg-color--dark:  var(--riggg-teal-dk);
+  --md-accent-fg-color:         var(--riggg-burgundy);
+  --md-accent-fg-color--transparent: rgba(149,63,78,0.1);
+}
+
+/* ─── Typography ─────────────────────────────────────────────── */
+body,
+.md-typeset {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+
+.md-typeset h1 { color: var(--riggg-navy); font-size: 2.6em; }
+.md-typeset h2 { color: var(--riggg-teal); font-size: 1.9em; }
+.md-typeset h3 { color: var(--riggg-navy); font-size: 1.4em; }
+
+/* ─── Header & Nav ───────────────────────────────────────────── */
+.md-header {
+  background-color: var(--riggg-navy) !important;
+  box-shadow: 0 2px 12px rgba(43,62,116,0.3);
+}
+
+.md-header__title {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+}
+
+.md-tabs {
+  background-color: var(--riggg-navy) !important;
+}
+
+.md-tabs__link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.75em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ─── Sidebar ────────────────────────────────────────────────── */
+.md-nav__title {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.08em;
+  color: var(--riggg-navy);
+}
+
+.md-nav__link--active {
+  color: var(--riggg-teal) !important;
+  font-weight: 600;
+}
+
+/* ─── Hero Banner ────────────────────────────────────────────── */
+.riggg-hero {
+  background: linear-gradient(135deg, var(--riggg-navy) 0%, var(--riggg-teal-dk) 100%);
+  border-radius: 12px;
+  padding: 3rem 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.riggg-hero::before {
+  content: '';
+  position: absolute;
+  top: -40px; right: -40px;
+  width: 220px; height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0,128,128,0.35) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.riggg-hero h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.08em;
+  color: #fff !important;
+  margin: 0 0 0.4em;
+}
+
+.riggg-hero p {
+  font-size: 1.05em;
+  color: rgba(255,255,255,0.88);
+  margin: 0 0 1.5rem;
+  max-width: 600px;
+  line-height: 1.65;
+}
+
+.riggg-hero .riggg-btn {
+  display: inline-block;
+  background: var(--riggg-teal);
+  color: #fff;
+  padding: 0.6em 1.4em;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.85em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 0.75rem;
+  transition: background 0.2s;
+}
+
+.riggg-hero .riggg-btn:hover { background: var(--riggg-teal-lt); }
+
+.riggg-hero .riggg-btn--outline {
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+
+.riggg-hero .riggg-btn--outline:hover {
+  border-color: #fff;
+  background: rgba(255,255,255,0.08);
+}
+
+/* ─── Framework Pipeline Cards ───────────────────────────────── */
+.riggg-pipeline {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.riggg-step {
+  flex: 1;
+  min-width: 120px;
+  background: var(--riggg-navy);
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.riggg-step .step-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.riggg-step .step-sub {
+  font-size: 0.7em;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.riggg-step:nth-child(1) { background: var(--riggg-navy); }
+.riggg-step:nth-child(2) { background: var(--riggg-teal-dk); }
+.riggg-step:nth-child(3) { background: var(--riggg-teal); }
+.riggg-step:nth-child(4) { background: var(--riggg-burgundy); }
+.riggg-step:nth-child(5) { background: #1a2d5a; }
+
+/* ─── Score Badges ───────────────────────────────────────────── */
+.score-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  background: var(--riggg-navy);
+  color: #fff;
+  padding: 0.25em 0.7em;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.78em;
+  letter-spacing: 0.04em;
+}
+
+.score-5 { background: var(--riggg-teal); }
+.score-4 { background: #2d8a5e; }
+.score-3 { background: #8a7a2d; }
+.score-2 { background: #8a4a2d; }
+.score-1 { background: var(--riggg-burgundy); }
+
+/* ─── Admonitions ────────────────────────────────────────────── */
+.md-typeset .admonition.riggg,
+.md-typeset details.riggg {
+  border-color: var(--riggg-teal);
+}
+
+.md-typeset .admonition.riggg > .admonition-title,
+.md-typeset details.riggg > summary {
+  background-color: rgba(0,128,128,0.12);
+  color: var(--riggg-teal);
+}
+
+/* ─── Footer ─────────────────────────────────────────────────── */
+.md-footer {
+  background-color: var(--riggg-navy);
+}
+
+.md-footer-meta {
+  background-color: #1a2d5a;
+}
+
+/* ─── Buttons / CTA ──────────────────────────────────────────── */
+.md-typeset .md-button {
+  background-color: var(--riggg-teal);
+  border-color: var(--riggg-teal);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.md-typeset .md-button:hover {
+  background-color: var(--riggg-teal-lt);
+  border-color: var(--riggg-teal-lt);
+}
+
+.md-typeset .md-button--secondary {
+  background-color: transparent;
+  border-color: var(--riggg-navy);
+  color: var(--riggg-navy);
+}
+
+/* ─── Tables ─────────────────────────────────────────────────── */
+.md-typeset table th {
+  background-color: var(--riggg-navy);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+
+.md-typeset table tr:nth-child(even) {
+  background-color: var(--riggg-mint);
+}
+
+/* ─── Search ─────────────────────────────────────────────────── */
+.md-search__form {
+  border-radius: 8px;
+}
+
+/* ─── Halftone accent (decorative) ──────────────────────────── */
+.riggg-accent-bar {
+  height: 4px;
+  background: linear-gradient(90deg, var(--riggg-teal), var(--riggg-burgundy), var(--riggg-navy));
+  border-radius: 2px;
+  margin: 1.5rem 0;
+}

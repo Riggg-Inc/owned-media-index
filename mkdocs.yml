@@ -11,8 +11,20 @@ theme:
   favicon: assets/favicon.svg
   palette:
     - scheme: default
-      primary: black
-      accent: deep orange
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Montserrat
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -22,6 +34,10 @@ theme:
     - search.highlight
     - content.action.edit
     - content.action.view
+    - header.autohide
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -37,6 +53,18 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Riggg-Inc/owned-media-index
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/riggg
+  generator: false
+
+copyright: >
+  &copy; 2026 Riggg Inc. &nbsp;·&nbsp;
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 
 nav:
   - Home: index.md
@@ -70,4 +98,3 @@ nav:
   - Evidence: evidence.md
   - Roadmap: roadmap.md
   - Contribute: contribute.md
-
