@@ -166,6 +166,14 @@ nav:
           - Simulcast Standard: patterns/publish/simulcast-standard.md
           - RSS Metadata: patterns/publish/feed-metadata-standard.md
           - YouTube Packaging: patterns/publish/youtube-title-and-description-standard.md
+          - AI Search Optimization:
+              - patterns/publish/ai-search-optimization/index.md
+              - Structured Data: patterns/publish/ai-search-optimization/structured-data.md
+              - Transcript Optimization: patterns/publish/ai-search-optimization/transcript-optimization.md
+              - Show Notes for LLMs: patterns/publish/ai-search-optimization/show-notes-for-llms.md
+              - Citation Architecture: patterns/publish/ai-search-optimization/citation-architecture.md
+              - Platform Visibility: patterns/publish/ai-search-optimization/platform-visibility.md
+              - Measurement: patterns/publish/ai-search-optimization/measurement.md
       - Prove:
           - patterns/prove/index.md
           - Session Performance Scorecard: patterns/prove/session-performance-scorecard.md
