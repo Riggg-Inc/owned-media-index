@@ -11,9 +11,12 @@
 .md-main__inner { max-width: 100% !important; padding: 0 !important; }
 .md-content__inner { margin: 0 !important; padding: 0 !important; }
 
-/* ── Scene driver: tall scroll canvas ──────────────────────── */
-.omi-scroll-driver {
-  height: 280vh;
+/* ════════════════════════════════════════════════════════════
+   SCROLL DRIVER
+   280vh tall — sticky inner keeps scene pinned while page scrolls
+   ═════════════════════════════════════════════════════════ */
+.omi-driver {
+  height: 300vh;
   position: relative;
 }
 
@@ -23,305 +26,339 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background: #0d1524;
+  background: #0b1626;
 }
 
-/* ── Parallax layers ────────────────────────────────────────── */
-.omi-layer {
+/* ════════════════════════════════════════════════════════════
+   LAYER 1 — HOST & GUEST (background, zooms out)
+   ═════════════════════════════════════════════════════════ */
+#l1 {
   position: absolute;
-  inset: -8% -4%;
+  inset: -6% -4%;
+  background-image: url('{{ "assets/imagery/layer1-hosts.png" | url }}');
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+  z-index: 1;
+  transform-origin: center center;
   will-change: transform;
 }
 
-#omi-studio {
-  z-index: 1;
-  opacity: 1;
-}
-
-#omi-production {
-  z-index: 2;
+/* ════════════════════════════════════════════════════════════
+   LAYER 2 — RIGGG GNOMES (slides up from bottom)
+   ═════════════════════════════════════════════════════════ */
+#l2 {
+  position: absolute;
+  bottom: -10%;
+  left: -4%; right: -4%;
+  height: 75%;
+  background-image: url('{{ "assets/imagery/layer2-gnomes.png" | url }}');
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  z-index: 3;
+  will-change: transform, opacity;
   opacity: 0;
+  transform: translateY(60px);
 }
 
-/* ── Final product overlay ──────────────────────────────────── */
-#omi-final {
+/* ════════════════════════════════════════════════════════════
+   LAYER 3 — FINAL PRODUCED FRAME (CSS-built, grows from center)
+   ═════════════════════════════════════════════════════════ */
+#l3 {
   position: absolute;
   inset: 0;
   z-index: 6;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: clamp(0.75rem, 2vw, 2rem);
-  padding: 2rem;
+  gap: clamp(8px, 1.5vw, 20px);
+  padding: clamp(1rem, 4vw, 3rem);
   opacity: 0;
+  will-change: transform, opacity;
+  transform: scale(0.75);
 }
 
-.fp-card {
+/* The two broadcast panels */
+.fp {
   position: relative;
-  width: clamp(260px, 38vw, 520px);
+  flex: 1;
+  max-width: 44vw;
   aspect-ratio: 16/9;
-  border-radius: 4px;
+  border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.7);
-  transform: scale(0.9) translateY(30px);
-  background: #111;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.8), 0 0 0 1px rgba(255,255,255,0.08);
+  will-change: transform;
+  transform: translateY(20px) scale(0.96);
 }
 
-.fp-bg {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-}
+/* panel backgrounds — illustrated gradient portraits */
+.fp--teal { background: linear-gradient(160deg, #0a2535 0%, #0d3535 60%, #0a2020 100%); }
+.fp--navy { background: linear-gradient(160deg, #0d1830 0%, #1a2040 60%, #0a1020 100%); }
 
-.fp-card--teal .fp-bg {
-  background: linear-gradient(145deg, #0f2535 0%, #0a3030 100%);
-}
-
-.fp-card--navy .fp-bg {
-  background: linear-gradient(145deg, #0a1830 0%, #1a0a20 100%);
-}
-
-/* person silhouette placeholder */
+/* stylised person silhouette */
 .fp-person {
   position: absolute;
   bottom: 44px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 52%;
-  height: 72%;
-  border-radius: 50% 50% 0 0 / 60% 60% 0 0;
+  left: 50%; transform: translateX(-50%);
+  width: 55%;
+  height: 78%;
 }
 
-.fp-card--teal .fp-person { background: radial-gradient(ellipse at 50% 30%, #2B6060 0%, #0d3030 100%); }
-.fp-card--navy .fp-person { background: radial-gradient(ellipse at 50% 30%, #2B3E74 0%, #0d1830 100%); }
+.fp--teal .fp-person {
+  background: radial-gradient(ellipse at 50% 25%, #1a5555 0%, #0d3030 55%, transparent 80%);
+  border-radius: 50% 50% 0 0 / 55% 55% 0 0;
+}
 
-/* lower third */
-.fp-lt {
+.fp--navy .fp-person {
+  background: radial-gradient(ellipse at 50% 25%, #1a2f5a 0%, #0d1835 55%, transparent 80%);
+  border-radius: 50% 50% 0 0 / 55% 55% 0 0;
+}
+
+/* head circle */
+.fp-head {
   position: absolute;
-  bottom: 0; left: 0; right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.5rem 0.8rem 0.6rem;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 38%;
+  aspect-ratio: 1;
+  border-radius: 50%;
 }
 
-.fp-card--teal .fp-lt { background: #008080; }
-.fp-card--navy .fp-lt { background: #2B3E74; }
+.fp--teal .fp-head { background: radial-gradient(circle at 40% 35%, #2a7070, #0d4040); }
+.fp--navy .fp-head { background: radial-gradient(circle at 40% 35%, #2a3f70, #0d1840); }
 
-.fp-lt-name {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(0.85rem, 1.6vw, 1.2rem);
-  letter-spacing: 0.08em;
-  color: #fff;
-  display: block;
-  line-height: 1;
-  margin-bottom: 2px;
+/* corner accent chips */
+.fp-chip {
+  position: absolute;
+  width: 14px; height: 14px;
 }
+.fp-chip--tl { top: 0; left: 0; }
+.fp-chip--br { bottom: 44px; right: 0; }
 
-.fp-lt-role {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(0.5rem, 0.8vw, 0.62rem);
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.82);
-}
+.fp--teal .fp-chip { background: #2B3E74; }
+.fp--navy .fp-chip { background: #008080; }
 
+/* halftone dot accent */
 .fp-dots {
+  position: absolute;
+  top: 8px; right: 10px;
   display: grid;
   grid-template-columns: repeat(3, 5px);
   gap: 3px;
+  opacity: 0.35;
 }
-
 .fp-dot {
   width: 5px; height: 5px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.8);
 }
 
-/* corner chips */
-.fp-corner {
+/* lower third bar */
+.fp-lt {
   position: absolute;
-  width: 16px; height: 16px;
+  bottom: 0; left: 0; right: 0;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
-.fp-corner--tl { top: 0; left: 0; }
-.fp-corner--br { bottom: 44px; right: 0; }
+.fp--teal .fp-lt { background: #008080; }
+.fp--navy .fp-lt { background: #2B3E74; }
 
-.fp-card--teal .fp-corner { background: #2B3E74; }
-.fp-card--navy .fp-corner { background: #008080; }
+.fp-lt-text { display: flex; flex-direction: column; gap: 1px; }
 
-/* ── Dark vignette ──────────────────────────────────────────── */
+.fp-lt-name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(0.7rem, 1.3vw, 1rem);
+  letter-spacing: 0.09em;
+  color: #fff;
+  line-height: 1;
+}
+.fp-lt-role {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(0.42rem, 0.65vw, 0.55rem);
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.78);
+}
+
+.fp-lt-dots {
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  gap: 3px;
+  opacity: 0.7;
+}
+.fp-lt-dot { width: 4px; height: 4px; border-radius: 50%; background: rgba(255,255,255,0.9); }
+
+/* "LIVE" badge on first panel */
+.fp-live {
+  position: absolute;
+  top: 8px; left: 8px;
+  background: #953F4E;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+/* ════════════════════════════════════════════════════════════
+   OVERLAYS
+   ═════════════════════════════════════════════════════════ */
+
+/* dark vignette */
 .omi-vignette {
   position: absolute;
   inset: 0;
-  z-index: 7;
+  z-index: 4;
   background: radial-gradient(ellipse at center,
-    transparent 25%,
-    rgba(8, 14, 30, 0.55) 100%);
+    transparent 20%, rgba(8,14,30,0.50) 100%);
   pointer-events: none;
 }
 
-/* ── Hero text ──────────────────────────────────────────────── */
-#omi-headline {
+/* bottom page fade */
+.omi-fade {
   position: absolute;
-  z-index: 10;
-  bottom: 16%;
-  left: 0; right: 0;
-  text-align: center;
-  padding: 0 1.5rem;
-  will-change: opacity, transform;
+  bottom: 0; left: 0; right: 0;
+  height: 200px;
+  z-index: 8;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, #fff);
+}
+[data-md-color-scheme="slate"] .omi-fade {
+  background: linear-gradient(to bottom, transparent, #1a2535);
 }
 
-#omi-headline h1 {
-  font-family: 'Bebas Neue', sans-serif !important;
-  font-size: clamp(3rem, 7vw, 6rem) !important;
-  letter-spacing: 0.05em !important;
-  color: #ffffff !important;
-  line-height: 1 !important;
-  margin: 0 0 0.5rem !important;
-  text-shadow: 0 4px 32px rgba(0,0,0,0.6) !important;
-}
-
-#omi-headline p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: clamp(0.88rem, 1.5vw, 1.1rem);
-  color: rgba(255,255,255,0.88);
-  max-width: 520px;
-  margin: 0 auto 1.8rem;
-  line-height: 1.7;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.5);
-}
-
-.omi-btns {
-  display: flex;
-  gap: 0.8rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.omi-btn {
-  display: inline-block;
-  padding: 0.65em 1.7em;
-  border-radius: 6px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 0.8em;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  text-decoration: none !important;
-  transition: all 0.2s ease;
-}
-
-.omi-btn--primary {
-  background: #008080;
-  color: #fff !important;
-  box-shadow: 0 4px 20px rgba(0,128,128,0.45);
-}
-
-.omi-btn--primary:hover {
-  background: #00a0a0;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(0,128,128,0.55);
-}
-
-.omi-btn--outline {
-  background: transparent;
-  color: #fff !important;
-  border: 2px solid rgba(255,255,255,0.5);
-}
-
-.omi-btn--outline:hover {
-  border-color: #fff;
-  background: rgba(255,255,255,0.1);
-}
-
-/* ── Stage badge ────────────────────────────────────────────── */
+/* stage label pill */
 #omi-stage {
   position: absolute;
-  top: 1.4rem;
-  left: 50%;
+  top: 1.2rem; left: 50%;
   transform: translateX(-50%);
   z-index: 15;
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.68em;
+  font-size: 0.65em;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.8);
-  background: rgba(0,0,0,0.35);
-  padding: 0.3em 1.1em;
+  color: rgba(255,255,255,0.85);
+  background: rgba(0,0,0,0.4);
+  padding: 0.28em 1em;
   border-radius: 20px;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
   white-space: nowrap;
   transition: opacity 0.3s;
 }
 
-/* ── Progress bar ───────────────────────────────────────────── */
-#omi-progress {
+/* progress bar */
+#omi-bar {
   position: absolute;
   bottom: 0; left: 0;
   height: 3px;
-  width: 0%;
-  background: linear-gradient(90deg, #008080, #953F4E, #2B3E74);
+  width: 0;
   z-index: 20;
+  background: linear-gradient(90deg, #008080, #953F4E, #2B3E74);
+  transition: width 0.08s linear;
 }
 
-/* ── Scroll hint ────────────────────────────────────────────── */
-#omi-scroll-hint {
+/* ════════════════════════════════════════════════════════════
+   HERO TEXT
+   ═════════════════════════════════════════════════════════ */
+#omi-text {
   position: absolute;
-  bottom: 2.2rem;
-  left: 50%;
+  bottom: 14%;
+  left: 0; right: 0;
+  z-index: 10;
+  text-align: center;
+  padding: 0 2rem;
+  will-change: opacity, transform;
+}
+
+#omi-text h1 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: clamp(3rem, 7.5vw, 6.5rem) !important;
+  letter-spacing: 0.05em !important;
+  color: #fff !important;
+  line-height: 0.95 !important;
+  margin: 0 0 0.5rem !important;
+  text-shadow: 0 4px 40px rgba(0,0,0,0.65) !important;
+}
+
+#omi-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(0.88rem, 1.5vw, 1.1rem);
+  color: rgba(255,255,255,0.9);
+  max-width: 500px;
+  margin: 0 auto 1.8rem;
+  line-height: 1.7;
+  text-shadow: 0 2px 16px rgba(0,0,0,0.55);
+}
+
+.omi-btns {
+  display: flex; gap: 0.8rem;
+  justify-content: center; flex-wrap: wrap;
+}
+
+.omi-btn {
+  display: inline-block;
+  padding: 0.65em 1.8em;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.78em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+
+.omi-btn--p {
+  background: #008080; color: #fff !important;
+  box-shadow: 0 4px 20px rgba(0,128,128,0.5);
+}
+.omi-btn--p:hover { background: #00a0a0; transform: translateY(-2px); }
+.omi-btn--o {
+  background: transparent; color: #fff !important;
+  border: 2px solid rgba(255,255,255,0.5);
+}
+.omi-btn--o:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
+
+/* scroll hint */
+#omi-hint {
+  position: absolute;
+  bottom: 2rem; left: 50%;
   transform: translateX(-50%);
   z-index: 15;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.35rem;
-  opacity: 1;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 0.35rem;
   transition: opacity 0.4s;
 }
-
 .omi-arrow {
-  width: 18px; height: 18px;
+  width: 16px; height: 16px;
   border-right: 2px solid rgba(255,255,255,0.5);
   border-bottom: 2px solid rgba(255,255,255,0.5);
   transform: rotate(45deg);
-  animation: omi-bounce 1.8s ease-in-out infinite;
+  animation: omi-b 1.8s ease-in-out infinite;
 }
-
-@keyframes omi-bounce {
-  0%, 100% { transform: rotate(45deg) translateY(0);   opacity: 0.4; }
-  50%       { transform: rotate(45deg) translateY(6px); opacity: 1; }
+@keyframes omi-b {
+  0%,100% { transform: rotate(45deg) translateY(0); opacity: 0.4; }
+  50%      { transform: rotate(45deg) translateY(5px); opacity: 1; }
 }
-
-.omi-scroll-label {
+.omi-hint-lbl {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.6em;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.5);
+  font-size: 0.6em; font-weight: 700;
+  letter-spacing: 0.13em; text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
 }
 
-/* bottom fade into page */
-.omi-bottom-fade {
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  height: 180px;
-  z-index: 9;
-  background: linear-gradient(to bottom, transparent, #fff);
-  pointer-events: none;
-}
-
-[data-md-color-scheme="slate"] .omi-bottom-fade {
-  background: linear-gradient(to bottom, transparent, #1a2535);
-}
-
-/* ── Below-fold ─────────────────────────────────────────────── */
+/* ════════════════════════════════════════════════════════════
+   BELOW-FOLD
+   ═════════════════════════════════════════════════════════ */
 #omi-below {
   max-width: 960px;
   margin: 0 auto;
@@ -330,156 +367,179 @@
 </style>
 {% endblock %}
 
-{# ── Full-width hero lives in the TABS block (outside md-grid) #}
+
+{# ═══════════════════════════════════════════════════════════
+   FULL-WIDTH HERO (in tabs block = outside md-grid constraint)
+   ═══════════════════════════════════════════════════════════ #}
 {% block tabs %}
-<div class="omi-scroll-driver">
-  <div class="omi-sticky" id="omi-scene">
+<div class="omi-driver">
+  <div class="omi-sticky">
 
-    {# Layer 1: Raw studio (slowest) #}
-    <div class="omi-layer" id="omi-studio"
-         style="background-image: url('{{ 'assets/imagery/hero-studio.png' | url }}');"></div>
+    {# ── L1: Host & Guest ── #}
+    <div id="l1"></div>
 
-    {# Layer 2: Production crew #}
-    <div class="omi-layer" id="omi-production"
-         style="background-image: url('{{ 'assets/imagery/hero-production.png' | url }}');"></div>
+    {# ── L2: Riggg Gnomes ── #}
+    <div id="l2"></div>
 
-    {# Layer 3: Final product — Riggg-branded frames #}
-    <div id="omi-final">
-
-      <div class="fp-card fp-card--teal">
-        <div class="fp-bg"></div>
-        <div class="fp-person"></div>
-        <div class="fp-corner fp-corner--tl"></div>
-        <div class="fp-corner fp-corner--br"></div>
+    {# ── L3: Final Produced Frame (pure CSS) ── #}
+    <div id="l3">
+      <div class="fp fp--teal">
+        <div class="fp-person"><div class="fp-head"></div></div>
+        <div class="fp-chip fp-chip--tl"></div>
+        <div class="fp-chip fp-chip--br"></div>
+        <div class="fp-dots">
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+        </div>
+        <div class="fp-live">● Live</div>
         <div class="fp-lt">
-          <div>
+          <div class="fp-lt-text">
             <span class="fp-lt-name">Your Expert Guest</span>
             <span class="fp-lt-role">Title · Company Name</span>
           </div>
-          <div class="fp-dots">
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-lt-dots">
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
           </div>
         </div>
       </div>
 
-      <div class="fp-card fp-card--navy">
-        <div class="fp-bg"></div>
-        <div class="fp-person"></div>
-        <div class="fp-corner fp-corner--tl"></div>
-        <div class="fp-corner fp-corner--br"></div>
+      <div class="fp fp--navy">
+        <div class="fp-person"><div class="fp-head"></div></div>
+        <div class="fp-chip fp-chip--tl"></div>
+        <div class="fp-chip fp-chip--br"></div>
+        <div class="fp-dots">
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+        </div>
         <div class="fp-lt">
-          <div>
+          <div class="fp-lt-text">
             <span class="fp-lt-name">Your Show Host</span>
             <span class="fp-lt-role">Host · Program Name</span>
           </div>
-          <div class="fp-dots">
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
-            <div class="fp-dot"></div><div class="fp-dot"></div><div class="fp-dot"></div>
+          <div class="fp-lt-dots">
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
+            <div class="fp-lt-dot"></div><div class="fp-lt-dot"></div><div class="fp-lt-dot"></div>
           </div>
         </div>
       </div>
+    </div>
 
-    </div>{# /#omi-final #}
-
+    {# ── Overlays ── #}
     <div class="omi-vignette"></div>
-    <div class="omi-bottom-fade"></div>
-
-    {# Stage badge #}
+    <div class="omi-fade"></div>
     <div id="omi-stage">Raw Recording</div>
+    <div id="omi-bar"></div>
 
-    {# Progress bar #}
-    <div id="omi-progress"></div>
-
-    {# Hero text #}
-    <div id="omi-headline">
+    {# ── Hero text ── #}
+    <div id="omi-text">
       <h1>The Open Standard<br>for Owned Media</h1>
       <p>Patterns, tools, benchmarks, and standards for turning expert conversations into published owned media.</p>
       <div class="omi-btns">
-        <a href="{{ 'framework/' | url }}" class="omi-btn omi-btn--primary">Read the Framework</a>
-        <a href="{{ 'patterns/' | url }}" class="omi-btn omi-btn--outline">Browse Patterns</a>
+        <a href="{{ 'framework/' | url }}" class="omi-btn omi-btn--p">Read the Framework</a>
+        <a href="{{ 'patterns/' | url }}" class="omi-btn omi-btn--o">Browse Patterns</a>
       </div>
     </div>
 
-    {# Scroll hint #}
-    <div id="omi-scroll-hint">
+    {# ── Scroll hint ── #}
+    <div id="omi-hint">
       <div class="omi-arrow"></div>
-      <span class="omi-scroll-label">Scroll</span>
+      <span class="omi-hint-lbl">Scroll</span>
     </div>
 
   </div>{# /.omi-sticky #}
-</div>{# /.omi-scroll-driver #}
+</div>{# /.omi-driver #}
 
 <script>
 (function () {
-  var studio    = document.getElementById('omi-studio');
-  var prod      = document.getElementById('omi-production');
-  var final_    = document.getElementById('omi-final');
-  var headline  = document.getElementById('omi-headline');
-  var stage     = document.getElementById('omi-stage');
-  var hint      = document.getElementById('omi-scroll-hint');
-  var bar       = document.getElementById('omi-progress');
-  var driver    = document.querySelector('.omi-scroll-driver');
-  var cards     = document.querySelectorAll('.fp-card');
-  var labels    = ['Raw Recording', 'In Production', 'Riggg Output'];
-  var cur       = -1;
+  var l1      = document.getElementById('l1');
+  var l2      = document.getElementById('l2');
+  var l3      = document.getElementById('l3');
+  var txt     = document.getElementById('omi-text');
+  var stage   = document.getElementById('omi-stage');
+  var hint    = document.getElementById('omi-hint');
+  var bar     = document.getElementById('omi-bar');
+  var cards   = document.querySelectorAll('.fp');
+  var driver  = document.querySelector('.omi-driver');
+  var labels  = ['Raw Recording', 'In Production', 'Riggg Output'];
+  var cur     = -1;
 
+  /* smooth-step easing */
   function ss(e0, e1, x) {
     var t = Math.max(0, Math.min(1, (x - e0) / (e1 - e0)));
     return t * t * (3 - 2 * t);
   }
 
-  function tick() {
-    var scrollTop = window.pageYOffset;
-    var dHeight   = driver.offsetHeight - window.innerHeight;
-    var p         = dHeight > 0 ? Math.min(1, scrollTop / dHeight) : 0;
+  var ticking = false;
 
+  function update() {
+    ticking = false;
+    var scrollY = window.pageYOffset;
+    var dH      = driver.offsetHeight - window.innerHeight;
+    var p       = dH > 0 ? Math.min(1, scrollY / dH) : 0;
+
+    /* progress bar */
     bar.style.width = (p * 100) + '%';
-    hint.style.opacity = p < 0.03 ? '1' : '0';
 
-    // Studio layer: slow parallax upward
-    studio.style.transform = 'translateY(' + (p * -55) + 'px)';
+    /* scroll hint */
+    hint.style.opacity = p < 0.04 ? '1' : '0';
 
-    // Production fade in: 0.3 → 0.6
-    var pOp = ss(0.30, 0.58, p);
-    prod.style.opacity   = pOp;
-    prod.style.transform = 'translateY(' + ((1 - pOp) * 35) + 'px)';
+    /* ── L1: zoom out slowly ── */
+    var scale1 = 1.18 - ss(0, 0.70, p) * 0.18;   /* 1.18 → 1.0 */
+    l1.style.transform = 'scale(' + scale1 + ')';
 
-    // Headline fades out during production reveal
-    var hOp = 1 - ss(0.28, 0.52, p);
-    headline.style.opacity   = hOp;
-    headline.style.transform = 'translateY(' + (p * -50) + 'px)';
+    /* ── L2: gnomes slide up ── */
+    var l2p = ss(0.25, 0.60, p);
+    l2.style.opacity   = l2p;
+    l2.style.transform = 'translateY(' + ((1 - l2p) * 80) + 'px)';
 
-    // Final product: 0.62 → 0.90
-    var fOp = ss(0.62, 0.88, p);
-    final_.style.opacity = fOp;
+    /* ── Text fades out ── */
+    var tp = 1 - ss(0.22, 0.48, p);
+    txt.style.opacity   = tp;
+    txt.style.transform = 'translateY(' + (p * -60) + 'px)';
 
-    cards.forEach(function(c, i) {
-      var cP = ss(0.62 + i * 0.05, 0.92, p);
-      c.style.transform = 'scale(' + (0.9 + cP * 0.1) + ') translateY(' + ((1 - cP) * 28) + 'px)';
+    /* ── L3: frame grows in ── */
+    var l3p   = ss(0.58, 0.85, p);
+    var l3s   = 0.72 + l3p * 0.28;
+    l3.style.opacity   = l3p;
+    l3.style.transform = 'scale(' + l3s + ')';
+
+    cards.forEach(function (c, i) {
+      var cp = ss(0.58 + i * 0.06, 0.90, p);
+      c.style.transform = 'translateY(' + ((1 - cp) * 32) + 'px) scale(' + (0.93 + cp * 0.07) + ')';
     });
 
-    // Stage labels
-    var si = p < 0.30 ? 0 : p < 0.62 ? 1 : 2;
+    /* ── Stage label ── */
+    var si = p < 0.25 ? 0 : p < 0.58 ? 1 : 2;
     if (si !== cur) { cur = si; stage.textContent = labels[si]; }
   }
 
-  window.addEventListener('scroll', tick, { passive: true });
-  tick();
+  function onScroll() {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  update();
 })();
 </script>
 {% endblock %}
 
-{# ── Below-fold content ──────────────────────────────────────── #}
+
+{# ═══════════════════════════════════════════════════════════
+   BELOW-FOLD CONTENT
+   ═══════════════════════════════════════════════════════════ #}
 {% block content %}
 <div id="omi-below">
-
   <div class="riggg-accent-bar"></div>
 
   <h2 style="font-family:'Bebas Neue',sans-serif;font-size:2.2em;letter-spacing:0.06em;color:#2B3E74;margin:0 0 0.4rem;">The Framework</h2>
-  <p style="font-family:'Montserrat',sans-serif;color:#666;max-width:640px;line-height:1.7;margin:0 0 1.5rem;">Every entry in the index maps to one of five stages of the owned media operating system.</p>
+  <p style="font-family:'Montserrat',sans-serif;color:#666;max-width:640px;line-height:1.7;margin:0 0 1.5rem;">
+    Every entry maps to one of five stages of the owned media operating system.
+  </p>
 
   <div class="riggg-pipeline">
     <div class="riggg-step"><span class="step-label">Produce</span><span class="step-sub">Capture · Record · Live</span></div>
@@ -492,22 +552,20 @@
   <div class="riggg-accent-bar"></div>
 
   <table>
-    <thead>
-      <tr><th>Section</th><th>What you'll find</th></tr>
-    </thead>
+    <thead><tr><th>Section</th><th>What you'll find</th></tr></thead>
     <tbody>
       <tr><td><strong>Patterns</strong></td><td>Ranked, reusable patterns for every stage — titles, clips, distributions, reels, thumbnails, and more</td></tr>
       <tr><td><strong>Scoring</strong></td><td>How patterns earn a 1–5 Riggg score and what each level means</td></tr>
-      <tr><td><strong>Evidence</strong></td><td>How every claim is sourced — internal data, teardowns, platform docs, or observation</td></tr>
+      <tr><td><strong>Evidence</strong></td><td>How every claim is sourced — internal data, teardowns, platform docs, or practitioner observation</td></tr>
       <tr><td><strong>Roadmap</strong></td><td>What's coming next and how the index evolves quarterly</td></tr>
       <tr><td><strong>Contribute</strong></td><td>How to submit a pattern, correct an entry, or propose a new section</td></tr>
     </tbody>
   </table>
 
   <div class="riggg-accent-bar"></div>
-  <p style="text-align:center;font-family:'Montserrat',sans-serif;font-size:0.82em;color:#999;padding:1.5rem 0 0;">
-    Published by <strong><a href="https://riggg.com" style="color:#008080;">Riggg</a></strong> &nbsp;·&nbsp; CC BY-SA 4.0 &nbsp;·&nbsp; Open to community contribution
+  <p style="text-align:center;font-family:'Montserrat',sans-serif;font-size:0.82em;color:#999;padding:1rem 0 0;">
+    Published by <strong><a href="https://riggg.com" style="color:#008080;">Riggg</a></strong>
+    &nbsp;·&nbsp; CC BY-SA 4.0 &nbsp;·&nbsp; Open to community contribution
   </p>
-
 </div>
 {% endblock %}
