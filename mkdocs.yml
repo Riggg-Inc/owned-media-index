@@ -74,8 +74,20 @@ nav:
       - patterns/index.md
       - Produce:
           - patterns/produce/index.md
-          - OBS Real-Time Production: patterns/produce/obs-production-standard.md
-          - OBS Scene Collection Template: patterns/produce/obs-scene-collection-template.md
+          - Record:
+              - patterns/produce/record/index.md
+              - Remote Isolated Recording: patterns/produce/record/remote-isolated.md
+              - In-Studio Multi-Camera: patterns/produce/record/in-studio-multi-camera.md
+              - Hybrid Recording: patterns/produce/record/hybrid-recording.md
+          - Rough Cut:
+              - patterns/produce/rough-cut/index.md
+              - OBS Real-Time Production: patterns/produce/obs-production-standard.md
+              - OBS Scene Collection Template: patterns/produce/obs-scene-collection-template.md
+          - Master:
+              - patterns/produce/master/index.md
+              - Video Mastering: patterns/produce/master/video-mastering.md
+              - Audio Mastering: patterns/produce/master/audio-mastering.md
+              - Export Specifications: patterns/produce/master/export-specs.md
       - Package:
           - patterns/package/index.md
           - Titles:

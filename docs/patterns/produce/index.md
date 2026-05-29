@@ -1,36 +1,35 @@
 ---
-description: "Production patterns for owned media. OBS real-time production, scene collection templates, recording standards, live streaming, and capture workflows."
+description: "Production patterns for owned media. Recording methods, real-time rough cut production in OBS Studio, and mastering workflows for horizontal, vertical, and audio formats."
 ---
 
 # Produce
 
 **Framework Stage:** Produce
 
-Production is where raw expertise becomes media. The Produce stage covers everything from recording setup through real-time show production — the work that happens during and immediately around the recording session.
+Production is where raw expertise becomes media. It covers three distinct phases — each with different tools, skills, and output standards.
 
-Riggg's production philosophy: produce the show in real time, not in post. The closer you get to broadcast-quality during the session, the faster everything downstream moves.
+## The Three Phases
 
-## Patterns
+<div class="riggg-pipeline" style="margin:2rem 0;">
+  <div class="riggg-step" style="background:#2B3E74;"><span class="step-label">Record</span><span class="step-sub">Capture · Sources · Formats</span></div>
+  <div class="riggg-step" style="background:#006060;"><span class="step-label">Rough Cut</span><span class="step-sub">OBS · Real-Time · Layouts</span></div>
+  <div class="riggg-step" style="background:#008080;"><span class="step-label">Master</span><span class="step-sub">Polish · Export · Deliver</span></div>
+</div>
 
-| Pattern | What It Covers | Score |
+| Phase | What Happens | Output |
 |---|---|---|
-| [OBS Real-Time Production Standard](obs-production-standard.md) | Workflow and methodology for producing shows live in OBS Studio | 5 |
-| [OBS Scene Collection Template](obs-scene-collection-template.md) | Downloadable 157-scene OBS template with 5-participant capacity and dual H/V output | 5 |
+| [**Record**](record/index.md) | Capture raw source recordings of each participant. Remote or in-studio. Individual isolated tracks per person. | Raw video files (1 per participant) + raw audio tracks |
+| [**Rough Cut**](rough-cut/index.md) | Real-time production in OBS Studio. Assemble the show with layouts, lower thirds, transitions, graphics, and dual H/V output — during the session or immediately after. | Rough cut horizontal (16:9) + rough cut vertical (9:16) |
+| [**Master**](master/index.md) | Post-production polish. Final color, audio leveling, cleanup, export to deliverable formats. | Mastered horizontal video, mastered vertical video, mastered audio (podcast) |
 
-## What Makes Real-Time Production Different
+## Why Three Phases
 
-Traditional production:
+Most production companies blur these together. A single editor gets raw files and does everything — recording cleanup, assembly, graphics, color, audio, export. That is slow and expensive.
 
-1. Record raw video on Zoom/Riverside
-2. Send to editor
-3. Wait 5-10 days
-4. Get deliverables
+Separating into three phases creates specialization:
 
-Real-time production:
+- **Record** optimizes for capture quality and reliability
+- **Rough Cut** optimizes for speed and creative production (real-time in OBS)
+- **Master** optimizes for polish and deliverable standards
 
-1. Produce the show live in OBS with graphics, transitions, lower thirds, and layouts
-2. Create horizontal AND vertical rough edits simultaneously during the session
-3. Send to mastering editor for final polish
-4. Deliver in 3-5 days at higher quality with lower overhead
-
-The difference is structural: real-time production treats the recording session as a live broadcast, not a raw capture.
+This is how television works. It is how Riggg works. It is why Riggg delivers in 3-5 days what traditional workflows take 7-10.
