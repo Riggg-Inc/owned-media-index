@@ -17,3 +17,4 @@ Dots are color-coded by Riggg Score (teal = 5, green = 4, gold = 3). Hover to se
 | [Clip Styles](clips.md) | Low Effort ↔ High Effort × Niche Appeal ↔ Viral Potential | 5 clip patterns |
 | [Recording Methods](recording.md) | Ease of Setup ↔ Complexity × Quality Ceiling | 6 recording methods |
 | [Mastering Tools](mastering-tools.md) | Free ↔ Premium × Basic ↔ Professional | 9 mastering tools |
+| [Distribution Platforms](distribution-platforms.md) | Niche ↔ Mass Reach × Owned ↔ Rented | 13 distribution platforms |
