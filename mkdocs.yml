@@ -75,6 +75,7 @@ nav:
       - Produce:
           - patterns/produce/index.md
           - OBS Real-Time Production: patterns/produce/obs-production-standard.md
+          - OBS Scene Collection Template: patterns/produce/obs-scene-collection-template.md
       - Package:
           - patterns/package/index.md
           - Titles:
