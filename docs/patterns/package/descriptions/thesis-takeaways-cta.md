@@ -30,6 +30,15 @@ Brevity wins in truncated environments. Podcast apps, social previews, and searc
 
 Avoid for narrative-heavy episodes where a story arc description would be more compelling.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **Marketing School** | Ultra-concise: one thesis, 2-3 bullet takeaways, subscribe CTA | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+| **The GaryVee Audio Experience** | Short, punchy descriptions with a clear thesis and single CTA | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-garyvee-audio-experience/id928159684) |
+| **HBR IdeaCast** | Structured, concise descriptions with thesis framing and takeaway list | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

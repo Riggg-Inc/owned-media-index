@@ -41,6 +41,15 @@ Avoid for tactical, step-by-step episodes. "How to think about" sets expectation
 
 - [Future Of](future-of.md) — when the framing is forward-looking rather than conceptual
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **Lex Fridman Podcast** | Deep explorations of consciousness, AI, and physics | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
+| **The Knowledge Project** | Mental models and frameworks for decision-making | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+| **Sean Carroll's Mindscape** | "How To Think About" framing for physics and philosophy | [Apple Podcasts](https://podcasts.apple.com/us/podcast/sean-carrolls-mindscape-science-society-philosophy/id1406534739) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

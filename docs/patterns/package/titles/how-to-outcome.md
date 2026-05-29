@@ -43,6 +43,15 @@ Avoid when the episode is exploratory rather than prescriptive, when the guest s
 - [Numbered Insight](numbered-insight.md) — when the episode is more list-driven
 - [Contrarian Hook](contrarian-hook.md) — when challenging a belief is the bigger draw
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **The Tim Ferriss Show** | "How to Build a World-Class Network in Record Time" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795) |
+| **Marketing School** | "How To Get More Leads Without Spending More on Ads" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+| **Online Marketing Made Easy** | "How To Launch a Digital Course Without a Big Audience" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

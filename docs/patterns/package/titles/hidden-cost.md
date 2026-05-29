@@ -41,6 +41,15 @@ Avoid when the cost is already well-known. "The Hidden Cost of Not Having a Webs
 
 - [Contrarian Hook](contrarian-hook.md) — when challenging a belief rather than revealing a cost
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **The Prof G Pod** | "The Hidden Tax of Being Average in a Winner-Take-All Economy" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-prof-g-pod-with-scott-galloway/id1498802610) |
+| **Freakonomics Radio** | "The Hidden Side of Everything" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519) |
+| **Exit Five** | "The Hidden Cost of Not Having a Brand in B2B" | [Spotify](https://open.spotify.com/show/exit-five) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

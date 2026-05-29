@@ -42,6 +42,15 @@ Avoid when the episode is a deep single-topic conversation. Forcing a number on 
 
 - [How-To Outcome](how-to-outcome.md) — when the episode is one clear outcome, not a list
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **Ali Abdaal's Deep Dive** | "7 Strategies That Made Me a Millionaire Before 30" | [YouTube](https://www.youtube.com/@aliabdaal) |
+| **The School of Greatness** | "5 Morning Habits That Will Change Your Life" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499) |
+| **Marketing School** | "7 SEO Mistakes That Are Killing Your Traffic" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

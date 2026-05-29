@@ -31,6 +31,15 @@ Leading with a big question creates intellectual curiosity. Practitioners who th
 
 Avoid for tactical episodes where the listener wants "how to do X" — not "what should we think about."
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **Lex Fridman Podcast** | Opens with a deep question, summarizes the multi-hour conversation arc | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
+| **Sean Carroll's Mindscape** | Frames each episode around a core intellectual question | [Apple Podcasts](https://podcasts.apple.com/us/podcast/sean-carrolls-mindscape-science-society-philosophy/id1406534739) |
+| **The Knowledge Project** | Structures descriptions around the central question explored with each guest | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

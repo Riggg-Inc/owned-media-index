@@ -23,6 +23,15 @@ Practitioners share tactics. When someone hears a specific, usable insight, they
 
 Avoid when the advice requires significant context to understand, or when the insight is too basic for the target audience.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **The Tim Ferriss Show** | Interviews consistently surface specific, actionable tactics from world-class performers | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795) |
+| **The Knowledge Project** | Shane Parrish extracts dense, quotable mental models from every guest | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+| **Ali Abdaal's Deep Dive** | Designed around extracting specific, implementable advice | [YouTube](https://www.youtube.com/@aliabdaal) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

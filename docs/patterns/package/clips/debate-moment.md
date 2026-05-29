@@ -23,6 +23,15 @@ Conflict is engaging. When two smart people disagree on camera, the audience wat
 
 Avoid when the disagreement is uncomfortable rather than productive, or when one speaker clearly dominates.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **All-In Podcast** | Four investors with different perspectives generate genuine debate every episode | [YouTube](https://www.youtube.com/@alaboratory) |
+| **My First Million** | Sam and Shaan regularly disagree on business ideas, creating natural debate clips | [YouTube](https://www.youtube.com/@MyFirstMillionPod) |
+| **The Diary Of A CEO** | Steven's interview style surfaces disagreements that create tension-filled moments | [YouTube](https://www.youtube.com/@TheDiaryOfACEO) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

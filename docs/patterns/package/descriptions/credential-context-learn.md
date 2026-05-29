@@ -114,6 +114,15 @@ You'll learn:
 | YouTube | ~100-150 chars before "Show more" | Use line breaks for readability |
 | Web/Show Notes | Full | Include links in takeaway items where relevant |
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **The Diary Of A CEO** | The signature show — credential opener, "In this episode" context, "You'll learn" list | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+| **Impact Theory** | Establishes guest credentials upfront, sets context, lists what the viewer will learn | [Apple Podcasts](https://podcasts.apple.com/us/podcast/impact-theory-with-tom-bilyeu/id1191775648) |
+| **The School of Greatness** | Uses guest credentialing and "you'll discover" framing consistently | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499) |
+
 ## Prompt Template
 
 ```

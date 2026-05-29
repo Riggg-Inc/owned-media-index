@@ -30,6 +30,15 @@ Stories are memorable. When the guest's journey is compelling, leading with narr
 
 Avoid when the guest's story is not distinctive enough to lead with.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **How I Built This** | Every description leads with the founder's origin story arc | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+| **My First Million** | Frames the guest's journey from zero to outcome, then extracts the playbook | [Apple Podcasts](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170) |
+| **Masters of Scale** | Frames each episode around the guest's scaling story and lessons | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

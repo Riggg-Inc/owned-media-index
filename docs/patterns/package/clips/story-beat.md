@@ -23,6 +23,15 @@ Stories are memorable. A 60-second story clip lands harder than a 60-second advi
 
 Avoid when the story requires setup from earlier in the conversation, or when the emotional moment does not translate without visual cues.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **How I Built This** | Every episode has a defining narrative moment that makes the perfect clip | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+| **The Moth** | Built entirely around personal narrative moments that stand alone | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-moth/id275699983) |
+| **Masters of Scale** | Interview structure creates natural story beats around scaling turning points | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

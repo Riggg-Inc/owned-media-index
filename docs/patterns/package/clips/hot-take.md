@@ -23,6 +23,15 @@ Opinions create engagement. People share, comment on, and argue with strong take
 
 Avoid when the take is uninformed, when it might alienate the target audience, or when the speaker walks it back later in the episode.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **The Diary Of A CEO** | Guest hot takes drive millions of clip views on YouTube and social | [YouTube](https://www.youtube.com/@TheDiaryOfACEO) |
+| **The Prof G Pod** | Scott Galloway's sharp opinions on markets and tech are built for clip extraction | [YouTube](https://www.youtube.com/@profgalloway) |
+| **My First Million** | Sam and Shaan deliver hot takes on business trends that perform as standalone clips | [YouTube](https://www.youtube.com/@MyFirstMillionPod) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

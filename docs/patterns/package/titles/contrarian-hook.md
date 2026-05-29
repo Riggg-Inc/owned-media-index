@@ -43,6 +43,15 @@ Avoid when the guest is not opinionated enough to defend the contrarian take, or
 - [How-To Outcome](how-to-outcome.md) — when the value is in the solution, not the challenge
 - [Hidden Cost](hidden-cost.md) — when the cost is structural, not belief-based
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **The Diary Of A CEO** | "Money Expert: Buying a House Is a Mistake" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+| **My First Million** | "Why Everything You Know About Hiring Is Wrong" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170) |
+| **The Prof G Pod** | "Why Higher Ed Is a Luxury Good Disguised as a Necessity" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-prof-g-pod-with-scott-galloway/id1498802610) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

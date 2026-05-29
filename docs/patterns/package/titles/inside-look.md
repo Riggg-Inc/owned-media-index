@@ -41,6 +41,15 @@ Avoid when the company or process is not distinctive enough to warrant the "insi
 
 - [Guest Authority](guest-authority.md) — when the person is the draw, not the company
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **How I Built This** | "Airbnb: Joe Gebbia" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+| **Masters of Scale** | "Inside Netflix: Reed Hastings on Culture of Freedom" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
+| **Acquired** | "NVIDIA" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/acquired/id1050462261) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

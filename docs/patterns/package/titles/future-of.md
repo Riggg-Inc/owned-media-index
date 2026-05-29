@@ -41,6 +41,15 @@ Avoid when the episode is purely tactical. "Future of" titles set expectations f
 
 - [Big Question](big-question.md) — when the framing is exploratory rather than predictive
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **a16z Podcast** | "The Future of AI Agents and Enterprise Software" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711) |
+| **Lex Fridman Podcast** | "The Future of Intelligence and Consciousness" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
+| **HBR IdeaCast** | "The Future of Remote Work" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

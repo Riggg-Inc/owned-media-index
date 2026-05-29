@@ -43,6 +43,15 @@ Avoid when the guest is not well-known to the target audience. A name-drop title
 - [Inside Look](inside-look.md) — when the company/process is the draw, not the individual
 - [Before-After Playbook](before-after-playbook.md) — when the transformation arc is the story
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **Lex Fridman Podcast** | "Mark Zuckerberg: Future of AI at Meta" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
+| **Impact Theory** | "Simon Sinek on The Infinite Game of Leadership" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/impact-theory-with-tom-bilyeu/id1191775648) |
+| **The Knowledge Project** | "Daniel Kahneman: A Short Course on Thinking" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

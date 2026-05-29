@@ -23,6 +23,15 @@ Data creates authority. A single surprising statistic can reframe an entire conv
 
 Avoid when the statistic is well-known, when the source is questionable, or when the number requires heavy context to be meaningful.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **The Prof G Pod** | Scott Galloway's data-driven market analysis produces highly quotable stat moments | [YouTube](https://www.youtube.com/@profgalloway) |
+| **Freakonomics Radio** | Built around surprising data points that reframe audience understanding | [Apple Podcasts](https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519) |
+| **a16z Podcast** | Venture-backed insights with specific market data and trend statistics | [Apple Podcasts](https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

@@ -30,6 +30,15 @@ Pain-first descriptions earn attention immediately. The listener feels seen, the
 
 Avoid when the episode is more inspirational than tactical.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **Online Marketing Made Easy** | Opens with a relatable marketing pain point, breaks down the tactical solution | [Apple Podcasts](https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545) |
+| **Marketing School** | Short descriptions that lead with the pain and promise a fast fix | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+| **The SaaS Marketing Show** | Leads with SaaS growth pain, previews the breakdown with case study evidence | [Spotify](https://open.spotify.com/show/saas-marketing) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

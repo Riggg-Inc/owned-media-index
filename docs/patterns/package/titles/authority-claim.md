@@ -99,6 +99,15 @@ The claim is framed as a provocative question.
 - [Contrarian Hook](contrarian-hook.md) — challenges a belief without leading with a credential
 - [Hidden Cost](hidden-cost.md) — reveals a cost without the authority framing
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **The Diary Of A CEO** | "World-Renowned Physicist: The Truth About Aliens! — Michio Kaku" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+| **The Diary Of A CEO** | "Harvard's Behavior Expert: Why People Don't Like You" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+| **The Diary Of A CEO** | "Insulin Doctor: Keto Is Linked To Brain Decline" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+
 ## Prompt Template
 
 ```

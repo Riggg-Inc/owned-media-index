@@ -42,6 +42,15 @@ Avoid when the transformation is not dramatic enough, or when the guest cannot a
 
 - [Guest Authority](guest-authority.md) — when the guest's name is a bigger draw than the transformation
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **How I Built This** | "Spanx: Sara Blakely" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+| **My First Million** | "From Broke to $100M: How He Built a Media Empire" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170) |
+| **The GaryVee Audio Experience** | "From Immigrant to Mogul: VaynerMedia's Origin" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-garyvee-audio-experience/id928159684) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

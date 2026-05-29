@@ -42,6 +42,15 @@ Avoid when the episode content applies equally to many roles. Forcing a role-spe
 
 - [How-To Outcome](how-to-outcome.md) — when the audience is broader than one role
 
+
+## Shows That Use This Pattern
+
+| Show | Example Title | Link |
+|---|---|---|
+| **Exit Five** | B2B marketing role-specific guidance for CMOs and demand gen leaders | [Apple Podcasts](https://podcasts.apple.com/us/podcast/exit-five-b2b-marketing-with-dave-gerhardt/id1582c) |
+| **HBR IdeaCast** | Role-specific leadership and management episodes | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986) |
+| **The SaaS Marketing Show** | Demand gen and content marketing role-specific playbooks | [Spotify](https://open.spotify.com/show/saas-marketing) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:

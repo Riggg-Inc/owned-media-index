@@ -31,6 +31,15 @@ This pattern front-loads relevance. The listener sees their problem in the first
 
 Avoid when the guest is not well-credentialed or when the episode is more exploratory than prescriptive.
 
+
+## Shows That Use This Pattern
+
+| Show | Why | Link |
+|---|---|---|
+| **Marketing Against the Grain** | Opens with marketing problem, establishes HubSpot host credentials, lists tactical takeaways | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-against-the-grain/id1636010234) |
+| **Exit Five** | Frames the B2B marketing pain, leverages host credibility, specific lesson list | [Spotify](https://open.spotify.com/show/exit-five) |
+| **Revenue Vitals** | Leads with pipeline/revenue problem, backs with data-driven credibility, explicit takeaways | [Spotify](https://open.spotify.com/show/revenue-vitals) |
+
 ## Prompt Template
 
 Copy and customize this prompt to generate this pattern:
