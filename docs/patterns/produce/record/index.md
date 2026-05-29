@@ -54,6 +54,10 @@ If you record a single mixed video (like a Zoom gallery view), the rough cut edi
 | [Remote Isolated Recording](remote-isolated.md) | Distributed teams, guest interviews, most podcast/webinar use cases | 5 |
 | [In-Studio Multi-Camera](in-studio-multi-camera.md) | High-production shows, recurring studio programs | 5 |
 | [Hybrid Recording](hybrid-recording.md) | Host in-studio + remote guests, mixed environments | 4 |
+| [Zoom Local Recording](zoom-local.md) | Audio-only fallback, backup recording | 3 |
+| [Zoom Cloud Recording](zoom-cloud.md) | Meeting capture only, not recommended for production | 2 |
+| [StreamYard](streamyard.md) | Quick livestreams with no post-production needs | 2 |
+| [Google Meet / Teams](google-meet.md) | Not recommended for owned media | 1 |
 
 ## Quality Bar
 

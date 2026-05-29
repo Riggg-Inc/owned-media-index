@@ -43,25 +43,25 @@ description: "Riggg Quadrant for recording methods and platforms. Maps recording
   </a>
 
   <!-- Zoom (local recording): very easy, moderate quality -->
-  <a class="rq-dot rq-dot--3" style="left:15%;top:52%;">
+  <a href="../patterns/produce/record/zoom-local/" class="rq-dot rq-dot--3" style="left:15%;top:52%;">
     <div class="rq-dot-circle">3</div>
     <span class="rq-dot-label">Zoom (Local)</span>
   </a>
 
   <!-- Zoom (cloud): easiest, lowest quality -->
-  <a class="rq-dot rq-dot--2" style="left:12%;top:72%;">
+  <a href="../patterns/produce/record/zoom-cloud/" class="rq-dot rq-dot--2" style="left:12%;top:72%;">
     <div class="rq-dot-circle">2</div>
     <span class="rq-dot-label">Zoom (Cloud)</span>
   </a>
 
   <!-- StreamYard: easy, low quality (no isolation) -->
-  <a class="rq-dot rq-dot--2" style="left:20%;top:78%;">
+  <a href="../patterns/produce/record/streamyard/" class="rq-dot rq-dot--2" style="left:20%;top:78%;">
     <div class="rq-dot-circle">2</div>
     <span class="rq-dot-label">StreamYard</span>
   </a>
 
   <!-- Google Meet: easiest, lowest quality -->
-  <a class="rq-dot rq-dot--1" style="left:10%;top:88%;">
+  <a href="../patterns/produce/record/google-meet/" class="rq-dot rq-dot--1" style="left:10%;top:88%;">
     <div class="rq-dot-circle">1</div>
     <span class="rq-dot-label">Google Meet</span>
   </a>
