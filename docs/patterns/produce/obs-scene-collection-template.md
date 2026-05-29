@@ -181,13 +181,24 @@ All plugins must be installed before importing the scene collection.
 | **Logitech G Plugin** | Logitech Stream Deck variant support | [Logitech](https://www.logitechg.com/) |
 | **Quick Access Dock** | Quick access UI panels | [GitHub](https://github.com/exeldro/obs-quick-access-dock) |
 
-### Plugin Install Order
+### Required Script
 
-1. Install all plugins before importing the scene collection
+| Script | Required For | Install Location |
+|---|---|---|
+| **source-toggler.lua** | Toggle group switching — enables one-click participant swapping in toggle groups. Without this script, the `^ToggleGroup_` system does not function. | OBS → Tools → Scripts → Add `source-toggler.lua` |
+
+!!! warning "Critical Dependency"
+    The template will not work correctly without `source-toggler.lua`. The toggle groups (`^ToggleGroup_HostIntro`, `^ToggleGroup_2UP_Left/Right`, `^ToggleGroup_Vertical2UP_Top/Bottom`, `^ToggleGroup_WhoSaidIt_*`) all depend on this script to ensure only one participant source is visible at a time within each group. Without it, you must manually show/hide sources — defeating the real-time production workflow.
+
+### Install Order
+
+1. Install all 15 plugins before importing the scene collection
 2. Restart OBS after plugin installation
-3. Import the scene collection via Scene Collection → Import
-4. Verify all sources load without errors
-5. Configure participant camera sources (browser sources for remote, or local capture devices)
+3. Add `source-toggler.lua` via Tools → Scripts → Add Script
+4. Restart OBS again
+5. Import the scene collection via Scene Collection → Import
+6. Verify all sources load without errors (no yellow warning triangles)
+7. Configure participant camera sources (browser sources for remote, or local capture devices)
 
 ## Setup Workflow
 
