@@ -185,7 +185,7 @@ All plugins must be installed before importing the scene collection.
 
 | Script | Required For | Install Location |
 |---|---|---|
-| **source-toggler.lua** | Toggle group switching — enables one-click participant swapping in toggle groups. Without this script, the `^ToggleGroup_` system does not function. | OBS → Tools → Scripts → Add `source-toggler.lua` |
+| **source-toggler.lua** | Toggle group switching — enables one-click participant swapping in toggle groups. Without this script, the `^ToggleGroup_` system does not function. | [OBS Forums](https://obsproject.com/forum/resources/source-toggler.860/) → download, then OBS → Tools → Scripts → Add |
 
 !!! warning "Critical Dependency"
     The template will not work correctly without `source-toggler.lua`. The toggle groups (`^ToggleGroup_HostIntro`, `^ToggleGroup_2UP_Left/Right`, `^ToggleGroup_Vertical2UP_Top/Bottom`, `^ToggleGroup_WhoSaidIt_*`) all depend on this script to ensure only one participant source is visible at a time within each group. Without it, you must manually show/hide sources — defeating the real-time production workflow.
