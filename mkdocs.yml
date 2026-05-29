@@ -39,6 +39,7 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/quadrant.css
 
 markdown_extensions:
   - admonition
@@ -195,6 +196,13 @@ nav:
       - Preserve:
           - patterns/preserve/index.md
           - Content Memory Standard: patterns/preserve/content-memory-standard.md
+  - Quadrants:
+      - quadrants/index.md
+      - Title Styles: quadrants/titles.md
+      - Description Styles: quadrants/descriptions.md
+      - Clip Styles: quadrants/clips.md
+      - Recording Methods: quadrants/recording.md
+      - Mastering Tools: quadrants/mastering-tools.md
   - Scoring: scoring.md
   - Evidence: evidence.md
   - Roadmap: roadmap.md
