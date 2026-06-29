@@ -4,6 +4,14 @@ The **Owned Media Index** is an open, research-backed library of patterns, stand
 
 Published by **Riggg Inc.**
 
+## What Is Owned Media?
+
+See [`OWNED-MEDIA.md`](./OWNED-MEDIA.md) for the core definition: the asset/distribution distinction, the ownership tests, a full asset inventory by 5P stage, and how Riggg relates to the PESO model.
+
+> **tl;dr:** You own what you create. You do not own the pipe you send it through. The asset test and channel test determine what's owned and what's rented.
+
+---
+
 ## The Framework
 
 The Index is organized around the owned media operating model:

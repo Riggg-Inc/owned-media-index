@@ -6,6 +6,15 @@ The Owned Media Index uses a Riggg-owned open framework:
 
 This is the operating model for turning expert conversations, webinars, livestreams, podcasts, and virtual event sessions into published owned media.
 
+## Before the Framework: What You're Working With
+
+Owned media splits into two things:
+
+- **The asset** (what you made) — always owned. Video files, transcripts, clips, written posts. You created it; you own it regardless of where it gets published.
+- **The distribution layer** (where you put it) — determines whether your *reach* is owned or rented.
+
+The 5Ps describe what you do with both. See [`OWNED-MEDIA.md`](./OWNED-MEDIA.md) for the full definition, ownership tests, and asset inventory.
+
 ## 1. Produce
 
 Create the source media.
