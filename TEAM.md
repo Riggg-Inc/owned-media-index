@@ -2,7 +2,7 @@
 
 **Product:** https://index.riggg.com (the Owned Media Index)
 **Owner:** Cass
-**Framework signoff:** Garren + Ledge
+**Framework signoff:** Garren (U…TBD) + Ledge (`U07GY8FRN4E`)
 **Primary KPI:** AEO visibility for owned-media search intent
 **Workboard board:** `owned-media-index`
 **Ship notifications:** `#team-owned-media-index` (Slack `C0ALAP8LB26`)
@@ -61,6 +61,12 @@ Pulse ────┘                                          ▲              
 | SCORING.md / EVIDENCE.md rule-doc change | **Cass + Garren + Ledge signoff.** |
 | Adding/removing a stage from the framework | **Garren + Ledge signoff.** |
 | Brand or voice change at framework level | **Garren + Ledge signoff.** |
+
+**Slack ID for framework signoff notifications:**
+- Garren: see `MEMORY.md` (private)
+- Ledge: `U07GY8FRN4E`
+
+Tag both with `<@USER_ID>` in `#team-owned-media-index` when a framework-level change needs signoff.
 
 ---
 
