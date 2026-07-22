@@ -76,11 +76,15 @@ Tag both with `<@USER_ID>` in `#team-owned-media-index` when a framework-level c
 
 - Platform official docs (YouTube, LinkedIn, podcast hosts, RSS, analytics providers, search/answer engines).
 - Vendor changelogs and release notes (public).
-- Credible industry research (Edison Research, Podtrac, eMarketer, Pew, IAB, etc.).
+- **Credible industry research (Edison Research, Podtrac, eMarketer, Pew, IAB, etc.)** — includes AEO/GEO monitoring-vendor benchmark reports (Conductor, Brandi AI, and equivalents) when methodology is disclosed. Vendor self-promotion without methodology is NOT covered; it falls under "Sources requiring Cass approval."
 - Podcast / webinar industry publications (Hot Pod, Podnews, Inside Radio, etc.).
 - Public RSS feeds of relevant trade publications.
 - Competitor public material (websites, public YouTube channels, public newsletters).
 - Teardown observation of public shows, channels, posts (named only if a public exemplar demonstrates a pattern).
+
+### Standing sources (Preserve stage)
+
+- **AI-citation monitoring reports** (Conductor AEO/GEO benchmarks, Brandi AI, and equivalents with disclosed methodology). These track AI-answer citation churn and are the primary signal for whether AEO patterns are working. Approved 2026-07-22 per Garren's confirmation in `#team-owned-media-index`.
 
 ### Sources requiring Cass approval before use
 
@@ -97,6 +101,10 @@ Tag both with `<@USER_ID>` in `#team-owned-media-index` when a framework-level c
 - Internal workflow secrets that should remain proprietary.
 
 **Rule:** When using internal learning, generalize it into a public pattern. The Index earns its authority by being safe to publish.
+
+### Claim verification (added 2026-07-22)
+
+When an agent claims a file was updated, a card was changed, or a commit was made, the claim MUST be backed by verifiable evidence in the same message: a commit hash, a file path, or a quoted diff. "I updated X" without a hash is not acceptable — it is exactly the failure mode that erodes trust in the team. (See first-sweep incident 2026-07-22.)
 
 ---
 
