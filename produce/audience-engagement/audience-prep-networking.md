@@ -21,11 +21,16 @@ Evidence of increased audience participation and positive feedback regarding cla
 Very short, broadcast-style content where audience interaction is minimal or not a primary goal.
 
 ## Riggg Score
-4/5 (Strong internal evidence across multiple sessions)
+3
+
+Viable. Internal data from 3+ sessions within a single program supports the mechanism, but it is not yet demonstrated as repeatable across multiple programs. Capped at 3 pending cross-program validation (internal-data, single program).
 
 ## Evidence
+Evidence level: internal-data (3+ sessions within one program).
+
 *   Program 1 (Sales/B2B context): Host sets up the "move from / move to" big idea at the start to reground everyone.
 *   Program 1 (Sales/B2B context): Host conducts pre-conversations with guests about what they are up to, leading to smoother contributions.
 *   Program 1 (Sales/B2B context): Networking prep prior to the main content allows attendees to drop their tentativeness and contribute more meaningfully.
 
 ## Related Patterns
+- `produce/real-time-production/obs-production-standard.md`
