@@ -201,6 +201,10 @@ nav:
       - Preserve:
           - patterns/preserve/index.md
           - Content Memory Standard: patterns/preserve/content-memory-standard.md
+  - Tools:
+      - tools/index.md
+      - Hosting:
+          - Video Podcast Hosting Support: tools/hosting/video-podcast-hosting-support.md
   - Quadrants:
       - quadrants/index.md
       - Title Styles: quadrants/titles.md
