@@ -41,5 +41,5 @@ The AMP Accords have been established as the first cross-platform measurement st
 ## Related Patterns
 
 - `preserve/ad-metadata-brand-safety`
-- `distribute/spotify-native-upload-bypasses-rss`
+- `publish/syndication/spotify-native-upload-bypasses-rss`
 - `preserve/podcasting2-transcript-namespace`

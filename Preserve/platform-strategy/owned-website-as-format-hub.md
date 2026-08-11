@@ -38,6 +38,6 @@ Owned-media programs seeking a durable, platform-agnostic canonical hub for cont
 
 ## Related Patterns
 - Preserve/podcasting2-transcript-namespace (f2ca608a)
-- Distribute/spotify-native-upload-bypasses-rss (71d51a9c)
+- Publish/syndication/spotify-native-upload-bypasses-rss (71d51a9c)
 - Preserve/geo-aeo-citation-volatility (a5b59382)
-- Distribute/owned-email-newsletter-channel (54b74531)
+- Publish/owned-channels/owned-email-newsletter (54b74531)

@@ -151,6 +151,8 @@ Every transition uses a Workboard card status move and a comment on the receivin
 
 ### Per-pattern card title convention
 
+`<stage>` must be one of the five framework stages: **produce**, **package**, **publish**, **prove**, **preserve**. "Distribute" is not a stage. Distribution patterns (platform syndication, owned channel strategy) belong under **publish**.
+
 - `[CANDIDATE] <stage>/<slug> — <one-line thesis>` (Sentinel)
 - `[GROUNDED] <stage>/<slug> — <one-line finding>` (Pulse)
 - `[DRAFT] <stage>/<slug>` (Scribe)
