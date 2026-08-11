@@ -1,23 +1,36 @@
 ---
-description: "Packaging patterns for owned media. Titles, descriptions, clips, reels, thumbnails, quote graphics, and social posts with ranked styles and prompt templates."
+description: "Packaging patterns for owned media. Titles, descriptions, clips, reels, thumbnails, quote graphics, and social posts — ranked styles and tested formats."
 ---
 
 # Package
 
-**Framework Stage:** Package
+**Framework stage:** Package — turning raw media into publishable assets.
 
-Packaging is the work that turns raw media into publishable assets. Every session should produce a complete media package — not just one deliverable, but a coordinated set of assets designed for different platforms, audiences, and purposes.
+Every session should produce a complete media package: not just one deliverable, but a coordinated set of assets built for different platforms, audiences, and purposes. The patterns here cover each asset type.
 
-## Deliverable Types
+## Long-Form Assets
 
-| Type | What It Covers |
+| Category | What It Covers |
 |---|---|
-| [Titles](titles/index.md) | Episode title styles and patterns |
-| [Descriptions](descriptions/index.md) | RSS, YouTube, and show notes descriptions |
-| [Clips](clips/index.md) | Short-form extracted video segments |
-| [Reels](reels/index.md) | Vertical short-form video (9:16) |
-| [Thumbnails](thumbnails/index.md) | Visual packaging for episode discovery |
-| [Quote Graphics](quote-graphics/index.md) | Shareable static visual assets |
-| [Social Posts](social-posts/index.md) | Written copy for social distribution |
+| [Titles](titles/index.md) | 11 episode title styles ranked by use case — hooks, authority claims, contrarian takes, and more |
+| [Descriptions](descriptions/index.md) | RSS, YouTube, and show notes description structures that match audience intent |
 
-Each type has its own index page with ranked styles and individual pages for each pattern.
+## Short-Form Video
+
+| Category | What It Covers |
+|---|---|
+| [Clips](clips/index.md) | 5 clip selection patterns — what moments to extract and why |
+| [Reels](reels/index.md) | 5 vertical short-form (9:16) formats for Instagram and TikTok |
+
+## Graphics
+
+| Category | What It Covers |
+|---|---|
+| [Thumbnails](thumbnails/index.md) | 5 thumbnail hook patterns ranked for click performance |
+| [Quote Graphics](quote-graphics/index.md) | 5 shareable static asset formats — speaker cards, stat callouts, conversation exchanges |
+
+## Social Copy
+
+| Category | What It Covers |
+|---|---|
+| [Social Posts](social-posts/index.md) | 8 post types across LinkedIn, Instagram, and X/Twitter — episode announcements, guest tags, quote shares, thread breakdowns, and more |

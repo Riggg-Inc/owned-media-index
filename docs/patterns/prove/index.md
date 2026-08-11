@@ -1,12 +1,21 @@
 ---
-description: "Performance measurement patterns for owned media. Session scorecards, benchmarks, analytics, attribution, and ROI frameworks."
+description: "Measurement patterns for owned media. Scorecards, benchmarks, attribution, and performance frameworks."
 ---
 
-# Prove Patterns
+# Prove
 
-Proof patterns help teams measure what shipped, what worked, and what should change next.
+**Framework stage:** Prove — measuring whether the system worked.
 
-## Current Patterns
+Proof patterns help teams get past download counts and toward signals that actually matter: whether the right people listened, whether the content drove pipeline, whether the investment is working.
 
-- [Session Performance Scorecard](session-performance-scorecard.md)
+## Scorecards
 
+| Pattern | What It Covers |
+|---|---|
+| [Session Performance Scorecard](session-performance-scorecard.md) | A per-episode framework for evaluating production, distribution, and audience quality |
+
+## Benchmarks
+
+| Pattern | What It Covers |
+|---|---|
+| *(more coming)* | — |

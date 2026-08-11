@@ -1,35 +1,44 @@
 ---
-description: "Production patterns for owned media. Recording methods, real-time rough cut production in OBS Studio, and mastering workflows for horizontal, vertical, and audio formats."
+description: "Production patterns for owned media. Recording methods, real-time rough cut production, and mastering workflows."
 ---
 
 # Produce
 
-**Framework Stage:** Produce
+**Framework stage:** Produce — capturing clean, flexible source media.
 
-Production is where raw expertise becomes media. It covers three distinct phases — each with different tools, skills, and output standards.
+Production is where expertise becomes media. The decisions made here determine what's possible in every downstream stage: packaging, publishing, measurement, preservation. Sloppy capture limits everything that follows.
 
-## The Three Phases
+Production covers three phases:
 
-<div class="riggg-pipeline" style="margin:2rem 0;">
-  <div class="riggg-step" style="background:#2B3E74;"><span class="step-label">Record</span><span class="step-sub">Capture · Sources · Formats</span></div>
-  <div class="riggg-step" style="background:#006060;"><span class="step-label">Rough Cut</span><span class="step-sub">OBS · Real-Time · Layouts</span></div>
-  <div class="riggg-step" style="background:#008080;"><span class="step-label">Master</span><span class="step-sub">Polish · Export · Deliver</span></div>
-</div>
+## Record
 
-| Phase | What Happens | Output |
-|---|---|---|
-| [**Record**](record/index.md) | Capture raw source recordings of each participant. Remote or in-studio. Individual isolated tracks per person. | Raw video files (1 per participant) + raw audio tracks |
-| [**Rough Cut**](rough-cut/index.md) | Real-time production in OBS Studio. Assemble the show with layouts, lower thirds, transitions, graphics, and dual H/V output — during the session or immediately after. | Rough cut horizontal (16:9) + rough cut vertical (9:16) |
-| [**Master**](master/index.md) | Post-production polish. Final color, audio leveling, cleanup, export to deliverable formats. | Mastered horizontal video, mastered vertical video, mastered audio (podcast) |
+Capturing the source session — the raw material everything else is built from.
 
-## Why Three Phases
+| Pattern | What It Covers |
+|---|---|
+| [Remote Isolated Recording](record/remote-isolated.md) | Recording remote guests with isolated audio/video tracks |
+| [In-Studio Multi-Camera](record/in-studio-multi-camera.md) | Multi-camera in-person sessions |
+| [Hybrid Recording](record/hybrid-recording.md) | Mixed in-person and remote setups |
+| [Zoom Local Recording](record/zoom-local.md) | Local recording via Zoom for maximum quality |
+| [Zoom Cloud Recording](record/zoom-cloud.md) | Cloud recording as a fallback or backup path |
+| [StreamYard](record/streamyard.md) | Browser-based recording and simulcast |
+| [Google Meet / Teams](record/google-meet.md) | Recording from Meet or Teams with quality considerations |
 
-Most production companies blur these together. A single editor gets raw files and does everything — recording cleanup, assembly, graphics, color, audio, export. That is slow and expensive.
+## Rough Cut / Real-Time Production
 
-Separating into three phases creates specialization:
+Shaping the session in real time or immediately after capture.
 
-- **Record** optimizes for capture quality and reliability
-- **Rough Cut** optimizes for speed and creative production (real-time in OBS)
-- **Master** optimizes for polish and deliverable standards
+| Pattern | What It Covers |
+|---|---|
+| [OBS Real-Time Production Standard](obs-production-standard.md) | Using OBS Studio as a live production switcher |
+| [OBS Scene Collection Template](obs-scene-collection-template.md) | Recommended scene structure for episodic shows |
 
-This is how television works. It is how Riggg works. It is why Riggg delivers in 3-5 days what traditional workflows take 7-10.
+## Master
+
+Finishing the episode to a deliverable standard.
+
+| Pattern | What It Covers |
+|---|---|
+| [Video Mastering](master/video-mastering.md) | Video output specs and color/quality standards |
+| [Audio Mastering](master/audio-mastering.md) | Loudness normalization, noise reduction, and final audio quality |
+| [Export Specifications](master/export-specs.md) | File format, codec, and delivery specs by platform |
