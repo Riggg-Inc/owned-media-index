@@ -23,6 +23,7 @@ Capturing the source session — the raw material everything else is built from.
 | [Zoom Cloud Recording](record/zoom-cloud.md) | Cloud recording as a fallback or backup path |
 | [StreamYard](record/streamyard.md) | Browser-based recording and simulcast |
 | [Google Meet / Teams](record/google-meet.md) | Recording from Meet or Teams with quality considerations |
+| [HLS Video Podcast Distribution Standard](recording/hls-video-podcast-distribution.md) | Recording video podcasts so episodes can serve YouTube-native discovery and HLS/RSS-preserving distribution |
 
 ## Rough Cut / Real-Time Production
 
