@@ -13,9 +13,7 @@ A content structure where an initial segment (part one) plants concepts, questio
 
 ## Why It Works
 
-Real-time production moves production decisions upstream. Lower thirds, titles, overlays, transitions, intro/outro moments, and layout choices happen before the asset reaches final mastering.
-
-This reduces post-production overhead and raises the quality floor.
+The two-part hook structure enhances engagement by employing progressive disclosure, which builds audience anticipation. By planting initial concepts or questions in the first part, the second part delivers a more impactful and satisfying resolution or deeper understanding, as the audience is already primed and invested in the outcome.
 
 ## Required Elements
 
@@ -43,7 +41,7 @@ Avoid this pattern when:
 
 Evidence level: internal-data.
 
-Based on transcript analysis of multiple B2B sessions (e.g., Program: recv7UFeawmkbKT8v, Session: recyJd5ny93Wrl9Zp, and other identified occurrences) where speakers explicitly referenced the effectiveness of "planting hooks" in an earlier activity to make a second part more engaging. This pattern has been observed to consistently improve audience participation and comprehension across different programs.
+Based on transcript analysis of multiple B2B program sessions (2026 transcript analysis) where speakers explicitly referenced the effectiveness of 'planting hooks' in an earlier activity to make a second part more engaging. This pattern has been observed to correlate with improved audience participation and comprehension.
 
 ## Related Patterns
 
