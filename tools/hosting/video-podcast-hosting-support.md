@@ -1,12 +1,12 @@
 # Video Podcast Hosting — Platform Support Reference
 
-**Last updated:** 2026-08-11
+**Last updated:** 2026-08-20
 **Next review due:** 2026-09-20 (monthly — Sentinel maintains this)
 **Note:** This field moves fast. Verify platform docs directly before committing to a hosting decision.
 
 ## What "supported" means here
 
-A platform is listed as Confirmed Support when it can: (1) host/serve video files, (2) output RSS with video `<enclosure>` tags or `podcast:alternateEnclosure`, and (3) that feed is accepted by major apps (Apple Podcasts, Pocket Casts, Spotify open RSS).
+A platform is listed as Confirmed Support when it can: (1) host/serve video files, (2) output RSS with video `<enclosure>` tags or `podcast:alternateEnclosure`/HLS for compatible podcast apps, and (3) preserve audio fallback while supporting Apple/Spotify through direct or approved integrations where required.
 
 ---
 
@@ -20,6 +20,15 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 | **iHeart** | Added RSS/HLS video support, 2026 |
 | **Spotify for Podcasters** (formerly Anchor) | Native video in Spotify app since ~2024–25; RSS video enclosure for third-party apps is partial/limited — feeds Spotify-side playback better than open ecosystem |
 | **Podbean** | Long-standing video hosting; one of the earlier adopters pre-2024 |
+| **Transistor** | Listed by Podcast Standards Project as publishing HLS video via `podcast:alternateEnclosure`; official feature page says rollout/early access is gradual — verify account availability, checked 2026-08-20 |
+| **Captivate** | Listed by Podcast Standards Project as publishing HLS video via `podcast:alternateEnclosure`; official feature matrix does not surface video controls prominently — verify tenant availability, checked 2026-08-20 |
+| **RSS.com** | Official docs say video episodes play on Apple Podcasts, Podcasting 2.0 apps, RSS.com pages, and YouTube; feed uses alternate enclosure, checked 2026-08-20 |
+| **Omny Studio** (Triton Digital, enterprise) | Official docs support optional video podcasting; RSS feeds can include MP4 and HLS alternate enclosures, checked 2026-08-20 |
+| **Flightcast** | Newer video podcast hosting platform; official site says upload video once and publish everywhere, and Podcast Standards lists HLS video in RSS, checked 2026-08-20 |
+| **Podigee** | Supports audio/video podcast workflows and video minutes; Podcast Standards lists HLS video in RSS, checked 2026-08-20 |
+| **Beamly** | Audio/video podcast hosting with cross-platform distribution; Podcast Standards lists HLS video in RSS, checked 2026-08-20 |
+| **Fountain** | Podcast Standards lists Fountain as an HLS-in-RSS host and compatible app, checked 2026-08-20 |
+| **True Fans** | Podcast Standards lists True Fans as an HLS-in-RSS host and compatible app, checked 2026-08-20 |
 
 ---
 
@@ -27,9 +36,15 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 
 | App | Notes |
 |---|---|
-| **Apple Podcasts** | Supports video podcast spec; expanded 2024 |
-| **Pocket Casts** | Expanded RSS/HLS video playback, 2026 |
-| **Spotify** | Video playback for Spotify-hosted shows (not open RSS) |
+| **Apple Podcasts** | Supports video podcasts; currently relies on Apple-side HLS/API approval rather than consuming RSS alternate-enclosure HLS directly |
+| **Pocket Casts** | Supports HLS video playback from RSS |
+| **Fountain** | Supports HLS video playback from RSS |
+| **True Fans** | Supports HLS video playback from RSS |
+| **Podcast Guru** | Supports HLS video playback from RSS |
+| **Podcast Addict** | Supports HLS video playback from RSS |
+| **Amazon Music** | Limited HLS video playback support |
+| **iHeart** | Limited HLS video playback support |
+| **Spotify** | Video playback for Spotify-hosted or directly integrated shows; does not read open-RSS video |
 
 ---
 
@@ -37,11 +52,9 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 
 | Platform | Notes |
 |---|---|
-| **Transistor** | Audio-first; no public video announcement as of 2026-08 |
-| **Captivate** | Expressed interest; no shipping date announced |
-| **Castos** | WordPress-integrated host; no known video roadmap |
-| **RSS.com** | Unverified; needs direct documentation check |
-| **Spreaker** | Not tracked yet |
+| **Castos** | Official docs support YouTube republishing and uploaded video passthrough to YouTube, but no HLS/RSS video enclosure support found; checked 2026-08-20 |
+| **Libsyn** | Official feature page now includes audio/video hosting plus Spotify and YouTube video distribution; Apple HLS is marked "Coming Soon" and open RSS/HLS is not confirmed, checked 2026-08-20 |
+| **Spreaker** | Podcast Standards says Spreaker has committed to HLS video in RSS, but current help docs still describe audio uploads only; not shipped as of 2026-08-20 |
 
 ---
 
@@ -49,10 +62,8 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 
 | Platform | Notes |
 |---|---|
-| **Simplecast** (Spotify-owned) | Audio-focused; no public announcement as of 2026-08 |
-| **Libsyn** | Traditional audio; no known video push as of 2026-08 |
+| **Simplecast** (SiriusXM-owned) | Audio-focused hosting/analytics pages; no public HLS/RSS video announcement found as of 2026-08-20 |
 | **Megaphone** (Spotify-owned, enterprise) | No public video announcement as of 2026-08 |
-| **Omny Studio** (Triton Digital, enterprise) | No known video capability as of 2026-08 |
 
 ---
 
