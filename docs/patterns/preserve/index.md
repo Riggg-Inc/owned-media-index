@@ -18,4 +18,4 @@ Preservation is the stage most programs skip. It's also where the long-term valu
 
 | Pattern | What It Covers |
 |---|---|
-| *(more coming)* | — |
+| [GEO/AEO Citation Volatility](geo-aeo-citation-volatility.md) | Why AI-answer citation is more volatile than search ranking, and how owned-media discipline (publishing rhythm, structure, a compounding archive) is what actually wins it |
