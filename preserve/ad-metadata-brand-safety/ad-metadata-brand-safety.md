@@ -47,4 +47,4 @@ Further support comes from RedCircle's "Mic Check for Programmatic Ads" (2026-07
 
 ## Related Patterns
 
-- `prove/measurement-provenance/amp-accords-iab-v2.3.md` (Both are about not trusting demand-supplied metadata at face value.)
+- `prove/measurement/amp-accords-play-standard.md` (Both are about not trusting demand-supplied metadata at face value.)

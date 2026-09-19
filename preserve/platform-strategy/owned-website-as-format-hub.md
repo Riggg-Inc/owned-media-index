@@ -37,7 +37,7 @@ Owned-media programs seeking a durable, platform-agnostic canonical hub for cont
 - **EVIDENCE UPDATE 2026-07-29 (Sentinel):** Independent, non-PodView corroboration of the owned-property-over-single-feed thesis — importantly from an interoperability/open-web angle, not a commercial vendor pitch. Micro.blog (Manton Reece, blogging platform) expanded its video + podcasting offering (2026-07-27): now supports video podcasts via podcast:alternateEnclosure, cross-posts video to YouTube AND PeerTube, and does rudimentary audio-level normalization — i.e. the owned site/blog is becoming the ingest+distribution hub that fans out to multiple platforms while keeping the canonical asset owned. Reece's stated motivation directly reinforces the RSS-parity threat (71d51a9c) and this card's why-it-matters: "There are many exclusive audio shows that are not based on RSS feeds. If left unchecked, this will eventually erode the interoperability and radical beauty of podcasting." This is the FIRST non-vendor-marketing signal for the owned-hub pattern (previous evidence was PodView's own launch release) and it comes from the open-web/IndieWeb camp, which strengthens the "frame the pattern, not the vendor" guidance. Source: https://www.manton.org/2026/07/27/expanded-video-and-podcasting-in.html (via Podnews 2026-07-29 https://podnews.net/update/canadian-audio-listening); interoperability framing echoes Anil Dash "wherever you get podcasts" (anildash.com/2024/02/05).
 
 ## Related Patterns
-- Preserve/podcasting2-transcript-namespace (f2ca608a)
+- `preserve/podcasting2-transcript-namespace.md` — NOT YET WRITTEN (Workboard card f2ca608a, in todo)
 - Publish/syndication/spotify-native-upload-bypasses-rss (71d51a9c)
-- Preserve/geo-aeo-citation-volatility (a5b59382)
+- `preserve/ai-optimization/geo-aeo-citation-volatility.md`
 - Publish/owned-channels/owned-email-newsletter (54b74531)

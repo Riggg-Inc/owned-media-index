@@ -52,6 +52,6 @@ Needs future benchmark data from reuse rate, search success, writing quality, an
 
 ## Related Patterns
 
-- `preserve/transcripts/timestamped-transcript-standard.md`
-- `prove/analytics/content-library-scorecard.md`
+- `preserve/transcripts/timestamped-transcript-standard.md` — NOT YET WRITTEN
+- `prove/analytics/content-library-scorecard.md` — NOT YET WRITTEN
 

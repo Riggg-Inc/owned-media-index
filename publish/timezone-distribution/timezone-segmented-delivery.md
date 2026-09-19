@@ -50,5 +50,5 @@ Based on a single production session (recrsnvWv01xgSM3K) observing that surveyin
 
 ## Related Patterns
 
-- `publish/email/owned-email-newsletter.md`
+- `publish/owned-channels/owned-email-newsletter.md`
 - `publish/live-premieres/simulcast-standard.md`

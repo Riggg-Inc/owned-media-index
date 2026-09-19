@@ -30,5 +30,5 @@ Maintaining RSS feed as the authoritative source for archival and portability, w
 External Research: Vendor primary source (Spotify) and platform documentation, supported by industry analysis of ecosystem bifurcation. Specifically, Spotify's requirement for direct upload for certain interactive features and Apple's continued RSS compatibility highlights the growing divergence.
 
 ## Related Patterns
-- Preserve/geo-aeo-citation-volatility
+- `preserve/ai-optimization/geo-aeo-citation-volatility.md`
 - Distribute/webinar-platform-consolidation-risk

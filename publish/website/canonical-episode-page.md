@@ -50,5 +50,5 @@ Needs future benchmark data from organic search, CTA clicks, and assisted conver
 ## Related Patterns
 
 - `publish/rss/feed-metadata-standard.md`
-- `preserve/transcripts/timestamped-transcript-standard.md`
+- `preserve/transcripts/timestamped-transcript-standard.md` — NOT YET WRITTEN
 

@@ -49,6 +49,6 @@ Needs validation through customer reporting cycles.
 
 ## Related Patterns
 
-- `prove/analytics/distribution-benchmark-model.md`
+- `prove/analytics/distribution-benchmark-model.md` — NOT YET WRITTEN
 - `preserve/vector-memory/content-memory-standard.md`
 

@@ -45,5 +45,5 @@ Based on reports of individual creators scaling podcast production to 80-100 new
 
 ## Related Patterns
 
--   `preserve/ai-disclosure-provenance-owned-asset.md` (Related to mandatory machine-readable provenance.)
--   `preserve/geo-aeo-citation-volatility.md` (Related to optimizing for AI-answer citation and trust signals.)
+-   `preserve/provenance/ai-disclosure-provenance-owned-asset.md` (Related to mandatory machine-readable provenance.)
+-   `preserve/ai-optimization/geo-aeo-citation-volatility.md` (Related to optimizing for AI-answer citation and trust signals.)

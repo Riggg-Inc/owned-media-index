@@ -47,6 +47,6 @@ Based on primary vendor M&A announcements (Cvent acquires ON24), industry analys
 
 ## Related Patterns
 
-- `preserve/data-portability-standard.md`
-- `distribute/rss-feed-canonical.md`
-- `preserve/ai-disclosure-provenance-owned-asset.md` (for long-term asset integrity)
+- `preserve/data-portability-standard.md` — NOT YET WRITTEN
+- `publish/rss-feed-canonical.md` — NOT YET WRITTEN (note: `distribute/` is not a valid stage; distribution patterns live under `publish/`)
+- `preserve/provenance/ai-disclosure-provenance-owned-asset.md` (for long-term asset integrity)

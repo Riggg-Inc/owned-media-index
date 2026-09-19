@@ -40,6 +40,6 @@ A high-quality owned email newsletter demonstrates consistent value to subscribe
 - **Strength:** INDUSTRY RESEARCH — strong; single lead source, quantified. The data from Sounds Profitable is from credible industry research and is quantified, supporting a strong thesis on the value of owned email newsletters as a direct engagement channel.
 
 ## Related Patterns
-- [[Preserve/owned-website-as-format-hub]]
+- `preserve/platform-strategy/owned-website-as-format-hub.md`
 - [[Distribute/spotify-native-upload-bypasses-rss]] (as a hedge against platform lock-in)
-- [[Preserve/podcasting2-transcript-namespace]] (complementary for canonical content)
+- `preserve/podcasting2-transcript-namespace.md` — NOT YET WRITTEN (Workboard card f2ca608a, in todo)

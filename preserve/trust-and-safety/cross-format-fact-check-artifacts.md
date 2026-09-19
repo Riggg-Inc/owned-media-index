@@ -46,4 +46,4 @@ Based on podcast-industry case analysis, publisher public material, and news inv
 ## Related Patterns
 
 - `preserve/provenance/ai-disclosure-provenance-owned-asset.md` (for broader AI provenance)
-- `prove/trust/canonical-source-for-corrections.md` (potential future pattern for a centralized correction system)
+- `prove/trust/canonical-source-for-corrections.md` — NOT YET WRITTEN (potential future pattern for a centralized correction system)

@@ -49,4 +49,4 @@ Observed across 4 separate Riggg production sessions (including recKdiijV9oOlFM3
 ## Related Patterns
 
 - `produce/presentation-tactics/soundbite-champion-arming.md`
-- `produce/audience-engagement/kinesthetic-audience-reset.md`
+- `produce/audience-engagement/kinesthetic-audience-reset.md` — NOT YET WRITTEN (Workboard card 1ad7cc9f, in todo)

@@ -50,5 +50,5 @@ Needs future benchmark data from impressions, clicks, comments, and downstream c
 ## Related Patterns
 
 - `package/clips/clip-selection-patterns.md`
-- `publish/live-premieres/social-premiere-standard.md`
+- `publish/live-premieres/social-premiere-standard.md` — NOT YET WRITTEN
 

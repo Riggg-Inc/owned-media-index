@@ -1,4 +1,4 @@
-# Preserve/AI-Optimization/Geo-AEO Citation Volatility
+# Geo-AEO Citation Volatility
 
 ## What It Is
 
@@ -95,4 +95,4 @@ Evidence level: external-research (core volatility/mechanism claims) + practitio
 
 ## Related Patterns
 
-- `preserve/content-reuse/aeo-content-reuse.md`
+- `preserve/content-reuse/aeo-content-reuse.md` — NOT YET WRITTEN

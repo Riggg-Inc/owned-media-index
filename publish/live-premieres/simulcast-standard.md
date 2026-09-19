@@ -52,6 +52,6 @@ Needs future benchmark data from live attendance, replay views, and channel-leve
 
 ## Related Patterns
 
-- `produce/live-production/live-show-run-of-show.md`
-- `publish/youtube/live-replay-standard.md`
+- `produce/live-production/live-show-run-of-show.md` — NOT YET WRITTEN
+- `publish/youtube/live-replay-standard.md` — NOT YET WRITTEN
 
