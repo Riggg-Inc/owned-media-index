@@ -40,7 +40,7 @@ Presenters can fluidly adjust detail depth without losing coherence or exceeding
 
 Evidence level: practitioner-observation.
 
-Based on observation of one session (rec5UuxFXbEWS9Y6F) where this technique was successfully employed.
+Based on observation of one session  where this technique was successfully employed.
 
 ## Related Patterns
 
