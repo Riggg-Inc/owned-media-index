@@ -2,34 +2,34 @@
 
 ## What It Is
 
-A strategy to diversify owned media monetization, shifting from skippable platform-controlled advertisements to integrated, owned-channel revenue streams. This guards against platforms unilaterally devaluing or stripping ad revenue from publisher content.
+Diversify owned media monetization. Shift from skippable platform ads to integrated, owned-channel revenue. Guards against platform devaluation.
 
 ## Best For
 
-- Owned media programs heavily reliant on platform-controlled ad revenue or platform-hosted premium content.
-- Programs operating on platforms testing or implementing ad-skipping functionalities (e.g., Spotify's "Skip Ahead").
-- Publishers seeking greater control over their monetization strategy and reduced dependence on third-party platform policies.
+- Podcasts with heavy reliance on platform-controlled ads or premium content.
+- Owned media programs facing threats from platform-side ad-skipping features.
 
 ## Why It Works
 
-Platforms have the power to introduce features (like one-tap ad skipping) or policy changes (such as auto-stripping ads under their Terms of Service) that can directly undermine an owned media program's revenue from platform-distributed content. By biasing revenue toward formats and channels the platform cannot easily skip or intercept, programs build resilience and maintain monetization control.
+Platforms can unilaterally undermine owned-media monetization. Building resilience through integrated and owned revenue streams mitigates this risk by reducing dependence on platform-controlled ad breaks.
 
 ## Required Elements
 
-- Prioritization of host-read or editorial-integrated sponsorships.
-- Establishment of first-party subscription/membership offerings on owned properties (website, newsletter, etc.).
-- Development of robust owned email and direct audience channels for sales and engagement.
-- Continuous monitoring of platform monetization risks and policy changes as a first-class distribution governance metric.
+- Prioritize host-read/editorial-integrated sponsorships that are harder to skip.
+- Sell premium content/memberships on owned properties (website, newsletter, first-party).
+- Develop and leverage owned email/direct channels for audience engagement and sales.
+- Monitor per-platform monetization risk as a first-class distribution-governance metric.
 
 ## Quality Bar
 
-Stable or growing revenue despite platform policy changes; demonstrated greater control over monetization streams; reduced impact from platform-initiated ad-skipping or stripping.
+Stable and growing revenue despite platform policy changes; greater monetization control and reduced platform dependency.
 
 ## When Not To Use
 
-- When an owned media program has no reliance on platform-based ad revenue.
-- For content distributed on platforms that explicitly guarantee revenue sharing and robust anti-ad-skipping mechanisms (verify this carefully).
-- When the operational complexity of diversifying revenue streams outweighs the potential risk of platform ad devaluation for a specific program.
+Avoid heavy real-time production when:
+
+- The owned media program has minimal reliance on platform-inserted ad breaks for monetization.
+- The operational overhead of managing diverse monetization channels outweighs the risk of platform devaluation.
 
 ## Riggg Score
 
@@ -38,11 +38,22 @@ Stable or growing revenue despite platform policy changes; demonstrated greater 
 ## Evidence
 
 Evidence level: external-research.
-
-Based on primary reporting from podcast industry publications (Podnews), platform spokesperson confirmations, independent third-party corroboration (Semafor, Net Influencer), and first-party vendor documentation (Spotify support pages) confirming platform-initiated ad-skipping tests and non-opt-out policies. This evidence demonstrates a clear and present risk of platform devaluation of delineated ad revenue, supporting the prescriptive pattern's necessity.
+- Spotify testing "Skip Ahead" for Premium users, allowing one-tap skipping of ad breaks and sponsored messages. This feature has expanded geographically (US, UK) and applies to Spotify-sold ads, with publishers unable to opt out.
+- Independent corroboration from Semafor and Net Influencer.
+- Spotify's own terms of service grant a broad license that could allow auto-stripping of all third-party ads.
+- Sources:
+    - https://podnews.net/article/spotify-threat-ad-skipping
+    - https://podnews.net/update/spotify-skip-ahead
+    - https://podnews.net/update/ignore-youtube
+    - https://podnews.net/article/spotify-unskippable-ads-and-auto-skips
+    - https://podnews.net/update/ad-skipping-podcasts-stats
+    - https://semafor.com/article/08/09/2026/spotifys-new-skip-button-could-end-the-podcast-business-as-we-know-it
+    - https://netinfluencer.com/spotify-tests-podcast-ad-skip-button-to-make-experience-more-intuitive
 
 ## Related Patterns
 
-- `publish/owned-property-hub/audience-first-party-data.md`
-- `publish/owned-property-hub/owned-content-distribution-hub.md`
-- `prove/analytics/consumed-play-metrics.md`
+- 71d51a9c
+- 54b74531
+- 4df042ae
+- f267c3c3
+- b023e9fa
