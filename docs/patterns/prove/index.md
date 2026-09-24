@@ -19,3 +19,9 @@ Proof patterns help teams get past download counts and toward signals that actua
 | Pattern | What It Covers |
 |---|---|
 | *(more coming)* | — |
+
+## AMP Accords Play Standard
+
+| Pattern | What It Covers |
+|---|---|
+| [AMP Accords Play Standard](amp-accords-play-standard.md) | Podcast measurement is moving from downloads to consumed plays and ad impressions |
