@@ -8,7 +8,7 @@ description: "Riggg's open-source OBS Studio scene collection template for real-
 **Score:** 5  
 **Evidence:** Internal production data (500+ sessions produced)
 
-<a href="../../assets/downloads/riggg-obs-scene-collection-v1.json" download class="md-button">Download Template (JSON)</a>
+<a href="../../../assets/downloads/riggg-obs-scene-collection-v1.json" download class="md-button">Download Template (JSON)</a>
 
 ## What It Is
 

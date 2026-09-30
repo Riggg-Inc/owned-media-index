@@ -70,8 +70,8 @@ The strongest strategic nuance is the two-path model: YouTube-native distributio
 
 ## Related Patterns
 
-- `produce/real-time-production/obs-production-standard.md`
-- `publish/rss/feed-metadata-standard.md`
-- `publish/youtube/title-and-description-standard.md`
-- `publish/website/canonical-episode-page.md`
+- [OBS Production Standard](../obs-production-standard.md)
+- [Feed Metadata Standard](../../publish/feed-metadata-standard.md)
+- [YouTube Title and Description Standard](../../publish/youtube-title-and-description-standard.md)
+- [Canonical Episode Page](../../publish/canonical-episode-page.md)
 - `package/reels/vertical-reel-package-standard.md`

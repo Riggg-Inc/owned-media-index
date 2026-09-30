@@ -19,31 +19,31 @@ description: "Riggg Quadrant for clip styles. Maps 5 clip extraction patterns on
   <span class="rq-axis rq-axis--bottom">↓ Niche</span>
 
   <!-- Hot Take: low effort to extract, very high viral -->
-  <a href="../patterns/package/clips/hot-take/" class="rq-dot rq-dot--5" style="left:25%;top:15%;">
+  <a href="../../patterns/package/clips/hot-take/" class="rq-dot rq-dot--5" style="left:25%;top:15%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Hot Take</span>
   </a>
 
   <!-- Debate Moment: moderate effort (need multi-guest), high viral -->
-  <a href="../patterns/package/clips/debate-moment/" class="rq-dot rq-dot--4" style="left:60%;top:22%;">
+  <a href="../../patterns/package/clips/debate-moment/" class="rq-dot rq-dot--4" style="left:60%;top:22%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Debate Moment</span>
   </a>
 
   <!-- Golden Nugget: low-moderate effort, moderate viral -->
-  <a href="../patterns/package/clips/golden-nugget/" class="rq-dot rq-dot--5" style="left:30%;top:40%;">
+  <a href="../../patterns/package/clips/golden-nugget/" class="rq-dot rq-dot--5" style="left:30%;top:40%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Golden Nugget</span>
   </a>
 
   <!-- Story Beat: high effort (finding the right moment), moderate-high viral -->
-  <a href="../patterns/package/clips/story-beat/" class="rq-dot rq-dot--4" style="left:68%;top:35%;">
+  <a href="../../patterns/package/clips/story-beat/" class="rq-dot rq-dot--4" style="left:68%;top:35%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Story Beat</span>
   </a>
 
   <!-- Data Drop: moderate effort, niche but authoritative -->
-  <a href="../patterns/package/clips/data-drop/" class="rq-dot rq-dot--4" style="left:50%;top:58%;">
+  <a href="../../patterns/package/clips/data-drop/" class="rq-dot rq-dot--4" style="left:50%;top:58%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Data Drop</span>
   </a>

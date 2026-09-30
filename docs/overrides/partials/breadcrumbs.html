@@ -1,0 +1,16 @@
+<nav class="omi-breadcrumbs" aria-label="Breadcrumb">
+  <ol role="list">
+    {% if breadcrumbs %}
+      {% for crumb in breadcrumbs %}
+      <li>
+        {% if not loop.first %}<span aria-hidden="true" class="omi-breadcrumbs__separator">›</span>{% endif %}
+        {% if loop.last %}<span aria-current="page">{{ crumb.name | e }}</span>
+        {% else %}<a href="{{ crumb.url | url }}">{{ crumb.name | e }}</a>{% endif %}
+      </li>
+      {% endfor %}
+    {% else %}
+      <li><a href="{{ config.site_url }}">Home</a></li>
+      <li><span aria-hidden="true" class="omi-breadcrumbs__separator">›</span><span aria-current="page">Page not found</span></li>
+    {% endif %}
+  </ol>
+</nav>

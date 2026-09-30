@@ -23,67 +23,67 @@ description: "Riggg Quadrant for title styles. Maps 11 podcast title patterns on
   <!-- Data points: left% = niche↔broad, top% = authority↔curiosity -->
 
   <!-- Authority Claim: broadest appeal + highest authority = top-right -->
-  <a href="../patterns/package/titles/authority-claim/" class="rq-dot rq-dot--5" style="left:82%;top:12%;">
+  <a href="../../patterns/package/titles/authority-claim/" class="rq-dot rq-dot--5" style="left:82%;top:12%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Authority Claim</span>
   </a>
 
   <!-- Guest Authority: relies on name recognition, authority-heavy -->
-  <a href="../patterns/package/titles/guest-authority/" class="rq-dot rq-dot--4" style="left:62%;top:18%;">
+  <a href="../../patterns/package/titles/guest-authority/" class="rq-dot rq-dot--4" style="left:62%;top:18%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Guest Authority</span>
   </a>
 
   <!-- Role Guide: very niche targeting, authority positioning -->
-  <a href="../patterns/package/titles/role-guide/" class="rq-dot rq-dot--4" style="left:18%;top:22%;">
+  <a href="../../patterns/package/titles/role-guide/" class="rq-dot rq-dot--4" style="left:18%;top:22%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Role Guide</span>
   </a>
 
   <!-- Inside Look: moderately broad, authority from behind-the-scenes access -->
-  <a href="../patterns/package/titles/inside-look/" class="rq-dot rq-dot--4" style="left:55%;top:30%;">
+  <a href="../../patterns/package/titles/inside-look/" class="rq-dot rq-dot--4" style="left:55%;top:30%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Inside Look</span>
   </a>
 
   <!-- Before-After Playbook: transformation stories, moderately broad, mixed authority/curiosity -->
-  <a href="../patterns/package/titles/before-after-playbook/" class="rq-dot rq-dot--4" style="left:58%;top:42%;">
+  <a href="../../patterns/package/titles/before-after-playbook/" class="rq-dot rq-dot--4" style="left:58%;top:42%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Before-After</span>
   </a>
 
   <!-- Big Question: niche/strategic audience, curiosity-driven -->
-  <a href="../patterns/package/titles/big-question/" class="rq-dot rq-dot--3" style="left:28%;top:55%;">
+  <a href="../../patterns/package/titles/big-question/" class="rq-dot rq-dot--3" style="left:28%;top:55%;">
     <div class="rq-dot-circle">3</div>
     <span class="rq-dot-label">Big Question</span>
   </a>
 
   <!-- Future Of: moderately broad, curiosity about what's next -->
-  <a href="../patterns/package/titles/future-of/" class="rq-dot rq-dot--3" style="left:52%;top:58%;">
+  <a href="../../patterns/package/titles/future-of/" class="rq-dot rq-dot--3" style="left:52%;top:58%;">
     <div class="rq-dot-circle">3</div>
     <span class="rq-dot-label">Future Of</span>
   </a>
 
   <!-- How-To Outcome: broad appeal, curiosity/value driven -->
-  <a href="../patterns/package/titles/how-to-outcome/" class="rq-dot rq-dot--5" style="left:72%;top:65%;">
+  <a href="../../patterns/package/titles/how-to-outcome/" class="rq-dot rq-dot--5" style="left:72%;top:65%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">How-To Outcome</span>
   </a>
 
   <!-- Numbered Insight: broad, curiosity/scannable -->
-  <a href="../patterns/package/titles/numbered-insight/" class="rq-dot rq-dot--4" style="left:75%;top:75%;">
+  <a href="../../patterns/package/titles/numbered-insight/" class="rq-dot rq-dot--4" style="left:75%;top:75%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Numbered Insight</span>
   </a>
 
   <!-- Contrarian Hook: broad appeal, pure curiosity/tension -->
-  <a href="../patterns/package/titles/contrarian-hook/" class="rq-dot rq-dot--5" style="left:80%;top:85%;">
+  <a href="../../patterns/package/titles/contrarian-hook/" class="rq-dot rq-dot--5" style="left:80%;top:85%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Contrarian Hook</span>
   </a>
 
   <!-- Hidden Cost: moderate audience, curiosity through loss aversion -->
-  <a href="../patterns/package/titles/hidden-cost/" class="rq-dot rq-dot--4" style="left:45%;top:78%;">
+  <a href="../../patterns/package/titles/hidden-cost/" class="rq-dot rq-dot--4" style="left:45%;top:78%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Hidden Cost</span>
   </a>

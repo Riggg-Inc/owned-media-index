@@ -377,3 +377,18 @@ h1, h2, h3, h4, h5, h6,
 .md-nav--secondary .md-nav__link--active {
   color: var(--riggg-teal) !important;
 }
+
+/* Published hierarchy, including pages omitted from the main navigation. */
+.omi-breadcrumbs { margin: 0 0 1rem; color: var(--md-default-fg-color); font-size: .7rem; }
+.omi-breadcrumbs ol, .md-typeset .omi-breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: baseline; gap: .15rem .35rem; list-style: none; margin: 0; padding: 0; }
+.omi-breadcrumbs li, .md-typeset .omi-breadcrumbs li { display: flex; align-items: baseline; gap: .35rem; min-width: 0; max-width: 100%; margin: 0; }
+.omi-breadcrumbs a, .omi-breadcrumbs [aria-current] { padding: .3rem 0; overflow-wrap: anywhere; }
+.omi-breadcrumbs a { text-decoration: underline; text-underline-offset: .15em; }
+.omi-breadcrumbs a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.omi-breadcrumbs__separator { flex: none; }
+.omi-breadcrumbs--home { padding: .4rem max(.8rem, calc((100% - 61rem) / 2)); background: var(--md-default-bg-color); }
+.omi-breadcrumbs--home .omi-breadcrumbs { margin: 0; }
+@media (min-width: 76.25em) {
+  /* The home template floats desktop tabs; keep the Home trail below them. */
+  .omi-breadcrumbs--home { padding-top: 2.8rem; }
+}

@@ -33,6 +33,11 @@ jobs:
       - name: Build site
         run: mkdocs build --strict
 
+      - name: Validate internal links and breadcrumbs
+        run: |
+          python scripts/validate_site.py
+          python -m unittest discover -s scripts -p "test_*.py" -v
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

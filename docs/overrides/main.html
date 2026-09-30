@@ -50,33 +50,7 @@
         }
       }
     },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "{{ config.site_url }}"
-        }
-        {% if page.parent %}
-        ,{
-          "@type": "ListItem",
-          "position": 2,
-          "name": "{{ page.parent.title }}",
-          "item": "{{ config.site_url }}{{ page.parent.url | default('') }}"
-        }
-        {% endif %}
-        {% if page.title and page.title != "Home" %}
-        ,{
-          "@type": "ListItem",
-          "position": {{ 3 if page.parent else 2 }},
-          "name": "{{ page.title }}",
-          "item": "{{ page.canonical_url }}"
-        }
-        {% endif %}
-      ]
-    },
+    {{ breadcrumb_schema | tojson }},
     {
       "@type": "Article",
       "headline": "{{ page.title | default('Owned Media Index') }}",
@@ -108,4 +82,9 @@
 </script>
 
 {% endif %}
+{% endblock %}
+
+{% block content %}
+{% include "partials/breadcrumbs.html" %}
+{{ super() }}
 {% endblock %}

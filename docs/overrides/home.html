@@ -759,7 +759,8 @@
 
 {% block tabs %}
 {{ super() }}
-<div class="omi-driver">
+<div class="omi-breadcrumbs--home">{% include "partials/breadcrumbs.html" %}</div>
+<div class="omi-driver" id="owned-media-index">
   <div class="omi-sticky" id="scene">
 
     {# ── L1: Studio background ── #}
@@ -962,7 +963,7 @@
 
 <!-- ═══ Section 1: The Framework ═══ -->
 <div class="omi-section">
-  <h2>The Framework</h2>
+  <h2 id="the-framework">The Framework</h2>
   <p class="omi-subtitle">
     Every entry in the index maps to one of five stages of the owned media operating system.
   </p>
@@ -979,7 +980,7 @@
 
 <!-- ═══ Section 2: Everything You Need ═══ -->
 <div class="omi-section omi-section--alt">
-  <h2>Everything You Need</h2>
+  <h2 id="whats-inside">Everything You Need</h2>
   <p class="omi-subtitle">
     Ranked patterns, evidence-backed standards, and opinionated guidance for every stage of owned media.
   </p>
@@ -1069,7 +1070,7 @@
 
 <!-- ═══ Section 4: Built For Practitioners ═══ -->
 <div class="omi-section omi-section--navy">
-  <h2>Built for Practitioners</h2>
+  <h2 id="why-this-exists">Built for Practitioners</h2>
   <p class="omi-subtitle">
     Not for vendors. Not for executives who want a deck. For the people actually building and running owned media programs.
   </p>
@@ -1147,7 +1148,7 @@
 
 <!-- ═══ Section 6: Open Source CTA ═══ -->
 <div class="omi-section omi-section--dark omi-cta-banner">
-  <h2>Open Source. Opinionated.</h2>
+  <h2 id="published-by-riggg">Open Source. Opinionated.</h2>
   <p>
     The Owned Media Index is open to the community. Submit a pattern. Correct an entry. Propose a new section. Every contribution is reviewed by the Riggg team.
   </p>

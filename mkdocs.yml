@@ -53,6 +53,13 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+hooks:
+  - hooks/breadcrumbs.py
+
+# Templates are build inputs, never public pages.
+exclude_docs: |
+  /overrides/
+
 plugins:
   - search
 

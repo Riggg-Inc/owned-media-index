@@ -19,37 +19,37 @@ description: "Riggg Quadrant for description styles. Maps 6 episode description 
   <span class="rq-axis rq-axis--bottom">↓ Emotion</span>
 
   <!-- Thesis-Takeaways-CTA: most concise, pure information -->
-  <a href="../patterns/package/descriptions/thesis-takeaways-cta/" class="rq-dot rq-dot--4" style="left:18%;top:18%;">
+  <a href="../../patterns/package/descriptions/thesis-takeaways-cta/" class="rq-dot rq-dot--4" style="left:18%;top:18%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Thesis-Takeaways-CTA</span>
   </a>
 
   <!-- Audience Pain Breakdown: moderate brevity, information with a pain hook -->
-  <a href="../patterns/package/descriptions/audience-pain-breakdown/" class="rq-dot rq-dot--4" style="left:35%;top:42%;">
+  <a href="../../patterns/package/descriptions/audience-pain-breakdown/" class="rq-dot rq-dot--4" style="left:35%;top:42%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Audience Pain</span>
   </a>
 
   <!-- Big Question Summary: moderate depth, intellectual/information -->
-  <a href="../patterns/package/descriptions/big-question-summary/" class="rq-dot rq-dot--4" style="left:62%;top:25%;">
+  <a href="../../patterns/package/descriptions/big-question-summary/" class="rq-dot rq-dot--4" style="left:62%;top:25%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Big Question</span>
   </a>
 
   <!-- Problem-Credibility-Takeaway: deep, information-heavy with structure -->
-  <a href="../patterns/package/descriptions/problem-credibility-takeaway/" class="rq-dot rq-dot--5" style="left:75%;top:20%;">
+  <a href="../../patterns/package/descriptions/problem-credibility-takeaway/" class="rq-dot rq-dot--5" style="left:75%;top:20%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Problem-Credibility</span>
   </a>
 
   <!-- Credential-Context-Learn: deep, balanced info/emotion -->
-  <a href="../patterns/package/descriptions/credential-context-learn/" class="rq-dot rq-dot--5" style="left:78%;top:42%;">
+  <a href="../../patterns/package/descriptions/credential-context-learn/" class="rq-dot rq-dot--5" style="left:78%;top:42%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">Credential-Context-Learn</span>
   </a>
 
   <!-- Guest Story Arc: deepest, most emotional -->
-  <a href="../patterns/package/descriptions/guest-story-arc/" class="rq-dot rq-dot--4" style="left:72%;top:78%;">
+  <a href="../../patterns/package/descriptions/guest-story-arc/" class="rq-dot rq-dot--4" style="left:72%;top:78%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Guest Story Arc</span>
   </a>

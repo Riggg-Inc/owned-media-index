@@ -19,55 +19,55 @@ description: "Riggg Quadrant for mastering tools. Maps video and audio post-prod
   <span class="rq-axis rq-axis--bottom">↓ Basic</span>
 
   <!-- DaVinci Resolve Free: free, very professional -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--5" style="left:12%;top:12%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--5" style="left:12%;top:12%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">DaVinci Resolve (Free)</span>
   </a>
 
   <!-- DaVinci Resolve Studio: paid, most professional -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--5" style="left:48%;top:8%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--5" style="left:48%;top:8%;">
     <div class="rq-dot-circle">5</div>
     <span class="rq-dot-label">DaVinci Resolve Studio</span>
   </a>
 
   <!-- Adobe Premiere: subscription, very professional -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:62%;top:15%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:62%;top:15%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Premiere Pro</span>
   </a>
 
   <!-- Final Cut Pro: one-time premium, professional -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:55%;top:22%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:55%;top:22%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Final Cut Pro</span>
   </a>
 
   <!-- iZotope RX: premium, professional audio -->
-  <a href="../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--4" style="left:68%;top:18%;">
+  <a href="../../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--4" style="left:68%;top:18%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">iZotope RX</span>
   </a>
 
   <!-- Descript: moderate price, moderate-high capability -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:45%;top:38%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--4" style="left:45%;top:38%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Descript</span>
   </a>
 
   <!-- Auphonic: freemium, moderate capability, automated -->
-  <a href="../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--4" style="left:20%;top:42%;">
+  <a href="../../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--4" style="left:20%;top:42%;">
     <div class="rq-dot-circle">4</div>
     <span class="rq-dot-label">Auphonic</span>
   </a>
 
   <!-- CapCut: free, basic-moderate -->
-  <a href="../patterns/produce/master/" class="rq-dot rq-dot--3" style="left:10%;top:62%;">
+  <a href="../../patterns/produce/master/" class="rq-dot rq-dot--3" style="left:10%;top:62%;">
     <div class="rq-dot-circle">3</div>
     <span class="rq-dot-label">CapCut</span>
   </a>
 
   <!-- Adobe Podcast Enhance: free, basic audio -->
-  <a href="../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--3" style="left:15%;top:72%;">
+  <a href="../../patterns/produce/master/audio-mastering/" class="rq-dot rq-dot--3" style="left:15%;top:72%;">
     <div class="rq-dot-circle">3</div>
     <span class="rq-dot-label">Adobe Podcast</span>
   </a>
