@@ -4,6 +4,8 @@ description: "Export specifications for owned media deliverables. Platform-speci
 
 # Export Specifications
 
+A reference table of export settings for every deliverable format across every major distribution platform. Start with the destination and aspect ratio; distinguish workflow presets from platform upload limits.
+
 **Stage:** Produce → Master  
 **Score:** 4  
 **Evidence:** Platform documentation
@@ -30,10 +32,12 @@ A reference table of export settings for every deliverable format across every m
 | Platform | Resolution | Codec | Max Duration | Frame Rate | Max Size |
 |---|---|---|---|---|---|
 | Instagram Reels | 1080×1920 | H.264 | 90s | 30fps | 4 GB |
-| YouTube Shorts | 1080×1920 | H.264 | 60s | 30fps | N/A |
+| YouTube Shorts | 1080×1920 | H.264 | 3min (eligible square/vertical uploads) | 30fps | N/A |
 | TikTok | 1080×1920 | H.264 | 10min | 30fps | 4 GB |
 | LinkedIn | 1080×1920 | H.264 | 10min | 30fps | 5 GB |
 | Facebook Reels | 1080×1920 | H.264 | 90s | 30fps | 4 GB |
+
+[YouTube documents Shorts up to three minutes](https://support.google.com/youtube/answer/15424877) for eligible square or vertical uploads. Shorts over one minute with an active Content ID claim are blocked globally. Other platform limits in this table still require destination-specific revalidation.
 
 ## Audio Export Specs
 

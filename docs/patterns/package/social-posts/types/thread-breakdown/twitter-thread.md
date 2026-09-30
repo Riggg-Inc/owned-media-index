@@ -1,4 +1,10 @@
+---
+description: "A Twitter/X thread breaks an episode topic into connected short posts, each advancing the explanation."
+---
+
 # Twitter Thread
+
+A Twitter/X thread breaks an episode topic into connected short posts, each advancing the explanation. Use it for a sequence needing more room than one post; close with one clear action.
 
 **Stage:** Package → Social Posts → Thread Breakdown  
 **Score:** 4  
@@ -10,18 +16,21 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Thread Breakdown social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A Twitter/X thread breaks an episode topic into connected short posts, each advancing the explanation.
+
+## When To Use
+
+Use it for a sequence needing more room than one post; close with one clear action.
 
 ## Template
 
 ```
-[Hook — first line earns the second line]
+[Opening post — the central question and why the breakdown matters]
 
-[Body — value, context, or story]
+[Next post — first takeaway with enough context to stand alone]
+[Following posts — connected takeaways in a logical order]
 
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
+[Closing post — episode link and one clear next action]
 ```
 
 ## Quality Bar

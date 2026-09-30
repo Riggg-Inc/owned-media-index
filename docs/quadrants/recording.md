@@ -4,6 +4,8 @@ description: "Riggg Quadrant for recording methods and platforms. Maps recording
 
 # Recording Methods Quadrant
 
+Choose recording methods by participant location, setup complexity, and the source quality needed for editing. Remote isolated tracks support distributed interviews; in-studio multi-camera capture provides more control at the cost of setup complexity.
+
 <div class="rq-title">Riggg Quadrant: Recording Methods</div>
 <div class="rq-subtitle">Where each recording method sits on setup complexity and maximum output quality</div>
 
@@ -84,3 +86,14 @@ description: "Riggg Quadrant for recording methods and platforms. Maps recording
 **Bottom-left (Easy + Lower Quality):** Quick to set up but limiting for downstream production. *Zoom cloud recording* and *Google Meet* — fine for meetings, not for broadcast production.
 
 **The gap matters.** The distance between Riverside/SquadCast and Zoom Cloud is the difference between a show that can be produced like television and a recording that needs rescue in post.
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Remote guest interviews | [Remote Isolated Recording](../patterns/produce/record/remote-isolated.md) | Per-person tracks preserve editing flexibility. |
+| Participants in one studio | [In-Studio Multi-Camera](../patterns/produce/record/in-studio-multi-camera.md) | More source control with more setup complexity. |
+| Studio host and remote guests | [Hybrid Recording](../patterns/produce/record/hybrid-recording.md) | Accommodates mixed locations with a more complex setup. |
+| Audio backup or fallback | [Zoom Local](../patterns/produce/record/zoom-local.md) | Separate audio is useful; compressed video limits flexibility. |
+| Meeting capture | [Zoom Cloud](../patterns/produce/record/zoom-cloud.md) | Convenient, but not a production-quality default. |
+| Quick live output | [StreamYard](../patterns/produce/record/streamyard.md) | The documented mixed-output approach limits later editing flexibility. |

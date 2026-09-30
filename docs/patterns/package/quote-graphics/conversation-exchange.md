@@ -1,4 +1,10 @@
+---
+description: "A graphic showing a brief exchange between host and guest, formatted like a dialogue."
+---
+
 # Conversation Exchange
+
+A graphic showing a brief exchange between host and guest, formatted like a dialogue. Use it when the exchange itself carries the point; choose a single quote when the dialogue needs too much context.
 
 **Stage:** Package → Quote Graphics  
 **Score:** 4  

@@ -1,4 +1,10 @@
+---
+description: "Guest Tag social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Guest Tag
+
+A post designed to tag the guest and their company, activating cross-promotion and extending reach into the guest's network.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn quote post shares an attributed episode quotation with context for a professional audience."
+---
+
 # Linkedin Quote Post
+
+A LinkedIn quote post shares an attributed episode quotation with context for a professional audience. Choose a quote carrying a specific idea and add why it matters rather than merely repeating it.
 
 **Stage:** Package → Social Posts → Quote Share  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Quote Share social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn quote post shares an attributed episode quotation with context for a professional audience.
+
+## When To Use
+
+Choose a quote carrying a specific idea and add why it matters rather than merely repeating it.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

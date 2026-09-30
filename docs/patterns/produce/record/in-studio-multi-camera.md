@@ -4,6 +4,8 @@ description: "In-studio multi-camera recording pattern for podcast and video pro
 
 # In-Studio Multi-Camera
 
+All participants are in the same physical studio. Choose it when participants share a studio and you need lighting, sound, and layout control; use remote isolation for distributed guests.
+
 **Stage:** Produce → Record  
 **Score:** 5  
 **Evidence:** Broadcast production standards

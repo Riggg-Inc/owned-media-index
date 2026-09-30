@@ -1,4 +1,10 @@
+---
+description: "A clip capturing a single, actionable piece of advice or insight that the audience can apply immediately."
+---
+
 # Golden Nugget
+
+A clip capturing a single, actionable piece of advice or insight that the audience can apply immediately. Choose a specific action the audience can use without the full episode; leave context-dependent advice in a longer format.
 
 **Stage:** Package → Clips  
 **Score:** 5  
@@ -10,7 +16,7 @@ A clip capturing a single, actionable piece of advice or insight that the audien
 
 ## Why It Works
 
-Practitioners share tactics. When someone hears a specific, usable insight, they save it, screenshot it, or send it to a colleague. Golden nuggets earn the most saves and bookmarks.
+Practitioners share tactics. When someone hears a specific, usable insight, they save it, screenshot it, or send it to a colleague. Treat saves and bookmarks as outcomes to measure, not a guaranteed advantage over other clip styles.
 
 ## Selection Criteria
 
@@ -25,6 +31,8 @@ Avoid when the advice requires significant context to understand, or when the in
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

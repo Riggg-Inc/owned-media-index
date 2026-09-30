@@ -1,4 +1,10 @@
+---
+description: "A clip built around a specific statistic, benchmark, or data point that surprises or reframes the audience's understanding."
+---
+
 # Data Drop
+
+A clip built around a specific statistic, benchmark, or data point that surprises or reframes the audience's understanding. Choose a credible, surprising number the speaker explains; avoid statistics that lose their meaning without extensive context.
 
 **Stage:** Package → Clips  
 **Score:** 4  
@@ -25,6 +31,8 @@ Avoid when the statistic is well-known, when the source is questionable, or when
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

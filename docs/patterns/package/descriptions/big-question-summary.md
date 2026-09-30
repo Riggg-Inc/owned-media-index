@@ -1,4 +1,10 @@
+---
+description: "A description that opens with the central question driving the episode, summarizes the conversation arc, and lists the key takeaways."
+---
+
 # Big Question Summary
+
+A description that opens with the central question driving the episode, summarizes the conversation arc, and lists the key takeaways. Choose it for an exploratory conversation with a meaningful central question, rather than step-by-step instruction.
 
 **Stage:** Package → Descriptions  
 **Score:** 4  
@@ -18,6 +24,8 @@ Leading with a big question creates intellectual curiosity. Practitioners who th
 
 ## Example
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 > What happens when your owned media strategy outlasts your marketing team? This episode explores the tension between building a durable content engine and the reality of team turnover, budget shifts, and platform changes. Key takeaways: why systemization beats talent, how to document your production workflow, and what "content resilience" actually means. Links and resources at riggg.com/episodes.
 
 ## Quality Bar
@@ -33,6 +41,8 @@ Avoid for tactical episodes where the listener wants "how to do X" — not "what
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

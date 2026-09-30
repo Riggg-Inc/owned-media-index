@@ -4,6 +4,8 @@ description: "Zoom cloud recording for podcast and webinar production. Mixed vid
 
 # Zoom Cloud Recording
 
+Recording a Zoom call using the cloud recording option, which saves files to Zoom's servers. Use it when local capture is unavailable or the recording is a meeting reference, not when the planned edit needs isolated participant video.
+
 **Stage:** Produce → Record  
 **Score:** 2  
 **Evidence:** Practitioner observation

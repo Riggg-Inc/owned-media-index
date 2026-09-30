@@ -1,15 +1,17 @@
 ---
-description: "Podcast measurement is moving from downloads to consumed plays and ad impressions"
+description: "The AMP Accords Play Standard pattern separates delivered downloads from consumed plays and ad impressions in cross-platform reporting."
 ---
 
 # AMP Accords Play Standard
+
+The AMP Accords Play Standard pattern separates delivered downloads from consumed plays and ad impressions in cross-platform reporting. Use explicit metric definitions, collection methods, and source platforms rather than adding unlike audience measures together.
 
 **Stage:** Prove
 **Score:** 4
 
 ## What It Is
 
-The AMP (Audio Measurement Protocol) Accords represent a shift in podcast measurement from simple file downloads to more granular consumed plays and ad impressions. This pattern advocates for normalizing performance metrics across diverse platforms, ensuring owned-media scorecards differentiate between delivery-based and consumption-based audience engagement. It addresses the challenge of comparing disparate metrics (e.g., downloads vs. 30-second plays vs. YouTube views) by emphasizing transparent reporting of measurement methods and sources.
+The AMP (Alliance for Measurement in Podcasting) Accords represent a shift in podcast measurement from simple file downloads to more granular consumed plays and ad impressions. This pattern advocates for normalizing performance metrics across diverse platforms, ensuring owned-media scorecards differentiate between delivery-based and consumption-based audience engagement. It addresses the challenge of comparing disparate metrics (e.g., downloads vs. 30-second plays vs. YouTube views) by emphasizing transparent reporting of measurement methods and sources.
 
 ## Best For
 
@@ -19,7 +21,7 @@ The AMP (Audio Measurement Protocol) Accords represent a shift in podcast measur
 
 ## Why It Works
 
-By providing a unified framework, the AMP Accords (and patterns based on them) enable a clearer understanding of how audiences actually consume content. This reduces ambiguity and prevents misinterpretation of performance data. It helps in making informed content and distribution decisions by highlighting true engagement, rather than just content delivery. It also serves as a guardrail against platform-side ad skipping, ensuring that reported ad impressions reflect actual consumption.
+By providing a unified framework, the AMP Accords (and patterns based on them) enable a clearer understanding of how audiences actually consume content. This reduces ambiguity and prevents misinterpretation of performance data. It helps in making informed content and distribution decisions by highlighting true engagement, rather than just content delivery. Separating delivery from consumption makes reporting limitations clearer; it does not itself prevent ad skipping or prove that an impression was consumed.
 
 ## Required Elements
 
@@ -39,7 +41,9 @@ This pattern may be less critical for programs solely focused on content archiva
 
 ## Evidence
 
-The AMP Accords have been established as the first cross-platform measurement standard in podcasting, ratified by various industry players (platforms, advertisers, publishers, creators). Spotify has adjusted its play counts to reflect a minimum of 30 seconds of listening, aligning with the AMP's Play definition. While the IAB Tech Lab's guidelines are still evolving, the industry trend points towards more granular, consumption-based metrics. The need for this pattern is further underscored by issues like platform ad-skipping (e.g., Spotify's "Skip Ahead" test), which widen the gap between delivery and actual consumption, making verified-listen metrics crucial for fraud/quality guardrails.
+The [Alliance for Measurement in Podcasting’s official site](https://www.ampaccords.com/) describes the Accords as a cross-platform measurement standard ratified by twelve operators spanning platforms, advertisers, publishers, and creators. Its “first” claim is the organization’s own characterization, not an independently established comparison.
+
+The public landing page does not substantiate all detailed metric definitions. The full white paper requires a form submission and was not reviewed in this pass. Treat the 30-second play example as illustrative until checked against the current standard and the reporting platform’s own documentation. Spotify alignment and anti-ad-skipping effects are not established by this source. The existing score is retained pending the normal evidence review; a source link alone does not validate it.
 
 ## Related Patterns
 

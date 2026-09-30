@@ -1,8 +1,10 @@
 ---
-description: "How to appear in Google AI Overviews, Perplexity, ChatGPT, Bing Copilot, and Claude. Crawler access and indexing requirements."
+description: "AI-search platform visibility starts with accessible, indexable owned pages and deliberate crawler permissions."
 ---
 
 # Platform Visibility
+
+AI-search platform visibility starts with accessible, indexable owned pages and deliberate crawler permissions. Use the checklist to diagnose discovery barriers; crawler access does not guarantee indexing or citation.
 
 **Stage:** Publish → AI Search Optimization  
 **Score:** 4  
@@ -11,6 +13,8 @@ description: "How to appear in Google AI Overviews, Perplexity, ChatGPT, Bing Co
 ## What It Is
 
 A guide to how major AI search platforms discover, index, and surface owned media content — and what you need to do to appear in each.
+
+For Google, [the documented eligibility requirements](https://developers.google.com/search/docs/appearance/ai-features) are indexing and snippet eligibility, not a special schema or AI markup. The other platform notes below remain implementation guidance, not guaranteed citation criteria.
 
 ## The Platforms
 
@@ -22,8 +26,8 @@ Google's AI-generated answers that appear at the top of search results.
 |---|---|
 | **How it works** | Google's AI synthesizes answers from indexed web pages and presents them above traditional results |
 | **Content source** | Your website pages (not your podcast app listing) |
-| **Key requirement** | Structured content on indexable web pages with schema markup |
-| **What helps** | FAQ schema, direct answer paragraphs, specific claims, E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness) |
+| **Key requirement** | Indexed pages eligible to appear in Google Search with a snippet; no additional AI-specific technical requirement |
+| **What helps** | Helpful, reliable content, crawlable internal links, and important information available as text |
 | **What hurts** | Gated content, thin pages, no author attribution, no dates |
 | **Crawler** | Googlebot (respects robots.txt) |
 
@@ -86,7 +90,7 @@ Make sure AI crawlers can actually reach your content:
 |---|---|
 | **robots.txt** | Allow access for Googlebot, PerplexityBot, OAI-SearchBot, Bingbot, ClaudeBot, anthropic-ai |
 | **Sitemap** | Submit XML sitemap to Google Search Console and Bing Webmaster Tools |
-| **IndexNow** | Implement IndexNow protocol for instant Bing/Yandex indexing on publish |
+| **IndexNow** | Use IndexNow to notify participating search engines of changed URLs; notification is not guaranteed instant indexing |
 | **Server-side rendering** | Critical content must be in the initial HTML response, not JS-rendered |
 | **Page speed** | Fast load times improve crawl efficiency |
 | **HTTPS** | Required for all platforms |
@@ -98,7 +102,7 @@ Make sure AI crawlers can actually reach your content:
 - Sitemap submitted to Google and Bing
 - Episode pages server-side rendered (not client-only JS)
 - Schema markup validates on Google Rich Results Test
-- New episodes indexed within 48 hours of publishing
+- Check new episodes for indexing after 48 hours; investigate issues rather than promising a deadline
 - Monitor Google Search Console for crawl errors
 
 ## When Not To Use

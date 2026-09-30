@@ -1,4 +1,10 @@
+---
+description: "The most concise description pattern."
+---
+
 # Thesis-Takeaways-CTA
+
+The most concise description pattern. Use it when a clear thesis and three distinct takeaways carry the description; choose a story arc for narrative-heavy episodes.
 
 **Stage:** Package → Descriptions  
 **Score:** 4  
@@ -18,6 +24,8 @@ Brevity wins in truncated environments. Podcast apps, social previews, and searc
 
 ## Example
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 > Distribution is the most underinvested stage of podcast production. In this episode: (1) why publishing without a distribution plan wastes 80% of your production investment, (2) the 7-channel distribution checklist we run for every episode, (3) how simulcast live streaming turns distribution into a premiere event. Subscribe for weekly production patterns.
 
 ## Quality Bar
@@ -32,6 +40,8 @@ Avoid for narrative-heavy episodes where a story arc description would be more c
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

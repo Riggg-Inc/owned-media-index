@@ -4,6 +4,8 @@ description: "Riggg Quadrant for mastering tools. Maps video and audio post-prod
 
 # Mastering Tools Quadrant
 
+Choose mastering tools by the work required and the control you need: a full editor for video finishing, dedicated tools for audio repair, or automation for faster cleanup. This quadrant compares price with professional capability.
+
 <div class="rq-title">Riggg Quadrant: Mastering Tools</div>
 <div class="rq-subtitle">Where each tool sits on price and professional capability</div>
 
@@ -92,3 +94,14 @@ description: "Riggg Quadrant for mastering tools. Maps video and audio post-prod
 ## Recommendation
 
 Start with **DaVinci Resolve (Free)** for video mastering and **Auphonic** for automated audio mastering. That combination covers 90% of owned media mastering needs at near-zero cost. Graduate to Resolve Studio or Premiere Pro when specific features demand it.
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Full video finishing | DaVinci Resolve | The documented starting recommendation combines editing, color, audio, and effects. |
+| Paid editing ecosystem | Premiere Pro or Final Cut Pro | Choose when integrations, platform, or specific features justify it. |
+| Specialist audio repair | iZotope RX | Dedicated noise reduction and repair rather than full video editing. |
+| Transcript-based editing | Descript | Automation trades fine control for speed. |
+| Automated audio leveling | Auphonic | Use for loudness normalization and cleanup, not video finishing. |
+| Simple edits or cleanup | CapCut or Adobe Podcast Enhance | Quick tools with limits for professional mastering. |

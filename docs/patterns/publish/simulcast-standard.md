@@ -1,4 +1,10 @@
+---
+description: "A standard for broadcasting a Program or Session live across multiple platforms."
+---
+
 # Simulcast Standard
+
+A standard for broadcasting a Program or Session live across multiple platforms. Use it for live-ready public sessions, not private conversations or material needing heavy editing before release.
 
 **Stage:** Publish  
 **Score:** 4  

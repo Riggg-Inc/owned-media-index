@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn gratitude post thanks a guest by highlighting their specific contribution to the episode."
+---
+
 # Linkedin Gratitude
+
+A LinkedIn gratitude post thanks a guest by highlighting their specific contribution to the episode. Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
 
 **Stage:** Package → Social Posts → Guest Tag  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Guest Tag social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn gratitude post thanks a guest by highlighting their specific contribution to the episode.
+
+## When To Use
+
+Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

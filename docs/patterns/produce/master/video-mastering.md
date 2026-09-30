@@ -4,6 +4,8 @@ description: "Video mastering standard for owned media. Final edit, color correc
 
 # Video Mastering Standard
 
+The final video editing pass that takes the rough cut and produces a polished, deliverable-ready master in both horizontal (16:9) and vertical (9:16) formats. Use the checklist before horizontal and vertical exports; it cannot replace missing or unusable source footage.
+
 **Stage:** Produce → Master  
 **Score:** 5  
 **Evidence:** Internal production data

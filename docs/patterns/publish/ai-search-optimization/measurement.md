@@ -4,6 +4,8 @@ description: "How to measure AI search visibility for owned media. Direct signal
 
 # Measurement
 
+Measuring whether your owned media content is being discovered, cited, and surfaced by AI search systems. Use recurring relevant queries and record the platform and result; separate direct observations, proxies, and attributable outcomes.
+
 **Stage:** Publish → AI Search Optimization  
 **Score:** 3  
 **Evidence:** practitioner observation, emerging tooling
@@ -16,6 +18,8 @@ Measuring whether your owned media content is being discovered, cited, and surfa
 
 If you cannot measure AI search visibility, you cannot improve it. Traditional SEO metrics (rankings, click-through rates, impressions) do not capture whether your content is being cited in AI-generated answers.
 
+[Google’s AI-features documentation](https://developers.google.com/search/docs/appearance/ai-features) states that AI Overviews and AI Mode are included in Search Console’s overall Web performance data. Do not report that aggregate as an isolated AI-citation metric.
+
 ## What To Measure
 
 ### 1. Direct Signals
@@ -24,7 +28,7 @@ Metrics you can observe directly.
 
 | Metric | How to Track | What It Tells You |
 |---|---|---|
-| **Google AI Overview appearances** | Google Search Console → Search Appearance | Whether your content appears in AI Overviews |
+| **Google AI Overview observations** | Record results for a fixed query set; compare overall Search Console Web traffic separately | Observed citations, not a complete count of AI appearances |
 | **Perplexity citations** | Search your brand/episode titles on Perplexity | Whether Perplexity cites your content |
 | **ChatGPT mentions** | Ask ChatGPT about your topics with browsing enabled | Whether ChatGPT surfaces your content |
 | **Bing Copilot citations** | Search your topics on Bing with Copilot | Whether Bing Copilot cites you |
@@ -38,7 +42,7 @@ Indicators that correlate with AI visibility.
 |---|---|---|
 | **Rich results eligibility** | Google Rich Results Test | Whether your structured data is valid |
 | **Crawl coverage** | Google Search Console → Indexing | Whether your pages are being crawled and indexed |
-| **Featured snippets** | Search Console → Search Appearance | Whether Google selects your content for direct answers (AEO) |
+| **Featured snippets** | Record search-result observations for target queries | Whether a sampled result shows your content as a direct answer |
 | **Schema validation** | schema.org validator | Whether your markup is parseable |
 | **Transcript indexing** | site:yoursite.com + topic query | Whether transcript content appears in search results |
 
@@ -65,7 +69,7 @@ How you compare to others in your space.
 
 | Tool | Use |
 |---|---|
-| Google Search Console | AI Overview appearances, crawl status, indexing |
+| Google Search Console | Overall Web search performance, crawl status, indexing; not a separate AI Overview appearance report |
 | Google Analytics / GA4 | Referral traffic from AI sources |
 | Google Rich Results Test | Schema validation |
 | Perplexity.ai | Manual citation checking |
@@ -79,7 +83,7 @@ How you compare to others in your space.
 - Referral traffic from AI sources tracked separately in analytics
 - Monthly competitive query tracking documented
 - Schema validates on every published page
-- All episode pages indexed within 48 hours
+- Check indexing after 48 hours and investigate problems; this is an operational check, not an indexing guarantee
 - Quarterly audit completed and action items logged
 
 ## When Not To Use

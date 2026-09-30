@@ -4,6 +4,8 @@ description: "The Guest Authority title pattern. Format: What [Expert] Learned F
 
 # Guest Authority
 
+A title that leads with the guest's name or company and frames the episode around their specific experience or expertise. Choose it when the audience recognizes the guest or their credentials and the experience offers more than a name-drop.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that leads with the guest's name or company and frames the episode aroun
 When the guest has name recognition, authority, or an impressive credential, leading with their identity adds social proof. The audience clicks because of who is speaking, not just what is being said.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - What Stripe's Head of Growth Learned From Scaling to $1B ARR
 - What a 20-Year Podcast Producer Knows About Audience Retention
@@ -45,6 +49,8 @@ Avoid when the guest is not well-known to the target audience. A name-drop title
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

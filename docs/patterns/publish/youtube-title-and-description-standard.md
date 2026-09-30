@@ -1,4 +1,10 @@
+---
+description: "A standard for packaging owned media assets for YouTube."
+---
+
 # YouTube Title and Description Standard
+
+A standard for packaging owned media assets for YouTube. Help viewers choose, navigate, and act on the video; avoid unrelated keyword stuffing and unprocessed uploads.
 
 **Stage:** Publish  
 **Score:** 5  

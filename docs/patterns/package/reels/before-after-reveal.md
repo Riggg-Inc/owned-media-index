@@ -1,4 +1,10 @@
+---
+description: "A reel that shows a transformation — raw recording vs."
+---
+
 # Before After Reveal
+
+A reel that shows a transformation — raw recording vs. Use a real, immediately visible transformation; choose another format when the difference needs a long explanation.
 
 **Stage:** Package → Reels  
 **Score:** 4  

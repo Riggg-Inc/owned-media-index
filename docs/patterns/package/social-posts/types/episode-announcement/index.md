@@ -1,4 +1,10 @@
+---
+description: "Episode Announcement social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Episode Announcement
+
+The primary social post announcing a new episode.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

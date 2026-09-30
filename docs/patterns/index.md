@@ -33,3 +33,13 @@ Scores range from 1 to 5.
 - **2:** Niche.
 - **1:** Not recommended as a default.
 
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Clean source material | [Produce](produce/index.md) | Capture and finish media before packaging. |
+| Audience-facing assets | [Package](package/index.md) | Choose titles, descriptions, clips, graphics, and copy. |
+| Channel delivery | [Publish](publish/index.md) | Combine owned-channel anchors with shared distribution. |
+| Performance questions | [Prove](prove/index.md) | Evaluate shipping, audience behavior, and outcomes. |
+| Retrieval and reuse | [Preserve](preserve/index.md) | Make the library searchable and reusable. |

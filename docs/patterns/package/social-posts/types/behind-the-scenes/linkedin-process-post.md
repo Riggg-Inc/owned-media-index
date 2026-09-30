@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn process post explains a production decision or behind-the-scenes workflow for a professional audience."
+---
+
 # Linkedin Process Post
+
+A LinkedIn process post explains a production decision or behind-the-scenes workflow for a professional audience. Use it when you can share a concrete lesson from the process, not just announce that recording happened.
 
 **Stage:** Package → Social Posts → Behind The Scenes  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Behind The Scenes social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn process post explains a production decision or behind-the-scenes workflow for a professional audience.
+
+## When To Use
+
+Use it when you can share a concrete lesson from the process, not just announce that recording happened.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

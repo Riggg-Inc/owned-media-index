@@ -1,4 +1,10 @@
+---
+description: "A scorecard for evaluating how a single session performed across production, packaging, publishing, and business outcomes."
+---
+
 # Session Performance Scorecard
+
+A scorecard for evaluating how a single session performed across production, packaging, publishing, and business outcomes. Use lightweight qualitative assessment until a baseline exists; the proposed categories are not validated benchmarks.
 
 **Stage:** Prove  
 **Score:** 4  

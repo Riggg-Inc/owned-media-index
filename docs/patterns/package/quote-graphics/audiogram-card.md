@@ -1,4 +1,10 @@
+---
+description: "A static or animated graphic paired with a short audio clip."
+---
+
 # Audiogram Card
+
+A static or animated graphic paired with a short audio clip. Choose it when the recorded voice adds value beyond the text; avoid poor audio or a quote stronger as a static card.
 
 **Stage:** Package → Quote Graphics  
 **Score:** 3  

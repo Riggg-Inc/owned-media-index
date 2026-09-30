@@ -4,6 +4,8 @@ description: "The Before-After Playbook title pattern. Format: From [Before] to 
 
 # Before-After Playbook
 
+A title that frames the episode as a transformation story with a clear before and after. Use it when the guest explains the steps behind a specific transformation, not just a desirable result.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that frames the episode as a transformation story with a clear before an
 Transformation stories are compelling because they show change. The "playbook" framing promises the listener will get the steps, not just the inspiration.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - From 0 to 50K Downloads: A Solo Podcaster's Playbook
 - From Zoom Recordings to Broadcast Quality: The Riggg Method
@@ -44,6 +48,8 @@ Avoid when the transformation is not dramatic enough, or when the guest cannot a
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

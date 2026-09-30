@@ -1,4 +1,10 @@
+---
+description: "Evergreen Reshare social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Evergreen Reshare
+
+A post that resurfaces older content with fresh framing, a new hook, or updated context.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

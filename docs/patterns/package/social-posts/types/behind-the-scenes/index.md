@@ -1,4 +1,10 @@
+---
+description: "Behind The Scenes social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Behind The Scenes
+
+A post showing the production process — the studio, the setup, the team, the tools.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

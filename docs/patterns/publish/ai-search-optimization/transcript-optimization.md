@@ -4,6 +4,8 @@ description: "How to optimize podcast transcripts for AI search. Speaker identif
 
 # Transcript Optimization
 
+Transcript optimization is the practice of publishing episode transcripts in a format that AI systems can parse, index, extract answers from, and cite back to your source URL. Use it for material cleared for public release, preserving speaker meaning rather than rewriting the conversation for search.
+
 **Stage:** Publish → AI Search Optimization  
 **Score:** 5  
 **Evidence:** Google documentation, LLM training analysis, platform observation
@@ -16,9 +18,11 @@ A raw auto-generated transcript is not optimized. An optimized transcript is cle
 
 ## Why It Works
 
-Your podcast episode is an audio file. AI systems cannot listen to audio. The transcript is the only text representation of your expertise. If the transcript is messy, buried in a collapsed accordion, or missing entirely, your content does not exist in the AI search layer.
+A public HTML transcript gives search systems a text representation of the conversation alongside summaries and show notes. [Google recommends making important content available in textual form](https://developers.google.com/search/docs/appearance/ai-features). This supports publishing readable transcripts; it does not establish that all AI systems are unable to process audio or that transcripts guarantee citations.
 
 An optimized transcript turns 45 minutes of expert conversation into a structured, indexable knowledge document that AI systems can mine for answers for years.
+
+The sample dialogue below illustrates formatting; it is not a verified transcript or a documented result from the named speaker. Use actual recorded words, speaker identities, and timestamps in production.
 
 ## Optimization Requirements
 
@@ -85,7 +89,7 @@ Add H2 or H3 headers at major topic transitions. This creates parseable sections
 
 ## When Not To Use
 
-Always publish transcripts. The only exception is legally sensitive content that cannot be made public. Even then, publish a structured summary with key Q&A instead.
+Publish transcripts only for content cleared for public release. For legally sensitive, private, or restricted material, obtain permission before publishing either a transcript or a summary; a Q&A is not a privacy workaround.
 
 ## Prompt Template
 

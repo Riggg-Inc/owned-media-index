@@ -34,3 +34,13 @@ Every session should produce a complete media package: not just one deliverable,
 | Category | What It Covers |
 |---|---|
 | [Social Posts](social-posts/index.md) | 8 post types across LinkedIn, Instagram, and X/Twitter — episode announcements, guest tags, quote shares, thread breakdowns, and more |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Explain the episode promise | [Titles](titles/index.md) and [Descriptions](descriptions/index.md) | Titles qualify attention; descriptions preview the value. |
+| Extract a standalone moment | [Clips](clips/index.md) | Choose a segment that makes sense without the full episode. |
+| Package mobile-first video | [Reels](reels/index.md) | Use vertical framing, captions, and a fast hook. |
+| Create visual packaging | [Thumbnails](thumbnails/index.md) and [Quote Graphics](quote-graphics/index.md) | Thumbnails introduce an asset; quote graphics carry a standalone moment. |
+| Write distribution copy | [Social Posts](social-posts/index.md) | Choose the post purpose, then its platform version. |

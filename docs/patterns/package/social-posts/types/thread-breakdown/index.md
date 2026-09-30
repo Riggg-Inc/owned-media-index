@@ -1,4 +1,10 @@
+---
+description: "Thread Breakdown social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Thread Breakdown
+
+A multi-post thread that expands the episode's key ideas into a structured narrative.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

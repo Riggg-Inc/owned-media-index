@@ -1,4 +1,10 @@
+---
+description: "A thumbnail featuring a key statistic, chart element, or number as the primary visual."
+---
+
 # Data Visual
+
+A thumbnail featuring a key statistic, chart element, or number as the primary visual. Choose it when the number is the hook and understandable at thumbnail size; avoid charts needing explanation.
 
 **Stage:** Package → Thumbnails  
 **Score:** 3  

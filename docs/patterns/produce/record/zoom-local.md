@@ -4,6 +4,8 @@ description: "Zoom local recording for podcast and webinar production. Separate 
 
 # Zoom Local Recording
 
+Recording a Zoom call using the local recording option, which saves files to the host's computer. Choose it as an audio-first fallback or backup, not for independent video framing of each participant.
+
 **Stage:** Produce → Record  
 **Score:** 3  
 **Evidence:** Practitioner observation

@@ -1,4 +1,10 @@
+---
+description: "A punchy Twitter/X episode announcement combines one clear reason to listen with the release link."
+---
+
 # Twitter Punchy
+
+A punchy Twitter/X episode announcement combines one clear reason to listen with the release link. Use it when the promise fits a short post; leave a multi-part explanation to a thread.
 
 **Stage:** Package → Social Posts → Episode Announcement  
 **Score:** 4  
@@ -10,7 +16,11 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Episode Announcement social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A punchy Twitter/X episode announcement combines one clear reason to listen with the release link.
+
+## When To Use
+
+Use it when the promise fits a short post; leave a multi-part explanation to a thread.
 
 ## Template
 

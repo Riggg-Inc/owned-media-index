@@ -1,4 +1,10 @@
+---
+description: "A Twitter/X quote-card post pairs an attributed quotation graphic with short supporting copy."
+---
+
 # Twitter Quote Card
+
+A Twitter/X quote-card post pairs an attributed quotation graphic with short supporting copy. Use a readable, self-contained quote and clear attribution rather than anonymous advice.
 
 **Stage:** Package → Social Posts → Quote Share  
 **Score:** 4  
@@ -10,7 +16,11 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Quote Share social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A Twitter/X quote-card post pairs an attributed quotation graphic with short supporting copy.
+
+## When To Use
+
+Use a readable, self-contained quote and clear attribution rather than anonymous advice.
 
 ## Template
 

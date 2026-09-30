@@ -19,3 +19,10 @@ Preservation is the stage most programs skip. It's also where the long-term valu
 | Pattern | What It Covers |
 |---|---|
 | [GEO/AEO Citation Volatility](geo-aeo-citation-volatility.md) | Why AI-answer citation is more volatile than search ranking, and how owned-media discipline (publishing rhythm, structure, a compounding archive) is what actually wins it |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Retrieve and reuse the library | [Content Memory Standard](content-memory-standard.md) | Structure and index content for search, AI, and team retrieval. |
+| Understand changing AI citations | [GEO/AEO Citation Volatility](geo-aeo-citation-volatility.md) | Consider publishing rhythm, structure, and archive maintenance rather than a one-time ranking snapshot. |

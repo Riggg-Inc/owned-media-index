@@ -4,6 +4,8 @@ description: "Riggg Quadrant for description styles. Maps 6 episode description 
 
 # Description Styles Quadrant
 
+Choose an episode description by the space available and the reason to listen: concise takeaways, a practical problem, a big question, guest credibility, or a personal story. This quadrant compares brevity with depth and information with emotion.
+
 <div class="rq-title">Riggg Quadrant: Description Styles</div>
 <div class="rq-subtitle">Where each description pattern sits on length and emotional register</div>
 
@@ -69,3 +71,14 @@ description: "Riggg Quadrant for description styles. Maps 6 episode description 
 **Bottom-right (Deep + Emotional):** Narrative-driven descriptions that lead with story. Best when the guest's journey is the hook. *Guest Story Arc* lives here.
 
 **Center-left:** *Audience Pain Breakdown* bridges brevity and emotion — opens with a pain point, delivers a compact tactical preview.
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| A compact value preview | [Thesis-Takeaways-CTA](../patterns/package/descriptions/thesis-takeaways-cta.md) | Concise thesis, takeaway list, and CTA. |
+| A practical audience problem | [Audience Pain Breakdown](../patterns/package/descriptions/audience-pain-breakdown.md) | Lead with pain and preview the tactical value. |
+| An exploratory topic | [Big Question Summary](../patterns/package/descriptions/big-question-summary.md) | Lead with the question rather than a resolved playbook. |
+| An expert interview with outcomes | [Problem-Credibility-Takeaway](../patterns/package/descriptions/problem-credibility-takeaway.md) | Allows more room for problem, credentials, and takeaways. |
+| Authority and a learning promise | [Credential-Context-Learn](../patterns/package/descriptions/credential-context-learn.md) | Needs relevant credentials and clear learning value. |
+| The guest journey is the hook | [Guest Story Arc](../patterns/package/descriptions/guest-story-arc.md) | Use narrative depth rather than a compact information-first summary. |

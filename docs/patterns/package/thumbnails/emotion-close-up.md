@@ -1,4 +1,10 @@
+---
+description: "A thumbnail using a close-up frame of the speaker showing strong emotion — surprise, excitement, intensity."
+---
+
 # Emotion Close Up
+
+A thumbnail using a close-up frame of the speaker showing strong emotion — surprise, excitement, intensity. Use a genuine expression, not a forced reaction that misrepresents the episode.
 
 **Stage:** Package → Thumbnails  
 **Score:** 4  

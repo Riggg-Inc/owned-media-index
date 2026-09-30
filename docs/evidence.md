@@ -4,7 +4,7 @@ description: "Evidence standards for the Owned Media Index. How claims are sourc
 
 # Evidence Rules
 
-The Owned Media Index should be opinionated, but not hand-wavy.
+Evidence in the Owned Media Index identifies what supports an entry: internal production data, public teardowns, platform documentation, practitioner observation, or external research.
 
 Each entry should explain what kind of evidence supports it.
 

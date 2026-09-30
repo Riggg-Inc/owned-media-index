@@ -4,6 +4,8 @@ description: "Remote isolated recording pattern for podcasts and webinars. Each 
 
 # Remote Isolated Recording
 
+Each participant records from their own location using a platform that captures isolated video and audio tracks per person. Choose it for per-person editing; confirm local recording, completed uploads, and a backup before relying on the files.
+
 **Stage:** Produce → Record  
 **Score:** 5  
 **Evidence:** Internal production data (500+ sessions)

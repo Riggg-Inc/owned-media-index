@@ -1,4 +1,10 @@
+---
+description: "A graphic featuring the speaker's headshot or portrait alongside their quote in bold typography."
+---
+
 # Speaker Quote
+
+A graphic featuring the speaker's headshot or portrait alongside their quote in bold typography. Choose it when the speaker is part of the draw; let the quote lead when the face adds little for the audience.
 
 **Stage:** Package → Quote Graphics  
 **Score:** 5  

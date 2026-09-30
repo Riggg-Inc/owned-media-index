@@ -1,8 +1,10 @@
 ---
-description: "Why AI-answer citation is far more volatile than organic search ranking, and how owned-media discipline — publishing rhythm, structural clarity, and a compounding archive — is what actually wins GEO/AEO visibility."
+description: "GEO/AEO citation volatility means the sources shown in AI answers can change across engines, queries, and repeated checks."
 ---
 
 # GEO/AEO Citation Volatility
+
+GEO/AEO citation volatility means the sources shown in AI answers can change across engines, queries, and repeated checks. Combine an owned archive with recurring observations; tactical recommendations are not a promise of stable visibility.
 
 **Stage:** Preserve
 **Score:** 4

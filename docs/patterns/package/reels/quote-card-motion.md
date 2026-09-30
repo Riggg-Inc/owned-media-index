@@ -1,4 +1,10 @@
+---
+description: "A reel that features a guest quote as animated text over the speaker's video."
+---
+
 # Quote Card Motion
+
+A reel that features a guest quote as animated text over the speaker's video. Choose a specific quote with an energetic on-camera delivery; motion does not rescue a generic quotation.
 
 **Stage:** Package → Reels  
 **Score:** 4  

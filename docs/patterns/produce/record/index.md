@@ -79,3 +79,14 @@ If you record a single mixed video (like a Zoom gallery view), the rough cut edi
 | Remotely.fm | ✅ | ✅ | 4K | ✅ | 8 |
 
 _Last verified: May 2026._
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Remote guest interviews | [Remote Isolated Recording](remote-isolated.md) | Per-person tracks preserve editing flexibility. |
+| Participants in one studio | [In-Studio Multi-Camera](in-studio-multi-camera.md) | More source control with more setup complexity. |
+| Studio host and remote guests | [Hybrid Recording](hybrid-recording.md) | Accommodates mixed locations with a more complex setup. |
+| Audio backup or fallback | [Zoom Local](zoom-local.md) | Separate audio is useful; compressed video limits flexibility. |
+| Meeting capture | [Zoom Cloud](zoom-cloud.md) | Convenient, but not a production-quality default. |
+| Quick live output | [StreamYard](streamyard.md) | The documented mixed-output approach limits later editing flexibility. |

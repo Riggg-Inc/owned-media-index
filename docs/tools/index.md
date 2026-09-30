@@ -1,10 +1,10 @@
 ---
-description: "Tools, platform references, and compatibility guides for the owned media stack."
+description: "Owned media tool references, starting with video podcast hosting and RSS compatibility; broader tool categories are on the roadmap."
 ---
 
 # Tools
 
-Ranked tools, platform references, and compatibility guides for every stage of the owned media stack. Entries cover what a tool does, who it's best for, its tradeoffs, and what the evidence says.
+The Tools section currently provides a video podcast hosting compatibility reference. Broader recording, editing, mastering, transcription, publishing, and analytics tool coverage is planned for V0.4.
 
 ## Hosting
 

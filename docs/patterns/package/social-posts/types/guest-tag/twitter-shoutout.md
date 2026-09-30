@@ -1,4 +1,10 @@
+---
+description: "A Twitter/X guest shoutout recognizes a guest’s contribution and directs readers to the conversation."
+---
+
 # Twitter Shoutout
+
+A Twitter/X guest shoutout recognizes a guest’s contribution and directs readers to the conversation. Keep appreciation specific, tag the appropriate guest, and give a reason to follow the link.
 
 **Stage:** Package → Social Posts → Guest Tag  
 **Score:** 4  
@@ -10,7 +16,11 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Guest Tag social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A Twitter/X guest shoutout recognizes a guest’s contribution and directs readers to the conversation.
+
+## When To Use
+
+Keep appreciation specific, tag the appropriate guest, and give a reason to follow the link.
 
 ## Template
 

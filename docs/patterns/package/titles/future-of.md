@@ -4,6 +4,8 @@ description: "The Future Of title pattern. Format: The Future of [Category]: Wha
 
 # Future Of
 
+A title that frames the episode as forward-looking analysis of a category, trend, or technology. Choose it for a specific forward-looking thesis, not a tactical episode or vague prediction.
+
 **Stage:** Package → Titles  
 **Score:** 3  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that frames the episode as forward-looking analysis of a category, trend
 "Future of" titles appeal to audiences who want to stay ahead. They signal strategic content rather than tactical.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - The Future of B2B Podcasting: What Marketing Leaders Need to Know
 - The Future of Live Events: Why Simulcast Changes Everything
@@ -43,6 +47,8 @@ Avoid when the episode is purely tactical. "Future of" titles set expectations f
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

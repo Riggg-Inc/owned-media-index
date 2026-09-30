@@ -4,7 +4,7 @@ description: "How to contribute to the Owned Media Index. Submit patterns, corre
 
 # Contribute
 
-The Owned Media Index is a practical library of patterns, standards, tools, and benchmarks for owned media.
+Contribute patterns, tool references, benchmarks, corrections, or stale-entry reports to the Owned Media Index. Useful contributions explain the use case, quality bar, evidence, and tradeoffs without vendor fluff.
 
 ## Good Contributions
 

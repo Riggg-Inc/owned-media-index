@@ -46,6 +46,12 @@ Every pattern should answer:
 - **2:** Niche. Good for a narrow case.
 - **1:** Not recommended as a default.
 
+## Discoverability and answer quality
+
+Every public page needs a unique, accurate description and a direct opening explanation. Pattern entries should explain when to use the pattern, limitations, and concrete examples; comparison hubs should help readers choose between linked published entries. Cite sources that support specific claims, distinguish illustrations from verified examples, and do not invent review dates or reviewer attribution.
+
+Breadcrumbs, canonical URLs, metadata, structured data and internal links are validated during publishing. Run the strict site build, `scripts/validate_site.py`, `scripts/validate_aeo.py`, and regression tests before release. See [the publication checklist](docs-internal/aeo-publishing-standard.md). Existing evidence and approval requirements remain in force.
+
 ## Review
 
 Riggg reviews contributions before merge. Accepted entries may be tagged `riggg-reviewed`.

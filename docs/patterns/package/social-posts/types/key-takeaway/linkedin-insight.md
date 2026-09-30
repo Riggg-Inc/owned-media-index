@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn insight post develops one episode takeaway into a standalone professional lesson."
+---
+
 # Linkedin Insight
+
+A LinkedIn insight post develops one episode takeaway into a standalone professional lesson. Choose it when one idea can carry the post; avoid listing everything discussed.
 
 **Stage:** Package → Social Posts → Key Takeaway  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Key Takeaway social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn insight post develops one episode takeaway into a standalone professional lesson.
+
+## When To Use
+
+Choose it when one idea can carry the post; avoid listing everything discussed.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

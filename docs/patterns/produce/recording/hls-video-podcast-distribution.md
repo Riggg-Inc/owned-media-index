@@ -1,8 +1,14 @@
+---
+description: "A production standard for recording video podcasts so the same episode can move through both major video paths: YouTube-native publishing for discovery and HLS/RSS-preserving distribution through compatible hosts, podcast apps, and owned players."
+---
+
 # HLS Video Podcast Distribution Standard
+
+A production standard for recording video podcasts so the same episode can move through both major video paths: YouTube-native publishing for discovery and HLS/RSS-preserving distribution through compatible hosts, podcast apps, and owned players. Use it when video adds audience value and compatible hosting is available; preserve audio continuity, consent, transcripts, and the cost check.
 
 ## What It Is
 
-A production standard for recording video podcasts so the same episode can move through both major video paths: YouTube-native publishing for discovery and HLS/RSS-preserving distribution for Apple Podcasts, Spotify, supporting podcast apps, and owned players.
+A production standard for recording video podcasts so the same episode can move through both major video paths: YouTube-native publishing for discovery and HLS/RSS-preserving distribution through compatible hosts, podcast apps, and owned players.
 
 The pattern treats video as a first-class source media format, not a post-production wrapper around audio.
 
@@ -16,7 +22,7 @@ The pattern treats video as a first-class source media format, not a post-produc
 
 ## Why It Works
 
-Video podcast distribution is splitting into two useful paths. YouTube remains the dominant discovery environment for many podcast consumers, but Apple, Spotify, iHeart, Pocket Casts, and several major hosts are adopting HLS or RSS-preserving video delivery.
+This pattern uses two distribution paths: native video publishing on YouTube and a compatible feed-based path. Apple announced an HLS video podcast experience in February 2026 with participating hosting providers; support must be checked for each host and destination rather than assumed across podcast apps.
 
 Producing the episode as real video at the source lets the program serve both paths. The show can publish natively on YouTube while also keeping a portable owned-feed version for podcast platforms, supporting apps, owned websites, and future player surfaces.
 
@@ -64,9 +70,9 @@ Avoid HLS video podcast production when:
 
 Evidence level: external-research.
 
-Based on vendor/platform-primary and industry-research evidence. Apple launched an HLS-based video podcast experience in 2026; Spotify announced adoption of Apple's HLS video podcast technology; Spotify reported more than 500 million users had streamed a video podcast; iHeart, Pocket Casts, CoHost, Acast, and Buzzsprout each added or expanded RSS/HLS/Apple video support in 2026.
+Apple’s [February 16, 2026 announcement](https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/) documents its HLS video experience, named participating hosts, dynamic video advertising, and continuity for existing shows. This supports the existence of an Apple-compatible HLS distribution path—not universal app compatibility or a measured audience uplift.
 
-The strongest strategic nuance is the two-path model: YouTube-native distribution remains important for discovery, while HLS/RSS-preserving distribution is the portability hedge for owned media. The Acast weekly-session uplift is vendor self-report, not an independent benchmark. No benchmark-backed performance data is available yet, so the score is capped at 4.
+The two-path recommendation is an implementation judgment: use YouTube-native distribution alongside a portable feed/owned-page path where supported. Verify each destination’s actual requirements before committing to a hosting workflow. The previous cross-platform adoption, audience-total, and vendor-uplift assertions are not relied on here without their specific primary references. No benchmark-backed performance result is established; the existing score is retained, not revalidated by this citation check.
 
 ## Related Patterns
 

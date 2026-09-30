@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn carousel breaks an episode’s ideas into an ordered, slide-by-slide explanation."
+---
+
 # Linkedin Carousel
+
+A LinkedIn carousel breaks an episode’s ideas into an ordered, slide-by-slide explanation. Choose it for several connected steps; use a single insight post when one point is enough.
 
 **Stage:** Package → Social Posts → Thread Breakdown  
 **Score:** 4  
@@ -10,18 +16,22 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Thread Breakdown social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn carousel breaks an episode’s ideas into an ordered, slide-by-slide explanation.
+
+## When To Use
+
+Choose it for several connected steps; use a single insight post when one point is enough.
 
 ## Template
 
 ```
-[Hook — first line earns the second line]
+[Cover — the question or lesson this breakdown answers]
 
-[Body — value, context, or story]
+[Slide 1 — first point and its episode context]
+[Following slides — one connected point per slide]
 
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
+[Final slide — one next action]
+[Post copy — why this sequence matters + episode link]
 ```
 
 ## Quality Bar
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

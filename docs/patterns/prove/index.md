@@ -31,3 +31,11 @@ Proof patterns help teams get past download counts and toward signals that actua
 | Pattern | What It Covers |
 |---|---|
 | [Video Threshold Economics](video-threshold-economics.md) | Separate creator break-even economics from B2B strategy, discovery value, and execution-quality gates for video podcast investment. |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Evaluate an episode | [Session Performance Scorecard](session-performance-scorecard.md) | Review production, distribution, and audience quality together. |
+| Understand listening metrics | [AMP Accords Play Standard](amp-accords-play-standard.md) | Distinguish downloads from consumed plays and ad impressions. |
+| Assess video investment | [Video Threshold Economics](video-threshold-economics.md) | Separate creator break-even economics from B2B strategy and execution quality. |

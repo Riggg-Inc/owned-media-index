@@ -1,4 +1,10 @@
+---
+description: "A consistent, templatized thumbnail design that uses the same layout, colors, and fonts across every episode."
+---
+
 # Branded Template
+
+A consistent, templatized thumbnail design that uses the same layout, colors, and fonts across every episode. Choose it for show recognition, while preserving enough episode-specific detail that releases do not look interchangeable.
 
 **Stage:** Package → Thumbnails  
 **Score:** 4  

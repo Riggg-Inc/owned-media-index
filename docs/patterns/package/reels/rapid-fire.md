@@ -1,4 +1,10 @@
+---
+description: "A reel that delivers 3-5 quick insights, tips, or takes in rapid succession."
+---
+
 # Rapid Fire
+
+A reel that delivers 3-5 quick insights, tips, or takes in rapid succession. Use it when distinct points can each be understood in seconds; keep nuanced explanations in a longer clip.
 
 **Stage:** Package → Reels  
 **Score:** 4  

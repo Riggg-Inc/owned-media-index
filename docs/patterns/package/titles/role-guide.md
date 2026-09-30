@@ -4,6 +4,8 @@ description: "The Role Guide title pattern. Format: The [Role] Guide to [Outcome
 
 # Role Guide
 
+A title that targets a specific role and promises a guide tailored to their needs. Use it when the content is calibrated to one role’s priorities and expertise, not equally applicable to everyone.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that targets a specific role and promises a guide tailored to their need
 Role-based targeting is powerful because it immediately qualifies the audience. A VP of Marketing knows this episode is for them — not for developers, not for interns.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - The CMO Guide to Launching an Executive Podcast
 - The Content Manager's Guide to Repurposing Webinars
@@ -44,6 +48,8 @@ Avoid when the episode content applies equally to many roles. Forcing a role-spe
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

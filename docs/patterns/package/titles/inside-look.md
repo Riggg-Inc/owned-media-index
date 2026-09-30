@@ -4,6 +4,8 @@ description: "The Inside Look title pattern. Format: Inside [Company]: How [Resu
 
 # Inside Look
 
+A title that promises a behind-the-scenes view of a specific company, process, or operation. Use it when the episode delivers distinctive behind-the-scenes detail, not a surface-level company profile.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that promises a behind-the-scenes view of a specific company, process, o
 "Inside" creates exclusivity. The audience feels they are getting access to something normally hidden. Combined with a specific result, it promises both the story and the lesson.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - Inside Riggg's Real-Time Production Process: How We Ship in 3 Days
 - Inside a $10M Webinar Funnel: What Actually Converts
@@ -43,6 +47,8 @@ Avoid when the company or process is not distinctive enough to warrant the "insi
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

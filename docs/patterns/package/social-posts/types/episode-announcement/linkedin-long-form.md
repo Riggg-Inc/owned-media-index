@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn long-form episode announcement explains a release’s professional relevance before inviting readers to watch or listen."
+---
+
 # Linkedin Long Form
+
+A LinkedIn long-form episode announcement explains a release’s professional relevance before inviting readers to watch or listen. Choose it when useful context goes beyond the title; make the post valuable even without a click.
 
 **Stage:** Package → Social Posts → Episode Announcement  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Episode Announcement social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn long-form episode announcement explains a release’s professional relevance before inviting readers to watch or listen.
+
+## When To Use
+
+Choose it when useful context goes beyond the title; make the post valuable even without a click.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

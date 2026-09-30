@@ -6,8 +6,6 @@ description: "AI Search Optimization for owned media. GEO, AEO, LLMO, and AIO ex
 
 **Stage:** Publish
 
-Every piece of owned media you publish is now competing for visibility in two systems: traditional search engines and AI-powered answer engines. If your content is not structured for both, it is invisible to a growing share of your audience.
-
 AI Search Optimization is the practice of structuring, publishing, and maintaining owned media so that AI systems — Google AI Overviews, Perplexity, ChatGPT, Claude, Bing Copilot, and whatever comes next — can discover, understand, and cite your content.
 
 This is not a future concern. It is happening now.
@@ -70,3 +68,14 @@ The owned media operating system should treat every published Session as a **per
 Over time, the companies that structure their owned media for AI discoverability will compound an unfair advantage: their expertise will surface in AI answers, their guests will be cited, their show will become a source of record in their category.
 
 This is the long game. Start now.
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Describe entities and episodes | [Structured Data](structured-data.md) | Machine-readable metadata complements the visible page. |
+| Expose spoken content | [Transcript Optimization](transcript-optimization.md) | Use readable, speaker-identified text. |
+| Summarize useful answers | [Show Notes for LLMs](show-notes-for-llms.md) | Surface key answers alongside the full transcript. |
+| Make claims attributable | [Citation Architecture](citation-architecture.md) | Connect extractable claims with source attribution. |
+| Review discovery surfaces | [Platform Visibility](platform-visibility.md) | Consider where answer engines can find the content. |
+| Track visibility over time | [Measurement](measurement.md) | Observe citation performance rather than assuming publication guarantees inclusion. |

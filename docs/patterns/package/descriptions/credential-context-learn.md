@@ -4,6 +4,8 @@ description: "The Credential-Context-Learn description pattern used by The Diary
 
 # Credential-Context-Learn
 
+A description pattern that opens by establishing the guest's authority, sets the conversational context, then explicitly tells the listener what they will learn using a structured list. Use it when the guest has a relevant credential and specific takeaways; choose a story or question-led description otherwise.
+
 **Stage:** Package → Descriptions  
 **Score:** 5  
 **Evidence:** The Diary Of A CEO (Steven Bartlett), platform performance data
@@ -46,6 +48,8 @@ You'll learn:
 ```
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 ### Expert Interview
 
@@ -116,6 +120,8 @@ You'll learn:
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

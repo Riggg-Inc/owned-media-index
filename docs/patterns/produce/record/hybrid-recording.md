@@ -4,6 +4,8 @@ description: "Hybrid recording pattern for mixed remote and in-studio podcast pr
 
 # Hybrid Recording
 
+A recording setup where some participants (typically the host) are in a physical studio while others join remotely. Choose it for mixed-location sessions, planning headphone monitoring, separate tracks, and a sync point before recording.
+
 **Stage:** Produce → Record  
 **Score:** 4  
 **Evidence:** Practitioner observation

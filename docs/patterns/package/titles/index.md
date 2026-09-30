@@ -1,5 +1,5 @@
 ---
-description: "10 ranked title styles for podcasts, webinars, and owned media episodes. Each with examples, scores, quality bars, and copy-paste prompt templates."
+description: "11 ranked title styles for podcasts, webinars, and owned media episodes. Each with examples, scores, quality bars, and copy-paste prompt templates."
 ---
 
 # Titles

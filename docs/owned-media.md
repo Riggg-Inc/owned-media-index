@@ -4,6 +4,8 @@ description: "What owned media means at Riggg: the asset vs. distribution layer 
 
 # Owned Media: Definition, Assets, and Channels
 
+This Index distinguishes **owned assets** (the content you create) from **owned channels** (where you control the audience relationship). Social posts and video files remain owned assets even when distributed through rented platforms; the definition and ownership tests below explain the distinction.
+
 ## What Owned Media Means at Riggg
 
 Owned media is any content you create and any channel you control — where no third party can revoke your access, change the rules, or take your audience away.

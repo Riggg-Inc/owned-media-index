@@ -1,8 +1,10 @@
 ---
-description: "Google Meet recording for owned media. Single mixed recording with no isolation. Not recommended for production."
+description: "Built-in Google Meet and Microsoft Teams recordings are meeting captures rather than the per-participant source workflow this Index recommends for production."
 ---
 
 # Google Meet / Teams
+
+Built-in Google Meet and Microsoft Teams recordings are meeting captures rather than the per-participant source workflow this Index recommends for production. Use it for reference or a constrained fallback; choose isolated recording for participant-level editing and reframing.
 
 **Stage:** Produce → Record  
 **Score:** 1  

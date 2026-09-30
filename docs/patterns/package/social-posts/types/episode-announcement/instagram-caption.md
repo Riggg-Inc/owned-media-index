@@ -1,4 +1,10 @@
+---
+description: "An Instagram episode-announcement caption introduces the release through its visual and one reason to care."
+---
+
 # Instagram Caption
+
+An Instagram episode-announcement caption introduces the release through its visual and one reason to care. Use it with an episode asset and a clear listening or viewing action; make the first line meaningful on its own.
 
 **Stage:** Package → Social Posts → Episode Announcement  
 **Score:** 4  
@@ -10,7 +16,11 @@ Instagram
 
 ## What It Is
 
-A platform-specific version of the Episode Announcement social post type, optimized for Instagram's visual-first, discovery-driven feed.
+An Instagram episode-announcement caption introduces the release through its visual and one reason to care.
+
+## When To Use
+
+Use it with an episode asset and a clear listening or viewing action; make the first line meaningful on its own.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: Instagram
-Character limit: 2200 characters max, first 125 visible before 'more'
+Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
 
 Requirements:
 - First line must stop the scroll

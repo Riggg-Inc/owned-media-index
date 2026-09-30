@@ -1,10 +1,10 @@
 ---
-description: "The Owned Media Index roadmap. What shipped, what is next, and how the index evolves quarterly."
+description: "Planned development of the Owned Media Index: framework, packaging and publishing patterns, tools, hardware, and a proposed quarterly issue."
 ---
 
 # Roadmap
 
-The Owned Media Index should grow from a useful pattern library into a quarterly authority publication.
+The Owned Media Index roadmap progresses from the framework and pattern library to publishing standards, tools and hardware, and a proposed quarterly issue. These are development areas, not a guarantee that every listed item is published.
 
 ## V0.1 - Framework
 

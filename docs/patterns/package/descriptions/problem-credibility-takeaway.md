@@ -1,4 +1,10 @@
+---
+description: "A four-part description structure that opens with the audience's problem, establishes the guest's authority, previews what the listener will learn, and closes with a call to action."
+---
+
 # Problem-Credibility-Takeaway
+
+A four-part description structure that opens with the audience's problem, establishes the guest's authority, previews what the listener will learn, and closes with a call to action. Choose it when a concrete audience problem connects to credible guidance and one next action.
 
 **Stage:** Package → Descriptions  
 **Score:** 5  
@@ -18,6 +24,8 @@ This pattern front-loads relevance. The listener sees their problem in the first
 
 ## Example
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 > Most B2B marketing teams create content no one reads. In this episode, Sarah Chen — VP of Content at HubSpot and former editor at TechCrunch — breaks down the system her team uses to turn one expert conversation into 15 publishable assets in under a week. You'll learn the exact repurposing workflow, the tools involved, and the metrics that prove it works. Subscribe and leave a review if this changes how you think about content ops.
 
 ## Quality Bar
@@ -33,6 +41,8 @@ Avoid when the guest is not well-credentialed or when the episode is more explor
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

@@ -1,4 +1,10 @@
+---
+description: "A reel that opens with a visual or verbal hook, delivers one tactical insight, and closes with a clear CTA."
+---
+
 # Hook Insight Cta
+
+A reel that opens with a visual or verbal hook, delivers one tactical insight, and closes with a clear CTA. Use it for one self-contained takeaway and one next action, not an insight requiring a lengthy setup.
 
 **Stage:** Package → Reels  
 **Score:** 5  
@@ -45,7 +51,7 @@ CTA (25-30s): [clear call to action]
 Requirements:
 - Hook must land in first 2 seconds
 - One clear idea only
-- Include caption text (80%+ watch without sound)
+- Include readable caption text so the insight works without sound
 - 15-30 seconds total
 ```
 

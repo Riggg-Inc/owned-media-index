@@ -1,4 +1,10 @@
+---
+description: "A narrative-driven description that leads with the guest's story, extracts the lessons, and connects them to the listener's context."
+---
+
 # Guest Story Arc
+
+A narrative-driven description that leads with the guest's story, extracts the lessons, and connects them to the listener's context. Use it when a distinctive journey supports lessons the listener can apply, not a generic biography.
 
 **Stage:** Package → Descriptions  
 **Score:** 4  
@@ -18,6 +24,8 @@ Stories are memorable. When the guest's journey is compelling, leading with narr
 
 ## Example
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 > Marcos built a podcast in a market nobody believed existed — and used it to close $2M in enterprise deals in 18 months. In this episode, he shares the exact strategy: how he chose guests who were also prospects, how he structured episodes as sales conversations, and what metrics actually correlated with pipeline. If you're running a founder-led show, this is your blueprint.
 
 ## Quality Bar
@@ -32,6 +40,8 @@ Avoid when the guest's story is not distinctive enough to lead with.
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

@@ -4,6 +4,8 @@ description: "Riggg Quadrant for clip styles. Maps 5 clip extraction patterns on
 
 # Clip Styles Quadrant
 
+Choose a clip style to match the source moment: Hot Takes for bold opinions, Golden Nuggets for practical advice, Story Beats for narrative, Debate Moments for disagreement, and Data Drops for statistics. This quadrant compares extraction effort with audience appeal.
+
 <div class="rq-title">Riggg Quadrant: Clip Styles</div>
 <div class="rq-subtitle">Where each clip pattern sits on production effort and viral potential</div>
 
@@ -73,3 +75,13 @@ For maximum ROI on production time:
 3. **Hunt for Debate Moments** if you have multi-guest episodes
 4. **Story Beats for narrative shows** — invest the editing time when the story is strong
 5. **Data Drops for authority** — use when the stat is genuinely surprising
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| A clear contrarian opinion | [Hot Take](../patterns/package/clips/hot-take.md) | Needs a bold opinion that stands alone. |
+| One useful piece of advice | [Golden Nugget](../patterns/package/clips/golden-nugget.md) | Targets practitioners rather than relying on broad appeal. |
+| A complete anecdote | [Story Beat](../patterns/package/clips/story-beat.md) | Requires a narrative arc and more extraction work. |
+| Meaningful disagreement | [Debate Moment](../patterns/package/clips/debate-moment.md) | Requires multi-guest tension that remains understandable. |
+| A surprising statistic | [Data Drop](../patterns/package/clips/data-drop.md) | Needs context for a data-driven audience. |

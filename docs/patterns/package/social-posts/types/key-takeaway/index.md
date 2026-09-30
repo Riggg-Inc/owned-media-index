@@ -1,4 +1,10 @@
+---
+description: "Key Takeaway social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Key Takeaway
+
+A focused post highlighting one actionable lesson from the episode.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

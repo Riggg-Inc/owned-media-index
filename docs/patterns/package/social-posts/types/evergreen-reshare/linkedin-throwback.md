@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn throwback post resurfaces an older episode through a lesson still relevant to a professional audience."
+---
+
 # Linkedin Throwback
+
+A LinkedIn throwback post resurfaces an older episode through a lesson still relevant to a professional audience. Give a current reason to revisit it rather than presenting an old release as new.
 
 **Stage:** Package → Social Posts → Evergreen Reshare  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Evergreen Reshare social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn throwback post resurfaces an older episode through a lesson still relevant to a professional audience.
+
+## When To Use
+
+Give a current reason to revisit it rather than presenting an old release as new.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

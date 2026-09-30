@@ -4,6 +4,8 @@ description: "The Numbered Insight title pattern. Format: [Number] Mistakes [Aud
 
 # Numbered Insight
 
+A title structured around a specific number of insights, mistakes, lessons, or steps. Choose it for distinct, actionable items; do not pad a list or force a number onto a nuanced single-topic conversation.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** platform observation
@@ -22,6 +24,8 @@ Numbers set expectations. The audience knows the scope before they click. Number
 
 ## Examples
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 - 5 Mistakes Podcast Teams Make When Repurposing Episodes
 - 7 Things Every Webinar Host Should Do Before Going Live
 - 3 Distribution Steps Most B2B Shows Skip
@@ -31,7 +35,7 @@ Numbers set expectations. The audience knows the scope before they click. Number
 
 - Number must be honest — do not pad the list
 - Each item should be distinct and actionable
-- Works best with odd numbers (3, 5, 7) or round numbers (10)
+- Choose the count that matches the actual distinct items; do not add items to reach a preferred number
 - Avoid "listicle fatigue" with overuse
 
 ## When Not To Use
@@ -44,6 +48,8 @@ Avoid when the episode is a deep single-topic conversation. Forcing a number on 
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|
@@ -71,7 +77,7 @@ Requirements:
 - Under 70 characters
 - Number must be honest — do not pad the list
 - Each item should be distinct and actionable
-- Odd numbers (3, 5, 7) or round numbers (10) perform best
+- Use the actual number of distinct insights; no numeric format guarantees performance
 ```
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

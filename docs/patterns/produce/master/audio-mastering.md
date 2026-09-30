@@ -4,6 +4,8 @@ description: "Audio mastering standard for podcast distribution. Loudness normal
 
 # Audio Mastering Standard
 
+The audio mastering pass that takes the rough cut audio and produces a distribution-ready podcast audio file meeting loudness, noise, and quality standards for Apple Podcasts, Spotify, and all major platforms. Use the targets as production settings, then check destination requirements and listen to the complete result.
+
 **Stage:** Produce → Master  
 **Score:** 5  
 **Evidence:** Podcast distribution standards, internal production data

@@ -4,7 +4,7 @@ description: "The five-stage owned media operating system: Produce, Package, Pub
 
 # Produce, Package, Publish, Prove, Preserve
 
-The Owned Media Index is organized around a five-stage operating model.
+The Owned Media Index uses five stages: **Produce** clean source media, **Package** usable assets, **Publish** to the right channels, **Prove** what worked, and **Preserve** content for retrieval and reuse.
 
 ## Produce
 

@@ -4,6 +4,8 @@ description: "The Authority Claim title pattern used by The Diary Of A CEO. Form
 
 # Authority Claim
 
+A title that leads with the guest's credential or identity (not just their name, but *what they are*), followed by a bold, often provocative declarative statement. Use it only when the credential is accurate and relevant to a claim the episode can defend; authority is not a substitute for evidence.
+
 **Stage:** Package → Titles  
 **Score:** 5  
 **Evidence:** The Diary Of A CEO (Steven Bartlett), platform performance data
@@ -101,6 +103,8 @@ The claim is framed as a provocative question.
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

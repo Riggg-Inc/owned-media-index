@@ -1,4 +1,10 @@
+---
+description: "Quote Share social post pattern: purpose, existing score, evidence label, and platform-specific versions for owned media."
+---
+
 # Quote Share
+
+A standalone social post built around a single powerful quote from the episode, paired with a quote graphic or clip.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  

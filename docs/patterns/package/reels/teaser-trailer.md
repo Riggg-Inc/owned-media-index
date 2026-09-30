@@ -1,4 +1,10 @@
+---
+description: "A reel designed to promote an upcoming or recent episode."
+---
+
 # Teaser Trailer
+
+A reel designed to promote an upcoming or recent episode. Choose this to announce a release using two or three real highlights, rather than deliver a complete lesson.
 
 **Stage:** Package → Reels  
 **Score:** 3  

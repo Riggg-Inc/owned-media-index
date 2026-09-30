@@ -1,4 +1,10 @@
+---
+description: "A standard for podcast RSS metadata that supports discoverability, clarity, and distribution quality."
+---
+
 # RSS Feed Metadata Standard
+
+A standard for podcast RSS metadata that supports discoverability, clarity, and distribution quality. Use the checklist to make the episode understandable inside the app while retaining its canonical website link.
 
 **Stage:** Publish  
 **Score:** 5  

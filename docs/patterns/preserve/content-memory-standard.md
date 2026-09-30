@@ -1,4 +1,10 @@
+---
+description: "A standard for preserving each session as searchable, reusable content memory."
+---
+
 # Content Memory Standard
+
+A standard for preserving each session as searchable, reusable content memory. Use it for retrieval of prior moments by topic; do not store sensitive material without permission and retention rules.
 
 **Stage:** Preserve  
 **Score:** 5  

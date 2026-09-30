@@ -1,4 +1,10 @@
+---
+description: "A templatized quote graphic using consistent brand colors, fonts, and layout across every episode."
+---
+
 # Branded Pull Quote
+
+A templatized quote graphic using consistent brand colors, fonts, and layout across every episode. Use a consistent layout when show recognition matters, while keeping each attributed quote readable and distinctive.
 
 **Stage:** Package → Quote Graphics  
 **Score:** 4  

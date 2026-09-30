@@ -1,4 +1,10 @@
+---
+description: "Reusable patterns for publishing new owned media assets on LinkedIn."
+---
+
 # LinkedIn Release Post Patterns
+
+Reusable patterns for publishing new owned media assets on LinkedIn. Choose an angle that gives value before a click, rather than relying on “new episode is live” as the whole message.
 
 **Stage:** Publish  
 **Score:** 4  

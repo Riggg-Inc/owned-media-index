@@ -4,6 +4,8 @@ description: "Riggg Quadrant for distribution platforms. Maps owned media distri
 
 # Distribution Platforms Quadrant
 
+Use website, email, and controlled RSS as owned-channel anchors, and shared platforms for discovery and distribution. This quadrant compares reach with audience control; owning a content file does not mean owning the platform relationship.
+
 <div class="rq-title">Riggg Quadrant: Distribution Platforms</div>
 <div class="rq-subtitle">Where each platform sits on audience reach and how much of that audience you actually own</div>
 
@@ -163,3 +165,14 @@ The vertical axis is the strategic insight. Every platform below the midline is 
 | Clip / short-form syndication | Instagram, TikTok, YouTube Shorts, LinkedIn |
 | Newsletter / written companion | Substack, Email, Website |
 | Community engagement | Reddit, LinkedIn, Facebook Groups |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| A canonical content home | Website / Blog | Owned content home; discovery still requires work. |
+| A direct subscriber relationship | Email / Newsletter | Build the list rather than relying only on platform followers. |
+| Portable feed distribution | Controlled RSS feed | Distinguish control of the feed from control of any player audience. |
+| Video discovery | YouTube | Shared reach complements rather than replaces an owned anchor. |
+| Professional distribution | LinkedIn | B2B audience access is still platform-mediated. |
+| Visual short-form discovery | Instagram / TikTok | Use for discovery; the platform relationship remains rented. |

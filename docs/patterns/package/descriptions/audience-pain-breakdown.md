@@ -1,4 +1,10 @@
+---
+description: "A description that opens with a pain point the audience recognizes, breaks down the practical solution discussed, and points to resources."
+---
+
 # Audience Pain Breakdown
+
+A description that opens with a pain point the audience recognizes, breaks down the practical solution discussed, and points to resources. Use it for a tactical episode with a recognizable problem and useful resources, rather than an inspirational story.
 
 **Stage:** Package → Descriptions  
 **Score:** 4  
@@ -18,6 +24,8 @@ Pain-first descriptions earn attention immediately. The listener feels seen, the
 
 ## Example
 
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+
 > You recorded 20 episodes this year and repurposed exactly zero. In this episode, we break down a simple repurposing pipeline that turns one recording session into clips, social posts, a blog summary, and a guest-share package — without hiring anyone new. Resources and templates at riggg.com.
 
 ## Quality Bar
@@ -32,6 +40,8 @@ Avoid when the episode is more inspirational than tactical.
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

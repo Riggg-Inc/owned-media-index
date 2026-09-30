@@ -33,3 +33,13 @@ Publishing splits into two tracks: **owned channels** (your website, RSS, email 
 | [Citation Architecture](ai-search-optimization/citation-architecture.md) | How to structure owned content so it gets cited, not summarized |
 | [Platform Visibility](ai-search-optimization/platform-visibility.md) | Where owned media needs to appear to be cited by AI search |
 | [Measurement](ai-search-optimization/measurement.md) | How to track AI search visibility and citation over time |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Create the episode home | [Canonical Episode Page](canonical-episode-page.md) | Anchor transcripts, embeds, show notes, and chapters on the website. |
+| Serve podcast feeds | [RSS Feed Metadata](feed-metadata-standard.md) | Maintain a complete feed alongside the canonical page. |
+| Reach shared audiences | [YouTube](youtube-title-and-description-standard.md) and [LinkedIn](linkedin-release-post-patterns.md) | Adapt packaging and release copy to the destination. |
+| Broadcast across platforms | [Simulcast](simulcast-standard.md) | Use for simultaneous live distribution. |
+| Structure AI discovery | [AI Search Optimization](ai-search-optimization/index.md) | Combine parseable text, structured data, citation design, and measurement. |

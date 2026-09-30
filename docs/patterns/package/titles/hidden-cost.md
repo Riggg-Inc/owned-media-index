@@ -4,6 +4,8 @@ description: "The Hidden Cost title pattern. Format: The Hidden Cost of [Broken 
 
 # Hidden Cost
 
+A title that reveals an unseen cost, risk, or consequence of a common process or decision. Use it when the episode explains an underappreciated cost and an alternative, not an obvious risk dressed as a revelation.
+
 **Stage:** Package → Titles  
 **Score:** 4  
 **Evidence:** practitioner observation
@@ -21,6 +23,8 @@ A title that reveals an unseen cost, risk, or consequence of a common process or
 "Hidden cost" implies the audience is losing something they do not realize. It triggers loss aversion — one of the strongest motivators in decision-making.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - The Hidden Cost of Outsourcing Your Podcast Production
 - The Hidden Cost of Skipping Distribution
@@ -43,6 +47,8 @@ Avoid when the cost is already well-known. "The Hidden Cost of Not Having a Webs
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

@@ -1,4 +1,10 @@
+---
+description: "A thumbnail using a production still from the actual recording session."
+---
+
 # Scene Still
+
+A thumbnail using a production still from the actual recording session. Choose it when the actual studio or recording moment is visually distinctive; avoid unremarkable or unprofessional frames.
 
 **Stage:** Package → Thumbnails  
 **Score:** 3  

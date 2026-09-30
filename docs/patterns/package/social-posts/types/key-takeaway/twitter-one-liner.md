@@ -1,4 +1,10 @@
+---
+description: "A Twitter/X one-liner distills one episode takeaway into a short, standalone statement."
+---
+
 # Twitter One Liner
+
+A Twitter/X one-liner distills one episode takeaway into a short, standalone statement. Use it when compression preserves meaning; choose a thread when essential context will not fit.
 
 **Stage:** Package → Social Posts → Key Takeaway  
 **Score:** 4  
@@ -10,7 +16,11 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Key Takeaway social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A Twitter/X one-liner distills one episode takeaway into a short, standalone statement.
+
+## When To Use
+
+Use it when compression preserves meaning; choose a thread when essential context will not fit.
 
 ## Template
 

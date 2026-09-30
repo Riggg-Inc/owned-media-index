@@ -1,4 +1,5 @@
 ---
+description: "The Owned Media Index: patterns, tools, evidence, and standards for producing, packaging, publishing, measuring, and preserving owned media."
 template: home.html
 title: Owned Media Index
 ---

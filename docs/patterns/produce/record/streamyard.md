@@ -1,20 +1,24 @@
 ---
-description: "StreamYard for podcast and livestream recording. Mixed composite output only. No isolated tracks. Significant production limitations."
+description: "This StreamYard pattern evaluates a composite-only livestream workflow: recording the finished layout rather than editable per-person sources."
 ---
 
 # StreamYard
+
+This StreamYard pattern evaluates a composite-only livestream workflow: recording the finished layout rather than editable per-person sources. Use a composite-only workflow when the live layout is the final product; verify local-track options when participant-level editing is required.
 
 **Stage:** Produce → Record  
 **Score:** 2  
 **Evidence:** Platform documentation, practitioner observation
 
+**Capability caveat:** StreamYard’s [local-recording documentation](https://support.streamyard.com/hc/en-us/articles/10725401176596-Local-Recording-of-your-Live-Stream) describes individual video and audio tracks. Its indexed official documentation contradicts a product-wide “no isolated tracks” claim. The score and rationale below are retained for the composite-only workflow, not as an assessment of every current recording mode. Confirm current plan, settings, and upload completion with a test recording.
+
 ## What It Is
 
-StreamYard is a browser-based live streaming and recording platform. It records a single mixed composite video of all participants with the StreamYard layout, branding, and overlays baked into the recording.
+StreamYard is a browser-based live streaming and recording platform. In the composite-only workflow evaluated here, the recording contains the participant layout, branding, and overlays baked into one video.
 
 ## Why It Gets a 2
 
-StreamYard is designed for live streaming, not recording. The output is a **single mixed composite** — you cannot isolate individual participants for post-production. The video has StreamYard's layout baked in, which means you cannot reframe, re-layout, or produce the show differently after the fact.
+The composite-only workflow produces a **single mixed composite** — that file alone does not isolate participants for post-production. The video has StreamYard's layout baked in, which means you cannot reframe, re-layout, or produce the show differently after the fact.
 
 It is included in the Index because many teams use it and need to understand its limitations.
 
@@ -41,6 +45,6 @@ It is included in the Index because many teams use it and need to understand its
 
 ## The Core Limitation
 
-StreamYard records what the audience sees. If you stream a 2-up layout, that is the only video you have. You cannot go back and create a 1-up close-up of the guest, extract a vertical clip with different framing, or add different lower thirds. The production decisions are permanent at the moment of recording.
+A StreamYard composite records what the audience sees. If you stream a 2-up layout, that is the only view available from the composite file unless separate tracks were also captured. You cannot go back and create a 1-up close-up of the guest, extract a vertical clip with different framing, or add different lower thirds. The production decisions are permanent at the moment of recording.
 
-This is the fundamental difference between StreamYard and the isolated recording + OBS rough cut workflow: **StreamYard locks your production decisions at capture time. Isolated recording keeps them open.**
+This is the fundamental difference between StreamYard and the isolated recording + OBS rough cut workflow: **A composite-only recording locks layout decisions at capture time. Isolated recording keeps them open.**

@@ -1,8 +1,10 @@
 ---
-description: "Riggg's open-source OBS Studio scene collection template for real-time podcast, webinar, and livestream production. 157 scenes, 5-participant capacity, simultaneous horizontal + vertical output."
+description: "The OBS scene collection template is a configurable live-production setup for up to five participants, with horizontal and vertical layouts."
 ---
 
 # OBS Scene Collection Template
+
+The OBS scene collection template is a configurable live-production setup for up to five participants, with horizontal and vertical layouts. Use it for a staffed video show after testing its plugins and script, not audio-only shows, more than five participants, or 4K output.
 
 **Stage:** Produce  
 **Score:** 5  

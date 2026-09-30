@@ -1,8 +1,10 @@
 ---
-description: "Schema.org structured data for podcast episodes. JSON-LD templates for PodcastEpisode, FAQPage, and VideoObject markup."
+description: "Structured data describes episode identity, media, and visible page content in machine-readable JSON-LD."
 ---
 
 # Structured Data
+
+Structured data describes episode identity, media, and visible page content in machine-readable JSON-LD. Use applicable Schema.org types and validate markup; schema does not replace readable content or guarantee search features.
 
 **Stage:** Publish → AI Search Optimization  
 **Score:** 5  
@@ -14,7 +16,7 @@ Structured data is machine-readable markup (JSON-LD) embedded in your episode we
 
 ## Why It Works
 
-AI systems do not "read" your page like a human. They parse structured signals. Schema.org markup is the universal language that Google, Bing, Perplexity, and other AI systems use to understand content at scale. Without it, your episode is just another blob of text. With it, your episode has typed, structured identity.
+Schema.org markup gives an episode explicit, machine-readable identity alongside the visible page. It is not a universal requirement for AI discovery: [Google states](https://developers.google.com/search/docs/appearance/ai-features) that its AI features require no special schema or additional markup. Keep structured data consistent with the visible content, and do not treat valid markup as proof of citation eligibility across every platform.
 
 ## Required Schema Types
 
@@ -60,7 +62,7 @@ The primary schema for every episode page.
 
 ### FAQPage
 
-Add FAQ schema when your show notes include questions and answers extracted from the episode.
+FAQPage describes visible questions and answers. Use it only for content actually present on the page; do not infer Google rich-result eligibility or AI-citation benefit from this template.
 
 ```json
 {
@@ -92,10 +94,12 @@ Add when the episode has a video version.
   "thumbnailUrl": "https://yoursite.com/thumbnails/ep42.jpg",
   "uploadDate": "2026-05-28",
   "duration": "PT45M",
-  "contentUrl": "https://youtube.com/watch?v=xxxxx",
+  "contentUrl": "https://yourcdn.com/episode-42.mp4",
   "embedUrl": "https://youtube.com/embed/xxxxx"
 }
 ```
+
+The example URLs and dates are placeholders. A VideoObject contentUrl should identify the media file; use embedUrl for the player. Validate Schema.org vocabulary separately from eligibility for a specific search feature.
 
 ## Quality Bar
 

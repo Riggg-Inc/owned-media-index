@@ -47,3 +47,10 @@ Both are created simultaneously using OBS + Aitum Vertical Canvas. No separate r
 - Intro and outro sequences are branded and functional
 - No audio issues (levels balanced, no echo, no clipping)
 - Safe zones respected for subtitle and UI overlay areas
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Understand real-time production | [OBS Production Standard](../obs-production-standard.md) | Use for workflow and methodology. |
+| Set up reusable show scenes | [OBS Scene Collection Template](../obs-scene-collection-template.md) | Use for scene structure and dual horizontal/vertical output. |

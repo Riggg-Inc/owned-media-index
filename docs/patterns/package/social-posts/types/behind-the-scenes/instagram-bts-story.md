@@ -1,4 +1,10 @@
+---
+description: "An Instagram behind-the-scenes story shows a real recording or production moment and explains why it matters."
+---
+
 # Instagram Bts Story
+
+An Instagram behind-the-scenes story shows a real recording or production moment and explains why it matters. Choose it when the visual adds context beyond the episode announcement, not merely proof that a recording happened.
 
 **Stage:** Package → Social Posts → Behind The Scenes  
 **Score:** 4  
@@ -10,7 +16,11 @@ Instagram
 
 ## What It Is
 
-A platform-specific version of the Behind The Scenes social post type, optimized for Instagram's visual-first, discovery-driven feed.
+An Instagram behind-the-scenes story shows a real recording or production moment and explains why it matters.
+
+## When To Use
+
+Choose it when the visual adds context beyond the episode announcement, not merely proof that a recording happened.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: Instagram
-Character limit: 2200 characters max, first 125 visible before 'more'
+Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
 
 Requirements:
 - First line must stop the scroll

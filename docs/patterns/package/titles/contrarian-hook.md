@@ -4,6 +4,8 @@ description: "The Contrarian Hook title pattern. Format: Why [Common Belief] Is 
 
 # Contrarian Hook
 
+A title that challenges a widely held assumption and frames it as a cost to a specific audience. Use it when the episode challenges a real audience belief and offers an alternative, not criticism without resolution.
+
 **Stage:** Package → Titles  
 **Score:** 5  
 **Evidence:** platform observation, internal production data
@@ -21,6 +23,8 @@ A title that challenges a widely held assumption and frames it as a cost to a sp
 Contrarian titles create tension. They tell the audience that something they believe or do is actively hurting them. That tension drives clicks, listens, and shares — especially in B2B where practitioners are wary of outdated best practices.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - Why "Post Every Day" Is Killing Your LinkedIn Reach
 - Why Most Podcast Agencies Are Wasting Your Budget
@@ -45,6 +49,8 @@ Avoid when the guest is not opinionated enough to defend the contrarian take, or
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

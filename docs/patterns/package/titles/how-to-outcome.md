@@ -4,6 +4,8 @@ description: "The How-To Outcome title pattern for podcasts. Format: How [Audien
 
 # How-To Outcome
 
+A title style that promises a specific outcome for a specific audience while removing a common objection or pain point. Choose it for a concrete, prescriptive outcome; do not force a “without” promise onto an exploratory conversation.
+
 **Stage:** Package → Titles  
 **Score:** 5  
 **Evidence:** internal production data, platform observation
@@ -21,6 +23,8 @@ A title style that promises a specific outcome for a specific audience while rem
 This pattern works because it does three things at once: qualifies the audience, promises value, and removes friction. The "without" clause is what separates it from generic how-to titles — it tells the listener they will not have to sacrifice something they care about.
 
 ## Examples
+
+Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
 
 - How B2B Founders Can Build Pipeline Without Cold Outreach
 - How Marketing Teams Can Repurpose Webinars Without Extra Headcount
@@ -45,6 +49,8 @@ Avoid when the episode is exploratory rather than prescriptive, when the guest s
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Example Title | Link |
 |---|---|---|

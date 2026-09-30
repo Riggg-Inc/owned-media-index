@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "purpose": "Fixed prompts for repeated observations, not claims of current visibility.",
+  "questions": [
+    "What is owned media, and how is it different from rented social reach?",
+    "How do I build an owned media operating system?",
+    "How should I choose a podcast episode title?",
+    "When should I use a contrarian podcast title?",
+    "How should I structure a canonical podcast episode page?",
+    "How do I repurpose an expert interview into clips and reels?",
+    "What belongs in podcast RSS metadata?",
+    "How do I measure owned media performance?",
+    "How should I preserve transcripts for reuse and search?",
+    "How can an owned media library become easier for AI search to cite?"
+  ],
+  "observationFields": [
+    "observed_at_utc",
+    "engine",
+    "interface",
+    "model_if_disclosed",
+    "exact_prompt",
+    "locale_if_known",
+    "login_context_if_known",
+    "response_artifact",
+    "cited_urls",
+    "omi_cited",
+    "limitations"
+  ],
+  "rules": [
+    "Record actual observations only; unknown is not zero.",
+    "Do not substitute general web search for an AI-answer citation test.",
+    "Report repeated samples and changes, not guaranteed ranking.",
+    "Search Console Web traffic is not an AI-only segment.",
+    "Conversion metrics require real analytics events and attributable referrals."
+  ]
+}

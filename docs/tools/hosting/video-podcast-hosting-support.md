@@ -1,4 +1,10 @@
+---
+description: "Video podcast hosting and player compatibility: video RSS criteria, reported support, unknown status, and verification cautions."
+---
+
 # Video Podcast Hosting — Platform Support Reference
+
+Video podcast hosting support depends on video delivery, RSS enclosure support, and player compatibility—not just native video playback. This reference separates hosts from players and flags unknown or limited support; verify current platform documentation before choosing.
 
 **Last updated:** 2026-08-11
 **Next review due:** 2026-09-20 (monthly — Sentinel maintains this)
@@ -45,6 +51,9 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 
 ---
 
+!!! warning "Historical classifications need re-verification"
+    The rows below are dated records, not current vendor recommendations. Apple’s [February 2026 HLS announcement](https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/) already names Omny Studio and Simplecast among supporting providers, contradicting their no-support entries below. Consult current primary documentation before selecting a host.
+
 ## ❌ No Known Video Support / Audio-Only
 
 | Platform | Notes |
@@ -58,5 +67,5 @@ A platform is listed as Confirmed Support when it can: (1) host/serve video file
 
 ## Related Patterns
 
-- `publish/rss/feed-metadata-standard.md`
-- `produce/recording/hls-video-podcast-distribution.md`
+- [Feed Metadata Standard](../../patterns/publish/feed-metadata-standard.md)
+- [HLS Video Podcast Distribution Standard](../../patterns/produce/recording/hls-video-podcast-distribution.md)

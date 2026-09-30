@@ -1,4 +1,10 @@
+---
+description: "A LinkedIn video post pairs an episode clip with a professional reason to watch and one next action."
+---
+
 # Linkedin Video Post
+
+A LinkedIn video post pairs an episode clip with a professional reason to watch and one next action. Choose it when the clip illustrates a specific lesson or point of view, not for a generic release announcement.
 
 **Stage:** Package → Social Posts → Clip Companion  
 **Score:** 4  
@@ -10,7 +16,11 @@ LinkedIn
 
 ## What It Is
 
-A platform-specific version of the Clip Companion social post type, optimized for LinkedIn's algorithm and professional audience.
+A LinkedIn video post pairs an episode clip with a professional reason to watch and one next action.
+
+## When To Use
+
+Choose it when the clip illustrates a specific lesson or point of view, not for a generic release announcement.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: LinkedIn
-Character limit: 1300 characters for optimal engagement
+Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
 
 Requirements:
 - First line must stop the scroll

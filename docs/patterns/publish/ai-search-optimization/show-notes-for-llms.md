@@ -4,6 +4,8 @@ description: "How to structure show notes so AI systems can extract and cite you
 
 # Show Notes for LLMs
 
+Show notes structured specifically so that AI systems can extract direct answers from your episode page. Use only answers supported by the actual conversation; structured notes do not guarantee inclusion in AI answers.
+
 **Stage:** Publish → AI Search Optimization  
 **Score:** 4  
 **Evidence:** LLM retrieval testing, practitioner observation
@@ -14,9 +16,11 @@ Show notes structured specifically so that AI systems can extract direct answers
 
 ## Why It Works
 
-When someone asks ChatGPT, Perplexity, or Google AI a question, the AI looks for content that directly answers the question in a structured, citable format. Traditional show notes — a paragraph summary plus a list of timestamps — do not give AI systems extractable answers.
+When someone asks ChatGPT, Perplexity, or Google AI a question, the AI looks for content that directly answers the question in a structured, citable format. A paragraph summary and timestamps may help readers, but explicit answers can make the conversation’s useful points easier to locate and attribute.
 
 Show notes structured as Q&A, key claims, and structured takeaways become candidate sources for AI-generated answers.
+
+The sample names, credentials, quotations, asset counts, and outcomes below are illustrative copy, not verified episode evidence. Do not attribute them to a real person or company; replace them with source-checked transcript details.
 
 ## Structure
 

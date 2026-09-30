@@ -43,3 +43,11 @@ Finishing the episode to a deliverable standard.
 | [Video Mastering](master/video-mastering.md) | Video output specs and color/quality standards |
 | [Audio Mastering](master/audio-mastering.md) | Loudness normalization, noise reduction, and final audio quality |
 | [Export Specifications](master/export-specs.md) | File format, codec, and delivery specs by platform |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Capture participants | [Record](record/index.md) | Source quality and isolation determine later editing flexibility. |
+| Assemble the show | [Rough Cut](rough-cut/index.md) | Layouts, transitions, and graphics shape the session. |
+| Finish deliverables | [Master](master/index.md) | Polish audio and video, then export for the destination. |

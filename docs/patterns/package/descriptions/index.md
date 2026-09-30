@@ -1,5 +1,5 @@
 ---
-description: "5 ranked RSS and episode description patterns. Structured templates for Apple Podcasts, Spotify, YouTube, and web publishing."
+description: "6 ranked RSS and episode description patterns. Structured templates for Apple Podcasts, Spotify, YouTube, and web publishing."
 ---
 
 # Descriptions

@@ -1,4 +1,10 @@
+---
+description: "A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic."
+---
+
 # Guest Headshot Text
+
+A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic. Use it when the guest matters to the target audience; let the topic lead when the guest is unfamiliar.
 
 **Stage:** Package → Thumbnails  
 **Score:** 5  

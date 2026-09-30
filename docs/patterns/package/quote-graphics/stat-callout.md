@@ -1,4 +1,10 @@
+---
+description: "A graphic that highlights a specific data point or benchmark from the session, with the number as the dominant visual element and context text below."
+---
+
 # Stat Callout
+
+A graphic that highlights a specific data point or benchmark from the session, with the number as the dominant visual element and context text below. Use it when a credible number and its context fit together on the graphic; retain visible source attribution.
 
 **Stage:** Package → Quote Graphics  
 **Score:** 4  

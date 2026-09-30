@@ -10,6 +10,8 @@ description: "Separate creator break-even economics from B2B strategy, discovery
 
 [Watch on YouTube](https://www.youtube.com/watch?v=gs0LIKxsqUo)
 
+A two-track decision rubric for deciding whether to invest in video podcast production. Creators assess incremental economics; B2B teams establish strategy first, weigh discovery and business value second, and retain a quality veto.
+
 **Stage:** Prove
 **Score:** 3
 **Evidence:** Mixed — External Research for Creator Cost Reference Points; Hypothesis / Practitioner Recommendation for the B2B Decision Sequence

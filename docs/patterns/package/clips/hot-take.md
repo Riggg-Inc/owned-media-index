@@ -1,4 +1,10 @@
+---
+description: "A clip built around a strong, opinionated statement from the host or guest."
+---
+
 # Hot Take
+
+A clip built around a strong, opinionated statement from the host or guest. Use a defensible position that stands alone, not a claim the speaker later walks back.
 
 **Stage:** Package → Clips  
 **Score:** 5  
@@ -10,7 +16,7 @@ A clip built around a strong, opinionated statement from the host or guest. The 
 
 ## Why It Works
 
-Opinions create engagement. People share, comment on, and argue with strong takes. A hot take clip earns more impressions than a polished summary because it triggers a reaction.
+Opinions create engagement. People share, comment on, and argue with strong takes. The intended mechanism is a reaction to a clear position; compare impressions with your own baseline rather than assuming uplift.
 
 ## Selection Criteria
 
@@ -25,6 +31,8 @@ Avoid when the take is uninformed, when it might alienate the target audience, o
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

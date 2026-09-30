@@ -1,4 +1,10 @@
+---
+description: "A clip capturing genuine disagreement or tension between multiple speakers."
+---
+
 # Debate Moment
+
+A clip capturing genuine disagreement or tension between multiple speakers. Use a respectful exchange in which both positions remain coherent; do not manufacture conflict or cut away the other side.
 
 **Stage:** Package → Clips  
 **Score:** 4  
@@ -10,7 +16,7 @@ A clip capturing genuine disagreement or tension between multiple speakers. The 
 
 ## Why It Works
 
-Conflict is engaging. When two smart people disagree on camera, the audience watches longer, comments more, and shares to get reactions from their own network.
+Conflict is engaging. A coherent disagreement gives viewers competing positions to consider; watch time, comments, and shares should be measured rather than assumed.
 
 ## Selection Criteria
 
@@ -25,6 +31,8 @@ Avoid when the disagreement is uncomfortable rather than productive, or when one
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

@@ -4,6 +4,8 @@ description: "Riggg Quadrant for title styles. Maps 11 podcast title patterns on
 
 # Title Styles Quadrant
 
+Choose a title style by audience and attention mechanism: authority-led titles foreground expertise, curiosity-led titles foreground a question or promise, and role-specific titles narrow the audience. This quadrant compares those choices without replacing the individual pattern guidance.
+
 <div class="rq-title">Riggg Quadrant: Title Styles</div>
 <div class="rq-subtitle">Where each title pattern sits on appeal breadth and attention mechanism</div>
 
@@ -114,3 +116,14 @@ description: "Riggg Quadrant for title styles. Maps 11 podcast title patterns on
 | Target a specific buyer persona | Top-left: Role Guide |
 | Thought leadership positioning | Bottom-left: Big Question, Future Of |
 | Versatile / balanced | Center: Inside Look, Before-After, Hidden Cost |
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| A practical outcome | [How-To Outcome](../patterns/package/titles/how-to-outcome.md) | The episode must deliver the promised takeaway. |
+| A challenge to accepted advice | [Contrarian Hook](../patterns/package/titles/contrarian-hook.md) | Use genuine tension, not an unsupported promise. |
+| Recognizable expertise | [Guest Authority](../patterns/package/titles/guest-authority.md) | Name recognition matters to this choice. |
+| A professional audience | [Role Guide](../patterns/package/titles/role-guide.md) | Narrow targeting is the purpose. |
+| A strategic topic | [Big Question](../patterns/package/titles/big-question.md) | Thought leadership fit differs from an actionable how-to. |
+| A transformation story | [Before-After Playbook](../patterns/package/titles/before-after-playbook.md) | Use the change itself as the organizing promise. |

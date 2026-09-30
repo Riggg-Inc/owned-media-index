@@ -1,4 +1,10 @@
+---
+description: "A standard for using OBS or equivalent live production software to create show-style rough edits during or immediately around recording."
+---
+
 # OBS Real-Time Production Standard
+
+A standard for using OBS or equivalent live production software to create show-style rough edits during or immediately around recording. Choose it for fast turnaround when someone can monitor production live; use raw capture for archival-only needs.
 
 **Stage:** Produce  
 **Score:** 5  

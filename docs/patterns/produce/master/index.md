@@ -92,3 +92,11 @@ Rough Cut (H + V) arrives
 - **Sync:** Audio and video perfectly synced across all exports
 - **Formats:** All exports match platform-specific specs (see [Export Specifications](export-specs.md))
 - **Turnaround:** Mastering should take less time than the rough cut. Target: same day or next day.
+
+## Selection Guide
+
+| Need | Choose | Selection consideration |
+|---|---|---|
+| Finish picture and pacing | [Video Mastering](video-mastering.md) | Apply final edits and color work to video deliverables. |
+| Finish sound | [Audio Mastering](audio-mastering.md) | Address loudness, noise, and EQ for podcast audio. |
+| Deliver compatible files | [Export Specifications](export-specs.md) | Check the target format after finishing; export settings do not replace mastering. |

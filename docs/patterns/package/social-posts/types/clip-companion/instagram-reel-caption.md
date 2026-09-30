@@ -1,4 +1,10 @@
+---
+description: "An Instagram reel caption gives a clip context, identifies the takeaway, and points viewers to one next action."
+---
+
 # Instagram Reel Caption
+
+An Instagram reel caption gives a clip context, identifies the takeaway, and points viewers to one next action. Use it alongside a self-contained reel; add context rather than repeat the episode title.
 
 **Stage:** Package → Social Posts → Clip Companion  
 **Score:** 4  
@@ -10,7 +16,11 @@ Instagram
 
 ## What It Is
 
-A platform-specific version of the Clip Companion social post type, optimized for Instagram's visual-first, discovery-driven feed.
+An Instagram reel caption gives a clip context, identifies the takeaway, and points viewers to one next action.
+
+## When To Use
+
+Use it alongside a self-contained reel; add context rather than repeat the episode title.
 
 ## Template
 
@@ -51,7 +61,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: Instagram
-Character limit: 2200 characters max, first 125 visible before 'more'
+Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
 
 Requirements:
 - First line must stop the scroll

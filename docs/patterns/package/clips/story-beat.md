@@ -1,4 +1,10 @@
+---
+description: "A clip extracted from a compelling narrative moment — a guest anecdote, origin story, or turning point that creates emotional engagement."
+---
+
 # Story Beat
+
+A clip extracted from a compelling narrative moment — a guest anecdote, origin story, or turning point that creates emotional engagement. Select a complete setup, tension, and resolution with a transferable lesson; avoid anecdotes that need earlier context.
 
 **Stage:** Package → Clips  
 **Score:** 4  
@@ -10,7 +16,7 @@ A clip extracted from a compelling narrative moment — a guest anecdote, origin
 
 ## Why It Works
 
-Stories are memorable. A 60-second story clip lands harder than a 60-second advice clip because it engages emotion, not just intellect.
+Stories are memorable. A short story offers an emotional route into a lesson; that does not establish that it outperforms an advice clip.
 
 ## Selection Criteria
 
@@ -25,6 +31,8 @@ Avoid when the story requires setup from earlier in the conversation, or when th
 
 
 ## Shows That Use This Pattern
+
+These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|

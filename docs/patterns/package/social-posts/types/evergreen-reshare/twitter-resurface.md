@@ -1,4 +1,10 @@
+---
+description: "A Twitter/X resurface post brings an older episode back into the feed with a still-relevant insight and link."
+---
+
 # Twitter Resurface
+
+A Twitter/X resurface post brings an older episode back into the feed with a still-relevant insight and link. Choose an evergreen point that remains accurate; check time-sensitive claims before recycling them.
 
 **Stage:** Package → Social Posts → Evergreen Reshare  
 **Score:** 4  
@@ -10,7 +16,11 @@ Twitter/X
 
 ## What It Is
 
-A platform-specific version of the Evergreen Reshare social post type, optimized for Twitter/X's short-form, engagement-driven format.
+A Twitter/X resurface post brings an older episode back into the feed with a still-relevant insight and link.
+
+## When To Use
+
+Choose an evergreen point that remains accurate; check time-sensitive claims before recycling them.
 
 ## Template
 

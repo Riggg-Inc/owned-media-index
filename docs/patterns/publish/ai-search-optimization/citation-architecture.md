@@ -1,8 +1,10 @@
 ---
-description: "How to make owned media content citable by AI search systems. Page authority, content citability, and structural requirements."
+description: "Citation architecture organizes episode pages into clear, attributed answers linked to a canonical source."
 ---
 
 # Citation Architecture
+
+Citation architecture organizes episode pages into clear, attributed answers linked to a canonical source. Make existing evidence easier to find and quote; do not turn uncertainty into confident claims or promise an AI citation.
 
 **Stage:** Publish → AI Search Optimization  
 **Score:** 4  
@@ -10,7 +12,7 @@ description: "How to make owned media content citable by AI search systems. Page
 
 ## What It Is
 
-Citation architecture is the practice of structuring your owned media content so that AI systems will cite your URL as the source when generating answers. It is the difference between your expertise existing in the AI layer and your expertise being cited, linked, and attributed to you.
+Citation architecture is the practice of structuring your owned media content so that readers and retrieval systems can identify your URL as the source of an answer. It is the difference between your expertise existing in the AI layer and your expertise being cited, linked, and attributed to you.
 
 ## Why It Works
 
@@ -22,7 +24,7 @@ AI systems cite sources that:
 4. **Live on authoritative domains** — consistent publishing history, clean technical SEO
 5. **Are structured for extraction** — headings, lists, Q&A format, not walls of prose
 
-If your content meets all five criteria, AI systems are more likely to cite you as a source in their generated answers. If it meets none, your content is training data at best — invisible to the end user.
+These are practical editorial checks, not a tested five-factor citation formula. [Google’s documentation](https://developers.google.com/search/docs/appearance/ai-features) requires indexed, snippet-eligible content for its AI features and says no special AI markup is required. Clear structure cannot guarantee a citation, and lack of it does not establish that a page is used for training.
 
 ## The Citation Stack
 
@@ -86,7 +88,7 @@ Things that make your content **less** citable:
 
 ## When Not To Use
 
-Always apply citation architecture. There is no downside to making your content more citable. The only cost is the time to structure it — which pays compound returns.
+Apply this to public material intended to be found and reused. Do not expose private content, invent credentials or dates, or remove uncertainty merely to make an answer easier to quote.
 
 ## Prompt Template
 
