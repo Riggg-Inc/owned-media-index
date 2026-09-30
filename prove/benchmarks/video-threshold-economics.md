@@ -58,6 +58,15 @@ Strategy is the B2B gate; economics and SEO/GEO are the tradeoff after it is cle
 - **Execution proof:** a representative pilot reviewed against the quality floor below, plus staffing and budget to repeat that standard.
 - **Bounded commitment:** approved spend and duration, with stop/rework conditions if discovery, business value, or quality falls short. No universal B2B volume or ad-revenue threshold is required.
 
+## Example Patterns
+
+These scenarios are hypothetical illustrations, not customer results or benchmarks.
+
+- **Creator — no-go on economics:** a show projects $900 in additional monthly video cost and only $600 in incremental direct contribution after revenue-related costs. The $300 shortfall means no-go under those assumptions; existing audio revenue is not counted again as incremental video return. Revisit when a credible revenue or cost change closes the gap.
+- **B2B — strategy not ready:** a team can afford video but has not chosen its positioning, target search/GEO queries, or recurring format. Decision: no-go until that pre-work is complete, even if production is inexpensive.
+- **B2B — bounded pilot, not ad break-even:** a team has a completed strategy brief, a relevant search-led format, and a credible discovery/business-value case. A representative episode passes the quality floor. Decision: a budget-limited pilot with a named owner and review date, tracking relevant discovery and qualified inquiries without assuming all pipeline came from video. Show-level advertising revenue is not required.
+- **B2B — quality veto:** the strategy and value case are favorable, but the pilot has unintelligible audio and does not fulfill its title promise. Decision: no-go on ongoing production until rework passes the floor; the budget and business case do not override execution failure.
+
 ## Quality Bar
 
 **Serious creator:** the team can explain its video break-even calculation, compare it with a credible audience/revenue scenario, and defend the incremental cost and value assumptions. The borrowed survey average is not the decision.
@@ -91,7 +100,9 @@ Provisional editorial score for this combined rubric: viable with judgement and 
 
 ## Evidence
 
-Evidence levels: **external research** for the creator cost reference points; **hypothesis / practitioner recommendation** for the B2B decision sequence.
+Evidence level: mixed — external research for creator cost reference points; hypothesis / practitioner recommendation for the B2B decision sequence.
+
+The combined rubric’s score of 3 is provisional: viable with judgement and tradeoffs, not a validated B2B benchmark. The earlier economics-only draft scored 4; that confidence does not automatically extend to the expanded guidance.
 
 - Podnews, "The Price of Visibility: The Hidden Economics of Podcast Video" (2026-07-27): Video Threshold analysis and cited Cost of Attention model. https://podnews.net/article/the-video-threshold
 - Cost of Attention data (Podcast Marketing Academy + Lower Street), as referenced in that analysis: monthly cost ~$388 → ~$1,267; per-episode ~$67 → ~$244; cost per listener-hour ~$0.56 → ~$0.99; modeled programmatic break-even ~12,000 audio downloads versus ~50,000 video plays. These figures are retained as source-attributed historical model inputs, not refreshed market averages.
