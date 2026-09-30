@@ -388,7 +388,3 @@ h1, h2, h3, h4, h5, h6,
 .omi-breadcrumbs__separator { flex: none; }
 .omi-breadcrumbs--home { padding: .4rem max(.8rem, calc((100% - 61rem) / 2)); background: var(--md-default-bg-color); }
 .omi-breadcrumbs--home .omi-breadcrumbs { margin: 0; }
-@media (min-width: 76.25em) {
-  /* The home template floats desktop tabs; keep the Home trail below them. */
-  .omi-breadcrumbs--home { padding-top: 2.8rem; }
-}

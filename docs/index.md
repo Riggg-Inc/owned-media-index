@@ -6,17 +6,7 @@ title: Owned Media Index
 
 # Owned Media Index
 
-<div class="riggg-hero">
-  <h1>The Open Standard for Owned Media</h1>
-  <p>
-    Patterns, tools, benchmarks, and standards for turning expert conversations
-    into published owned media. Maintained by Riggg. Open to the community.
-  </p>
-  <a href="framework/" class="riggg-btn">Read the Framework</a>
-  <a href="patterns/" class="riggg-btn riggg-btn--outline">Browse Patterns</a>
-</div>
-
-<div class="riggg-accent-bar"></div>
+The Owned Media Index (OMI) is an open library of patterns, tools, benchmarks, and standards for turning expert conversations into published owned media. Use it to plan, produce, package, publish, measure, and reuse your content. Maintained by Riggg. Open to the community.
 
 ## The Framework
 

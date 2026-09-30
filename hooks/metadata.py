@@ -22,7 +22,7 @@ def build_schema(page, config, breadcrumbs):
     heading = re.search(r"<h1[^>]*>(.*?)</h1>", page.content or "", re.S)
     title = unescape(re.sub(r"<[^>]+>", "", re.sub(r'<a class="headerlink".*?</a>', "", heading.group(1)))).strip() if heading else page.title
     if page.file.src_uri == "index.md":
-        title = "The Open Standard for Owned Media"
+        title = "Owned Media Index"
     identity = canonical + "#webpage"
     entity = {
         "@type": "WebPage" if kind == "Article" else kind,
