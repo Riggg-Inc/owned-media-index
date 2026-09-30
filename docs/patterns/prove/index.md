@@ -25,3 +25,9 @@ Proof patterns help teams get past download counts and toward signals that actua
 | Pattern | What It Covers |
 |---|---|
 | [AMP Accords Play Standard](amp-accords-play-standard.md) | Podcast measurement is moving from downloads to consumed plays and ad impressions |
+
+## Video Threshold Economics
+
+| Pattern | What It Covers |
+|---|---|
+| [Video Threshold Economics](video-threshold-economics.md) | Separate creator break-even economics from B2B strategy, discovery value, and execution-quality gates for video podcast investment. |
