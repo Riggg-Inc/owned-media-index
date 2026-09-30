@@ -55,6 +55,7 @@ markdown_extensions:
 
 hooks:
   - hooks/breadcrumbs.py
+  - hooks/seo.py
   - hooks/metadata.py
 
 # Templates are build inputs, never public pages.

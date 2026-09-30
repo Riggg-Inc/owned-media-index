@@ -39,3 +39,7 @@ Initial strict build passed. Link gate: 125 HTML pages (124 content + 404), 7,96
 At initial validation, existing uncited Evidence sections on `patterns/prove/amp-accords-play-standard.md` and `patterns/produce/recording/hls-video-podcast-distribution.md` need content-worker attention. Preserve claims/scores; add only verified supporting links or explicitly record the gap. Rerun all gates after workers finish; do not waive the blocker silently.
 
 No commit, stage, push or deployment performed by this worker. No Markdown content pages changed by this worker. No framework/evidence/scoring rules altered.
+
+## Integrated release result
+
+All content workers completed and parent resolved the two uncited evidence sections with verified Apple/AMP primary references and explicit limitations. Final predeployment integrated check: 124 content pages, 125 HTML files including 404, 7,997 internal references; zero link or AEO errors. All 21 site tests pass after merging concurrent production commit 5d018e9. Existing optional analytics configuration, consent template, environment variables, and tests are preserved; no measurement ID or privacy activation was introduced here. metadata.py supplies the rendered graph while the compatible seo.py hook retains analytics setup and legacy fallback helpers. No published pages removed or draft pages added.

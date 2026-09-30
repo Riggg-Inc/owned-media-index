@@ -15,3 +15,7 @@ No Search Console or analytics integration was found in available tools or the i
 ## Ready for repeatable measurement
 
 The fixed ten-question panel and observation schema are in `aeo-measurement-panel.json`. Use them in the existing monthly AEO review. Capture actual answer-engine responses and cited URLs once an authorized interface is available. Search Console access and analytics property/event access require the property owner if not already connected. Keep technical page-quality checks separate: they can pass without proving a citation or ranking improvement.
+
+## Concurrent production update reconciled
+
+Before release, origin/main advanced to 5d018e9 with consent-gated analytics scaffolding and a separate search-growth plan. Those changes and their tests are preserved in this rollout. This supersedes the earlier statement that no integration code existed: scaffolding now exists, but property access, measurement ID, approved privacy configuration, conversion events and measured results remain unverified. The ten-question panel is an initial subset of the growth plan's proposed twenty-question panel, not a second reporting system.

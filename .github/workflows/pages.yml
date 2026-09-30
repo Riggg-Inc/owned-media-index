@@ -34,6 +34,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build site
+        env:
+          OMI_GA_MEASUREMENT_ID: ${{ vars.OMI_GA_MEASUREMENT_ID }}
+          OMI_PRIVACY_URL: ${{ vars.OMI_PRIVACY_URL }}
         run: mkdocs build --strict
 
       - name: Validate AEO metadata, source summaries, links and breadcrumbs
