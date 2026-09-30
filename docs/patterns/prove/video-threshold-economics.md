@@ -4,6 +4,12 @@ description: "Separate creator break-even economics from B2B strategy, discovery
 
 # Video Threshold Economics
 
+<div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; margin: 1rem 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/gs0LIKxsqUo" title="Should Your Podcast Be on Video? Two Different Tests" width="560" height="315" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=gs0LIKxsqUo)
+
 **Stage:** Prove
 **Score:** 3
 **Evidence:** Mixed — External Research for Creator Cost Reference Points; Hypothesis / Practitioner Recommendation for the B2B Decision Sequence
