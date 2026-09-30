@@ -38,7 +38,11 @@ class SiteTests(unittest.TestCase):
 
     def test_templates_and_unapproved_drafts_are_not_published(self):
         self.assertFalse((SITE / "overrides").exists())
-        self.assertFalse(any(SITE.rglob("*video-threshold-economics*")))
+        # Every built content page must originate in docs/, never repository drafts.
+        expected = {BASE + ("" if p.as_posix() == "index.md" else p.as_posix()[:-8] if p.name == "index.md" else p.with_suffix("").as_posix() + "/")
+                    for source in Path("docs").rglob("*.md")
+                    for p in [source.relative_to("docs")] if "overrides" not in p.parts}
+        self.assertEqual(set(self.docs) - {BASE + "404.html"}, expected)
         self.assertFalse(any(SITE.rglob("*vertical-reel-package-standard*")))
 
     def test_related_patterns_use_published_equivalents(self):

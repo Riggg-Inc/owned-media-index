@@ -41,3 +41,7 @@ These are unresolved publication/editorial references, not broken clickable link
 ## Deployment
 
 This change does not publish or push. After approval, push the scoped commit to `main`; `.github/workflows/pages.yml` builds, validates and deploys the Pages artifact. Confirm workflow success and smoke-test Home, a nested off-nav title page, a deep social-post leaf, a quadrant link and the OBS download on `https://index.riggg.com/`. Check 320px mobile and desktop, light/dark themes and keyboard navigation. Keep the unrelated dirty `prove/benchmarks/video-threshold-economics.md` draft out of the deployment commit.
+
+### Production-baseline release verification
+
+The release was cherry-picked onto origin/main (54b0e78), excluding five unrelated local commits and preserving the already-published Video Threshold Economics page. The publication regression guard now compares generated content pages to the docs registry rather than incorrectly assuming that page is unpublished. Release results: 125 HTML pages including 404, 124 matching BreadcrumbLists, 7,840 internal references, zero errors, nine tests passing. No new editorial pages added or removed.
