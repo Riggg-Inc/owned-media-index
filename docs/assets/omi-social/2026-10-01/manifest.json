@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "how-to-outcome",
+    "filename": "omi-how-to-outcome-thumbnail-final.jpg",
+    "path": "/home/production/openclaw-workspace/output/omi-social/2026-10-01/omi-how-to-outcome-thumbnail-final.jpg",
+    "sha256": "94104ce90ba13801ab71d92c963c7e754144b24b4b037b326ad601f9f1fb137d",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "repo_path": "docs/assets/omi-social/2026-10-01/omi-how-to-outcome-thumbnail-final.jpg",
+    "url": "https://index.riggg.com/assets/omi-social/2026-10-01/omi-how-to-outcome-thumbnail-final.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "hook-insight-cta",
+    "filename": "omi-hook-insight-cta-thumbnail-final.jpg",
+    "path": "/home/production/openclaw-workspace/output/omi-social/2026-10-01/omi-hook-insight-cta-thumbnail-final.jpg",
+    "sha256": "37eee7e35229f843aa589ae4b98f76a7f9153f2a4b74af4bb4fcc97722840d4b",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "repo_path": "docs/assets/omi-social/2026-10-01/omi-hook-insight-cta-thumbnail-final.jpg",
+    "url": "https://index.riggg.com/assets/omi-social/2026-10-01/omi-hook-insight-cta-thumbnail-final.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "data-visual",
+    "filename": "omi-data-visual-thumbnail-final.jpg",
+    "path": "/home/production/openclaw-workspace/output/omi-social/2026-10-01/omi-data-visual-thumbnail-final.jpg",
+    "sha256": "f8cc004708779aa5fd96a0e87f489fe4884341f8c884ea52799ffb99ebdfc06a",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "repo_path": "docs/assets/omi-social/2026-10-01/omi-data-visual-thumbnail-final.jpg",
+    "url": "https://index.riggg.com/assets/omi-social/2026-10-01/omi-data-visual-thumbnail-final.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "thesis-takeaways-cta",
+    "filename": "omi-thesis-takeaways-cta-thumbnail-final.jpg",
+    "path": "/home/production/openclaw-workspace/output/omi-social/2026-10-01/omi-thesis-takeaways-cta-thumbnail-final.jpg",
+    "sha256": "4236479aa043fd93171df9b18a21b3d78aa578e36e56eef50826fa7cadf65aff",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "repo_path": "docs/assets/omi-social/2026-10-01/omi-thesis-takeaways-cta-thumbnail-final.jpg",
+    "url": "https://index.riggg.com/assets/omi-social/2026-10-01/omi-thesis-takeaways-cta-thumbnail-final.jpg",
+    "mime": "image/jpeg"
+  },
+  {
+    "slug": "linkedin-carousel",
+    "filename": "omi-linkedin-carousel-thumbnail-final.jpg",
+    "path": "/home/production/openclaw-workspace/output/omi-social/2026-10-01/omi-linkedin-carousel-thumbnail-final.jpg",
+    "sha256": "e461f38f6fed3e70bc595e794017f0f0cfa08fad8bc19ecfb45bddd39d54fe6e",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "repo_path": "docs/assets/omi-social/2026-10-01/omi-linkedin-carousel-thumbnail-final.jpg",
+    "url": "https://index.riggg.com/assets/omi-social/2026-10-01/omi-linkedin-carousel-thumbnail-final.jpg",
+    "mime": "image/jpeg"
+  }
+]
