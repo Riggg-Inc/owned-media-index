@@ -74,7 +74,8 @@ extra:
   generator: false
 
 copyright: >
-  &copy; 2026 Riggg Inc. &nbsp;·&nbsp;
+  &copy; 2026 <a href="https://riggg.com/">Riggg Inc.</a> &nbsp;·&nbsp;
+  <a href="https://riggg.com/">Explore Riggg’s services</a> &nbsp;·&nbsp;
   <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
 
 nav:

@@ -74,6 +74,8 @@ class SEOTests(unittest.TestCase):
             config = seo.on_config(SimpleNamespace(extra={}, copyright=''))
             self.assertFalse(config.extra['consent']['cookies']['analytics']['checked'])
             self.assertIn('reject', config.extra['consent']['actions'])
+            self.assertIn('href="#__consent"', config.copyright)
+            self.assertNotIn('__md_displayConsent', config.copyright)
 
     def test_json_serialization_handles_quotes(self):
         page = SimpleNamespace(canonical_url='https://index.riggg.com/test/', file=SimpleNamespace(src_uri='patterns/test.md'), title='A "quoted" title', meta={'description': 'A "quoted" answer'})

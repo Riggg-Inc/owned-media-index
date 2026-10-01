@@ -35,8 +35,8 @@ jobs:
 
       - name: Build site
         env:
-          OMI_GA_MEASUREMENT_ID: ${{ vars.OMI_GA_MEASUREMENT_ID }}
-          OMI_PRIVACY_URL: ${{ vars.OMI_PRIVACY_URL }}
+          OMI_GA_MEASUREMENT_ID: G-T1FBFDLCRE
+          OMI_PRIVACY_URL: https://riggg.com/privacy-policy/
         run: mkdocs build --strict
 
       - name: Validate AEO metadata, source summaries, links and breadcrumbs

@@ -5,7 +5,7 @@ Site: https://index.riggg.com/
 Date: 2026-09-30
 
 ## Goal
-Turn approved, published knowledge into qualified discovery, citations, repeat visits and Riggg business inquiries. Indexability is a prerequisite, not proof of indexing; traffic is not itself a business outcome.
+Owner-confirmed October 1: OMI is an SEO/AEO credibility resource for Riggg. Build credible discovery and citations, send qualified visitors to riggg.com, and drive information requests through the main Riggg website—not a separate OMI lead funnel. Track OMI-to-Riggg visits as a micro-conversion; real inquiries must be verified on riggg.com. Subdomain content does not automatically confer rankings on the main site: earn relevance through useful content, attributable publisher identity, contextual links and external citations. Indexability is a prerequisite, not proof of indexing; traffic is not itself a business outcome.
 
 ## Verified baseline
 - Public homepage, robots.txt and sitemap return HTTP 200 without authentication.

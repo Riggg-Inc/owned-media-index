@@ -1,26 +1,40 @@
 {# Invoked only after Material's explicit analytics consent gate. #}
 <script id="__analytics">
+function __omi_safeUrl(value) {
+  try { var u = new URL(value); return u.origin + u.pathname; }
+  catch (_) { return ''; }
+}
+// Material reloads after consent. Save a sanitized source only on explicit opt-in.
+document.addEventListener('submit', function(event) {
+  var form = event.target;
+  if (form.name === 'consent' && form.elements.analytics && form.elements.analytics.checked) {
+    try { sessionStorage.setItem('__omi_consent_referrer', __omi_safeUrl(document.referrer)); }
+    catch (_) { /* Storage denial must not break consent. */ }
+  }
+}, true);
 function __md_analytics() {
   if (window.omiAnalyticsStarted) return;
   window.omiAnalyticsStarted = true;
   var id = {{ config.extra.analytics.property | tojson }};
   window.dataLayer = window.dataLayer || [];
   function gtag() { window.dataLayer.push(arguments); }
-  function safeUrl(value) {
-    try { var u = new URL(value); return u.origin + u.pathname; }
-    catch (_) { return ''; }
-  }
+  var referrer = __omi_safeUrl(document.referrer);
+  try {
+    var pendingReferrer = sessionStorage.getItem('__omi_consent_referrer');
+    if (pendingReferrer !== null) referrer = pendingReferrer;
+    sessionStorage.removeItem('__omi_consent_referrer');
+  } catch (_) { /* Fall back if storage is unavailable. */ }
   gtag('js', new Date());
   gtag('config', id, {
     send_page_view: false,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
     page_location: location.origin + location.pathname,
-    page_referrer: safeUrl(document.referrer)
+    page_referrer: referrer
   });
   gtag('event', 'page_view', {
     page_location: location.origin + location.pathname,
-    page_referrer: safeUrl(document.referrer),
+    page_referrer: referrer,
     page_title: document.title
   });
   document.addEventListener('click', function(event) {
@@ -30,7 +44,7 @@ function __md_analytics() {
     try { u = new URL(a.href); } catch (_) { return; }
     if (u.protocol !== 'https:' && u.protocol !== 'http:') return;
     if (u.hostname === 'riggg.com' || u.hostname === 'www.riggg.com') {
-      gtag('event', 'riggg_visit', {link_url: safeUrl(u.href), link_domain: u.hostname});
+      gtag('event', 'riggg_visit', {link_url: __omi_safeUrl(u.href), link_domain: u.hostname});
     }
   });
   var script = document.createElement('script');

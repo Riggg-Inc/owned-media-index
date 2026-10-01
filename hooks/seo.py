@@ -37,7 +37,7 @@ def on_config(config):
             'actions': ['accept', 'reject', 'manage'],
             'cookies': {'analytics': {'name': 'Google Analytics', 'checked': False}, 'github': False},
         }
-        config.copyright += ' &nbsp;·&nbsp; <a href="#" onclick="__md_displayConsent(); return false">Analytics preferences</a>'
+        config.copyright += ' &nbsp;·&nbsp; <a href="#__consent">Analytics preferences</a>'
     return config
 
 
