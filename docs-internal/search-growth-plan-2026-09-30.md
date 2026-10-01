@@ -71,14 +71,16 @@ Working audience assumption to confirm: B2B marketing leaders and expert-led com
 - AEO: panel citation rate per engine and cited URLs with evidence, not an opaque blended score.
 - Business: riggg_visit clicks, verified inquiry/booking completions, qualified leads and influenced pipeline with human CRM confirmation. Never equate a click or citation with revenue.
 
-## What Garren needs to provide
-1. Existing Search Console ownership/access status for riggg.com or index.riggg.com; verification value if a new property is needed. A signed-in owner browser session can be used for setup where available.
-2. Existing GA4/GTM status and the intended GA4 measurement ID (G-...). This ID is public, not a password. Confirm whether OMI and the main website should share a measurement journey.
-3. Approved privacy-policy URL and permission to activate consent-gated analytics after validation.
-4. Primary audience, primary conversion and exact inquiry/booking URL. Recommended default above; confirm or replace it.
-5. Later, access to approved aggregate search/analytics reports and main-site integration if we are to maintain the scorecard and verify real conversions.
+## Activation update — October 1, 2026
+Owner supplied the GA4 ID and privacy-policy URL and clarified the goal. Consent-gated analytics is now deployed in release 0eebceb. Production browser tests observed successful Google collection responses for page_view and riggg_visit; rejection/persistence, original-referrer preservation, preference controls and withdrawal/reload passed. The earlier 'tracking off' baseline describes September 30, not the current deployment. See [activation details](analytics-activation-2026-10-01.md).
+
+## Remaining owner/account handoffs
+1. Confirm whether the existing riggg.com Search Console property is Domain or URL-prefix. Domain includes OMI already; URL-prefix needs an OMI property or domain verification. Submit https://index.riggg.com/sitemap.xml in the appropriate verified property and inspect priority URLs.
+2. Verify events in the authenticated GA4 reporting UI, review enhanced measurement/retention and align main-site attribution. A public measurement ID does not grant administrative/reporting access.
+3. Verify actual successful inquiry completion on riggg.com and distinguish it from the measured riggg_visit click. OMI builds credibility and directs traffic to Riggg; no separate OMI lead funnel is planned.
+4. Review privacy-policy wording for the actual analytics use and provide approved aggregate report access for the ongoing scorecard.
 
 ## Boundaries and evidence
-No Google account property created, verified or sitemap submitted by this release. No analytics property invented; tracking remains off without configuration. No ranking/indexing/citation guarantee. No new editorial knowledge or private source material published. Existing framework and human review gates stay intact.
+Search Console ownership, sitemap submission and Google-selected indexing are still unverified. Google endpoint acceptance is verified, but account-level reporting, conversion setup and actual leads are not. No ranking/indexing/citation guarantee. Existing framework and human review gates stay intact; no new private source material was published.
 
 Google's own guidance says AI-feature eligibility uses ordinary SEO fundamentals and has no additional technical requirement or special schema: https://developers.google.com/search/docs/appearance/ai-features (checked 2026-09-30). Prioritize helpful, crawlable, cited content over llms.txt, generic FAQ markup or content volume.
