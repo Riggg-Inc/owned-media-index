@@ -4,6 +4,8 @@ description: "The owned email newsletter is a direct-to-audience channel for an 
 
 # Owned Email Newsletter: Direct Engagement Channel
 
+The owned email newsletter is a direct-to-audience channel for an ongoing permission-based relationship.
+
 ## What It Is
 The owned email newsletter is a direct-to-audience channel for an ongoing permission-based relationship. Exportable subscriber records and portable content give you more control over the channel, but do not guarantee reach. Unlike RSS distribution and canonical website content, its distinct job is recurring usefulness and a way for subscribers to respond. Email providers, inbox filtering and deliverability remain intermediaries.
 
