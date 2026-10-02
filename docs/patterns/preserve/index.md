@@ -8,11 +8,11 @@ description: "Preservation patterns for owned media. Transcripts, vector memory,
 
 Preservation is the stage most programs skip. It's also where the long-term value of owned media accumulates: searchable transcripts, AI-citation-ready structure, reusable content libraries. A preserved episode keeps generating value years after it publishes.
 
-## Content Memory
+## Owned Media Library and Content Memory
 
 | Pattern | What It Covers |
 |---|---|
-| [Content Memory Standard](content-memory-standard.md) | How to structure and index content so it's retrievable by AI, search, and your own team |
+| [Owned Media Library / Content Memory Standard](content-memory-standard.md) | Keep source files, approved versions, permissions and context usable with simple search and tested recovery |
 
 ## AI Search Optimization
 
@@ -24,5 +24,5 @@ Preservation is the stage most programs skip. It's also where the long-term valu
 
 | Need | Choose | Selection consideration |
 |---|---|---|
-| Retrieve and reuse the library | [Content Memory Standard](content-memory-standard.md) | Structure and index content for search, AI, and team retrieval. |
+| Retrieve and reuse the library | [Owned Media Library / Content Memory Standard](content-memory-standard.md) | Start with storage and a spreadsheet; add indexing only when needed. Distinguishes the library from its public site and backups. |
 | Connect audience questions to useful answers | [Build an Audience Question Set for AI Discovery Checks](geo-aeo-citation-volatility.md) | Use evidence-backed question selection and a fixed prompt panel; sampled observations do not guarantee AI inclusion. |
