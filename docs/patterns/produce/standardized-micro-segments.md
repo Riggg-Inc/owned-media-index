@@ -1,4 +1,12 @@
+---
+description: "Give repeated episode beats a purpose, setup, and payoff; cut them when they add no value."
+---
+
 # Recurring Show Segments
+
+**Stage:** Produce
+**Score:** 3
+**Evidence:** Practitioner Observation
 
 ## What It Is
 
@@ -43,10 +51,6 @@ A repeatable label does not require identical placement, wording, duration, or i
 - The guest needs room to explain, and the mechanic obstructs that explanation.
 - The payoff is weak, already covered, or included only because it was used last time.
 - The activity depends on facilitating a live audience. This entry concerns recorded host/guest media, not live participation design.
-
-## Riggg Score
-
-3
 
 ## Evidence
 

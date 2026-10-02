@@ -116,6 +116,7 @@ class HistoryTests(unittest.TestCase):
 
 
 class BuiltFreshnessTests(unittest.TestCase):
+<<<<<<< HEAD
     def test_every_published_page_including_home_hubs_and_webpages(self):
         count, errors = audit(Path('.'), Path('site'))
         sources = [p.relative_to('docs').as_posix() for p in Path('docs').rglob('*.md') if 'overrides' not in p.relative_to('docs').parts]
@@ -129,7 +130,25 @@ class BuiltFreshnessTests(unittest.TestCase):
         self.assertIn('Homepage source-content revision', home)
         self.assertNotIn('aria-label="Breadcrumb"', home)
         self.assertEqual(len(FreshnessHTML(Path('site/404.html').read_text()).blocks), 0)
+=======
+    def test_all_source_articles_and_nonarticle_exclusion(self):
+        count, errors = audit(Path('.'), Path('site'))
+        expected = sum(
+            page_type(p.relative_to(Path("docs")).as_posix()) == "Article"
+            for p in Path("docs").rglob("*.md")
+            if "overrides" not in p.relative_to(Path("docs")).parts
+        )
+        self.assertGreater(expected, 0)
+        self.assertEqual(count, expected)
+>>>>>>> origin/main
         self.assertEqual(errors, [])
+
+    def test_missing_build_fails_closed(self):
+        with tempfile.TemporaryDirectory() as missing:
+            count, errors = audit(Path('.'), Path(missing))
+        self.assertEqual(count, 0)
+        self.assertTrue(errors)
+        self.assertTrue(all('missing built page' in error for error in errors))
 
 
 class InlineMetadataTests(unittest.TestCase):
