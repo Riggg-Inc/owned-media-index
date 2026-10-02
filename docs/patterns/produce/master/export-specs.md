@@ -99,4 +99,4 @@ Vertical Master:
   Adjust: CBR 12 Mbps, Audio AAC 256kbps
 ```
 
-_Last verified: May 2026. Platform specs change — verify before relying on edge cases._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform specs change — verify before relying on edge cases._

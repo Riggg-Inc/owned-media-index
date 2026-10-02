@@ -1,10 +1,10 @@
 {% set revision = page_freshness.revision %}
 {% set review = page_freshness.review %}
-<div class="omi-freshness" aria-label="Article freshness" data-revision-state="{{ revision.state | e }}" data-review-state="{{ review.state | e }}">
+<div class="omi-freshness" aria-label="Page freshness" data-revision-state="{{ revision.state | e }}" data-review-state="{{ review.state | e }}">
   {% if revision.state == 'committed' %}
   <details class="omi-freshness__revision">
     <summary>Last updated: <time datetime="{{ revision.timestamp | e }}">{{ revision.date | e }}</time></summary>
-    <p>Exact revision time: <time datetime="{{ revision.timestamp | e }}">{{ revision.timestamp | e }}</time> (UTC). Based on committed Markdown body changes, not template or metadata updates. This is not a fact-check date.</p>
+    <p>Exact revision time: <time datetime="{{ revision.timestamp | e }}">{{ revision.timestamp | e }}</time> (UTC). Based on committed Markdown body changes, not template or metadata updates. This is not a fact-check date.{% if page.file.src_uri == 'index.md' %} Homepage source-content revision; the separately maintained homepage presentation may change independently.{% endif %}</p>
   </details>
   {% else %}
   <p class="omi-freshness__revision">Last updated: {{ 'Pending commit (preview)' if revision.state == 'pending' else 'Revision history unavailable' }}</p>

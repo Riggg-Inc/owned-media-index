@@ -1,83 +1,136 @@
 #!/usr/bin/env python3
-"""Verify generated Article freshness against committed bodies and evidence."""
+"""Audit every published Markdown page's provenance, review state and schema."""
 from html.parser import HTMLParser
 import json
 from pathlib import Path
+import re
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from hooks.freshness import History, page_freshness
 from hooks.metadata import page_type
-from scripts.fact_checks import load_reviews
+from scripts.fact_checks import body_bytes, load_reviews
+
+
+def inline_metadata(text):
+    """Reject standalone legacy page stamps, not prose, examples or claim dates."""
+    errors, fence = [], None
+    for number, line in enumerate(text.splitlines(), 1):
+        stripped = line.strip()
+        # Fenced examples are documentation, not page metadata.
+        if stripped.startswith(('~~~', chr(96) * 3)):
+            char = stripped[0]
+            if fence is None:
+                fence = char
+            elif fence == char:
+                fence = None
+            continue
+        if fence or line.startswith(('    ', '	')):
+            continue
+        plain = re.sub(r'<[^>]+>', '', stripped)
+        plain = plain.replace('**', '').replace('__', '').strip('*_ ')
+        plain = re.sub(r'^[-+]\s+', '', plain)
+        if re.match(r'^(?:Last updated|Last verified|Last fact-checked)\s*:', plain, re.I):
+            errors.append(number)
+    return errors
 
 
 class FreshnessHTML(HTMLParser):
     def __init__(self, text):
         super().__init__()
-        self.blocks, self.revision_times, self.graphs = [], [], []
+        self.blocks, self.revision_times, self.review_times, self.graphs = [], [], [], []
         self.script = None
-        self.revision = False
+        self.paragraph = None
+        self.legacy_metadata = []
+        self.code_depth = 0
+        self.freshness_depth = 0
+        self.section = None
         self.summary = False
         self.summary_text = ''
+        self.review_summary = ''
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag in ('pre', 'code'):
+            self.code_depth += 1
+        if self.freshness_depth and tag == 'div':
+            self.freshness_depth += 1
+        if tag == 'p' and not self.freshness_depth and not self.code_depth:
+            self.paragraph = ''
         if 'omi-freshness' in a.get('class', '').split():
             self.blocks.append(a)
-        if tag == 'details' and a.get('class') == 'omi-freshness__revision':
-            self.revision = True
-        if tag == 'summary' and self.revision:
+            self.freshness_depth = 1
+        if tag == 'details' and a.get('class', '').startswith('omi-freshness__'):
+            self.section = a['class'].split('__')[-1]
+        if tag == 'summary' and self.section:
             self.summary = True
-        if tag == 'time' and self.revision:
+        if tag == 'time' and self.section == 'revision':
             self.revision_times.append(a.get('datetime'))
+        if tag == 'time' and self.section == 'review':
+            self.review_times.append(a.get('datetime'))
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.script = ''
 
     def handle_data(self, value):
+        if self.paragraph is not None and not self.code_depth:
+            self.paragraph += value
         if self.script is not None:
             self.script += value
-        if self.summary:
+        if self.summary and self.section == 'revision':
             self.summary_text += value
+        if self.summary and self.section == 'review':
+            self.review_summary += value
 
     def handle_endtag(self, tag):
+        if tag == 'p' and self.paragraph is not None:
+            if inline_metadata(self.paragraph):
+                self.legacy_metadata.append(self.paragraph)
+            self.paragraph = None
+        if tag in ('pre', 'code'):
+            self.code_depth = max(0, self.code_depth - 1)
+        if tag == 'div' and self.freshness_depth:
+            self.freshness_depth -= 1
         if tag == 'summary':
             self.summary = False
         if tag == 'details':
-            self.revision = False
+            self.section = None
         if tag == 'script' and self.script is not None:
             self.graphs.extend(json.loads(self.script).get('@graph', []))
             self.script = None
 
 
 def audit(root, site):
-    errors, count = [], 0
+    errors, count, targets = [], 0, set()
     history = History(root)
     reviews = load_reviews(root / 'data/fact-checks.json')[0]
     for path in sorted((root / 'docs').rglob('*.md')):
         source = path.relative_to(root / 'docs')
         if 'overrides' in source.parts:
             continue
+        count += 1
+        for line in inline_metadata(body_bytes(path.read_bytes()).decode()):
+            errors.append(f'{source}:{line}: duplicate standalone freshness metadata')
         target = site / (source.with_suffix('') / 'index.html' if source.name != 'index.md' else source.with_suffix('.html'))
+        targets.add(target)
         if not target.exists():
             errors.append(f'{source}: missing built page')
             continue
         text = target.read_text()
         doc = FreshnessHTML(text)
-        if page_type(source.as_posix()) != 'Article':
-            if doc.blocks:
-                errors.append(f'{source}: non-Article freshness')
-            continue
-        count += 1
+        if doc.legacy_metadata:
+            errors.append(f'{source}: rendered duplicate standalone freshness metadata')
         expected = page_freshness(root, source.as_posix(), history, reviews)
         revision, review = expected['revision'], expected['review']
-        articles = [g for g in doc.graphs if g.get('@type') == 'Article']
-        if len(doc.blocks) != 1 or len(articles) != 1:
-            errors.append(f'{source}: expected one freshness block and Article')
+        kind = page_type(source.as_posix())
+        entities = [g for g in doc.graphs if g.get('@type') in ('Article', 'WebPage', 'CollectionPage')]
+        expected_types = ['WebPage', 'Article'] if kind == 'Article' else [kind]
+        if len(doc.blocks) != 1 or [g.get('@type') for g in entities] != expected_types:
+            errors.append(f'{source}: expected one freshness block and correct page entities')
             continue
         if doc.blocks[0].get('data-revision-state') != revision['state'] or doc.blocks[0].get('data-review-state') != review['state']:
             errors.append(f'{source}: freshness state mismatch')
         stamp = revision.get('timestamp')
-        if articles[0].get('dateModified') != stamp:
+        if any(g.get('dateModified') != stamp for g in entities):
             errors.append(f'{source}: dateModified provenance mismatch')
         if stamp:
             if doc.revision_times != [stamp, stamp] or doc.summary_text.strip() != 'Last updated: ' + revision['date']:
@@ -86,13 +139,29 @@ def audit(root, site):
             errors.append(f'{source}: invented revision timestamp')
         if review['label'] not in text:
             errors.append(f'{source}: missing review status label')
-        if not text.index('aria-label="Breadcrumb"') < text.index('class="omi-freshness"') < text.index('<h1'):
-            errors.append(f'{source}: metadata not under breadcrumb before article')
+        if doc.review_times != ([review['timestamp']] if review.get('timestamp') else []):
+            errors.append(f'{source}: fact-check timestamp mismatch')
+        if review.get('timestamp') and doc.review_summary.strip() != review['label'] + ': ' + review['date']:
+            errors.append(f'{source}: fact-check summary mismatch')
+        block_at = text.find('class="omi-freshness"')
+        if source.as_posix() == 'index.md':
+            if 'aria-label="Breadcrumb"' in text or any(g.get('@type') == 'BreadcrumbList' for g in doc.graphs):
+                errors.append(f'{source}: homepage breadcrumb exception lost')
+            if not block_at < text.find('<h1'):
+                errors.append(f'{source}: homepage freshness missing above compact hero')
+        elif not 0 <= text.find('aria-label="Breadcrumb"') < block_at < text.find('<h1'):
+            errors.append(f'{source}: metadata not under breadcrumb before content')
+    for target in set(site.rglob('*.html')) - targets:
+        if target == site / '404.html':
+            if FreshnessHTML(target.read_text()).blocks:
+                errors.append('404.html: generated error page must not claim freshness')
+        else:
+            errors.append(f'{target}: built HTML page outside Markdown inventory')
     return count, errors
 
 
 if __name__ == '__main__':
     count, errors = audit(Path('.'), Path('site'))
-    print(f'Audited freshness on {count} Articles; {len(errors)} errors.')
+    print(f'Audited freshness on {count} published pages; {len(errors)} errors.')
     print('\n'.join(errors))
     raise SystemExit(bool(errors))

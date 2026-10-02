@@ -50,4 +50,4 @@ Image specs for episode thumbnails across platforms.
 - **Max 5-7 words** of text overlay
 - **sRGB color space** — CMYK will render incorrectly on screens
 
-_Last verified: May 2026._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._

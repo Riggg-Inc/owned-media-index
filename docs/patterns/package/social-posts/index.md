@@ -80,4 +80,4 @@ Character limits, formatting rules, and engagement mechanics for social post cop
 - **Links:** LinkedIn in comments, Instagram in bio, Twitter inline, Facebook inline
 - **Never** post the same copy to every platform
 
-_Last verified: May 2026. Platform limits change frequently — verify before relying on edge cases._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform limits change frequently — verify before relying on edge cases._

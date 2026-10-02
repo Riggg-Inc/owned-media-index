@@ -56,4 +56,4 @@ Hard limits for short-form video clips (horizontal 16:9).
 - **Resolution:** 1920x1080 minimum
 - **Captions:** Always burn in — 80%+ of social video is watched without sound
 
-_Last verified: May 2026._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._

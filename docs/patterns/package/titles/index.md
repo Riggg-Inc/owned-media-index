@@ -61,4 +61,4 @@ Hard limits and truncation behavior for episode titles across major platforms.
 - **Absolute max:** 100 characters (YouTube hard limit)
 - **Mobile priority:** First 50 characters must carry the value
 
-_Last verified: May 2026. Platform limits change — verify before relying on edge cases._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform limits change — verify before relying on edge cases._

@@ -135,14 +135,19 @@ class FactCheckTests(unittest.TestCase):
         newer["status"] = "partial"
         self.assertTrue(validate_review(newer, NOW))
 
-    def test_published_articles_only_and_unknown_target_rejected(self):
+    def test_every_published_page_and_unknown_target_rejected(self):
         self.article("patterns/index.md")
         self.article("framework.md")
+        self.article("index.md")
         self.article("overrides/patterns/draft.md")
         (self.root / "draft.md").write_text("Not published")
         rows, errors = inventory(self.root, {"../draft.md": self.review()}, NOW)
-        self.assertEqual(len(rows), 1)
+        self.assertEqual({r["path"] for r in rows}, {self.path, "patterns/index.md", "framework.md", "index.md"})
         self.assertTrue(errors)
+        rows, errors = inventory(self.root, {"framework.md": self.review("framework.md"), "index.md": self.review("index.md")}, NOW)
+        self.assertFalse(errors)
+        self.assertEqual({r["page_type"] for r in rows}, {"Article", "WebPage", "CollectionPage"})
+        self.assertEqual({r["path"] for r in rows if r["state"] == "current"}, {"index.md", "framework.md"})
 
     def test_missing_empty_malformed_and_duplicate_store(self):
         path = self.root / "reviews.json"

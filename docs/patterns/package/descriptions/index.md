@@ -53,4 +53,4 @@ Hard limits and truncation behavior for episode descriptions.
 - **YouTube:** Include timestamps for chapter markers
 - **RSS:** Include links in full description for apps that render them
 
-_Last verified: May 2026._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._

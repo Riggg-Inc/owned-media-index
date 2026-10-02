@@ -9,9 +9,9 @@ import unittest
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from hooks.freshness import History, review_state
-from hooks.metadata import build_schema
+from hooks.metadata import build_schema, page_type
 from scripts.fact_checks import content_hash, timestamp
-from validate_freshness import audit
+from validate_freshness import audit, inline_metadata, FreshnessHTML
 
 
 class HistoryTests(unittest.TestCase):
@@ -102,17 +102,51 @@ class HistoryTests(unittest.TestCase):
         page = SimpleNamespace(canonical_url='https://example.org/test/', file=SimpleNamespace(src_uri='patterns/test.md'),
                                content='<h1>Test</h1>', title='Test', meta={})
         config = dict(site_url='https://example.org/', site_name='Test', site_description='Test')
-        for revision in [self.revision(), {'state': 'pending'}, {'state': 'unavailable'}]:
-            article = build_schema(page, config, {}, {'revision': revision})['@graph'][-1]
-            self.assertEqual(article.get('dateModified'), revision.get('timestamp'))
-            self.assertNotIn('datePublished', article)
+        for source in ['patterns/test.md', 'framework.md', 'patterns/index.md', 'index.md']:
+            page.file.src_uri = source
+            for revision in [self.revision(), {'state': 'pending'}, {'state': 'unavailable'}]:
+                graph = build_schema(page, config, {}, {'revision': revision})['@graph']
+                for item in graph:
+                    if item.get('@type') in ('Article', 'WebPage', 'CollectionPage'):
+                        self.assertEqual(item.get('dateModified'), revision.get('timestamp'))
+                    else:
+                        self.assertNotIn('dateModified', item)
+                    self.assertNotIn('datePublished', item)
+
 
 
 class BuiltFreshnessTests(unittest.TestCase):
-    def test_all_85_articles_and_nonarticle_exclusion(self):
+    def test_every_published_page_including_home_hubs_and_webpages(self):
         count, errors = audit(Path('.'), Path('site'))
-        self.assertEqual(count, 85)
+        sources = [p.relative_to('docs').as_posix() for p in Path('docs').rglob('*.md') if 'overrides' not in p.relative_to('docs').parts]
+        self.assertEqual(count, len(sources))
+        self.assertEqual({page_type(s) for s in sources}, {'Article', 'CollectionPage', 'WebPage'})
+        for source, kind in [('index.md', 'CollectionPage'), ('patterns/index.md', 'CollectionPage'), ('framework.md', 'WebPage'), ('tools/hosting/video-podcast-hosting-support.md', 'Article')]:
+            self.assertIn(source, sources)
+            self.assertEqual(page_type(source), kind)
+        home = Path('site/index.html').read_text()
+        self.assertEqual(len(FreshnessHTML(home).blocks), 1)
+        self.assertIn('Homepage source-content revision', home)
+        self.assertNotIn('aria-label="Breadcrumb"', home)
+        self.assertEqual(len(FreshnessHTML(Path('site/404.html').read_text()).blocks), 0)
         self.assertEqual(errors, [])
+
+
+class InlineMetadataTests(unittest.TestCase):
+    def test_rendered_template_duplicates_rejected_but_prose_allowed(self):
+        doc = FreshnessHTML('<p><strong>Last verified:</strong> 2026-10-02</p><p>Source snapshot: 2026-10-02</p><p>The Last updated: label describes revisions.</p><pre><code>Last updated: example</code></pre>')
+        self.assertEqual(doc.legacy_metadata, ['Last verified: 2026-10-02'])
+        shared = FreshnessHTML('<div class="omi-freshness"><p>Last updated: Pending commit (preview)</p></div>')
+        self.assertEqual(shared.legacy_metadata, [])
+
+    def test_legacy_standalone_stamps_are_rejected(self):
+        for text in ['Last updated: 2026-10-02', '**Last verified:** 2026-10-02', '*Last updated: September 2026*', '- **Last verified:** yesterday', '<p>Last updated: today</p>']:
+            with self.subTest(text=text):
+                self.assertEqual(inline_metadata(text), [1])
+
+    def test_source_snapshots_claim_dates_and_examples_remain(self):
+        text = "Source snapshot: 2026-10-02\n| Claim | Last verified |\n| A | 2026-10-02 |\nThe Last updated: label describes body revision.\n~~~text\nLast updated: example\n~~~\n    Last verified: code example\n"
+        self.assertEqual(inline_metadata(text), [])
 
 
 if __name__ == '__main__':

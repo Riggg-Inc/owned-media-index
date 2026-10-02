@@ -119,4 +119,4 @@ Always ensure platform visibility. The only exception is if you intentionally wa
 | Bing Copilot | Regular (Bingbot) | Hours to days | Footnote citations |
 | Claude | On-demand per query | Instant (live search) | Inline references |
 
-_Last verified: May 2026. AI search platforms are evolving rapidly — re-verify quarterly._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). AI search platforms are evolving rapidly — re-verify quarterly._

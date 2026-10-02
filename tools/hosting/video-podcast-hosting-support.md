@@ -6,11 +6,11 @@ description: "Video podcast hosting and player compatibility: MP4 RSS, open HLS,
 
 Video podcast hosting support depends on the delivery path, not just whether a service accepts a video upload. MP4 in RSS, open HLS video, Apple’s approved integration, Spotify’s native ingestion, and YouTube publishing are different capabilities. This reference separates them and identifies rollout limits and unresolved evidence.
 
-**Last updated:** 2026-10-02
+**Documented source-review date:** 2026-10-02
 
-**Next review due:** 2026-11-02 (monthly; earlier when a provider changes its documentation)
+**Next source review due:** 2026-11-02 (monthly; earlier when a provider changes its documentation)
 
-**Verification scope:** Public documentation reviewed on 2026-10-02; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
+**Source-review provenance and scope:** Public documentation reviewed on 2026-10-02; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
 
 ## What “supported” means here
 

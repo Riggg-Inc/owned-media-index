@@ -70,4 +70,4 @@ For faster turnaround, these tools handle most of the chain automatically:
 | Amazon Music | -16 LUFS | MP3 | Via RSS |
 | RSS (general) | -16 LUFS standard | MP3 CBR preferred | Host-dependent |
 
-_Last verified: May 2026._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._

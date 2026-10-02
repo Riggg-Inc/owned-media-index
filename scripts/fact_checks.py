@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only Article inventory and evidence-record validation, never fact attestation."""
+"""Read-only published-page inventory and evidence-record validation, never fact attestation."""
 import argparse
 from collections import Counter
 from datetime import datetime, timedelta, timezone
@@ -128,11 +128,11 @@ def inventory(root, reviews, now, high_days=30, evergreen_days=90):
     rows, errors, paths = [], [], {}
     for path in sorted(docs.rglob("*.md")):
         relative = path.relative_to(docs).as_posix()
-        if "overrides" not in path.relative_to(docs).parts and page_type(relative) == "Article":
+        if "overrides" not in path.relative_to(docs).parts:
             paths[relative] = path
     for key in reviews:
         if key not in paths:
-            errors.append(f"{key}: target is not a published Article in docs/")
+            errors.append(f"{key}: target is not a published Markdown page in docs/")
     for relative, path in paths.items():
         body = body_bytes(path.read_bytes())
         digest = hashlib.sha256(body).hexdigest()
@@ -163,7 +163,7 @@ def inventory(root, reviews, now, high_days=30, evergreen_days=90):
                 state = "stale" if changed else "partial" if review["status"] == "partial" else "overdue" if due_at <= now else "current"
         # Partial is never fresh, but a short retry window prevents queue starvation.
         due = state != "current" and not (state == "partial" and due_at > now)
-        rows.append({"path": relative, "risk": "high" if high else "evergreen", "cadence_days": cadence,
+        rows.append({"path": relative, "page_type": page_type(relative), "risk": "high" if high else "evergreen", "cadence_days": cadence,
                      "state": state, "needs_review": state != "current", "due": due,
                      "checked_at": checked_at, "due_at": iso(due_at) if due_at else None,
                      "content_sha256": digest, "reasons": reasons})
@@ -194,7 +194,8 @@ def main(argv=None):
         reviews, present = load_reviews(args.data or args.root / "data/fact-checks.json")
         rows, errors = inventory(args.root, reviews, now, args.high_risk_days, args.evergreen_days)
         selected = [r for r in rows if r["due"]] if args.command == "due" else rows
-        summary = {"articles": len(rows), "needs_review": sum(r["needs_review"] for r in rows),
+        summary = {"pages": len(rows), "articles": sum(r["page_type"] == "Article" for r in rows),
+                   "page_types": dict(Counter(r["page_type"] for r in rows)), "needs_review": sum(r["needs_review"] for r in rows),
                    "due": sum(r["due"] for r in rows), "states": dict(Counter(r["state"] for r in rows)),
                    "record_file_present": present, "errors": len(errors), "selected": len(selected),
                    "shown": min(len(selected), args.limit)}

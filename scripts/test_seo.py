@@ -47,10 +47,10 @@ class SEOTests(unittest.TestCase):
                     self.assertIn('BreadcrumbList', [item['@type'] for item in graph])
                 for item in graph:
                     self.assertNotIn('datePublished', item)
-                    if item.get('@type') != 'Article':
+                    if item.get('@type') not in ('Article', 'WebPage', 'CollectionPage'):
                         self.assertNotIn('dateModified', item)
-                # Article body-history parity is enforced by test_freshness.
-        self.assertGreaterEqual(len(descriptions), 124)
+                # All-page body-history parity is enforced by test_freshness.
+        self.assertEqual(len(descriptions), len([p for p in Path('docs').rglob('*.md') if 'overrides' not in p.relative_to('docs').parts]))
         self.assertEqual([text for text, count in Counter(descriptions).items() if count > 1], [])
 
     def test_sitemap(self):

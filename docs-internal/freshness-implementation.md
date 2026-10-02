@@ -1,4 +1,6 @@
-# Article freshness implementation
+# Article freshness implementation — initial release
+
+> Historical initial implementation below. The current all-page contract supersedes the Article-only scope: see [all-page freshness implementation](all-page-freshness-implementation.md) and [factual review procedure](fact-checking-procedure.md). Initial test counts are historical, not the current publication inventory.
 
 ## Contract
 

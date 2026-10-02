@@ -10,7 +10,7 @@ The Tools section currently provides a video podcast hosting compatibility refer
 
 | Reference | What It Covers |
 |---|---|
-| [Video Podcast Hosting Support](hosting/video-podcast-hosting-support.md) | Which podcast hosting platforms support video RSS, which are unknown, and which don't — updated monthly |
+| [Video Podcast Hosting Support](hosting/video-podcast-hosting-support.md) | Which podcast hosting platforms support video RSS, which are unknown, and which don't — monthly source-review cadence; see the reference’s dated review and unresolved gaps |
 
 ## Coming in V0.4
 

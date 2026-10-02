@@ -12,7 +12,7 @@ class AeoTests(unittest.TestCase):
     def test_all_published_metadata(self):
         counts, errors = audit_aeo(Path("site"))
         self.assertEqual(errors, [])
-        self.assertGreaterEqual(sum(counts.values()), 124)
+        self.assertEqual(sum(counts.values()), len([p for p in Path('docs').rglob('*.md') if 'overrides' not in p.relative_to('docs').parts]))
 
     def test_types_are_conservative(self):
         for source, expected in [("index.md", "CollectionPage"), ("patterns/index.md", "CollectionPage"), ("framework.md", "WebPage"), ("quadrants/titles.md", "WebPage"), ("patterns/publish/canonical-episode-page.md", "Article")]:

@@ -78,7 +78,7 @@ If you record a single mixed video (like a Zoom gallery view), the rough cut edi
 | Zencastr | ✅ | ✅ | 1080p | ✅ | 15 |
 | Remotely.fm | ✅ | ✅ | 4K | ✅ | 8 |
 
-_Last verified: May 2026._
+_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
 
 ## Selection Guide
 

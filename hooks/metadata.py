@@ -50,9 +50,11 @@ def build_schema(page, config, breadcrumbs, freshness=None):
                       "description": page.meta.get("description", ""),
                       "mainEntityOfPage": {"@id": identity},
                       "publisher": {"@id": organization}})
-        revision = (freshness or {}).get("revision", {})
-        if revision.get("state") == "committed":
-            graph[-1]["dateModified"] = revision["timestamp"]
+    revision = (freshness or {}).get("revision", {})
+    if revision.get("state") == "committed":
+        for item in graph:
+            if item.get("@type") in ("Article", "WebPage", "CollectionPage"):
+                item["dateModified"] = revision["timestamp"]
     return {"@context": "https://schema.org", "@graph": graph}
 
 
@@ -62,10 +64,8 @@ def on_page_context(context, page, config, nav):
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from hooks.freshness import page_freshness
     context["page_kind"] = page_type(page.file.src_uri)
-    freshness = None
-    if context["page_kind"] == "Article":
-        root = Path(config["config_file_path"]).resolve().parent
-        freshness = page_freshness(root, page.file.src_uri)
+    root = Path(config["config_file_path"]).resolve().parent
+    freshness = page_freshness(root, page.file.src_uri)
     context["page_freshness"] = freshness
     context["page_schema"] = build_schema(page, config, context["breadcrumb_schema"], freshness)
     return context
