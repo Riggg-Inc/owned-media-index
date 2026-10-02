@@ -1,0 +1,14 @@
+FINAL DRAFT-ONLY BUILD
+INFO    -  Documentation built in 15.21 seconds
+Audited 125 HTML pages and 8037 internal link/resource references; 0 errors.
+
+AEO: 124 pages; {'WebPage': 12, 'CollectionPage': 28, 'Article': 84}; 0 errors.
+
+..................................................
+----------------------------------------------------------------------
+Ran 50 tests in 16.234s
+
+OK
+Preview build/link/AEO passed; freshness count 85 vs fixed 84 failed only while preview installed.
+Publisher 114 pass, 1 existing dirty-corpus fixture failure; dashboard approval 12/12 pass.
+903164dd9a05e2ae387b670d5646d791a93bab1d749d903b08b435140fb534ed  produce/audience-engagement/standardized-micro-segments.md
