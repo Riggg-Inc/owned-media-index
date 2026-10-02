@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/publish/ai-search-optimization/measurement.md": {
+      "checked_at": "2026-10-02T21:19:23.214605Z",
+      "reviewer": "Cass Reelman (AI-assisted source review; not human approval)",
+      "method": "Partial claim-by-claim review of unchanged published article against fresh primary documentation. Unresolved: article omits Bing AI Performance and GA4 AI Assistant reporting and retains overly broad manual-tooling claims. Proposed corrections await exact-artifact editorial approval. Account-level availability and comprehensive platform execution were not tested.",
+      "content_sha256": "b91e8ab531d173b63d2c3311f1e8f66851ad9a42c38ea67bf06a28c36f6605ba",
+      "sources": [
+        {
+          "url": "https://support.google.com/analytics/answer/9756891",
+          "claims": [
+            "GA4 documents AI Assistant as a default channel, excluding Google AI Overviews and AI Mode, which are Organic Search."
+          ],
+          "checked_at": "2026-10-02T21:18:38.907Z"
+        },
+        {
+          "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+          "claims": [
+            "Microsoft announced AI Performance public preview with sampled citation and grounding-query reporting; it is not a ranking or full-population metric."
+          ],
+          "checked_at": "2026-10-02T21:18:42.594Z"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+          "claims": [
+            "OpenAI documents utm_source=chatgpt.com for ChatGPT search referral tracking."
+          ],
+          "checked_at": "2026-10-02T21:18:43.145Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-03T21:19:23.214605Z"
+    }
+  }
+}

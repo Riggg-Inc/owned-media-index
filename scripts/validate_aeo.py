@@ -149,8 +149,10 @@ def audit_aeo(site, source_root=None):
         references(graph)
         for item in graph:
             typ = item.get("@type")
-            if any(k in item for k in ("datePublished", "dateModified", "dateReviewed", "reviewedBy")):
+            if any(k in item for k in ("datePublished", "dateReviewed", "reviewedBy")):
                 errors.append(f"{label}: unverified date/reviewer metadata")
+            if "dateModified" in item and typ != "Article":
+                errors.append(f"{label}: dateModified belongs only to Article")
             if typ in ("WebPage", "CollectionPage", "Article"):
                 suffix = "#article" if typ == "Article" else "#webpage"
                 if item.get("url") != url or item.get("@id") != url + suffix or item.get("description") != description:

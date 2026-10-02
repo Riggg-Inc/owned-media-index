@@ -1,5 +1,5 @@
 """Conservative page identity; no inferred publication or review dates."""
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 from html import unescape
 import re
 
@@ -13,7 +13,7 @@ def page_type(source):
     return "WebPage"
 
 
-def build_schema(page, config, breadcrumbs):
+def build_schema(page, config, breadcrumbs, freshness=None):
     base = config["site_url"].rstrip("/") + "/"
     canonical = page.canonical_url
     organization = "https://riggg.com/#organization"
@@ -50,10 +50,22 @@ def build_schema(page, config, breadcrumbs):
                       "description": page.meta.get("description", ""),
                       "mainEntityOfPage": {"@id": identity},
                       "publisher": {"@id": organization}})
+        revision = (freshness or {}).get("revision", {})
+        if revision.get("state") == "committed":
+            graph[-1]["dateModified"] = revision["timestamp"]
     return {"@context": "https://schema.org", "@graph": graph}
 
 
 def on_page_context(context, page, config, nav):
-    context["page_schema"] = build_schema(page, config, context["breadcrumb_schema"])
+    # Lazy import: fact_checks imports page_type from this module.
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from hooks.freshness import page_freshness
     context["page_kind"] = page_type(page.file.src_uri)
+    freshness = None
+    if context["page_kind"] == "Article":
+        root = Path(config["config_file_path"]).resolve().parent
+        freshness = page_freshness(root, page.file.src_uri)
+    context["page_freshness"] = freshness
+    context["page_schema"] = build_schema(page, config, context["breadcrumb_schema"], freshness)
     return context

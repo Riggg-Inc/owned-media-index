@@ -47,7 +47,9 @@ class SEOTests(unittest.TestCase):
                     self.assertIn('BreadcrumbList', [item['@type'] for item in graph])
                 for item in graph:
                     self.assertNotIn('datePublished', item)
-                    self.assertNotIn('dateModified', item)
+                    if item.get('@type') != 'Article':
+                        self.assertNotIn('dateModified', item)
+                # Article body-history parity is enforced by test_freshness.
         self.assertGreaterEqual(len(descriptions), 124)
         self.assertEqual([text for text, count in Counter(descriptions).items() if count > 1], [])
 

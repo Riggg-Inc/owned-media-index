@@ -141,6 +141,10 @@ When grounding patterns in Riggg's actual production:
 
 For every new page and revision, Scribe, Auditor and Beacon follow [the discoverability and answer-quality publication checklist](docs-internal/aeo-publishing-standard.md): grounded opening answers, unique descriptions, useful comparisons, verified sources, truthful dates, accessible breadcrumbs and working published links. Beacon runs both generated-site validators and regression tests before release and verifies the deployed page. The monthly AEO report uses the fixed question panel and distinguishes measured citations, search performance and conversions from unavailable metrics. These implementation checks supplement—not replace—the existing approval, privacy, evidence and scoring gates.
 
+### Published-article freshness
+
+Keep content revision and source verification independent. The article timestamp derives from its committed content history, never the deployment clock. Follow [fact-checking procedure](docs-internal/fact-checking-procedure.md) for source-to-claim audits, body-bound evidence records and explicit partial/overdue states. The daily published-article fact-check queue processes at most three due entries; fast-moving AI/platform/tool material targets 30-day checks and evergreen material 90 days. This is separate from draft approval, quarterly rescoring and the monthly visibility report. Substantive corrections and their exact revised evidence records still require the established dashboard decision; a successful source fetch or automated test is not editorial approval.
+
 ### Hand-offs
 
 Every transition uses a Workboard card status move and a comment on the receiving charter:

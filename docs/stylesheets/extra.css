@@ -388,3 +388,13 @@ h1, h2, h3, h4, h5, h6,
 .omi-breadcrumbs__separator { flex: none; }
 .omi-breadcrumbs--home { padding: .4rem max(.8rem, calc((100% - 61rem) / 2)); background: var(--md-default-bg-color); }
 .omi-breadcrumbs--home .omi-breadcrumbs { margin: 0; }
+
+/* Native disclosures work with keyboard and tap, without JavaScript or hover. */
+.md-typeset .omi-freshness { color: var(--md-default-fg-color--light); font-size: .68rem; margin: -.3rem 0 1.1rem; overflow-wrap: anywhere; }
+.md-typeset .omi-freshness details { background: none; border: 0; box-shadow: none; margin: .15rem 0; padding: 0; font-size: inherit; }
+.md-typeset .omi-freshness summary { background: none; color: inherit; font-weight: 400; padding: .35rem 0; margin: 0; cursor: pointer; list-style: disclosure-closed; display: list-item; }
+.md-typeset .omi-freshness details[open] > summary { list-style: disclosure-open; }
+.md-typeset .omi-freshness summary::before, .md-typeset .omi-freshness summary::after { display: none; }
+.md-typeset .omi-freshness summary:focus-visible { outline: 2px solid var(--md-accent-fg-color); outline-offset: 3px; border-radius: 2px; }
+.md-typeset .omi-freshness p { margin: .25rem 0; }
+.md-typeset .omi-freshness details > p, .md-typeset .omi-freshness details > ul { margin: .4rem 0 .6rem; }

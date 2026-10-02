@@ -1,0 +1,22 @@
+{% set revision = page_freshness.revision %}
+{% set review = page_freshness.review %}
+<div class="omi-freshness" aria-label="Article freshness" data-revision-state="{{ revision.state | e }}" data-review-state="{{ review.state | e }}">
+  {% if revision.state == 'committed' %}
+  <details class="omi-freshness__revision">
+    <summary>Last updated: <time datetime="{{ revision.timestamp | e }}">{{ revision.date | e }}</time></summary>
+    <p>Exact revision time: <time datetime="{{ revision.timestamp | e }}">{{ revision.timestamp | e }}</time> (UTC). Based on committed Markdown body changes, not template or metadata updates. This is not a fact-check date.</p>
+  </details>
+  {% else %}
+  <p class="omi-freshness__revision">Last updated: {{ 'Pending commit (preview)' if revision.state == 'pending' else 'Revision history unavailable' }}</p>
+  {% endif %}
+  {% if review.timestamp %}
+  <details class="omi-freshness__review">
+    <summary>{{ review.label | e }}: <time datetime="{{ review.timestamp | e }}">{{ review.date | e }}</time></summary>
+    <p>Checked: {{ review.timestamp | e }} (UTC). Reviewer: {{ review.reviewer | e }}.</p>
+    <p>{{ review.method | e }}</p>
+    {% if review.state == 'partial' %}<p>This review is partial; unresolved claims remain.</p>{% endif %}
+    <ul>{% for source in review.sources %}<li><a href="{{ source.url | e }}">{{ source.url | e }}</a> — {{ source.claims | join('; ') | e }} (checked {{ source.checked_at | e }})</li>{% endfor %}</ul>
+    <p>Review due: {{ review.next_review_at | e }} (UTC).</p>
+  </details>
+  {% else %}<p class="omi-freshness__review">{{ review.label | e }}</p>{% endif %}
+</div>

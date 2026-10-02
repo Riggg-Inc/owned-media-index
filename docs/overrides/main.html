@@ -23,5 +23,6 @@
 
 {% block content %}
 {% include "partials/breadcrumbs.html" %}
+{% if page_freshness %}{% include "partials/freshness.html" %}{% endif %}
 {{ super() }}
 {% endblock %}

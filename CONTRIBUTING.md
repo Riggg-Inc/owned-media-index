@@ -52,6 +52,10 @@ Every public page needs a unique, accurate description and a direct opening expl
 
 Breadcrumbs, canonical URLs, metadata, structured data and internal links are validated during publishing. Run the strict site build, `scripts/validate_site.py`, `scripts/validate_aeo.py`, and regression tests before release. See [the publication checklist](docs-internal/aeo-publishing-standard.md). Existing evidence and approval requirements remain in force.
 
+## Revision and fact-check dates
+
+Articles display the last committed content revision beneath the breadcrumbs, with an accessible exact UTC timestamp. A rebuild, template change, or metadata-only review update must not refresh that date. Fact-check status is separate: it requires a documented source-to-claim review bound to the current article body, actual reviewer identity and check time. Unchecked, partial, expired or changed-content records must not appear freshly verified. Follow [the fact-checking procedure](docs-internal/fact-checking-procedure.md); substantive corrections retain the existing editorial approval requirements.
+
 ## Review
 
 Riggg reviews contributions before merge. Accepted entries may be tagged `riggg-reviewed`.
