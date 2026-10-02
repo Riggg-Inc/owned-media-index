@@ -373,27 +373,28 @@
 }
 .omi-section.omi-intro {
   position: relative; isolation: isolate; overflow: hidden;
-  max-width: none; padding: 2rem 1.2rem 1.8rem;
-  text-align: center; color: #fff;
-  background: radial-gradient(ellipse at 12% 70%, #00808055, transparent 48%),
-              radial-gradient(ellipse at 90% 20%, #526aaa55, transparent 45%), #142544;
-  border-bottom: 3px solid #008080;
+  max-width: none; padding: 2.3rem 1.2rem 2rem;
+  text-align: center; color: #fff; background: #2B3E74;
+  border-bottom: 4px solid #ECF6F5;
 }
-.omi-intro::before {
-  content: ""; position: absolute; inset: 0; z-index: -1; opacity: .16;
-  background-image: linear-gradient(#93b6c3 1px, transparent 1px), linear-gradient(90deg, #93b6c3 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: linear-gradient(90deg, #000, transparent 35%, transparent 65%, #000);
-}
+.omi-brand-shape { position: absolute; z-index: -1; pointer-events: none; width: clamp(300px, 34vw, 520px); height: auto; }
+.omi-brand-shape--left { left: -170px; bottom: -150px; transform: rotate(-16deg); }
+.omi-brand-shape--right { right: -195px; top: -140px; transform: rotate(18deg); }
 .omi-intro h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 .6rem; color: #fff !important; text-align: center; }
-.omi-intro p { max-width: 760px; margin: 0 auto; line-height: 1.65; text-align: center; color: #e0e8f2; }
-.omi-signal { display: flex; align-items: center; justify-content: center; gap: 5px; height: 28px; margin: 0 auto .8rem; }
-.omi-signal span { width: 4px; height: var(--bar); border-radius: 4px; background: #72d5cb; }
-.omi-intro .omi-credit { margin-top: .8rem; font-size: .72rem; color: #b8cedb; }
+.omi-intro p { max-width: 740px; margin: 0 auto; line-height: 1.65; text-align: center; color: #ECF6F5; }
+.omi-intro .omi-credit { margin-top: .8rem; font-size: .72rem; color: #ECF6F5; }
+.omi-brand-rule { width: 48px; height: 4px; background: #FFF6E0; margin: 0 auto 1rem; }
+@media (max-width: 1000px) {
+  .omi-brand-shape--left { left: -235px; }
+  .omi-brand-shape--right { right: -235px; }
+}
 @media (max-width: 600px) {
-  .omi-section.omi-intro { padding: 1.3rem 1rem; }
+  .omi-section.omi-intro { padding: 1.5rem 1.2rem; }
   .omi-intro p { font-size: .8rem; }
   .omi-intro h1 { font-size: 2rem; }
+  .omi-brand-shape { width: 260px; }
+  .omi-brand-shape--left { left: -210px; bottom: -140px; }
+  .omi-brand-shape--right { right: -220px; top: -130px; }
 }
 .omi-section.omi-framework { padding-top: 1.5rem; }
 [data-md-color-scheme="slate"] .omi-framework h2 { color: #eceff4 !important; }
@@ -410,7 +411,9 @@
 
 {% block content %}
 <section class="omi-section omi-intro" aria-labelledby="owned-media-index">
-  <div class="omi-signal" aria-hidden="true"><span style="--bar:8px"></span><span style="--bar:14px"></span><span style="--bar:22px"></span><span style="--bar:12px"></span><span style="--bar:28px"></span><span style="--bar:18px"></span><span style="--bar:10px"></span><span style="--bar:24px"></span><span style="--bar:16px"></span><span style="--bar:28px"></span><span style="--bar:12px"></span><span style="--bar:20px"></span><span style="--bar:8px"></span></div>
+  <img class="omi-brand-shape omi-brand-shape--left" src="{{ 'assets/brand/riggg-teal-halftone.webp' | url }}" alt="" aria-hidden="true" width="720" height="640">
+  <img class="omi-brand-shape omi-brand-shape--right" src="{{ 'assets/brand/riggg-burgundy-halftone.webp' | url }}" alt="" aria-hidden="true" width="720" height="782">
+  <div class="omi-brand-rule" aria-hidden="true"></div>
   <h1 id="owned-media-index">Owned Media Index</h1>
   <p>The Owned Media Index (OMI) is an open library of patterns, tools, benchmarks, and standards for turning expert conversations into published owned media. Use it to plan, produce, package, publish, measure, and reuse your content.</p>
   <p class="omi-credit">Maintained by Riggg · Open to the community</p>
