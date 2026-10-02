@@ -47,4 +47,3 @@ Based on a single customer B2B learning session in which structuring the materia
 ## Related Patterns
 
 - `produce/audience-engagement/standardized-micro-segments.md`
-- `produce/audience-engagement/two-part-hook-structure.md`
