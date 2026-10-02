@@ -41,7 +41,10 @@ class SEOTests(unittest.TestCase):
                 blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
                 self.assertEqual(len(blocks), 1)
                 graph = json.loads(blocks[0])['@graph']
-                self.assertIn('BreadcrumbList', [item['@type'] for item in graph])
+                if p == Path('site/index.html'):
+                    self.assertNotIn('BreadcrumbList', [item['@type'] for item in graph])
+                else:
+                    self.assertIn('BreadcrumbList', [item['@type'] for item in graph])
                 for item in graph:
                     self.assertNotIn('datePublished', item)
                     self.assertNotIn('dateModified', item)

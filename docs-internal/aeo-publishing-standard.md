@@ -7,7 +7,7 @@ Applies to existing-page revisions and every newly approved public page. This is
 1. Read the actual approved page and its sources. Give it a distinct, faithful description and a direct opening answer to its main question; preserve a good existing introduction rather than adding filler. Explain applicability, limits and examples where relevant. Policy and contribution pages should describe their actual purpose, not mimic a pattern.
 2. Make category and comparison hubs useful for choosing: summarize existing documented differences in readable text/tables and link to real published destinations. Preserve anchors. Do not turn practitioner judgment into an empirical ranking.
 3. Link primary sources beside factual claims where available, verify that the source supports the precise claim, and record unresolved evidence gaps in the audit. Label hypothetical examples. Existing evidence labels or a link to a show homepage do not independently prove a claim. Preserve human review/score-change gates. Never invent reviewer names, dates, outcomes or citations.
-4. Keep breadcrumbs visible, keyboard-accessible and consistent with actual published hierarchy and BreadcrumbList. Never link a repository draft as though it were a public page.
+4. The homepage omits its redundant single-item Home trail and BreadcrumbList (owner-requested design exception). Interior pages retain the full breadcrumb requirement. Keep breadcrumbs visible, keyboard-accessible and consistent with actual published hierarchy and BreadcrumbList. Never link a repository draft as though it were a public page.
 
 ## Build and release
 

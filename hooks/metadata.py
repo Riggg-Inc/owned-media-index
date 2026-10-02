@@ -40,6 +40,9 @@ def build_schema(page, config, breadcrumbs):
         entity,
         dict(breadcrumbs, **{"@id": canonical + "#breadcrumb"}),
     ]
+    if page.file.src_uri == "index.md":
+        entity.pop("breadcrumb")
+        graph = [item for item in graph if item.get("@type") != "BreadcrumbList"]
     if kind == "Article":
         entity["mainEntity"] = {"@id": canonical + "#article"}
         graph.append({"@type": "Article", "@id": canonical + "#article",

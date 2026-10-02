@@ -130,6 +130,8 @@ def audit_aeo(site, source_root=None):
             continue
         graph = doc.schemas[0].get("@graph", [])
         expected_types = Counter(["Organization", "WebSite", "BreadcrumbList", "CollectionPage" if kind == "CollectionPage" else "WebPage"] + (["Article"] if kind == "Article" else []))
+        if label == "index.md":
+            del expected_types["BreadcrumbList"]
         if Counter(item.get("@type") for item in graph) != expected_types:
             errors.append(f"{label}: inappropriate JSON-LD types")
         ids = [item.get("@id") for item in graph]

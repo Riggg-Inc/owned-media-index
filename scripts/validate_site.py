@@ -79,6 +79,11 @@ def audit(site, breadcrumbs=True):
                     errors.append(f"{path.relative_to(site)}: missing fragment {href}")
         if not breadcrumbs:
             continue
+        if url == BASE:
+            graphs = [item for schema in doc.schemas for item in schema.get("@graph", [schema])]
+            if doc.nav_count or doc.breadcrumbs or any(item.get("@type") == "BreadcrumbList" or "breadcrumb" in item for item in graphs):
+                errors.append("index.html: homepage must omit the redundant breadcrumb and schema")
+            continue
         if doc.nav_count != 1 or not doc.breadcrumbs:
             errors.append(f"{path.relative_to(site)}: expected one breadcrumb navigation")
             continue

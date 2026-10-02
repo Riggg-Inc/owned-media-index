@@ -31,7 +31,7 @@ class SiteTests(unittest.TestCase):
         self.assertEqual([c["name"] for c in self.trail("tools/hosting/video-podcast-hosting-support/")][:-1], ["Home", "Tools"])
 
     def test_home_is_not_duplicated(self):
-        self.assertEqual(self.trail(""), [{"name": "Home", "href": None, "current": "page"}])
+        self.assertEqual(self.trail(""), [])
 
     def test_section_does_not_link_to_itself(self):
         self.assertEqual([c["name"] for c in self.trail("patterns/package/titles/")], ["Home", "Pattern Library", "Package", "Titles"])
