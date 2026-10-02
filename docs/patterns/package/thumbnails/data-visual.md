@@ -4,6 +4,12 @@ description: "A thumbnail featuring a key statistic, chart element, or number as
 
 # Data Visual
 
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://www.youtube.com/embed/J46wX6Bih-M" title="When a Number Belongs on Your YouTube Thumbnail" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=J46wX6Bih-M)
+
 A thumbnail featuring a key statistic, chart element, or number as the primary visual. Choose it when the number is the hook and understandable at thumbnail size; avoid charts needing explanation.
 
 **Stage:** Package → Thumbnails  
