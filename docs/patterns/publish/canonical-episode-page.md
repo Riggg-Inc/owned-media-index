@@ -37,7 +37,17 @@ Provide a resource that helps a visitor accomplish the episode's task: a usable 
 
 For example, an interview-preparation episode could link to a standalone worksheet on the owned site, with a separate optional signup for recurring practical production advice. This is a hypothetical option to test, not a proven conversion sequence or a mandatory download gate. If email is needed to deliver the resource, explain fulfillment separately from ongoing newsletter permission; downloading must not automatically enroll someone. Review applicable consent requirements rather than treating this example as universal legal advice.
 
-Measure resource access/use, explicit signups and relevant destination actions separately. Do not count every download as a subscription or every subscription as an inquiry. Owned-site control does not guarantee discovery or reach. Canonical control and portability belong to the separate website-format-hub guidance (currently an unpublished draft), rather than being repeated here. Clip selection and reel packaging remain separate production standards.
+Measure resource access/use, explicit signups and relevant destination actions separately. Do not count every download as a subscription or every subscription as an inquiry. Owned-site control does not guarantee discovery or reach. Site control and continuity are covered below. Clip selection and reel packaging remain separate production standards.
+
+## Site Control, Navigation And Continuity
+
+Keep the canonical page on a domain the organization controls, with a stable episode URL. Link it from a show or collection page and useful topic navigation so visitors can find related episodes without knowing an exact title.
+
+Offer the formats and subscription destinations the audience actually uses: audio, video or readable text as appropriate, with clearly labeled links to the maintained feed, newsletter or platform channel. Not every episode needs every format. HLS playback, automatic RSS/YouTube imports and vendor-specific analytics are implementation options, not requirements.
+
+Keep source media, approved transcripts, captions and metadata in an independently retrievable owned-media library; the public page presents selected approved assets. An embedded player is a delivery dependency, not a portable source file or a backup. See the [Owned Media Library](../preserve/content-memory-standard.md) for file, permission and recovery practices.
+
+Check player embeds, transcript/chapter links and subscription destinations at release and after hosting changes. If an embed breaks, retain useful approved text and repair playback from an authorized delivery copy; do not assume the old platform can supply the source. Before a migration, inventory affected URLs, preserve stable addresses where possible, redirect changed URLs to their corresponding replacements, and test old links and replacement playback. Record dependencies or features that cannot transfer. A controlled site supports continuity; it does not guarantee search rankings, AI citations or discovery.
 
 ## When Not To Use
 

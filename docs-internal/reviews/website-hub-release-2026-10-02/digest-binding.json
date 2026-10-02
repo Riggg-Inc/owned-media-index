@@ -1,0 +1,11 @@
+{
+  "base": "43cca3ceb28452ae5d7347f34307b187cc78a899",
+  "ownerApprovalComment": "6d981347-d1f6-496b-95c3-233fde6994a8",
+  "ownerApprovalCard": "4df042ae-7b97-4270-a2aa-c6c99f3ba8da",
+  "approvedCommit": "e9015672b4f737112d8b9ca755a564371ce8f47a",
+  "files": {
+    "publish/website/canonical-episode-page.md": "ec0765577d0f1882e9c3e8a3705825fbc041d06506c7750349dd21b22d6dda64",
+    "docs/patterns/publish/canonical-episode-page.md": "3fed7476710d70e4783454c71aaeff0cdc4e7c42afd42af05e35102455dd64e1"
+  },
+  "exactApprovedFileParity": true
+}
