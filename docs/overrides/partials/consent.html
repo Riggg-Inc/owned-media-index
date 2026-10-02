@@ -1,0 +1,9 @@
+{# One optional purpose: explicit accept or reject, never a preselected opt-in. #}
+<h4>{{ config.extra.consent.title }}</h4>
+<p>{{ config.extra.consent.description }}</p>
+<input type="checkbox" name="analytics" hidden>
+<div class="md-consent__controls">
+  <button type="submit" class="md-button md-button--primary"
+          onclick="this.form.elements.analytics.checked = true">Accept analytics</button>
+  <button type="reset" class="md-button md-button--primary">Reject</button>
+</div>

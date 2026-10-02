@@ -28,11 +28,10 @@ const server = http.createServer((req,res)=>{
  assert.equal(requests.length,0,'rejection persists');
  await page.evaluate(()=>localStorage.clear());
  await page.goto(base,{waitUntil:'networkidle',referer:'https://www.google.com/search?q=private-test-query'});
- if (await page.locator('form[name="consent"] label[for="__settings"]').isVisible()) await page.locator('form[name="consent"] label[for="__settings"]').click();
- await page.locator('form[name="consent"] label.task-list-control').filter({has:page.locator('input[name="analytics"]')}).click();
- assert(await page.locator('form[name="consent"] input[name="analytics"]').isChecked());
- await page.locator('form[name="consent"] button:not([type="reset"])').click();
- await page.waitForResponse(r=>/google-analytics.com.*collect/.test(r.url()),{timeout:30000});
+ const collection = page.waitForResponse(r=>/google-analytics.com.*collect/.test(r.url()),{timeout:30000});
+ await page.getByRole('button',{name:'Accept analytics',exact:true}).click();
+ await collection;
+ assert.equal(await page.evaluate(()=>__md_get('__consent').analytics),true,'ordinary Accept persists analytics opt-in');
  await page.waitForLoadState('networkidle');
  let layer=await page.evaluate(()=>window.dataLayer.map(a=>Array.from(a)));
  assert.equal(layer.filter(x=>x[0]==='event'&&x[1]==='page_view').length,1,'one explicit pageview');
