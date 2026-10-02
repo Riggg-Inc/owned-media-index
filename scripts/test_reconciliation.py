@@ -3,7 +3,7 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-REJECTED = ("two-part-hook-structure", "spaced-repetition-reflection", "cascading-content-funnel", "cross-format-fact-check-artifacts", "audience-prep-networking", "ad-metadata-brand-safety")
+REJECTED = ('two-part-hook-structure', 'spaced-repetition-reflection', 'cascading-content-funnel', 'cross-format-fact-check-artifacts', 'audience-prep-networking', 'ad-metadata-brand-safety', 'focused-cohort-tracking', 'immersive-learning-exercises', 'new-bliss-closing', 'ai-disclosure-provenance-owned-asset', 'time-sequenced-messaging', 'platform-ad-skipping-monetization-resilience')
 
 class ReconciliationTests(unittest.TestCase):
     def test_rejected_patterns_are_quarantined_not_published(self):

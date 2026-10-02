@@ -25,3 +25,14 @@ cascading-content-funnel.md is preserved byte-for-byte; SHA-256 c271eeb0447496c0
 ## Ad Metadata Brand Safety
 
 `ad-metadata-brand-safety.md` is byte-for-byte historical evidence only (SHA-256 e940daf1ede276349fcc7baac700b891dcd29232242416efaf695dd75415fc5b). Owner retired it October 2, 2026 at 21:46 UTC; card b2058cc8-b37c-4137-8c90-88fb30a1def6 remains done-retired, not published. Do not reopen, recreate, substitute or merge. Historic uppercase Preserve path was previously consolidated into the lowercase source; no second active variant exists. No public page existed (candidate route404). Removed only the stale related-draft recommendation from AMP source/docs; no AMP prose or score changes.
+
+## Additional owner retirements — October 2, 2026
+
+Historical evidence only. Never recreate, recommend, substitute or merge. All six drafts were source-only, not public articles. Time-Sequenced Messaging was recovered from current origin; original source commit 4f30205. Full archive hashes and source paths:
+
+- prove/scorecards/focused-cohort-tracking.md: 79f348f2eda3bff7ef3d0a85e7904c237786ca51dcc32b59e91787b4375acdf5
+- produce/audience-engagement/immersive-learning-exercises.md: 129e158766b835178cf5c52ce6a68c7cee13bf8c8d098446e4f94cb5823ef8a7
+- produce/presentation-tactics/new-bliss-closing.md: cdd76003e4c428c361cb86e56092d2e50168ce990e60881e046c1e8990d4457c
+- preserve/provenance/ai-disclosure-provenance-owned-asset.md: 171dffb59269fb04174d9257290ab5e01060bd538c3babca778167ac598e831f
+- publish/executive-outreach/time-sequenced-messaging.md: c2c5d9c030b68171174e13162878fbaa10802dc070037685880e4b415959c88e
+- publish/syndication/platform-ad-skipping-monetization-resilience.md: d8996d66c37191363f09dfc5476d8e3959fbf573426be754485490a8809ba5ec

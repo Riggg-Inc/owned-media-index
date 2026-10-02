@@ -4418,7 +4418,13 @@
       "cascading-content-funnel",
       "cross-format-fact-check-artifacts",
       "audience-prep-networking",
-      "ad-metadata-brand-safety"
+      "ad-metadata-brand-safety",
+      "focused-cohort-tracking",
+      "immersive-learning-exercises",
+      "new-bliss-closing",
+      "ai-disclosure-provenance-owned-asset",
+      "time-sequenced-messaging",
+      "platform-ad-skipping-monetization-resilience"
     ],
     "protected_paths": {
       "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
@@ -4454,6 +4460,44 @@
       "sha256": "e940daf1ede276349fcc7baac700b891dcd29232242416efaf695dd75415fc5b",
       "authority": "Owner dashboard2026-10-02 21:46UTC",
       "disposition": "RETIRED; source only; AMP stale recommendation removed from source/docs"
-    }
+    },
+    "retirements_completed_20261002": [
+      {
+        "source": "prove/scorecards/focused-cohort-tracking.md",
+        "archive": "docs-internal/archive/rejected/focused-cohort-tracking.md",
+        "sha256": "79f348f2eda3bff7ef3d0a85e7904c237786ca51dcc32b59e91787b4375acdf5",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      },
+      {
+        "source": "produce/audience-engagement/immersive-learning-exercises.md",
+        "archive": "docs-internal/archive/rejected/immersive-learning-exercises.md",
+        "sha256": "129e158766b835178cf5c52ce6a68c7cee13bf8c8d098446e4f94cb5823ef8a7",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      },
+      {
+        "source": "produce/presentation-tactics/new-bliss-closing.md",
+        "archive": "docs-internal/archive/rejected/new-bliss-closing.md",
+        "sha256": "cdd76003e4c428c361cb86e56092d2e50168ce990e60881e046c1e8990d4457c",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      },
+      {
+        "source": "preserve/provenance/ai-disclosure-provenance-owned-asset.md",
+        "archive": "docs-internal/archive/rejected/ai-disclosure-provenance-owned-asset.md",
+        "sha256": "171dffb59269fb04174d9257290ab5e01060bd538c3babca778167ac598e831f",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      },
+      {
+        "source": "publish/executive-outreach/time-sequenced-messaging.md",
+        "archive": "docs-internal/archive/rejected/time-sequenced-messaging.md",
+        "sha256": "c2c5d9c030b68171174e13162878fbaa10802dc070037685880e4b415959c88e",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      },
+      {
+        "source": "publish/syndication/platform-ad-skipping-monetization-resilience.md",
+        "archive": "docs-internal/archive/rejected/platform-ad-skipping-monetization-resilience.md",
+        "sha256": "d8996d66c37191363f09dfc5476d8e3959fbf573426be754485490a8809ba5ec",
+        "disposition": "Owner retired 2026-10-02; not published; no substitute or merge"
+      }
+    ]
   }
 }
