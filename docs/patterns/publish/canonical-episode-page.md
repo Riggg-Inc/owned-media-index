@@ -23,13 +23,21 @@ The owned website page that acts as the canonical home for an episode, webinar, 
 - Timestamped transcript.
 - Chapters.
 - Guest bio and links.
-- Related resources.
-- Clear CTA.
+- Related resources that are useful on their own.
+- A clear, optional next action relevant to the visitor task.
 - Schema markup where appropriate.
 
 ## Quality Bar
 
 The page should be useful even if the visitor never presses play.
+
+## Standalone Utility And Optional Next Actions
+
+Provide a resource that helps a visitor accomplish the episode's task: a usable worksheet, checklist or annotated example, not merely a teaser. Offer a relevant next action without making playback, subscription or a longer video a condition of usefulness.
+
+For example, an interview-preparation episode could link to a standalone worksheet on the owned site, with a separate optional signup for recurring practical production advice. This is a hypothetical option to test, not a proven conversion sequence or a mandatory download gate. If email is needed to deliver the resource, explain fulfillment separately from ongoing newsletter permission; downloading must not automatically enroll someone. Review applicable consent requirements rather than treating this example as universal legal advice.
+
+Measure resource access/use, explicit signups and relevant destination actions separately. Do not count every download as a subscription or every subscription as an inquiry. Owned-site control does not guarantee discovery or reach. Canonical control and portability belong to the separate website-format-hub guidance (currently an unpublished draft), rather than being repeated here. Clip selection and reel packaging remain separate production standards.
 
 ## When Not To Use
 
