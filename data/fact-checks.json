@@ -4,29 +4,92 @@
     "patterns/publish/ai-search-optimization/measurement.md": {
       "checked_at": "2026-10-02T21:19:23.214605Z",
       "reviewer": "Cass Reelman (AI-assisted source review; not human approval)",
-      "method": "Partial claim-by-claim review of unchanged published article against fresh primary documentation. Unresolved: article omits Bing AI Performance and GA4 AI Assistant reporting and retains overly broad manual-tooling claims. Proposed corrections await exact-artifact editorial approval. Account-level availability and comprehensive platform execution were not tested.",
-      "content_sha256": "b91e8ab531d173b63d2c3311f1e8f66851ad9a42c38ea67bf06a28c36f6605ba",
+      "method": "AI-assisted primary-documentation review of the exact owner-approved revision. Corrected Bing AI Performance, GA4 AI Assistant and ChatGPT referral guidance; score remains practitioner-observation 3. Unresolved: account-level report availability, historical channel rollout, live cross-platform execution and vendor accuracy were not independently tested. Editorial approval is not full factual verification. See the claim-level source audit dated 2026-10-02.",
+      "content_sha256": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
       "sources": [
         {
-          "url": "https://support.google.com/analytics/answer/9756891",
+          "url": "https://developers.google.com/search/docs/appearance/ai-features",
+          "checked_at": "2026-10-02T20:38:00.151Z",
           "claims": [
-            "GA4 documents AI Assistant as a default channel, excluding Google AI Overviews and AI Mode, which are Organic Search."
-          ],
-          "checked_at": "2026-10-02T21:18:38.907Z"
+            "AI Overviews and AI Mode reported in overall Search Console Web performance; indexed and snippet-eligible requirement; no additional technical requirements; different models/techniques mean responses/links vary; Overviews may not trigger."
+          ]
         },
         {
           "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+          "checked_at": "2026-10-02T20:38:10.213Z",
           "claims": [
-            "Microsoft announced AI Performance public preview with sampled citation and grounding-query reporting; it is not a ranking or full-population metric."
-          ],
-          "checked_at": "2026-10-02T21:18:42.594Z"
+            "released public-preview AI Performance; Microsoft Copilot, AI-generated Bing summaries and select partners; total citations, average unique cited pages per day, sampled grounding queries, page citation counts and trends."
+          ]
+        },
+        {
+          "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+          "checked_at": "2026-10-02T20:38:29.073Z",
+          "claims": [
+            "Search interface and source links; query rewriting; location and saved-memory context; citations may be incomplete/outdated/incorrect; inspect actual sources."
+          ]
         },
         {
           "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+          "checked_at": "2026-10-02T20:39:39.687Z",
           "claims": [
-            "OpenAI documents utm_source=chatgpt.com for ChatGPT search referral tracking."
-          ],
-          "checked_at": "2026-10-02T21:18:43.145Z"
+            "ChatGPT automatically includes utm_source=chatgpt.com in referral URLs from search results, enabling analytics tracking."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/12923437?hl=en",
+          "checked_at": "2026-10-02T20:38:20.679Z",
+          "claims": [
+            "Reports \u2192 Acquisition \u2192 Traffic acquisition; Session source / medium; new and returning traffic vs User acquisition; configured key events."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+          "checked_at": "2026-10-02T20:38:29.552Z",
+          "claims": [
+            "AI Assistant channel for sources including ChatGPT, Gemini, Deepseek, Copilot, Grok; excludes Google AI Overviews/AI Mode; those included in Organic Search. Session, user and event scopes differ."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+          "checked_at": "2026-10-02T20:38:47.274Z",
+          "claims": [
+            "Direct/none means no clear referral source; missing tags, redirects, shorteners and ad blockers can lose source information."
+          ]
+        },
+        {
+          "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+          "checked_at": "2026-10-02T20:39:17.050Z",
+          "claims": [
+            "indexed version versus live test; indexed/eligible does not guarantee appearance; canonical and crawl/index diagnostics."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+          "checked_at": "2026-10-02T20:39:16.687Z",
+          "claims": [
+            "Rich Results Test/URL Inspection catch most technical errors; quality guidelines are not readily testable automatically; syntactic correctness insufficient for display."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+          "checked_at": "2026-10-02T20:38:47.146Z",
+          "claims": [
+            "site: observations do not enumerate all indexed URLs."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+          "checked_at": "2026-10-02T20:39:16.839Z",
+          "claims": [
+            "crawl timing may take days to weeks; 48 hours is an internal check, not platform SLA."
+          ]
+        },
+        {
+          "url": "https://ahrefs.com/brand-radar",
+          "checked_at": "2026-10-02T20:39:16.340Z",
+          "claims": [
+            "vendor offers Custom Prompts and AI Visibility Index; names ChatGPT, Perplexity and AI Mode among indexed platforms; describes prompts modeled from keyword database searches."
+          ]
         }
       ],
       "status": "partial",
