@@ -13,3 +13,7 @@ Moved out of discoverable root drafts under the October 2 owner-authorized clean
 ## Cascading content funnel
 
 cascading-content-funnel.md is preserved byte-for-byte; SHA-256 c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e. Ledge authorized retirement October 2, 2026 at 21:12 UTC via authenticated dashboard; card ae4d2629-24bb-4c4b-9198-57ecd0a698fd is RETIRED, not published. Do not reopen, recreate or resurface the standalone duration ladder. Eight claimed sessions remain unverified, not disproven; no verified evidence establishes required 60/3/60 sequencing or conversion lift. Score 4 is historical only. No public page existed or was removed. Scoped newsletter/canonical-page revisions require separate exact-revision approval. No operational funnel authorized.
+
+## Cross-format fact-check artifacts
+
+`cross-format-fact-check-artifacts.md` is byte-for-byte historical evidence only (SHA-256 067a2f3ea096d3edf66ca941b1e3ccbc6a818b11197fd11047676b136a2e536f). Ledge retired it as not relevant via dashboard October 2, 2026 at 21:33 UTC; card 21158d85-0209-48a9-a4d3-7b429a396593 is done-rejected. Do not reopen, recreate, recommend, substitute, or merge into the library. No public docs page or active inbound recommendation exists in the inspected release; the root draft was archived, not a live article removed. Historical inventories remain snapshots, not recommendations.

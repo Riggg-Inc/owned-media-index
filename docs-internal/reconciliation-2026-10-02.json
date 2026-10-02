@@ -4415,7 +4415,8 @@
     "retired_slugs": [
       "two-part-hook-structure",
       "spaced-repetition-reflection",
-      "cascading-content-funnel"
+      "cascading-content-funnel",
+      "cross-format-fact-check-artifacts"
     ],
     "protected_paths": {
       "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
@@ -4430,6 +4431,13 @@
       "sha256": "c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e",
       "authority": "Ledge dashboard 2026-10-02 21:12 UTC",
       "disposition": "RETIRED not published; revisions separately approval-gated"
+    },
+    "fact_check_retirement": {
+      "card": "21158d85-0209-48a9-a4d3-7b429a396593",
+      "archive": "docs-internal/archive/rejected/cross-format-fact-check-artifacts.md",
+      "sha256": "067a2f3ea096d3edf66ca941b1e3ccbc6a818b11197fd11047676b136a2e536f",
+      "authority": "Ledge dashboard 2026-10-02 21:33 UTC",
+      "disposition": "RETIRED not relevant; no replacement or library merge; source-only draft"
     }
   }
 }
