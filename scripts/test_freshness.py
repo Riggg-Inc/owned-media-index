@@ -9,7 +9,7 @@ import unittest
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from hooks.freshness import History, review_state
-from hooks.metadata import build_schema
+from hooks.metadata import build_schema, page_type
 from scripts.fact_checks import content_hash, timestamp
 from validate_freshness import audit
 
@@ -109,10 +109,23 @@ class HistoryTests(unittest.TestCase):
 
 
 class BuiltFreshnessTests(unittest.TestCase):
-    def test_all_85_articles_and_nonarticle_exclusion(self):
+    def test_all_source_articles_and_nonarticle_exclusion(self):
         count, errors = audit(Path('.'), Path('site'))
-        self.assertEqual(count, 85)
+        expected = sum(
+            page_type(p.relative_to(Path("docs")).as_posix()) == "Article"
+            for p in Path("docs").rglob("*.md")
+            if "overrides" not in p.relative_to(Path("docs")).parts
+        )
+        self.assertGreater(expected, 0)
+        self.assertEqual(count, expected)
         self.assertEqual(errors, [])
+
+    def test_missing_build_fails_closed(self):
+        with tempfile.TemporaryDirectory() as missing:
+            count, errors = audit(Path('.'), Path(missing))
+        self.assertEqual(count, 0)
+        self.assertTrue(errors)
+        self.assertTrue(all('missing built page' in error for error in errors))
 
 
 if __name__ == '__main__':
