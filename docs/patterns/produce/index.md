@@ -33,6 +33,7 @@ Shaping the session in real time or immediately after capture.
 |---|---|
 | [OBS Real-Time Production Standard](obs-production-standard.md) | Using OBS Studio as a live production switcher |
 | [OBS Scene Collection Template](obs-scene-collection-template.md) | Recommended scene structure for episodic shows |
+| [Recurring Show Segments](standardized-micro-segments.md) | Give repeated episode beats a purpose, setup, and payoff; cut them when they add no value. |
 
 ## Master
 
