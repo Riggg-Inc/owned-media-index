@@ -2963,8 +2963,11 @@
     {
       "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
       "reference": "schemas/pattern.schema.md",
-      "state": "unresolved",
-      "matches": []
+      "state": "corrected-historical-reference",
+      "matches": [
+        "schemas/pattern.schema.json"
+      ],
+      "canonical": "schemas/pattern.schema.json"
     },
     {
       "card": "827cfa11-a57b-476f-b0ab-20da5dd5e597",
@@ -3499,8 +3502,11 @@
     {
       "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
       "reference": "prove/measurement-provenance/amp-accords-iab-v2.3.md",
-      "state": "unresolved",
-      "matches": []
+      "state": "corrected-historical-reference",
+      "matches": [
+        "prove/measurement/amp-accords-play-standard.md"
+      ],
+      "canonical": "prove/measurement/amp-accords-play-standard.md"
     },
     {
       "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
@@ -4398,5 +4404,24 @@
   ],
   "coverage": "Full tool card objects read for 112 cards; path/commit extraction is heuristic, not approval verification. Basename matches are candidates, not proof of equivalence. Source/docs mirrors intentional. Live routes inferred; HTTP verification deferred to integration. Historical-only files preserved, not republished.",
   "no_markdown_inbound_or_nav": [],
-  "remaining_unresolved_hashes": []
+  "remaining_unresolved_hashes": [],
+  "integration": {
+    "base": "177f1107feb4267e85f5b0c832e142af9f300b62",
+    "reference_repairs": {
+      "schemas/pattern.schema.md": "schemas/pattern.schema.json",
+      "prove/measurement-provenance/amp-accords-iab-v2.3.md": "prove/measurement/amp-accords-play-standard.md"
+    },
+    "local_only_blocker": "In-app same-thesis drafts differ in rationale and exclusion caveats; no local file changed. Owner decision needed on unique wording and unpublished history.",
+    "retired_slugs": [
+      "two-part-hook-structure",
+      "spaced-repetition-reflection"
+    ],
+    "protected_paths": {
+      "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
+      "docs/patterns/preserve/content-memory-standard.md": "f4bf19f6a8f86932b09808fdc39cf2d1732037c9a64bcfa4444096d19c55b4c0",
+      "preserve/ai-optimization/geo-aeo-citation-volatility.md": "0db92a362b07040eeb74739cf2aec4d14f14b6c26993f111635615c6f5d4165a",
+      "docs/patterns/preserve/geo-aeo-citation-volatility.md": "800017f0bab2fb84ba16642f9d81e7de1161c298d646c7545cc4f8b180a85761",
+      "docs/patterns/preserve/index.md": "1fc3c0dfe12e3083eea64fa8d637f8530593c013347fcf37bfb1cba389e0fb7e"
+    }
+  }
 }

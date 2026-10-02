@@ -34,7 +34,7 @@ Distinct rescore/revision/retirement tasks remain open. In-app retirement card `
 - `a3af20c0` versus `1ad7cc9f`: kinesthetic re-grounding has different source context; historical draft c38af5e0 actually exists in **openclaw-workspace**, current OMI alternative is c87e004. Corrected old missing/fabrication implication on 1ad7cc9f; do not close merely by slug.
 - `b6643937`: event-content draft/hash ec19b1e9 exists in **openclaw-workspace**. Commented location correction; no automatic public import.
 - Canonical targeted-learning and facilitated-peer cards received explicit source-context/scope review findings; remain review, not approved. Other live-facilitation-adjacent drafts (immersive learning, warmup, strategic pause, asynchronous baseline, networking) need full-context editorial judgment, not blanket rejection.
-- Two unresolved references: Scribe charter `schemas/pattern.schema.md` (actual schema directory needs owner/maintainer reconciliation), and ad-metadata card b2058cc8 referring to `prove/measurement-provenance/amp-accords-iab-v2.3.md` (likely obsolete reference; do not invent a target).
+- At initial snapshot, two unresolved references (resolved in integration below): Scribe charter `schemas/pattern.schema.md` (actual schema directory needs owner/maintainer reconciliation), and ad-metadata card b2058cc8 referring to `prove/measurement-provenance/amp-accords-iab-v2.3.md` (likely obsolete reference; do not invent a target).
 
 ## Verification and final board
 
@@ -49,3 +49,16 @@ Integration: parent waits for library release completion, fetches current origin
 ## Follow-up owner rejection (20:57 UTC)
 
 Parent independently closed spaced-repetition-reflection card `8ad7a074` as rejected. Full card reread confirmed explicit clinical-training source rationale and no-resurfacing direction. Moved its root draft byte-for-byte into the rejected archive and extended the regression. Cascading-content-funnel card/source remain untouched during owner discussion. Earlier board totals above are superseded by this fresh live snapshot: {"backlog":27,"todo":41,"ready":14,"running":6,"review":5,"blocked":1,"done":18} (112 total). No additional card mutation by this follow-up.
+
+
+## Serialized integration follow-up
+
+- Integrated prior cleanup and owner-retirement commits in a new isolated branch based on refreshed origin/main 177f1107. No original worktree, dirty main file or unpublished commit changed.
+- Corrected Scribe charter c1e2f7d1 schema pointer to existing schemas/pattern.schema.json, preserving all other charter text and backlog status. No scoring change.
+- Resolved historical AMP/IAB filename to prove/measurement/amp-accords-play-standard.md after reading its metric-provenance content and reciprocal ad-metadata link. Current ad-metadata source already uses this canonical target; only manifest and card correction needed, not a substantive article rewrite.
+- Local-only in-app retirement 3333b5c0 remains todo. Both files are unmodified relative to local HEAD, but NOT byte-identical: ed5963d adds external-feed/workflow rationale and a dedicated-focus exclusion absent in 789dd1a. Thus exact-duplicate/no-unique-content condition fails. Need owner decision on preservation/merge of that wording and serialized reconciliation of six unpublished main commits. Main's 23 dirty paths were preserved; no reset, stash, import, deletion or quarantine there.
+- Explicit spaced-repetition owner rationale and suppression are preserved in archive README; both rejected drafts retained byte-for-byte outside active/publication paths. No additional active spaced-repetition recommendation found. Tests cover both slugs.
+- Cascading-content-funnel remains untouched. Asynchronous, kinesthetic, targeted-learning and peer-connection questions remain editorial decisions, not automatic closures.
+- Manifest retains historical snapshot hashes; integration protected-path SHA-256 values certify exact approved library/AI bytes, including Preserve hub. Reference mappings are updated without rewriting historical card comments.
+
+Verification at integration: strict build passed; 125 HTML pages / 8,160 internal references / 0 errors; AEO 124 pages / 0 errors; video parity passed; all 28 tests passed. Archive bytes match pre-quarantine blobs. All docs, preserve sources and library-release syndication fix compare byte-identically to base. Dirty main diff/status unchanged. Workboard specify promoted charter backlog to todo as a side effect; immediately restored backlog (no dispatch/claim). No final net status changes by integration.
