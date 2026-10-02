@@ -9,3 +9,7 @@ Moved out of discoverable root drafts under the October 2 owner-authorized clean
 ## Spaced-repetition reflection
 
 `spaced-repetition-reflection.md` is likewise byte-for-byte historical evidence only. October 2, 2026 owner rejection is recorded on card `8ad7a074-0c85-4b68-b2d0-4934ca55aeb5`: the source describes LMS, instructor-led class and chairside clinical training, not multi-day media publishing. Do not reopen, recreate, or resurface. No public page existed or was removed.
+
+## Cascading content funnel
+
+cascading-content-funnel.md is preserved byte-for-byte; SHA-256 c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e. Ledge authorized retirement October 2, 2026 at 21:12 UTC via authenticated dashboard; card ae4d2629-24bb-4c4b-9198-57ecd0a698fd is RETIRED, not published. Do not reopen, recreate or resurface the standalone duration ladder. Eight claimed sessions remain unverified, not disproven; no verified evidence establishes required 60/3/60 sequencing or conversion lift. Score 4 is historical only. No public page existed or was removed. Scoped newsletter/canonical-page revisions require separate exact-revision approval. No operational funnel authorized.

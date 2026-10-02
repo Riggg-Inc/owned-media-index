@@ -48,7 +48,7 @@ Integration: parent waits for library release completion, fetches current origin
 
 ## Follow-up owner rejection (20:57 UTC)
 
-Parent independently closed spaced-repetition-reflection card `8ad7a074` as rejected. Full card reread confirmed explicit clinical-training source rationale and no-resurfacing direction. Moved its root draft byte-for-byte into the rejected archive and extended the regression. Cascading-content-funnel card/source remain untouched during owner discussion. Earlier board totals above are superseded by this fresh live snapshot: {"backlog":27,"todo":41,"ready":14,"running":6,"review":5,"blocked":1,"done":18} (112 total). No additional card mutation by this follow-up.
+Parent independently closed spaced-repetition-reflection card `8ad7a074` as rejected. Full card reread confirmed explicit clinical-training source rationale and no-resurfacing direction. Moved its root draft byte-for-byte into the rejected archive and extended the regression. At that snapshot cascading-content-funnel remained untouched; superseded by the authorized retirement below. Earlier board totals above are superseded by this fresh live snapshot: {"backlog":27,"todo":41,"ready":14,"running":6,"review":5,"blocked":1,"done":18} (112 total). No additional card mutation by this follow-up.
 
 
 ## Serialized integration follow-up
@@ -58,7 +58,11 @@ Parent independently closed spaced-repetition-reflection card `8ad7a074` as reje
 - Resolved historical AMP/IAB filename to prove/measurement/amp-accords-play-standard.md after reading its metric-provenance content and reciprocal ad-metadata link. Current ad-metadata source already uses this canonical target; only manifest and card correction needed, not a substantive article rewrite.
 - Local-only in-app retirement 3333b5c0 remains todo. Both files are unmodified relative to local HEAD, but NOT byte-identical: ed5963d adds external-feed/workflow rationale and a dedicated-focus exclusion absent in 789dd1a. Thus exact-duplicate/no-unique-content condition fails. Need owner decision on preservation/merge of that wording and serialized reconciliation of six unpublished main commits. Main's 23 dirty paths were preserved; no reset, stash, import, deletion or quarantine there.
 - Explicit spaced-repetition owner rationale and suppression are preserved in archive README; both rejected drafts retained byte-for-byte outside active/publication paths. No additional active spaced-repetition recommendation found. Tests cover both slugs.
-- Cascading-content-funnel remains untouched. Asynchronous, kinesthetic, targeted-learning and peer-connection questions remain editorial decisions, not automatic closures.
+- Cascading-content-funnel is now retired per the update below. Asynchronous, kinesthetic, targeted-learning and peer-connection questions remain editorial decisions, not automatic closures.
 - Manifest retains historical snapshot hashes; integration protected-path SHA-256 values certify exact approved library/AI bytes, including Preserve hub. Reference mappings are updated without rewriting historical card comments.
 
 Verification at integration: strict build passed; 125 HTML pages / 8,160 internal references / 0 errors; AEO 124 pages / 0 errors; video parity passed; all 28 tests passed. Archive bytes match pre-quarantine blobs. All docs, preserve sources and library-release syndication fix compare byte-identically to base. Dirty main diff/status unchanged. Workboard specify promoted charter backlog to todo as a side effect; immediately restored backlog (no dispatch/claim). No final net status changes by integration.
+
+## Authorized cascade retirement — October 2, 21:12 UTC
+
+Ledge approved retirement, not publication: ae4d2629-24bb-4c4b-9198-57ecd0a698fd. Draft moved byte-for-byte to docs-internal/archive/rejected/cascading-content-funnel.md. Suppression manifest and regression extended. Historical inventories remain audit snapshots, not current recommendations. No active inbound recommendation or public page found. Existing newsletter/canonical-page revisions require separate exact-revision approval.

@@ -4414,7 +4414,8 @@
     "local_only_blocker": "In-app same-thesis drafts differ in rationale and exclusion caveats; no local file changed. Owner decision needed on unique wording and unpublished history.",
     "retired_slugs": [
       "two-part-hook-structure",
-      "spaced-repetition-reflection"
+      "spaced-repetition-reflection",
+      "cascading-content-funnel"
     ],
     "protected_paths": {
       "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
@@ -4422,6 +4423,13 @@
       "preserve/ai-optimization/geo-aeo-citation-volatility.md": "0db92a362b07040eeb74739cf2aec4d14f14b6c26993f111635615c6f5d4165a",
       "docs/patterns/preserve/geo-aeo-citation-volatility.md": "800017f0bab2fb84ba16642f9d81e7de1161c298d646c7545cc4f8b180a85761",
       "docs/patterns/preserve/index.md": "1fc3c0dfe12e3083eea64fa8d637f8530593c013347fcf37bfb1cba389e0fb7e"
+    },
+    "cascade_retirement": {
+      "card": "ae4d2629-24bb-4c4b-9198-57ecd0a698fd",
+      "archive": "docs-internal/archive/rejected/cascading-content-funnel.md",
+      "sha256": "c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e",
+      "authority": "Ledge dashboard 2026-10-02 21:12 UTC",
+      "disposition": "RETIRED not published; revisions separately approval-gated"
     }
   }
 }
