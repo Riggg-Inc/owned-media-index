@@ -109,9 +109,9 @@ class HistoryTests(unittest.TestCase):
 
 
 class BuiltFreshnessTests(unittest.TestCase):
-    def test_all_84_articles_and_nonarticle_exclusion(self):
+    def test_all_85_articles_and_nonarticle_exclusion(self):
         count, errors = audit(Path('.'), Path('site'))
-        self.assertEqual(count, 84)
+        self.assertEqual(count, 85)
         self.assertEqual(errors, [])
 
 
