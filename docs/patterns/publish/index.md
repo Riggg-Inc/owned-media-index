@@ -10,6 +10,8 @@ Publishing splits into two tracks: **owned channels** (your website, RSS, email 
 
 ## Owned Channels
 
+[Owned Email Newsletter: Direct Engagement Channel](owned-email-newsletter.md) — The owned email newsletter is a direct-to-audience channel for an ongoing permission-based relationship.
+
 | Pattern | What It Covers |
 |---|---|
 | [Canonical Episode Page](canonical-episode-page.md) | The website page that anchors every episode — transcript, embed, show notes, chapters |
