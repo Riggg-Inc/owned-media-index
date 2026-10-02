@@ -563,3 +563,7 @@ All 125 pages listed once. Hosting parity passed after explicit sync and nonmuta
 - Roadmap / Tools: V0.1–V1.0/V0.4 are versions; quarterly/monthly are planned cadences.
 
 Local verification: four test_video_reference tests passed; git diff --check passed. Integration owner handles full-site tests.
+
+## Integration follow-up: concurrent approved publication
+
+The parent merged production 91172ec during release, adding docs/patterns/produce/standardized-micro-segments.md (Recurring Show Segments). Full text read: no standalone freshness labels or historical-date claims to reconcile; metadata is supplied by the shared template. Original practitioner-evidence limitations, hypothetical examples, score and citations are unchanged. The final release registry is 126 pages, rather than the initial 125-page traversal. Full generated and live coverage must include this added page.
