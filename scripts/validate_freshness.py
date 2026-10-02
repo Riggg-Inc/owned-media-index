@@ -107,7 +107,6 @@ def audit(root, site):
         source = path.relative_to(root / 'docs')
         if 'overrides' in source.parts:
             continue
-        count += 1
         for line in inline_metadata(body_bytes(path.read_bytes()).decode()):
             errors.append(f'{source}:{line}: duplicate standalone freshness metadata')
         target = site / (source.with_suffix('') / 'index.html' if source.name != 'index.md' else source.with_suffix('.html'))
@@ -115,6 +114,7 @@ def audit(root, site):
         if not target.exists():
             errors.append(f'{source}: missing built page')
             continue
+        count += 1
         text = target.read_text()
         doc = FreshnessHTML(text)
         if doc.legacy_metadata:
