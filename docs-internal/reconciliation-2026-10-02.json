@@ -2605,7 +2605,8 @@
         "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5"
       ],
       "route": null,
-      "classification": "source-or-draft"
+      "classification": "rejected-quarantined",
+      "archive": "docs-internal/archive/rejected/spaced-repetition-reflection.md"
     },
     {
       "path": "publish/owned-channels/owned-email-newsletter.md",

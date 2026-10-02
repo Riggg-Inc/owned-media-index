@@ -45,3 +45,7 @@ Final live board: **112 cards = 27 backlog + 40 todo + 15 ready + 6 running + 5 
 Coverage limits: tool returns bounded card objects; extraction is heuristic, links are mechanically inferred and no external source transcripts were re-audited. No external live HTTP/deployment/browser verification in this isolated pass. The manifest retains the pre-cleanup article hashes, with quarantine disposition attached, not a perpetually synchronized registry. No global automation behavior changed.
 
 Integration: parent waits for library release completion, fetches current origin/main, cherry-picks cleanup commit in a clean integration worktree, reruns strict build/site/AEO/video/tests, inspects scoped diff and protected files, then serializes push/deploy and verifies live site. Do not push dirty main or import its unpublished drafts.
+
+## Follow-up owner rejection (20:57 UTC)
+
+Parent independently closed spaced-repetition-reflection card `8ad7a074` as rejected. Full card reread confirmed explicit clinical-training source rationale and no-resurfacing direction. Moved its root draft byte-for-byte into the rejected archive and extended the regression. Cascading-content-funnel card/source remain untouched during owner discussion. Earlier board totals above are superseded by this fresh live snapshot: {"backlog":27,"todo":41,"ready":14,"running":6,"review":5,"blocked":1,"done":18} (112 total). No additional card mutation by this follow-up.
