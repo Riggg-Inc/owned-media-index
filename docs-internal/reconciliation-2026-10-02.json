@@ -4417,7 +4417,8 @@
       "spaced-repetition-reflection",
       "cascading-content-funnel",
       "cross-format-fact-check-artifacts",
-      "audience-prep-networking"
+      "audience-prep-networking",
+      "ad-metadata-brand-safety"
     ],
     "protected_paths": {
       "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
@@ -4446,6 +4447,13 @@
       "sha256": "73575ba1db4df50f768bdfed3acf25698a4a0733545edbb8957eb6ec869b9b1f",
       "authority": "Ledge dashboard 2026-10-02 21:36 UTC",
       "disposition": "RETIRED; no substitute or guest-prep rewrite; source-only draft"
+    },
+    "ad_metadata_retirement": {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "archive": "docs-internal/archive/rejected/ad-metadata-brand-safety.md",
+      "sha256": "e940daf1ede276349fcc7baac700b891dcd29232242416efaf695dd75415fc5b",
+      "authority": "Owner dashboard2026-10-02 21:46UTC",
+      "disposition": "RETIRED; source only; AMP stale recommendation removed from source/docs"
     }
   }
 }

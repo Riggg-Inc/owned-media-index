@@ -21,3 +21,7 @@ cascading-content-funnel.md is preserved byte-for-byte; SHA-256 c271eeb0447496c0
 ## Audience prep networking
 
 `audience-prep-networking.md` is historical evidence only, preserved byte-for-byte (SHA-256 73575ba1db4df50f768bdfed3acf25698a4a0733545edbb8957eb6ec869b9b1f). Ledge authorized retirement October 2, 2026 at 21:36 UTC; card5b6211d7-24a7-4b19-a532-c168ea0205c1 remains done-retired. Do not reopen, recreate or resurface. No public docs article or active inbound recommendation existed; candidate public route404. No guest-prep rewrite or substitute authorized. Historical inventories are not current recommendations.
+
+## Ad Metadata Brand Safety
+
+`ad-metadata-brand-safety.md` is byte-for-byte historical evidence only (SHA-256 e940daf1ede276349fcc7baac700b891dcd29232242416efaf695dd75415fc5b). Owner retired it October 2, 2026 at 21:46 UTC; card b2058cc8-b37c-4137-8c90-88fb30a1def6 remains done-retired, not published. Do not reopen, recreate, substitute or merge. Historic uppercase Preserve path was previously consolidated into the lowercase source; no second active variant exists. No public page existed (candidate route404). Removed only the stale related-draft recommendation from AMP source/docs; no AMP prose or score changes.

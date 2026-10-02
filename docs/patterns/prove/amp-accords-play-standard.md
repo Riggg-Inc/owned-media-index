@@ -47,6 +47,5 @@ The public landing page does not substantiate all detailed metric definitions. T
 
 ## Related Patterns
 
-- `preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md`
 - `publish/syndication/spotify-native-upload-bypasses-rss.md`
 - `preserve/podcasting2-transcript-namespace.md` — NOT YET WRITTEN (Workboard card f2ca608a, in todo)
