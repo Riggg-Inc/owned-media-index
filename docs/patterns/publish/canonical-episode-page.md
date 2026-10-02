@@ -7,7 +7,7 @@ description: "The owned website page that acts as the canonical home for an epis
 The owned website page that acts as the canonical home for an episode, webinar, livestream replay, or virtual event session. Build it to answer questions without requiring playback; a player embed and duplicated RSS blurb are not enough.
 
 **Stage:** Publish  
-**Score:** 5  
+**Score:** 3  
 **Evidence:** practitioner observation
 
 ## What It Is

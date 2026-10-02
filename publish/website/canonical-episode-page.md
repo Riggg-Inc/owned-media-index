@@ -47,7 +47,7 @@ Do not create thin episode pages that only embed a player and duplicate an RSS b
 
 ## Riggg Score
 
-5
+3
 
 ## Evidence
 
