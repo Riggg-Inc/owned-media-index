@@ -4,6 +4,12 @@ description: "A LinkedIn carousel breaks an episode’s ideas into an ordered, s
 
 # Linkedin Carousel
 
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://www.youtube.com/embed/Icru4iGL0-U" title="Turn an Episode into a LinkedIn Carousel Without Losing Context" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=Icru4iGL0-U)
+
 A LinkedIn carousel breaks an episode’s ideas into an ordered, slide-by-slide explanation. Choose it for several connected steps; use a single insight post when one point is enough.
 
 **Stage:** Package → Social Posts → Thread Breakdown  

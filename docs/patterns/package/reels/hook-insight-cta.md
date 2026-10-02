@@ -4,6 +4,12 @@ description: "A reel that opens with a visual or verbal hook, delivers one tacti
 
 # Hook Insight Cta
 
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://www.youtube.com/embed/1UBlNVxGbN0" title="A Simple Reel Structure: Hook, One Insight, One Next Step" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=1UBlNVxGbN0)
+
 A reel that opens with a visual or verbal hook, delivers one tactical insight, and closes with a clear CTA. Use it for one self-contained takeaway and one next action, not an insight requiring a lengthy setup.
 
 **Stage:** Package → Reels  

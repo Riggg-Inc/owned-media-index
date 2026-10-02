@@ -4,6 +4,12 @@ description: "The How-To Outcome title pattern for podcasts. Format: How [Audien
 
 # How-To Outcome
 
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://www.youtube.com/embed/etye3vjIH3c" title="Write Podcast Titles That Make a Promise You Can Keep" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=etye3vjIH3c)
+
 A title style that promises a specific outcome for a specific audience while removing a common objection or pain point. Choose it for a concrete, prescriptive outcome; do not force a “without” promise onto an exploratory conversation.
 
 **Stage:** Package → Titles  

@@ -4,6 +4,12 @@ description: "The most concise description pattern."
 
 # Thesis-Takeaways-CTA
 
+<div style="position: relative; width: 100%; aspect-ratio: 16 / 9;">
+  <iframe src="https://www.youtube.com/embed/DQqtE6TSoqE" title="Write a Clear Podcast Description in Three Parts" style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Watch on YouTube](https://www.youtube.com/watch?v=DQqtE6TSoqE)
+
 The most concise description pattern. Use it when a clear thesis and three distinct takeaways carry the description; choose a story arc for narrative-heavy episodes.
 
 **Stage:** Package → Descriptions  
