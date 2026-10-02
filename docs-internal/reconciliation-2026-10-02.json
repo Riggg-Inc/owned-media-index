@@ -1,0 +1,4435 @@
+{
+  "snapshot": "2026-10-02",
+  "base": "177f1107feb4267e85f5b0c832e142af9f300b62",
+  "board_count": 112,
+  "articles": [
+    {
+      "path": "docs/contribute.md",
+      "sha256": "66f153ab951072605eff61cb75366834daa616b2d938cdb007ce62f94f0b9b9b",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/contribute/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/evidence.md",
+      "sha256": "52a45b4f28f6b479f749062e68b53cfd92bf4a93c76d04e720df94d80dda061f",
+      "representations": [],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14"
+      ],
+      "route": "https://index.riggg.com/evidence/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/framework.md",
+      "sha256": "99c4cbe508a0f4fbb6c95aab0159dc6d4d13be86a4890a14ffe6e32064e887a3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/framework/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/index.md",
+      "sha256": "64192fe99e302f1ad8d81cbdfc489705d133f929de5bd1b1c7ae82778ada4d01",
+      "representations": [
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com//",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/owned-media.md",
+      "sha256": "9a5053fb597beb38cf0709ab2c501a03e12f147cd05f91276b58e0a407034a0e",
+      "representations": [],
+      "card_ids": [
+        "a738ed63-5456-43b7-b630-a8530b4bb864",
+        "ee0b70eb-561f-4d6a-95b5-162cb0efb2d6",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+        "9b2870ae-90a6-4fc7-a87a-26ff91f73233",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/owned-media/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/index.md",
+      "sha256": "08086f014cdbb1dd9a3f9806b2a11adae52effe9c92434e19ea539b735e688dc",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/data-drop.md",
+      "sha256": "dc04a812b8d268824c8f20c23b1c4ff432867ea087d10aee883dc973f9f15cb3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/clips/data-drop/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/debate-moment.md",
+      "sha256": "42a275a6ceb7a79358c15b7c630f7c5a53c7a89d96dcdc270adb982c087ac337",
+      "representations": [],
+      "card_ids": [
+        "65612f15-a1cd-4dfb-9ec5-d640751a125c"
+      ],
+      "route": "https://index.riggg.com/patterns/package/clips/debate-moment/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/golden-nugget.md",
+      "sha256": "0d606cafae904aaf4225bd5153bda1591340b494186ef153b177f1817305b99f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/clips/golden-nugget/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/hot-take.md",
+      "sha256": "5e16a789cc2c9adf2f8b2aa30698edc77ff5043f790687b92f1b2c404b9d9ac0",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/clips/hot-take/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/index.md",
+      "sha256": "20c3ba50f25f881d9c0bf042ae8baa9addf24e277e27e8660a28f91fdd35991f",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/clips/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/clips/story-beat.md",
+      "sha256": "6b000c486767aa3649cda582c3d9dc7ddad78e97671438f4d2958f561e9f35ce",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/clips/story-beat/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/audience-pain-breakdown.md",
+      "sha256": "8fcfa14e99705e21f127f21fa5ba481918e88d804cf3041845659ab3582022db",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/audience-pain-breakdown/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/big-question-summary.md",
+      "sha256": "deffc779ad34c0e579039f21988e4b110140dd3376fb9fb88c582b6e67ad17b7",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/big-question-summary/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/credential-context-learn.md",
+      "sha256": "9eaa5542182f0349db6a84a6e98be0b10f12bd0735cbea8c4872c874ef46af2f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/credential-context-learn/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/guest-story-arc.md",
+      "sha256": "1d3d65c81292b64e490c29527faf43d0621d5104a9ec5f103fff867e3a80c459",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/guest-story-arc/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/index.md",
+      "sha256": "20bfada47451e07038571daaa33e3e3cd1ea5b9ddf40d98272677b290ecb827e",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/descriptions/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/problem-credibility-takeaway.md",
+      "sha256": "c9e51e8084bbea11b1e9892c71a32a43a2e79e9d998c7079f1d2b73674d9004d",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/problem-credibility-takeaway/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/descriptions/thesis-takeaways-cta.md",
+      "sha256": "c585065eeef60d1f896e2d68ebf7ac29d78d6d8b2409c6de11b1a8db79dd85c3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/descriptions/thesis-takeaways-cta/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/index.md",
+      "sha256": "3cf0e1898b9e1abe5594f64a923a817ab3992c0c67888bb9160f286004f8aa97",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/audiogram-card.md",
+      "sha256": "44315eb36955609fdcab86dd6ff445e327c4cd945284884e76908b0c3311fde8",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/audiogram-card/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/branded-pull-quote.md",
+      "sha256": "7f4b406d40d9aa981021448917a06706c22457a7a0914b5c9baf9579f22b3579",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/branded-pull-quote/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/conversation-exchange.md",
+      "sha256": "fbee5443773277ff92191582ce35de70b23fbbb299c920313f2bc4bb01a724e9",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/conversation-exchange/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/index.md",
+      "sha256": "e1eba7764f2e0ac7c5b61d38a5fc8273f5b2f8f98164ad008fa80d4dad1c7029",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/speaker-quote.md",
+      "sha256": "75f0ffd2b7fc9a5dbaf5a5d2dc505f55f6889bca9ec5e2e7008fdb919246fd1c",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/speaker-quote/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/quote-graphics/stat-callout.md",
+      "sha256": "956bcebcd3fe2daeda5cc7408d7d3ed8ffd212e90b4938a36414d06a96368279",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/quote-graphics/stat-callout/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/before-after-reveal.md",
+      "sha256": "2749154307e7d2eb2253cb7d8ae635077361204832602a7a21df79f8a635d7db",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/reels/before-after-reveal/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/hook-insight-cta.md",
+      "sha256": "2f5b9da8ed476eb135038550176fa1dc448fc1543386a6eeb66b88221463f945",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/reels/hook-insight-cta/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/index.md",
+      "sha256": "2bc231a7a6cca17e2923edc4b5672203efeb8377f5badd3a19d3b82b216e6572",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/reels/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/quote-card-motion.md",
+      "sha256": "91a8bdd7b286146ca9135f9da2eafef3ebaeff39f366ae29811c0964cf02abe4",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/reels/quote-card-motion/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/rapid-fire.md",
+      "sha256": "59fd8013f0ec7f23c56a879d244678d749f88ffd8961f5833f43bf9bf6c4cc62",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/reels/rapid-fire/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/reels/teaser-trailer.md",
+      "sha256": "5aa8d5ade9c42db884dee9cc641efda018e5c8bbfe67e07c1f7e3431635c6473",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/reels/teaser-trailer/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/index.md",
+      "sha256": "ed8d0e9fdb6b5663ec6ac44529060bfa73268520ad40c14398d9778a8507b500",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+      "sha256": "d8d8fdbe326938ac7077271768884086b28c0b35536d6319631407a724ceb582",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md",
+      "sha256": "9ee824c5ea607df1682d665ee2c91d8efb8fda758dc8d813b99579fa356d217a",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md",
+      "sha256": "c8b20c0251480cec176bd37e705c7695532335fc28d47866cacc4e0d3e2c54f3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/clip-companion/index.md",
+      "sha256": "8e1da0fac9ce81869bcffe2f0a7de99c10be7014e464c21782466ee97ee17d11",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/clip-companion/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md",
+      "sha256": "87971b13d7d76d988ceef06ad5a84e08a70d34ca68569f1362a019d062b70e9e",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/clip-companion/instagram-reel-caption/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md",
+      "sha256": "ad298778ef2c6f777173ed50fe78a340b91cd42d52fe219c45e04be5ae5dfda3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/clip-companion/linkedin-video-post/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+      "sha256": "3d47869d4276e88dbbcd9d7a19cfe7a3912ab1893f82a5e0eafc43dd601105f2",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md",
+      "sha256": "87e458a801706f1ac3a81dd531a00dafd9aafb702e6f1da0569e98b469a7707c",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/instagram-caption/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+      "sha256": "8588ea057a01b3af795729581c18cd9bf6ae5fa7cb74e016331ba17c1093fc84",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/linkedin-long-form/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md",
+      "sha256": "3b554823b91f6372641d46db7f46be39fa5ada1817525dd5cd2ba00456cd2336",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/twitter-punchy/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+      "sha256": "1c85822649fff78557943d949a931c2904fd5ab06d5be6dc621b91b402a30d87",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md",
+      "sha256": "737aba3cb217da41339ab2ce046d4e6c7df99d40bd142017e181d70406758ab1",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md",
+      "sha256": "969038acfd0de9b9612fcedc3d10b97b4c3ee5c7bb0474aaa8cdad4894ddfcef",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/guest-tag/index.md",
+      "sha256": "609a810375809002be00c9cfcd077f0f57d27af9e445f582aec3eebd74f0a4b6",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md",
+      "sha256": "097275ff8c8c8aad078df13653d7f6e7d6f50a7f98d019a0ee39b00068bb1f95",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/linkedin-gratitude/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md",
+      "sha256": "1e3dd2d7ae01241dbd174d7b04f29d94ff02a097976dfb1892f3fdd08fff88de",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/twitter-shoutout/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+      "sha256": "bbc692aa5529cd86928a98f1e632e5f57f40216b12b5c1d2ed313ac96bbfedc4",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/key-takeaway/linkedin-insight.md",
+      "sha256": "c93ab64bdbc14af23fae870f8e05748460b2ed5207f9329afdd7de3bfeef5c0a",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/linkedin-insight/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md",
+      "sha256": "b5fcb26523425cabc3e85cb55735483ad6727639a851f9a8fe2f7813becddc64",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/twitter-one-liner/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/quote-share/index.md",
+      "sha256": "51788433234dd16c1d4fc82cbda67e1004e2525ef54d2549c9361179e8a57dd9",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/quote-share/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/quote-share/linkedin-quote-post.md",
+      "sha256": "c231c56374e10ae895c88cb52d3077d924a4cfc9148a0e6ea43ce98f2d07d79f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/quote-share/linkedin-quote-post/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md",
+      "sha256": "e9411522e294f6fe422fde2ce43ad93839fd98a1aa143c7e82c71fd6c6455318",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/quote-share/twitter-quote-card/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+      "sha256": "6514bd91e6db64f0997eb5027ceaba6084431ceb1bc839b4f54ccd77247aec96",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md",
+      "sha256": "b15019300c1660fd6861f3ac3846895133f31d8410bac8fe3d2f35a9cc83abf7",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md",
+      "sha256": "07aa7706dba49469a79cc747ff742bd5b86009f6052bd6c460bd96488526ff2f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/twitter-thread/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/branded-template.md",
+      "sha256": "71671f14d589cdc76f1ee332fb7717ff6ce25799b3cc48403bcc11cdcbe7580c",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/branded-template/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/data-visual.md",
+      "sha256": "f8fbc865a5e1a6e4ab406071ed0759381462fd12d640937ebcc0fd571c1644c0",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/data-visual/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/emotion-close-up.md",
+      "sha256": "83f6f4ad0a2d562a0a8c4c26a4343c6b6dcd42bac3fc1014abd4a66e3179bd1a",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/emotion-close-up/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/guest-headshot-text.md",
+      "sha256": "f7b541b2136da377ca6eb69196c065eb1acb0248ea1b97a15a5405a5c0ce0110",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/guest-headshot-text/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/index.md",
+      "sha256": "92089235824506083a71d4c0f425e44bad0de267a7eb1c6195f2aee500351a13",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/scene-still.md",
+      "sha256": "50854cc71645aa691bd3886a378865d43b14c82a5e7856444e73419c6d2c5fcd",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/thumbnails/scene-still/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/authority-claim.md",
+      "sha256": "acfef08dad5b5d86e4e0b8317c7f110bc50f9ddcb2be584917186b0860fa99f6",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/authority-claim/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/before-after-playbook.md",
+      "sha256": "c8455956aea75f47f2940c2efcc82b617e9f1212c3c749ecdf5c93f8c992c137",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/before-after-playbook/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/big-question.md",
+      "sha256": "92485d62550aa84443b5e9aaaf37188e1f8a28855cee375fd814f3535839b5a9",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/big-question/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/contrarian-hook.md",
+      "sha256": "e22f3ac6f39546a3b0f33c3f5ed882d17192d290ea92160ccc951c9bf2f3ed47",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/contrarian-hook/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/future-of.md",
+      "sha256": "be65c8d554dc057dbb0b99f8458f879a31a48b9e463a69c95428f8ae06f62d09",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/future-of/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/guest-authority.md",
+      "sha256": "57f5200e57b5bd915f88657c14bec45cef57a82efb381cb58c1a22f1ef367858",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/guest-authority/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/hidden-cost.md",
+      "sha256": "3c77533507cff9678ca7e3c42ab87f53dc03c24eb965be55b2fe55f4aa9df0e0",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/hidden-cost/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/how-to-outcome.md",
+      "sha256": "82f2aeb1549940f648b25d913e80f755572d679d2d30f02201162ad34ab79a95",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/how-to-outcome/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/index.md",
+      "sha256": "98de49c37731d3f4b723353e5128f53987b913077ce5f184975e16b53682914b",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/package/titles/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/inside-look.md",
+      "sha256": "4052fa74a9a59271fb25218188db6569dd443028b28b116e6c762967be0f3d71",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/inside-look/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/numbered-insight.md",
+      "sha256": "c66e7a0d8b70e545b205bc5e00435bd1a91f8526bd162e0d04c0f0e703d2f344",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/numbered-insight/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/package/titles/role-guide.md",
+      "sha256": "ebbfa30936d046c0662822778caadc6f587b9f94430d3e7d90987b7b447cbad5",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/package/titles/role-guide/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/preserve/content-memory-standard.md",
+      "sha256": "f4bf19f6a8f86932b09808fdc39cf2d1732037c9a64bcfa4444096d19c55b4c0",
+      "representations": [
+        "preserve/vector-memory/content-memory-standard.md"
+      ],
+      "card_ids": [
+        "e9d32c67-6936-4c06-a2df-4141f1509a35",
+        "b348d523-b4a3-4b75-88fa-12340767eca9"
+      ],
+      "route": "https://index.riggg.com/patterns/preserve/content-memory-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/preserve/geo-aeo-citation-volatility.md",
+      "sha256": "800017f0bab2fb84ba16642f9d81e7de1161c298d646c7545cc4f8b180a85761",
+      "representations": [
+        "preserve/ai-optimization/geo-aeo-citation-volatility.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a5b59382-f752-43eb-849d-c5da3d2dc480"
+      ],
+      "route": "https://index.riggg.com/patterns/preserve/geo-aeo-citation-volatility/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/preserve/index.md",
+      "sha256": "1fc3c0dfe12e3083eea64fa8d637f8530593c013347fcf37bfb1cba389e0fb7e",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/preserve/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/index.md",
+      "sha256": "a59e9efaf3b9170badb544d4e7177f2bf5aa8f894f2f3ebebcc73dbd7a80f851",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/master/audio-mastering.md",
+      "sha256": "b8e8d33fd6223b4b119668d3e26c77aec28ff26982a2a47c181535ece0d91f46",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/master/audio-mastering/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/master/export-specs.md",
+      "sha256": "c96000b577925236ecb160313373c94b651bd5a0ccdc02aa528393bb587fa2bc",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/master/export-specs/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/master/index.md",
+      "sha256": "050e26450479629b326de94313542b740ec3c60cdf014b27218d42894b3aa9c4",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/master/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/master/video-mastering.md",
+      "sha256": "21311f7e8dee4c5ca3893357c0189d70c3fceaa59462e9b2d7ac5b6d3c9cd0d5",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/master/video-mastering/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/obs-production-standard.md",
+      "sha256": "ee89bcd30a6732dec30de04bbabfaa8cc53a20b7156081a6da2253ba6a84daff",
+      "representations": [
+        "produce/real-time-production/obs-production-standard.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a3583638-d318-4759-bd59-4a1e41be078b"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/obs-production-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/obs-scene-collection-template.md",
+      "sha256": "bad2c7f1c674fd9f00416ed154e8db2d0dec3066317b1038f6bd4af05c5aac29",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/obs-scene-collection-template/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/google-meet.md",
+      "sha256": "03c5ba19deb1fcfd591a27d6e6b8613c708827b5b7fa2ebd5151c117e6e2f55f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/google-meet/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/hybrid-recording.md",
+      "sha256": "0ca4fd0443c6b910c7aa0f7a99340b087a27f72e180ad6ebca36a27fb1eb469d",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/hybrid-recording/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/in-studio-multi-camera.md",
+      "sha256": "a18873d0ad4c51b341b1c7b5ba3eb5f1d27189a7d2de1c36fc2d035e140277c0",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/in-studio-multi-camera/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/index.md",
+      "sha256": "fd07419e8807a2ed4473b2200c6ff683b34ff4b3000c4eb3aaa4c211e39e88e6",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/record/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/remote-isolated.md",
+      "sha256": "294aec989c329294769f1edfb257a88e71cc5ed6eb285f1d7b2ab4aaec55d422",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/remote-isolated/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/streamyard.md",
+      "sha256": "2e3217e9490da5cef9a05aae8f5517f5db55aa43ccd0de234032a02e7e14b97f",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/streamyard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/zoom-cloud.md",
+      "sha256": "736f14a752807e17f538b062c5d30aba9e8315627ccca6696757b31eaaeeee76",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/zoom-cloud/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/record/zoom-local.md",
+      "sha256": "987434c2286a327b9df7ea6b4755a1f2446ed5cc85e8ac96643dd3ba58e36d33",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/produce/record/zoom-local/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+      "sha256": "9a450e24a3e5e54e86925b88d779acb4586316013199df0d4e838ad8a08a90a2",
+      "representations": [
+        "produce/recording/hls-video-podcast-distribution.md"
+      ],
+      "card_ids": [
+        "71d51a9c-48cf-4dc4-824f-fb5073778226",
+        "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/recording/hls-video-podcast-distribution/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/produce/rough-cut/index.md",
+      "sha256": "94708c273d3722034524bffc94a024b742586f7b0b763d72380e1d79f8337ae6",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/produce/rough-cut/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/prove/amp-accords-play-standard.md",
+      "sha256": "9d600bc4b93378f107698372e3cbe3efe7bbca9d22bc95bdfe2ae7507cec9546",
+      "representations": [
+        "prove/measurement/amp-accords-play-standard.md"
+      ],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510"
+      ],
+      "route": "https://index.riggg.com/patterns/prove/amp-accords-play-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/prove/index.md",
+      "sha256": "c1d21ffbcf3ee67f620936bba6d9873a218a1c837730a622720010becb974c01",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/prove/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/prove/session-performance-scorecard.md",
+      "sha256": "f58eb49ae7716bc685af7f60bb5935057817a84b6d8e1cb53c47aaa8652a690a",
+      "representations": [
+        "prove/scorecards/session-performance-scorecard.md"
+      ],
+      "card_ids": [
+        "a2de1e00-881c-4c25-93d8-f9a883d0bb9d"
+      ],
+      "route": "https://index.riggg.com/patterns/prove/session-performance-scorecard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/prove/video-threshold-economics.md",
+      "sha256": "0d38edd0c8bd5e31a2b8462cda2ef235af7ef4c317d37e4b76780e90d62efbb1",
+      "representations": [
+        "prove/benchmarks/video-threshold-economics.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb"
+      ],
+      "route": "https://index.riggg.com/patterns/prove/video-threshold-economics/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/citation-architecture.md",
+      "sha256": "8f8da388a062d377c2abbb92900f2ee4767fd2bc87bfc33f02ed1c918bd41bc3",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/citation-architecture/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/index.md",
+      "sha256": "3f583d258512f7e14b62a46eb0d177cafafabd15be46056969e5f57af83a6414",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/measurement.md",
+      "sha256": "5377d4898f5f2b4a1f903216717d1ef9a3a5e168c7a3a49284c9c627e96ab477",
+      "representations": [],
+      "card_ids": [
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/measurement/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/platform-visibility.md",
+      "sha256": "28f94491e1c5caca0c24203595280cfd20203cca7eb1804dd517a0a642d6d1df",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/platform-visibility/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/show-notes-for-llms.md",
+      "sha256": "149439e70b45ee9e880faa94367e624e3870cba769327ef7d70f0af76003f8bb",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/show-notes-for-llms/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/structured-data.md",
+      "sha256": "5cd1109f3e4f6e1dbd5da8e335da00e17d7d4bb19a5526b21554621b3ea12594",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/structured-data/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/transcript-optimization.md",
+      "sha256": "f328fc59c2df7e752cf899e10e7b10786659a17a970cdf68085d70efff00fcb0",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/ai-search-optimization/transcript-optimization/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/canonical-episode-page.md",
+      "sha256": "314b6a3a73f1a0abe344693c070a5f5bae97bd407a6facaf715598e8bccf0db3",
+      "representations": [
+        "publish/website/canonical-episode-page.md"
+      ],
+      "card_ids": [
+        "1ce07a26-02a4-4b24-95b7-365eb86da824"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/canonical-episode-page/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/feed-metadata-standard.md",
+      "sha256": "4ac1c5f4c17eb893f14df35b088d987b230ac0c6a2475b7a31cb15ff7074a304",
+      "representations": [
+        "publish/rss/feed-metadata-standard.md"
+      ],
+      "card_ids": [
+        "077bbe14-0473-4fab-88b0-12142e0725d5"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/feed-metadata-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/index.md",
+      "sha256": "d4b9f21217a526c8a536fac7252d80d32648518a229bc1336d31a35354a7d020",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/linkedin-release-post-patterns.md",
+      "sha256": "04b296f0939b413a1e0cb0ec28c17956fbe9011e2c1734f562f4678f88969659",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/linkedin-release-post-patterns/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/simulcast-standard.md",
+      "sha256": "ccf2fb114d651faf7948c00626d541a1d9e4b60165b13750aedc8475bbb254a6",
+      "representations": [
+        "publish/live-premieres/simulcast-standard.md"
+      ],
+      "card_ids": [
+        "c2c0b87f-1a9b-4435-a890-5057f5aed04d"
+      ],
+      "route": "https://index.riggg.com/patterns/publish/simulcast-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/patterns/publish/youtube-title-and-description-standard.md",
+      "sha256": "7f516a74c140de358ef88f2b1d321c4882df9ca1c9144d20a374aab5d42fb619",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/patterns/publish/youtube-title-and-description-standard/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/clips.md",
+      "sha256": "128dc1dd29822c6a8835252ac23693da3adfebd7779e3455609c836ce45a4e0f",
+      "representations": [],
+      "card_ids": [
+        "a3b5fbbb-677c-4593-be0b-df6a24867bb4"
+      ],
+      "route": "https://index.riggg.com/quadrants/clips/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/descriptions.md",
+      "sha256": "6063c1a328829a1c070c1b1d8254fbe2fa5828c67a7c3aafb6d5cfa98b9705fb",
+      "representations": [],
+      "card_ids": [
+        "3d000fc7-b5bf-4608-baac-87a5eced9b08"
+      ],
+      "route": "https://index.riggg.com/quadrants/descriptions/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/distribution-platforms.md",
+      "sha256": "39868a00640437493ea2fcf23889bfe5beffae2b6a6d33671dee93f13fb6b920",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/quadrants/distribution-platforms/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/index.md",
+      "sha256": "0e91f5d46a09544569414c85310af97b9f4eb3a0720bc8e61ecd9b698e9dc558",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/tools/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/quadrants/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/mastering-tools.md",
+      "sha256": "e125bbd511afe26a87fcd0c4b630f2fc07d1e760247caabfbb67cd6b65d4e04d",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/quadrants/mastering-tools/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/recording.md",
+      "sha256": "1b5c04c1f128ebb8be31dcd5a8e0c4580ec8ba9b3902d39dc035e714a137ed90",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/quadrants/recording/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/quadrants/titles.md",
+      "sha256": "857775f2d7ff63f05786dcf404832b3447b50ecfe2a3f620f2b89ff80144ad21",
+      "representations": [],
+      "card_ids": [
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "f591245c-c4c9-49b1-9116-b17f65dbfcf5",
+        "3fbf27b1-47d1-4048-a20c-76cd0a0f4f2c"
+      ],
+      "route": "https://index.riggg.com/quadrants/titles/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "sha256": "0087c51a7ca1f20f89f80488780f8ec536f6e7e8bee9058ff0669af7d3f2659b",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/roadmap/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/scoring.md",
+      "sha256": "2be856c32a3d8d947b3b7211ed068e0092acf5ae2954059ad13f9dba272b793d",
+      "representations": [],
+      "card_ids": [],
+      "route": "https://index.riggg.com/scoring/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/tools/hosting/video-podcast-hosting-support.md",
+      "sha256": "6a04b61bf6baf15de5b9cd53b9231f2b566df47e26e21a8b3caac276d2bd1688",
+      "representations": [
+        "tools/hosting/video-podcast-hosting-support.md"
+      ],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14"
+      ],
+      "route": "https://index.riggg.com/tools/hosting/video-podcast-hosting-support/",
+      "classification": "publication"
+    },
+    {
+      "path": "docs/tools/index.md",
+      "sha256": "17d916265d2efadeb995da4065d79a0eff1b0d43d3a6e201f769552fd7748bcb",
+      "representations": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md"
+      ],
+      "card_ids": [
+        "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3635d39b-b9b1-436b-b841-19194c56111c",
+        "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+        "a8fbf4d4-8661-40ef-bb53-4fe36924d34d"
+      ],
+      "route": "https://index.riggg.com/tools/",
+      "classification": "publication"
+    },
+    {
+      "path": "package/README.md",
+      "sha256": "468b67ef7175717b774a53873edfd08e3edc2ff6d882f4b52163fa0ec512865c",
+      "representations": [
+        "README.md",
+        "preserve/README.md",
+        "produce/README.md",
+        "prove/README.md",
+        "publish/README.md",
+        "tools/README.md"
+      ],
+      "card_ids": [],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "package/clips/clip-selection-patterns.md",
+      "sha256": "b9cbbdb1eb508647f21f7b0f58c9c34be3c2ac3df57bc31a338f90f70f64cdc6",
+      "representations": [],
+      "card_ids": [
+        "a3b5fbbb-677c-4593-be0b-df6a24867bb4"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "package/descriptions/rss-feed-description-patterns.md",
+      "sha256": "456771d0487b0a8716b73660502636d46301845083682789bd4417df300a1efb",
+      "representations": [],
+      "card_ids": [
+        "3d000fc7-b5bf-4608-baac-87a5eced9b08"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "package/reels/vertical-reel-package-standard.md",
+      "sha256": "71c019165325ed8a6442c3530d82583fea40bf69c92dc7e02ab22beb4c019276",
+      "representations": [],
+      "card_ids": [
+        "4d27f22c-6d5a-429b-b110-43c63107b336"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "package/thumbnails/thumbnail-hook-patterns.md",
+      "sha256": "ed7d4916fd0bd54f86ef8cf520784879afd04be931b8a76d47725e6af30f8f73",
+      "representations": [],
+      "card_ids": [
+        "658aa8e2-9a03-451d-9ad8-621b6ec87878"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "package/titles/top-performing-title-styles.md",
+      "sha256": "f60e063276fed156779b44b0cb3beebc6bae27826c20c68745300580b70c769f",
+      "representations": [],
+      "card_ids": [
+        "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "3fbf27b1-47d1-4048-a20c-76cd0a0f4f2c"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/README.md",
+      "sha256": "537dc87a89968f615315474b0483c748a930fd1532429dab90621934c672af9d",
+      "representations": [
+        "README.md",
+        "package/README.md",
+        "produce/README.md",
+        "prove/README.md",
+        "publish/README.md",
+        "tools/README.md"
+      ],
+      "card_ids": [],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+      "sha256": "e940daf1ede276349fcc7baac700b891dcd29232242416efaf695dd75415fc5b",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "b2058cc8-b37c-4137-8c90-88fb30a1def6"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/ai-optimization/geo-aeo-citation-volatility.md",
+      "sha256": "0db92a362b07040eeb74739cf2aec4d14f14b6c26993f111635615c6f5d4165a",
+      "representations": [
+        "docs/patterns/preserve/geo-aeo-citation-volatility.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a5b59382-f752-43eb-849d-c5da3d2dc480"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/platform-strategy/owned-website-as-format-hub.md",
+      "sha256": "3d28a7b0adffb8c9af2580509160cb843daabf4814f11f0368f686514a9ac147",
+      "representations": [],
+      "card_ids": [
+        "37de873c-f51e-45a1-98f3-b485b5566ced",
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "4df042ae-7b97-4270-a2aa-c6c99f3ba8da"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/provenance/ai-disclosure-provenance-owned-asset.md",
+      "sha256": "171dffb59269fb04174d9257290ab5e01060bd538c3babca778167ac598e831f",
+      "representations": [],
+      "card_ids": [
+        "322075f9-810d-416d-bc89-0acce751e698"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/trust-and-safety/cross-format-fact-check-artifacts.md",
+      "sha256": "067a2f3ea096d3edf66ca941b1e3ccbc6a818b11197fd11047676b136a2e536f",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "21158d85-0209-48a9-a4d3-7b429a396593"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "preserve/vector-memory/content-memory-standard.md",
+      "sha256": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
+      "representations": [
+        "docs/patterns/preserve/content-memory-standard.md"
+      ],
+      "card_ids": [
+        "e9d32c67-6936-4c06-a2df-4141f1509a35",
+        "b348d523-b4a3-4b75-88fa-12340767eca9"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/README.md",
+      "sha256": "60220c1c319c386102af78d30fecab2531b1ef6bb05145278425ebca4be169b3",
+      "representations": [
+        "README.md",
+        "package/README.md",
+        "preserve/README.md",
+        "prove/README.md",
+        "publish/README.md",
+        "tools/README.md"
+      ],
+      "card_ids": [],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/audience-prep-networking.md",
+      "sha256": "73575ba1db4df50f768bdfed3acf25698a4a0733545edbb8957eb6ec869b9b1f",
+      "representations": [],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "5b6211d7-24a7-4b19-a532-c168ea0205c1"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/gamified-branded-segments.md",
+      "sha256": "4b04074a31e47876391397a31ea00e44495845489ae3ada22a5de3f9c9853796",
+      "representations": [],
+      "card_ids": [
+        "e9b9d640-f270-4647-80ae-37e3780901a1",
+        "44eb17f9-954c-45ad-94a5-b1b9514cb435"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/immersive-learning-exercises.md",
+      "sha256": "f9d4727a6a99b1e17a97129ac1e980347c2b8f1d8e37252bcaf5c74a9160c80d",
+      "representations": [],
+      "card_ids": [
+        "e629fddf-1e08-4225-b928-4612f9186377"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/low-stakes-warmup-framing.md",
+      "sha256": "5dda397c55165707d64f10d09b0958d4a4acc163a7938b70629a9fe529cd6463",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "6f3bb497-e8de-47d6-8dad-82e741f3971e",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/modular-detail-contraction.md",
+      "sha256": "c86c821565137d3f7b7928028e85da63229b8bee4667e4f0da6e36c8dee86864",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77",
+        "2d938399-0abb-4504-b936-cd7f76729e6c"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/standardized-micro-segments.md",
+      "sha256": "ec69ab52bf9da659cfa0ea620514435c59d0a816a988841c82c60f24bef55d33",
+      "representations": [],
+      "card_ids": [
+        "7d58c975-d54b-4f8b-830e-aafc9cc247d0",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77",
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "44eb17f9-954c-45ad-94a5-b1b9514cb435"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "sha256": "9da0f4c5ae2225cbde3ee6161fdc38a3d137169d3c25654fd6828d455e9e977b",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/audience-engagement/two-part-hook-structure.md",
+      "sha256": "27dd1f318b387d70413a85aec7a2d480668b2baec327246aed721ac8d13ebeda",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+        "b514744d-34be-4776-b4cb-8469816920e5",
+        "ce680a2b-55b2-4570-a4f2-82ef7ef15f1d"
+      ],
+      "route": null,
+      "classification": "rejected-quarantined",
+      "archive": "docs-internal/archive/rejected/two-part-hook-structure.md"
+    },
+    {
+      "path": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "sha256": "04990c3a9b8f22f25b5ec511e5fca6bd8961a0f3b2075d9520f1d21aeff1d596",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/content-production/ai-agentic-content-production-guardrail.md",
+      "sha256": "c26737b6d282b9a1784631fea7fd0a84fc8aa9f73e1a1cbef08ddb024f6ddae6",
+      "representations": [],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "9b2870ae-90a6-4fc7-a87a-26ff91f73233"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md",
+      "sha256": "fb44e7d36ac67c0619ba8c2ecb00379b690ee25394b54351ef068b270c8535dd",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "d6e00987-53a9-47b5-af68-be40d9f96365",
+        "e9b9d640-f270-4647-80ae-37e3780901a1",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77",
+        "a5b59382-f752-43eb-849d-c5da3d2dc480"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md",
+      "sha256": "1b4bd1d1d8b52fb38d5c45103a8ed9794f15ab764dc2924e5de154e571c7d3c2",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+        "da380d98-cc0b-44a5-bd5d-199e1981df17",
+        "a3af20c0-b134-431c-acb1-49a2bc2b7983"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/presentation-tactics/new-bliss-closing.md",
+      "sha256": "cdd76003e4c428c361cb86e56092d2e50168ce990e60881e046c1e8990d4457c",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "d52e7baa-16aa-41b2-a8a3-4a4237fe4b13"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/presentation-tactics/soundbite-champion-arming.md",
+      "sha256": "af9ea71ccba3d9d6e363950c0020359353a59ae4efcc55aad73730a35c8e2935",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a8769b21-05b3-4b35-8a87-11bf850a77ad",
+        "99e3ea2b-ea55-4610-b01c-9cd8574eeb71"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "sha256": "dae818ca4577c626970e58c2aacdbb319a7aa9fd47506e6280d0a1f7a02f33db",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+        "da380d98-cc0b-44a5-bd5d-199e1981df17",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/real-time-production/obs-production-standard.md",
+      "sha256": "10341498f0a4d2bcc00bd3f509a951f174a0ca79e82985d8696fdcfab85be488",
+      "representations": [
+        "docs/patterns/produce/obs-production-standard.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "a3583638-d318-4759-bd59-4a1e41be078b"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "produce/recording/hls-video-podcast-distribution.md",
+      "sha256": "19e95f3b8712ee15f687fb5e44c968ffa2dc9e3d7aa1e9b6fef36f9435526c86",
+      "representations": [
+        "docs/patterns/produce/recording/hls-video-podcast-distribution.md"
+      ],
+      "card_ids": [
+        "71d51a9c-48cf-4dc4-824f-fb5073778226",
+        "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "prove/README.md",
+      "sha256": "66907a9f4a8b4918b9674f81ad177f627e425782a8509a1b217749dc5cbaa93e",
+      "representations": [
+        "README.md",
+        "package/README.md",
+        "preserve/README.md",
+        "produce/README.md",
+        "publish/README.md",
+        "tools/README.md"
+      ],
+      "card_ids": [],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "prove/benchmarks/video-threshold-economics.md",
+      "sha256": "8dc4faf75f5df6ebb420cf979cbbd764143fd2517801a7bc06c1f70121e863e5",
+      "representations": [
+        "docs/patterns/prove/video-threshold-economics.md"
+      ],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "prove/measurement/amp-accords-play-standard.md",
+      "sha256": "838036f874da43dca2cf892ae72239c138518c24bd723255c90a3c844ef21631",
+      "representations": [
+        "docs/patterns/prove/amp-accords-play-standard.md"
+      ],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+        "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "prove/scorecards/focused-cohort-tracking.md",
+      "sha256": "79f348f2eda3bff7ef3d0a85e7904c237786ca51dcc32b59e91787b4375acdf5",
+      "representations": [],
+      "card_ids": [
+        "4d17061b-b065-411f-9bb6-300a5cb2b89a"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "prove/scorecards/session-performance-scorecard.md",
+      "sha256": "ededc59f047082f6b532b2d3364002564a9c521622802e25c455824e97bc28f5",
+      "representations": [
+        "docs/patterns/prove/session-performance-scorecard.md"
+      ],
+      "card_ids": [
+        "a2de1e00-881c-4c25-93d8-f9a883d0bb9d"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/README.md",
+      "sha256": "9314706cc0abcda12f6d84dfc873b5637f9ff142a6071cd8335c4eceadb008ee",
+      "representations": [
+        "README.md",
+        "package/README.md",
+        "preserve/README.md",
+        "produce/README.md",
+        "prove/README.md",
+        "tools/README.md"
+      ],
+      "card_ids": [],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/content-funnel/cascading-content-funnel.md",
+      "sha256": "c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "ae4d2629-24bb-4c4b-9198-57ecd0a698fd"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/executive-outreach/time-sequenced-messaging.md",
+      "sha256": "c2c5d9c030b68171174e13162878fbaa10802dc070037685880e4b415959c88e",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "ffa5b777-4ae7-44d5-9e07-17405e37a376",
+        "741767c0-b2ff-4009-be0f-080f493fa96e"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md",
+      "sha256": "78715ccedabbb9b8c74e0b51508c6a33fd80a3ee2fbb274187c1dfa4624d2662",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "bc9cb6fb-51e5-4340-b2fa-83f0d5aadc3f",
+        "618673c5-6e21-4849-89e6-e20ddd2b51d1"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/linkedin/release-post-patterns.md",
+      "sha256": "48d08424b6b308029de81ea3f8c781dd421fd1ff7dc79f688f0157c991b6b51f",
+      "representations": [],
+      "card_ids": [
+        "c934b400-46aa-472a-b07c-f2dea79115fd"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/live-events/live-attendance-gating.md",
+      "sha256": "be8243b158fa56553e566eb68f2beb3b4be9416121c1b8b02a64620530d321ff",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "f140df61-69e3-441c-99ec-1203a34e4fc7",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/live-premieres/simulcast-standard.md",
+      "sha256": "18ddbb74b15b4d46bb5616a2c57ce51d73fa63485c6ae82b24744d97471d4496",
+      "representations": [
+        "docs/patterns/publish/simulcast-standard.md"
+      ],
+      "card_ids": [
+        "c2c0b87f-1a9b-4435-a890-5057f5aed04d"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/multi-day-events/spaced-repetition-reflection.md",
+      "sha256": "ad5b67f9d631532005bd9e8bb483dbbdca88f55f6c86ee5a4f43853cc862e341",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5"
+      ],
+      "route": null,
+      "classification": "rejected-quarantined",
+      "archive": "docs-internal/archive/rejected/spaced-repetition-reflection.md"
+    },
+    {
+      "path": "publish/owned-channels/owned-email-newsletter.md",
+      "sha256": "c300c3e85ee8528cefe71bfb3297a67a42567f22f508eddafca5465800c8028a",
+      "representations": [],
+      "card_ids": [
+        "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "54b74531-2d42-48b7-b1ed-35bb8a364348"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/rss/feed-metadata-standard.md",
+      "sha256": "f75a4cfc4307019f5cb7976eac8d9103b6152bf1c1823746ed9674b6e96606c1",
+      "representations": [
+        "docs/patterns/publish/feed-metadata-standard.md"
+      ],
+      "card_ids": [
+        "077bbe14-0473-4fab-88b0-12142e0725d5"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/syndication/platform-ad-skipping-monetization-resilience.md",
+      "sha256": "d8996d66c37191363f09dfc5476d8e3959fbf573426be754485490a8809ba5ec",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "b4dd232c-cba7-4a1c-88bc-8829fe19b10c"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/syndication/spotify-native-upload-bypasses-rss.md",
+      "sha256": "404aa884297c9348c6c90f837fd3a00cb16180c3f810e39448a4d6b830e52f90",
+      "representations": [],
+      "card_ids": [
+        "84128886-c06a-4814-a60c-f74428987b14",
+        "71d51a9c-48cf-4dc4-824f-fb5073778226"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/syndication/webinar-platform-consolidation-risk.md",
+      "sha256": "9e11e6ed394a4c695954cb1d115c0fdc4cc068d157889c453b99e5f50282f320",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "b348d523-b4a3-4b75-88fa-12340767eca9"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/timezone-distribution/timezone-segmented-delivery.md",
+      "sha256": "3891e5beed5a71054435e3603a24d2ad95100cbb5ddd7369ac073bdaebf70ec2",
+      "representations": [],
+      "card_ids": [
+        "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+        "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+        "a36a1634-2fea-4755-8d91-25bd233f2e77"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/website/canonical-episode-page.md",
+      "sha256": "8011ed3704bcbfd73f07a533b375d86ab7888da8e072576bc72a5398295948aa",
+      "representations": [
+        "docs/patterns/publish/canonical-episode-page.md"
+      ],
+      "card_ids": [
+        "1ce07a26-02a4-4b24-95b7-365eb86da824"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    },
+    {
+      "path": "publish/youtube/title-and-description-standard.md",
+      "sha256": "1912d49d3df3d0e275f7908316ad6263af94d462c01695063264cb935d527194",
+      "representations": [],
+      "card_ids": [
+        "167e034f-61fc-476b-bdf1-4466c1dc751f"
+      ],
+      "route": null,
+      "classification": "source-or-draft"
+    }
+  ],
+  "references": [
+    {
+      "card": "9fa18537-fffe-4799-834f-025e3a951259",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "3072ff6e-b436-4a7a-ac1d-cb84705eb16d",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "Preserve/trust-and-safety/cross-format-fact-check-artifacts.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Preserve/trust-and-safety/cross-format-fact-check-artifacts.md",
+        "preserve/trust-and-safety/cross-format-fact-check-artifacts.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "distribute/syndication/webinar-platform-consolidation-risk.md",
+      "state": "moved-or-history",
+      "matches": [
+        "distribute/syndication/webinar-platform-consolidation-risk.md",
+        "publish/syndication/webinar-platform-consolidation-risk.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+        "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/low-stakes-warmup-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/low-stakes-warmup-framing.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/modular-detail-contraction.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/modular-detail-contraction.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/transparent-preframing-virtual-logistics.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/two-part-hook-structure.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-onboarding/flipped-asynchronous-baseline.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/event-content-repurposing/event-content-repurposing.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/publish/event-content-repurposing/event-content-repurposing.md"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/live-events/live-attendance-gating.md",
+      "state": "current",
+      "matches": [
+        "publish/live-events/live-attendance-gating.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/multi-day-events/spaced-repetition-reflection.md",
+      "state": "current",
+      "matches": [
+        "publish/multi-day-events/spaced-repetition-reflection.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "preserve/ai-optimization/geo-aeo-citation-volatility.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/preserve/geo-aeo-citation-volatility.md",
+        "preserve/ai-optimization/geo-aeo-citation-volatility.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/facilitated-peer-connection.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/audience-engagement/facilitated-peer-connection.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/kinesthetic-audience-reset.md",
+      "state": "moved-or-history",
+      "matches": [
+        "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/audience-engagement/two-part-hook-structure.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/data-driven-targeted-learning/data-driven-targeted-learning.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/data-driven-targeted-learning/data-driven-targeted-learning.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/presentation-tactics/new-bliss-closing.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/new-bliss-closing.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/presentation-tactics/soundbite-champion-arming.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/soundbite-champion-arming.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/strategic-pause-engagement.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "produce/real-time-production/obs-production-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/produce/obs-production-standard.md",
+        "produce/real-time-production/obs-production-standard.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "prove/benchmarks/video-threshold-economics.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/video-threshold-economics.md",
+        "prove/benchmarks/video-threshold-economics.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/content-funnel/cascading-content-funnel.md",
+      "state": "current",
+      "matches": [
+        "publish/content-funnel/cascading-content-funnel.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/executive-outreach/time-sequenced-messaging.md",
+      "state": "current",
+      "matches": [
+        "publish/executive-outreach/time-sequenced-messaging.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/in-app-thought-leadership-in-product-interface.md",
+      "state": "historical-path-misreported",
+      "matches": [
+        "publish/in-app-thought-leadership-retention/embedding-thought-leadership-in-product-interface.md"
+      ],
+      "evidence": "789dd1a tree resolves actual differently named artifact"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/in-app-thought-leadership/in-app-thought-leadership-retention.md",
+      "state": "local-main-only",
+      "matches": [
+        "publish/in-app-thought-leadership/in-app-thought-leadership-retention.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md",
+      "state": "current",
+      "matches": [
+        "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/syndication/platform-ad-skipping-monetization-resilience.md",
+      "state": "current",
+      "matches": [
+        "publish/syndication/platform-ad-skipping-monetization-resilience.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "publish/timezone-distribution/timezone-segmented-delivery.md",
+      "state": "current",
+      "matches": [
+        "publish/timezone-distribution/timezone-segmented-delivery.md"
+      ]
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reference": "schemas/pattern.schema.md",
+      "state": "corrected-historical-reference",
+      "matches": [
+        "schemas/pattern.schema.json"
+      ],
+      "canonical": "schemas/pattern.schema.json"
+    },
+    {
+      "card": "827cfa11-a57b-476f-b0ab-20da5dd5e597",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+      "reference": "docs/index.md",
+      "state": "current",
+      "matches": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ]
+    },
+    {
+      "card": "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "e22cceba-9f32-4c3d-ad41-861475d2ffaf",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "adda9845-ac7e-4d93-bd85-c8bd0d92b8fd",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "caa24cf3-5d59-4292-bd02-235a4d1f5ac9",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "80fd461b-3468-4e46-a829-d6dda210255c",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "d3b9e757-316c-4cd6-9df2-9d48025a02b1",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "d98c5a66-26b8-423b-844e-92252196b839",
+      "reference": "output/reports/omi-human-review-plan-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-human-review-plan-2026-09-08.md"
+    },
+    {
+      "card": "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+      "reference": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/transparent-preframing-virtual-logistics.md"
+      ]
+    },
+    {
+      "card": "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+      "reference": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/transparent-preframing-virtual-logistics.md"
+      ]
+    },
+    {
+      "card": "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+      "reference": "package/titles/top-performing-title-styles.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/package/top-performing-title-styles.md",
+        "package/titles/top-performing-title-styles.md"
+      ]
+    },
+    {
+      "card": "d6e00987-53a9-47b5-af68-be40d9f96365",
+      "reference": "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md"
+      ]
+    },
+    {
+      "card": "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+      "reference": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-onboarding/flipped-asynchronous-baseline.md"
+      ]
+    },
+    {
+      "card": "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+      "reference": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-onboarding/flipped-asynchronous-baseline.md"
+      ]
+    },
+    {
+      "card": "6f3bb497-e8de-47d6-8dad-82e741f3971e",
+      "reference": "produce/audience-engagement/low-stakes-warmup-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/low-stakes-warmup-framing.md"
+      ]
+    },
+    {
+      "card": "a8769b21-05b3-4b35-8a87-11bf850a77ad",
+      "reference": "produce/presentation-tactics/soundbite-champion-arming.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/soundbite-champion-arming.md"
+      ]
+    },
+    {
+      "card": "f140df61-69e3-441c-99ec-1203a34e4fc7",
+      "reference": "publish/live-events/live-attendance-gating.md",
+      "state": "current",
+      "matches": [
+        "publish/live-events/live-attendance-gating.md"
+      ]
+    },
+    {
+      "card": "f140df61-69e3-441c-99ec-1203a34e4fc7",
+      "reference": "publish/live-events/live-attendance-gating.md",
+      "state": "current",
+      "matches": [
+        "publish/live-events/live-attendance-gating.md"
+      ]
+    },
+    {
+      "card": "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+      "reference": "produce/audience-engagement/kinesthetic-audience-reset.md",
+      "state": "moved-or-history",
+      "matches": [
+        "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md"
+      ]
+    },
+    {
+      "card": "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+      "reference": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/strategic-pause-engagement.md"
+      ]
+    },
+    {
+      "card": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+      "reference": "publish/email/owned-email-newsletter.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Distribute/direct-engagement/owned-email-newsletter.md",
+        "publish/owned-channels/owned-email-newsletter.md"
+      ]
+    },
+    {
+      "card": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+      "reference": "publish/owned-channels/owned-email-newsletter.md",
+      "state": "current",
+      "matches": [
+        "Distribute/direct-engagement/owned-email-newsletter.md",
+        "publish/owned-channels/owned-email-newsletter.md"
+      ]
+    },
+    {
+      "card": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+      "reference": "publish/timezone-distribution/timezone-segmented-delivery.md",
+      "state": "current",
+      "matches": [
+        "publish/timezone-distribution/timezone-segmented-delivery.md"
+      ]
+    },
+    {
+      "card": "7d58c975-d54b-4f8b-830e-aafc9cc247d0",
+      "reference": "produce/audience-engagement/standardized-micro-segments.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/standardized-micro-segments.md"
+      ]
+    },
+    {
+      "card": "da380d98-cc0b-44a5-bd5d-199e1981df17",
+      "reference": "produce/audience-engagement/kinesthetic-audience-reset.md",
+      "state": "moved-or-history",
+      "matches": [
+        "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md"
+      ]
+    },
+    {
+      "card": "da380d98-cc0b-44a5-bd5d-199e1981df17",
+      "reference": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/strategic-pause-engagement.md"
+      ]
+    },
+    {
+      "card": "3635d39b-b9b1-436b-b841-19194c56111c",
+      "reference": "docs/omi-poster-state-contract.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/docs/omi-poster-state-contract.md"
+    },
+    {
+      "card": "3635d39b-b9b1-436b-b841-19194c56111c",
+      "reference": "openclaw-workspace/SESSION-STATE.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/SESSION-STATE.md"
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "reference": "./this-target-does-not-exist-xyz.md",
+      "state": "intentional-negative-test",
+      "matches": []
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "reference": "docs/omi-published-marker-contract.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/docs/omi-published-marker-contract.md"
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "reference": "docs/patterns/package/clips/debate-moment.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/package/clips/debate-moment.md"
+      ]
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "reference": "docs/patterns/produce/two-part-hook-structure.md",
+      "state": "moved-or-history",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "d10f6b11-58bd-47e5-a8ec-3413b0211182",
+      "reference": "openclaw-workspace/docs/omi-poster-state-contract.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/docs/omi-poster-state-contract.md"
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/audience-engagement/low-stakes-warmup-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/low-stakes-warmup-framing.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/audience-engagement/standardized-micro-segments.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/standardized-micro-segments.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/transparent-preframing-virtual-logistics.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-onboarding/flipped-asynchronous-baseline.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/strategic-pause-engagement.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "publish/live-events/live-attendance-gating.md",
+      "state": "current",
+      "matches": [
+        "publish/live-events/live-attendance-gating.md"
+      ]
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reference": "publish/timezone-distribution/timezone-segmented-delivery.md",
+      "state": "current",
+      "matches": [
+        "publish/timezone-distribution/timezone-segmented-delivery.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "preserve/platform-strategy/owned-website-as-format-hub.md",
+      "state": "current",
+      "matches": [
+        "Preserve/platform-strategy/owned-website-as-format-hub.md",
+        "preserve/platform-strategy/owned-website-as-format-hub.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "produce/audience-engagement/audience-prep-networking.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/audience-prep-networking.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "produce/audience-engagement/facilitated-peer-connection.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/audience-engagement/facilitated-peer-connection.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "produce/audience-engagement/standardized-micro-segments.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/standardized-micro-segments.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "produce/content-production/ai-agentic-content-production-guardrail.md",
+      "state": "current",
+      "matches": [
+        "produce/content-production/ai-agentic-content-production-guardrail.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "prove/measurement/amp-accords-play-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/amp-accords-play-standard.md",
+        "prove/measurement/amp-accords-play-standard.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "publish/owned-channels/owned-email-newsletter.md",
+      "state": "current",
+      "matches": [
+        "Distribute/direct-engagement/owned-email-newsletter.md",
+        "publish/owned-channels/owned-email-newsletter.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "publish/syndication/spotify-native-upload-bypasses-rss.md",
+      "state": "current",
+      "matches": [
+        "Distribute/syndication/spotify-native-upload-bypasses-rss.md",
+        "publish/syndication/spotify-native-upload-bypasses-rss.md"
+      ]
+    },
+    {
+      "card": "84128886-c06a-4814-a60c-f74428987b14",
+      "reference": "tools/hosting/video-podcast-hosting-support.md",
+      "state": "current",
+      "matches": [
+        "docs/tools/hosting/video-podcast-hosting-support.md",
+        "tools/hosting/video-podcast-hosting-support.md"
+      ]
+    },
+    {
+      "card": "3333b5c0-82fd-4e6a-8fb3-56912bec16ed",
+      "reference": "publish/in-app-thought-leadership-retention/embedding-thought-leadership-in-product-interface.md",
+      "state": "local-main-only",
+      "matches": [
+        "publish/in-app-thought-leadership-retention/embedding-thought-leadership-in-product-interface.md"
+      ]
+    },
+    {
+      "card": "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5",
+      "reference": "publish/multi-day-events/spaced-repetition-reflection.md",
+      "state": "current",
+      "matches": [
+        "publish/multi-day-events/spaced-repetition-reflection.md"
+      ]
+    },
+    {
+      "card": "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5",
+      "reference": "publish/multi-day-events/spaced-repetition-reflection.md",
+      "state": "current",
+      "matches": [
+        "publish/multi-day-events/spaced-repetition-reflection.md"
+      ]
+    },
+    {
+      "card": "ae4d2629-24bb-4c4b-9198-57ecd0a698fd",
+      "reference": "publish/content-funnel/cascading-content-funnel.md",
+      "state": "current",
+      "matches": [
+        "publish/content-funnel/cascading-content-funnel.md"
+      ]
+    },
+    {
+      "card": "21158d85-0209-48a9-a4d3-7b429a396593",
+      "reference": "Preserve/trust-and-safety/cross-format-fact-check-artifacts.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Preserve/trust-and-safety/cross-format-fact-check-artifacts.md",
+        "preserve/trust-and-safety/cross-format-fact-check-artifacts.md"
+      ]
+    },
+    {
+      "card": "5b6211d7-24a7-4b19-a532-c168ea0205c1",
+      "reference": "produce/audience-engagement/audience-prep-networking.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/audience-prep-networking.md"
+      ]
+    },
+    {
+      "card": "44eb17f9-954c-45ad-94a5-b1b9514cb435",
+      "reference": "produce/audience-engagement/gamified-branded-segments.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/gamified-branded-segments.md"
+      ]
+    },
+    {
+      "card": "44eb17f9-954c-45ad-94a5-b1b9514cb435",
+      "reference": "produce/audience-engagement/standardized-micro-segments.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/standardized-micro-segments.md"
+      ]
+    },
+    {
+      "card": "4df042ae-7b97-4270-a2aa-c6c99f3ba8da",
+      "reference": "Preserve/platform-strategy/owned-website-as-format-hub.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Preserve/platform-strategy/owned-website-as-format-hub.md",
+        "preserve/platform-strategy/owned-website-as-format-hub.md"
+      ]
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reference": "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+        "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md"
+      ]
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reference": "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+      "state": "current",
+      "matches": [
+        "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+        "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md"
+      ]
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reference": "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+      "state": "current",
+      "matches": [
+        "Preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md",
+        "preserve/ad-metadata-brand-safety/ad-metadata-brand-safety.md"
+      ]
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reference": "prove/measurement-provenance/amp-accords-iab-v2.3.md",
+      "state": "corrected-historical-reference",
+      "matches": [
+        "prove/measurement/amp-accords-play-standard.md"
+      ],
+      "canonical": "prove/measurement/amp-accords-play-standard.md"
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reference": "prove/measurement/amp-accords-play-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/amp-accords-play-standard.md",
+        "prove/measurement/amp-accords-play-standard.md"
+      ]
+    },
+    {
+      "card": "54b74531-2d42-48b7-b1ed-35bb8a364348",
+      "reference": "Distribute/direct-engagement/owned-email-newsletter.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Distribute/direct-engagement/owned-email-newsletter.md",
+        "publish/owned-channels/owned-email-newsletter.md"
+      ]
+    },
+    {
+      "card": "d52e7baa-16aa-41b2-a8a3-4a4237fe4b13",
+      "reference": "produce/presentation-tactics/new-bliss-closing.md",
+      "state": "current",
+      "matches": [
+        "produce/presentation-tactics/new-bliss-closing.md"
+      ]
+    },
+    {
+      "card": "322075f9-810d-416d-bc89-0acce751e698",
+      "reference": "preserve/provenance/ai-disclosure-provenance-owned-asset.md",
+      "state": "current",
+      "matches": [
+        "preserve/provenance/ai-disclosure-provenance-owned-asset.md"
+      ]
+    },
+    {
+      "card": "741767c0-b2ff-4009-be0f-080f493fa96e",
+      "reference": "publish/executive-outreach/time-sequenced-messaging.md",
+      "state": "current",
+      "matches": [
+        "publish/executive-outreach/time-sequenced-messaging.md"
+      ]
+    },
+    {
+      "card": "e629fddf-1e08-4225-b928-4612f9186377",
+      "reference": "produce/audience-engagement/immersive-learning-exercises.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/immersive-learning-exercises.md"
+      ]
+    },
+    {
+      "card": "4d17061b-b065-411f-9bb6-300a5cb2b89a",
+      "reference": "prove/scorecards/focused-cohort-tracking.md",
+      "state": "current",
+      "matches": [
+        "prove/scorecards/focused-cohort-tracking.md"
+      ]
+    },
+    {
+      "card": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "reference": "publish/syndication/platform-ad-skipping-monetization-resilience.md",
+      "state": "current",
+      "matches": [
+        "publish/syndication/platform-ad-skipping-monetization-resilience.md"
+      ]
+    },
+    {
+      "card": "02c84b08-f036-413f-a71d-cedcf7733c8d",
+      "reference": "teardowns/2026-08-teardown.md",
+      "state": "current",
+      "matches": [
+        "teardowns/2026-08-teardown.md"
+      ]
+    },
+    {
+      "card": "5077c129-3469-493b-a32c-54f32b5108a1",
+      "reference": "teardowns/2026-09-teardown.md",
+      "state": "current",
+      "matches": [
+        "teardowns/2026-09-teardown.md"
+      ]
+    },
+    {
+      "card": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "reference": "Distribute/syndication/spotify-native-upload-bypasses-rss.md",
+      "state": "moved-or-history",
+      "matches": [
+        "Distribute/syndication/spotify-native-upload-bypasses-rss.md",
+        "publish/syndication/spotify-native-upload-bypasses-rss.md"
+      ]
+    },
+    {
+      "card": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "reference": "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+        "produce/recording/hls-video-podcast-distribution.md"
+      ]
+    },
+    {
+      "card": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "reference": "publish/syndication/spotify-native-upload-bypasses-rss.md",
+      "state": "current",
+      "matches": [
+        "Distribute/syndication/spotify-native-upload-bypasses-rss.md",
+        "publish/syndication/spotify-native-upload-bypasses-rss.md"
+      ]
+    },
+    {
+      "card": "b6643937-fe44-47b8-af58-7821a57f6694",
+      "reference": "publish/event-content-repurposing/event-content-repurposing.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/publish/event-content-repurposing/event-content-repurposing.md"
+    },
+    {
+      "card": "9b2870ae-90a6-4fc7-a87a-26ff91f73233",
+      "reference": "produce/content-production/ai-agentic-content-production-guardrail.md",
+      "state": "current",
+      "matches": [
+        "produce/content-production/ai-agentic-content-production-guardrail.md"
+      ]
+    },
+    {
+      "card": "2d938399-0abb-4504-b936-cd7f76729e6c",
+      "reference": "produce/audience-engagement/modular-detail-contraction.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/modular-detail-contraction.md"
+      ]
+    },
+    {
+      "card": "2d938399-0abb-4504-b936-cd7f76729e6c",
+      "reference": "produce/audience-engagement/modular-detail-contraction.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/modular-detail-contraction.md"
+      ]
+    },
+    {
+      "card": "c28ddb78-e85e-4909-9c03-66d64117b9dd",
+      "reference": "publish/in-app-thought-leadership/in-app-thought-leadership-retention.md",
+      "state": "local-main-only",
+      "matches": [
+        "publish/in-app-thought-leadership/in-app-thought-leadership-retention.md"
+      ]
+    },
+    {
+      "card": "047c5c2d-ef27-4db9-adc6-7740fb4e21dd",
+      "reference": "produce/data-driven-targeted-learning/data-driven-targeted-learning.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/data-driven-targeted-learning/data-driven-targeted-learning.md"
+      ]
+    },
+    {
+      "card": "8ad3af51-07a0-4848-927e-5549d86f7112",
+      "reference": "publish/in-app-thought-leadership-in-product-interface.md",
+      "state": "historical-path-misreported",
+      "matches": [
+        "publish/in-app-thought-leadership-retention/embedding-thought-leadership-in-product-interface.md"
+      ],
+      "evidence": "789dd1a tree resolves actual differently named artifact"
+    },
+    {
+      "card": "a34ea862-3aa4-4873-bb71-e7dd9d8fe107",
+      "reference": "produce/audience-engagement/facilitated-peer-connection.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/audience-engagement/facilitated-peer-connection.md"
+      ]
+    },
+    {
+      "card": "618673c5-6e21-4849-89e6-e20ddd2b51d1",
+      "reference": "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md",
+      "state": "current",
+      "matches": [
+        "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md"
+      ]
+    },
+    {
+      "card": "83c11644-d19c-4e09-b49e-e9861d41242f",
+      "reference": "produce/data-driven-targeted-learning/data-driven-targeted-learning.md",
+      "state": "local-main-only",
+      "matches": [
+        "produce/data-driven-targeted-learning/data-driven-targeted-learning.md"
+      ]
+    },
+    {
+      "card": "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0",
+      "reference": "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+        "produce/recording/hls-video-podcast-distribution.md"
+      ]
+    },
+    {
+      "card": "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0",
+      "reference": "produce/recording/hls-video-podcast-distribution.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/produce/recording/hls-video-podcast-distribution.md",
+        "produce/recording/hls-video-podcast-distribution.md"
+      ]
+    },
+    {
+      "card": "b514744d-34be-4776-b4cb-8469816920e5",
+      "reference": "produce/audience-engagement/two-part-hook-structure.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "b514744d-34be-4776-b4cb-8469816920e5",
+      "reference": "produce/audience-engagement/two-part-hook-structure.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "reference": "docs/omi-dashboard-approval.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/docs/omi-dashboard-approval.md"
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "reference": "preserve/ai-optimization/geo-aeo-citation-volatility.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/preserve/geo-aeo-citation-volatility.md",
+        "preserve/ai-optimization/geo-aeo-citation-volatility.md"
+      ]
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "reference": "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md",
+      "state": "current",
+      "matches": [
+        "produce/gamified-truth-testing/real-or-fake-style-segment-framing.md"
+      ]
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "reference": "distribute/syndication/webinar-platform-consolidation-risk.md",
+      "state": "moved-or-history",
+      "matches": [
+        "distribute/syndication/webinar-platform-consolidation-risk.md",
+        "publish/syndication/webinar-platform-consolidation-risk.md"
+      ]
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "reference": "docs-internal/aeo-publishing-standard.md",
+      "state": "current",
+      "matches": [
+        "docs-internal/aeo-publishing-standard.md"
+      ]
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "reference": "docs/patterns/preserve/content-memory-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/preserve/content-memory-standard.md",
+        "preserve/vector-memory/content-memory-standard.md"
+      ]
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "reference": "output/reports/omi-library-release-20261002/release.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-library-release-20261002/release.md"
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "reference": "docs/patterns/prove/amp-accords-play-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/amp-accords-play-standard.md",
+        "prove/measurement/amp-accords-play-standard.md"
+      ]
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "reference": "docs/patterns/prove/index.md",
+      "state": "current",
+      "matches": [
+        "docs/index.md",
+        "docs/patterns/index.md",
+        "docs/patterns/package/clips/index.md",
+        "docs/patterns/package/descriptions/index.md",
+        "docs/patterns/package/index.md",
+        "docs/patterns/package/quote-graphics/index.md",
+        "docs/patterns/package/reels/index.md",
+        "docs/patterns/package/social-posts/index.md",
+        "docs/patterns/package/social-posts/types/behind-the-scenes/index.md",
+        "docs/patterns/package/social-posts/types/clip-companion/index.md",
+        "docs/patterns/package/social-posts/types/episode-announcement/index.md",
+        "docs/patterns/package/social-posts/types/evergreen-reshare/index.md",
+        "docs/patterns/package/social-posts/types/guest-tag/index.md",
+        "docs/patterns/package/social-posts/types/key-takeaway/index.md",
+        "docs/patterns/package/social-posts/types/quote-share/index.md",
+        "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+        "docs/patterns/package/thumbnails/index.md",
+        "docs/patterns/package/titles/index.md",
+        "docs/patterns/preserve/index.md",
+        "docs/patterns/produce/index.md",
+        "docs/patterns/produce/master/index.md",
+        "docs/patterns/produce/record/index.md",
+        "docs/patterns/produce/rough-cut/index.md",
+        "docs/patterns/prove/index.md",
+        "docs/patterns/publish/ai-search-optimization/index.md",
+        "docs/patterns/publish/index.md",
+        "docs/quadrants/index.md",
+        "docs/tools/index.md"
+      ]
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "reference": "prove/measurement/amp-accords-play-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/amp-accords-play-standard.md",
+        "prove/measurement/amp-accords-play-standard.md"
+      ]
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "reference": "prove/measurement/amp-accords-play-standard.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/amp-accords-play-standard.md",
+        "prove/measurement/amp-accords-play-standard.md"
+      ]
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "reference": "github.com/Riggg-Inc/owned-media-index/blob/8b3509594fbb9e89ff9af2004744d2f2d2524efb/prove/benchmarks/video-threshold-economics.md",
+      "state": "moved-or-history",
+      "matches": [
+        "docs/patterns/prove/video-threshold-economics.md",
+        "prove/benchmarks/video-threshold-economics.md"
+      ]
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "reference": "github.com/Riggg-Inc/owned-media-index/blob/e19e0ea73b46019bfaeda48a67a2c7415cd0218f/prove/benchmarks/video-threshold-economics.md",
+      "state": "moved-or-history",
+      "matches": [
+        "docs/patterns/prove/video-threshold-economics.md",
+        "prove/benchmarks/video-threshold-economics.md"
+      ]
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "reference": "prove/benchmarks/video-threshold-economics.md",
+      "state": "current",
+      "matches": [
+        "docs/patterns/prove/video-threshold-economics.md",
+        "prove/benchmarks/video-threshold-economics.md"
+      ]
+    },
+    {
+      "card": "ce680a2b-55b2-4570-a4f2-82ef7ef15f1d",
+      "reference": "produce/audience-engagement/two-part-hook-structure.md",
+      "state": "current",
+      "matches": [
+        "produce/audience-engagement/two-part-hook-structure.md"
+      ]
+    },
+    {
+      "card": "23d77981-ff91-4171-8049-735a77f2d9ab",
+      "reference": "output/reports/omi-actionable-surface-options-2026-09-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/omi-actionable-surface-options-2026-09-08.md"
+    },
+    {
+      "card": "d499cb4e-e6e3-4732-964c-f1636c24e838",
+      "reference": "home/production/openclaw-workspace/output/reports/aeo-report-2026-08.md",
+      "state": "external-workspace",
+      "matches": [],
+      "external_path": "/home/production/openclaw-workspace/output/reports/aeo-report-2026-08.md"
+    }
+  ],
+  "commit_references": [
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "0c8ae95",
+      "resolved": "0c8ae95c986d96f4b0f613a64074aa2c2cb0ab73"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "167a562",
+      "resolved": "167a562c9638a4e4f59fe1cead226c75a31feefc"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "16a19a9",
+      "resolved": "16a19a93d7fc9f6c1ab3cdd9b841d9eed0e69228"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "174f22f",
+      "resolved": "174f22f6e6dd9005ac3f6f6602f0e3ba10a11880"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "18243d0e95cf3a0f31bd8c76a4ca51e8b49fd77e",
+      "resolved": "18243d0e95cf3a0f31bd8c76a4ca51e8b49fd77e"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "19f8069",
+      "resolved": "19f8069aab5b75bf6f4d3dbc9352fe7bc1d2980c"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "24fcf4c",
+      "resolved": "24fcf4c106749357cbd36a2e4b665c33f863f5f7"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "2613320",
+      "resolved": "2613320bfb4dde5515f1c0437c71a878842b2c6b"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "2f8764d",
+      "resolved": "2f8764d20e8171ab556e2250b9b92e63e9f358d7"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "41840f8",
+      "resolved": "41840f87a6b8e3a4e073a93d992dd385af5e8d5d"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "45db49b",
+      "resolved": "45db49b1401ab47bfc278fe52a52f8b38b9a35e8"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "4f30205",
+      "resolved": "4f30205109918fb0e3b4756215218893bbd5cdcb"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "5c370b270d3070d6c332c5786b566032163d4d6c",
+      "resolved": "5c370b270d3070d6c332c5786b566032163d4d6c"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "5d09de9",
+      "resolved": "5d09de95ff89ca10aefdddf9780a37f7592b1cca"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "5f29c50",
+      "resolved": "5f29c50b531165e432840408245424b902271c80"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "789dd1a",
+      "resolved": "789dd1a5d9000e03ec50dc60743316fd0a88cf62"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "7c9b8c1",
+      "resolved": "7c9b8c1711e6a17618dbb99835770fc6bea32e88"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "7f67356",
+      "resolved": "7f6735623900f86616d8ba7b1e6da9126a85ddb5"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "838637c",
+      "resolved": "838637cb4aa9966334b17b3d9773b2c69850525f"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "91e95bb",
+      "resolved": "91e95bbb6e9797c7ced280d7f9302e55b615de9d"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "9b476f8",
+      "resolved": "9b476f8de261d153a15b31b4f76f0145047a906f"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "a12c365",
+      "resolved": "a12c365b94c7c57246590499e22c640f55311978"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "bf4a2ff",
+      "resolved": "bf4a2ff770d188750ac0a6df48b23b54c89b584c"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "c38af5e0",
+      "resolved": "c38af5e026c529bf7dfed437a9b340f8c90084d9",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "cbef055",
+      "resolved": "cbef0550bc1960e3b3a329a2dce3650443c81160"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "e031530",
+      "resolved": "e031530f266fe18d4241ab9bfc7876d6577fae7f"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "e329b4f",
+      "resolved": "e329b4feb61835fb8cf5ca0d93f4e284d32a4a2f"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "ec19b1e9",
+      "resolved": "ec19b1e94d0b632b8ef261f8c4df6ef70b6c59d5",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "ed5963d",
+      "resolved": "ed5963d05ac87120f7ba83c90a2b576a049a6ad6"
+    },
+    {
+      "card": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "hash": "fe7d519",
+      "resolved": "fe7d5199a66b9410a34b3c58f17bd4b3ff41bc28"
+    },
+    {
+      "card": "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+      "hash": "9b476f8",
+      "resolved": "9b476f8de261d153a15b31b4f76f0145047a906f"
+    },
+    {
+      "card": "d6e00987-53a9-47b5-af68-be40d9f96365",
+      "hash": "7f67356",
+      "resolved": "7f6735623900f86616d8ba7b1e6da9126a85ddb5"
+    },
+    {
+      "card": "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+      "hash": "838637c",
+      "resolved": "838637cb4aa9966334b17b3d9773b2c69850525f"
+    },
+    {
+      "card": "6f3bb497-e8de-47d6-8dad-82e741f3971e",
+      "hash": "24fcf4c",
+      "resolved": "24fcf4c106749357cbd36a2e4b665c33f863f5f7"
+    },
+    {
+      "card": "a8769b21-05b3-4b35-8a87-11bf850a77ad",
+      "hash": "cbef055",
+      "resolved": "cbef0550bc1960e3b3a329a2dce3650443c81160"
+    },
+    {
+      "card": "f140df61-69e3-441c-99ec-1203a34e4fc7",
+      "hash": "45db49b",
+      "resolved": "45db49b1401ab47bfc278fe52a52f8b38b9a35e8"
+    },
+    {
+      "card": "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+      "hash": "c38af5e0",
+      "resolved": "c38af5e026c529bf7dfed437a9b340f8c90084d9",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+      "hash": "e031530",
+      "resolved": "e031530f266fe18d4241ab9bfc7876d6577fae7f"
+    },
+    {
+      "card": "7d58c975-d54b-4f8b-830e-aafc9cc247d0",
+      "hash": "0350a55",
+      "resolved": "0350a551bcf1342c47f2ea7d221445776b21607b"
+    },
+    {
+      "card": "da380d98-cc0b-44a5-bd5d-199e1981df17",
+      "hash": "91e95bb",
+      "resolved": "91e95bbb6e9797c7ced280d7f9302e55b615de9d"
+    },
+    {
+      "card": "3635d39b-b9b1-436b-b841-19194c56111c",
+      "hash": "873c734d3dd12425834c4d610bce8a5a6e52fb43",
+      "resolved": "873c734d3dd12425834c4d610bce8a5a6e52fb43",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "hash": "13e47edbb8c769251bde90f49cc848d718e8bac4",
+      "resolved": "13e47edbb8c769251bde90f49cc848d718e8bac4",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "hash": "b1fe910531cc84544f4af3b484ff8b19223e83e4",
+      "resolved": "b1fe910531cc84544f4af3b484ff8b19223e83e4",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "d10f6b11-58bd-47e5-a8ec-3413b0211182",
+      "hash": "873c734d3dd12425834c4d610bce8a5a6e52fb43",
+      "resolved": "873c734d3dd12425834c4d610bce8a5a6e52fb43",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "d10f6b11-58bd-47e5-a8ec-3413b0211182",
+      "hash": "b1fe910531cc84544f4af3b484ff8b19223e83e4",
+      "resolved": "b1fe910531cc84544f4af3b484ff8b19223e83e4",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "hash": "7be68d6",
+      "resolved": "7be68d652edcb37470335cef39f997f23fd67edc"
+    },
+    {
+      "card": "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5",
+      "hash": "174f22f",
+      "resolved": "174f22f6e6dd9005ac3f6f6602f0e3ba10a11880"
+    },
+    {
+      "card": "ae4d2629-24bb-4c4b-9198-57ecd0a698fd",
+      "hash": "5d09de9",
+      "resolved": "5d09de95ff89ca10aefdddf9780a37f7592b1cca"
+    },
+    {
+      "card": "21158d85-0209-48a9-a4d3-7b429a396593",
+      "hash": "bf4a2ff",
+      "resolved": "bf4a2ff770d188750ac0a6df48b23b54c89b584c"
+    },
+    {
+      "card": "5b6211d7-24a7-4b19-a532-c168ea0205c1",
+      "hash": "632df66",
+      "resolved": "632df66ca52ae32bb9bb933f120166291e81cb48"
+    },
+    {
+      "card": "44eb17f9-954c-45ad-94a5-b1b9514cb435",
+      "hash": "ee6ccca6ff2360e28cb111e39e366711d49f710f",
+      "resolved": "ee6ccca6ff2360e28cb111e39e366711d49f710f"
+    },
+    {
+      "card": "4df042ae-7b97-4270-a2aa-c6c99f3ba8da",
+      "hash": "0469804",
+      "resolved": "0469804e4d339c07696c4cefba98ee7a6a9f06b0"
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "hash": "16a19a9",
+      "resolved": "16a19a93d7fc9f6c1ab3cdd9b841d9eed0e69228"
+    },
+    {
+      "card": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "hash": "c6ed517",
+      "resolved": "c6ed517b1f33e287aba5f611e868533a3074f311"
+    },
+    {
+      "card": "54b74531-2d42-48b7-b1ed-35bb8a364348",
+      "hash": "d7a7ec9",
+      "resolved": "d7a7ec962bf6cccbedc057f3e7ea085e15d9cf08"
+    },
+    {
+      "card": "d52e7baa-16aa-41b2-a8a3-4a4237fe4b13",
+      "hash": "a12c365",
+      "resolved": "a12c365b94c7c57246590499e22c640f55311978"
+    },
+    {
+      "card": "322075f9-810d-416d-bc89-0acce751e698",
+      "hash": "6afe243ce39eb1959643b40b36327ffbacece686",
+      "resolved": "6afe243ce39eb1959643b40b36327ffbacece686"
+    },
+    {
+      "card": "741767c0-b2ff-4009-be0f-080f493fa96e",
+      "hash": "4f30205",
+      "resolved": "4f30205109918fb0e3b4756215218893bbd5cdcb"
+    },
+    {
+      "card": "e629fddf-1e08-4225-b928-4612f9186377",
+      "hash": "f9eb77a02b9d9ce3dd5942c5a1c58376d9a9c1e0",
+      "resolved": "f9eb77a02b9d9ce3dd5942c5a1c58376d9a9c1e0"
+    },
+    {
+      "card": "4d17061b-b065-411f-9bb6-300a5cb2b89a",
+      "hash": "39969a52e1cb55934d189e848229cf281fd04235",
+      "resolved": "39969a52e1cb55934d189e848229cf281fd04235"
+    },
+    {
+      "card": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "hash": "18243d0e",
+      "resolved": "18243d0e95cf3a0f31bd8c76a4ca51e8b49fd77e"
+    },
+    {
+      "card": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "hash": "18243d0e95cf3a0f31bd8c76a4ca51e8b49fd77e",
+      "resolved": "18243d0e95cf3a0f31bd8c76a4ca51e8b49fd77e"
+    },
+    {
+      "card": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "hash": "5c370b27",
+      "resolved": "5c370b270d3070d6c332c5786b566032163d4d6c"
+    },
+    {
+      "card": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "hash": "5c370b270d3070d6c332c5786b566032163d4d6c",
+      "resolved": "5c370b270d3070d6c332c5786b566032163d4d6c"
+    },
+    {
+      "card": "02c84b08-f036-413f-a71d-cedcf7733c8d",
+      "hash": "56d8780563af72ee465301821a8a0733666925c8",
+      "resolved": "56d8780563af72ee465301821a8a0733666925c8"
+    },
+    {
+      "card": "5077c129-3469-493b-a32c-54f32b5108a1",
+      "hash": "eba2f651d824d8864ad04cec8120bc836ffb8054",
+      "resolved": "eba2f651d824d8864ad04cec8120bc836ffb8054"
+    },
+    {
+      "card": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "hash": "1052f79",
+      "resolved": "1052f79adc93b7f48c7f99c025ac83f2889650e4"
+    },
+    {
+      "card": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "hash": "1052f79adc93b7f48c7f99c025ac83f2889650e4",
+      "resolved": "1052f79adc93b7f48c7f99c025ac83f2889650e4"
+    },
+    {
+      "card": "b6643937-fe44-47b8-af58-7821a57f6694",
+      "hash": "ec19b1e9",
+      "resolved": "ec19b1e94d0b632b8ef261f8c4df6ef70b6c59d5",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "9b2870ae-90a6-4fc7-a87a-26ff91f73233",
+      "hash": "a2fdcbc",
+      "resolved": "a2fdcbcefb892440bb1b67e19acb446c24e88553"
+    },
+    {
+      "card": "2d938399-0abb-4504-b936-cd7f76729e6c",
+      "hash": "0c8ae95",
+      "resolved": "0c8ae95c986d96f4b0f613a64074aa2c2cb0ab73"
+    },
+    {
+      "card": "2d938399-0abb-4504-b936-cd7f76729e6c",
+      "hash": "7be68d6",
+      "resolved": "7be68d652edcb37470335cef39f997f23fd67edc"
+    },
+    {
+      "card": "c28ddb78-e85e-4909-9c03-66d64117b9dd",
+      "hash": "ed5963d",
+      "resolved": "ed5963d05ac87120f7ba83c90a2b576a049a6ad6"
+    },
+    {
+      "card": "047c5c2d-ef27-4db9-adc6-7740fb4e21dd",
+      "hash": "41840f87a6b8e3a4e073a93d992dd385af5e8d5d",
+      "resolved": "41840f87a6b8e3a4e073a93d992dd385af5e8d5d"
+    },
+    {
+      "card": "8ad3af51-07a0-4848-927e-5549d86f7112",
+      "hash": "789dd1a5d9000e03ec50dc60743316fd0a88cf62",
+      "resolved": "789dd1a5d9000e03ec50dc60743316fd0a88cf62"
+    },
+    {
+      "card": "a34ea862-3aa4-4873-bb71-e7dd9d8fe107",
+      "hash": "2f8764d",
+      "resolved": "2f8764d20e8171ab556e2250b9b92e63e9f358d7"
+    },
+    {
+      "card": "618673c5-6e21-4849-89e6-e20ddd2b51d1",
+      "hash": "2613320",
+      "resolved": "2613320bfb4dde5515f1c0437c71a878842b2c6b"
+    },
+    {
+      "card": "83c11644-d19c-4e09-b49e-e9861d41242f",
+      "hash": "41840f8",
+      "resolved": "41840f87a6b8e3a4e073a93d992dd385af5e8d5d"
+    },
+    {
+      "card": "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0",
+      "hash": "277bd32329dd7d9bcdd2fefb095d7b21a21bd40a",
+      "resolved": "277bd32329dd7d9bcdd2fefb095d7b21a21bd40a"
+    },
+    {
+      "card": "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0",
+      "hash": "cbc85a5",
+      "resolved": "cbc85a5470b176412ccc8aec4e8685e8383c00a0"
+    },
+    {
+      "card": "b514744d-34be-4776-b4cb-8469816920e5",
+      "hash": "167a562",
+      "resolved": "167a562c9638a4e4f59fe1cead226c75a31feefc"
+    },
+    {
+      "card": "b514744d-34be-4776-b4cb-8469816920e5",
+      "hash": "19f8069",
+      "resolved": "19f8069aab5b75bf6f4d3dbc9352fe7bc1d2980c"
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "hash": "21285aa",
+      "resolved": "21285aa91eb52a1dd1d4c67b77a2deb0d884b554"
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "hash": "21285aa91eb52a1dd1d4c67b77a2deb0d884b554",
+      "resolved": "21285aa91eb52a1dd1d4c67b77a2deb0d884b554"
+    },
+    {
+      "card": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "hash": "e329b4f",
+      "resolved": "e329b4feb61835fb8cf5ca0d93f4e284d32a4a2f"
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "hash": "792f2abd1feb759669ad79cb221d3ec1604c875d",
+      "resolved": "792f2abd1feb759669ad79cb221d3ec1604c875d"
+    },
+    {
+      "card": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "hash": "fe7d519",
+      "resolved": "fe7d5199a66b9410a34b3c58f17bd4b3ff41bc28"
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "hash": "5868133",
+      "resolved": "5868133e88a5667577887975f912c9f2c3b0b11b"
+    },
+    {
+      "card": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "hash": "8489453cbadc036f6a74a02e602f4cdf3208c192",
+      "resolved": "8489453cbadc036f6a74a02e602f4cdf3208c192"
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "hash": "7c9b8c1",
+      "resolved": "7c9b8c1711e6a17618dbb99835770fc6bea32e88"
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "hash": "85aadba1c532f12cce03b1be37c141c326dbb0f3",
+      "resolved": "85aadba1c532f12cce03b1be37c141c326dbb0f3"
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "hash": "8b3509594fbb9e89ff9af2004744d2f2d2524efb",
+      "resolved": "8b3509594fbb9e89ff9af2004744d2f2d2524efb"
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "hash": "e19e0ea73b46019bfaeda48a67a2c7415cd0218f",
+      "resolved": "e19e0ea73b46019bfaeda48a67a2c7415cd0218f"
+    },
+    {
+      "card": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "hash": "fe2f319d",
+      "resolved": "fe2f319d69c992aab29d5be67509208dc441bd65",
+      "repository": "openclaw-workspace"
+    },
+    {
+      "card": "ce680a2b-55b2-4570-a4f2-82ef7ef15f1d",
+      "hash": "5f29c50",
+      "resolved": "5f29c50b531165e432840408245424b902271c80"
+    },
+    {
+      "card": "249e3fc9-7c19-4c26-b16f-05e17690dd85",
+      "hash": "17665bf",
+      "resolved": "17665bfdbb2581bac6109b75c68b326b9b83a07d"
+    },
+    {
+      "card": "23d77981-ff91-4171-8049-735a77f2d9ab",
+      "hash": "143f9abd259b0b358ee4e10822b871599b7d29b0",
+      "resolved": "143f9abd259b0b358ee4e10822b871599b7d29b0"
+    },
+    {
+      "card": "d499cb4e-e6e3-4732-964c-f1636c24e838",
+      "hash": "277bd32",
+      "resolved": "277bd32329dd7d9bcdd2fefb095d7b21a21bd40a"
+    }
+  ],
+  "coverage": "Full tool card objects read for 112 cards; path/commit extraction is heuristic, not approval verification. Basename matches are candidates, not proof of equivalence. Source/docs mirrors intentional. Live routes inferred; HTTP verification deferred to integration. Historical-only files preserved, not republished.",
+  "no_markdown_inbound_or_nav": [],
+  "remaining_unresolved_hashes": [],
+  "integration": {
+    "base": "177f1107feb4267e85f5b0c832e142af9f300b62",
+    "reference_repairs": {
+      "schemas/pattern.schema.md": "schemas/pattern.schema.json",
+      "prove/measurement-provenance/amp-accords-iab-v2.3.md": "prove/measurement/amp-accords-play-standard.md"
+    },
+    "local_only_blocker": "In-app same-thesis drafts differ in rationale and exclusion caveats; no local file changed. Owner decision needed on unique wording and unpublished history.",
+    "retired_slugs": [
+      "two-part-hook-structure",
+      "spaced-repetition-reflection",
+      "cascading-content-funnel"
+    ],
+    "protected_paths": {
+      "preserve/vector-memory/content-memory-standard.md": "2e09e462500b93b1bcbb7ee27cf76dace8afbb70538a9a6ee97f5641686f6257",
+      "docs/patterns/preserve/content-memory-standard.md": "f4bf19f6a8f86932b09808fdc39cf2d1732037c9a64bcfa4444096d19c55b4c0",
+      "preserve/ai-optimization/geo-aeo-citation-volatility.md": "0db92a362b07040eeb74739cf2aec4d14f14b6c26993f111635615c6f5d4165a",
+      "docs/patterns/preserve/geo-aeo-citation-volatility.md": "800017f0bab2fb84ba16642f9d81e7de1161c298d646c7545cc4f8b180a85761",
+      "docs/patterns/preserve/index.md": "1fc3c0dfe12e3083eea64fa8d637f8530593c013347fcf37bfb1cba389e0fb7e"
+    },
+    "cascade_retirement": {
+      "card": "ae4d2629-24bb-4c4b-9198-57ecd0a698fd",
+      "archive": "docs-internal/archive/rejected/cascading-content-funnel.md",
+      "sha256": "c271eeb0447496c0f6a35499835b62f354e1182f12b71d87436a613c2401153e",
+      "authority": "Ledge dashboard 2026-10-02 21:12 UTC",
+      "disposition": "RETIRED not published; revisions separately approval-gated"
+    }
+  }
+}
