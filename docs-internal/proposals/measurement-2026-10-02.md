@@ -6,8 +6,8 @@ description: "Measure AI search with sampled citations, platform reports and att
 
 Measure AI search in three separate layers: **observed answers and citations, platform-reported visibility, and attributable visits and outcomes**. Keep technical eligibility checks alongside them, not inside a single “AI visibility” score. A cited page is not necessarily a visited page, and a visit is not a confirmed inquiry.
 
-**Stage:** Publish → AI Search Optimization  
-**Score:** 3  
+**Stage:** Publish → AI Search Optimization
+**Score:** 3
 **Evidence:** practitioner observation, emerging tooling
 
 ## What It Is
