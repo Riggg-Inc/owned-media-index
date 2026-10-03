@@ -1,0 +1,11 @@
+{
+  "run": "2026-10-03T16:45:00Z",
+  "job": "cfa8f525-f4ac-434d-bbef-8c0054c0f6ff",
+  "tasks": {
+    "evidence.md": "3f310466-8571-4a31-8ea8-7f3be3ba9275",
+    "framework.md": "4823a06e-d037-43e7-bbce-dbbbf6743bec",
+    "index.md": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e"
+  },
+  "selection_rule": "Skip open exact-body proposals on subsequent runs; homepage source retry due 2026-10-10T16:52:14Z; changed body or template requires fresh review.",
+  "production_changed": false
+}

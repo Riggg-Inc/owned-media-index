@@ -1,0 +1,11 @@
+{
+  "base_commit": "76020a5",
+  "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; not human approval)",
+  "checked_at": "2026-10-03T16:52:14Z",
+  "pages": {
+    "evidence.md": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+    "framework.md": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+    "index.md": "1f48724164ca94e101fb6e15e791995cda333adb5cea48e9fbbc5dd88341e47d"
+  },
+  "homepage_template_sha256": "bc5258f9c320bb981f37d3abb453ec0f2008748679fac99aed4c9fcaa37f010c"
+}

@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-03T16:52:14.573962Z",
+  "summary": {
+    "pages": 126,
+    "articles": 86,
+    "page_types": {
+      "WebPage": 12,
+      "Article": 86,
+      "CollectionPage": 28
+    },
+    "needs_review": 124,
+    "due": 122,
+    "states": {
+      "unreviewed": 122,
+      "partial": 2,
+      "current": 2
+    },
+    "record_file_present": true,
+    "errors": 0,
+    "selected": 126,
+    "shown": 3
+  },
+  "items": [
+    {
+      "path": "owned-media.md",
+      "page_type": "WebPage",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    },
+    {
+      "path": "patterns/package/clips/data-drop.md",
+      "page_type": "Article",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    },
+    {
+      "path": "patterns/package/clips/debate-moment.md",
+      "page_type": "Article",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "9d0814315e9e63ffe4366dfb5465c9dc903c9da800b7dd093135d4625cd56641",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    }
+  ],
+  "errors": []
+}

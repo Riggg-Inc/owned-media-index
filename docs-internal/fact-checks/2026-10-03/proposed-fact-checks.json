@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/publish/ai-search-optimization/measurement.md": {
+      "checked_at": "2026-10-02T21:19:23.214605Z",
+      "reviewer": "Cass Reelman (AI-assisted source review; not human approval)",
+      "method": "AI-assisted primary-documentation review of the exact owner-approved revision. Corrected Bing AI Performance, GA4 AI Assistant and ChatGPT referral guidance; score remains practitioner-observation 3. Unresolved: account-level report availability, historical channel rollout, live cross-platform execution and vendor accuracy were not independently tested. Editorial approval is not full factual verification. See the claim-level source audit dated 2026-10-02.",
+      "content_sha256": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+      "sources": [
+        {
+          "url": "https://developers.google.com/search/docs/appearance/ai-features",
+          "checked_at": "2026-10-02T20:38:00.151Z",
+          "claims": [
+            "AI Overviews and AI Mode reported in overall Search Console Web performance; indexed and snippet-eligible requirement; no additional technical requirements; different models/techniques mean responses/links vary; Overviews may not trigger."
+          ]
+        },
+        {
+          "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+          "checked_at": "2026-10-02T20:38:10.213Z",
+          "claims": [
+            "released public-preview AI Performance; Microsoft Copilot, AI-generated Bing summaries and select partners; total citations, average unique cited pages per day, sampled grounding queries, page citation counts and trends."
+          ]
+        },
+        {
+          "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+          "checked_at": "2026-10-02T20:38:29.073Z",
+          "claims": [
+            "Search interface and source links; query rewriting; location and saved-memory context; citations may be incomplete/outdated/incorrect; inspect actual sources."
+          ]
+        },
+        {
+          "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+          "checked_at": "2026-10-02T20:39:39.687Z",
+          "claims": [
+            "ChatGPT automatically includes utm_source=chatgpt.com in referral URLs from search results, enabling analytics tracking."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/12923437?hl=en",
+          "checked_at": "2026-10-02T20:38:20.679Z",
+          "claims": [
+            "Reports \u2192 Acquisition \u2192 Traffic acquisition; Session source / medium; new and returning traffic vs User acquisition; configured key events."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+          "checked_at": "2026-10-02T20:38:29.552Z",
+          "claims": [
+            "AI Assistant channel for sources including ChatGPT, Gemini, Deepseek, Copilot, Grok; excludes Google AI Overviews/AI Mode; those included in Organic Search. Session, user and event scopes differ."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+          "checked_at": "2026-10-02T20:38:47.274Z",
+          "claims": [
+            "Direct/none means no clear referral source; missing tags, redirects, shorteners and ad blockers can lose source information."
+          ]
+        },
+        {
+          "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+          "checked_at": "2026-10-02T20:39:17.050Z",
+          "claims": [
+            "indexed version versus live test; indexed/eligible does not guarantee appearance; canonical and crawl/index diagnostics."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+          "checked_at": "2026-10-02T20:39:16.687Z",
+          "claims": [
+            "Rich Results Test/URL Inspection catch most technical errors; quality guidelines are not readily testable automatically; syntactic correctness insufficient for display."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+          "checked_at": "2026-10-02T20:38:47.146Z",
+          "claims": [
+            "site: observations do not enumerate all indexed URLs."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+          "checked_at": "2026-10-02T20:39:16.839Z",
+          "claims": [
+            "crawl timing may take days to weeks; 48 hours is an internal check, not platform SLA."
+          ]
+        },
+        {
+          "url": "https://ahrefs.com/brand-radar",
+          "checked_at": "2026-10-02T20:39:16.340Z",
+          "claims": [
+            "vendor offers Custom Prompts and AI Visibility Index; names ChatGPT, Perplexity and AI Mode among indexed platforms; describes prompts modeled from keyword database searches."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-03T21:19:23.214605Z"
+    },
+    "evidence.md": {
+      "checked_at": "2026-10-03T16:52:14Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; not human approval)",
+      "method": "Full-body policy/source comparison. All material claims evaluated in normative policy/framework scope, no body or rule changes. https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261003-1645/docs-internal/fact-checks/2026-10-03/report-v1.md",
+      "content_sha256": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/Riggg-Inc/owned-media-index/main/EVIDENCE.md",
+          "checked_at": "2026-10-03T16:46:27.734Z",
+          "claims": [
+            "The public page accurately summarizes OMI policy evidence categories and confidentiality/generalization rules; these are normative rules, not proof of universal compliance."
+          ]
+        }
+      ],
+      "status": "verified",
+      "next_review_at": "2026-11-02T16:52:14Z"
+    },
+    "framework.md": {
+      "checked_at": "2026-10-03T16:52:14Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; not human approval)",
+      "method": "Full-body policy/source comparison. All material claims evaluated in normative policy/framework scope, no body or rule changes. https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261003-1645/docs-internal/fact-checks/2026-10-03/report-v1.md",
+      "content_sha256": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/Riggg-Inc/owned-media-index/main/FRAMEWORK.md",
+          "checked_at": "2026-10-03T16:46:27.945Z",
+          "claims": [
+            "OMI defines five ordered stages Produce, Package, Publish, Prove, Preserve with the described purposes, topic categories and quality questions; an operating framework, not measured outcomes."
+          ]
+        }
+      ],
+      "status": "verified",
+      "next_review_at": "2026-11-02T16:52:14Z"
+    },
+    "index.md": {
+      "checked_at": "2026-10-03T16:52:14Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; not human approval)",
+      "method": "Full-body policy/source comparison. Unresolved: universal archive/service compliance, performance/permanence promises, licensing and template overclaims including contradicted scoring definition. Original body, no human approval. https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261003-1645/docs-internal/fact-checks/2026-10-03/report-v1.md",
+      "content_sha256": "1f48724164ca94e101fb6e15e791995cda333adb5cea48e9fbbc5dd88341e47d",
+      "sources": [
+        {
+          "url": "https://index.riggg.com/scoring/",
+          "checked_at": "2026-10-03T16:46:28.644Z",
+          "claims": [
+            "The published score 5 definition is Recommended default with Strong evidence and broad usefulness, not industry standard requiring production data."
+          ]
+        },
+        {
+          "url": "https://riggg.com",
+          "checked_at": "2026-10-03T16:46:28.258Z",
+          "claims": [
+            "Riggg publicly offers production, packaging, publishing and distribution services and links the Owned Media Index."
+          ]
+        },
+        {
+          "url": "https://index.riggg.com/contribute/",
+          "checked_at": "2026-10-03T16:46:28.495Z",
+          "claims": [
+            "OMI invites patterns, corrections and stale-entry reports."
+          ]
+        },
+        {
+          "url": "https://index.riggg.com/roadmap/",
+          "checked_at": "2026-10-03T16:47:04.190Z",
+          "claims": [
+            "A quarterly issue is proposed, not guaranteed as a released cadence."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-10T16:52:14Z"
+    }
+  }
+}
