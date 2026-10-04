@@ -1,0 +1,107 @@
+[
+  {
+    "path": "patterns/publish/ai-search-optimization/measurement.md",
+    "hash": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+    "result": {
+      "card": {
+        "id": "c9c7c0d8-fd08-47cc-8b90-6b4b08888ca2",
+        "title": "[FACT-CHECK] patterns/publish/ai-search-optimization/measurement.md — partial; documentation supported, account and rollout gaps",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 39000,
+        "createdAt": 1791132730735,
+        "updatedAt": 1791132730735,
+        "events": [
+          {
+            "id": "8c92b3fc-32db-4179-9607-d8413c3e0163",
+            "kind": "created",
+            "at": 1791132730735,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact public article/body identity: patterns/publish/ai-search-optimization/measurement.md / a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a. AI reviewer: Cass Reelman, openai/gpt-6-astra; no human signoff. Report and proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md . All statuses partial; no publication. Retry 2026-10-11T16:48:17Z; skip open unchanged exact-body proposals, changes trigger re-audit. Preserve score/framework/customer-data gates. Substantive edits require final revised artifact, matching hash-bound evidence and authenticated exact-revision dashboard decision; no rewritten draft record may attach to old public bytes. Remain in review, not publish-ready.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/publish/ai-search-optimization/measurement.md:a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "owned-media.md",
+    "hash": "ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+    "result": {
+      "card": {
+        "id": "34d46539-4d50-4e07-9c23-6fed2edaa645",
+        "title": "[FACT-CHECK] owned-media.md — partial; ownership and provider-control overclaims",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 40000,
+        "createdAt": 1791132730794,
+        "updatedAt": 1791132730794,
+        "events": [
+          {
+            "id": "4163358d-6289-4a3c-87e2-b3b6b1da377b",
+            "kind": "created",
+            "at": 1791132730794,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact public article/body identity: owned-media.md / ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5. AI reviewer: Cass Reelman, openai/gpt-6-astra; no human signoff. Report and proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md . All statuses partial; no publication. Retry 2026-10-11T16:48:17Z; skip open unchanged exact-body proposals, changes trigger re-audit. Preserve score/framework/customer-data gates. Substantive edits require final revised artifact, matching hash-bound evidence and authenticated exact-revision dashboard decision; no rewritten draft record may attach to old public bytes. Remain in review, not publish-ready.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:owned-media.md:ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "patterns/package/clips/data-drop.md",
+    "hash": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+    "result": {
+      "card": {
+        "id": "e911a436-cc49-48cf-90ec-3956ccca4d5e",
+        "title": "[FACT-CHECK] patterns/package/clips/data-drop.md — partial; missing performance and episode evidence",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 41000,
+        "createdAt": 1791132730845,
+        "updatedAt": 1791132730845,
+        "events": [
+          {
+            "id": "8f74271e-4ca5-4d41-b79c-effc76fbcdbd",
+            "kind": "created",
+            "at": 1791132730845,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact public article/body identity: patterns/package/clips/data-drop.md / e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54. AI reviewer: Cass Reelman, openai/gpt-6-astra; no human signoff. Report and proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md . All statuses partial; no publication. Retry 2026-10-11T16:48:17Z; skip open unchanged exact-body proposals, changes trigger re-audit. Preserve score/framework/customer-data gates. Substantive edits require final revised artifact, matching hash-bound evidence and authenticated exact-revision dashboard decision; no rewritten draft record may attach to old public bytes. Remain in review, not publish-ready.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/data-drop.md:e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  }
+]

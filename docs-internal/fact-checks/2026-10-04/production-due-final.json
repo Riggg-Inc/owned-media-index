@@ -1,0 +1,71 @@
+{
+  "as_of": "2026-10-04T16:53:41.271312Z",
+  "summary": {
+    "pages": 126,
+    "articles": 86,
+    "page_types": {
+      "Article": 86,
+      "WebPage": 12,
+      "CollectionPage": 28
+    },
+    "needs_review": 126,
+    "due": 126,
+    "states": {
+      "partial": 1,
+      "unreviewed": 125
+    },
+    "record_file_present": true,
+    "errors": 0,
+    "selected": 126,
+    "shown": 3
+  },
+  "items": [
+    {
+      "path": "patterns/publish/ai-search-optimization/measurement.md",
+      "page_type": "Article",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "partial",
+      "needs_review": true,
+      "due": true,
+      "checked_at": "2026-10-02T21:19:23.214605Z",
+      "due_at": "2026-10-03T21:19:23.214605Z",
+      "content_sha256": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+      "reasons": [
+        "partial review; unresolved claims remain",
+        "review cadence expired"
+      ]
+    },
+    {
+      "path": "evidence.md",
+      "page_type": "WebPage",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    },
+    {
+      "path": "framework.md",
+      "page_type": "WebPage",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    }
+  ],
+  "errors": []
+}

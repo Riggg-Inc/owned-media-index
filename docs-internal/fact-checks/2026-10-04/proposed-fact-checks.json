@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/publish/ai-search-optimization/measurement.md": {
+      "checked_at": "2026-10-04T16:51:17.124Z",
+      "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and fresh public primary-source comparison. Internal proposal, not publication. Unresolved: account-level availability, historic channel coverage, current preview lifecycle, cross-interface execution and vendor accuracy; obtain scoped evidence rather than repeat document-only checks. Report: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md",
+      "content_sha256": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+      "sources": [
+        {
+          "url": "https://developers.google.com/search/docs/appearance/ai-features",
+          "checked_at": "2026-10-04T16:47:07.503Z",
+          "claims": [
+            "Supported: Google AI features aggregate in Search Console Web; technical eligibility is not citation proof."
+          ]
+        },
+        {
+          "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+          "checked_at": "2026-10-04T16:47:07.067Z",
+          "claims": [
+            "Supported: native report metrics and sampled grounding; current property access uncertain."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+          "checked_at": "2026-10-04T16:47:07.696Z",
+          "claims": [
+            "Supported: AI Assistant excludes Google AI Overviews/Mode."
+          ]
+        },
+        {
+          "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+          "checked_at": "2026-10-04T16:47:58.685Z",
+          "claims": [
+            "Supported: query rewriting, location and memory affect context."
+          ]
+        },
+        {
+          "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq",
+          "checked_at": "2026-10-04T16:47:58.193Z",
+          "claims": [
+            "Supported: documented ChatGPT UTM; not universal arriving medium."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/12923437?hl=en",
+          "checked_at": "2026-10-04T16:47:59.369Z",
+          "claims": [
+            "Supported: session source/medium dimension."
+          ]
+        },
+        {
+          "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+          "checked_at": "2026-10-04T16:47:59.272Z",
+          "claims": [
+            "Supported: Direct has no clear referral source; source can be lost."
+          ]
+        },
+        {
+          "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+          "checked_at": "2026-10-04T16:47:59.084Z",
+          "claims": [
+            "Supported: indexed status not guarantee of appearance."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+          "checked_at": "2026-10-04T16:47:58.686Z",
+          "claims": [
+            "Supported: automated technical checks cannot establish quality."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+          "checked_at": "2026-10-04T16:47:58.444Z",
+          "claims": [
+            "Supported: site operator is incomplete."
+          ]
+        },
+        {
+          "url": "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+          "checked_at": "2026-10-04T16:47:58.275Z",
+          "claims": [
+            "Supported: days-to-weeks crawl, no 48-hour SLA."
+          ]
+        },
+        {
+          "url": "https://ahrefs.com/brand-radar",
+          "checked_at": "2026-10-04T16:47:57.703Z",
+          "claims": [
+            "Supported as vendor description only; accuracy uncertain."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-11T16:48:17Z"
+    },
+    "owned-media.md": {
+      "checked_at": "2026-10-04T16:51:17.124Z",
+      "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and fresh public primary-source comparison. Internal proposal, not publication. Unresolved: universal ownership and zero-loss claims contradicted; PESO source blocked HTTP403, platform features/portability and AI discovery outcomes not fully checked. Stage rights/provider qualifications for owner/framework and exact-revision review. Report: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md",
+      "content_sha256": "ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+      "sources": [
+        {
+          "url": "https://www.copyright.gov/what-is-copyright/",
+          "checked_at": "2026-10-04T16:48:16.584Z",
+          "claims": [
+            "US Copyright Office describes works made for hire owned by employers and ownership through assignments/transfers; creator ownership is not universal."
+          ]
+        },
+        {
+          "url": "https://transistor.fm/terms/",
+          "checked_at": "2026-10-04T16:47:58.040Z",
+          "claims": [
+            "Transistor terms reserve suspension or deletion of user accounts deemed inappropriate, offensive or in violation of terms."
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/static?template=terms",
+          "checked_at": "2026-10-04T16:47:06.755Z",
+          "claims": [
+            "Supported with rights caveats: platform license distinct from ownership."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-11T16:48:17Z"
+    },
+    "patterns/package/clips/data-drop.md": {
+      "checked_at": "2026-10-04T16:51:17.124Z",
+      "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and fresh public primary-source comparison. Internal proposal, not publication. Unresolved: causal clip-performance claims, internal-data substantiation, episode-level examples and prompt-quality claims. Public show descriptions support identity/topic only. Auditor evidence and exact-artifact human review required. Report: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-2026-10-04/docs-internal/fact-checks/2026-10-04/report-v1.md",
+      "content_sha256": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+      "sources": [
+        {
+          "url": "https://freakonomics.com/about/",
+          "checked_at": "2026-10-04T16:47:07.126Z",
+          "claims": [
+            "Supported: show/topic identity. Uncertain: recurring data mechanism or performance."
+          ]
+        },
+        {
+          "url": "https://a16z.com/podcasts/",
+          "checked_at": "2026-10-04T16:47:07.227Z",
+          "claims": [
+            "Supported: show/topic identity. Uncertain: specific market data or clip results."
+          ]
+        },
+        {
+          "url": "https://www.profgmedia.com/",
+          "checked_at": "2026-10-04T16:47:57.916Z",
+          "claims": [
+            "Supported: first-party positioning only. Uncertain: episode specifics, quotability and results."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-11T16:48:17Z"
+    }
+  }
+}
