@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/package/clips/debate-moment.md": {
+      "checked_at": "2026-10-05T16:49:39.912Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and primary-source comparison; partial support for show identity/positioning only. Unresolved: behavioral and causal performance claims, episode-level examples, internal-data provenance, prompt-quality guarantee. Retrieval failures and exact proposed corrections: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Internal proposal; not publication.",
+      "content_sha256": "9d0814315e9e63ffe4366dfb5465c9dc903c9da800b7dd093135d4625cd56641",
+      "sources": [
+        {
+          "url": "https://allin.com/",
+          "checked_at": "2026-10-05T16:47:15.045Z",
+          "claims": [
+            "All-In publisher describes group debate in its September 25 episode, not every episode."
+          ]
+        },
+        {
+          "url": "https://www.mfmpod.com/",
+          "checked_at": "2026-10-05T16:47:14.856Z",
+          "claims": [
+            "My First Million identifies Sam Parr and Shaan Puri as business-idea hosts; disagreement frequency unverified."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-12T16:45:00Z"
+    },
+    "patterns/package/clips/golden-nugget.md": {
+      "checked_at": "2026-10-05T16:49:39.912Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and primary-source comparison; partial support for show identity/positioning only. Unresolved: behavioral and causal performance claims, episode-level examples, internal-data provenance, prompt-quality guarantee. Retrieval failures and exact proposed corrections: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Internal proposal; not publication.",
+      "content_sha256": "aaf010734e9fd8332bd57584fe14b7bfc2679dd9ff894707019dae3eca8744be",
+      "sources": [
+        {
+          "url": "https://tim.blog/podcast/",
+          "checked_at": "2026-10-05T16:47:15.470Z",
+          "claims": [
+            "Tim Ferriss describes the intent to extract tactics, tools and routines; audience behavior unverified."
+          ]
+        },
+        {
+          "url": "https://fs.blog/knowledge-project-podcast/",
+          "checked_at": "2026-10-05T16:46:55.478Z",
+          "claims": [
+            "Official Knowledge Project page points to Apple id990149481, not the published id990149903."
+          ]
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/the-knowledge-project/id990149481",
+          "checked_at": "2026-10-05T16:47:57.278Z",
+          "claims": [
+            "Corrected Apple destination identifies Shane Parrish and the intended show; every-guest claim unverified."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-12T16:45:00Z"
+    },
+    "patterns/package/clips/hot-take.md": {
+      "checked_at": "2026-10-05T16:49:39.912Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body claim inventory and primary-source comparison; partial support for show identity/positioning only. Unresolved: behavioral and causal performance claims, episode-level examples, internal-data provenance, prompt-quality guarantee. Retrieval failures and exact proposed corrections: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Internal proposal; not publication.",
+      "content_sha256": "8732b030dfe6c933d0707844c7824a155b020c004774503fc4deae969858e48b",
+      "sources": [
+        {
+          "url": "https://www.profgmedia.com/",
+          "checked_at": "2026-10-05T16:47:15.012Z",
+          "claims": [
+            "Prof G describes Scott Galloway business analysis; clip performance unverified."
+          ]
+        },
+        {
+          "url": "https://www.mfmpod.com/",
+          "checked_at": "2026-10-05T16:47:14.856Z",
+          "claims": [
+            "My First Million identifies Sam Parr and Shaan Puri discussing business ideas; standalone performance unverified."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-12T16:45:00Z"
+    }
+  }
+}

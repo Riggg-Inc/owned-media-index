@@ -1,0 +1,16 @@
+test_body_change_is_stale (test_fact_checks.FactCheckTests.test_body_change_is_stale) ... ok
+test_cadence_caps_explicit_date (test_fact_checks.FactCheckTests.test_cadence_caps_explicit_date) ... ok
+test_cli_bounded_summary_and_validation_exit (test_fact_checks.FactCheckTests.test_cli_bounded_summary_and_validation_exit) ... ok
+test_every_published_page_and_unknown_target_rejected (test_fact_checks.FactCheckTests.test_every_published_page_and_unknown_target_rejected) ... ok
+test_hash_excludes_only_yaml (test_fact_checks.FactCheckTests.test_hash_excludes_only_yaml) ... ok
+test_invalid_dates_and_proof_fail (test_fact_checks.FactCheckTests.test_invalid_dates_and_proof_fail) ... ok
+test_missing_empty_malformed_and_duplicate_store (test_fact_checks.FactCheckTests.test_missing_empty_malformed_and_duplicate_store) ... ok
+test_oldest_overdue_precedes_newer_and_partial_requires_reason (test_fact_checks.FactCheckTests.test_oldest_overdue_precedes_newer_and_partial_requires_reason) ... ok
+test_partial_retry_is_not_fresh_and_is_bounded (test_fact_checks.FactCheckTests.test_partial_retry_is_not_fresh_and_is_bounded) ... ok
+test_rank_measurement_then_high_risk_then_evergreen (test_fact_checks.FactCheckTests.test_rank_measurement_then_high_risk_then_evergreen) ... ok
+test_unreviewed_never_uses_git_or_metadata (test_fact_checks.FactCheckTests.test_unreviewed_never_uses_git_or_metadata) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.035s
+
+OK

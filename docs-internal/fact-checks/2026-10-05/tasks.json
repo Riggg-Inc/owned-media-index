@@ -1,0 +1,107 @@
+[
+  {
+    "path": "patterns/package/clips/debate-moment.md",
+    "hash": "9d0814315e9e63ffe4366dfb5465c9dc903c9da800b7dd093135d4625cd56641",
+    "result": {
+      "card": {
+        "id": "064318ca-615e-4192-82c2-3c48b0c0255e",
+        "title": "[FACT-CHECK] patterns/package/clips/debate-moment.md — partial; example and outcome evidence gaps",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 42000,
+        "createdAt": 1791219025948,
+        "updatedAt": 1791219025948,
+        "events": [
+          {
+            "id": "0bc168b7-89d8-4c15-80b8-cc808f83f047",
+            "kind": "created",
+            "at": 1791219025948,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Article identity patterns/package/clips/debate-moment.md / 9d0814315e9e63ffe4366dfb5465c9dc903c9da800b7dd093135d4625cd56641. AI review only: Cass Reelman, openai/gpt-6-astra. No human signoff. Audit/proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Partial, NOT publish-ready. Obtain public episode and allowed generalized outcome evidence or review proposed removals/qualifications. Retry 2026-10-12T16:45Z; skip unchanged open proposals until then. Final corrections and recalculated body-bound record require exact revised artifact dashboard decision, customer-data scan and full release validation. No score, framework, tracking or public-date changes authorized.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/debate-moment.md:9d0814315e9e63ffe4366dfb5465c9dc903c9da800b7dd093135d4625cd56641",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "patterns/package/clips/golden-nugget.md",
+    "hash": "aaf010734e9fd8332bd57584fe14b7bfc2679dd9ff894707019dae3eca8744be",
+    "result": {
+      "card": {
+        "id": "b92b2beb-ea79-418f-81fe-ba4c8beb8ef9",
+        "title": "[FACT-CHECK] patterns/package/clips/golden-nugget.md — partial; example and outcome evidence gaps",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 43000,
+        "createdAt": 1791219026015,
+        "updatedAt": 1791219026015,
+        "events": [
+          {
+            "id": "f1dccc76-cbf2-4b9c-befa-39d9db6006f7",
+            "kind": "created",
+            "at": 1791219026015,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Article identity patterns/package/clips/golden-nugget.md / aaf010734e9fd8332bd57584fe14b7bfc2679dd9ff894707019dae3eca8744be. AI review only: Cass Reelman, openai/gpt-6-astra. No human signoff. Audit/proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Partial, NOT publish-ready. Obtain public episode and allowed generalized outcome evidence or review proposed removals/qualifications. Retry 2026-10-12T16:45Z; skip unchanged open proposals until then. Final corrections and recalculated body-bound record require exact revised artifact dashboard decision, customer-data scan and full release validation. No score, framework, tracking or public-date changes authorized.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/golden-nugget.md:aaf010734e9fd8332bd57584fe14b7bfc2679dd9ff894707019dae3eca8744be",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "patterns/package/clips/hot-take.md",
+    "hash": "8732b030dfe6c933d0707844c7824a155b020c004774503fc4deae969858e48b",
+    "result": {
+      "card": {
+        "id": "60805172-c3f1-4464-9f37-fd5ef961b371",
+        "title": "[FACT-CHECK] patterns/package/clips/hot-take.md — partial; example and outcome evidence gaps",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 44000,
+        "createdAt": 1791219026158,
+        "updatedAt": 1791219026158,
+        "events": [
+          {
+            "id": "699d2215-19e2-4b2e-9052-7bf4eae39ab2",
+            "kind": "created",
+            "at": 1791219026158,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Article identity patterns/package/clips/hot-take.md / 8732b030dfe6c933d0707844c7824a155b020c004774503fc4deae969858e48b. AI review only: Cass Reelman, openai/gpt-6-astra. No human signoff. Audit/proposed wording: https://github.com/Riggg-Inc/owned-media-index/blob/review/fact-check-20261005/docs-internal/fact-checks/2026-10-05/report-v1.md . Partial, NOT publish-ready. Obtain public episode and allowed generalized outcome evidence or review proposed removals/qualifications. Retry 2026-10-12T16:45Z; skip unchanged open proposals until then. Final corrections and recalculated body-bound record require exact revised artifact dashboard decision, customer-data scan and full release validation. No score, framework, tracking or public-date changes authorized.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/hot-take.md:8732b030dfe6c933d0707844c7824a155b020c004774503fc4deae969858e48b",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  }
+]
