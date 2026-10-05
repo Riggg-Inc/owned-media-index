@@ -2,13 +2,13 @@
 
 ## Scope and semantics
 
-Every published Markdown source under docs/ (excluding overrides/) receives one shared freshness block. This includes Articles, CollectionPage hubs, ordinary WebPages, and the template-driven homepage. The generated 404 does not receive provenance. The homepage keeps its no-breadcrumb exception and compact content-first hero; its override explicitly includes the shared partial because it replaces main.html's content block.
+Every published interior Markdown page receives one shared freshness block, including Articles, CollectionPage hubs and ordinary WebPages. The homepage (`docs/index.md`, `/`) is the sole published-content display exception: never render Last updated or fact-check status there. Enforce this in the shared partial, homepage template and release validator. Keep homepage source provenance/schema and review inventory intact; the exception is display-only. The generated 404 still has no freshness block. Preserve this rule in every future publishing/maintenance cycle.
 
 Last updated remains the true committed Markdown-body revision from History: frontmatter/template-only commits do not advance it; uncommitted bodies show Pending commit (preview), unavailable/shallow/future history fails closed. All relevant Article, WebPage and CollectionPage entities use the identical timestamp as the visible revision; pending/unavailable states omit dateModified. No datePublished, build-time fallback or fabricated fact-check dates are introduced.
 
 ### Homepage limitation requiring explicit acceptance
 
-home.html contains separately maintained visible homepage content and bypasses docs/index.md's rendered body. The homepage block therefore explicitly calls its timestamp the **homepage source-content revision**, with disclosure that presentation changes independently. It dates docs/index.md, not home.html. This is accurate source provenance, not a claim that all visible template content changed on that date. A future template-content provenance model or migration to a single content source should be a separate deliberate change; this implementation does not manufacture a historical template-body date or review attestation. Existing registry hashes continue to bind Markdown bodies only, including the homepage, so a homepage review must explicitly disclose its scope rather than imply template-wide verification.
+home.html contains separately maintained visible homepage content and bypasses docs/index.md's rendered body. The homepage has no visible freshness block. Its retained schema provenance is the Markdown source-content revision; presentation changes independently. It dates docs/index.md, not home.html. This is accurate source provenance, not a claim that all visible template content changed on that date. A future template-content provenance model or migration to a single content source should be a separate deliberate change; this implementation does not manufacture a historical template-body date or review attestation. Existing registry hashes continue to bind Markdown bodies only, including the homepage, so a homepage review must explicitly disclose its scope rather than imply template-wide verification.
 
 ## Inventory and review compatibility
 
@@ -20,7 +20,7 @@ fact_checks.py now inventories all published Markdown pages and accepts review r
 - Independent tests explicitly require homepage, hub, informational WebPage and tool Article coverage; none assume a fixed 84/85 Article count.
 - Audit detects missing output and unexpected built HTML, with generated 404 exempt from page freshness.
 - Legacy standalone Last updated / Last verified / Last fact-checked stamps are rejected in source and rendered paragraphs; explanatory prose, fenced examples, Source snapshot lines and claim-table dates remain allowed.
-- Date-only visible summaries retain exact UTC machine datetimes and disclosure details. Homepage breadcrumb absence is independently asserted.
+- Date-only visible summaries retain exact UTC machine datetimes and disclosure details. Homepage breadcrumb and freshness-display absence are independently asserted; all interior content pages must retain one freshness block.
 - Existing CI already runs strict build, all tests, site/AEO/freshness validation and registry validation with full Git history; no workflow changes are necessary.
 
 ## Verification

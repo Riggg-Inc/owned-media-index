@@ -124,6 +124,14 @@ def audit(root, site):
         kind = page_type(source.as_posix())
         entities = [g for g in doc.graphs if g.get('@type') in ('Article', 'WebPage', 'CollectionPage')]
         expected_types = ['WebPage', 'Article'] if kind == 'Article' else [kind]
+        if source.as_posix() == 'index.md':
+            if doc.blocks or doc.revision_times or doc.review_times or any(label in text for label in ('Last updated:', 'Last fact-checked', 'No fact-check recorded')):
+                errors.append(f'{source}: homepage must never display freshness metadata')
+            if [g.get('@type') for g in entities] != expected_types or any(g.get('dateModified') != revision.get('timestamp') for g in entities):
+                errors.append(f'{source}: homepage schema provenance mismatch')
+            if 'aria-label="Breadcrumb"' in text or any(g.get('@type') == 'BreadcrumbList' for g in doc.graphs):
+                errors.append(f'{source}: homepage breadcrumb exception lost')
+            continue
         if len(doc.blocks) != 1 or [g.get('@type') for g in entities] != expected_types:
             errors.append(f'{source}: expected one freshness block and correct page entities')
             continue
@@ -144,12 +152,7 @@ def audit(root, site):
         if review.get('timestamp') and doc.review_summary.strip() != review['label'] + ': ' + review['date']:
             errors.append(f'{source}: fact-check summary mismatch')
         block_at = text.find('class="omi-freshness"')
-        if source.as_posix() == 'index.md':
-            if 'aria-label="Breadcrumb"' in text or any(g.get('@type') == 'BreadcrumbList' for g in doc.graphs):
-                errors.append(f'{source}: homepage breadcrumb exception lost')
-            if not block_at < text.find('<h1'):
-                errors.append(f'{source}: homepage freshness missing above compact hero')
-        elif not 0 <= text.find('aria-label="Breadcrumb"') < block_at < text.find('<h1'):
+        if not 0 <= text.find('aria-label="Breadcrumb"') < block_at < text.find('<h1'):
             errors.append(f'{source}: metadata not under breadcrumb before content')
     for target in set(site.rglob('*.html')) - targets:
         if target == site / '404.html':
