@@ -1,0 +1,104 @@
+[
+  {
+    "path": "patterns/package/clips/index.md",
+    "result": {
+      "card": {
+        "id": "1ff87ca8-ef9d-4944-80b6-606f0e9496cd",
+        "title": "[FACT-CHECK] patterns/package/clips/index.md — partial; corrections staged",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 54000,
+        "createdAt": 1791305438547,
+        "updatedAt": 1791305438547,
+        "events": [
+          {
+            "id": "ea6d34df-1a52-4b90-a622-9c08d75dbff0",
+            "kind": "created",
+            "at": 1791305438547,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact current public body: patterns/package/clips/index.md / ab7ee123d5edd093df04787dbf2a173c6b23e5f1aa4990612f5c59630cbc6b3c. Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: X and Meta current upload/caption limits, 80% sound-off statistic, unbounded website embed claim and outcome claims remain unsupported; scope LinkedIn and YouTube qualifications. Retry 2026-10-13T16:45:00Z. No publication or human signoff. Auditor review and authenticated Garren/Ledge decision must bind final revised artifact; recompute evidence hash before release. Scores, privacy, tracking and dates unchanged. Skip unchanged open proposal on future queue runs.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/index.md:ab7ee123d5edd093df04787dbf2a173c6b23e5f1aa4990612f5c59630cbc6b3c",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "patterns/package/clips/story-beat.md",
+    "result": {
+      "card": {
+        "id": "78f71df4-17e2-4578-bf17-a0e475daf9c7",
+        "title": "[FACT-CHECK] patterns/package/clips/story-beat.md — partial; corrections staged",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 55000,
+        "createdAt": 1791305438616,
+        "updatedAt": 1791305438616,
+        "events": [
+          {
+            "id": "c31a3662-ee35-491d-a637-2f56b6392c18",
+            "kind": "created",
+            "at": 1791305438616,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact current public body: patterns/package/clips/story-beat.md / f51b8af297600c4d4cf0c958111b3177c4483feb72ac466891ccbc0be6ba904a. Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: Episode-level suitability, universal engagement and internal-data provenance not established; stage narrowed examples and prompt qualification. Retry 2026-10-13T16:45:00Z. No publication or human signoff. Auditor review and authenticated Garren/Ledge decision must bind final revised artifact; recompute evidence hash before release. Scores, privacy, tracking and dates unchanged. Skip unchanged open proposal on future queue runs.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/clips/story-beat.md:f51b8af297600c4d4cf0c958111b3177c4483feb72ac466891ccbc0be6ba904a",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "path": "patterns/package/descriptions/audience-pain-breakdown.md",
+    "result": {
+      "card": {
+        "id": "65fbbe74-01ed-42bc-ac51-6d983bdd4c7d",
+        "title": "[FACT-CHECK] patterns/package/descriptions/audience-pain-breakdown.md — partial; corrections staged",
+        "status": "review",
+        "priority": "normal",
+        "labels": [],
+        "position": 56000,
+        "createdAt": 1791305438722,
+        "updatedAt": 1791305438722,
+        "events": [
+          {
+            "id": "e6585a31-4a31-422a-8983-91a7a6b8b382",
+            "kind": "created",
+            "at": 1791305438722,
+            "toStatus": "review"
+          }
+        ],
+        "notes": "Exact current public body: patterns/package/descriptions/audience-pain-breakdown.md / e1147e69104777df2aa365af269da0e5072d4075b7c7028cd78173df07816b78. Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: Immediate attention outcome and pain-first example claims not established; SaaS show identity inaccessible; stage name correction and narrowed claims. Retry 2026-10-13T16:45:00Z. No publication or human signoff. Auditor review and authenticated Garren/Ledge decision must bind final revised artifact; recompute evidence hash before release. Scores, privacy, tracking and dates unchanged. Skip unchanged open proposal on future queue runs.",
+        "agentId": "main",
+        "metadata": {
+          "automation": {
+            "boardId": "owned-media-index",
+            "idempotencyKey": "fact-check:patterns/package/descriptions/audience-pain-breakdown.md:e1147e69104777df2aa365af269da0e5072d4075b7c7028cd78173df07816b78",
+            "workspaceAccess": {
+              "unrestricted": true
+            }
+          }
+        }
+      }
+    }
+  }
+]

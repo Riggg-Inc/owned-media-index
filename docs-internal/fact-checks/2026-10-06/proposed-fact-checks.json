@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/package/clips/index.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: X and Meta current upload/caption limits, 80% sound-off statistic, unbounded website embed claim and outcome claims remain unsupported; scope LinkedIn and YouTube qualifications.",
+      "content_sha256": "ab7ee123d5edd093df04787dbf2a173c6b23e5f1aa4990612f5c59630cbc6b3c",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/71673?hl=en",
+          "claims": [
+            "YouTube documents a 256 GB or 12 hour upload cap, whichever is less, with account verification needed above 15 minutes."
+          ],
+          "checked_at": "2026-10-06T16:47:20.896Z"
+        },
+        {
+          "url": "https://www.linkedin.com/help/linkedin/answer/a548372/",
+          "claims": [
+            "LinkedIn member video sharing documentation gives a 15 minute maximum and 5 GB file size."
+          ],
+          "checked_at": "2026-10-06T16:47:49.244Z"
+        },
+        {
+          "url": "https://www.linkedin.com/help/linkedin/answer/a1311816",
+          "claims": [
+            "LinkedIn Page and Career Page guidance gives a 10 minute maximum."
+          ],
+          "checked_at": "2026-10-06T16:47:49.660Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
+    },
+    "patterns/package/clips/story-beat.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: Episode-level suitability, universal engagement and internal-data provenance not established; stage narrowed examples and prompt qualification.",
+      "content_sha256": "f51b8af297600c4d4cf0c958111b3177c4483feb72ac466891ccbc0be6ba904a",
+      "sources": [
+        {
+          "url": "https://podcasts.apple.com/us/podcast/the-moth/id275699983",
+          "claims": [
+            "The Moth publisher describes podcast recordings of personal stories told live."
+          ],
+          "checked_at": "2026-10-06T16:47:50.556Z"
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297",
+          "claims": [
+            "How I Built This publisher describes founder interviews hosted by Guy Raz."
+          ],
+          "checked_at": "2026-10-06T16:47:51.233Z"
+        },
+        {
+          "url": "https://mastersofscale.com/",
+          "claims": [
+            "Masters of Scale publisher describes stories about scaling businesses."
+          ],
+          "checked_at": "2026-10-06T16:47:23.497Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
+    },
+    "patterns/package/descriptions/audience-pain-breakdown.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Full-body primary-source comparison; report: https://github.com/Riggg-Inc/owned-media-index/blob/fact-check/2026-10-06-1645/docs-internal/fact-checks/2026-10-06/report-v1.md . Unresolved: Immediate attention outcome and pain-first example claims not established; SaaS show identity inaccessible; stage name correction and narrowed claims.",
+      "content_sha256": "e1147e69104777df2aa365af269da0e5072d4075b7c7028cd78173df07816b78",
+      "sources": [
+        {
+          "url": "https://www.amyporterfield.com/marketing-strategy-podcast/",
+          "claims": [
+            "Amy Porterfield currently identifies the podcast as The Amy Porterfield Show."
+          ],
+          "checked_at": "2026-10-06T16:47:23.807Z"
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/the-amy-porterfield-show/id594703545",
+          "claims": [
+            "The existing Apple podcast identity is now titled The Amy Porterfield Show."
+          ],
+          "checked_at": "2026-10-06T16:47:52.196Z"
+        },
+        {
+          "url": "https://marketingschool.io/",
+          "claims": [
+            "Marketing School publishes business and marketing episode descriptions."
+          ],
+          "checked_at": "2026-10-06T16:47:24.371Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
+    }
+  }
+}
