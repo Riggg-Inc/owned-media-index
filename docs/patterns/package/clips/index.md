@@ -30,30 +30,33 @@ A strong clip should:
 
 ## Platform Constraints
 
-Hard limits for short-form video clips (horizontal 16:9).
+Selected upload limits and editorial export recommendations. Standard YouTube uploads are not Shorts; confirm the destination workflow before exporting.
 
-| Platform | Max Duration | Recommended Duration | Max File Size | Aspect Ratio | Format |
-|---|---|---|---|---|---|
-| YouTube (standard) | 12 hours | 30-90 seconds for clips | 256 GB | 16:9 | MP4 (H.264) |
-| LinkedIn (native video) | 10 minutes | 30-90 seconds | 5 GB | 16:9 or 1:1 | MP4 |
-| Twitter/X (native video) | 2:20 | 30-60 seconds | 512 MB | 16:9 or 1:1 | MP4 |
-| Facebook (native video) | 240 minutes | 30-90 seconds for clips | 10 GB | 16:9 | MP4 |
-| Website embed | No limit | 30-90 seconds | Varies by host | 16:9 | MP4/WebM |
+| Platform | Documented upload guidance | Aspect ratio and export guidance |
+|---|---|---|
+| YouTube (standard) | 15 minutes by default; verified accounts can upload longer videos, up to 12 hours or 256 GB, whichever is less | 16:9 is the desktop standard and our recommendation for horizontal clips; square and vertical are also supported. MP4/H.264 is recommended encoding, not the only supported format. |
+| LinkedIn | Member video-sharing guidance: 15 minutes. Page/Career Page guidance: 10 minutes. Both specify a 5 GB maximum; check the destination workflow. | Documented aspect range: 1:2.4–2.4:1. MP4 is supported alongside other formats; use 16:9 or 1:1 as editorial starting points. |
+| Twitter/X | Confirm duration and file-size limits for your account tier and upload client. | Check the current upload workflow; choose a crop that preserves the subject and captions. |
+| Facebook | Meta announced a unified reels flow without length or format restrictions, with a gradual rollout. Confirm the current destination's upload limits; the announcement does not establish unlimited file size. | Adapt framing to the destination preview rather than treating 16:9 as a universal requirement. |
+| Website embed | Duration, file size, codecs and captions depend on hosting and player configuration. | Use the host's supported formats and test the responsive player. |
 
-### Caption & Text Requirements
+Platform references: [YouTube upload limits](https://support.google.com/youtube/answer/71673?hl=en), [YouTube encoding recommendations](https://support.google.com/youtube/answer/1722171?hl=en), [LinkedIn member video sharing](https://www.linkedin.com/help/linkedin/answer/a548372/), [LinkedIn Page/Career Page video guidance](https://www.linkedin.com/help/linkedin/answer/a1311816), and [Meta's June 2025 reels announcement](https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/).
 
-| Platform | Burned-In Captions | Platform Captions | Caption File |
-|---|---|---|---|
-| LinkedIn | Recommended | Auto-generated (poor quality) | SRT upload supported |
-| Twitter/X | Recommended | Auto-generated | SRT supported |
-| YouTube | Optional | Auto-generated + editable | SRT/VTT upload |
-| Facebook | Recommended | Auto-generated | SRT upload supported |
+### Caption & Text Recommendations
+
+Make clips understandable without sound. Review captions for names, terminology, timing, and accuracy before publishing.
+
+| Destination | Caption workflow |
+|---|---|
+| YouTube | Automatic captions are available subject to language and processing limits; review and edit errors. SRT and VTT uploads are supported, with format-specific limitations. |
+| LinkedIn, Twitter/X, Facebook | Use reviewed burned-in captions for the social edit; verify native caption and caption-file support in the current publishing workflow. |
+| Website embed | Check the player's caption support and test captions on mobile and desktop. |
+
+YouTube references: [Automatic captions](https://support.google.com/youtube/answer/6373554?hl=en) and [supported caption files](https://support.google.com/youtube/answer/2734698?hl=en).
 
 ### Recommended Defaults
 
-- **Duration:** 30-90 seconds (sweet spot across all platforms)
-- **Format:** MP4 H.264, AAC audio
-- **Resolution:** 1920x1080 minimum
-- **Captions:** Always burn in — 80%+ of social video is watched without sound
-
-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
+- **Duration:** Start with 30–90 seconds; test audience retention rather than treating this as a universal optimum.
+- **Format:** MP4 H.264 with AAC audio as an editorial export default, subject to destination support.
+- **Resolution:** 1920×1080 for a horizontal master, not a minimum requirement across platforms; adapt vertical and square versions to the destination.
+- **Captions:** Burn in reviewed captions for social edits and check legibility, safe zones, and any overlap with native captions.

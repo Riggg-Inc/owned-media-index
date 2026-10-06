@@ -173,6 +173,37 @@
       ],
       "status": "partial",
       "next_review_at": "2026-10-12T13:20:38.898657+00:00"
+    },
+    "patterns/package/clips/index.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Original primary-source review completed 2026-10-06; saved audit and source extracts: https://github.com/Riggg-Inc/owned-media-index/blob/f3bfbc65efdd54656f944d5d4fa50eaab871944c/docs-internal/fact-checks/2026-10-06/report-v1.md . Approved correction compared with those extracts and rebound to its exact body on 2026-10-06 at publication review; original source-check timestamps retained, not a new fetch. Removed unsupported numeric X/Facebook limits, blanket non-YouTube caption assertions, 80% sound-off statistic and unlimited-embed claim; duration, encoding and resolution are now editorial defaults. Unresolved: account-specific X/Meta upload behavior and non-YouTube native caption support remain unverified and are explicitly deferred to destination checks. Retained scores, best-for labels and editorial recommendations have no independently verified comparative audience-outcome evidence. Auditor should review remaining provenance/outcome gaps and accessible current platform documentation by the existing retry date. Exact-version approval and later independent binding review are recorded on Workboard card 1ff87ca8-ef9d-4944-80b6-606f0e9496cd; checked_at records the original source audit, not review of this later revised body.",
+      "content_sha256": "bacf9c5019cb070a52b75099c077957778d566ac19c0422ae96393b56a38f2af",
+      "sources": [
+        {
+          "url": "https://support.google.com/youtube/answer/71673?hl=en",
+          "claims": [
+            "YouTube documents a 256 GB or 12 hour upload cap, whichever is less, with account verification needed above 15 minutes."
+          ],
+          "checked_at": "2026-10-06T16:47:20.896Z"
+        },
+        {
+          "url": "https://www.linkedin.com/help/linkedin/answer/a548372/",
+          "claims": [
+            "LinkedIn member video sharing documentation gives a 15 minute maximum and 5 GB file size."
+          ],
+          "checked_at": "2026-10-06T16:47:49.244Z"
+        },
+        {
+          "url": "https://www.linkedin.com/help/linkedin/answer/a1311816",
+          "claims": [
+            "LinkedIn Page and Career Page guidance gives a 10 minute maximum."
+          ],
+          "checked_at": "2026-10-06T16:47:49.660Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
     }
   }
 }
