@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "purpose": "Three correction articles in the normal OMI card review stream; no separate report approval",
+  "branch": "review/unified-corrections-20261006",
+  "artifactCommit": "f25890812292af8a908b38c2473e3c579ddf958a",
+  "baseCommit": "81de112d7f249b985eca07054ba633d3df83804f",
+  "auditCommit": "f3bfbc65efdd54656f944d5d4fa50eaab871944c",
+  "auditStatus": "partial",
+  "publicationAuthorized": false,
+  "bodyHashMethod": "SHA-256 of exact UTF-8 bytes after opening YAML frontmatter; scripts/fact_checks.py body_bytes; no whitespace normalization",
+  "cards": [
+    {
+      "cardId": "1ff87ca8-ef9d-4944-80b6-606f0e9496cd",
+      "title": "Clips",
+      "path": "docs/patterns/package/clips/index.md",
+      "fullMarkdown": "https://github.com/Riggg-Inc/owned-media-index/blob/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/clips/index.md",
+      "rawMarkdown": "https://raw.githubusercontent.com/Riggg-Inc/owned-media-index/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/clips/index.md",
+      "fullFileSha256": "02cbc00f2dbaa560d656968fd6ed983013ec138539c0e01f4aeaf97af01de877",
+      "bodySha256": "bacf9c5019cb070a52b75099c077957778d566ac19c0422ae96393b56a38f2af",
+      "baseFullFileSha256": "6f3495bed1ff05518f847287064ade2317dae88eed0a3e8b405739d72b595bb2",
+      "baseBodySha256": "ab7ee123d5edd093df04787dbf2a173c6b23e5f1aa4990612f5c59630cbc6b3c",
+      "baseMatchesAuditedBytes": true,
+      "summary": "Correct platform upload guidance without losing the clip-selection playbook. Distinguish YouTube default/verified uploads and recommended encoding; preserve both LinkedIn member and Page limits. Replace unverified X/Facebook limits and the sound-off percentage with actionable publishing checks and caption advice. Keep clip styles, scores, quality bar, and practical export defaults.",
+      "reviewInstruction": "Review the complete linked article version, not only this summary or the audit report. Approval must bind this artifact commit and both digests. This preparation does not approve or publish it.",
+      "unresolved": "Underlying source review remains partial; unchanged provenance/score labels are not newly verified. No new review timestamp or freshness pass is asserted."
+    },
+    {
+      "cardId": "78f71df4-17e2-4578-bf17-a0e475daf9c7",
+      "title": "Story Beat",
+      "path": "docs/patterns/package/clips/story-beat.md",
+      "fullMarkdown": "https://github.com/Riggg-Inc/owned-media-index/blob/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/clips/story-beat.md",
+      "rawMarkdown": "https://raw.githubusercontent.com/Riggg-Inc/owned-media-index/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/clips/story-beat.md",
+      "fullFileSha256": "320e33285fb3a4f8febfb21fa3332c197f25a34e65c17e300e537855de3f2889",
+      "bodySha256": "6e55743adf710e1f2a5f9ecc9a61a514b79b0e79c18fc10d6082095353a4a427",
+      "baseFullFileSha256": "6b000c486767aa3649cda582c3d9dc7ddad78e97671438f4d2958f561e9f35ce",
+      "baseBodySha256": "f51b8af297600c4d4cf0c958111b3177c4483feb72ac466891ccbc0be6ba904a",
+      "baseMatchesAuditedBytes": true,
+      "summary": "Keep the story-selection criteria, 60\u201390-second target, score, and usable extraction prompt. Replace guaranteed engagement and universal perfect-clip claims with accurate show-level descriptions and source-recording checks. Treat the Moth reference as a distributed recording, not live facilitation; remove the more-context guarantee.",
+      "reviewInstruction": "Review the complete linked article version, not only this summary or the audit report. Approval must bind this artifact commit and both digests. This preparation does not approve or publish it.",
+      "unresolved": "Underlying source review remains partial; unchanged provenance/score labels are not newly verified. No new review timestamp or freshness pass is asserted."
+    },
+    {
+      "cardId": "65fbbe74-01ed-42bc-ac51-6d983bdd4c7d",
+      "title": "Audience Pain Breakdown",
+      "path": "docs/patterns/package/descriptions/audience-pain-breakdown.md",
+      "fullMarkdown": "https://github.com/Riggg-Inc/owned-media-index/blob/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/descriptions/audience-pain-breakdown.md",
+      "rawMarkdown": "https://raw.githubusercontent.com/Riggg-Inc/owned-media-index/f25890812292af8a908b38c2473e3c579ddf958a/docs/patterns/package/descriptions/audience-pain-breakdown.md",
+      "fullFileSha256": "662f33ba57273929e4a67e72bdc8a012a4406b958241c635aaedfbd26a313b9d",
+      "bodySha256": "78ec612d80fdbd541dde9de4cb85e11648b5d21fc73b96bab565c3934abf30c5",
+      "baseFullFileSha256": "8fcfa14e99705e21f127f21fa5ba481918e88d804cf3041845659ab3582022db",
+      "baseBodySha256": "e1147e69104777df2aa365af269da0e5072d4075b7c7028cd78173df07816b78",
+      "baseMatchesAuditedBytes": true,
+      "summary": "Correct the current show name to The Amy Porterfield Show; remove the unverified SaaS show example and unsupported universal show-description claims. Preserve the pain \u2192 breakdown \u2192 resources framework, illustrative copy, quality bar, score, and 250-word prompt. Describe the intended audience benefit without promising immediate attention.",
+      "reviewInstruction": "Review the complete linked article version, not only this summary or the audit report. Approval must bind this artifact commit and both digests. This preparation does not approve or publish it.",
+      "unresolved": "Underlying source review remains partial; unchanged provenance/score labels are not newly verified. No new review timestamp or freshness pass is asserted."
+    }
+  ]
+}
