@@ -98,8 +98,8 @@
     "patterns/package/clips/debate-moment.md": {
       "checked_at": "2026-10-06T13:20:38.898657+00:00",
       "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
-      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed.",
-      "content_sha256": "7703f259d13f84f6b5123d7b3d19aff7025aba2e1cb6a8ebe6c4dd6209b953e3",
+      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed. Owner-authorized October6 disclaimer removal only: remaining article claims unchanged. Body binding updated after exact diff review; original check time, sources and partial status retained. No new factual review asserted.",
+      "content_sha256": "859117d6b7c751f353c64ca47891d85ad3011e5bff3fbaadf70ffa0d7040c1a4",
       "sources": [
         {
           "url": "https://allin.com/",
@@ -122,8 +122,8 @@
     "patterns/package/clips/golden-nugget.md": {
       "checked_at": "2026-10-06T13:20:38.898657+00:00",
       "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
-      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed.",
-      "content_sha256": "57d71a8ba06ec488bd9f62d8e7e6b93ff1fbeeff69f7da187dcb1b388a95217f",
+      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed. Owner-authorized October6 disclaimer removal only: remaining article claims unchanged. Body binding updated after exact diff review; original check time, sources and partial status retained. No new factual review asserted.",
+      "content_sha256": "5600c4654c0b2464e25cd8a63813e33f7e822f0452b34d175b5acdab230e8ad4",
       "sources": [
         {
           "url": "https://tim.blog/podcast/",
@@ -153,8 +153,8 @@
     "patterns/package/clips/hot-take.md": {
       "checked_at": "2026-10-06T13:20:38.898657+00:00",
       "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
-      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed.",
-      "content_sha256": "4fe48eebc9aeb52fd1951baf0b3d0a03a645048ba85f89d475e88390df133d7a",
+      "method": "AI review of complete proposed corrections against saved October5 primary-source snapshots and claim audit; sources were not freshly re-fetched for this draft. Removed unsupported outcome claims and unverified examples, corrected confirmed podcast destination, preserved explicit limits. Unresolved: legacy internal-data label and score lack substantiating outcome evidence; references are not episode-verified examples. No human publication approval and no full verification claimed. Owner-authorized October6 disclaimer removal only: remaining article claims unchanged. Body binding updated after exact diff review; original check time, sources and partial status retained. No new factual review asserted.",
+      "content_sha256": "fadb05fc84049a2488ddb915fe8ac6d0e5d421d395ff97e0a0fc0f6307ff9869",
       "sources": [
         {
           "url": "https://www.profgmedia.com/",

@@ -10,8 +10,6 @@ A clip built around a strong, opinionated statement from the host or guest. Use 
 **Score:** 5  
 **Evidence:** internal production data
 
-**Evidence limitation:** This is the existing evidence label and score, retained pending the separate scoring review. This source check did not establish supporting internal outcome data or a comparative performance benefit. The guidance below is an editorial recommendation, not a proven effectiveness claim.
-
 ## What It Is
 
 A clip built around a strong, opinionated statement from the host or guest. The speaker takes a clear position that challenges conventional thinking.

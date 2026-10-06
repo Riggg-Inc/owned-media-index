@@ -10,8 +10,6 @@ A clip capturing a single, actionable piece of advice or insight that the audien
 **Score:** 5  
 **Evidence:** internal production data
 
-**Evidence limitation:** This is the existing evidence label and score, retained pending the separate scoring review. This source check did not establish supporting internal outcome data or a comparative performance benefit. The guidance below is an editorial recommendation, not a proven effectiveness claim.
-
 ## What It Is
 
 A clip capturing a single, actionable piece of advice or insight that the audience can apply immediately. The value is dense and specific.
