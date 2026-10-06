@@ -54,7 +54,8 @@ class ScopeTests(unittest.TestCase):
     def test_archive_hash(self):
         reg=json.loads((ROOT/'docs-internal/intake-suppressions.json').read_text())
         for slug, provenance in reg['archive'].items():
-            self.assertEqual(hashlib.sha256((ROOT/'docs-internal/archive/rejected'/ (slug+'.md')).read_bytes()).hexdigest(), provenance['sha256'])
+            archive = ROOT / provenance.get('archive_path', 'docs-internal/archive/rejected/' + slug + '.md')
+            self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(), provenance['sha256'])
 
 if __name__ == '__main__':
     unittest.main()
