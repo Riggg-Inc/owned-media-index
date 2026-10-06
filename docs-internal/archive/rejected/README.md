@@ -40,3 +40,9 @@ Historical evidence only. Never recreate, recommend, substitute or merge. All si
 ## Data-Driven Targeted Learning — October 6, 2026
 
 Owner retirement at 16:26 UTC; canonical card 047c5c2d-ef27-4db9-adc6-7740fb4e21dd, duplicate 83c11644-d19c-4e09-b49e-e9861d41242f remains superseded. Training/cohort routing is not a recorded-media practice. Do not recreate under another title or owned-media framing. Byte-for-byte archive SHA-256 1da6ae6d34834faa139cdea4557740ddfc1c1a76cf6e3de538196393f19e6fff. Source path produce/data-driven-targeted-learning/data-driven-targeted-learning.md, current origin commit 696221a; original local drafting history 41840f8. At execution current origin DID contain the draft; isolated-origin and local-main source hashes matched. No unrelated unpublished commit imported. No public docs article removed.
+
+## Facilitated Peer Connection — October 6, 2026
+
+Owner retirement at 17:56 UTC; canonical card a34ea862-3aa4-4873-bb71-e7dd9d8fe107 remains done-retired, not published. Duplicate 73075383-ed4a-4389-8873-493ea2150b70 remains superseded history. Live-event facilitated peer interaction is outside recorded-media scope. Do not reopen, recreate, recommend, rename, substitute or consolidate.
+
+Byte-for-byte archive SHA-256 0172b9ebc3221946b7960e0563f5663a63f699c357be1167289edaa390e9aed9. Source path produce/audience-engagement/facilitated-peer-connection.md; source commit aea4c0f4beea576e79bf495ec27a6e0418f9bc72, historical card drafting reference 2f8764d. At execution origin/main 4f0667c9aa3a828bb354f8b856fa15237986bc77 DID contain the draft; isolated-origin and local-main source hashes matched. No unpublished commit or stash imported. No public docs article or active inbound recommendation existed; no published page removed. Historical reconciliation inventories remain unchanged snapshots, not current recommendations. Tests guard the retired slug, both card identifiers and archive hash. No other backlog disposition changed.

@@ -39,6 +39,13 @@ class ScopeTests(unittest.TestCase):
         self.assertIn('Routing individuals into specific learning tracks', source)
         self.assertIn('baseline engagement survey metrics', source)
         self.assertTrue(validate(dict(BASE,source_context=source,mechanism='cohort-routing',medium_practice=False)))
+    def test_facilitated_peer_retirement_and_duplicate(self):
+        source=(ROOT/'docs-internal/archive/rejected/facilitated-peer-connection.md').read_text()
+        self.assertIn('audience is encouraged to connect with one another', source)
+        self.assertTrue(validate(dict(BASE,slug='facilitated-peer-connection')))
+        for card in ['a34ea862-3aa4-4873-bb71-e7dd9d8fe107', '73075383-ed4a-4389-8873-493ea2150b70']:
+            self.assertTrue(validate(dict(BASE,slug='renamed-peer-networking',related_card_ids=[card])))
+        self.assertTrue(validate(dict(BASE,slug='renamed-peer-networking',source_context=source,mechanism='keynote-facilitation',medium_practice=False)))
     def test_real_recurring_draft_not_suppressed(self):
         source=(ROOT/'produce/audience-engagement/standardized-micro-segments.md').read_text()
         self.assertIn('purpose', source)

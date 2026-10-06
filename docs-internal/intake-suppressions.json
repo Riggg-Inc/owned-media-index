@@ -13,7 +13,8 @@
     "ai-disclosure-provenance-owned-asset",
     "time-sequenced-messaging",
     "platform-ad-skipping-monetization-resilience",
-    "modular-detail-contraction"
+    "modular-detail-contraction",
+    "facilitated-peer-connection"
   ],
   "superseded_slugs": [
     "gamified-branded-segments",
@@ -21,7 +22,9 @@
   ],
   "suppressed_card_ids": [
     "047c5c2d-ef27-4db9-adc6-7740fb4e21dd",
-    "83c11644-d19c-4e09-b49e-e9861d41242f"
+    "83c11644-d19c-4e09-b49e-e9861d41242f",
+    "a34ea862-3aa4-4873-bb71-e7dd9d8fe107",
+    "73075383-ed4a-4389-8873-493ea2150b70"
   ],
   "eligible_mechanisms": [
     "recorded-production",
@@ -47,6 +50,13 @@
       "source_commit": "696221a",
       "historical_original_commit": "41840f8",
       "decision": "Owner 2026-10-06 16:26 UTC; canonical retired, duplicate superseded"
+    },
+    "facilitated-peer-connection": {
+      "sha256": "0172b9ebc3221946b7960e0563f5663a63f699c357be1167289edaa390e9aed9",
+      "source_path": "produce/audience-engagement/facilitated-peer-connection.md",
+      "source_commit": "aea4c0f4beea576e79bf495ec27a6e0418f9bc72",
+      "historical_original_commit": "2f8764d",
+      "decision": "Owner 2026-10-06 17:56 UTC; canonical retired, duplicate superseded; live-event facilitation outside recorded-media scope; no substitute"
     }
   }
 }
