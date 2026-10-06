@@ -36,3 +36,7 @@ Historical evidence only. Never recreate, recommend, substitute or merge. All si
 - preserve/provenance/ai-disclosure-provenance-owned-asset.md: 171dffb59269fb04174d9257290ab5e01060bd538c3babca778167ac598e831f
 - publish/executive-outreach/time-sequenced-messaging.md: c2c5d9c030b68171174e13162878fbaa10802dc070037685880e4b415959c88e
 - publish/syndication/platform-ad-skipping-monetization-resilience.md: d8996d66c37191363f09dfc5476d8e3959fbf573426be754485490a8809ba5ec
+
+## Data-Driven Targeted Learning — October 6, 2026
+
+Owner retirement at 16:26 UTC; canonical card 047c5c2d-ef27-4db9-adc6-7740fb4e21dd, duplicate 83c11644-d19c-4e09-b49e-e9861d41242f remains superseded. Training/cohort routing is not a recorded-media practice. Do not recreate under another title or owned-media framing. Byte-for-byte archive SHA-256 1da6ae6d34834faa139cdea4557740ddfc1c1a76cf6e3de538196393f19e6fff. Source path produce/data-driven-targeted-learning/data-driven-targeted-learning.md, current origin commit 696221a; original local drafting history 41840f8. At execution current origin DID contain the draft; isolated-origin and local-main source hashes matched. No unrelated unpublished commit imported. No public docs article removed.

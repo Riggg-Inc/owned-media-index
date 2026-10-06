@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "slug",
+    "asset",
+    "source_locator",
+    "source_context",
+    "modality",
+    "participants",
+    "observed_action",
+    "demonstrates",
+    "interviewed_topic",
+    "audience_outcome",
+    "outcome_stage_link",
+    "mechanism",
+    "duplicate_check",
+    "reviewer",
+    "stage",
+    "full_context_read",
+    "medium_practice",
+    "semantic_duplicate_found",
+    "register_checked",
+    "existing_cards_checked",
+    "related_card_ids",
+    "scope_decision"
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asset": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modality": {
+      "type": "string",
+      "minLength": 1
+    },
+    "participants": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "demonstrates": {
+      "type": "string",
+      "minLength": 1
+    },
+    "interviewed_topic": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audience_outcome": {
+      "type": "string",
+      "minLength": 1
+    },
+    "outcome_stage_link": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mechanism": {
+      "type": "string",
+      "minLength": 1
+    },
+    "duplicate_check": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "enum": [
+        "Produce",
+        "Package",
+        "Publish",
+        "Prove",
+        "Preserve"
+      ]
+    },
+    "full_context_read": {
+      "const": true
+    },
+    "medium_practice": {
+      "const": true
+    },
+    "semantic_duplicate_found": {
+      "const": false
+    },
+    "register_checked": {
+      "const": true
+    },
+    "existing_cards_checked": {
+      "const": true
+    },
+    "related_card_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scope_decision": {
+      "const": "eligible"
+    }
+  },
+  "additionalProperties": false
+}

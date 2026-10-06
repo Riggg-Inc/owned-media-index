@@ -1,0 +1,52 @@
+{
+  "retired_slugs": [
+    "data-driven-targeted-learning",
+    "two-part-hook-structure",
+    "spaced-repetition-reflection",
+    "cascading-content-funnel",
+    "cross-format-fact-check-artifacts",
+    "audience-prep-networking",
+    "ad-metadata-brand-safety",
+    "focused-cohort-tracking",
+    "immersive-learning-exercises",
+    "new-bliss-closing",
+    "ai-disclosure-provenance-owned-asset",
+    "time-sequenced-messaging",
+    "platform-ad-skipping-monetization-resilience",
+    "modular-detail-contraction"
+  ],
+  "superseded_slugs": [
+    "gamified-branded-segments",
+    "owned-website-as-format-hub"
+  ],
+  "suppressed_card_ids": [
+    "047c5c2d-ef27-4db9-adc6-7740fb4e21dd",
+    "83c11644-d19c-4e09-b49e-e9861d41242f"
+  ],
+  "eligible_mechanisms": [
+    "recorded-production",
+    "media-packaging",
+    "owned-distribution",
+    "media-measurement",
+    "owned-preservation",
+    "recording-guest-preparation"
+  ],
+  "blocked_mechanisms": [
+    "training-design",
+    "cohort-routing",
+    "facilitated-audience-game",
+    "keynote-facilitation",
+    "sales-prospecting",
+    "programmatic-monetization",
+    "legal-guide"
+  ],
+  "archive": {
+    "data-driven-targeted-learning": {
+      "sha256": "1da6ae6d34834faa139cdea4557740ddfc1c1a76cf6e3de538196393f19e6fff",
+      "source_path": "produce/data-driven-targeted-learning/data-driven-targeted-learning.md",
+      "source_commit": "696221a",
+      "historical_original_commit": "41840f8",
+      "decision": "Owner 2026-10-06 16:26 UTC; canonical retired, duplicate superseded"
+    }
+  }
+}

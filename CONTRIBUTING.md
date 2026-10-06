@@ -60,3 +60,7 @@ Articles display the last committed content revision beneath the breadcrumbs, wi
 
 Riggg reviews contributions before merge. Accepted entries may be tagged `riggg-reviewed`.
 
+
+## Scope-first intake
+
+Before research intake, drafting or advancement, follow [scope intake](docs-internal/scope-intake.md), attach its structured evidence record and run its offline preflight. Existing scoring/publication policies are unchanged.
