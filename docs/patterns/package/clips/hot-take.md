@@ -10,13 +10,15 @@ A clip built around a strong, opinionated statement from the host or guest. Use 
 **Score:** 5  
 **Evidence:** internal production data
 
+**Evidence limitation:** This is the existing evidence label and score, retained pending the separate scoring review. This source check did not establish supporting internal outcome data or a comparative performance benefit. The guidance below is an editorial recommendation, not a proven effectiveness claim.
+
 ## What It Is
 
 A clip built around a strong, opinionated statement from the host or guest. The speaker takes a clear position that challenges conventional thinking.
 
-## Why It Works
+## Why Test This Pattern
 
-Opinions create engagement. People share, comment on, and argue with strong takes. The intended mechanism is a reaction to a clear position; compare impressions with your own baseline rather than assuming uplift.
+The intended mechanism is a reaction to a clear position. Measure comments, shares, and impressions against comparable clips rather than assuming strong opinions improve performance. Engagement alone does not establish that the clip helped the audience or advanced the show’s goals.
 
 ## Selection Criteria
 
@@ -30,15 +32,14 @@ Opinions create engagement. People share, comment on, and argue with strong take
 Avoid when the take is uninformed, when it might alienate the target audience, or when the speaker walks it back later in the episode.
 
 
-## Shows That Use This Pattern
+## Source Starting Points
 
-These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
+These sources support show identity or editorial positioning, not verified examples of this clip pattern or measured results. Review the original episode and exact wording before attributing an example.
 
 | Show | Why | Link |
 |---|---|---|
-| **The Diary Of A CEO** | Guest hot takes drive millions of clip views on YouTube and social | [YouTube](https://www.youtube.com/@TheDiaryOfACEO) |
-| **The Prof G Pod** | Scott Galloway's sharp opinions on markets and tech are built for clip extraction | [YouTube](https://www.youtube.com/@profgalloway) |
-| **My First Million** | Sam and Shaan deliver hot takes on business trends that perform as standalone clips | [YouTube](https://www.youtube.com/@MyFirstMillionPod) |
+| **Prof G Media** | Scott Galloway’s publication describes analysis of business, power, and society. Suitability for a standalone opinion clip requires episode-level review. | [Official site](https://www.profgmedia.com/) |
+| **My First Million** | Sam Parr and Shaan Puri discuss business ideas. Confirm a specific speaker’s position and its context before treating it as a standalone clip. | [Official site](https://www.mfmpod.com/) |
 
 ## Prompt Template
 
@@ -58,4 +59,4 @@ Requirements:
 - Provide: start/end timestamps, the quote, and a suggested clip title
 ```
 
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Replace the bracketed placeholders with your specific details. Provide relevant audience, guest, and episode context, then evaluate the output against the source. More context alone does not guarantee better results. Verify timestamps and clip duration against the recording; if the transcript has no reliable timecodes, return the exact excerpt and mark timing for manual verification instead of inventing timestamps.
