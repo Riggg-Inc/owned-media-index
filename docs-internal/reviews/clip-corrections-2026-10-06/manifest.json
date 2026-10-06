@@ -1,0 +1,31 @@
+{
+  "version": "clip-corrections-v1",
+  "base": "329678220e6b46f312393c2d9c0c23925cd108d9",
+  "source_audit": "a31c89b8b57f8d5850197d57fa5d5dce108c8f3a/docs-internal/fact-checks/2026-10-05/report-v1.md",
+  "drafts": [
+    {
+      "slug": "debate-moment",
+      "path": "docs/patterns/package/clips/debate-moment.md",
+      "card_id": "064318ca-615e-4192-82c2-3c48b0c0255e",
+      "file_sha256": "7b3e2cd434b0f880f370c865e530c0bb6b8d17256932d43926e5ba65b3640e40",
+      "content_sha256": "7703f259d13f84f6b5123d7b3d19aff7025aba2e1cb6a8ebe6c4dd6209b953e3",
+      "status": "awaiting-exact-revision-approval"
+    },
+    {
+      "slug": "golden-nugget",
+      "path": "docs/patterns/package/clips/golden-nugget.md",
+      "card_id": "b92b2beb-ea79-418f-81fe-ba4c8beb8ef9",
+      "file_sha256": "732656c0bfc3d586afd75272be2955ccf5dcc072e498bd7b86a376996321cf89",
+      "content_sha256": "57d71a8ba06ec488bd9f62d8e7e6b93ff1fbeeff69f7da187dcb1b388a95217f",
+      "status": "awaiting-exact-revision-approval"
+    },
+    {
+      "slug": "hot-take",
+      "path": "docs/patterns/package/clips/hot-take.md",
+      "card_id": "60805172-c3f1-4464-9f37-fd5ef961b371",
+      "file_sha256": "9467b6e248dfd07e7a4ee5dcdfb462b3f71db00720561bdb45f59a2b847e757d",
+      "content_sha256": "4fe48eebc9aeb52fd1951baf0b3d0a03a645048ba85f89d475e88390df133d7a",
+      "status": "awaiting-exact-revision-approval"
+    }
+  ]
+}

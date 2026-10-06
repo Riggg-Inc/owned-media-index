@@ -1,0 +1,55 @@
+diff --git a/docs/patterns/package/clips/golden-nugget.md b/docs/patterns/package/clips/golden-nugget.md
+index 98630b4..66665df 100644
+--- a/docs/patterns/package/clips/golden-nugget.md
++++ b/docs/patterns/package/clips/golden-nugget.md
+@@ -10,35 +10,36 @@ A clip capturing a single, actionable piece of advice or insight that the audien
+ **Score:** 5  
+ **Evidence:** internal production data
+ 
++**Evidence limitation:** This is the existing evidence label and score, retained pending the separate scoring review. This source check did not establish supporting internal outcome data or a comparative performance benefit. The guidance below is an editorial recommendation, not a proven effectiveness claim.
++
+ ## What It Is
+ 
+ A clip capturing a single, actionable piece of advice or insight that the audience can apply immediately. The value is dense and specific.
+ 
+-## Why It Works
++## Why Test This Pattern
+ 
+-Practitioners share tactics. When someone hears a specific, usable insight, they save it, screenshot it, or send it to a colleague. Treat saves and bookmarks as outcomes to measure, not a guaranteed advantage over other clip styles.
++The intended response is that a viewer finds the advice useful enough to save or share. Whether that happens must be measured. Compare saves, bookmarks, and shares with comparable clips; this review does not establish an advantage over other clip styles.
+ 
+ ## Selection Criteria
+ 
+ - One clear, actionable insight
+ - Advice is specific enough to act on immediately
+ - No jargon that requires context to understand
+-- Works for both beginners and experienced practitioners
++- Fits the intended audience’s knowledge level; do not assume the same advice serves beginners and experienced practitioners equally
+ 
+ ## When Not To Use
+ 
+ Avoid when the advice requires significant context to understand, or when the insight is too basic for the target audience.
+ 
+ 
+-## Shows That Use This Pattern
++## Source Starting Points
+ 
+-These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
++These sources support show identity or editorial positioning, not verified examples of this clip pattern or measured results. Review the original episode and exact wording before attributing an example.
+ 
+ | Show | Why | Link |
+ |---|---|---|
+-| **The Tim Ferriss Show** | Interviews consistently surface specific, actionable tactics from world-class performers | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795) |
+-| **The Knowledge Project** | Shane Parrish extracts dense, quotable mental models from every guest | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+-| **Ali Abdaal's Deep Dive** | Designed around extracting specific, implementable advice | [YouTube](https://www.youtube.com/@aliabdaal) |
++| **The Tim Ferriss Show** | The show describes its aim as extracting tactics, tools, and routines. Validate any selected advice in its episode context; the description does not establish consistent outcomes. | [Official site](https://tim.blog/podcast/) |
++| **The Knowledge Project** | Shane Parrish hosts conversations about principles and decision-making. Identify a specific usable insight before clipping; not every guest or episode is assumed to provide one. | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project/id990149481) · [Official site](https://fs.blog/knowledge-project-podcast/) |
+ 
+ ## Prompt Template
+ 
+@@ -58,4 +59,4 @@ Requirements:
+ - Provide: start/end timestamps, the quote, and a suggested clip title
+ ```
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Replace the bracketed placeholders with your specific details. Provide relevant audience, guest, and episode context, then evaluate the output against the source. More context alone does not guarantee better results. Verify timestamps and clip duration against the recording; if the transcript has no reliable timecodes, return the exact excerpt and mark timing for manual verification instead of inventing timestamps.
