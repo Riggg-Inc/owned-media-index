@@ -44,3 +44,9 @@ Every session should produce a complete media package: not just one deliverable,
 | Package mobile-first video | [Reels](reels/index.md) | Use vertical framing, captions, and a fast hook. |
 | Create visual packaging | [Thumbnails](thumbnails/index.md) and [Quote Graphics](quote-graphics/index.md) | Thumbnails introduce an asset; quote graphics carry a standalone moment. |
 | Write distribution copy | [Social Posts](social-posts/index.md) | Choose the post purpose, then its platform version. |
+
+## Podcast Show Name
+
+| Pattern | What It Covers |
+|---|---|
+| [Podcast Show Name](podcast-show-name.md) | Choose a name your intended listeners can understand, distinguish, and repeat. |
