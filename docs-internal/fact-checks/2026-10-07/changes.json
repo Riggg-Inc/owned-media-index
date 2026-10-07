@@ -1,0 +1,190 @@
+{
+  "docs/index.md": [
+    [
+      "Everything in this index maps to five stages",
+      "The pattern library is organized around five stages"
+    ],
+    [
+      "How every claim is sourced",
+      "Our standards for sourcing claims"
+    ],
+    [
+      "What's coming next and how the index evolves quarterly",
+      "Planned development areas and a proposed quarterly issue"
+    ],
+    [
+      "Most owned media advice is scattered, generic, or vendor-pitched.",
+      "We built this index to bring practical guidance and its evidence into one place."
+    ],
+    [
+      "Every pattern answers three questions:",
+      "Our editorial standard asks each pattern to answer three questions:"
+    ],
+    [
+      "Entries are scored and sourced. Nothing earns a 5 without evidence.",
+      "Scores are editorial judgments. Our [scoring standard](scoring.md) reserves 5 for a recommended default with strong evidence and broad usefulness; consult each entry's evidence and limitations."
+    ],
+    [
+      "We produce podcasts, webinars, livestreams, and virtual events like real shows,\nturn every session into a complete media package, and publish it across the right channels.",
+      "Riggg offers recording, production, media packaging, and publishing services for expert-led companies."
+    ]
+  ],
+  "docs/overrides/home.html": [
+    [
+      "Every entry in the index maps to one of five stages",
+      "The pattern library is organized around five stages"
+    ],
+    [
+      "Everything You Need",
+      "Explore the Index"
+    ],
+    [
+      "Ranked patterns, evidence-backed standards, and opinionated guidance",
+      "Ranked patterns, documented standards, and opinionated guidance"
+    ],
+    [
+      "From raw capture to broadcast-quality output.",
+      "Guidance for capture and production quality."
+    ],
+    [
+      "Top-performing title styles",
+      "Ranked title styles"
+    ],
+    [
+      "Performance Benchmarks",
+      "Performance Measurement"
+    ],
+    [
+      "the numbers that prove owned media works",
+      "guidance for evaluating owned-media performance"
+    ],
+    [
+      "how to make every session findable forever",
+      "practices for making sessions easier to find and reuse"
+    ],
+    [
+      "Every pattern earns a 1\u20135 score based on evidence, reliability, and real-world production results. Nothing gets a 5 without proof.",
+      "Our scoring standard uses a 1\u20135 scale based on usefulness, evidence, repeatability, and fit for real production. Consult each entry\u2019s evidence and limitations."
+    ],
+    [
+      "Every entry in the index follows the same structure.",
+      "Our editorial standard asks patterns to follow a shared structure."
+    ],
+    [
+      "Most owned media advice is scattered across blog posts, vendor marketing, and Twitter threads. The Index cuts through that by forcing every entry through a structured template.",
+      "We built the Index to bring practical guidance and its evidence into one place, using a structured pattern template."
+    ],
+    [
+      "Each pattern answers three questions: What is this for? When do you use it? What does good look like? If it can't answer all three with evidence, it doesn't ship.",
+      "Our editorial standard asks each pattern to explain its purpose, when to use it, and what good looks like, with evidence and tradeoffs."
+    ],
+    [
+      "A 5 means industry standard with production data behind it.",
+      "A 5 means recommended default, with strong evidence and broad usefulness under our scoring standard."
+    ],
+    [
+      "Prove ROI with benchmarks and attribution models.",
+      "Evaluate outcomes with scorecards and attribution guidance."
+    ],
+    [
+      "The complete guide to simultaneous live streaming across LinkedIn, YouTube, Facebook, and vertical social platforms.",
+      "Planning guidance for simulcast production; check each destination\u2019s current access and format requirements."
+    ],
+    [
+      "Real-time production workflows using OBS Studio for broadcast-quality shows with lower thirds, transitions, and multi-cam.",
+      "Production guidance covering OBS Studio, lower thirds, transitions, and multiple cameras."
+    ],
+    [
+      "Ranked description styles that improve discoverability across Apple Podcasts, Spotify, and podcast directories.",
+      "Ranked description styles and metadata guidance for podcast directories; consult each entry\u2019s evidence and limitations."
+    ],
+    [
+      "Open Source. Opinionated.",
+      "Community Contributions. Opinionated Guidance."
+    ],
+    [
+      "Every contribution is reviewed by the Riggg team.",
+      "See the contribution guidance for the editorial standard."
+    ],
+    [
+      "We produce podcasts, webinars, livestreams, and virtual events like real shows,\n    turn every session into a complete media package, and publish it across the right channels.",
+      "Riggg offers recording, production, media packaging, and publishing services for expert-led companies."
+    ]
+  ],
+  "docs/patterns/publish/ai-search-optimization/measurement.md": [
+    [
+      "Microsoft's public-preview report covers",
+      "Microsoft's February 2026 public-preview announcement describes coverage of"
+    ],
+    [
+      "Native citation reporting for its documented supported AI surfaces; preserve public-preview and sampling caveats.",
+      "Citation reporting for the surfaces described in its February 2026 public-preview announcement; verify current property access and retain sampling caveats."
+    ]
+  ],
+  "docs/owned-media.md": [
+    [
+      "Social posts and video files remain owned assets even when distributed through rented platforms;",
+      "Social posts and video files can remain assets you control when distributed through rented platforms, subject to the rights you hold;"
+    ],
+    [
+      "Owned media is any content you create and any channel you control \u2014 where no third party can revoke your access, change the rules, or take your audience away.",
+      "For operating purposes, distinguish content rights from practical control of distribution and audience relationships. Retain rights, permissions, exports, and migration options; a provider account is not a guarantee of uninterrupted access."
+    ],
+    [
+      "**The asset** (what you made) is always owned. A video file, a transcript, a clip, a written post \u2014 you created it, you own it, regardless of where it gets published.",
+      "**The asset** (what you made) is distinct from its distribution platform. Retain masters and confirm ownership or sufficient licenses, including contributor agreements and third-party components. Creating or uploading a file alone does not establish every right. The [U.S. Copyright Office](https://www.copyright.gov/what-is-copyright/) explains work-made-for-hire and ownership transfers; this is U.S. guidance, not a determination of any particular project\u2019s rights."
+    ],
+    [
+      "Your website and email list are owned reach. LinkedIn and YouTube are rented reach.",
+      "A website and permissioned email list can provide more direct control; retain portable copies and check provider terms. Social-platform reach remains dependent on the platform."
+    ],
+    [
+      "This means social content you write and design is owned media. The platform you post it to is not. You own what you make. You do not own the pipe.",
+      "Treat social content as a reusable asset when you hold the necessary rights. That does not give you ownership of the distribution platform."
+    ],
+    [
+      "Raw outputs from a recording session. Owned before any platform touches them.",
+      "Raw outputs to retain from a recording session, subject to contributor agreements and the rights in incorporated material."
+    ],
+    [
+      "Everything created to wrap and surface the source media. Fully owned content regardless of where it's distributed.",
+      "Assets created to package the source media. Check reuse and distribution rights for each component."
+    ],
+    [
+      "These are the only channels where losing the platform means losing nothing \u2014 because you own the relationship.",
+      "These channels can improve continuity when you retain rights, audience permissions, independent exports, and a migration path. A hosting account still depends on its provider: [Transistor\u2019s terms](https://transistor.fm/terms/) reserve account suspension or deletion."
+    ],
+    [
+      "you own the content, not the pipe",
+      "you retain content rights, not ownership of the platform"
+    ],
+    [
+      "You own the content. You do not own the platform, the algorithm, or the audience relationship. If the platform disappears or changes its rules, the reach is gone.",
+      "Content rights and platform access are separate. A platform change can interrupt reach; independently retained, permissioned audience relationships may remain."
+    ],
+    [
+      "A channel termination or policy change would eliminate the audience relationship entirely. The video files themselves remain owned assets.",
+      "A channel termination or policy change can remove access to that platform audience; independently retained, permissioned relationships may remain. [YouTube\u2019s terms](https://www.youtube.com/static?template=terms) preserve your existing content ownership while requiring upload rights and allowing service changes."
+    ],
+    [
+      "Data and reporting assets that live in your systems. Owned by definition.",
+      "Data and reporting assets to retain in your systems, subject to applicable permissions, contracts, and privacy requirements."
+    ],
+    [
+      "The longest-lived owned assets. These compound over time and power AI search discoverability (AEO).",
+      "Assets intended to support long-term retrieval and reuse. AI-search visibility must be measured rather than assumed; [Google\u2019s guidance](https://developers.google.com/search/docs/appearance/ai-features) describes eligibility, not guaranteed inclusion."
+    ],
+    [
+      "What you create is always yours. Where it reaches is rented.",
+      "Check the rights in what you create separately from the conditions governing its distribution."
+    ],
+    [
+      "**Asset test:** Did you create it? \u2192 It's owned content.",
+      "**Asset test:** Do you own or hold sufficient rights to retain, reuse, and distribute it, including all incorporated components?"
+    ],
+    [
+      "Owned media is built on assets you create and channels where you hold the relationship. Everything else is rented reach \u2014 valuable, but not yours.",
+      "Build around assets you have rights to use and relationships you can maintain with permission. Test exports and migration options instead of assuming that a platform account guarantees continuity."
+    ]
+  ]
+}

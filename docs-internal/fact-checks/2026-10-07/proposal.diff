@@ -1,0 +1,329 @@
+diff --git a/docs/index.md b/docs/index.md
+index 61ada26..6ee493b 100644
+--- a/docs/index.md
++++ b/docs/index.md
+@@ -10,7 +10,7 @@ The Owned Media Index (OMI) is an open library of patterns, tools, benchmarks, a
+ 
+ ## The Framework
+ 
+-Everything in this index maps to five stages of the owned media operating system.
++The pattern library is organized around five stages of the owned media operating system.
+ 
+ <div class="riggg-pipeline">
+   <div class="riggg-step">
+@@ -43,31 +43,30 @@ Everything in this index maps to five stages of the owned media operating system
+ |---|---|
+ | **Patterns** | Ranked, reusable patterns for every stage — titles, clips, distributions, reels, thumbnails, and more |
+ | **Scoring** | How patterns earn a 1–5 Riggg score and what each level means |
+-| **Evidence** | How every claim is sourced — internal data, teardowns, platform docs, or practitioner observation |
+-| **Roadmap** | What's coming next and how the index evolves quarterly |
++| **Evidence** | Our standards for sourcing claims — internal data, teardowns, platform docs, or practitioner observation |
++| **Roadmap** | Planned development areas and a proposed quarterly issue |
+ | **Contribute** | How to submit a pattern, correct an entry, or propose a new section |
+ 
+ <div class="riggg-accent-bar"></div>
+ 
+ ## Why This Exists
+ 
+-Most owned media advice is scattered, generic, or vendor-pitched.
++We built this index to bring practical guidance and its evidence into one place.
+ 
+-This index is opinionated. Every pattern answers three questions:
++This index is opinionated. Our editorial standard asks each pattern to answer three questions:
+ 
+ 1. **What is this for?** — Use case and context.
+ 2. **When do you use it?** — Trigger conditions, skill level, format.
+ 3. **What does good look like?** — Quality bar, benchmark, or minimum standard.
+ 
+-Entries are scored and sourced. Nothing earns a 5 without evidence.
++Scores are editorial judgments. Our [scoring standard](scoring.md) reserves 5 for a recommended default with strong evidence and broad usefulness; consult each entry's evidence and limitations.
+ 
+ <div class="riggg-accent-bar"></div>
+ 
+ ## Published by Riggg
+ 
+ [Riggg](https://riggg.com) is the owned media engine for expert-led companies.
+-We produce podcasts, webinars, livestreams, and virtual events like real shows,
+-turn every session into a complete media package, and publish it across the right channels.
++Riggg offers recording, production, media packaging, and publishing services for expert-led companies.
+ 
+ This index is how we give back to the community building the practice of owned media.
+ 
+diff --git a/docs/overrides/home.html b/docs/overrides/home.html
+index 256003b..358a5ed 100644
+--- a/docs/overrides/home.html
++++ b/docs/overrides/home.html
+@@ -424,7 +424,7 @@
+ <div class="omi-section omi-framework">
+   <h2 id="the-framework">The Framework</h2>
+   <p class="omi-subtitle">
+-    Every entry in the index maps to one of five stages of the owned media operating system.
++    The pattern library is organized around five stages of the owned media operating system.
+   </p>
+ 
+   <div class="riggg-pipeline">
+@@ -437,23 +437,23 @@
+ </div>
+ 
+ 
+-<!-- ═══ Section 2: Everything You Need ═══ -->
++<!-- ═══ Section 2: Explore the Index ═══ -->
+ <div class="omi-section omi-section--alt">
+-  <h2 id="whats-inside">Everything You Need</h2>
++  <h2 id="whats-inside">Explore the Index</h2>
+   <p class="omi-subtitle">
+-    Ranked patterns, evidence-backed standards, and opinionated guidance for every stage of owned media.
++    Ranked patterns, documented standards, and opinionated guidance for every stage of owned media.
+   </p>
+ 
+   <div class="omi-cards">
+     <div class="omi-card omi-card--teal">
+       <span class="omi-card-icon">🎬</span>
+       <h3><a href="{{ 'patterns/produce/' | url }}">Production Patterns</a></h3>
+-      <p>Real-time production standards, OBS workflows, recording setups, and live show production guides. From raw capture to broadcast-quality output.</p>
++      <p>Real-time production standards, OBS workflows, recording setups, and live show production guides. Guidance for capture and production quality.</p>
+     </div>
+     <div class="omi-card omi-card--navy">
+       <span class="omi-card-icon">✂️</span>
+       <h3><a href="{{ 'patterns/package/' | url }}">Packaging Standards</a></h3>
+-      <p>Top-performing title styles, RSS descriptions, clip selection criteria, reel packaging, thumbnail hooks, and everything that wraps your content for publishing.</p>
++      <p>Ranked title styles, RSS descriptions, clip selection criteria, reel packaging, thumbnail hooks, and everything that wraps your content for publishing.</p>
+     </div>
+     <div class="omi-card omi-card--teal">
+       <span class="omi-card-icon">🚀</span>
+@@ -462,18 +462,18 @@
+     </div>
+     <div class="omi-card omi-card--burgundy">
+       <span class="omi-card-icon">📊</span>
+-      <h3><a href="{{ 'patterns/prove/' | url }}">Performance Benchmarks</a></h3>
+-      <p>Session performance scorecards, per-episode metrics, conversion events, attribution models, and the numbers that prove owned media works.</p>
++      <h3><a href="{{ 'patterns/prove/' | url }}">Performance Measurement</a></h3>
++      <p>Session performance scorecards, per-episode metrics, conversion events, attribution models, and guidance for evaluating owned-media performance.</p>
+     </div>
+     <div class="omi-card omi-card--navy">
+       <span class="omi-card-icon">🧠</span>
+       <h3><a href="{{ 'patterns/preserve/' | url }}">Content Memory</a></h3>
+-      <p>Transcript standards, vector search indexing, content library architecture, AEO visibility, and how to make every session findable forever.</p>
++      <p>Transcript standards, vector search indexing, content library architecture, AEO visibility, and practices for making sessions easier to find and reuse.</p>
+     </div>
+     <div class="omi-card omi-card--teal">
+       <span class="omi-card-icon">⭐</span>
+       <h3><a href="{{ 'scoring/' | url }}">Riggg Scored</a></h3>
+-      <p>Every pattern earns a 1–5 score based on evidence, reliability, and real-world production results. Nothing gets a 5 without proof.</p>
++      <p>Our scoring standard uses a 1–5 scale based on usefulness, evidence, repeatability, and fit for real production. Consult each entry’s evidence and limitations.</p>
+     </div>
+   </div>
+ </div>
+@@ -483,7 +483,7 @@
+ <div class="omi-section">
+   <h2>How Patterns Work</h2>
+   <p class="omi-subtitle">
+-    Every entry in the index follows the same structure. No blog posts disguised as guides. No vibes without evidence.
++    Our editorial standard asks patterns to follow a shared structure. No blog posts disguised as guides. No vibes without evidence.
+   </p>
+ 
+   <div class="omi-anatomy">
+@@ -519,9 +519,9 @@
+     </div>
+     <div class="omi-anatomy-text">
+       <h3>Opinionated. Sourced. Specific.</h3>
+-      <p>Most owned media advice is scattered across blog posts, vendor marketing, and Twitter threads. The Index cuts through that by forcing every entry through a structured template.</p>
+-      <p>Each pattern answers three questions: What is this for? When do you use it? What does good look like? If it can't answer all three with evidence, it doesn't ship.</p>
+-      <p>Patterns are scored on a 1–5 scale. A 5 means industry standard with production data behind it. A 1 means it's documented for context but not recommended.</p>
++      <p>We built the Index to bring practical guidance and its evidence into one place, using a structured pattern template.</p>
++      <p>Our editorial standard asks each pattern to explain its purpose, when to use it, and what good looks like, with evidence and tradeoffs.</p>
++      <p>Patterns are scored on a 1–5 scale. A 5 means recommended default, with strong evidence and broad usefulness under our scoring standard. A 1 means it's documented for context but not recommended.</p>
+     </div>
+   </div>
+ </div>
+@@ -557,7 +557,7 @@
+     </div>
+     <div class="omi-audience-card">
+       <h4>📊 Marketing Leaders</h4>
+-      <p>In-house teams integrating owned media into the full marketing stack. Prove ROI with benchmarks and attribution models.</p>
++      <p>In-house teams integrating owned media into the full marketing stack. Evaluate outcomes with scorecards and attribution guidance.</p>
+     </div>
+   </div>
+ </div>
+@@ -579,12 +579,12 @@
+     <div class="omi-update">
+       <div class="omi-update-tag">Publish</div>
+       <h4><a href="{{ 'patterns/publish/simulcast-standard/' | url }}">Simulcast Standard</a></h4>
+-      <p>The complete guide to simultaneous live streaming across LinkedIn, YouTube, Facebook, and vertical social platforms.</p>
++      <p>Planning guidance for simulcast production; check each destination’s current access and format requirements.</p>
+     </div>
+     <div class="omi-update">
+       <div class="omi-update-tag">Produce</div>
+       <h4><a href="{{ 'patterns/produce/obs-production-standard/' | url }}">OBS Production Standard</a></h4>
+-      <p>Real-time production workflows using OBS Studio for broadcast-quality shows with lower thirds, transitions, and multi-cam.</p>
++      <p>Production guidance covering OBS Studio, lower thirds, transitions, and multiple cameras.</p>
+     </div>
+     <div class="omi-update">
+       <div class="omi-update-tag">Preserve</div>
+@@ -594,7 +594,7 @@
+     <div class="omi-update">
+       <div class="omi-update-tag">Package</div>
+       <h4><a href="{{ 'patterns/package/descriptions/' | url }}">RSS Feed Description Patterns</a></h4>
+-      <p>Ranked description styles that improve discoverability across Apple Podcasts, Spotify, and podcast directories.</p>
++      <p>Ranked description styles and metadata guidance for podcast directories; consult each entry’s evidence and limitations.</p>
+     </div>
+     <div class="omi-update">
+       <div class="omi-update-tag">Prove</div>
+@@ -607,9 +607,9 @@
+ 
+ <!-- ═══ Section 6: Open Source CTA ═══ -->
+ <div class="omi-section omi-section--dark omi-cta-banner">
+-  <h2 id="published-by-riggg">Open Source. Opinionated.</h2>
++  <h2 id="published-by-riggg">Community Contributions. Opinionated Guidance.</h2>
+   <p>
+-    The Owned Media Index is open to the community. Submit a pattern. Correct an entry. Propose a new section. Every contribution is reviewed by the Riggg team.
++    The Owned Media Index is open to the community. Submit a pattern. Correct an entry. Propose a new section. See the contribution guidance for the editorial standard.
+   </p>
+   <div class="omi-cta-btns">
+     <a href="{{ 'contribute/' | url }}" class="omi-btn omi-btn--p">How to Contribute</a>
+@@ -623,8 +623,7 @@
+   <img src="{{ 'assets/riggg-mark.svg' | url }}" alt="Riggg" style="filter:none;">
+   <p>
+     <strong>Riggg</strong> is the owned media engine for expert-led companies.
+-    We produce podcasts, webinars, livestreams, and virtual events like real shows,
+-    turn every session into a complete media package, and publish it across the right channels.
++    Riggg offers recording, production, media packaging, and publishing services for expert-led companies.
+   </p>
+   <p style="font-size:0.82em;color:#999;">
+     The Owned Media Index is how we contribute to the community building the practice of owned media.
+diff --git a/docs/owned-media.md b/docs/owned-media.md
+index edab580..6c0b41b 100644
+--- a/docs/owned-media.md
++++ b/docs/owned-media.md
+@@ -4,18 +4,18 @@ description: "What owned media means at Riggg: the asset vs. distribution layer
+ 
+ # Owned Media: Definition, Assets, and Channels
+ 
+-This Index distinguishes **owned assets** (the content you create) from **owned channels** (where you control the audience relationship). Social posts and video files remain owned assets even when distributed through rented platforms; the definition and ownership tests below explain the distinction.
++This Index distinguishes **owned assets** (the content you create) from **owned channels** (where you control the audience relationship). Social posts and video files can remain assets you control when distributed through rented platforms, subject to the rights you hold; the definition and ownership tests below explain the distinction.
+ 
+ ## What Owned Media Means at Riggg
+ 
+-Owned media is any content you create and any channel you control — where no third party can revoke your access, change the rules, or take your audience away.
++For operating purposes, distinguish content rights from practical control of distribution and audience relationships. Retain rights, permissions, exports, and migration options; a provider account is not a guarantee of uninterrupted access.
+ 
+ The critical distinction is between the **asset** and the **distribution layer**:
+ 
+-- **The asset** (what you made) is always owned. A video file, a transcript, a clip, a written post — you created it, you own it, regardless of where it gets published.
+-- **The distribution layer** (where you put it) determines whether your *reach* is owned or rented. Your website and email list are owned reach. LinkedIn and YouTube are rented reach.
++- **The asset** (what you made) is distinct from its distribution platform. Retain masters and confirm ownership or sufficient licenses, including contributor agreements and third-party components. Creating or uploading a file alone does not establish every right. The [U.S. Copyright Office](https://www.copyright.gov/what-is-copyright/) explains work-made-for-hire and ownership transfers; this is U.S. guidance, not a determination of any particular project’s rights.
++- **The distribution layer** (where you put it) determines whether your *reach* is owned or rented. A website and permissioned email list can provide more direct control; retain portable copies and check provider terms. Social-platform reach remains dependent on the platform.
+ 
+-This means social content you write and design is owned media. The platform you post it to is not. You own what you make. You do not own the pipe.
++Treat social content as a reusable asset when you hold the necessary rights. That does not give you ownership of the distribution platform.
+ 
+ ---
+ 
+@@ -37,7 +37,7 @@ Riggg organizes all owned media activity around five operational stages. The 5Ps
+ 
+ ### Produce
+ 
+-Raw outputs from a recording session. Owned before any platform touches them.
++Raw outputs to retain from a recording session, subject to contributor agreements and the rights in incorporated material.
+ 
+ - Video master files
+ - Audio master files
+@@ -49,7 +49,7 @@ Raw outputs from a recording session. Owned before any platform touches them.
+ 
+ ### Package
+ 
+-Everything created to wrap and surface the source media. Fully owned content regardless of where it's distributed.
++Assets created to package the source media. Check reuse and distribution rights for each component.
+ 
+ **Long-form assets**
+ 
+@@ -97,11 +97,11 @@ Everything created to wrap and surface the source media. Fully owned content reg
+ 
+ ### Publish
+ 
+-Where the asset goes. This stage splits between **owned channels** (you control the infrastructure and the audience relationship) and **shared distribution** (you own the content, not the pipe).
++Where the asset goes. This stage splits between **owned channels** (you control the infrastructure and the audience relationship) and **shared distribution** (you retain content rights, not ownership of the platform).
+ 
+ #### Owned Channels
+ 
+-These are the only channels where losing the platform means losing nothing — because you own the relationship.
++These channels can improve continuity when you retain rights, audience permissions, independent exports, and a migration path. A hosting account still depends on its provider: [Transistor’s terms](https://transistor.fm/terms/) reserve account suspension or deletion.
+ 
+ | Channel | What Lives Here |
+ |---|---|
+@@ -113,7 +113,7 @@ These are the only channels where losing the platform means losing nothing — b
+ 
+ #### Shared Distribution
+ 
+-You own the content. You do not own the platform, the algorithm, or the audience relationship. If the platform disappears or changes its rules, the reach is gone.
++Content rights and platform access are separate. A platform change can interrupt reach; independently retained, permissioned audience relationships may remain.
+ 
+ | Platform | Content Type |
+ |---|---|
+@@ -126,13 +126,13 @@ You own the content. You do not own the platform, the algorithm, or the audience
+ | **Facebook** | Posts, clips, live simulcasts |
+ 
+ !!! note "A note on YouTube"
+-    YouTube is treated as shared distribution — not owned — for the same reason Spotify and Apple Podcasts are. Google controls the algorithm, monetization rules, and account access. A channel termination or policy change would eliminate the audience relationship entirely. The video files themselves remain owned assets.
++    YouTube is treated as shared distribution — not owned — for the same reason Spotify and Apple Podcasts are. Google controls the algorithm, monetization rules, and account access. A channel termination or policy change can remove access to that platform audience; independently retained, permissioned relationships may remain. [YouTube’s terms](https://www.youtube.com/static?template=terms) preserve your existing content ownership while requiring upload rights and allowing service changes.
+ 
+ ---
+ 
+ ### Prove
+ 
+-Data and reporting assets that live in your systems. Owned by definition.
++Data and reporting assets to retain in your systems, subject to applicable permissions, contracts, and privacy requirements.
+ 
+ - Session performance scorecards
+ - Per-episode metrics reports
+@@ -145,7 +145,7 @@ Data and reporting assets that live in your systems. Owned by definition.
+ 
+ ### Preserve
+ 
+-The longest-lived owned assets. These compound over time and power AI search discoverability (AEO).
++Assets intended to support long-term retrieval and reuse. AI-search visibility must be measured rather than assumed; [Google’s guidance](https://developers.google.com/search/docs/appearance/ai-features) describes eligibility, not guaranteed inclusion.
+ 
+ - Clean transcripts (indexed and searchable)
+ - Vector-indexed content library
+@@ -162,7 +162,7 @@ The longest-lived owned assets. These compound over time and power AI search dis
+ The PESO Model (Dietrich, 2014) classifies media as Paid, Earned, Shared, and Owned. Riggg aligns with the spirit of that model but sharpens two points:
+ 
+ **1. Social content is owned; social platforms are shared.**
+-Gini Dietrich places social media in the Shared quadrant. At Riggg, we split the asset from the distribution layer. The post you write, the clip you cut, the graphic you design — those are owned media. The platform you post them to is the shared layer. What you create is always yours. Where it reaches is rented.
++Gini Dietrich places social media in the Shared quadrant. At Riggg, we split the asset from the distribution layer. The post you write, the clip you cut, the graphic you design — those are owned media. The platform you post them to is the shared layer. Check the rights in what you create separately from the conditions governing its distribution.
+ 
+ **2. The 5Ps replace the channel taxonomy as the operating model.**
+ PESO helps you categorize media types. The Riggg 5Ps describe how to run a media operation — Produce, Package, Publish, Prove, Preserve. Where PESO asks "what kind of media is this?", the OMI asks "what stage of the system are we in?"
+@@ -173,8 +173,8 @@ PESO helps you categorize media types. The Riggg 5Ps describe how to run a media
+ 
+ When evaluating whether something is owned media, apply two tests:
+ 
+-**Asset test:** Did you create it? → It's owned content.
++**Asset test:** Do you own or hold sufficient rights to retain, reuse, and distribute it, including all incorporated components?
+ 
+ **Channel test:** If the platform shut down tomorrow, would you lose the audience relationship? → If yes, it's shared distribution, not an owned channel.
+ 
+-Owned media is built on assets you create and channels where you hold the relationship. Everything else is rented reach — valuable, but not yours.
++Build around assets you have rights to use and relationships you can maintain with permission. Test exports and migration options instead of assuming that a platform account guarantees continuity.
+diff --git a/docs/patterns/publish/ai-search-optimization/measurement.md b/docs/patterns/publish/ai-search-optimization/measurement.md
+index 3413add..6c4dcd2 100644
+--- a/docs/patterns/publish/ai-search-optimization/measurement.md
++++ b/docs/patterns/publish/ai-search-optimization/measurement.md
+@@ -26,7 +26,7 @@ A useful report answers different questions without conflating them: “Was this
+ |---|---|---|
+ | Sampled AI answers | Save the exact prompt, response and linked URLs from the actual engine/interface | Whether a particular response mentioned the brand or cited a page. Not all answers, all users, or market share. |
+ | Google Search performance | Export Search Console Web data with the same dates, pages, countries and devices each period | Google includes AI Overviews and AI Mode in overall Web performance. Do not label that aggregate an AI-only citation or traffic report. [Google AI features](https://developers.google.com/search/docs/appearance/ai-features). |
+-| Bing AI Performance | In an authorized Bing Webmaster Tools property, record total citations, average cited pages, grounding queries and page-level citation activity when available | Microsoft's public-preview report covers Microsoft Copilot, AI-generated Bing summaries and select partner integrations. Grounding queries are a sample of retrieval phrases, not a complete log of user prompts; citation counts do not indicate rank or placement. [Microsoft announcement](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/). |
++| Bing AI Performance | In an authorized Bing Webmaster Tools property, record total citations, average cited pages, grounding queries and page-level citation activity when available | Microsoft's February 2026 public-preview announcement describes coverage of Microsoft Copilot, AI-generated Bing summaries and select partner integrations. Grounding queries are a sample of retrieval phrases, not a complete log of user prompts; citation counts do not indicate rank or placement. [Microsoft announcement](https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/). |
+ | Attributable site visits | Inspect GA4 session source/medium and channel data, landing pages and defined outcomes | Measured incoming activity, not how often an answer was seen or cited. Preserve source and channel definitions when comparing periods. [GA4 Traffic acquisition](https://support.google.com/analytics/answer/12923437?hl=en). |
+ 
+ Google says AI Mode and AI Overviews can use different models and techniques, so their responses and links vary; Overviews do not always trigger. [ChatGPT Search](https://help.openai.com/en/articles/9237897-chatgpt-search) can rewrite queries, use approximate location and use relevant saved memories. Record those contexts where known. A single successful prompt is not a stable visibility baseline.
+@@ -82,7 +82,7 @@ Suggested operating cadence, not platform requirements:
+ | Tool | Appropriate use and limitation |
+ |---|---|
+ | Google Search Console | Web search performance and index diagnostics; not a stand-alone count of AI citations. |
+-| Bing Webmaster Tools AI Performance | Native citation reporting for its documented supported AI surfaces; preserve public-preview and sampling caveats. |
++| Bing Webmaster Tools AI Performance | Citation reporting for the surfaces described in its February 2026 public-preview announcement; verify current property access and retain sampling caveats. |
+ | GA4 | Attributable sessions and validated outcomes; not total answer exposure or proof of causation. |
+ | Google Rich Results Test | Technical rich-result checks; not evidence that an answer engine used a page. |
+ | ChatGPT Search and other authorized answer interfaces | Capture actual sampled responses and source links; identify the precise interface and settings. |

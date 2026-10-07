@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "reviews": {
+    "index.md": {
+      "checked_at": "2026-10-07T16:54:47.149244Z",
+      "reviewer": "Cass Reelman \u2014 AI, openai/gpt-6-astra",
+      "method": "Fresh primary-source comparison; full claim matrix and all sources: docs-internal/fact-checks/2026-10-07/report-v1.md. Proposed body only. Unresolved: template licensing and archive compliance not certified",
+      "content_sha256": "6f9ae70c36dc9ed1f445b4d768901f88843ffbe04aa56d8ac05b082d9fb256f8",
+      "sources": [
+        {
+          "url": "https://index.riggg.com/scoring/",
+          "checked_at": "2026-10-07T16:48:21.765Z",
+          "claims": [
+            "Published score 5 means recommended default, strong evidence and broad usefulness."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-14T16:54:47.149244Z"
+    },
+    "patterns/publish/ai-search-optimization/measurement.md": {
+      "checked_at": "2026-10-07T16:54:47.149244Z",
+      "reviewer": "Cass Reelman \u2014 AI, openai/gpt-6-astra",
+      "method": "Fresh primary-source comparison; full claim matrix and all sources: docs-internal/fact-checks/2026-10-07/report-v1.md. Proposed body only. Unresolved: current preview lifecycle, account access and historical channel coverage",
+      "content_sha256": "ee7b0d3dacb876827c456be1fd7e7cde92e07e2b8d24809aed3e923d2d5bca33",
+      "sources": [
+        {
+          "url": "https://developers.google.com/search/docs/appearance/ai-features",
+          "checked_at": "2026-10-07T16:49:16.153Z",
+          "claims": [
+            "Google AI features require indexing and snippet eligibility; performance is included in Search Console Web."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-14T16:54:47.149244Z"
+    },
+    "owned-media.md": {
+      "checked_at": "2026-10-07T16:54:47.149244Z",
+      "reviewer": "Cass Reelman \u2014 AI, openai/gpt-6-astra",
+      "method": "Fresh primary-source comparison; full claim matrix and all sources: docs-internal/fact-checks/2026-10-07/report-v1.md. Proposed body only. Unresolved: PESO HTTP403, unchecked platform table, framework reconciliation",
+      "content_sha256": "369c004b5cd94389f27a480a0dbe6d900232cec1ec38e91c3bf4a655f5df0e24",
+      "sources": [
+        {
+          "url": "https://www.copyright.gov/what-is-copyright/",
+          "checked_at": "2026-10-07T16:48:22.359Z",
+          "claims": [
+            "U.S. copyright ownership can arise from work made for hire or transfers."
+          ]
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-14T16:54:47.149244Z"
+    }
+  }
+}

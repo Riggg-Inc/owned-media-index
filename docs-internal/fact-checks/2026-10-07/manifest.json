@@ -1,0 +1,34 @@
+{
+  "base_commit": "ac730c9b4f5d62d1b863bf59213d1fc5aaef29a1",
+  "reviewer": "Cass Reelman \u2014 AI, openai/gpt-6-astra",
+  "files": [
+    {
+      "path": "docs/index.md",
+      "base_body_sha256": "1f48724164ca94e101fb6e15e791995cda333adb5cea48e9fbbc5dd88341e47d",
+      "proposed_body_sha256": "6f9ae70c36dc9ed1f445b4d768901f88843ffbe04aa56d8ac05b082d9fb256f8",
+      "full_file_sha256": "502016a902b71a5f8ef50ffb2c8525805d4ead6f8a357c60b48c777b34c7fd93",
+      "artifact": "docs-internal/fact-checks/2026-10-07/revisions/docs/index.md"
+    },
+    {
+      "path": "docs/patterns/publish/ai-search-optimization/measurement.md",
+      "base_body_sha256": "a743c2475f1b934884fd4db693303d4af1fcf95acd27d43593338a00466f228a",
+      "proposed_body_sha256": "ee7b0d3dacb876827c456be1fd7e7cde92e07e2b8d24809aed3e923d2d5bca33",
+      "full_file_sha256": "8a015b4dc2c951f94e993440f2b6bc5c608663bae382b88486180010102f71a8",
+      "artifact": "docs-internal/fact-checks/2026-10-07/revisions/docs/patterns/publish/ai-search-optimization/measurement.md"
+    },
+    {
+      "path": "docs/owned-media.md",
+      "base_body_sha256": "ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+      "proposed_body_sha256": "369c004b5cd94389f27a480a0dbe6d900232cec1ec38e91c3bf4a655f5df0e24",
+      "full_file_sha256": "25a76cabd25074fa6534acfcfcac07acb9d26637b4f7eb4e1e33f635035a9f84",
+      "artifact": "docs-internal/fact-checks/2026-10-07/revisions/docs/owned-media.md"
+    },
+    {
+      "path": "docs/overrides/home.html",
+      "base_body_sha256": "517dc813dc6e79cd0f4865e290790f30097759bc18a523112e6f8912fd100d6e",
+      "proposed_body_sha256": "8c5baa3c50691c242b2315a292fea85eb6d5b3034f56417d85dddbb004e27cd0",
+      "full_file_sha256": "8c5baa3c50691c242b2315a292fea85eb6d5b3034f56417d85dddbb004e27cd0",
+      "artifact": "docs-internal/fact-checks/2026-10-07/revisions/docs/overrides/home.html"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/production/omi-fact-check-20261007/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - patterns/package/clips/index.md
+  - patterns/package/clips/data-drop.md
+  - patterns/package/clips/debate-moment.md
+  - patterns/package/clips/golden-nugget.md
+  - patterns/package/clips/hot-take.md
+  - patterns/package/clips/story-beat.md
+  - patterns/package/descriptions/index.md
+  - patterns/package/descriptions/audience-pain-breakdown.md
+  - patterns/package/descriptions/big-question-summary.md
+  - patterns/package/descriptions/credential-context-learn.md
+  - patterns/package/descriptions/guest-story-arc.md
+  - patterns/package/descriptions/problem-credibility-takeaway.md
+  - patterns/package/descriptions/thesis-takeaways-cta.md
+  - patterns/package/quote-graphics/index.md
+  - patterns/package/quote-graphics/audiogram-card.md
+  - patterns/package/quote-graphics/branded-pull-quote.md
+  - patterns/package/quote-graphics/conversation-exchange.md
+  - patterns/package/quote-graphics/speaker-quote.md
+  - patterns/package/quote-graphics/stat-callout.md
+  - patterns/package/reels/index.md
+  - patterns/package/reels/before-after-reveal.md
+  - patterns/package/reels/hook-insight-cta.md
+  - patterns/package/reels/quote-card-motion.md
+  - patterns/package/reels/rapid-fire.md
+  - patterns/package/reels/teaser-trailer.md
+  - patterns/package/social-posts/index.md
+  - patterns/package/social-posts/types/behind-the-scenes/index.md
+  - patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
+  - patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
+  - patterns/package/social-posts/types/clip-companion/index.md
+  - patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
+  - patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
+  - patterns/package/social-posts/types/episode-announcement/index.md
+  - patterns/package/social-posts/types/episode-announcement/instagram-caption.md
+  - patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
+  - patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
+  - patterns/package/social-posts/types/evergreen-reshare/index.md
+  - patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
+  - patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
+  - patterns/package/social-posts/types/guest-tag/index.md
+  - patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
+  - patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
+  - patterns/package/social-posts/types/key-takeaway/index.md
+  - patterns/package/social-posts/types/key-takeaway/linkedin-insight.md
+  - patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md
+  - patterns/package/social-posts/types/quote-share/index.md
+  - patterns/package/social-posts/types/quote-share/linkedin-quote-post.md
+  - patterns/package/social-posts/types/quote-share/twitter-quote-card.md
+  - patterns/package/social-posts/types/thread-breakdown/index.md
+  - patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
+  - patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
+  - patterns/package/thumbnails/index.md
+  - patterns/package/thumbnails/branded-template.md
+  - patterns/package/thumbnails/data-visual.md
+  - patterns/package/thumbnails/emotion-close-up.md
+  - patterns/package/thumbnails/guest-headshot-text.md
+  - patterns/package/thumbnails/scene-still.md
+  - patterns/package/titles/index.md
+  - patterns/package/titles/authority-claim.md
+  - patterns/package/titles/before-after-playbook.md
+  - patterns/package/titles/big-question.md
+  - patterns/package/titles/contrarian-hook.md
+  - patterns/package/titles/future-of.md
+  - patterns/package/titles/guest-authority.md
+  - patterns/package/titles/hidden-cost.md
+  - patterns/package/titles/how-to-outcome.md
+  - patterns/package/titles/inside-look.md
+  - patterns/package/titles/numbered-insight.md
+  - patterns/package/titles/role-guide.md
+  - patterns/preserve/content-memory-standard.md
+  - patterns/preserve/geo-aeo-citation-volatility.md
+  - patterns/produce/obs-production-standard.md
+  - patterns/produce/obs-scene-collection-template.md
+  - patterns/produce/standardized-micro-segments.md
+  - patterns/produce/master/index.md
+  - patterns/produce/master/audio-mastering.md
+  - patterns/produce/master/export-specs.md
+  - patterns/produce/master/video-mastering.md
+  - patterns/produce/record/index.md
+  - patterns/produce/record/google-meet.md
+  - patterns/produce/record/hybrid-recording.md
+  - patterns/produce/record/in-studio-multi-camera.md
+  - patterns/produce/record/remote-isolated.md
+  - patterns/produce/record/streamyard.md
+  - patterns/produce/record/zoom-cloud.md
+  - patterns/produce/record/zoom-local.md
+  - patterns/produce/recording/hls-video-podcast-distribution.md
+  - patterns/produce/rough-cut/index.md
+  - patterns/prove/amp-accords-play-standard.md
+  - patterns/prove/session-performance-scorecard.md
+  - patterns/prove/video-threshold-economics.md
+  - patterns/publish/canonical-episode-page.md
+  - patterns/publish/feed-metadata-standard.md
+  - patterns/publish/linkedin-release-post-patterns.md
+  - patterns/publish/owned-email-newsletter.md
+  - patterns/publish/simulcast-standard.md
+  - patterns/publish/youtube-title-and-description-standard.md
+  - patterns/publish/ai-search-optimization/index.md
+  - patterns/publish/ai-search-optimization/citation-architecture.md
+  - patterns/publish/ai-search-optimization/measurement.md
+  - patterns/publish/ai-search-optimization/platform-visibility.md
+  - patterns/publish/ai-search-optimization/show-notes-for-llms.md
+  - patterns/publish/ai-search-optimization/structured-data.md
+  - patterns/publish/ai-search-optimization/transcript-optimization.md
+INFO    -  Documentation built in 37.44 seconds
+Audited 127 HTML pages and 8182 internal link/resource references; 0 errors.
+
+AEO: 126 pages; {'WebPage': 12, 'CollectionPage': 28, 'Article': 86}; 0 errors.
+
+Audited freshness on 126 published pages; 0 errors.
+
+{
+  "as_of": "2026-10-07T16:56:02.759229Z",
+  "summary": {
+    "pages": 126,
+    "articles": 86,
+    "page_types": {
+      "WebPage": 12,
+      "Article": 86,
+      "CollectionPage": 28
+    },
+    "needs_review": 126,
+    "due": 123,
+    "states": {
+      "unreviewed": 123,
+      "partial": 3
+    },
+    "record_file_present": true,
+    "errors": 0,
+    "selected": 126,
+    "shown": 3
+  },
+  "items": [
+    {
+      "path": "evidence.md",
+      "page_type": "WebPage",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    },
+    {
+      "path": "framework.md",
+      "page_type": "WebPage",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    },
+    {
+      "path": "patterns/package/clips/data-drop.md",
+      "page_type": "Article",
+      "risk": "high",
+      "cadence_days": 30,
+      "state": "unreviewed",
+      "needs_review": true,
+      "due": true,
+      "checked_at": null,
+      "due_at": null,
+      "content_sha256": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+      "reasons": [
+        "no content-bound evidence review record"
+      ]
+    }
+  ],
+  "errors": []
+}
+test_all_published_metadata (test_aeo.AeoTests.test_all_published_metadata) ... ok
+test_home_cards_link_to_published_pages (test_aeo.AeoTests.test_home_cards_link_to_published_pages) ... ok
+test_metadata_parser_preserves_duplicates (test_aeo.AeoTests.test_metadata_parser_preserves_duplicates) ... ok
+test_summary_gate_rejects_empty_or_uncited_evidence (test_aeo.AeoTests.test_summary_gate_rejects_empty_or_uncited_evidence) ... ok
+test_types_are_conservative (test_aeo.AeoTests.test_types_are_conservative) ... ok
+test_whole_graph_escapes_hostile_strings (test_aeo.AeoTests.test_whole_graph_escapes_hostile_strings) ... ok
+test_archive_bytes_and_provenance (test_anchoring_supersession.AnchoringSupersessionTests.test_archive_bytes_and_provenance) ... ok
+test_no_standalone_source_or_public_recommendation (test_anchoring_supersession.AnchoringSupersessionTests.test_no_standalone_source_or_public_recommendation) ... ok
+test_accept_is_explicit_and_reject_remains_available (test_consent.ConsentTests.test_accept_is_explicit_and_reject_remains_available) ... ok
+test_body_change_is_stale (test_fact_checks.FactCheckTests.test_body_change_is_stale) ... ok
+test_cadence_caps_explicit_date (test_fact_checks.FactCheckTests.test_cadence_caps_explicit_date) ... ok
+test_cli_bounded_summary_and_validation_exit (test_fact_checks.FactCheckTests.test_cli_bounded_summary_and_validation_exit) ... ok
+test_every_published_page_and_unknown_target_rejected (test_fact_checks.FactCheckTests.test_every_published_page_and_unknown_target_rejected) ... ok
+test_hash_excludes_only_yaml (test_fact_checks.FactCheckTests.test_hash_excludes_only_yaml) ... ok
+test_invalid_dates_and_proof_fail (test_fact_checks.FactCheckTests.test_invalid_dates_and_proof_fail) ... ok
+test_missing_empty_malformed_and_duplicate_store (test_fact_checks.FactCheckTests.test_missing_empty_malformed_and_duplicate_store) ... ok
+test_oldest_overdue_precedes_newer_and_partial_requires_reason (test_fact_checks.FactCheckTests.test_oldest_overdue_precedes_newer_and_partial_requires_reason) ... ok
+test_partial_retry_is_not_fresh_and_is_bounded (test_fact_checks.FactCheckTests.test_partial_retry_is_not_fresh_and_is_bounded) ... ok
+test_rank_measurement_then_high_risk_then_evergreen (test_fact_checks.FactCheckTests.test_rank_measurement_then_high_risk_then_evergreen) ... ok
+test_unreviewed_never_uses_git_or_metadata (test_fact_checks.FactCheckTests.test_unreviewed_never_uses_git_or_metadata) ... ok
+test_every_published_page_including_home_hubs_and_webpages (test_freshness.BuiltFreshnessTests.test_every_published_page_including_home_hubs_and_webpages) ... ok
+test_missing_build_fails_closed (test_freshness.BuiltFreshnessTests.test_missing_build_fails_closed) ... ok
+test_body_pending_then_committed_and_revert (test_freshness.HistoryTests.test_body_pending_then_committed_and_revert) ... ok
+test_frontmatter_template_build_do_not_change_date (test_freshness.HistoryTests.test_frontmatter_template_build_do_not_change_date) ... ok
+test_future_and_shallow_fail_closed (test_freshness.HistoryTests.test_future_and_shallow_fail_closed) ... ok
+test_rename_preserves_body_origin (test_freshness.HistoryTests.test_rename_preserves_body_origin) ... ok
+test_review_states_and_canonical_hash (test_freshness.HistoryTests.test_review_states_and_canonical_hash) ... ok
+test_schema_parity_pending_omits_date (test_freshness.HistoryTests.test_schema_parity_pending_omits_date) ... ok
+test_untracked_pending (test_freshness.HistoryTests.test_untracked_pending) ... ok
+test_legacy_standalone_stamps_are_rejected (test_freshness.InlineMetadataTests.test_legacy_standalone_stamps_are_rejected) ... ok
+test_rendered_template_duplicates_rejected_but_prose_allowed (test_freshness.InlineMetadataTests.test_rendered_template_duplicates_rejected_but_prose_allowed) ... ok
+test_source_snapshots_claim_dates_and_examples_remain (test_freshness.InlineMetadataTests.test_source_snapshots_claim_dates_and_examples_remain) ... ok
+test_intro_then_existing_framework (test_home.HomeTests.test_intro_then_existing_framework) ... ok
+test_rejected_patterns_are_quarantined_not_published (test_reconciliation.ReconciliationTests.test_rejected_patterns_are_quarantined_not_published) ... ok
+test_evidence_examples_and_safety_survive_transform (test_recurring_segments.RecurringSegmentsTests.test_evidence_examples_and_safety_survive_transform) ... ok
+test_one_canonical_draft_and_archived_standalone (test_recurring_segments.RecurringSegmentsTests.test_one_canonical_draft_and_archived_standalone) ... ok
+test_related_links_resolve_in_site_source (test_recurring_segments.RecurringSegmentsTests.test_related_links_resolve_in_site_source) ... ok
+test_actual_retired_source_mechanism (test_scope_preflight.ScopeTests.test_actual_retired_source_mechanism) ... ok
+test_all_explicit_blocked_mechanisms (test_scope_preflight.ScopeTests.test_all_explicit_blocked_mechanisms) ... ok
+test_archive_hash (test_scope_preflight.ScopeTests.test_archive_hash) ... ok
+test_facilitated_peer_retirement_and_duplicate (test_scope_preflight.ScopeTests.test_facilitated_peer_retirement_and_duplicate) ... ok
+test_missing_each_field (test_scope_preflight.ScopeTests.test_missing_each_field) ... ok
+test_positive_medium_examples (test_scope_preflight.ScopeTests.test_positive_medium_examples) ... ok
+test_real_recurring_draft_not_suppressed (test_scope_preflight.ScopeTests.test_real_recurring_draft_not_suppressed) ... ok
+test_retired_slug_and_duplicate_ids (test_scope_preflight.ScopeTests.test_retired_slug_and_duplicate_ids) ... ok
+test_snippet_counts_and_semantic_duplicate_do_not_pass (test_scope_preflight.ScopeTests.test_snippet_counts_and_semantic_duplicate_do_not_pass) ... ok
+test_training_topic_is_not_media_practice (test_scope_preflight.ScopeTests.test_training_topic_is_not_media_practice) ... ok
+test_all_published_metadata (test_seo.SEOTests.test_all_published_metadata) ... ok
+test_analytics_disabled_by_default (test_seo.SEOTests.test_analytics_disabled_by_default) ... ok
+test_analytics_opt_in (test_seo.SEOTests.test_analytics_opt_in) ... ok
+test_analytics_requires_valid_id_and_privacy (test_seo.SEOTests.test_analytics_requires_valid_id_and_privacy) ... ok
+test_json_serialization_handles_quotes (test_seo.SEOTests.test_json_serialization_handles_quotes) ... ok
+test_sitemap (test_seo.SEOTests.test_sitemap) ... ok
+test_all_links_and_breadcrumb_schemas (test_site.SiteTests.test_all_links_and_breadcrumb_schemas) ... ok
+test_auditor_detects_broken_raw_html_link_and_fragment (test_site.SiteTests.test_auditor_detects_broken_raw_html_link_and_fragment) ... ok
+test_breadcrumb_json_is_serialized_not_interpolated (test_site.SiteTests.test_breadcrumb_json_is_serialized_not_interpolated) ... ok
+test_home_is_not_duplicated (test_site.SiteTests.test_home_is_not_duplicated) ... ok
+test_missing_intermediate_index_is_not_invented (test_site.SiteTests.test_missing_intermediate_index_is_not_invented) ... ok
+test_off_nav_deep_leaf (test_site.SiteTests.test_off_nav_deep_leaf) ... ok
+test_related_patterns_use_published_equivalents (test_site.SiteTests.test_related_patterns_use_published_equivalents) ... ok
+test_section_does_not_link_to_itself (test_site.SiteTests.test_section_does_not_link_to_itself) ... ok
+test_templates_and_unapproved_drafts_are_not_published (test_site.SiteTests.test_templates_and_unapproved_drafts_are_not_published) ... ok
+test_body_and_metadata_drift_fail (test_video_reference.VideoReferenceTests.test_body_and_metadata_drift_fail) ... ok
+test_equal_copies_pass (test_video_reference.VideoReferenceTests.test_equal_copies_pass) ... ok
+test_missing_copy_fails (test_video_reference.VideoReferenceTests.test_missing_copy_fails) ... ok
+test_repository_copies_match (test_video_reference.VideoReferenceTests.test_repository_copies_match) ... ok
+test_approved_cta_preserved_except_superseded_pointer (test_website_hub_supersession.WebsiteHubSupersessionTests.test_approved_cta_preserved_except_superseded_pointer) ... ok
+test_archive_and_no_duplicate (test_website_hub_supersession.WebsiteHubSupersessionTests.test_archive_and_no_duplicate) ... ok
+test_score_and_new_section_parity (test_website_hub_supersession.WebsiteHubSupersessionTests.test_score_and_new_section_parity) ... ok
+
+----------------------------------------------------------------------
+Ran 69 tests in 37.949s
+
+OK
