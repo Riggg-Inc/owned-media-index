@@ -20,7 +20,7 @@ A description that opens with a pain point the audience recognizes, breaks down 
 
 ## Why It Works
 
-Pain-first descriptions earn attention immediately. The listener feels seen, then gets a preview of the fix.
+The intended effect is to help listeners recognize a relevant problem and preview the proposed solution.
 
 ## Example
 
@@ -39,15 +39,14 @@ Illustrative copy, not verified quotations, customer outcomes, or factual claims
 Avoid when the episode is more inspirational than tactical.
 
 
-## Shows That Use This Pattern
+## Shows to Study
 
 These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|
-| **Online Marketing Made Easy** | Opens with a relatable marketing pain point, breaks down the tactical solution | [Apple Podcasts](https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545) |
-| **Marketing School** | Short descriptions that lead with the pain and promise a fast fix | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
-| **The SaaS Marketing Show** | Leads with SaaS growth pain, previews the breakdown with case study evidence | [Spotify](https://open.spotify.com/show/saas-marketing) |
+| **The Amy Porterfield Show** | The publisher describes conversations about business problems and sustainable growth; check a specific episode description for a pain-first opening | [Apple Podcasts](https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545) |
+| **Marketing School** | Neil and Eric publish marketing and business discussions; use a specific episode description to examine how the problem and practical breakdown are introduced | [Publisher](https://marketingschool.io/) |
 
 ## Prompt Template
 
@@ -70,4 +69,4 @@ Requirements:
 - First sentence must hook with the pain point
 ```
 
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Replace the bracketed placeholders with your specific details. Provide relevant audience, guest, and episode context, then evaluate the output against the source; more context alone does not guarantee better results.

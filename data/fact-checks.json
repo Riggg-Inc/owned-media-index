@@ -235,6 +235,37 @@
       ],
       "status": "partial",
       "next_review_at": "2026-10-13T16:45:00Z"
+    },
+    "patterns/package/descriptions/audience-pain-breakdown.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Original primary-source comparison completed 2026-10-06; saved report and extracts: https://github.com/Riggg-Inc/owned-media-index/blob/f3bfbc65efdd54656f944d5d4fa50eaab871944c/docs-internal/fact-checks/2026-10-06/report-v1.md . Approved correction compared with these extracts and rebound to its exact body on 2026-10-07 at publication review; original source-check timestamps retained, not a new fetch. Corrected Amy Porterfield show name, removed unverified SaaS example, and qualified show descriptions and outcome claims. Unresolved: episode-level pain-first example suitability, audience attention outcomes and score provenance remain unverified. Auditor should review remaining evidence gaps by the existing retry date. Exact-version approval and independent binding review recorded on Workboard card 65fbbe74-01ed-42bc-ac51-6d983bdd4c7d; approval does not validate the score. checked_at records the original source audit, not review of this later revised body.",
+      "content_sha256": "78ec612d80fdbd541dde9de4cb85e11648b5d21fc73b96bab565c3934abf30c5",
+      "sources": [
+        {
+          "url": "https://www.amyporterfield.com/marketing-strategy-podcast/",
+          "claims": [
+            "Amy Porterfield currently identifies the podcast as The Amy Porterfield Show."
+          ],
+          "checked_at": "2026-10-06T16:47:23.807Z"
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/the-amy-porterfield-show/id594703545",
+          "claims": [
+            "The existing Apple podcast identity is now titled The Amy Porterfield Show."
+          ],
+          "checked_at": "2026-10-06T16:47:52.196Z"
+        },
+        {
+          "url": "https://marketingschool.io/",
+          "claims": [
+            "Marketing School publishes business and marketing episode descriptions."
+          ],
+          "checked_at": "2026-10-06T16:47:24.371Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
     }
   }
 }
