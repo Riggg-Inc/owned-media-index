@@ -1,0 +1,1590 @@
+{
+  "schema_version": 1,
+  "approval": "Authenticated owner 2026-10-07 21:15 UTC",
+  "max_active_topics": 3,
+  "first_decisions_due": "2026-10-14",
+  "remaining_triage_due": "2026-10-21",
+  "reporting": {
+    "owner": "nim-tidywick",
+    "via": "79747ea1-003d-4eed-aa44-0b375242a98b",
+    "weekday_utc": 2,
+    "last_weekly_report": null
+  },
+  "topics": [
+    {
+      "topic_id": "8ad3af51",
+      "card_id": "8ad3af51-07a0-4848-927e-5549d86f7112",
+      "title": "[GROUNDED] Distribution/in-app-thought-leadership-retention — Embedding thought leadership within product interface increases stickiness",
+      "track": "research-active",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Which contextual, buyer-shareable and seller-preparation uses of existing owned recordings have documented deployment, and does the evidence support a complete plain-language article proposal or consolidation?",
+      "next_action": "Reuse Oct6 contextual-distribution research.md, plain-language-examples.md and S16–S22 ledger. Produce standard-format complete proposal/merge recommendation; distinguish adoption/capability/hypothesis; no retention, win-rate or cycle-time guarantees; scope-preflight before writing.",
+      "due_date": "2026-10-14",
+      "started_date": "2026-10-07",
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "8ad3af51-07a0-4848-927e-5549d86f7112",
+        "aliases": [
+          "c28ddb78-e85e-4909-9c03-66d64117b9dd"
+        ]
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "63fd804a",
+      "card_id": "63fd804a-c90c-4f76-8282-394c56439efb",
+      "title": "[GROUNDED] Produce/modular-microlearning-compression — Replacing hour-long broad sessions with targeted five-minute micro-audio significantly improves learner retention",
+      "track": "research-active",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "When does a one-question, context-sufficient standalone audio or mid-form topic video offer a distinct useful format rather than duplicate clips/story beats?",
+      "next_action": "Reuse Oct6 focused-media memo and existing overlap map; prepare complete standard-format article proposal or consolidation, retaining study populations/access limits and separate memory/viewing/task outcomes. No five-minute rule, duration ladder, superiority claim or anchoring revival.",
+      "due_date": "2026-10-14",
+      "started_date": "2026-10-07",
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "63fd804a-c90c-4f76-8282-394c56439efb",
+        "aliases": [
+          "7c68d6ad-f05b-482f-b34f-cef03e5ba52d"
+        ]
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "71d51a9c",
+      "card_id": "71d51a9c-48cf-4dc4-824f-fb5073778226",
+      "title": "[CANDIDATE] Distribute/spotify-native-upload-bypasses-rss — Platform-native upload is diverging from RSS; owned feeds risk losing parity on Spotify-first features",
+      "track": "research-active",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Preserve portable masters and audio RSS while distinguishing HLS playback, RSS discovery and proprietary platform ingestion.",
+      "next_action": "Reuse Sept30 HLS reconciliation and existing primary sources; build dated Apple/Spotify/open-app/relevant-host matrix separating playback, RSS/alternateEnclosure discovery, native/API ingest, announced versus verified-live behavior. Prepare proposed amendments to existing HLS article/card 0fadfd44, not duplicate article.",
+      "due_date": "2026-10-14",
+      "started_date": "2026-10-07",
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "amend-existing",
+        "target": "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0",
+        "aliases": [
+          "0fadfd44-dbd0-4f99-8b33-a22c7722f6c0"
+        ]
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "cdc162ff",
+      "card_id": "cdc162ff-7ca0-4566-b622-5afad3cfae62",
+      "title": "[CANDIDATE] Preserve/generation-tool-shutdown-no-export — AI generation/hosting tools can delete your work on shutdown; owned media needs exportable masters",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Preserve: require an exportable audio/video master plus transcript and metadata before treating an asset as safely produced.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-08",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "cdc162ff-7ca0-4566-b622-5afad3cfae62",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "d6e00987",
+      "card_id": "d6e00987-53a9-47b5-af68-be40d9f96365",
+      "title": "[DRAFT] produce/real-or-fake-style-segment-framing",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "A recorded host/guest claim-check may be eligible only when verification and explanation serve the listener; a facilitated audience game is not.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-08",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "d6e00987-53a9-47b5-af68-be40d9f96365",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "b6643937",
+      "card_id": "b6643937-fe44-47b8-af58-7821a57f6694",
+      "title": "[GROUNDED] Distribution/event-content-repurposing — Treating in-person events as structured content-generation hubs scales pipeline and audience reach",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Plan reusable recorded event assets before capture, separately from live facilitation or event pipeline claims.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-09",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "b6643937-fe44-47b8-af58-7821a57f6694",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "6f3bb497",
+      "card_id": "6f3bb497-e8de-47d6-8dad-82e741f3971e",
+      "title": "[DRAFT] produce/low-stakes-warmup-framing",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Offer genuine disposable warmup questions before recording the usable interview so a guest understands what may be omitted.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-10",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "6f3bb497-e8de-47d6-8dad-82e741f3971e",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "a8769b21",
+      "card_id": "a8769b21-05b3-4b35-8a87-11bf850a77ad",
+      "title": "[DRAFT] produce/soundbite-champion-arming",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "A concise reusable takeaway at the end of an owned recorded asset could help an internal champion share its meaning; this draft does not yet establish that medium or outcome.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-10",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "a8769b21-05b3-4b35-8a87-11bf850a77ad",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "6e5affc9",
+      "card_id": "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+      "title": "[CANDIDATE] Preserve/third-party-archive-is-a-tenancy — Content on rented surfaces can be silently deleted/deindexed from web + AI corpus; own your archive",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Preserve: keep an owned canonical archive when externally placed media or supporting articles can disappear.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-11",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "6e5affc9-9c51-4c79-8dae-a75ce5cb0792",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "9b2870ae",
+      "card_id": "9b2870ae-90a6-4fc7-a87a-26ff91f73233",
+      "title": "[CANDIDATE] Produce/agentic-content-production-scale — AI-agentic production is compressing per-creator show output; owned-media needs a quality/authenticity guardrail pattern",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Research human editorial/host safeguards for recorded shows using AI assistance, without treating scale anecdotes or disclosure as proof of trust or churn.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-12",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "9b2870ae-90a6-4fc7-a87a-26ff91f73233",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "5b348762",
+      "card_id": "5b348762-a3ec-4481-a3a4-57a15e70a0a3",
+      "title": "[CANDIDATE] Preserve/infra-layer-crawler-gating — Infra defaults (Cloudflare Sept 15) can block AI crawlers from your earned coverage; owned ad-free surfaces stay retrievable",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Preserve/Publish: test crawler access to owned episode pages rather than assuming hosting defaults preserve discoverability.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-12",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "5b348762-a3ec-4481-a3a4-57a15e70a0a3",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "f2ca608a",
+      "card_id": "f2ca608a-d725-4841-a303-b19520db2f6a",
+      "title": "[CANDIDATE] Preserve/podcasting2-transcript-namespace — Populating P2.0 transcript/chapters tags turns the owned RSS feed into a portable, machine-readable, AEO-friendly asset",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Keep publisher-controlled transcript/chapter assets discoverable through feed metadata, with client support verified separately.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-13",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "f2ca608a-d725-4841-a303-b19520db2f6a",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "7902fda7",
+      "card_id": "7902fda7-e79a-4f17-80a9-25ef7c422ca8",
+      "title": "[CANDIDATE] Distribute/newsletter-platform-absorbs-podcast-stack — Newsletter platforms are absorbing IAB-certified podcast hosting into one owned email+audio stack",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish/Preserve: evaluate integrated email/audio publishing against feed, subscriber and master-file exportability.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-14",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "7902fda7-e79a-4f17-80a9-25ef7c422ca8",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "900ae6cf",
+      "card_id": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+      "title": "[DRAFT] publish/timezone-segmented-delivery",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Schedule distribution of the same owned episode/newsletter for audience time zones while maintaining one canonical asset.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-15",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "900ae6cf-8f89-484d-921c-e2bf422b07c9",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "a738ed63",
+      "card_id": "a738ed63-5456-43b7-b630-a8530b4bb864",
+      "title": "[CANDIDATE] Distribute/ai-detection-reach-penalty — Platforms now detect and demote AI-flagged content; owned-media defense is proprietary detail + self-controlled disclosure",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish: substantiate owned articles and metadata with original reporting and human verification; treat feed classification and search quality as different mechanisms.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-15",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "a738ed63-5456-43b7-b630-a8530b4bb864",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "83e7d3c1",
+      "card_id": "83e7d3c1-c894-4e66-b592-ef2a584ecbd2",
+      "title": "[CANDIDATE] Distribute/platform-content-removal-business-rule — Platform can remove your whole show to protect its own business; own distribution must survive a delisting",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish/Preserve: retain owned feed/hub and multiple distribution routes so a platform-format delisting does not erase access.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-16",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "83e7d3c1-c894-4e66-b592-ef2a584ecbd2",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "d3287e30",
+      "card_id": "d3287e30-3842-40a9-b1d3-5846afbed925",
+      "title": "[CANDIDATE] Distribute/mid-episode-format-switching — Audiences finish episodes in a different format/app than they started; owned media needs cross-format parity, not a format bet",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish: when multiple formats exist, make the same episode findable through a canonical page and consistent identifiers.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-17",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "d3287e30-3842-40a9-b1d3-5846afbed925",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "ee0b70eb",
+      "card_id": "ee0b70eb-561f-4d6a-95b5-162cb0efb2d6",
+      "title": "[CANDIDATE] Publish/public-ai-writing-policy-as-owned-artifact — Published AI-use policies are becoming a shareable owned-media trust/positioning asset",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Potential owned editorial AI-use disclosure only if tied to actual published-media production/accountability.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-17",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "ee0b70eb-561f-4d6a-95b5-162cb0efb2d6",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "3df1c1bb",
+      "card_id": "3df1c1bb-de65-4e9f-a7b3-c26135119e44",
+      "title": "[CANDIDATE] Prove/proprietary-data-as-citation-engine — A recurring, scheduled first-party data release is the owned asset that earns both journalist and AI-answer citations",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish/Prove: release a documented recurring first-party dataset on an owned page with method/version history and trace attributable citations.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-18",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "3df1c1bb-de65-4e9f-a7b3-c26135119e44",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "c2c065e4",
+      "card_id": "c2c065e4-ad04-4cfd-9f83-ef96bccd6677",
+      "title": "[CANDIDATE] Distribute/rented-feed-reach-pay-to-play — Feeds concentrate organic reach and sell it back; plan page reach as paid, build owned audience off-platform",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish: distribute recorded-asset excerpts through relevant people with owned-page/newsletter destination and measure referred visits rather than feed impressions alone.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-19",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "c2c065e4-ad04-4cfd-9f83-ef96bccd6677",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "333ad54e",
+      "card_id": "333ad54e-4efb-47dc-b718-93ca777e0345",
+      "title": "[CANDIDATE] Prove/platform-metrics-silent-restatement — Platform podcast metrics get silently reprocessed or redefined; keep dated snapshots + an independent baseline",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Prove: keep dated metric exports, definitions and an independent baseline so owned-media reports remain auditable.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-19",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "333ad54e-4efb-47dc-b718-93ca777e0345",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "1bafb83d",
+      "card_id": "1bafb83d-9550-4e68-b5d6-b1fddb99279f",
+      "title": "[CANDIDATE] Distribute/agent-mediated-podcast-discovery — Discovery is moving into AI agents querying open indexes + catalogs; owned feeds need agent-readable metadata",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Publish/Preserve: expose useful episode metadata/transcripts so supported agents can retrieve the recorded asset.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-20",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "1bafb83d-9550-4e68-b5d6-b1fddb99279f",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "f42789ff",
+      "card_id": "f42789ff-3120-4639-8c03-a6349ff6a8f0",
+      "title": "[CANDIDATE] Distribute/intermediary-exit-portability — Networks/ad marketplaces are folding; keep feed, prefixes and sponsor ties in your own name",
+      "track": "research-queued",
+      "owner": "orrin-deepforge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Preserve/Publish: control feed redirects, hosting credentials and dependency prefixes so recordings remain reachable when an intermediary exits.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": "2026-10-21",
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "f42789ff-3120-4639-8c03-a6349ff6a8f0",
+        "aliases": []
+      },
+      "authorization": "owner-2026-10-07T21:15Z",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "dfe59e44",
+      "card_id": "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+      "title": "[TEARDOWN-CANDIDATE] package/episode-numbering-as-persistent-index — Sequential episode numbers baked into titles/GUIDs create a durable, human- and machine-referenceable index",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Use a stable visible episode number to help people cite and retrieve a recorded back catalog, without claiming measured AEO lift.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "dfe59e44-e601-4a09-980a-8b04e1b5bf15",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "f591245c",
+      "card_id": "f591245c-c4c9-49b1-9116-b17f65dbfcf5",
+      "title": "[TEARDOWN-CANDIDATE] package/recurring-segment-tag-taxonomy — Named recurring segment/series tags in titles turn a flat feed into a browsable, searchable content taxonomy",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Use consistent feed-title labels to expose recurring formats or series across a recorded catalog, with subject taxonomy distinguished from format taxonomy.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "f591245c-c4c9-49b1-9116-b17f65dbfcf5",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "adda9845",
+      "card_id": "adda9845-ac7e-4d93-bd85-c8bd0d92b8fd",
+      "title": "🧰 [V0.4] Tools & Hardware — seed sprint (Sentinel + Scribe)",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "adda9845-ac7e-4d93-bd85-c8bd0d92b8fd",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "caa24cf3",
+      "card_id": "caa24cf3-5d59-4292-bd02-235a4d1f5ac9",
+      "title": "🧠 [V0.5] Preserve depth — AEO & content-reuse patterns (Sentinel + Pulse)",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "caa24cf3-5d59-4292-bd02-235a4d1f5ac9",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "80fd461b",
+      "card_id": "80fd461b-3468-4e46-a829-d6dda210255c",
+      "title": "📊 [V0.5] Prove depth — benchmarks & attribution (Sentinel + Pulse)",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "80fd461b-3468-4e46-a829-d6dda210255c",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "d3b9e757",
+      "card_id": "d3b9e757-316c-4cd6-9df2-9d48025a02b1",
+      "title": "🎬 [V0.x] Produce depth — capture & live-production (Sentinel)",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "d3b9e757-316c-4cd6-9df2-9d48025a02b1",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "02c84b08",
+      "card_id": "02c84b08-f036-413f-a71d-cedcf7733c8d",
+      "title": "[TEARDOWN-REPORT 2026-08] Top Business Podcasts Teardown",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "02c84b08-f036-413f-a71d-cedcf7733c8d",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "5077c129",
+      "card_id": "5077c129-3469-493b-a32c-54f32b5108a1",
+      "title": "[TEARDOWN-REPORT 2026-09] Top Business Podcasts Teardown",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "5077c129-3469-493b-a32c-54f32b5108a1",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "42a91566",
+      "card_id": "42a91566-5621-4fa5-b409-d184c117aba1",
+      "title": "[TEARDOWN-CANDIDATE] package/per-episode-feed-artwork — Shows ship unique item-level itunes:image on every episode, the only visual they control inside audio apps",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Package a recorded episode with reusable item artwork when supported by its RSS/app surfaces, balancing production cost and image usefulness.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "42a91566-5621-4fa5-b409-d184c117aba1",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "4006eebb",
+      "card_id": "4006eebb-3a1a-4389-9b04-ab6f09828073",
+      "title": "[TEARDOWN-CANDIDATE] package/show-name-stamped-in-episode-title — Shows embed their own name in each episode title so attribution travels with any scrape, quote, or AI citation",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Consider a short show identifier in detached episode titles only when attribution benefit outweighs title truncation cost.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "4006eebb-3a1a-4389-9b04-ab6f09828073",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "3db8e6ce",
+      "card_id": "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+      "title": "[TEARDOWN-CANDIDATE] package/chapter-timestamp-index-in-description — Shows hand-build timestamp indexes in description text while shipping zero machine-readable podcast:chapters",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Reuse episode topic/time boundaries in structured chapter data and an owned episode page instead of discarding authoring work.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "3db8e6ce-9bf4-4ee4-bb74-47d7055197e6",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "a3b5fbbb",
+      "card_id": "a3b5fbbb-677c-4593-be0b-df6a24867bb4",
+      "title": "[RESCORE] package/clips/clip-selection-patterns.md — 5 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "a3b5fbbb-677c-4593-be0b-df6a24867bb4",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "3d000fc7",
+      "card_id": "3d000fc7-b5bf-4608-baac-87a5eced9b08",
+      "title": "[RESCORE] package/descriptions/rss-feed-description-patterns.md — 4 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "3d000fc7-b5bf-4608-baac-87a5eced9b08",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "4d27f22c",
+      "card_id": "4d27f22c-6d5a-429b-b110-43c63107b336",
+      "title": "[RESCORE] package/reels/vertical-reel-package-standard.md — 5 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "4d27f22c-6d5a-429b-b110-43c63107b336",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "658aa8e2",
+      "card_id": "658aa8e2-9a03-451d-9ad8-621b6ec87878",
+      "title": "[RESCORE] package/thumbnails/thumbnail-hook-patterns.md — 4 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "658aa8e2-9a03-451d-9ad8-621b6ec87878",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "3fbf27b1",
+      "card_id": "3fbf27b1-47d1-4048-a20c-76cd0a0f4f2c",
+      "title": "[RESCORE] package/titles/top-performing-title-styles.md — 4 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "3fbf27b1-47d1-4048-a20c-76cd0a0f4f2c",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "c934b400",
+      "card_id": "c934b400-46aa-472a-b07c-f2dea79115fd",
+      "title": "[RESCORE] publish/linkedin/release-post-patterns.md — 4 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "c934b400-46aa-472a-b07c-f2dea79115fd",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "c2c0b87f",
+      "card_id": "c2c0b87f-1a9b-4435-a890-5057f5aed04d",
+      "title": "[RESCORE] publish/live-premieres/simulcast-standard.md — 4 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "c2c0b87f-1a9b-4435-a890-5057f5aed04d",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "077bbe14",
+      "card_id": "077bbe14-0473-4fab-88b0-12142e0725d5",
+      "title": "[RESCORE] publish/rss/feed-metadata-standard.md — 5 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "077bbe14-0473-4fab-88b0-12142e0725d5",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "167e034f",
+      "card_id": "167e034f-61fc-476b-bdf1-4466c1dc751f",
+      "title": "[RESCORE] publish/youtube/title-and-description-standard.md — 5 → 3",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "167e034f-61fc-476b-bdf1-4466c1dc751f",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "99e3ea2b",
+      "card_id": "99e3ea2b-ea55-4610-b01c-9cd8574eeb71",
+      "title": "[RESCORE] produce/presentation-tactics/soundbite-champion-arming.md — 5 → 4",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Potentially package a recorded conclusion into an accurate takeaway that viewers can reuse; no proven propagation lift.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "99e3ea2b-ea55-4610-b01c-9cd8574eeb71",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "a3583638",
+      "card_id": "a3583638-d318-4759-bd59-4a1e41be078b",
+      "title": "[RESCORE] produce/real-time-production/obs-production-standard.md — 5 → 4",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "a3583638-d318-4759-bd59-4a1e41be078b",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    },
+    {
+      "topic_id": "a2de1e00",
+      "card_id": "a2de1e00-881c-4c25-93d8-f9a883d0bb9d",
+      "title": "[RESCORE] prove/scorecards/session-performance-scorecard.md — 4 → 2",
+      "track": "owner-hold",
+      "owner": "Garren/Ledge",
+      "support_roles": [
+        "elowen-longlens"
+      ],
+      "question": "Owner-held initiative; no autonomous activation.",
+      "next_action": "Wait for explicit owner release; preserve history.",
+      "due_date": null,
+      "started_date": null,
+      "extension_count": 0,
+      "source_blocker": null,
+      "final_disposition": null,
+      "canonical_relationship": {
+        "kind": "canonical",
+        "target": "a2de1e00-881c-4c25-93d8-f9a883d0bb9d",
+        "aliases": []
+      },
+      "authorization": "owner-held; release required",
+      "scope_evidence": null,
+      "drafting_released": false,
+      "outcome_artifact": null,
+      "completed_date": null
+    }
+  ],
+  "excluded_cards": [
+    {
+      "card_id": "9fa18537-fffe-4799-834f-025e3a951259",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "3072ff6e-b436-4a7a-ac1d-cb84705eb16d",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "c1e2f7d1-1f81-4c9f-bebc-5fe061f0b6ca",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "827cfa11-a57b-476f-b0ab-20da5dd5e597",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "adca1360-d9aa-4f38-9fad-03aacb0153a4",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "e22cceba-9f32-4c3d-ad41-861475d2ffaf",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "579334bd-55c7-494c-8795-8d227fb96e3f",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "3333b5c0-82fd-4e6a-8fb3-56912bec16ed",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "3635d39b-b9b1-436b-b841-19194c56111c",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "65612f15-a1cd-4dfb-9ec5-d640751a125c",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "d10f6b11-58bd-47e5-a8ec-3413b0211182",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "3f310466-8571-4a31-8ea8-7f3be3ba9275",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "4823a06e-d037-43e7-bbce-dbbbf6743bec",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "e911a436-cc49-48cf-90ec-3956ccca4d5e",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "e9b9d640-f270-4647-80ae-37e3780901a1",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "a36a1634-2fea-4755-8d91-25bd233f2e77",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "84128886-c06a-4814-a60c-f74428987b14",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "c9c7c0d8-fd08-47cc-8b90-6b4b08888ca2",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "34d46539-4d50-4e07-9c23-6fed2edaa645",
+      "reason": "operations/correction-preparation; existing gates unchanged"
+    },
+    {
+      "card_id": "b514744d-34be-4776-b4cb-8469816920e5",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "64182534-e528-4c5d-96cf-6206d36d41dd",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "a5b59382-f752-43eb-849d-c5da3d2dc480",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "b023e9fa-8b01-437d-a25f-8dfdde7d1554",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "b348d523-b4a3-4b75-88fa-12340767eca9",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "8ad7a074-0c85-4b68-b2d0-4934ca55aeb5",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "f140df61-69e3-441c-99ec-1203a34e4fc7",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "ae4d2629-24bb-4c4b-9198-57ecd0a698fd",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "2d938399-0abb-4504-b936-cd7f76729e6c",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "f267c3c3-9e5d-4927-85ab-2ac4bdcb5510",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "9c6cf292-bf3b-4a6d-8ffb-35b9e85302cb",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "21158d85-0209-48a9-a4d3-7b429a396593",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "5b6211d7-24a7-4b19-a532-c168ea0205c1",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "ce680a2b-55b2-4570-a4f2-82ef7ef15f1d",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "44eb17f9-954c-45ad-94a5-b1b9514cb435",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "d98c5a66-26b8-423b-844e-92252196b839",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "4df042ae-7b97-4270-a2aa-c6c99f3ba8da",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "249e3fc9-7c19-4c26-b16f-05e17690dd85",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "b2058cc8-b37c-4137-8c90-88fb30a1def6",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "54b74531-2d42-48b7-b1ed-35bb8a364348",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "2d114ba4-5598-4f5b-afcd-d6a2a752a6c4",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "d52e7baa-16aa-41b2-a8a3-4a4237fe4b13",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "23d77981-ff91-4171-8049-735a77f2d9ab",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "322075f9-810d-416d-bc89-0acce751e698",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "d499cb4e-e6e3-4732-964c-f1636c24e838",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "618673c5-6e21-4849-89e6-e20ddd2b51d1",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "a8fbf4d4-8661-40ef-bb53-4fe36924d34d",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "7d58c975-d54b-4f8b-830e-aafc9cc247d0",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "741767c0-b2ff-4009-be0f-080f493fa96e",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "eb9ec142-bc2c-4c5b-bd36-0de92800140f",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "e629fddf-1e08-4225-b928-4612f9186377",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "da380d98-cc0b-44a5-bd5d-199e1981df17",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "4d17061b-b065-411f-9bb6-300a5cb2b89a",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "b4dd232c-cba7-4a1c-88bc-8829fe19b10c",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "255be84b-e2f1-43cb-92ff-61b67889994c",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "8170f38b-9c57-4dc4-b130-35456e0a797b",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "64e8895c-d557-428e-8c29-25b08074f55c",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "c98624eb-8528-4295-8ae0-e102bf534c77",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "a3af20c0-b134-431c-acb1-49a2bc2b7983",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "e64c4314-eb1b-4278-bb33-b559974bfb3f",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "83c11644-d19c-4e09-b49e-e9861d41242f",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "3ad27177-0c6a-4203-ba9c-92bd773dc4bd",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "73075383-ed4a-4389-8873-493ea2150b70",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "047c5c2d-ef27-4db9-adc6-7740fb4e21dd",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "a34ea862-3aa4-4873-bb71-e7dd9d8fe107",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "e9d32c67-6936-4c06-a2df-4141f1509a35",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "bc9cb6fb-51e5-4340-b2fa-83f0d5aadc3f",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "1ce07a26-02a4-4b24-95b7-365eb86da824",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "37de873c-f51e-45a1-98f3-b485b5566ced",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "064318ca-615e-4192-82c2-3c48b0c0255e",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "b92b2beb-ea79-418f-81fe-ba4c8beb8ef9",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "60805172-c3f1-4464-9f37-fd5ef961b371",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "ffa5b777-4ae7-44d5-9e07-17405e37a376",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "19e97139-47d6-4077-b8d7-fed854b019a7",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "1ff87ca8-ef9d-4944-80b6-606f0e9496cd",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "78f71df4-17e2-4578-bf17-a0e475daf9c7",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "65fbbe74-01ed-42bc-ac51-6d983bdd4c7d",
+      "reason": "closed historical work"
+    },
+    {
+      "card_id": "7d1d054e-87eb-4a3a-bf08-b12b19dabe44",
+      "reason": "closed historical work"
+    }
+  ],
+  "history": []
+}
