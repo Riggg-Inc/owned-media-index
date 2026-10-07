@@ -1,0 +1,92 @@
+[
+  {
+    "width": 1200,
+    "path": "clips/debate-moment",
+    "title": "Debate Moment\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2703,
+    "checked_at": "2026-10-07T21:36:40.700Z"
+  },
+  {
+    "width": 1200,
+    "path": "clips/golden-nugget",
+    "title": "Golden Nugget\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2901,
+    "checked_at": "2026-10-07T21:36:41.803Z"
+  },
+  {
+    "width": 1200,
+    "path": "clips/hot-take",
+    "title": "Hot Take\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2796,
+    "checked_at": "2026-10-07T21:36:42.932Z"
+  },
+  {
+    "width": 1200,
+    "path": "clips/story-beat",
+    "title": "Story Beat\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2633,
+    "checked_at": "2026-10-07T21:36:44.094Z"
+  },
+  {
+    "width": 1200,
+    "path": "descriptions/audience-pain-breakdown",
+    "title": "Audience Pain Breakdown\u00b6",
+    "headings": 8,
+    "overflow": false,
+    "body": 2985,
+    "checked_at": "2026-10-07T21:36:45.237Z"
+  },
+  {
+    "width": 390,
+    "path": "clips/debate-moment",
+    "title": "Debate Moment\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2703,
+    "checked_at": "2026-10-07T21:36:46.485Z"
+  },
+  {
+    "width": 390,
+    "path": "clips/golden-nugget",
+    "title": "Golden Nugget\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2901,
+    "checked_at": "2026-10-07T21:36:47.539Z"
+  },
+  {
+    "width": 390,
+    "path": "clips/hot-take",
+    "title": "Hot Take\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2796,
+    "checked_at": "2026-10-07T21:36:48.594Z"
+  },
+  {
+    "width": 390,
+    "path": "clips/story-beat",
+    "title": "Story Beat\u00b6",
+    "headings": 6,
+    "overflow": false,
+    "body": 2633,
+    "checked_at": "2026-10-07T21:36:49.616Z"
+  },
+  {
+    "width": 390,
+    "path": "descriptions/audience-pain-breakdown",
+    "title": "Audience Pain Breakdown\u00b6",
+    "headings": 8,
+    "overflow": false,
+    "body": 2985,
+    "checked_at": "2026-10-07T21:36:50.607Z"
+  }
+]

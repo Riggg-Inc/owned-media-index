@@ -1,4 +1,4 @@
-"""Body revision provenance, separate from evidence-backed factual review.
+"""Body revision provenance, separate from body-bound quality review.
 
 First-parent history means a merge's publication time, not an unpublished branch
 commit. Renames retain provenance. No build time or YAML date is a fallback.
@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 
 from scripts.fact_checks import (HIGH_RISK, body_bytes, content_hash, iso,
-                                load_reviews, timestamp, validate_review)
+                                timestamp, validate_review)
 
 
 class History:
@@ -65,6 +65,7 @@ class History:
 
 
 def review_state(record, path, source, now=None):
+    """Legacy factual-review audit compatibility; never used by public metadata."""
     if record is None:
         return {'state': 'unrecorded', 'label': 'No fact-check recorded'}
     failed = {'state': 'needs-review', 'label': 'Fact-check needs review'}
@@ -84,10 +85,10 @@ def review_state(record, path, source, now=None):
             'sources': record['sources'], 'next_review_at': iso(due)}
 
 
-def page_freshness(root, source, history=None, reviews=None):
+def page_freshness(root, source, history=None):
+    from scripts.quality_checks import public_view
     root = Path(root)
     path = root / 'docs' / source
     history = history or History(root)
-    reviews = load_reviews(root / 'data/fact-checks.json')[0] if reviews is None else reviews
     return {'revision': history.revision('docs/' + source, path.read_bytes()),
-            'review': review_state(reviews.get(source), path, source)}
+            'review': public_view(root, source)}

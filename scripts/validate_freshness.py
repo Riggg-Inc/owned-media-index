@@ -8,7 +8,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from hooks.freshness import History, page_freshness
 from hooks.metadata import page_type
-from scripts.fact_checks import body_bytes, load_reviews
+from scripts.fact_checks import body_bytes
 
 
 def inline_metadata(text):
@@ -29,7 +29,7 @@ def inline_metadata(text):
         plain = re.sub(r'<[^>]+>', '', stripped)
         plain = plain.replace('**', '').replace('__', '').strip('*_ ')
         plain = re.sub(r'^[-+]\s+', '', plain)
-        if re.match(r'^(?:Last updated|Last verified|Last fact-checked)\s*:', plain, re.I):
+        if re.match(r'^(?:(?:Last updated|Last verified|Last fact-checked)\s*:|Last quality checked on\s+|Quality review pending$)', plain, re.I):
             errors.append(number)
     return errors
 
@@ -47,10 +47,16 @@ class FreshnessHTML(HTMLParser):
         self.summary = False
         self.summary_text = ''
         self.review_summary = ''
+        self.quality_lines = []
+        self.quality_text = None
+        self.review_disclosures = 0
+        self.quality_extra_tags = []
         self.feed(text)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if self.quality_text is not None and tag != 'time':
+            self.quality_extra_tags.append(tag)
         if tag in ('pre', 'code'):
             self.code_depth += 1
         if self.freshness_depth and tag == 'div':
@@ -62,16 +68,22 @@ class FreshnessHTML(HTMLParser):
             self.freshness_depth = 1
         if tag == 'details' and a.get('class', '').startswith('omi-freshness__'):
             self.section = a['class'].split('__')[-1]
+        if tag == 'details' and self.section == 'review':
+            self.review_disclosures += 1
+        if tag == 'p' and 'omi-freshness__quality' in a.get('class', '').split():
+            self.quality_text = ''
         if tag == 'summary' and self.section:
             self.summary = True
         if tag == 'time' and self.section == 'revision':
             self.revision_times.append(a.get('datetime'))
-        if tag == 'time' and self.section == 'review':
+        if tag == 'time' and self.quality_text is not None:
             self.review_times.append(a.get('datetime'))
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.script = ''
 
     def handle_data(self, value):
+        if self.quality_text is not None:
+            self.quality_text += value
         if self.paragraph is not None and not self.code_depth:
             self.paragraph += value
         if self.script is not None:
@@ -82,6 +94,9 @@ class FreshnessHTML(HTMLParser):
             self.review_summary += value
 
     def handle_endtag(self, tag):
+        if tag == 'p' and self.quality_text is not None:
+            self.quality_lines.append(self.quality_text.strip())
+            self.quality_text = None
         if tag == 'p' and self.paragraph is not None:
             if inline_metadata(self.paragraph):
                 self.legacy_metadata.append(self.paragraph)
@@ -102,7 +117,6 @@ class FreshnessHTML(HTMLParser):
 def audit(root, site):
     errors, count, targets = [], 0, set()
     history = History(root)
-    reviews = load_reviews(root / 'data/fact-checks.json')[0]
     for path in sorted((root / 'docs').rglob('*.md')):
         source = path.relative_to(root / 'docs')
         if 'overrides' in source.parts:
@@ -119,13 +133,13 @@ def audit(root, site):
         doc = FreshnessHTML(text)
         if doc.legacy_metadata:
             errors.append(f'{source}: rendered duplicate standalone freshness metadata')
-        expected = page_freshness(root, source.as_posix(), history, reviews)
+        expected = page_freshness(root, source.as_posix(), history)
         revision, review = expected['revision'], expected['review']
         kind = page_type(source.as_posix())
         entities = [g for g in doc.graphs if g.get('@type') in ('Article', 'WebPage', 'CollectionPage')]
         expected_types = ['WebPage', 'Article'] if kind == 'Article' else [kind]
         if source.as_posix() == 'index.md':
-            if doc.blocks or doc.revision_times or doc.review_times or any(label in text for label in ('Last updated:', 'Last fact-checked', 'No fact-check recorded')):
+            if doc.blocks or doc.revision_times or doc.review_times or any(label in text for label in ('Last updated:', 'Last fact-checked', 'No fact-check recorded', 'Last quality checked on', 'Quality review pending', 'omi-freshness__quality')):
                 errors.append(f'{source}: homepage must never display freshness metadata')
             if [g.get('@type') for g in entities] != expected_types or any(g.get('dateModified') != revision.get('timestamp') for g in entities):
                 errors.append(f'{source}: homepage schema provenance mismatch')
@@ -145,12 +159,18 @@ def audit(root, site):
                 errors.append(f'{source}: date-only summary/exact datetime mismatch')
         elif doc.revision_times:
             errors.append(f'{source}: invented revision timestamp')
-        if review['label'] not in text:
-            errors.append(f'{source}: missing review status label')
-        if doc.review_times != ([review['timestamp']] if review.get('timestamp') else []):
-            errors.append(f'{source}: fact-check timestamp mismatch')
-        if review.get('timestamp') and doc.review_summary.strip() != review['label'] + ': ' + review['date']:
-            errors.append(f'{source}: fact-check summary mismatch')
+        passed = review['state'] == 'passed'
+        label = 'Last quality checked on ' + review['date'] if passed else 'Quality review pending'
+        if doc.quality_extra_tags:
+            errors.append(f'{source}: quality line must contain only text and semantic time')
+        if doc.quality_lines != [label]:
+            errors.append(f'{source}: expected exactly one compact quality line')
+        if doc.review_times != ([review['timestamp']] if passed else []):
+            errors.append(f'{source}: quality-check timestamp mismatch')
+        if doc.review_disclosures or any(old in text for old in ('Last fact-checked', 'Partial fact-check', 'No fact-check recorded', 'Fact-check needs review', 'omi-freshness__review')):
+            errors.append(f'{source}: legacy public factual-review UI remains')
+        if text.find('omi-freshness__quality') < text.find('omi-freshness__revision'):
+            errors.append(f'{source}: quality line must follow Last updated')
         block_at = text.find('class="omi-freshness"')
         if not 0 <= text.find('aria-label="Breadcrumb"') < block_at < text.find('<h1'):
             errors.append(f'{source}: metadata not under breadcrumb before content')

@@ -1,0 +1,544 @@
+{
+  "version": 1,
+  "reviews": {
+    "patterns/package/clips/debate-moment.md": [
+      {
+        "id": "quality-20261007-debate-moment",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-07T21:38:54.282049+00:00",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "859117d6b7c751f353c64ca47891d85ad3011e5bff3fbaadf70ffa0d7040c1a4",
+        "report_ref": "docs-internal/quality-reviews/2026-10-07/first-batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Gives actionable selection criteria: genuine disagreement, coherent positions, respectful energy; excludes domination or manufactured tension."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Compact, operational guidance; repeated definition is minor editorial redundancy, not fluff blocking use."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, exclusions and extraction prompt agree; productive ambiguity is allowed without cutting away an opposing position."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Fits Package framework and clip index, but materially conflicts with the clip quadrant\u2019s categorical maximum-ROI/highest-reach priority. The blocker lives in related guidance, not a demand for more disclaimers in this article."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Dated All-In synopsis and MFM identities freshly supported. Performance is an explicitly testable intention, not a measured promise. 30\u201390 seconds is editorial advice."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Headings, two functioning official links, copyable prompt and explicit no-invented-timecodes fallback make this usable."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Actually read supporting public publisher sources for bounded identities and editorial positioning, without inferring episode-level performance.",
+          "items": [
+            {
+              "url": "https://allin.com/",
+              "claim": "September 25, 2026 synopsis explicitly says the group debates free-market competition and related topics",
+              "finding": "September 25, 2026 synopsis explicitly says the group debates free-market competition and related topics. Supports exactly the dated synopsis attribution, not every episode or a verified clip.",
+              "checked_at": "2026-10-07T21:31:26.855Z"
+            },
+            {
+              "url": "https://www.mfmpod.com/",
+              "claim": "Publisher explicitly identifies Shaan Puri and Sam Parr brainstorming business ideas",
+              "finding": "Publisher explicitly identifies Shaan Puri and Sam Parr brainstorming business ideas. Identity/context verified; no clip or performance inference. Limitation: Homepage extraction truncated after relevant identity and episode context; entire website not audited.",
+              "checked_at": "2026-10-07T21:31:33.542Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published guidance; assess compatible audience use cases, definitions and operating recommendations. Comparison completion is documented in the original batch report.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Package means usable standalone assets; all five patterns serve that purpose. Measurement recommendations are consistent with Prove.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "30\u201390-second editorial default and standalone selection agree with target pages; Story Beat\u2019s 60\u201390-second subset is compatible. No target article claims a platform upload maximum.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "MATERIAL cross-page conflict: quadrant instructs Always extract Hot Takes first\u2014lowest effort, highest reach and attributes high save/bookmark rate to Golden Nuggets, while the target articles explicitly say measure rather than assume advantage. These categorical operating instructions undermine the target pages\u2019 source/audience-dependent selection and affect all four clip pages. Correct the quadrant, not by weakening the more careful target articles.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/data-drop.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Distinct statistic-based clip category supports useful taxonomy; its unsupported performance generalization is a related-page reliability issue, not proof for the target pages.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/golden-nugget.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/hot-take.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/story-beat.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-14T21:38:54.282049+00:00",
+        "disposition": "retry",
+        "retry_at": "2026-10-14T21:38:54.282049+00:00",
+        "reason": "Published companion clip quadrant contradicts audience-fit and test-before-assuming guidance. One shared correction is staged; no change to careful target articles is needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/clips/golden-nugget.md": [
+      {
+        "id": "quality-20261007-golden-nugget",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-07T21:38:54.282049+00:00",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "5600c4654c0b2464e25cd8a63813e33f7e822f0452b34d175b5acdab230e8ad4",
+        "report_ref": "docs-internal/quality-reviews/2026-10-07/first-batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Separates actionable, audience-appropriate advice from context-dependent discussion; useful editor decision rule."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Specificity, knowledge-level fit and exclusion criteria add substance; minor definition repetition only."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Immediate-use criterion, context exclusion and prompt align; useful advice is not confused with a guaranteed performance win."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Fits Package framework and clip index, but materially conflicts with the clip quadrant\u2019s categorical maximum-ROI/highest-reach priority. The blocker lives in related guidance, not a demand for more disclaimers in this article."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Tim Ferriss editorial aim, Knowledge Project host/positioning and corrected Apple identity supported. No save/share advantage claimed as established."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Official and Apple links resolve; prompt specifies output and manual timing fallback. Audience knowledge-level criterion could optionally be copied into prompt."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Actually read supporting public publisher sources for bounded identities and editorial positioning, without inferring episode-level performance.",
+          "items": [
+            {
+              "url": "https://tim.blog/podcast/",
+              "claim": "Show description explicitly says it extracts tactics, tools and routines",
+              "finding": "Show description explicitly says it extracts tactics, tools and routines. This verifies stated editorial aim, not outcomes.",
+              "checked_at": "2026-10-07T21:31:39.600Z"
+            },
+            {
+              "url": "https://fs.blog/knowledge-project-podcast/",
+              "claim": "Publisher describes deep conversations uncovering timeless principles and identifies Shane Parrish in decision-making episode context.",
+              "finding": "Publisher describes deep conversations uncovering timeless principles and identifies Shane Parrish in decision-making episode context. Limitation: Extract includes relevant description and episodes; trailing machine metadata truncated.",
+              "checked_at": "2026-10-07T21:31:39.715Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/the-knowledge-project/id990149481",
+              "claim": "Correct destination identifies The Knowledge Project, hosted by Shane Parrish; describes principles and provides decision-making episode context.",
+              "finding": "Correct destination identifies The Knowledge Project, hosted by Shane Parrish; describes principles and provides decision-making episode context. Limitation: Long episode listing truncated; no need to verify every episode for this bounded claim.",
+              "checked_at": "2026-10-07T21:31:54.506Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published guidance; assess compatible audience use cases, definitions and operating recommendations. Comparison completion is documented in the original batch report.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Package means usable standalone assets; all five patterns serve that purpose. Measurement recommendations are consistent with Prove.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "30\u201390-second editorial default and standalone selection agree with target pages; Story Beat\u2019s 60\u201390-second subset is compatible. No target article claims a platform upload maximum.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "MATERIAL cross-page conflict: quadrant instructs Always extract Hot Takes first\u2014lowest effort, highest reach and attributes high save/bookmark rate to Golden Nuggets, while the target articles explicitly say measure rather than assume advantage. These categorical operating instructions undermine the target pages\u2019 source/audience-dependent selection and affect all four clip pages. Correct the quadrant, not by weakening the more careful target articles.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/data-drop.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Distinct statistic-based clip category supports useful taxonomy; its unsupported performance generalization is a related-page reliability issue, not proof for the target pages.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/debate-moment.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/hot-take.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/story-beat.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-14T21:38:54.282049+00:00",
+        "disposition": "retry",
+        "retry_at": "2026-10-14T21:38:54.282049+00:00",
+        "reason": "Published companion clip quadrant contradicts audience-fit and test-before-assuming guidance. One shared correction is staged; no change to careful target articles is needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/clips/hot-take.md": [
+      {
+        "id": "quality-20261007-hot-take",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-07T21:38:54.282049+00:00",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fadb05fc84049a2488ddb915fe8ac6d0e5d421d395ff97e0a0fc0f6307ff9869",
+        "report_ref": "docs-internal/quality-reviews/2026-10-07/first-batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Useful distinction between defensible contrarian position and uninformed provocation; checks for later walk-back."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Clear selection and rejection rules, not generic motivation; metrics tied to comparable clips."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Strong opinion must stand alone, yet remain faithful to episode context; engagement is explicitly not equivalent to audience benefit."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Fits Package framework and clip index, but materially conflicts with the clip quadrant\u2019s categorical maximum-ROI/highest-reach priority. The blocker lives in related guidance, not a demand for more disclaimers in this article."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Prof G and MFM positioning supported. No guaranteed reach or engagement claim remains on this page. High-energy preference is acceptable practitioner advice."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Two working official sources and copyable prompt; timestamp/duration verification explicit. Optionally repeat walk-back check inside prompt."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Actually read supporting public publisher sources for bounded identities and editorial positioning, without inferring episode-level performance.",
+          "items": [
+            {
+              "url": "https://www.profgmedia.com/",
+              "claim": "Publisher describes analysis of business, power and society and names Scott Galloway",
+              "finding": "Publisher describes analysis of business, power and society and names Scott Galloway. No standalone hot-take efficacy asserted.",
+              "checked_at": "2026-10-07T21:31:39.854Z"
+            },
+            {
+              "url": "https://www.mfmpod.com/",
+              "claim": "Publisher explicitly identifies Shaan Puri and Sam Parr brainstorming business ideas",
+              "finding": "Publisher explicitly identifies Shaan Puri and Sam Parr brainstorming business ideas. Identity/context verified; no clip or performance inference. Limitation: Homepage extraction truncated after relevant identity and episode context; entire website not audited.",
+              "checked_at": "2026-10-07T21:31:33.542Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published guidance; assess compatible audience use cases, definitions and operating recommendations. Comparison completion is documented in the original batch report.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Package means usable standalone assets; all five patterns serve that purpose. Measurement recommendations are consistent with Prove.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "30\u201390-second editorial default and standalone selection agree with target pages; Story Beat\u2019s 60\u201390-second subset is compatible. No target article claims a platform upload maximum.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "MATERIAL cross-page conflict: quadrant instructs Always extract Hot Takes first\u2014lowest effort, highest reach and attributes high save/bookmark rate to Golden Nuggets, while the target articles explicitly say measure rather than assume advantage. These categorical operating instructions undermine the target pages\u2019 source/audience-dependent selection and affect all four clip pages. Correct the quadrant, not by weakening the more careful target articles.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/data-drop.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Distinct statistic-based clip category supports useful taxonomy; its unsupported performance generalization is a related-page reliability issue, not proof for the target pages.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/debate-moment.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/golden-nugget.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/story-beat.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-14T21:38:54.282049+00:00",
+        "disposition": "retry",
+        "retry_at": "2026-10-14T21:38:54.282049+00:00",
+        "reason": "Published companion clip quadrant contradicts audience-fit and test-before-assuming guidance. One shared correction is staged; no change to careful target articles is needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/clips/story-beat.md": [
+      {
+        "id": "quality-20261007-story-beat",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-07T21:38:54.282049+00:00",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "6e55743adf710e1f2a5f9ecc9a61a514b79b0e79c18fc10d6082095353a4a427",
+        "report_ref": "docs-internal/quality-reviews/2026-10-07/first-batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Provides complete arc, lesson and contextual independence tests for selecting an anecdote."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete arc/duration/exclusion criteria; restrained mechanism explanation."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Prompt matches narrative arc and 60\u201390-second selection; warns against judging authenticity from text alone."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Fits Package framework and clip index, but materially conflicts with the clip quadrant\u2019s categorical maximum-ROI/highest-reach priority. The blocker lives in related guidance, not a demand for more disclaimers in this article."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "All three named shows support the bounded positioning claims. Moth is recorded stage storytelling, appropriately only a starting point. No claim stories outperform advice clips; timing is editorial."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "All source destinations return the intended shows. Prompt says verify timing/context against recording; explicit missing-timecode fallback would be useful but is optional, not a failure."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Actually read supporting public publisher sources for bounded identities and editorial positioning, without inferring episode-level performance.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297",
+              "claim": "Publisher description identifies Guy Raz interviewing entrepreneurs/founders about building brands.",
+              "finding": "Publisher description identifies Guy Raz interviewing entrepreneurs/founders about building brands. Limitation: Long episode list truncated; opening show description sufficient for this identity claim.",
+              "checked_at": "2026-10-07T21:31:45.800Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/the-moth/id275699983",
+              "claim": "Show description explicitly says the podcast features stories told live on Moth stages",
+              "finding": "Show description explicitly says the podcast features stories told live on Moth stages. Recorded storytelling is the cited modality, not live-session facilitation. Limitation: Transport reports response incomplete after 750000 bytes; relevant full show description was returned. Immaterial to bounded claim.",
+              "checked_at": "2026-10-07T21:31:46.383Z"
+            },
+            {
+              "url": "https://mastersofscale.com/",
+              "claim": "Publisher explicitly describes stories of how leaders scale businesses; episode links align",
+              "finding": "Publisher explicitly describes stories of how leaders scale businesses; episode links align. No 60\u201390-second source clip verified.",
+              "checked_at": "2026-10-07T21:31:46.850Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published guidance; assess compatible audience use cases, definitions and operating recommendations. Comparison completion is documented in the original batch report.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Package means usable standalone assets; all five patterns serve that purpose. Measurement recommendations are consistent with Prove.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "30\u201390-second editorial default and standalone selection agree with target pages; Story Beat\u2019s 60\u201390-second subset is compatible. No target article claims a platform upload maximum.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "MATERIAL cross-page conflict: quadrant instructs Always extract Hot Takes first\u2014lowest effort, highest reach and attributes high save/bookmark rate to Golden Nuggets, while the target articles explicitly say measure rather than assume advantage. These categorical operating instructions undermine the target pages\u2019 source/audience-dependent selection and affect all four clip pages. Correct the quadrant, not by weakening the more careful target articles.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/data-drop.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Distinct statistic-based clip category supports useful taxonomy; its unsupported performance generalization is a related-page reliability issue, not proof for the target pages.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/debate-moment.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/golden-nugget.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/clips/hot-take.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Read complete sibling: distinct opinion/advice/debate/narrative selection rules; consistent source-limited examples and context preservation.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-14T21:38:54.282049+00:00",
+        "disposition": "retry",
+        "retry_at": "2026-10-14T21:38:54.282049+00:00",
+        "reason": "Published companion clip quadrant contradicts audience-fit and test-before-assuming guidance. One shared correction is staged; no change to careful target articles is needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/descriptions/audience-pain-breakdown.md": [
+      {
+        "id": "quality-20261007-audience-pain-breakdown",
+        "status": "pass",
+        "assessed_at": "2026-10-07T21:38:54.282049+00:00",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "78ec612d80fdbd541dde9de4cb85e11648b5d21fc73b96bab565c3934abf30c5",
+        "report_ref": "docs-internal/quality-reviews/2026-10-07/first-batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Clear tactical-episode use case and pain \u2192 practical breakdown \u2192 resources structure; inspirational-only exclusions useful."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Example plus quality bar and fill-in prompt provide enough to implement; not just a slogan."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Example follows sequence, prompt previews real content, and stated mechanism is audience relevance rather than a guaranteed outcome."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Fits Package, description index tactical use case, and description quadrant compact pain-first preview. Under-250-word preference is compatible with general 150\u2013300-word guidance; no material contradiction."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Amy Porterfield name/redirect and Marketing School positioning freshly supported. 20 episodes/zero repurposed/no new hire/riggg.com resources are explicitly illustrative, not verified customer statistics or live resource availability. Replace with verified details as article instructs."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Legible structure, functional source links and actionable prompt under 250 words. Resource verification is required by introductory example warning; optional tighter prompt check would improve portability."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Actually read supporting public publisher sources for bounded identities and editorial positioning, without inferring episode-level performance.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545",
+              "claim": "Existing Apple link redirects successfully to /the-amy-porterfield-show/id594703545",
+              "finding": "Existing Apple link redirects successfully to /the-amy-porterfield-show/id594703545. Show description supports online business problems, conversations and sustainable growth.",
+              "checked_at": "2026-10-07T21:31:53.405Z"
+            },
+            {
+              "url": "https://marketingschool.io/",
+              "claim": "Publisher lists Neil and Eric discussing marketing, business, AI and founder problems",
+              "finding": "Publisher lists Neil and Eric discussing marketing, business, AI and founder problems. Supports only broad show positioning, not use of this exact description formula.",
+              "checked_at": "2026-10-07T21:31:53.791Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published guidance; assess compatible audience use cases, definitions and operating recommendations. Comparison completion is documented in the original batch report.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Package means usable standalone assets; all five patterns serve that purpose. Measurement recommendations are consistent with Prove.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/descriptions/index.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Tactical solution-oriented use case agrees. Legacy platform-spec table was read but not verified and is not imported into this page or its claims.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "quadrants/descriptions.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Audience Pain is compact tactical preview between information and emotion; consistent.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/descriptions/problem-credibility-takeaway.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Adds guest credentials and explicit CTA; distinct from pain/breakdown/resources. Examples marked illustrative in both.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            },
+            {
+              "path": "patterns/package/descriptions/guest-story-arc.md",
+              "claim": "Consistency of the reviewed page with the related published guidance and its applicable operating recommendations.",
+              "finding": "Narrative-led alternative makes the tactical/inspirational exclusion coherent. Its sweeping narrative-superiority line is not evidence for this target.",
+              "checked_at": "2026-10-07T21:34:02.809Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-05T21:38:54.282049+00:00",
+        "disposition": "rolling",
+        "retry_at": null,
+        "reason": null
+      }
+    ]
+  }
+}

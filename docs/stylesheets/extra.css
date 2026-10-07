@@ -399,6 +399,5 @@ h1, h2, h3, h4, h5, h6,
 .md-typeset .omi-freshness p { margin: .25rem 0; }
 .md-typeset .omi-freshness details > p, .md-typeset .omi-freshness details > ul { margin: .4rem 0 .6rem; }
 
-/* Shared provenance remains compact above the template-driven homepage hero. */
-.omi-home-freshness { max-width: 1100px; margin: 0 auto; padding: .5rem 1.2rem 0; }
-.omi-home-freshness .omi-freshness { margin-bottom: .5rem; }
+/* One readable line, wrapping naturally on narrow screens; no review disclosure. */
+.md-typeset .omi-freshness .omi-freshness__quality { font-size: .65rem; line-height: 1.5; margin: .1rem 0 0; }

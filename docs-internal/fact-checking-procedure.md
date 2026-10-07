@@ -1,3 +1,7 @@
+# Legacy factual-review evidence procedure
+
+> Operational migration approved October 7, 2026: the recurring page-maintenance job now follows [Quality review procedure](quality-review-procedure.md), not a blanket claim-by-claim fact-certification process. This document and data/fact-checks.json preserve prior evidence and the rules for substantive source checks when appropriate. They do not create quality-check dates. The new quality registry/checklist, bootstrap coverage and rolling schedule are authoritative for public review metadata. Corrections remain in the single content-card queue; no separate digest. Historical scheduling/output instructions below are retained as history, not a second active job.
+
 # Published-page factual review procedure
 
 This supplements TEAM.md and the [AEO publication standard](aeo-publishing-standard.md), not the framework, scoring rubric, evidence labels, source policy, or human approval contract. Public Last updated is an editorial-change date, **not** an assertion that every claim was fact-checked. Git timestamps, builds, link checks and successful HTTP fetches never establish factual freshness.
