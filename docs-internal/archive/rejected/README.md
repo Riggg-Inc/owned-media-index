@@ -46,3 +46,16 @@ Owner retirement at 16:26 UTC; canonical card 047c5c2d-ef27-4db9-adc6-7740fb4e21
 Owner retirement at 17:56 UTC; canonical card a34ea862-3aa4-4873-bb71-e7dd9d8fe107 remains done-retired, not published. Duplicate 73075383-ed4a-4389-8873-493ea2150b70 remains superseded history. Live-event facilitated peer interaction is outside recorded-media scope. Do not reopen, recreate, recommend, rename, substitute or consolidate.
 
 Byte-for-byte archive SHA-256 0172b9ebc3221946b7960e0563f5663a63f699c357be1167289edaa390e9aed9. Source path produce/audience-engagement/facilitated-peer-connection.md; source commit aea4c0f4beea576e79bf495ec27a6e0418f9bc72, historical card drafting reference 2f8764d. At execution origin/main 4f0667c9aa3a828bb354f8b856fa15237986bc77 DID contain the draft; isolated-origin and local-main source hashes matched. No unpublished commit or stash imported. No public docs article or active inbound recommendation existed; no published page removed. Historical reconciliation inventories remain unchanged snapshots, not current recommendations. Tests guard the retired slug, both card identifiers and archive hash. No other backlog disposition changed.
+
+
+## Track-Specific Surveying — October 7, 2026
+
+Owner retirement at 18:39 UTC; card `19e97139-47d6-4077-b8d7-fed854b019a7` is done-retired, not published. Its evidence brief describes post-program engagement surveys tailored to individual learning paths. This is training-program measurement, not recorded-media production or distribution. The scope preflight returned the expected policy verdict; no draft was created in that run. No source artifact is claimed or manufactured here, and no public page is removed. Suppress the identifier and semantic mechanism; do not resurface under an owned-media label.
+
+
+## Full backlog scope cleanup — October 7, 2026
+
+Owner authorized evidence-led closure of confirmed excluded legacy inventory. Transparent Preframing for Virtual Logistics and Lanyard Sponsorship Dominance are preserved byte-for-byte as historical drafts, not approved/publication inputs. Their mechanisms are live audience facilitation and event sponsorship purchasing respectively, not recorded-media practice. Provenance and hashes are in `full-cleanup-20261007.json` and the suppression register. No public docs articles existed or were removed; no substitute article is commissioned. Do not restore, rename or reintake these mechanisms automatically.
+
+
+The same pass also archives Flipped Asynchronous Baseline, Live Attendance Gating, Kinesthetic Audience Reset and Strategic Pause Engagement: their full drafts prescribe coursework/live reinforcement, synchronous bonuses, physical audience motions and reading a live room respectively. Recorded educational audio/video remains eligible; these particular mechanisms are not it. The archive manifest records byte hashes and source paths. Platform Monetization Eligibility Risk, Host Adserver Self-Preferencing and Ad Loudness Parity are suppressed candidate-only monetization/legal guides; no source archive is claimed for those candidates. The separate expired-claim duplicate cards remain a parent recovery task; this does not claim their lifecycle was changed.

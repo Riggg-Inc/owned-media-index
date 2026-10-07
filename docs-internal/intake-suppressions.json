@@ -14,7 +14,17 @@
     "time-sequenced-messaging",
     "platform-ad-skipping-monetization-resilience",
     "modular-detail-contraction",
-    "facilitated-peer-connection"
+    "facilitated-peer-connection",
+    "track-specific-surveying",
+    "transparent-preframing-virtual-logistics",
+    "lanyard-sponsorship-dominance",
+    "flipped-asynchronous-baseline",
+    "live-attendance-gating",
+    "kinesthetic-audience-reset",
+    "strategic-pause-engagement",
+    "platform-monetization-eligibility-risk",
+    "host-adserver-self-preferencing",
+    "ad-loudness-parity"
   ],
   "superseded_slugs": [
     "gamified-branded-segments",
@@ -26,7 +36,18 @@
     "83c11644-d19c-4e09-b49e-e9861d41242f",
     "a34ea862-3aa4-4873-bb71-e7dd9d8fe107",
     "73075383-ed4a-4389-8873-493ea2150b70",
-    "7c68d6ad-f05b-482f-b34f-cef03e5ba52d"
+    "7c68d6ad-f05b-482f-b34f-cef03e5ba52d",
+    "19e97139-47d6-4077-b8d7-fed854b019a7",
+    "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+    "618673c5-6e21-4849-89e6-e20ddd2b51d1",
+    "bc9cb6fb-51e5-4340-b2fa-83f0d5aadc3f",
+    "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+    "f140df61-69e3-441c-99ec-1203a34e4fc7",
+    "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+    "da380d98-cc0b-44a5-bd5d-199e1981df17",
+    "64182534-e528-4c5d-96cf-6206d36d41dd",
+    "b023e9fa-8b01-437d-a25f-8dfdde7d1554",
+    "3ad27177-0c6a-4203-ba9c-92bd773dc4bd"
   ],
   "eligible_mechanisms": [
     "recorded-production",
@@ -69,6 +90,42 @@
       "source_checkout": "openclaw-workspace historical Git object",
       "canonical_card_id": "63fd804a-c90c-4f76-8282-394c56439efb",
       "decision": "Owner 2026-10-06 18:06 UTC: consolidate useful plain question-to-substantive-answer design into focused-media research; retire standalone, not published. No mandatory non-rhetorical phrase, cognitive processing or retention guarantee. General question-answer formats remain eligible."
+    },
+    "transparent-preframing-virtual-logistics": {
+      "sha256": "9da0f4c5ae2225cbde3ee6161fdc38a3d137169d3c25654fd6828d455e9e977b",
+      "source_path": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+      "source_commit": "9b476f8de261d153a15b31b4f76f0145047a906f",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Live virtual audience logistics/facilitation, not recorded-asset practice"
+    },
+    "lanyard-sponsorship-dominance": {
+      "sha256": "78715ccedabbb9b8c74e0b51508c6a33fd80a3ee2fbb274187c1dfa4624d2662",
+      "source_path": "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md",
+      "source_commit": "2613320bfb4dde5515f1c0437c71a878842b2c6b",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Event sponsorship purchasing, not distribution of an owned recording"
+    },
+    "flipped-asynchronous-baseline": {
+      "sha256": "04990c3a9b8f22f25b5ec511e5fca6bd8961a0f3b2075d9520f1d21aeff1d596",
+      "source_path": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+      "source_commit": "838637cb4aa9966334b17b3d9773b2c69850525f",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Training coursework and live reinforcement"
+    },
+    "live-attendance-gating": {
+      "sha256": "be8243b158fa56553e566eb68f2beb3b4be9416121c1b8b02a64620530d321ff",
+      "source_path": "publish/live-events/live-attendance-gating.md",
+      "source_commit": "45db49b1401ab47bfc278fe52a52f8b38b9a35e8",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Synchronous-event attendance bonuses"
+    },
+    "kinesthetic-audience-reset": {
+      "sha256": "1b4bd1d1d8b52fb38d5c45103a8ed9794f15ab764dc2924e5de154e571c7d3c2",
+      "source_path": "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md",
+      "source_commit": "c87e0040439e8c7e3728a334b124a51f6c82b89a",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Live audience physical-motion facilitation"
+    },
+    "strategic-pause-engagement": {
+      "sha256": "dae818ca4577c626970e58c2aacdbb319a7aa9fd47506e6280d0a1f7a02f33db",
+      "source_path": "produce/presentation-tactics/strategic-pause-engagement.md",
+      "source_commit": "ba06acd9b8308bcea83d161b8370f1d1c2a90c6f",
+      "decision": "Owner-authorized full backlog scope cleanup October 7, 2026; Live-room posture/eye-contact facilitation"
     }
   }
 }

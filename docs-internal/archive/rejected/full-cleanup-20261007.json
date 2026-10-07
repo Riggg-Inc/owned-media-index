@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "transparent-preframing-virtual-logistics",
+    "source": "produce/audience-engagement/transparent-preframing-virtual-logistics.md",
+    "archive": "docs-internal/archive/rejected/transparent-preframing-virtual-logistics.md",
+    "sha256": "9da0f4c5ae2225cbde3ee6161fdc38a3d137169d3c25654fd6828d455e9e977b",
+    "card": "ff51ce9f-ef92-4827-a6d8-8d83db7f5f26",
+    "reason": "Live virtual audience logistics/facilitation, not recorded-asset practice"
+  },
+  {
+    "slug": "lanyard-sponsorship-dominance",
+    "source": "publish/lanyard-sponsorship-dominance/lanyard-sponsorship-dominance.md",
+    "archive": "docs-internal/archive/rejected/lanyard-sponsorship-dominance.md",
+    "sha256": "78715ccedabbb9b8c74e0b51508c6a33fd80a3ee2fbb274187c1dfa4624d2662",
+    "card": "618673c5-6e21-4849-89e6-e20ddd2b51d1",
+    "reason": "Event sponsorship purchasing, not distribution of an owned recording"
+  },
+  {
+    "slug": "flipped-asynchronous-baseline",
+    "source": "produce/audience-onboarding/flipped-asynchronous-baseline.md",
+    "archive": "docs-internal/archive/rejected/flipped-asynchronous-baseline.md",
+    "sha256": "04990c3a9b8f22f25b5ec511e5fca6bd8961a0f3b2075d9520f1d21aeff1d596",
+    "card": "1e068e6a-791b-4935-b652-f5c484d7f3e9",
+    "reason": "Training coursework and live reinforcement"
+  },
+  {
+    "slug": "live-attendance-gating",
+    "source": "publish/live-events/live-attendance-gating.md",
+    "archive": "docs-internal/archive/rejected/live-attendance-gating.md",
+    "sha256": "be8243b158fa56553e566eb68f2beb3b4be9416121c1b8b02a64620530d321ff",
+    "card": "f140df61-69e3-441c-99ec-1203a34e4fc7",
+    "reason": "Synchronous-event attendance bonuses"
+  },
+  {
+    "slug": "kinesthetic-audience-reset",
+    "source": "produce/kinesthetic-audience-reset/kinesthetic-audience-reset.md",
+    "archive": "docs-internal/archive/rejected/kinesthetic-audience-reset.md",
+    "sha256": "1b4bd1d1d8b52fb38d5c45103a8ed9794f15ab764dc2924e5de154e571c7d3c2",
+    "card": "1ad7cc9f-356f-4ae4-b0ac-a198443b093c",
+    "reason": "Live audience physical-motion facilitation"
+  },
+  {
+    "slug": "strategic-pause-engagement",
+    "source": "produce/presentation-tactics/strategic-pause-engagement.md",
+    "archive": "docs-internal/archive/rejected/strategic-pause-engagement.md",
+    "sha256": "dae818ca4577c626970e58c2aacdbb319a7aa9fd47506e6280d0a1f7a02f33db",
+    "card": "da380d98-cc0b-44a5-bd5d-199e1981df17",
+    "reason": "Live-room posture/eye-contact facilitation"
+  },
+  {
+    "slug": "kinesthetic-audience-reset-workspace-original",
+    "source": "/home/production/openclaw-workspace/produce/audience-engagement/kinesthetic-audience-reset.md",
+    "archive": "docs-internal/archive/rejected/kinesthetic-audience-reset-workspace-original.md",
+    "sha256": "f5e79e7c37183c1ce5e5764741bef82f7f663b7771bd86d2c625bae07847f7d4",
+    "source_commit": "c38af5e0",
+    "disposition": "Distinct workspace variant preserved; original workspace source untouched due unrelated dirty/unpublished state. Intake suppression covers canonical mechanism."
+  }
+]
