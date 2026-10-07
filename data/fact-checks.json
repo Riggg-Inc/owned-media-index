@@ -204,6 +204,37 @@
       ],
       "status": "partial",
       "next_review_at": "2026-10-13T16:45:00Z"
+    },
+    "patterns/package/clips/story-beat.md": {
+      "checked_at": "2026-10-06T16:50:26.413Z",
+      "reviewer": "Cass Reelman (AI: openai/gpt-6-astra; no human signoff)",
+      "method": "Original primary-source comparison completed 2026-10-06; saved report and extracts: https://github.com/Riggg-Inc/owned-media-index/blob/f3bfbc65efdd54656f944d5d4fa50eaab871944c/docs-internal/fact-checks/2026-10-06/report-v1.md . Approved correction compared with those extracts and rebound to this exact body at publication review on 2026-10-07; original source-check timestamps retained, not a new fetch. Show references are now show-level teardown starting points, not episode-level suitability or measured outcomes; universal perfect-clip, engagement and more-context guarantees removed or qualified. Unresolved: episode-level suitability, audience engagement outcomes and internal production data/score 4 provenance remain unestablished. Auditor must review remaining provenance and outcome gaps by the existing retry date. Exact-version approval and independent binding review recorded on Workboard card 78f71df4-17e2-4578-bf17-a0e475daf9c7; approval does not validate the score. checked_at records the original source audit, not review of this later revised body.",
+      "content_sha256": "6e55743adf710e1f2a5f9ecc9a61a514b79b0e79c18fc10d6082095353a4a427",
+      "sources": [
+        {
+          "url": "https://podcasts.apple.com/us/podcast/the-moth/id275699983",
+          "claims": [
+            "The Moth publisher describes podcast recordings of personal stories told live."
+          ],
+          "checked_at": "2026-10-06T16:47:50.556Z"
+        },
+        {
+          "url": "https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297",
+          "claims": [
+            "How I Built This publisher describes founder interviews hosted by Guy Raz."
+          ],
+          "checked_at": "2026-10-06T16:47:51.233Z"
+        },
+        {
+          "url": "https://mastersofscale.com/",
+          "claims": [
+            "Masters of Scale publisher describes stories about scaling businesses."
+          ],
+          "checked_at": "2026-10-06T16:47:23.497Z"
+        }
+      ],
+      "status": "partial",
+      "next_review_at": "2026-10-13T16:45:00Z"
     }
   }
 }

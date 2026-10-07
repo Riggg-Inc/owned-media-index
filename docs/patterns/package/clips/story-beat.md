@@ -1,10 +1,10 @@
 ---
-description: "A clip extracted from a compelling narrative moment — a guest anecdote, origin story, or turning point that creates emotional engagement."
+description: "A clip built around a guest anecdote, origin story, or turning point, aiming to engage through a self-contained narrative."
 ---
 
 # Story Beat
 
-A clip extracted from a compelling narrative moment — a guest anecdote, origin story, or turning point that creates emotional engagement. Select a complete setup, tension, and resolution with a transferable lesson; avoid anecdotes that need earlier context.
+A clip built around a guest anecdote, origin story, or turning point, aiming to engage through a self-contained narrative. Select a complete setup, tension, and resolution with a transferable lesson; avoid anecdotes that need earlier context.
 
 **Stage:** Package → Clips  
 **Score:** 4  
@@ -12,11 +12,11 @@ A clip extracted from a compelling narrative moment — a guest anecdote, origin
 
 ## What It Is
 
-A clip extracted from a compelling narrative moment — a guest anecdote, origin story, or turning point that creates emotional engagement.
+A clip built around a guest anecdote, origin story, or turning point, aiming to engage through a self-contained narrative.
 
 ## Why It Works
 
-Stories are memorable. A short story offers an emotional route into a lesson; that does not establish that it outperforms an advice clip.
+A short story can offer a narrative route into a lesson; test its effect with your audience rather than assuming it outperforms an advice clip.
 
 ## Selection Criteria
 
@@ -30,15 +30,15 @@ Stories are memorable. A short story offers an emotional route into a lesson; th
 Avoid when the story requires setup from earlier in the conversation, or when the emotional moment does not translate without visual cues.
 
 
-## Shows That Use This Pattern
+## Shows to Study
 
 These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
 
 | Show | Why | Link |
 |---|---|---|
-| **How I Built This** | Every episode has a defining narrative moment that makes the perfect clip | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
-| **The Moth** | Built entirely around personal narrative moments that stand alone | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-moth/id275699983) |
-| **Masters of Scale** | Interview structure creates natural story beats around scaling turning points | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
+| **How I Built This** | Guy Raz interviews founders about building their businesses; check the full segment for a self-contained narrative moment before clipping | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+| **The Moth** | The podcast features recordings of stories told on Moth stages; check that an excerpt preserves the story’s context | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-moth/id275699983) |
+| **Masters of Scale** | The publisher presents stories about scaling businesses; identify a self-contained moment in the source episode | [Publisher](https://mastersofscale.com/) |
 
 ## Prompt Template
 
@@ -55,7 +55,8 @@ Requirements:
 - Fits within 60-90 seconds
 - Emotional beat is genuine, not performed
 - Illustrates a transferable lesson
+- Verify timing and context against the recording; do not infer authenticity from the transcript alone
 - Provide: start/end timestamps, the story summary, and a suggested clip title
 ```
 
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Replace the bracketed placeholders with your specific details. Provide relevant audience, guest, and episode context, then evaluate the output against the source; more context alone does not guarantee better results.
