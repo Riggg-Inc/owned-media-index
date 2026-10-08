@@ -539,6 +539,347 @@
         "retry_at": null,
         "reason": null
       }
+    ],
+    "contribute.md": [
+      {
+        "id": "quality-20261008-contribute",
+        "status": "pass",
+        "assessed_at": "2026-10-08T16:50:57Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "826c5dfda24f4be148871d64f981143405803cd6b405cf8d987a8bfd2a57c407",
+        "report_ref": "docs-internal/quality-reviews/2026-10-08/batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Gives prospective contributors a useful scope and a concrete checklist for preparing a pattern or correction."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Lists accepted contribution types and nine required pattern questions; brief enough to use without motivational filler."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Opening invitation, quality criteria and pattern checklist agree; corrections and stale-entry reports are explicitly accepted."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Pattern Library asks the same use-case, quality, limitations and evidence questions; Evidence Rules supports the evidence-informed standard."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "These are first-party editorial requirements, not measured performance claims. No external statistics or platform assertions need certification."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Live headings and lists are readable in desktop, mobile and dark rendering. Header repository link and page edit link provide a contribution route. Explicit submission instructions would improve newcomer usability but are optional, not a blocker."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "First-party editorial policy, taxonomy or site copy assessed against actual published companion pages; no external empirical assertion requires a separate source for passing dimensions.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published neighboring pages were read and compared for definitions, reader tasks and operational recommendations.",
+          "items": [
+            {
+              "path": "patterns/index.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Pattern Library repeats use-case, evidence and when-not-to-use requirements, supporting this contribution checklist.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "evidence.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Evidence categories allow practitioner judgment while requiring privacy protection; compatible with evidence-informed contributions.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-06T16:50:57Z",
+        "disposition": "rolling",
+        "retry_at": null,
+        "reason": null
+      }
+    ],
+    "evidence.md": [
+      {
+        "id": "quality-20261008-evidence",
+        "status": "pass",
+        "assessed_at": "2026-10-08T16:50:57Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+        "report_ref": "docs-internal/quality-reviews/2026-10-08/batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Explains which kinds of support readers and contributors should distinguish when interpreting an entry."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five short definitions plus specific privacy exclusions supply the promised overview without padding; a long research manual is unnecessary here."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Separates practitioner judgment from research and platform documentation, then consistently limits private-data publication."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Matches the root EVIDENCE.md categories and privacy boundary. Scoring adds evidence-level labels rather than contradicting these source categories; contribution standards request evidence without demanding experimental proof."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "States the Index policy and definitions, not that every historical entry has passed enforcement. Generalization is accompanied by an explicit prohibition on confidential or unapproved material."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Two clear sections and concise bullets remain legible in the live mobile screenshot; desktop and dark layouts have no horizontal overflow and navigation reaches Scoring and Contribute."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "First-party editorial policy, taxonomy or site copy assessed against actual published companion pages; no external empirical assertion requires a separate source for passing dimensions.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published neighboring pages were read and compared for definitions, reader tasks and operational recommendations.",
+          "items": [
+            {
+              "path": "scoring.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Scoring separates hypothesis, practitioner, internal, external and benchmark-backed evidence levels; this page describes source types, not conflicting rating rules.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "contribute.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Contribution checklist asks for evidence and tradeoffs, consistent with honest support classification and safe publication.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-07T16:50:57Z",
+        "disposition": "rolling",
+        "retry_at": null,
+        "reason": null
+      }
+    ],
+    "framework.md": [
+      {
+        "id": "quality-20261008-framework",
+        "status": "pass",
+        "assessed_at": "2026-10-08T16:50:57Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-08/batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Gives a producer a practical five-stage map and a diagnostic quality question for each stage."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Specific examples such as backups, chapters, RSS, conversion events and searchable archives distinguish the stages beyond a slogan."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Source capture precedes asset packaging and distribution, followed by measurement and retrieval. Make content compound is an operating goal, not a quantified guarantee."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Pattern Library selection guide and Owned Media stage table use the same five stages. Live production here means capture/recording and distribution, not the excluded facilitation tactics."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "This is an explicitly Index-owned taxonomy and practitioner operating guidance. It claims no measured ROI, guaranteed AI citations or platform upload limit; experimental evidence is not required for the recommendations."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Five titled sections and repeated Quality question labels make the page scannable. Live desktop/mobile/dark cases have no overflow; screenshot confirms readable dark presentation and usable section navigation."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "First-party editorial policy, taxonomy or site copy assessed against actual published companion pages; no external empirical assertion requires a separate source for passing dimensions.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published neighboring pages were read and compared for definitions, reader tasks and operational recommendations.",
+          "items": [
+            {
+              "path": "patterns/index.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Library selection guide maps capture, assets, delivery, performance and retrieval to the same five stages.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "owned-media.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Stage table has the same names and tasks; its separate ownership absolutes are not adopted by this framework page.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-07T16:50:57Z",
+        "disposition": "rolling",
+        "retry_at": null,
+        "reason": null
+      }
+    ],
+    "index.md": [
+      {
+        "id": "quality-20261008-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-08T16:50:57Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1f48724164ca94e101fb6e15e791995cda333adb5cea48e9fbbc5dd88341e47d",
+        "report_ref": "docs-internal/quality-reviews/2026-10-08/batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Introduces the library and routes different production tasks to published stage hubs and Riggg; useful starting point rather than a duplicate detailed guide."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Stage summaries, pattern anatomy, audience use cases and linked highlights provide concrete navigation. Some promotional repetition is optional editorial cleanup."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Introduction, stage map and navigation follow a comprehensible progression; the template replaces Markdown and was separately read in full."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Rendered template defines score 5 as industry standard with production data, whereas Scoring defines recommended default with strong evidence and broad usefulness. This materially misstates how readers should interpret ratings."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Template promises findability forever, numbers that prove owned media works, and discoverability improvements without bounded support. These are stronger than the framework operating goals and should be qualified; not a request to prove every piece of advice."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Live card links and section organization provide usable routes; desktop/mobile/dark have no horizontal overflow. Homepage correctly omits breadcrumbs and freshness UI; full mobile screenshot inspected."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "First-party editorial policy, taxonomy or site copy assessed against actual published companion pages; no external empirical assertion requires a separate source for passing dimensions.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published neighboring pages were read and compared for definitions, reader tasks and operational recommendations.",
+          "items": [
+            {
+              "path": "scoring.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Published score 5 means recommended default with strong evidence and broad usefulness, not the homepage template industry-standard/production-data definition.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Five-stage names and practical examples align, but framework quality questions do not substantiate homepage performance/permanence promises.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "contribute.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Contribution checklist substantiates intended structure, not a completed compliance audit of every entry.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-15T16:50:57Z",
+        "disposition": "retry",
+        "retry_at": "2026-10-15T16:50:57Z",
+        "reason": "Existing exact-body correction remains preparation: homepage template scoring contradiction and unsupported promises; delivery must be recovered and exact artifact approved.",
+        "correction_card": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e"
+      }
+    ],
+    "owned-media.md": [
+      {
+        "id": "quality-20261008-owned-media",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-08T16:50:57Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ab915437082f29dcfa77d443ca4a597c4b395ec99d6a1e1d5d0476b83ab6c6e5",
+        "report_ref": "docs-internal/quality-reviews/2026-10-08/batch.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The asset-versus-channel distinction and extensive stage inventory help teams classify what they make and where it goes."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete master files, transcripts, guest packages, feeds and reporting assets give this definition operational substance."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The channel test requires survival of platform loss, but provider hosting accounts are declared channels where losing the platform means losing nothing. The definition also turns creation alone into unconditional ownership."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Five-stage mapping agrees with Framework, but Preserve claims assets power AI discovery while the Structured Data introduction explicitly says markup cannot guarantee search features. Its operating distinction needs qualification rather than a framework redesign."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "U.S. Copyright Office explains works for hire and transfers, contradicting universal creator ownership. Transistor terms permit account suspension/deletion, contradicting irrevocable provider access. PESO/date and every platform capability were not freshly verified; prior report limitations remain explicit."
+          },
+          "usability": {
+            "status": "pass",
+            "rationale": "Nested headings, inventories, comparison tables and final two tests are readable and navigable in live desktop/mobile/dark rendering without page overflow. The tests are easy to apply but substantively misleading as identified above."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material universal rights and provider-control claims require authoritative copyright guidance and the named provider terms. Other unresolved specifics remain uncertified.",
+          "items": [
+            {
+              "url": "https://www.copyright.gov/what-is-copyright/",
+              "claim": "Creating any content always means the creator owns the resulting asset.",
+              "finding": "Who is a copyright owner explains employment works for hire, certain commissioned works and transfers. Original Works excludes titles and short phrases. Universal assertion fails; U.S. guidance is not worldwide legal advice.",
+              "checked_at": "2026-10-08T16:47:50Z"
+            },
+            {
+              "url": "https://transistor.fm/terms/",
+              "claim": "A podcast hosting account is a channel with irrevocable access and no loss if the platform disappears.",
+              "finding": "Account suspension and deletion reserves provider power to suspend/delete; Content provided by Users requires legal rights and grants a service license. Relevant sections read, later terms truncated; provider access is not irrevocable.",
+              "checked_at": "2026-10-08T16:47:59Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published neighboring pages were read and compared for definitions, reader tasks and operational recommendations.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Five-stage operational grouping agrees without requiring unconditional legal ownership or provider continuity.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/structured-data.md",
+              "claim": "Consistency of this page with related published definitions and practical guidance.",
+              "finding": "Opening and Why It Works correctly limit schema to machine-readable identity without guaranteed search features, contrary to categorical discovery language in Preserve. Other claims on that comparison page were not certified.",
+              "checked_at": "2026-10-08T16:50:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-10-15T16:50:57Z",
+        "disposition": "retry",
+        "retry_at": "2026-10-15T16:50:57Z",
+        "reason": "Existing exact-body rights/control correction remains blocked preparation; source/platform reconciliation and framework-owner approval required. Retired benefits add-on must not be revived.",
+        "correction_card": "34d46539-4d50-4e07-9c23-6fed2edaa645"
+      }
     ]
   }
 }
