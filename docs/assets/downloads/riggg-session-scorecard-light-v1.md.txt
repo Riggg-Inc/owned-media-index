@@ -1,0 +1,35 @@
+# Session performance scorecard - light worksheet
+
+Proposed Riggg adaptation, not a validated numerical grade.
+Guide: https://index.riggg.com/patterns/prove/session-performance-scorecard/
+Keep one header, five checks, two or three evidence rows, and one decision.
+
+**Session header:** [ID/title + asset/report links; audience and goal; target or baseline-building; reviewer; actual release anchor; outcome window start/end/time zone; decision date. Note staggered asset windows.]
+
+## Five checks
+Use verified / needs attention / not checked / not applicable, with evidence or an exception.
+
+| Check | Status + evidence/exception |
+| --- | --- |
+| Produce: source opens and required content is intelligible; repairs logged | [Answer; playback check link and full/sampled scope] |
+| Package: source meaning, accurate promise, usable captions/transcript, permitted use | [Answer; final-version check and restrictions] |
+| Publish: actual live destinations, correct version, playback/access and CTA | [Answer; URLs and actual release times; missing assets] |
+| Prove: evidence below answers the goal; availability and baseline explicit | [Answer; reports or missing-data reason] |
+| Preserve: teammate can find/open source, finals and transcript with context/restrictions | [Answer; inventory/retrieval check; candidate versus actual reuse] |
+
+## Two or three evidence rows
+Shared window is in the header. A concrete qualitative observation may replace a metric.
+
+| Measure or observation + source/asset | Result + comparison | Meaning or limit |
+| --- | --- | --- |
+| [Primary goal evidence; report link] | [Value/unit or unavailable + reason; target/baseline] | [What it supports and does not] |
+| [Diagnostic evidence; report link] | [Value/unit; numerator/denominator for a rate] | [Coverage or alternative explanation] |
+| [Optional third row - delete if unnecessary] | [Comparable window or labeled difference] | [What remains unknown] |
+
+**One decision:** [repeat / improve / stop / defer a specific practice, because evidence + uncertainty].
+**Next action:** [one change + completion check]. **Owner:** [one person].
+**Due / next review:** [chosen dates].
+
+Before release: source/final/rights checks. At release: verify actual access and links. At the chosen outcome window: review evidence. Preserve now; recheck currency/context/permissions when reusing later. No universal review duration.
+
+Unknown, thresholded or uncollected is not zero. Use compatible rate cohorts and release-age comparisons. Clicks are not inquiries; downloads are not confirmed listeners; do not sum platforms into unique reach. Keep personal details in authorized evidence systems, not this sheet. These checks are not a full legal or accessibility review.

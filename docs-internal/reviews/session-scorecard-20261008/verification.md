@@ -1,0 +1,11 @@
+# Verification and handoff limits
+
+- Strict MkDocs build used /home/production/owned-asset-media-index/.venv/bin/mkdocs with OMI_GA_MEASUREMENT_ID=G-T1FBFDLCRE and OMI_PRIVACY_URL=https://riggg.com/privacy-policy/. Build passed; existing navigation omission INFO list is not a warning/failure.
+- Video source/public parity passed. Site: 128 HTML pages, 8,398 internal references, zero errors. AEO: 127 pages, zero errors. Freshness: 127 pages, zero errors. Fact/quality store validation: zero errors; existing unreviewed/partial/needs-revision states remain, not converted into passes.
+- CSV parsed as four columns, header plus fourteen data rows, exactly five checks and three evidence slots (third optional). All cells checked for formula-trigger prefixes and controls. Both download links resolved over the live local preview with HTTP 200 and byte-for-byte source parity; Markdown download attribute specifies .md. No second public article created.
+- Actual built article HTML and extracted text read, including fictional example. Four tables contain 5, 3, 5 and 2 data rows. One H1, useful direct intro, source locators, visible fictional warning, two collapsed optional definition sections. Template correctly shows pending-commit preview and quality review pending before commit. No invented review timestamp.
+- Visual browser inspection BLOCKED: browser tool returned navigation blocked by policy for local preview and portal URL. No alternate browser route used to bypass policy. Desktop/mobile visual layout and interactive download behavior require authorized reviewer inspection. HTML/HTTP checks are not claimed as screenshots or browser acceptance. Review preview is local/temporary, not production.
+- Git diff whitespace check passed. Full-file SHA-256 values are in the workspace handoff; only article, two assets and this internal review directory are in scope.
+- Automatic deployment on push is main-only in inspected workflow; workflow_dispatch exists. No main push or dispatch authorized/performed. Owner/parent must review exact revision before any publication.
+
+See build.log, validation.log, regressions.log and asset-render-check.json for measured output. Full regression total is recorded in regressions.log after completion and repeated in the workspace handoff. Technical passes do not constitute editorial approval or a fact-check attestation.

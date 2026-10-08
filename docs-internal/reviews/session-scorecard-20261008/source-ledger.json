@@ -1,0 +1,422 @@
+{
+  "status": "Proposed revision only; no human approval or publication",
+  "source_context": "16 report entries, 15 distinct URLs; issuer guidelines/platform documentation, not 16 independent studies. 13 sources cited publicly. Source bodies were read by research agents; this synthesis read their full reports and structured ledgers, not an independent re-fetch.",
+  "sources": [
+    {
+      "id": "M1",
+      "title": "A Taxonomy of Evaluation",
+      "author": "Professor Jim Macnamara for AMEC",
+      "organization": "AMEC",
+      "publication_date": null,
+      "url": "https://amecorg.com/amecframework/home/supporting-material/taxonomy/",
+      "retrieved_utc": "2026-10-08T21:08:55.771Z",
+      "read_scope": "Complete extracted page, including taxonomy, footnotes and references.",
+      "principles": [
+        "Do not substitute lower-level metrics for higher-level outcomes.",
+        "Outputs concern distribution/exposure/reception; outtakes attention/understanding/engagement; outcomes audience effects; impact organizational/stakeholder/societal results.",
+        "Stages overlap and feedback is iterative, not a simple linear funnel.",
+        "Impact may take years; causation requires temporal order, a supported relationship and ruling out other causes as far as possible."
+      ],
+      "locators": [
+        "Notes for using this taxonomy",
+        "Stages table",
+        "Footnotes 3, 4, 6 and 8"
+      ],
+      "limits": [
+        "Communications evaluation taxonomy, not an empirical validation of a Riggg session scorecard.",
+        "Metric classifications depend on purpose; outtakes overlap short-term outcomes."
+      ],
+      "applicability": "Separate shipped assets, audience reception, meaningful response and business effects in one recorded-session review.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M2",
+      "title": "AMEC Integrated Evaluation Framework — Home",
+      "author": "Richard Bagnall; AMEC working group introduction",
+      "organization": "AMEC",
+      "publication_date": null,
+      "url": "https://amecorg.com/amecframework/",
+      "retrieved_utc": "2026-10-08T21:08:57.842Z",
+      "read_scope": "Complete extracted page; linked resources/webinar not treated as read.",
+      "principles": [
+        "Align communication objectives to organizational objectives before activity.",
+        "Establish benchmarks, targets and KPIs in advance, then revisit results.",
+        "Measurement should move beyond activity counts toward meaningful effects."
+      ],
+      "locators": [
+        "Opening framework explanation",
+        "Introduction to the new interactive tool"
+      ],
+      "limits": [
+        "Planning guidance, not universal KPI values, a causal study or an episode timing prescription."
+      ],
+      "applicability": "Pre-recording objective/measurement brief and later review; retain Riggg ownership of the 5Ps.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M3",
+      "title": "Podcast Measurement Technical Guidelines, Version 2.2",
+      "author": "IAB Tech Lab Podcast Technical Working Group, in partnership with IAB Audio Committee; lead Katie Stroud",
+      "organization": "IAB Tech Lab",
+      "publication_date": "2024-05 (release month; cover extraction partially garbled)",
+      "url": "https://iabtechlab.com/wp-content/uploads/2024/02/PodcastMeasurement_v2.2_final.pdf",
+      "retrieved_utc": "2026-10-08T21:09:35.412089Z",
+      "additional_retrievals_utc": [
+        "2026-10-08T21:09:50.901414Z",
+        "2026-10-08T21:09:58.957147Z"
+      ],
+      "read_scope": "All 29 PDF pages read via pypdf in three chunks. Cover typography partly garbled and text spaces often absent; substantive sections legible.",
+      "principles": [
+        "Server-side download delivery is not confirmed playback.",
+        "Valid downloads require filtering, file thresholds and deduplication; one-minute content threshold is downloaded bytes, not one minute heard.",
+        "Declare fixed versus rolling 24-hour measurement windows and methodology.",
+        "Listeners inferred from IP/user-agent combinations require a stated time frame and have over/undercount risks.",
+        "Summing episode downloads does not give unique audience.",
+        "Only certified organizations can claim compliance."
+      ],
+      "locators": [
+        "Sections 2–3, pp.8–10",
+        "Sections 5.2–5.4.4, pp.13–20",
+        "Sections 6.1–6.4, pp.21–25",
+        "Section 8, pp.27–29"
+      ],
+      "limits": [
+        "Technical downloaded-podcast/ad-measurement guidance, not proof of attention, business impact, or Riggg/provider certification.",
+        "Do not transfer its one-minute download rule to video engagement or its 24-hour dedupe rule to a 30-day business review."
+      ],
+      "applicability": "Record host metric definition, provider/methodology and reporting window; keep downloads apart from platform listening.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M4",
+      "title": "Check your YouTube thumbnail impressions and watch time",
+      "author": "YouTube Help",
+      "organization": "Google / YouTube",
+      "publication_date": null,
+      "url": "https://support.google.com/youtube/answer/9314486?hl=en",
+      "retrieved_utc": "2026-10-08T21:10:18.130630Z",
+      "initial_fetch_utc": "2026-10-08T21:08:58.381Z",
+      "read_scope": "Complete HTML response fetched (1,617,429 bytes); full article text read after initial web_fetch body cap.",
+      "principles": [
+        "Registered impressions require more than one second with at least 50% thumbnail visibility.",
+        "External embeds, emails and several other surfaces are excluded from thumbnail impressions.",
+        "Views from impressions are a subset of views; watch time is a separate measure.",
+        "Cards and funnel reports may update at different times."
+      ],
+      "locators": [
+        "Where are impressions counted?",
+        "Metrics to know",
+        "Impressions and how they led to watch time"
+      ],
+      "limits": [
+        "YouTube-specific evolving definitions and scoped denominator; not all exposure or verified target-audience reach."
+      ],
+      "applicability": "Use native registered-impression CTR rather than all views divided by impressions; separate exposure, viewing and action.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M5",
+      "title": "Measure key moments for audience retention",
+      "author": "YouTube Help",
+      "organization": "Google / YouTube",
+      "publication_date": null,
+      "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+      "retrieved_utc": "2026-10-08T21:10:18.453659Z",
+      "initial_fetch_utc": "2026-10-08T21:08:58.906Z",
+      "read_scope": "Complete HTML response fetched (1,625,222 bytes); full article text read including graph guidance and segment definitions.",
+      "principles": [
+        "Retention generally takes 1–2 days to process and is video-level.",
+        "Compare similar-length videos; inspect intro, top moments, spikes and dips.",
+        "A spike can signal either interest/rewatching or confusion; a dip can be skipping or abandonment.",
+        "Highlighted moments require detection and a video at least 60 seconds long with at least 100 views.",
+        "Segment organic/paid and new/returning audiences where available."
+      ],
+      "locators": [
+        "Understand key moments",
+        "Intros / Spikes / Dips",
+        "View audience retention by segment type",
+        "View detailed activity"
+      ],
+      "limits": [
+        "Platform diagnostic observations, not causal proof of why viewers leave or a universal retention benchmark.",
+        "Highlight eligibility is not a statistical significance threshold."
+      ],
+      "applicability": "Attach timestamps to an editorial improvement hypothesis; do not convert a graph spike into demonstrated understanding.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M6",
+      "title": "Analytics",
+      "author": "Apple Podcasts for Creators",
+      "organization": "Apple",
+      "publication_date": null,
+      "url": "https://podcasters.apple.com/support/5392-listener-analytics",
+      "retrieved_utc": "2026-10-08T21:08:59.362Z",
+      "read_scope": "Complete extracted page including episode metrics and performance comparisons.",
+      "principles": [
+        "Apple reports aggregated listening/viewing completion based on unique devices, distinct from host downloads.",
+        "Engaged listeners heard/watched at least 20 minutes or 40% of an episode.",
+        "Average consumption is average percentage per device and can exceed 100% with repeat listening.",
+        "Performance compares equal days since release (7, 14, 30 or 60) with median/average/top baselines.",
+        "At least five unique listeners must play show content for selected-period data to appear."
+      ],
+      "locators": [
+        "Opening overview",
+        "Show Analytics",
+        "Episodes",
+        "Performance"
+      ],
+      "limits": [
+        "Apple audience only; not all podcast listeners.",
+        "Five-listener threshold is data availability, not representative-sample adequacy.",
+        "Show followers are not automatically attributable to one episode."
+      ],
+      "applicability": "Use episode listeners and consumption, label engaged-listener denominator, compare equal release ages, mark unavailable data rather than zero.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M7",
+      "title": "Get started with attribution",
+      "author": "Google Analytics Help",
+      "organization": "Google",
+      "publication_date": null,
+      "url": "https://support.google.com/analytics/answer/10596866?hl=en",
+      "retrieved_utc": "2026-10-08T21:10:18.762552Z",
+      "initial_fetch_utc": "2026-10-08T21:08:59.913Z",
+      "read_scope": "Complete HTML response fetched (1,680,811 bytes); full article text including advanced methodology read.",
+      "principles": [
+        "Attribution assigns credit under a rule or model to touchpoints.",
+        "Models differ; reporting model, eligible channels and lookback window are settings.",
+        "Data-driven methodology uses converting/nonconverting paths and modeled counterfactuals; conversions can be reattributed for up to seven days."
+      ],
+      "locators": [
+        "Overview",
+        "Data-driven attribution",
+        "Paid and organic last click",
+        "Select attribution settings"
+      ],
+      "limits": [
+        "Google advertising/analytics system documentation; its modeled methodology does not establish incremental causal ROI for a single organic recorded session.",
+        "Tracked paths and assigned credit are not a complete history of influence."
+      ],
+      "applicability": "Record model/window and distinguish observed referral, self-report, CRM association, modeled credit and causal evidence.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "M8",
+      "title": "[GA4] About data thresholds",
+      "author": "Google Analytics Help",
+      "organization": "Google",
+      "publication_date": null,
+      "url": "https://support.google.com/analytics/answer/9383630?hl=en",
+      "retrieved_utc": "2026-10-08T21:10:19.070516Z",
+      "initial_fetch_utc": "2026-10-08T21:09:00.517Z",
+      "read_scope": "Complete HTML response fetched (1,644,920 bytes); full article text read.",
+      "principles": [
+        "Thresholding prevents inference about individual identities or sensitive information.",
+        "Demographic and search-query data may be withheld with insufficient counts.",
+        "Thresholds are system-defined; larger date ranges may change report availability."
+      ],
+      "locators": [
+        "Why data may be withheld",
+        "When data thresholds are applied",
+        "What you can do"
+      ],
+      "limits": [
+        "Specific platform privacy controls, not a complete privacy/legal compliance standard.",
+        "Broader windows change comparability and must be disclosed."
+      ],
+      "applicability": "Include threshold/coverage status, avoid re-identification, and do not treat withheld rows as zeros.",
+      "report_origin": "measurement"
+    },
+    {
+      "id": "O1",
+      "title": "Audio requirements",
+      "organization": "Apple Podcasts for Creators",
+      "publication_date": null,
+      "url": "https://podcasters.apple.com/support/893-audio-requirements",
+      "retrieved_utc": "2026-10-08T21:08:59.953Z",
+      "principle": "Audible, distortion-free and consistent spoken audio; encode for intended distribution and distinguish RSS from subscriber upload requirements.",
+      "sections": [
+        "Requirements for RSS feed audio",
+        "Best practices for audio on Apple Podcasts"
+      ],
+      "limits": "Apple-specific recommendations, not universal recording specifications. Loudness guidance applies to delivery processing, not a source recording target. Does not supply recording backup procedure.",
+      "applicability": [
+        "Produce",
+        "Package",
+        "Publish"
+      ],
+      "coverage": "Full extracted article read; no truncation.",
+      "report_origin": "operations",
+      "disposition": "Background delivery guidance only; not cited as a recording standard."
+    },
+    {
+      "id": "O2",
+      "title": "Captions and Transcripts",
+      "organization": "U.S. General Services Administration, Section508.gov",
+      "publication_date": "Reviewed/Updated August 2025",
+      "url": "https://www.section508.gov/create/captions-transcripts/",
+      "retrieved_utc": "2026-10-08T21:09:46.669Z",
+      "principle": "Synchronize captions; convey speech, speaker identity and meaningful sound; correct automatic text, names and timing; make accessible transcripts available with original content; preserve meaning.",
+      "sections": [
+        "General Guidelines for Captions",
+        "General Guidelines for Transcripts",
+        "Creating a Caption-Friendly Video",
+        "Automatically Generated Captions",
+        "Unintelligible Speech and Filler Words"
+      ],
+      "limits": "Federal accessibility implementation guidance; not a legal compliance determination for Riggg. Numeric styling defaults are context-specific and not imported as universal scorecard thresholds. Captions alone do not establish full accessibility.",
+      "applicability": [
+        "Produce",
+        "Package",
+        "Publish"
+      ],
+      "coverage": "Full extracted article read including examples and language/music/profanity guidance.",
+      "report_origin": "operations"
+    },
+    {
+      "id": "O3",
+      "title": "Thumbnail & title tips",
+      "organization": "YouTube / Google",
+      "publication_date": null,
+      "url": "https://support.google.com/youtube/answer/12340300?hl=en",
+      "retrieved_utc": "2026-10-08T21:09:00.292Z",
+      "principle": "Represent the video accurately, front-load important title words, use readable uncomplicated thumbnails, consider intended audience and inspect channel-specific performance after publication.",
+      "sections": [
+        "Design thumbnails that stand out",
+        "How to write titles",
+        "Dive into the data"
+      ],
+      "limits": "Platform guidance, not experimental evidence that packaging causes business outcomes. Fetch hit 750000-byte HTML cap; substantive extracted guidance read but Types of video titles body missing and embedded video not watched. Do not use headline 90% statistic as causal proof.",
+      "applicability": [
+        "Package",
+        "Prove"
+      ],
+      "coverage": "Entire available extracted article read; full-page completeness not certified. Retried 2026-10-08T21:10:00.542Z with same cap.",
+      "report_origin": "operations",
+      "disposition": "Partial title-tips retrieval remains partial; omitted from public citations."
+    },
+    {
+      "id": "O4",
+      "title": "Validate your podcast",
+      "organization": "Apple Podcasts for Creators",
+      "publication_date": null,
+      "url": "https://podcasters.apple.com/support/829-validate-your-podcast",
+      "retrieved_utc": "2026-10-08T21:09:12.628Z",
+      "principle": "Technical validation checks feed requirements, required tags and media/artwork availability; passing validation is not editorial approval. Diagnose actual access and enclosure errors.",
+      "sections": [
+        "Introduction",
+        "Troubleshooting RSS feed validation errors",
+        "Common RSS feed validation error messages"
+      ],
+      "limits": "Apple submission/feed validation, not proof a release reached its audience or succeeded; live URL and player checks are our operational extension.",
+      "applicability": [
+        "Publish"
+      ],
+      "coverage": "Full extracted article read.",
+      "report_origin": "operations"
+    },
+    {
+      "id": "O5",
+      "title": "Section 3: Accuracy – Guidelines",
+      "organization": "BBC",
+      "publication_date": null,
+      "url": "https://www.bbc.com/editorialguidelines/guidelines/accuracy/guidelines/",
+      "retrieved_utc": "2026-10-08T21:09:28.393Z",
+      "principle": "Check factual claims and caveats; maintain research records for double-checking; edits must not materially mislead; archived/reused material may become outdated; correct substantive errors.",
+      "sections": [
+        "3.4.1–3.4.6 Gathering Material",
+        "3.4.15 Note-Taking",
+        "3.4.19 context",
+        "3.4.25–3.4.29 Production Techniques and AI",
+        "3.4.32–3.4.36 Archive Material and Correcting Mistakes"
+      ],
+      "limits": "BBC editorial policy for its own output, not a Riggg mandate or marketing efficacy study; BBC referral machinery does not transfer to small teams.",
+      "applicability": [
+        "Package",
+        "Publish",
+        "Preserve"
+      ],
+      "coverage": "Complete extracted guidelines read using initial output and overflow log, including final corrections and nations section. Companion principles page also read.",
+      "report_origin": "operations"
+    },
+    {
+      "id": "O6",
+      "title": "Measure key moments for audience retention",
+      "organization": "YouTube / Google",
+      "publication_date": null,
+      "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+      "retrieved_utc": "2026-10-08T21:08:58.906Z",
+      "principle": "Interpret retention at video and audience-segment level; compare similar-length videos; spikes may mean interest or confusion; dips can reflect skipping or exiting; data needs processing time.",
+      "sections": [
+        "Understand key moments for audience retention",
+        "View audience retention by segment type",
+        "View detailed activity for audience retention"
+      ],
+      "limits": "YouTube-only definitions and eligibility. Current page says 1–2 day processing and key-moment eligibility of 60 seconds/100 views; those are platform conditions, not success thresholds. HTML byte cap means full page cannot be certified. No causal sales inference.",
+      "applicability": [
+        "Prove"
+      ],
+      "coverage": "All available extracted article through Metrics to know read; underlying HTML incomplete after 750000 bytes. Retry 2026-10-08T21:10:01.057Z same outcome.",
+      "report_origin": "operations",
+      "resolution": "Duplicate of M5; full measurement retrieval resolves operations partial-text limitation. Cite M5 in article."
+    },
+    {
+      "id": "O7",
+      "title": "Creating digital materials",
+      "organization": "Digital Preservation Coalition, Digital Preservation Handbook",
+      "publication_date": null,
+      "url": "https://www.dpconline.org/handbook/organisational-activities/creating-digital-materials",
+      "retrieved_utc": "2026-10-08T21:09:28.779Z",
+      "principle": "Plan continuity at creation: find, open, work with, understand and trust files; use descriptive consistent filenames/versions, supported formats, explicit QA responsibilities, metadata and master/derivative organization.",
+      "sections": [
+        "Introduction",
+        "Preserving born-digital materials",
+        "Preserving digital surrogates: digital preservation considerations"
+      ],
+      "limits": "DPC-authored handbook guidance synthesizes preservation practice; not an original controlled study. Surrogate digitization practices are not all directly applicable to born-digital sessions. No proof that an archive generates commercial ROI or AEO visibility.",
+      "applicability": [
+        "Produce",
+        "Preserve"
+      ],
+      "coverage": "Full extracted chapter including references read after recovering overflow log. Linked resources not treated as separately read evidence.",
+      "report_origin": "operations"
+    },
+    {
+      "id": "O8",
+      "title": "Recommended Formats Statement – Moving Image Works",
+      "organization": "Library of Congress",
+      "publication_date": null,
+      "url": "https://www.loc.gov/preservation/resources/rfs/moving.html",
+      "retrieved_utc": "2026-10-08T21:09:12.549Z",
+      "principle": "Keep identifiable complete final production versions with native production characteristics, relevant audio tracks and descriptive metadata; distinguish higher-quality preservation material from viewing proxies.",
+      "sections": [
+        "Video – File-Based and Physical Media",
+        "Audio",
+        "Metadata"
+      ],
+      "limits": "Library acquisition/preservation preferences, not compulsory creator codecs. Do not require IMF/FFV1/ProRes conversion for every small team, or infer that transcoding restores lost quality. No causal evidence of reuse outcomes.",
+      "applicability": [
+        "Preserve"
+      ],
+      "coverage": "Full extracted page read; no truncation.",
+      "report_origin": "operations"
+    }
+  ],
+  "coverage_limits": [
+    "Eight primary documents from four organizations (AMEC, IAB Tech Lab, Google, Apple), not eight independent empirical studies.",
+    "No paid sources, private analytics, client data or live session performance audited.",
+    "Google initial extraction body caps resolved by full-response article extraction.",
+    "IAB PDF initial raw extraction unreadable; all 29 pages subsequently read via installed pypdf.",
+    "No universal performance thresholds, 30-day standard, optimal sample size or causal ROI established.",
+    "Operational production and preservation checks are Riggg editorial application, not independently validated by these sources.",
+    "Publication dates unknown unless explicitly noted; retrieval timestamps are actual tool/server timestamps.",
+    "Search provider failed; direct known official URLs used. Not a systematic literature review.",
+    "W3C canonical accessibility pages returned 403; guessed official mirrors returned 404. GSA guidance successfully read instead.",
+    "Two Google sources have underlying HTML byte-cap warnings; available substantive text read, not full-page completeness.",
+    "No private analytics, actual client files, paid material, experiments or causal ROI evidence.",
+    "No recording-specific primary field-recording checklist successfully acquired; capture acceptance is editorial operational mapping of audio quality and preservation guidance."
+  ],
+  "overlap_resolution": "M5 recovered complete YouTube retention text; supersedes O6 partial coverage. O3 title tips remains partial and is omitted."
+}

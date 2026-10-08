@@ -1,0 +1,35 @@
+=== check_video_reference.py
+Video reference source/public copy match
+=== validate_site.py
+Audited 128 HTML pages and 8398 internal link/resource references; 0 errors.
+
+=== validate_aeo.py
+AEO: 127 pages; {'WebPage': 12, 'CollectionPage': 28, 'Article': 87}; 0 errors.
+
+=== validate_freshness.py
+Audited freshness on 127 published pages; 0 errors.
+
+=== fact_checks.py validate
+{"articles": 87, "due": 121, "errors": 0, "needs_review": 127, "page_types": {"Article": 87, "CollectionPage": 28, "WebPage": 12}, "pages": 127, "record_file_present": true, "selected": 127, "shown": 20, "states": {"partial": 7, "unreviewed": 120}}
+partial    high      patterns/publish/ai-search-optimization/measurement.md — partial review; unresolved claims remain; review cadence expired
+unreviewed high      evidence.md — no content-bound evidence review record
+unreviewed high      framework.md — no content-bound evidence review record
+unreviewed high      index.md — no content-bound evidence review record
+unreviewed high      owned-media.md — no content-bound evidence review record
+unreviewed high      patterns/package/clips/data-drop.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/big-question-summary.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/credential-context-learn.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/guest-story-arc.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/problem-credibility-takeaway.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/thesis-takeaways-cta.md — no content-bound evidence review record
+unreviewed high      patterns/package/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/podcast-show-name.md — no content-bound evidence review record
+unreviewed high      patterns/package/quote-graphics/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/before-after-reveal.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/hook-insight-cta.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/quote-card-motion.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/rapid-fire.md — no content-bound evidence review record
+=== quality_checks.py validate
+{"as_of": "2026-10-08T21:21:58.691060Z", "summary": {"pages": 127, "phase": "bootstrap", "first_pass_completed": 10, "due": 117, "states": {"unreviewed": 117, "needs_revision": 6, "current": 4}, "daily_limit": 5, "assessed_today": 5, "remaining_today": 0, "record_file_present": true, "errors": 0, "selected": 127, "shown": 5}, "items": [{"path": "patterns/index.md", "risk": "evergreen", "cadence_days": 90, "state": "unreviewed", "due": true, "needs_review": true, "first_pass_completed": false, "assessed_at": null, "due_at": null, "content_sha256": "6eeb11d51409234b0a0de5c0242861b641e4046e98e977cfaa9f3a8c8b7cd47c", "disposition": null}, {"path": "patterns/package/clips/data-drop.md", "risk": "volatile", "cadence_days": 30, "state": "unreviewed", "due": true, "needs_review": true, "first_pass_completed": false, "assessed_at": null, "due_at": null, "content_sha256": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54", "disposition": null}, {"path": "patterns/package/clips/index.md", "risk": "volatile", "cadence_days": 30, "state": "unreviewed", "due": true, "needs_review": true, "first_pass_completed": false, "assessed_at": null, "due_at": null, "content_sha256": "bacf9c5019cb070a52b75099c077957778d566ac19c0422ae96393b56a38f2af", "disposition": null}, {"path": "patterns/package/descriptions/big-question-summary.md", "risk": "volatile", "cadence_days": 30, "state": "unreviewed", "due": true, "needs_review": true, "first_pass_completed": false, "assessed_at": null, "due_at": null, "content_sha256": "1532f6fdfb9efe26a59aea536ffdc6b4227059a92a9456041af5a466b74b5c9c", "disposition": null}, {"path": "patterns/package/descriptions/credential-context-learn.md", "risk": "volatile", "cadence_days": 30, "state": "unreviewed", "due": true, "needs_review": true, "first_pass_completed": false, "assessed_at": null, "due_at": null, "content_sha256": "30f4a954aec9ed1c6474c4fd558bf49c491fd918a9e68e2efddfd879417c17d0", "disposition": null}], "errors": []}
