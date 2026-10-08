@@ -1,0 +1,18 @@
+{
+  "active_topics": 3,
+  "free_slots": 0,
+  "research_assignments": [
+    "63fd804a-c90c-4f76-8282-394c56439efb",
+    "71d51a9c-48cf-4dc4-824f-fb5073778226",
+    "8ad3af51-07a0-4848-927e-5549d86f7112"
+  ],
+  "overdue": [],
+  "triage_due": [],
+  "queued_topics": 18,
+  "owner_held_topics": 23,
+  "completed_outcomes": {
+    "retire": 1,
+    "draft": 0,
+    "consolidate": 1
+  }
+}

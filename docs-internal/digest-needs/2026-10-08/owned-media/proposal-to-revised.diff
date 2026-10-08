@@ -1,0 +1,89 @@
+--- proposal/docs/owned-media.md
++++ revised/docs/owned-media.md
+@@ -1,19 +1,19 @@
+ ---
+-description: "What owned media means at Riggg: the asset vs. distribution layer distinction, owned assets by stage, the PESO relationship, and the two ownership tests."
++description: "What owned media means at Riggg: the asset vs. distribution layer distinction, owned assets by stage, the relationship between asset rights and channel categories, and the two ownership tests."
+ ---
+ 
+ # Owned Media: Definition, Assets, and Channels
+ 
+-This Index distinguishes **owned assets** (the content you create) from **owned channels** (where you control the audience relationship). Social posts and video files can remain assets you control when distributed through rented platforms, subject to the rights you hold; the definition and ownership tests below explain the distinction.
++This Index distinguishes **owned assets** (content you own or have sufficient rights to use) from **owned channels** (where you control the audience relationship). Social posts and video files can remain assets you control when distributed through rented platforms, subject to the rights you hold; the definition and ownership tests below explain the distinction.
+ 
+ ## What Owned Media Means at Riggg
+ 
+-For operating purposes, distinguish content rights from practical control of distribution and audience relationships. Retain rights, permissions, exports, and migration options; a provider account is not a guarantee of uninterrupted access.
++For operating purposes, distinguish content rights from practical control of distribution and audience relationships. Here, “owned assets” is an operational inventory label, not a claim that every item is protected by copyright or that a license transfers ownership. Retain rights, permissions, exports, and migration options; a provider account is not a guarantee of uninterrupted access.
+ 
+ The critical distinction is between the **asset** and the **distribution layer**:
+ 
+-- **The asset** (what you made) is distinct from its distribution platform. Retain masters and confirm ownership or sufficient licenses, including contributor agreements and third-party components. Creating or uploading a file alone does not establish every right. The [U.S. Copyright Office](https://www.copyright.gov/what-is-copyright/) explains work-made-for-hire and ownership transfers; this is U.S. guidance, not a determination of any particular project’s rights.
+-- **The distribution layer** (where you put it) determines whether your *reach* is owned or rented. A website and permissioned email list can provide more direct control; retain portable copies and check provider terms. Social-platform reach remains dependent on the platform.
++- **The asset** (what you made) is distinct from its distribution platform. Retain masters and confirm ownership or sufficient licenses, including contributor agreements and third-party components. Creating or uploading a file alone does not establish every right. Check the permitted uses, term, territory, and any limits on editing or redistribution in the applicable agreements. Titles and short phrases, for example, are not protected by copyright merely because they appear in this inventory. The [U.S. Copyright Office](https://www.copyright.gov/what-is-copyright/) explains work-made-for-hire and ownership transfers; this is U.S. guidance, not a determination of any particular project’s rights.
++- **The distribution layer** (where you put it) affects how much control you have over publishing and audience access. A website and permissioned email list can provide more direct control; retain portable copies and check provider terms. Social-platform reach remains dependent on the platform.
+ 
+ Treat social content as a reusable asset when you hold the necessary rights. That does not give you ownership of the distribution platform.
+ 
+@@ -97,19 +97,18 @@
+ 
+ ### Publish
+ 
+-Where the asset goes. This stage splits between **owned channels** (you control the infrastructure and the audience relationship) and **shared distribution** (you retain content rights, not ownership of the platform).
++Where the asset goes. This stage splits between **owned channels** (you manage publishing and can maintain a permissioned route to the audience independently of a single provider) and **shared distribution** (access to the platform audience remains platform-dependent). Neither label guarantees uninterrupted service.
+ 
+ #### Owned Channels
+ 
+-These channels can improve continuity when you retain rights, audience permissions, independent exports, and a migration path. A hosting account still depends on its provider: [Transistor’s terms](https://transistor.fm/terms/) reserve account suspension or deletion.
++Classify these channels by the control and continuity arrangements you actually have, not the product name or domain alone. Retain rights, audience permissions, independent exports, and a tested migration path. A podcast hosting account is supporting infrastructure, not an audience relationship in itself: [Transistor’s terms](https://transistor.fm/terms/) allow suspension or deletion, at its sole discretion and without notice, of accounts it deems inappropriate, offensive, or in violation of its terms. The terms also require upload rights and grant Transistor a non-exclusive license to process user content for operating and maintaining the service. Content rights do not prevent service suspension.
+ 
+ | Channel | What Lives Here |
+ |---|---|
+-| **Website** | Canonical episode pages, show page, blog, show notes, transcripts |
+-| **Email list / Newsletter** | Episode releases, audience nurture, evergreen sends |
+-| **RSS feed** | The authoritative feed origin you control (via Buzzsprout, Transistor, etc.) |
+-| **Podcast hosting account** | Feed management, analytics, distribution control |
+-| **Owned community** | Forum or community platform hosted on your own domain |
++| **Website** | Canonical episode pages, show page, blog, show notes, transcripts; retain domain control and portable content |
++| **Email list / Newsletter** | Episode releases, audience nurture, evergreen sends; retain permission records and usable exports |
++| **RSS feed** | Episode distribution from a feed you manage; verify URL control, export and redirect options before relying on host migration |
++| **Owned community** | Forum or community with portable content and permissioned member relationships; a custom domain alone does not establish independence |
+ 
+ #### Shared Distribution
+ 
+@@ -149,7 +148,7 @@
+ 
+ - Clean transcripts (indexed and searchable)
+ - Vector-indexed content library
+-- Structured show notes optimized for LLMs
++- Structured show notes for retrieval and reuse
+ - Schema markup / structured data
+ - Citation architecture
+ - Content theme and topic map
+@@ -157,15 +156,11 @@
+ 
+ ---
+ 
+-## How This Relates to PESO
++## Assets, Channels, and the 5Ps
+ 
+-The PESO Model (Dietrich, 2014) classifies media as Paid, Earned, Shared, and Owned. Riggg aligns with the spirit of that model but sharpens two points:
++**Asset rights and distribution control answer different questions.** A social post, clip, or graphic can be a reusable asset when you hold sufficient rights; access to its platform audience remains subject to that platform. A license permits only the uses it covers and does not necessarily make you the copyright owner.
+ 
+-**1. Social content is owned; social platforms are shared.**
+-Gini Dietrich places social media in the Shared quadrant. At Riggg, we split the asset from the distribution layer. The post you write, the clip you cut, the graphic you design — those are owned media. The platform you post them to is the shared layer. Check the rights in what you create separately from the conditions governing its distribution.
+-
+-**2. The 5Ps replace the channel taxonomy as the operating model.**
+-PESO helps you categorize media types. The Riggg 5Ps describe how to run a media operation — Produce, Package, Publish, Prove, Preserve. Where PESO asks "what kind of media is this?", the OMI asks "what stage of the system are we in?"
++**The 5Ps are the operating model, not a channel-ownership test.** Produce, Package, Publish, Prove, and Preserve describe how Riggg runs the media operation. The asset and channel tests below apply across those stages. They do not promise reach, uninterrupted hosting, or ownership of audience members.
+ 
+ ---
+ 
+@@ -175,6 +170,6 @@
+ 
+ **Asset test:** Do you own or hold sufficient rights to retain, reuse, and distribute it, including all incorporated components?
+ 
+-**Channel test:** If the platform shut down tomorrow, would you lose the audience relationship? → If yes, it's shared distribution, not an owned channel.
++**Channel test:** Can you continue publishing and maintain a permissioned route to the audience outside this provider, using retained content, contact or subscription arrangements, and a tested migration path? If yes, treat it as an owned channel for operating purposes, with provider dependencies recorded. If no, treat its audience access as platform-dependent distribution. The answer is specific to the setup; neither exports alone nor a custom domain guarantees continuity.
+ 
+ Build around assets you have rights to use and relationships you can maintain with permission. Test exports and migration options instead of assuming that a platform account guarantees continuity.

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "docs/index.md",
+    "sha256": "502016a902b71a5f8ef50ffb2c8525805d4ead6f8a357c60b48c777b34c7fd93"
+  },
+  {
+    "path": "docs/overrides/home.html",
+    "sha256": "8c5baa3c50691c242b2315a292fea85eb6d5b3034f56417d85dddbb004e27cd0"
+  },
+  {
+    "path": "docs/patterns/publish/ai-search-optimization/measurement.md",
+    "sha256": "8a015b4dc2c951f94e993440f2b6bc5c608663bae382b88486180010102f71a8"
+  },
+  {
+    "path": "docs/owned-media.md",
+    "sha256": "04893aa087d798e6cfb3e1130e8c9a48ee16b39b99256ffa680716ba507dab6f"
+  }
+]
