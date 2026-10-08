@@ -1,0 +1,17 @@
+{
+  "principal": "gateway-owner",
+  "source": "authenticated_dashboard",
+  "instruction": "Approve and next.",
+  "time": "2026-10-08T20:00:00Z",
+  "provenance": "Parent approval recorded on canonical Workboard card; approval source session not supplied to release worker. Execution session agent:main:subagent:1a4a64e4-a4d9-4934-bc46-999c2160c972.",
+  "card_id": "8006e12e-6551-440a-b9cc-27bce652996f",
+  "approval_comment": "e6497bbf-0d6f-4601-a6ef-f7de6b5349e5",
+  "approved_commit": "9c6a89f6cd14c5a50705c06c565a5885a07d6a20",
+  "approved_path": "docs-internal/quality-reviews/2026-10-07/proposed/clips-quadrant.md",
+  "file_sha256": "6ba0f1086fa04ac905797dbd4f6922264f1de441fe0c9682c4788c80318f4de9",
+  "apply_to": "docs/quadrants/clips.md",
+  "source_body_sha256": "ad4f3d69630c4075a9fe95ea2fd450503f5efa3d9b51a220537caf2bc23ce08e",
+  "result_body_sha256": "d0a2bf5defce2ad326b1faff4ab647a7899dcccde8acccd8c00fa191632c2f0b",
+  "release_base": "8d18c95ddd49ecd2a167f5e6909d8c116bc27a79",
+  "scope": "Existing-page correction only. Scores, chart HTML/positions, framework and all other article bodies unchanged. No factual or quality pass inferred from approval."
+}

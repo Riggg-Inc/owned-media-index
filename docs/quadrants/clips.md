@@ -4,7 +4,7 @@ description: "Riggg Quadrant for clip styles. Maps 5 clip extraction patterns on
 
 # Clip Styles Quadrant
 
-Choose a clip style to match the source moment: Hot Takes for bold opinions, Golden Nuggets for practical advice, Story Beats for narrative, Debate Moments for disagreement, and Data Drops for statistics. This quadrant compares extraction effort with audience appeal.
+Choose a clip style to match the source moment: Hot Takes for bold opinions, Golden Nuggets for practical advice, Story Beats for narrative, Debate Moments for disagreement, and Data Drops for statistics. This quadrant sketches extraction effort and possible audience appeal as planning hypotheses, not measured performance.
 
 <div class="rq-title">Riggg Quadrant: Clip Styles</div>
 <div class="rq-subtitle">Where each clip pattern sits on production effort and viral potential</div>
@@ -58,23 +58,27 @@ Choose a clip style to match the source moment: Hot Takes for bold opinions, Gol
 
 ## How To Read This
 
-**Top-left (Low Effort, High Viral):** The clip jackpot. Easy to find in the conversation, high shareability. *Hot Take* is the clearest example — a bold opinion that requires zero editing context.
+Use the plotted positions as editorial planning hypotheses, not measured reach or engagement rankings. Choose a format that fits the source moment and intended audience; the chart does not establish a universal extraction order.
 
-**Top-right (High Effort, High Viral):** Worth the work. Harder to extract cleanly but high engagement when you nail it. *Debate Moment* needs multi-guest tension, *Story Beat* needs a complete narrative arc.
+**Top-left (Low Effort, High Viral):** A *Hot Take* may be economical to extract when the position stands alone. Check the full exchange so the edit preserves qualifications or a later walk-back; do not assume an opinion will outperform other formats.
 
-**Bottom-left (Low Effort, Niche):** Quick to pull, valuable to the right audience but not mass-viral. *Golden Nugget* — specific tactical advice that practitioners save and share.
+**Top-right (High Effort, High Viral):** A *Debate Moment* needs coherent competing positions; a *Story Beat* needs a complete narrative arc. Additional extraction effort is worthwhile when the source supports the audience need, not because engagement is guaranteed.
 
-**Center-right:** *Data Drop* sits here — requires finding the right stat and framing it, appeals to a data-driven audience more than a casual one.
+**Bottom-left (Low Effort, Niche):** A *Golden Nugget* should offer specific advice its intended audience can use. Saves, shares and actual extraction effort are outcomes to observe, not properties guaranteed by the format.
+
+**Center-right:** A *Data Drop* requires the statistic’s source, scope and context. Choose it when the fact helps the intended audience, not merely because it is surprising.
 
 ## Clip Selection Priority
 
-For maximum ROI on production time:
+Start with the strongest source moment and audience need, not a universal ranking:
 
-1. **Always extract Hot Takes first** — lowest effort, highest reach
-2. **Pull Golden Nuggets second** — high save/bookmark rate, builds authority
-3. **Hunt for Debate Moments** if you have multi-guest episodes
-4. **Story Beats for narrative shows** — invest the editing time when the story is strong
-5. **Data Drops for authority** — use when the stat is genuinely surprising
+- **Hot Takes:** a clear, defensible opinion that remains accurate outside the conversation.
+- **Golden Nuggets:** usable advice without missing essential context.
+- **Debate Moments:** enough of each position to understand the disagreement.
+- **Story Beats:** a complete narrative with a relevant lesson.
+- **Data Drops:** a statistic with its source and necessary context.
+
+If several moments are suitable, weigh clarity, relevance and editing effort. Test performance against comparable clips and your own goals rather than assuming one format delivers the most reach or best return.
 
 ## Selection Guide
 
