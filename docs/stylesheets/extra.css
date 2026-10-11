@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Preserve readable content links against dark surfaces. */
 [data-md-color-scheme="slate"] .md-typeset a {
-  color: #67ddd5;
+  color: #67ddd5 !important;
 }
 
 /* Keep striped table text readable in the supported dark palette. */
