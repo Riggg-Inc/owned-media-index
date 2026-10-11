@@ -207,10 +207,26 @@ h1, h2, h3, h4, h5, h6,
   background-color: var(--riggg-mint) !important;
 }
 
+/* Preserve readable content links against dark surfaces. */
+[data-md-color-scheme="slate"] .md-typeset a {
+  color: #67ddd5;
+}
+
+/* Keep striped table text readable in the supported dark palette. */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) td {
+  background-color: #253447 !important;
+}
+
 /* ─── Code blocks ────────────────────────────────────────────── */
 .md-typeset code {
   color: var(--riggg-burgundy) !important;
   background-color: rgba(149, 63, 78, 0.08) !important;
+}
+
+/* Dark-mode code needs a light foreground, not the light-theme burgundy. */
+[data-md-color-scheme="slate"] .md-typeset code {
+  color: #f0bdc7 !important;
+  background-color: #253447 !important;
 }
 
 /* ─── Footer ─────────────────────────────────────────────────── */
