@@ -1,0 +1,21 @@
+# Quality maintenance run — 2026-10-11
+
+Reviewer: Cass Reelman, AI openai/gpt-6-astra. Base origin/main 89a6d334c4819c55326ff7f0c67985ad75ea8c78; isolated worktree omi-quality-review-20261011. Current procedure, skill, EVIDENCE and TEAM read. Original owning card and QUALITY-FOLLOWUP v1 read before selection. No prior completed post-release records found in production. October 10 retained checkout also contained only October 7/8 records.
+
+Five real completed assessments were persisted serially with validator/budget reloads: four prioritized clip followups, then patterns/index.md. All five judged pass after whole-content, relevant comparison and actual desktop/mobile inspection. Sources are bounded publisher descriptions, not episode playback or measured-performance proof. Historical All-In support retains its October 7 time; current homepage rotated. No numerical ratings or article bodies changed.
+
+Initial inventory: 127 pages, bootstrap, 10 first-assessment completed, 117 unreviewed/due, 6 needs_revision, 4 current, today 0/5. Final assessment inventory: 11 first-assessment completed, 116 unreviewed/due, 2 needs_revision, 9 current, today 5/5, remaining 0. Homepage included in inventory with no-freshness display exception unchanged. Four followups advance current outcomes, not first-pass coverage. At full five/day capacity the remaining 116 first assessments require at least 24 further UTC daily batches, excluding new arrivals/retries. No documented deadline extended; this is real backlog, not evidence that cadence capacity is insufficient.
+
+Known limits: legacy internal-data labels lack accessible dataset support in this review; no certification of those labels or scores. Related Data Drop performance generalization and minor quadrant Golden Nugget coordinate/prose mismatch are inherited, do not alter target selection instructions, and were not rewritten. No new correction proposals or duplicate cards warranted for these five target outcomes.
+
+Technical attempts: initial skill path absent, resolved installed Workshop path; initial local append helper syntax error occurred before any record write, repaired; optional BeautifulSoup parity helper unavailable, replaced using installed Playwright DOM comparison. Raw innerText parity differed in CSS-dependent breadcrumb whitespace; must compare actual DOM content without discarding semantic differences. Neither troubleshooting step is a page abort or fake reservation.
+
+Evidence: workspace output/reports/omi-quality-20261011 contains browser script, live DOM captures and full-page 1440/390 screenshots actually viewed. Strict baseline build completed. Final strict build, validators, regressions, history/privacy scope, deployment and live metadata proof are release gates; no release claimed by this preparation report. Owning card stays open until verified release.
+
+## Same-day release continuation, 17:25 UTC invocation
+
+Found five completed retained assessments and did not repeat them or consume more budget. Fresh origin/main remained 89a6d334c4819c55326ff7f0c67985ad75ea8c78. Copied only registry plus these reports into a new isolated checkout from that remote; preserved the earlier workspace. Reviewed retained reports and evidence, confirmed all historical registry prefixes unchanged and exactly five additions, and confirmed no docs or legacy fact-check changes. Customer-data scan returned zero findings/advisories on all seven release files. Complete article DOM text matched retained live bodies for all five pages after accounting only for the new quality line.
+
+Strict build passed; site validator 128 HTML pages/8376 links and AEO validator 127 pages passed. Candidate mobile dark pass/pending and homepage screenshots inspected, no overflow, keyboard focus works, homepage exception preserved. First preview was started before the full build ended and timed out on an unavailable page; discarded and reran successfully after build completion. gh executable absent; public GitHub Actions API is available for deployment proof. These are technical attempts, not new page assessments. Final regressions, committed build and deployment/live acceptance still gate release.
+
+Precommit acceptance: all 109 regression tests passed; freshness and both registries validated without errors. No content or legacy evidence edits.
