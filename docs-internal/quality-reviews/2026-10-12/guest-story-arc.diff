@@ -1,0 +1,31 @@
+--- docs/patterns/package/descriptions/guest-story-arc.md
++++ docs-internal/quality-reviews/2026-10-12/proposed/guest-story-arc.md
+@@ -20,7 +20,7 @@
+ 
+ ## Why It Works
+ 
+-Stories are memorable. When the guest's journey is compelling, leading with narrative creates an emotional hook that data-driven descriptions cannot match.
++A distinctive journey gives the reader a person, a change and a reason to care. Lead with the story when those details clarify the episode’s value; use a question or data-led opening when it better fits the conversation.
+ 
+ ## Example
+ 
+@@ -39,15 +39,15 @@
+ Avoid when the guest's story is not distinctive enough to lead with.
+ 
+ 
+-## Shows That Use This Pattern
++## Research Starting Points
+ 
+ These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
+ 
+ | Show | Why | Link |
+ |---|---|---|
+-| **How I Built This** | Every description leads with the founder's origin story arc | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
+-| **My First Million** | Frames the guest's journey from zero to outcome, then extracts the playbook | [Apple Podcasts](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170) |
+-| **Masters of Scale** | Frames each episode around the guest's scaling story and lessons | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
++| **How I Built This** | Founder interviews explore doubt, failure and success; inspect the actual description for a useful story-to-lesson transition | [Apple Podcasts](https://podcasts.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297) |
++| **My First Million** | Explore business conversations for a distinctive journey and usable lessons; verify the episode and description | [Apple Podcasts](https://podcasts.apple.com/us/podcast/my-first-million/id1469759170) |
++| **Masters of Scale** | Explore leaders’ growth stories and lessons; episode formats and openings vary | [Apple Podcasts](https://podcasts.apple.com/us/podcast/masters-of-scale-with-reid-hoffman/id1227971746) |
+ 
+ ## Prompt Template
+ 

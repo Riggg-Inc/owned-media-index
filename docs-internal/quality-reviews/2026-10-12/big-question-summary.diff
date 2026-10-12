@@ -1,0 +1,22 @@
+--- docs/patterns/package/descriptions/big-question-summary.md
++++ docs-internal/quality-reviews/2026-10-12/proposed/big-question-summary.md
+@@ -40,15 +40,15 @@
+ Avoid for tactical episodes where the listener wants "how to do X" — not "what should we think about."
+ 
+ 
+-## Shows That Use This Pattern
++## Research Starting Points
+ 
+ These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
+ 
+ | Show | Why | Link |
+ |---|---|---|
+-| **Lex Fridman Podcast** | Opens with a deep question, summarizes the multi-hour conversation arc | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
+-| **Sean Carroll's Mindscape** | Frames each episode around a core intellectual question | [Apple Podcasts](https://podcasts.apple.com/us/podcast/sean-carrolls-mindscape-science-society-philosophy/id1406534739) |
+-| **The Knowledge Project** | Structures descriptions around the central question explored with each guest | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
++| **Lex Fridman Podcast** | Explore long-form conversations for a meaningful central question; inspect the actual episode description | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
++| **Sean Carroll's Mindscape** | Explore science and philosophy conversations; formats include interviews and question collections | [Apple Podcasts](https://podcasts.apple.com/us/podcast/sean-carrolls-mindscape-science-society-philosophy/id1406534739) |
++| **The Knowledge Project** | Explore conversations about decisions and principles; descriptions use varied openings | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481) |
+ 
+ ## Prompt Template
+ 

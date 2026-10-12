@@ -1,0 +1,30 @@
+[
+  {
+    "target": "docs/patterns/package/descriptions/big-question-summary.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-12/proposed/big-question-summary.md",
+    "sha256": "0c23a1930fd25a6c9d778182f5bfe6ee3edc1ebee414e3f647bcd451679edb12",
+    "base_sha256": "deffc779ad34c0e579039f21988e4b110140dd3376fb9fb88c582b6e67ad17b7",
+    "public_url": "https://index.riggg.com/patterns/package/descriptions/big-question-summary/"
+  },
+  {
+    "target": "docs/patterns/package/descriptions/credential-context-learn.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-12/proposed/credential-context-learn.md",
+    "sha256": "42415591aff8b34ed35b8dc0f61743644ed766cbb934b26b4c6cb1794da82568",
+    "base_sha256": "9eaa5542182f0349db6a84a6e98be0b10f12bd0735cbea8c4872c874ef46af2f",
+    "public_url": "https://index.riggg.com/patterns/package/descriptions/credential-context-learn/"
+  },
+  {
+    "target": "docs/patterns/package/clips/data-drop.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-12/proposed/data-drop.md",
+    "sha256": "29af9d59272bd8e0521f5cc98a958e15ef97534a7c2e0b138ba54ab210670629",
+    "base_sha256": "dc04a812b8d268824c8f20c23b1c4ff432867ea087d10aee883dc973f9f15cb3",
+    "public_url": "https://index.riggg.com/patterns/package/clips/data-drop/"
+  },
+  {
+    "target": "docs/patterns/package/descriptions/guest-story-arc.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-12/proposed/guest-story-arc.md",
+    "sha256": "575956de711aeaee0746ef682ef4b52e4f5ae79ae4daf8a27f2736f259709dca",
+    "base_sha256": "1d3d65c81292b64e490c29527faf43d0621d5104a9ec5f103fff867e3a80c459",
+    "public_url": "https://index.riggg.com/patterns/package/descriptions/guest-story-arc/"
+  }
+]

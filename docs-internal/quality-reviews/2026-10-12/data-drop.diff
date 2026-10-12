@@ -1,0 +1,48 @@
+--- docs/patterns/package/clips/data-drop.md
++++ docs-internal/quality-reviews/2026-10-12/proposed/data-drop.md
+@@ -16,7 +16,7 @@
+ 
+ ## Why It Works
+ 
+-Data creates authority. A single surprising statistic can reframe an entire conversation. Data clips perform well because they give the audience something concrete to reference.
++A well-sourced statistic can give the audience a concrete reference point and help explain why a topic matters. Preserve the source, population, timeframe and qualifications that make the number meaningful. Test whether the resulting clip helps your audience rather than assuming data alone creates authority or improves performance.
+ 
+ ## Selection Criteria
+ 
+@@ -30,15 +30,15 @@
+ Avoid when the statistic is well-known, when the source is questionable, or when the number requires heavy context to be meaningful.
+ 
+ 
+-## Shows That Use This Pattern
++## Research Starting Points
+ 
+ These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
+ 
+ | Show | Why | Link |
+ |---|---|---|
+-| **The Prof G Pod** | Scott Galloway's data-driven market analysis produces highly quotable stat moments | [YouTube](https://www.youtube.com/@profgalloway) |
+-| **Freakonomics Radio** | Built around surprising data points that reframe audience understanding | [Apple Podcasts](https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519) |
+-| **a16z Podcast** | Venture-backed insights with specific market data and trend statistics | [Apple Podcasts](https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711) |
++| **The Prof G Pod** | Look for a contextualized market statistic; verify the original source and the complete exchange | [YouTube](https://www.youtube.com/@profgalloway) |
++| **Freakonomics Radio** | Explore economic questions for a relevant number and its explanation | [Apple Podcasts](https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519) |
++| **a16z Podcast** | Explore technology and market discussions; verify any number before extracting it | [Apple Podcasts](https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711) |
+ 
+ ## Prompt Template
+ 
+@@ -52,10 +52,13 @@
+ 
+ Requirements:
+ - Statistic is surprising or counterintuitive
+-- Source is credible and recent
++- Preserve the statistic exactly, including population, timeframe and qualifications
++- List the source supplied in the transcript; if absent or unverified, flag it for the editor rather than inventing one
+ - Speaker contextualizes the number
+-- 30-60 seconds when spoken
+-- Provide: start/end timestamps, the data point, and a suggested clip title
++- Aim for 30-60 seconds when spoken, but keep essential context
++- Provide start/end timestamps only when supplied; otherwise quote opening/closing words and say timing needs verification
++- Provide the data point, necessary context, source-check questions and a suggested clip title
++- If no suitable moment exists, say so; do not manufacture a number or claim
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
