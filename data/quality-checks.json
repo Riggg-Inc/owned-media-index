@@ -1927,6 +1927,444 @@
         "reason": "Live dark-mode presentation makes pale table rows nearly unreadable; required shared stylesheet correction awaits exact-version approval on the existing owning card.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/package/clips/data-drop.md": [
+      {
+        "id": "quality-20261012-data-drop",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-12T16:48:50Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "e67e1ac9a3b6003a01bf25e6f3a0eeca6609918ea901582ecb5346c9f7875f54",
+        "report_ref": "docs-internal/quality-reviews/2026-10-12/data-drop.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Specific selection criteria help an editor choose a contextualized statistic rather than a decontextualized number; the exclusion cases directly support this task."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four selection tests, three research starting points and a customizable extraction prompt supply concrete operating guidance without requiring additional filler."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, criteria, exclusions and extraction prompt consistently focus on one contextualized number. Repeated opening definition is minor, not a material defect."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The corrected clip quadrant requires source, scope and context and selects by audience fit; Data Drop selection criteria agree with that operating advice."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The statement that data clips perform well asserts an empirical outcome without supporting data. The prompt requests timestamps from potentially untimed text and a credible recent source without requiring verification or unavailable-data handling."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Live light and dark desktop/mobile renders were inspected at 1440 and 390. Navigation and page width work, but pale text disappears on pale striped source-table rows in dark mode; prompt and links also have weak contrast."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Publisher descriptions read for named show context; neither establishes the causal performance claim. Prof G alternate URL returned 404 and is not verified evidence.",
+          "items": [
+            {
+              "url": "https://freakonomics.com/",
+              "claim": "Freakonomics is a reasonable starting point for data-led material.",
+              "finding": "The publisher presents quantified economic questions and a Radio network; this supports research relevance, not verified clip performance or an episode-level extraction.",
+              "checked_at": "2026-10-12T16:47:40Z"
+            },
+            {
+              "url": "https://a16z.com/podcasts/",
+              "claim": "The a16z show is a technology and market research starting point.",
+              "finding": "Publisher describes technology ideas and builders across AI, energy and genomics. No measurement of Data Drop clip performance is provided.",
+              "checked_at": "2026-10-12T16:47:41Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "The corrected guide treats audience appeal as a planning hypothesis and requires source and context, compatible with the target selection criteria.",
+              "checked_at": "2026-10-12T16:48:50Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "The hub treats duration as an editorial starting point and retention as something to test; target 30\u201360 seconds can be guidance, not a platform restriction.",
+              "checked_at": "2026-10-12T16:48:50Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-11T16:48:50Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Qualify unsupported clip performance causality and prevent invented source/timestamps; shared dark contrast correction requires exact approval.",
+        "correction_card": "e911a436-cc49-48cf-90ec-3956ccca4d5e"
+      }
+    ],
+    "patterns/package/clips/index.md": [
+      {
+        "id": "quality-20261012-clips",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-12T16:49:50Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "bacf9c5019cb070a52b75099c077957778d566ac19c0422ae96393b56a38f2af",
+        "report_ref": "docs-internal/quality-reviews/2026-10-12/clips.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The five-style comparison maps source moments to extraction choices, then supplies platform and caption workflow guidance useful to an editor exporting clips."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Selection table, quality tests, documented platform limits, caption references and scoped defaults provide concrete detail beyond a generic short-video recommendation."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Upload maximums are distinguished from 30\u201390-second editorial defaults and standard YouTube from Shorts; crop and codec choices remain destination-dependent."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The corrected quadrant also chooses by source moment and audience fit. Data Drop and other listed style names agree with the hub taxonomy; no new universal performance ranking is asserted in operating guidance."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Seven official references were read. YouTube limits, encoding and caption qualifications match; LinkedIn member/Page limits are correctly distinguished, and Meta announcement is not inflated into unlimited file-size support."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current live 1440/390 screenshots and article content inspected. No document overflow; however dark-mode pale striped rows erase substantive Best For text, LinkedIn/Facebook upload guidance and social caption advice, making revision necessary."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material numerical upload and caption claims checked against the seven official references; transport truncation on Google pages is recorded, relevant quoted sections were present.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/71673?hl=en",
+              "claim": "Standard YouTube maximum upload duration and file size.",
+              "finding": "Official help confirms 15-minute default, longer verified uploads, and 256 GB or 12 hours maximum; relevant section present despite transport truncation warning.",
+              "checked_at": "2026-10-12T16:48:58Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+              "claim": "YouTube recommended encoding and adaptive aspect ratio.",
+              "finding": "Official recommendations list MP4, H.264 and AAC options; 16:9 desktop standard with adaptation for vertical and square, not a universal format restriction.",
+              "checked_at": "2026-10-12T16:48:59Z"
+            },
+            {
+              "url": "https://www.linkedin.com/help/linkedin/answer/a548372/",
+              "claim": "LinkedIn member video upload limits and aspect ratio.",
+              "finding": "Member help specifies 15 minutes, 5 GB and aspect ratio 1:2.4\u20132.4:1, consistent with the public table.",
+              "checked_at": "2026-10-12T16:48:59Z"
+            },
+            {
+              "url": "https://www.linkedin.com/help/linkedin/answer/a1311816",
+              "claim": "LinkedIn Page and Career Page video upload limits.",
+              "finding": "Page guidance specifies 10 minutes and 5 GB, and the same aspect range; the page itself is older, so target correctly distinguishes workflow and advises confirmation.",
+              "checked_at": "2026-10-12T16:49:00Z"
+            },
+            {
+              "url": "https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/",
+              "claim": "Meta unified reels rollout and length/format announcement.",
+              "finding": "Announcement says no length/format restrictions and gradual rollout; no unlimited file-size assertion appears, matching the scoped public wording.",
+              "checked_at": "2026-10-12T16:49:00Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/6373554?hl=en",
+              "claim": "YouTube automatic captions require review and have limitations.",
+              "finding": "Help explicitly warns of transcription errors, processing/language limits and requires reviewing auto captions; target accurately summarizes these caveats.",
+              "checked_at": "2026-10-12T16:49:01Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/2734698?hl=en",
+              "claim": "YouTube supports SRT and WebVTT with format limitations.",
+              "finding": "File guide supports basic UTF-8 SRT without style markup and VTT with limited styling; target acknowledges format-specific restrictions.",
+              "checked_at": "2026-10-12T16:49:01Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Source-moment selection and audience-fit advice agree with the hub table and its editorial defaults.",
+              "checked_at": "2026-10-12T16:49:50Z"
+            },
+            {
+              "path": "patterns/package/clips/data-drop.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Statistic/context definition agrees with the Data Drop row; the separate leaf performance overclaim is recorded on its own existing correction.",
+              "checked_at": "2026-10-12T16:49:50Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-11T16:49:50Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark-mode stripe and link contrast hides material selection and upload guidance; existing exact stylesheet proposal awaits human approval.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/descriptions/big-question-summary.md": [
+      {
+        "id": "quality-20261012-big-question-summary",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-12T16:50:53Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1532f6fdfb9efe26a59aea536ffdc6b4227059a92a9456041af5a466b74b5c9c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-12/big-question-summary.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The question/arc/takeaways/links sequence directly helps package exploratory expert conversations and clearly excludes tactical how-to episodes."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "A complete labeled illustration, four quality tests and a fill-in prompt supply enough detail for a writer to produce a usable description."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Intro, structure, example and exclusions consistently distinguish an interesting central question from a merely rhetorical opener; repeated definition is harmless."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Description hub assigns exploratory episodes to this pattern and narrative interviews to Guest Story Arc; Credential-Context-Learn explicitly redirects exploratory conversations here."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Practical curiosity rationale can remain editorial advice. However claims that named shows open or structure descriptions this way are overbroad: current Knowledge Project examples often lead with credentials, and Mindscape includes AMA editions rather than one central-question format."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "1440/390 live dark screenshots inspected with no page overflow. Pale striped table rows and weak prompt contrast hinder reading. The Knowledge Project Apple link returns404; publisher supplies a different verified show ID."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read actual public show descriptions and publisher identity links, without playing episodes or inferring measured outcomes. Existing Apple destination separately returned404.",
+          "items": [
+            {
+              "url": "https://preposterousuniverse.com/podcast/",
+              "claim": "Mindscape frames every episode around one intellectual question.",
+              "finding": "Publisher confirms thinker conversations but lists monthly AMA editions; read page does not establish a universal central-question description structure.",
+              "checked_at": "2026-10-12T16:49:59Z"
+            },
+            {
+              "url": "https://fs.blog/knowledge-project-podcast/",
+              "claim": "Knowledge Project reference identity and question-led description attribution.",
+              "finding": "Official page links Apple ID990149481, not target990149903. Ryan Serhant and Bill Ackman descriptions lead with credentials; not a universal question-first format.",
+              "checked_at": "2026-10-12T16:49:59Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub exploratory use case agrees; its legacy platform table is not relied on for target review or copied as new evidence.",
+              "checked_at": "2026-10-12T16:50:53Z"
+            },
+            {
+              "path": "patterns/package/descriptions/guest-story-arc.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Narrative-led alternative differs clearly from question-led exploration; both require useful audience takeaways.",
+              "checked_at": "2026-10-12T16:50:53Z"
+            },
+            {
+              "path": "patterns/package/descriptions/credential-context-learn.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Credential pattern recommends Big Question for exploratory episodes with no clear takeaways, compatible with target scope.",
+              "checked_at": "2026-10-12T16:50:53Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-11T16:50:53Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Repair broken Knowledge Project source link, scope show-format attributions to actual observations, and apply separately approved shared contrast fix.",
+        "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
+      }
+    ],
+    "patterns/package/descriptions/credential-context-learn.md": [
+      {
+        "id": "quality-20261012-credential-context-learn",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-12T16:51:39Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "30f4a954aec9ed1c6474c4fd558bf49c491fd918a9e68e2efddfd879417c17d0",
+        "report_ref": "docs-internal/quality-reviews/2026-10-12/credential-context-learn.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Credential/context/learning-list structure helps writers establish relevant expertise and audience value, with clear alternatives for exploratory and narrative episodes."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Three full illustrations, reusable structure, selection exclusions and a detailed prompt make the pattern actionable rather than abstract."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Authority then context then specific takeaways is internally logical and repeated in the template. The quality bar should not treat sensational medical promises as the model of specificity."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Big Question and Guest Story alternatives align with their actual introductions; Problem-Credibility-Takeaway differs appropriately by leading with pain instead of guest authority."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "That promise earns the click is unqualified causal performance language. Even with illustration labeling, the quality bar recommends a practice that resets the reward system as preferred specificity; this encourages unsupported health promises. Fixed platform preview counts are interface-dependent and lack supporting documentation. DOAC show page verifies identity, not a signature format or platform performance dataset."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Desktop and mobile DOM/render checks show no page overflow and correct canonical. Visually inspected dark desktop structure reveals illegible pale platform-table stripes and low-contrast code; mobile uses the same defective presentation."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Proportionate identity/credential checks separate actual institutional facts from explicitly fictional illustrations; no complete verification of hypothetical medical or business outcomes claimed.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644",
+              "claim": "Steven Bartlett hosts Diary Of A CEO using a signature credential learning format.",
+              "finding": "Retrieved show description confirms host and expert/interview positioning only; truncated listing does not establish a universal episode structure or performance causality.",
+              "checked_at": "2026-10-12T16:51:01Z"
+            },
+            {
+              "url": "https://med.stanford.edu/profiles/anna-lembke",
+              "claim": "Anna Lembke credential in the explicitly illustrative sample.",
+              "finding": "Stanford confirms Chief of Addiction Medicine Dual Diagnosis Clinic and professor role. This does not substantiate the fictional episode bullets, attention statistic or brain-reset promise.",
+              "checked_at": "2026-10-12T16:51:03Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/big-question-summary.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Exploratory alternative is correctly distinguished from explicit learning promises.",
+              "checked_at": "2026-10-12T16:51:39Z"
+            },
+            {
+              "path": "patterns/package/descriptions/guest-story-arc.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Narrative alternative is appropriate when the journey matters more than an impressive credential.",
+              "checked_at": "2026-10-12T16:51:39Z"
+            },
+            {
+              "path": "patterns/package/descriptions/problem-credibility-takeaway.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Problem-first sibling has a genuinely different opening; compatible package-stage scope.",
+              "checked_at": "2026-10-12T16:51:39Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-11T16:51:39Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Remove unsupported click/medical outcome promises and fixed preview-size assumptions; scope named-show attribution and apply separately approved shared contrast correction.",
+        "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
+      }
+    ],
+    "patterns/package/descriptions/guest-story-arc.md": [
+      {
+        "id": "quality-20261012-guest-story-arc",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-12T16:52:26Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ee57b958408dd252fd96ed167b0746cafaece21221bf82ed0419e48af8343ae0",
+        "report_ref": "docs-internal/quality-reviews/2026-10-12/guest-story-arc.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Story/lessons/application structure helps writers turn a distinctive guest journey into audience relevance rather than a generic biography."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Illustrative full description, three quality criteria and a reusable prompt make the promised writing task executable. Fictional revenue example is clearly labeled, not treated as measured customer evidence."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The introduction, pattern and exclusion all require a distinctive journey with transferable lessons; reader application stays central throughout."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Description hub assigns narrative interviews here; credential-led and question-led siblings provide meaningful alternatives rather than conflicting instructions."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Narrative may create an emotional hook, but saying data-driven descriptions cannot match it is an unsupported absolute. How I Built This every-description and Masters each-episode format claims exceed the show-level sources; retain practical advice while narrowing assertions."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Complete live1440/390 screenshots inspected with correct canonical and no document overflow. Dark pale-striped source rows and low-contrast prompt text obscure material guidance; shared stylesheet issue remains unresolved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read publisher descriptions in context to evaluate the named research starting points. No episode playback, show-wide exhaustive survey or comparative outcome evidence claimed.",
+          "items": [
+            {
+              "url": "https://home.wondery.com/shows/how-i-built-this",
+              "claim": "How I Built This uses founder stories and lessons.",
+              "finding": "Publisher says Guy Raz interviews entrepreneurs about doubt, failure and success. Supports story-led research relevance, not the claim that every description opens with origin story.",
+              "checked_at": "2026-10-12T16:51:46Z"
+            },
+            {
+              "url": "https://mastersofscale.com/",
+              "claim": "Masters of Scale is a source for business journey and lesson examples.",
+              "finding": "Current Hipcamp description connects company growth with founder health and listing includes story-led episodes. This is relevant context, not proof of every episode format or narrative performance superiority.",
+              "checked_at": "2026-10-12T16:51:46Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Narrative-driven interview use case matches target definition; legacy platform numbers are outside this target and not verified here.",
+              "checked_at": "2026-10-12T16:52:26Z"
+            },
+            {
+              "path": "patterns/package/descriptions/credential-context-learn.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "The credential-led sibling directs weak-credential but distinctive journeys here, a coherent alternative.",
+              "checked_at": "2026-10-12T16:52:26Z"
+            },
+            {
+              "path": "patterns/package/descriptions/big-question-summary.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Question-led exploration is different from a personal journey; both require audience-relevant insights.",
+              "checked_at": "2026-10-12T16:52:26Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-11T16:52:26Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Qualify unsupported absolute narrative superiority and universal show-description claims; shared contrast correction awaits exact approval.",
+        "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
+      }
     ]
   }
 }
