@@ -1,0 +1,28 @@
+{
+  "slug": "quality-corrections-20261012",
+  "asset": "Existing published clip-selection and episode-description guides",
+  "source_locator": "Four manifest-bound public Markdown bodies and linked publisher pages",
+  "source_context": "Complete existing bodies, neighboring guides and actual publisher descriptions read; no episode playback inferred.",
+  "modality": "Recorded interview packaging and written episode descriptions",
+  "participants": "Editors and writers packaging recorded guests for readers",
+  "observed_action": "Current public guidance was compared with contextual source pages and live rendered presentation.",
+  "demonstrates": "Useful editorial structure with specific unsupported universal claims and misleading prompt outputs to correct.",
+  "interviewed_topic": "No topic discussed by a guest is reclassified as a production technique.",
+  "audience_outcome": "Clearer source-bound clip and description decisions; no measured engagement uplift claimed.",
+  "outcome_stage_link": "Package turns recorded source into understandable reusable media assets.",
+  "mechanism": "media-packaging",
+  "duplicate_check": "Existing board read; Data Drop and shared CSS cards reused, three description issues grouped on one card.",
+  "reviewer": "Cass Reelman AI openai/gpt-6-astra",
+  "stage": "Package",
+  "full_context_read": true,
+  "medium_practice": true,
+  "semantic_duplicate_found": false,
+  "register_checked": true,
+  "existing_cards_checked": true,
+  "related_card_ids": [
+    "e911a436-cc49-48cf-90ec-3956ccca4d5e",
+    "4e92936a-fd6d-4686-a204-f1e45b9fa801",
+    "8006e12e-6551-440a-b9cc-27bce652996f"
+  ],
+  "scope_decision": "eligible"
+}

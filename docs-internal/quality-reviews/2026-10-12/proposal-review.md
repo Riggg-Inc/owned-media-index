@@ -23,3 +23,7 @@ The private Content Creation Lab source facebook-1711723916756382 was read as a 
 ## Acceptance
 
 Approve/revise/park only exact manifest-bound files through the usual content-card workflow. Full proposed pages are ready for editorial inspection; publication still requires contextual audit, preserved evidence-policy gate, exact human decision, final candidate build/render and deployment/live proof. No human signoff fabricated. Unresolved evidence labels stay explicit, not hidden by a stock public disclaimer.
+
+## Observed candidate checks
+
+Disposable preview checkout applies only four proposed files; strict build passed61.89s, site128HTML/8376refs zero errors. Eight actual Chromium1440/390 previews confirm complete candidate text, canonical URLs and no document overflow; representative Credential mobile/Data Drop desktop screenshots visually inspected. Existing dark contrast remains visibly defective: candidate is NOT a quality pass and that separate CSS approval remains necessary. No proposed-body records were added to production. Privacy scan10files zero findings/advisories; score/evidence header bytes preserved. Candidate screenshots/source extracts remain in run artifacts. The Knowledge Project replacement was independently read on Apple and confirms show identity.
