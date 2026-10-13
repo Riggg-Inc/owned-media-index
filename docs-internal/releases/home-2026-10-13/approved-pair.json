@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "card": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e",
+  "approved_commit": "89d94abf4f692f681f104c6aaa4ec550a839caf2",
+  "base_commit": "42ddb64b5dfe341004f70111178c5e159893f5e6",
+  "files": {
+    "docs/index.md": "ec19dabfb35900a0cde4da5cc07f09375ee36884885a3ed1424780c73ebefded",
+    "docs/overrides/home.html": "1a4d80e1b11234fbd0e89d331dc633681fda1417019cd51ca604d6070e7fe801"
+  }
+}

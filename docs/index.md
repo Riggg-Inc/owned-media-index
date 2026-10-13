@@ -10,7 +10,7 @@ The Owned Media Index (OMI) is an open library of patterns, tools, benchmarks, a
 
 ## The Framework
 
-Everything in this index maps to five stages of the owned media operating system.
+The pattern library maps to five stages of the owned media operating system.
 
 <div class="riggg-pipeline">
   <div class="riggg-step">
@@ -44,7 +44,7 @@ Everything in this index maps to five stages of the owned media operating system
 | **Patterns** | Ranked, reusable patterns for every stage — titles, clips, distributions, reels, thumbnails, and more |
 | **Scoring** | How patterns earn a 1–5 Riggg score and what each level means |
 | **Evidence** | How every claim is sourced — internal data, teardowns, platform docs, or practitioner observation |
-| **Roadmap** | What's coming next and how the index evolves quarterly |
+| **Roadmap** | What's coming next, including a proposed quarterly issue |
 | **Contribute** | How to submit a pattern, correct an entry, or propose a new section |
 
 <div class="riggg-accent-bar"></div>
@@ -59,7 +59,7 @@ This index is opinionated. Every pattern answers three questions:
 2. **When do you use it?** — Trigger conditions, skill level, format.
 3. **What does good look like?** — Quality bar, benchmark, or minimum standard.
 
-Entries are scored and sourced. Nothing earns a 5 without evidence.
+Entries are scored and sourced. A 5 means recommended default, with strong evidence and broad usefulness.
 
 <div class="riggg-accent-bar"></div>
 
