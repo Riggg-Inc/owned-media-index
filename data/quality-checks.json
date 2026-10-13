@@ -2365,6 +2365,425 @@
         "reason": "Qualify unsupported absolute narrative superiority and universal show-description claims; shared contrast correction awaits exact approval.",
         "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
       }
+    ],
+    "patterns/package/descriptions/index.md": [
+      {
+        "id": "quality-20261013-descriptions",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-13T16:47:55Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "f7dabc33d91f7f1102e40f8bf4869f55714c91e6a5a8eac0858935a1c22b7ca5",
+        "report_ref": "docs-internal/quality-reviews/2026-10-13/descriptions.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Six linked structures and use cases help a writer select an episode description approach before drafting."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Selection table, quality bar and defaults provide concrete guidance beyond a generic list of styles."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Selection and drafting guidance follow a clear sequence, but the legacy snapshot note cannot make obsolete specifications current."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Problem-first and concise thesis choices agree with their complete linked articles and the Package framework scope."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Google Podcasts remains an operational row despite discontinuation; undocumented uniform hard limits and preview counts should be replaced with current scoped source-backed guidance."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Actual desktop and mobile dark renders have unreadable pale alternating table rows, hiding selection and platform guidance despite no document overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked material platform limits and retirement against relevant official documentation; remaining hard limits are not certified.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/12948449?hl=en",
+              "claim": "YouTube descriptions allow 5000 characters and fixed preview lengths.",
+              "finding": "Official description guidance confirms 5000 characters and first few lines; recommends device previews, not fixed universal visible counts. Relevant text read; transport truncation warning retained.",
+              "checked_at": "2026-10-13T16:46:45Z"
+            },
+            {
+              "url": "https://support.spotify.com/us/creators/article/formatting-your-show-notes/",
+              "claim": "Spotify descriptions have limited formatting and uniform platform behavior.",
+              "finding": "Spotify documents headers, lists, links and HTML with differences between listening platforms. Does not establish the stated 4000 character or 150 character preview limits.",
+              "checked_at": "2026-10-13T16:46:45Z"
+            },
+            {
+              "url": "https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/",
+              "claim": "Google Podcasts is listed among currently usable description platforms.",
+              "finding": "Official 2023 announcement explicitly schedules discontinuation in 2024; current operational table should not recommend this as an active destination.",
+              "checked_at": "2026-10-13T16:47:10Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/problem-credibility-takeaway.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Problem first structure matches expert interviews; hub selection accurately distinguishes its task.",
+              "checked_at": "2026-10-13T16:47:55Z"
+            },
+            {
+              "path": "patterns/package/descriptions/thesis-takeaways-cta.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Concise three takeaways structure matches the hub choice description.",
+              "checked_at": "2026-10-13T16:47:55Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Description packaging fits the framework requirement for usable source-derived assets.",
+              "checked_at": "2026-10-13T16:47:55Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-12T16:47:55Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Correct obsolete and unsubstantiated platform specifications and await approved shared contrast correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/descriptions/problem-credibility-takeaway.md": [
+      {
+        "id": "quality-20261013-problem",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-13T16:48:20Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ca1dd77e8800fc779eacba463b9ff68e3feff298997158a2e179135856a3c731",
+        "report_ref": "docs-internal/quality-reviews/2026-10-13/problem.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Problem, credibility, learning promise and one next action provide a useful prescriptive interview writing structure."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Complete example, specific quality bar, exclusions and parameterized prompt enable practical application."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Four-part pattern is internally consistent, though example asks both subscribe and review despite singular CTA instruction."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Contrasts appropriately with exploratory Big Question and concise Thesis formats while remaining within Package scope."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Internal production data header lacks substantiating safe evidence in the article; no private evidence was consulted. First 120 characters is presented as platform truncation rather than a writing heuristic, and the named-show destination fails."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Desktop and mobile captures show material table stripe and code contrast defects obscuring named examples and the copyable prompt; Apple example link returned 404."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked published attribution access proportionately; fictional example explicitly labeled, so names and numbers are not treated as actual outcomes. Evidence header remains unsubstantiated, not declared false.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/marketing-against-the-grain/id1636010234",
+              "claim": "Linked show supplies teardown starting evidence for this pattern.",
+              "finding": "Published destination returned 404 during this review; no show or episode attribution was verified through this URL.",
+              "checked_at": "2026-10-13T16:47:11Z"
+            },
+            {
+              "url": "https://open.spotify.com/show/exit-five",
+              "claim": "Exit Five link enables readers to inspect the attributed description pattern.",
+              "finding": "Fetch returned only generic Spotify Web Player text, not identified show content; this is an access limitation rather than proof of attribution.",
+              "checked_at": "2026-10-13T16:47:19Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/thesis-takeaways-cta.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Problem-first sequence is more authority-focused than the concise thesis alternative.",
+              "checked_at": "2026-10-13T16:48:20Z"
+            },
+            {
+              "path": "patterns/package/descriptions/big-question-summary.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Exploratory alternative confirms the stated exclusion for nonprescriptive conversations.",
+              "checked_at": "2026-10-13T16:48:20Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Reusable description template fits the Package asset usability goal.",
+              "checked_at": "2026-10-13T16:48:20Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-12T16:48:20Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Repair show-reference and fixed-preview guidance, substantiate or seek approved evidence-label correction, and apply approved shared contrast fix.",
+        "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
+      }
+    ],
+    "patterns/package/descriptions/thesis-takeaways-cta.md": [
+      {
+        "id": "quality-20261013-thesis",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-13T16:48:46Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "025737e3fed1a6c193c221acd6afb0184ac3cbe3768a18c5cb718864d55bf3f0",
+        "report_ref": "docs-internal/quality-reviews/2026-10-13/thesis.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "A thesis and three takeaways is an immediately useful template for concise episode summaries."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Single worked illustration, defined exclusion, quality criteria and copyable prompt provide enough substance for the narrowly scoped task."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Prompt and quality bar agree on distinct takeaways and one CTA; 80 percent example is expressly illustrative, not a certified measured loss."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Concise thesis option is genuinely distinct from problem-first and exploratory alternatives already read."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Practitioner observation and explicit fictional-example labeling reasonably scope the advice; no measured benefit asserted by the evidence label. Named-show format attributions remain unverified starting points, not empirical proof."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Two named-show Apple links returned 404, and current dark desktop/mobile tables and prompt have material contrast problems. Embedded thumbnail renders but playback was not tested."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked relevant preview advice and failed published reference destinations; no episode listening, full source certification or video playback claimed.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/marketing-school/id1183891923",
+              "claim": "Marketing School link provides a starting point for inspecting the asserted format.",
+              "finding": "The exact published Apple destination returned 404; no episode-level structure or effectiveness established.",
+              "checked_at": "2026-10-13T16:47:19Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986",
+              "claim": "HBR IdeaCast destination supports reader inspection of concise descriptions.",
+              "finding": "The published Apple URL returned 404; show-level caveat does not restore a working reader destination.",
+              "checked_at": "2026-10-13T16:47:20Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/12948449?hl=en",
+              "claim": "Description openings matter because users see only an initial preview.",
+              "finding": "Official YouTube guidance prioritizes first few lines and device preview checks, consistent with the general advice without proving universal brevity performance.",
+              "checked_at": "2026-10-13T16:46:45Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/problem-credibility-takeaway.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Three concise takeaways intentionally omit the longer authority/problem sequence.",
+              "checked_at": "2026-10-13T16:48:46Z"
+            },
+            {
+              "path": "patterns/package/descriptions/big-question-summary.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Exploratory description alternative supports avoiding thesis format when no clear defensible thesis exists.",
+              "checked_at": "2026-10-13T16:48:46Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-12T16:48:46Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Repair broken show-reference destinations and shared dark-mode contrast before an honest public pass.",
+        "correction_card": "4e92936a-fd6d-4686-a204-f1e45b9fa801"
+      }
+    ],
+    "patterns/package/index.md": [
+      {
+        "id": "quality-20261013-package",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-13T16:49:16Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fcc8068046099e8c46eadb347d4b7a06788c2ea4149b332b1df5a65b4c8bcca9",
+        "report_ref": "docs-internal/quality-reviews/2026-10-13/package.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Task-oriented selection guide directs readers toward appropriate packaging categories rather than merely listing links."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Asset groups, explanatory summaries and needs-based choices are adequate substance for a navigation hub."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Long-form, short-form, graphics and distribution copy form a sensible hierarchy; show naming is clearly separate."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Package definition and inspected linked category counts match the framework and article contents; thumbnail performance wording overstates what the category establishes."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Description calls these tested formats and thumbnails ranked for click performance without demonstrated tests or comparative click evidence. Present as editorial selection guidance, not empirical performance ranking."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Desktop and mobile supported dark presentation obscures alternate selection rows and category descriptions; no horizontal document overflow does not cure unreadable guidance."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This hub makes internal taxonomy and evidence-scope assertions, not platform numerical claims; inspected authoritative framework and linked categories rather than inventing outside performance evidence.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub scope accurately reflects turning source media into independently usable assets.",
+              "checked_at": "2026-10-13T16:49:16Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Eleven styles in target directory match the hub count and audience qualification guidance.",
+              "checked_at": "2026-10-13T16:49:16Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Five styles are documented, but ranking for click performance is stronger than the visible evidence supports.",
+              "checked_at": "2026-10-13T16:49:16Z"
+            },
+            {
+              "path": "patterns/package/podcast-show-name.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub accurately summarizes lasting naming task instead of confusing it with episode titling.",
+              "checked_at": "2026-10-13T16:49:16Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-12T16:49:16Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Qualify unsupported tested and click-performance positioning while preserving scores; await approved shared CSS correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/podcast-show-name.md": [
+      {
+        "id": "quality-20261013-name",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-13T16:49:38Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "b3d6143e460d2c99072675559521d69102497f85ac9e324a2dda8465eea2047d",
+        "report_ref": "docs-internal/quality-reviews/2026-10-13/name.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Clear comparison rubric and research prompt help choose an understandable distinctive show name with realistic constraints."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Audience, brand, recall, conflict research and display checks plus three illustrative options provide concrete decision support."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Example tradeoffs align with rubric and prompt; provisional recommendation and legal-screening boundaries are consistently maintained."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Distinctly addresses persistent show identity while episode titles and Package hub retain their separate tasks."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Hypothesis label, unverified-name caveat, no ranking guarantees and official Apple/YouTube support proportionately bound the advice; no empirical growth result invented."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Article structure and links are understandable, but central copyable research prompt has dark red text on dark background in both current desktop and mobile renders, materially reducing readability."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read the two directly cited official sources for search and playlist specifics; no invented name availability or trademark clearance.",
+          "items": [
+            {
+              "url": "https://podcasters.apple.com/support/3686-search-on-apple-podcasts",
+              "claim": "Apple recommends distinctive names and uses factors beyond title keywords.",
+              "finding": "Official page confirms specific unique names and metadata, popularity and user behavior as search factors; supports careful non-guarantee wording.",
+              "checked_at": "2026-10-13T16:46:44Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/12751636?hl=en",
+              "claim": "YouTube podcast name refers to a playlist rather than episode titles.",
+              "finding": "Official setup page explicitly defines podcast show as playlist and episodes as videos; naming section recommends descriptive rather than generic playlist titles. Relevant text read despite transport truncation warning.",
+              "checked_at": "2026-10-13T16:46:44Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Naming creates understandable usable packaging and fits the existing stage without modifying framework.",
+              "checked_at": "2026-10-13T16:49:38Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Naming explicitly concerns lasting show identity rather than the sibling episode title styles.",
+              "checked_at": "2026-10-13T16:49:38Z"
+            },
+            {
+              "path": "patterns/package/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub accurately routes to naming as a separate practical task.",
+              "checked_at": "2026-10-13T16:49:38Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-12T16:49:38Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Apply exact approved shared dark-mode code/link contrast correction and reassess actual rendered usability; no body rewrite needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
