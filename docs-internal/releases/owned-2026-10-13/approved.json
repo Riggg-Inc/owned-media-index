@@ -1,0 +1,9 @@
+{
+  "approved_commit": "436fed3b0eae3dbf9994f6162b61fe760348d700",
+  "base_commit": "3eff28816f9715d06f9dde3e3ef668540c472321",
+  "files": {
+    "docs/owned-media.md": "5e92b059e27ff86773cf583c4277c8ed91c8481ab094aa37e5633b85ad22f612",
+    "OWNED-MEDIA.md": "d606fbea3a171e8ad2e2a3aec544b91700c01c88509a38115c777982ce02d7f6",
+    "FRAMEWORK.md": "b39776c82ffeed7d24ccc29e1fb623f33bb6bb4572162291fc85902a62c6c755"
+  }
+}

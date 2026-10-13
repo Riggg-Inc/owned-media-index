@@ -10,7 +10,7 @@ This is the operating model for turning expert conversations, webinars, livestre
 
 Owned media splits into two things:
 
-- **The asset** (what you made) — always owned. Video files, transcripts, clips, written posts. You created it; you own it regardless of where it gets published.
+- **The asset** (what you made) — video files, transcripts, clips and written posts your organization owns. Check the rights needed to use contributor and third-party material; a licence to use something is not necessarily ownership.
 - **The distribution layer** (where you put it) — determines whether your *reach* is owned or rented.
 
 The 5Ps describe what you do with both. See [`OWNED-MEDIA.md`](./OWNED-MEDIA.md) for the full definition, ownership tests, and asset inventory.
