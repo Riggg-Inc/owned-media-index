@@ -137,6 +137,10 @@ When grounding patterns in Riggg's actual production:
 
 ## Workflow rules
 
+### Practitioner-first editorial responsibilities
+
+Scribe preserves useful confident advice, concrete examples and an actionable Quality Bar. Auditor performs the [practitioner reader gate](docs-internal/quality-review-procedure.md#practitioner-reader-gate-owner-direction-october-13-2026): purpose, first action, example, observable quality checks, preserved meaning/voice and essential limits. Correct specific false claims and guarantees without demanding empirical proof of every recommendation or stacking disclaimers. Detailed evidence audits stay internal. Beacon checks the exact reviewed revision, not just a validator result. AI editorial review is not owner approval. Existing privacy, evidence, scoring and publication rules remain intact.
+
 ### Standing page-quality gate
 
 For every new page and revision, Scribe, Auditor and Beacon follow [the discoverability and answer-quality publication checklist](docs-internal/aeo-publishing-standard.md): grounded opening answers, unique descriptions, useful comparisons, verified sources, truthful dates, accessible breadcrumbs and working published links. Beacon runs both generated-site validators and regression tests before release and verifies the deployed page. The monthly AEO report uses the fixed question panel and distinguishes measured citations, search performance and conversions from unavailable metrics. These implementation checks supplement—not replace—the existing approval, privacy, evidence and scoring gates.
