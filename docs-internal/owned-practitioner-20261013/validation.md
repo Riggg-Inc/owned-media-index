@@ -1,0 +1,3 @@
+# Draft validation — October 13, 2026
+
+Candidate public article overlaid into isolated export of origin/main 94c7bbd at /tmp/omi-practitioner-preview-20261013; public files in the review worktree remain unchanged. Strict MkDocs build passed. Site: 128 HTML pages / 8376 references, zero errors. AEO: 127 pages, zero errors. Freshness: 127 pages, zero errors. All 109 regression tests passed (8.294s). Full log: preview-validation.log. Independent AI editorial/factual review passed; see independent-review.md. No human readability or rendered visual acceptance is claimed. No registry entries, score edits or daily quota bypass. Draft artifacts only; normal current-base owner-approved release and visual/live verification remain required.
