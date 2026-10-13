@@ -1,0 +1,2014 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The Owned Media Index: patterns, tools, evidence, and standards for producing, packaging, publishing, measuring, and preserving owned media.">
+      
+      
+      
+        <link rel="canonical" href="https://index.riggg.com/">
+      
+      
+      
+        <link rel="next" href="owned-media/">
+      
+      
+      <link rel="icon" href="assets/riggg-logo-white.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Owned Media Index - Owned Media Index</title>
+      
+    
+    
+
+      <link rel="stylesheet" href="assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
+
+/* ─── Layout reset ───────────────────────────────────────────── */
+.md-sidebar { display: none !important; }
+.md-content  { max-width: 100% !important; }
+.md-main__inner { max-width: 100% !important; padding: 0 !important; margin-top: 0 !important; }
+.md-content__inner { margin: 0 !important; padding: 0 !important; }
+
+.omi-btn {
+  display: inline-block;
+  padding: 0.65em 1.8em;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.78em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  transition: all 0.2s;
+}
+.omi-btn--p { background: #008080; color: #fff !important; box-shadow: 0 4px 20px rgba(0,128,128,0.45); }
+.omi-btn--p:hover { background: #00a0a0; transform: translateY(-2px); }
+.omi-btn--o { background: transparent; color: #fff !important; border: 2px solid rgba(255,255,255,0.5); }
+.omi-btn--o:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
+
+.omi-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.omi-section--alt {
+  background: var(--riggg-mint, #ECF6F5);
+}
+
+[data-md-color-scheme="slate"] .omi-section--alt {
+  background: rgba(255,255,255,0.03);
+}
+
+.omi-section--dark {
+  background: #0b1626;
+  color: #fff;
+}
+
+.omi-section--navy {
+  background: var(--riggg-navy, #2B3E74);
+  color: #fff;
+}
+
+.omi-section h2 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 2.4em !important;
+  letter-spacing: 0.06em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.3rem !important;
+  text-align: center;
+}
+
+.omi-section--dark h2,
+.omi-section--navy h2 {
+  color: #fff !important;
+}
+
+.omi-section .omi-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.omi-section--dark .omi-subtitle,
+.omi-section--navy .omi-subtitle {
+  color: rgba(255,255,255,0.75);
+}
+
+/* ─── Feature cards ──────────────────────────────────────────── */
+.omi-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.omi-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.8rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.omi-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+
+[data-md-color-scheme="slate"] .omi-card {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.08);
+}
+
+.omi-card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.omi-card h3 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.4em !important;
+  letter-spacing: 0.06em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.5rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-card h3 {
+  color: #eceff4 !important;
+}
+
+.omi-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88em;
+  color: #555;
+  line-height: 1.65;
+  margin: 0;
+}
+
+[data-md-color-scheme="slate"] .omi-card p {
+  color: rgba(255,255,255,0.7);
+}
+
+/* Colored top border on cards */
+.omi-card--teal    { border-top: 3px solid #008080; }
+.omi-card--navy    { border-top: 3px solid #2B3E74; }
+.omi-card--burgundy { border-top: 3px solid #953F4E; }
+.omi-card--mint    { border-top: 3px solid #5abfb5; }
+.omi-card--cream   { border-top: 3px solid #d4a843; }
+
+/* ─── Pattern anatomy ────────────────────────────────────────── */
+.omi-anatomy {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.omi-anatomy-visual {
+  flex: 1;
+  min-width: 280px;
+  background: var(--riggg-navy, #2B3E74);
+  border-radius: 10px;
+  padding: 1.5rem;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82em;
+}
+
+.omi-anatomy-visual .anat-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.omi-anatomy-visual .anat-row:last-child {
+  border-bottom: none;
+}
+
+.anat-label {
+  background: rgba(0,128,128,0.4);
+  padding: 0.2em 0.6em;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.anat-desc {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.92em;
+}
+
+.omi-anatomy-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.omi-anatomy-text h3 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.6em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.6rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-anatomy-text h3 {
+  color: #eceff4 !important;
+}
+
+.omi-anatomy-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+
+/* ─── Audience cards ─────────────────────────────────────────── */
+.omi-audience {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.omi-audience-card {
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1.4rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: background 0.2s;
+}
+
+.omi-audience-card:hover {
+  background: rgba(255,255,255,0.12);
+}
+
+.omi-audience-card h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.15em !important;
+  letter-spacing: 0.06em !important;
+  color: #fff !important;
+  margin: 0 0 0.35rem !important;
+}
+
+.omi-audience-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78em;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── Updates list ───────────────────────────────────────────── */
+.omi-updates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.omi-update {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.4rem;
+  border-left: 4px solid #008080;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+[data-md-color-scheme="slate"] .omi-update {
+  background: rgba(255,255,255,0.05);
+}
+
+.omi-update-tag {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.65em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #008080;
+  margin-bottom: 0.4rem;
+}
+
+.omi-update h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 1.2em !important;
+  color: var(--riggg-navy, #2B3E74) !important;
+  margin: 0 0 0.3rem !important;
+}
+
+[data-md-color-scheme="slate"] .omi-update h4 {
+  color: #eceff4 !important;
+}
+
+.omi-update p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.82em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ─── CTA banner ─────────────────────────────────────────────── */
+.omi-cta-banner {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.omi-cta-banner h2 {
+  color: #fff !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.omi-cta-banner p {
+  color: rgba(255,255,255,0.85);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  max-width: 520px;
+  margin: 0 auto 2rem;
+  line-height: 1.7;
+}
+
+.omi-cta-btns {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ─── Riggg footer section ───────────────────────────────────── */
+.omi-riggg-footer {
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+}
+
+.omi-riggg-footer img {
+  height: 48px;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+
+.omi-riggg-footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.88em;
+  color: #666;
+  max-width: 560px;
+  margin: 0 auto 0.5rem;
+  line-height: 1.7;
+}
+
+.omi-riggg-footer .omi-footer-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.omi-riggg-footer .omi-footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #008080 !important;
+  text-decoration: none;
+}
+
+.omi-riggg-footer .omi-footer-links a:hover {
+  color: #00a0a0 !important;
+}
+.omi-section.omi-intro {
+  position: relative; isolation: isolate; overflow: hidden;
+  max-width: none; padding: 2.3rem 1.2rem 2rem;
+  text-align: center; color: #fff; background: #2B3E74;
+  border-bottom: 4px solid #ECF6F5;
+}
+.omi-brand-shape { position: absolute; z-index: -1; pointer-events: none; width: clamp(300px, 34vw, 520px); height: auto; }
+.omi-brand-shape--left { left: -170px; bottom: -150px; transform: rotate(-16deg); }
+.omi-brand-shape--right { right: -195px; top: -140px; transform: rotate(18deg); }
+.omi-intro h1 { font-size: clamp(2rem, 5vw, 3rem); margin: 0 0 .6rem; color: #fff !important; text-align: center; }
+.omi-intro p { max-width: 740px; margin: 0 auto; line-height: 1.65; text-align: center; color: #ECF6F5; }
+.omi-intro .omi-credit { margin-top: .8rem; font-size: .72rem; color: #ECF6F5; }
+.omi-brand-rule { width: 48px; height: 4px; background: #FFF6E0; margin: 0 auto 1rem; }
+@media (max-width: 1000px) {
+  .omi-brand-shape--left { left: -235px; }
+  .omi-brand-shape--right { right: -235px; }
+}
+@media (max-width: 600px) {
+  .omi-section.omi-intro { padding: 1.5rem 1.2rem; }
+  .omi-intro p { font-size: .8rem; }
+  .omi-intro h1 { font-size: 2rem; }
+  .omi-brand-shape { width: 260px; }
+  .omi-brand-shape--left { left: -210px; bottom: -140px; }
+  .omi-brand-shape--right { right: -220px; top: -130px; }
+}
+.omi-section.omi-framework { padding-top: 1.5rem; }
+[data-md-color-scheme="slate"] .omi-framework h2 { color: #eceff4 !important; }
+[data-md-color-scheme="slate"] .omi-framework .omi-subtitle { color: rgba(255,255,255,.75); }
+</style>
+
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Montserrat";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="stylesheets/quadrant.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+<script id="__analytics">
+function __omi_safeUrl(value) {
+  try { var u = new URL(value); return u.origin + u.pathname; }
+  catch (_) { return ''; }
+}
+// Material reloads after consent. Save a sanitized source only on explicit opt-in.
+document.addEventListener('submit', function(event) {
+  var form = event.target;
+  if (form.name === 'consent' && form.elements.analytics && form.elements.analytics.checked) {
+    try { sessionStorage.setItem('__omi_consent_referrer', __omi_safeUrl(document.referrer)); }
+    catch (_) { /* Storage denial must not break consent. */ }
+  }
+}, true);
+function __md_analytics() {
+  if (window.omiAnalyticsStarted) return;
+  window.omiAnalyticsStarted = true;
+  var id = "G-T1FBFDLCRE";
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  var referrer = __omi_safeUrl(document.referrer);
+  try {
+    var pendingReferrer = sessionStorage.getItem('__omi_consent_referrer');
+    if (pendingReferrer !== null) referrer = pendingReferrer;
+    sessionStorage.removeItem('__omi_consent_referrer');
+  } catch (_) { /* Fall back if storage is unavailable. */ }
+  gtag('js', new Date());
+  gtag('config', id, {
+    send_page_view: false,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false,
+    page_location: location.origin + location.pathname,
+    page_referrer: referrer
+  });
+  gtag('event', 'page_view', {
+    page_location: location.origin + location.pathname,
+    page_referrer: referrer,
+    page_title: document.title
+  });
+  document.addEventListener('click', function(event) {
+    var a = event.target.closest && event.target.closest('a[href]');
+    if (!a) return;
+    var u;
+    try { u = new URL(a.href); } catch (_) { return; }
+    if (u.protocol !== 'https:' && u.protocol !== 'http:') return;
+    if (u.hostname === 'riggg.com' || u.hostname === 'www.riggg.com') {
+      gtag('event', 'riggg_visit', {link_url: __omi_safeUrl(u.href), link_domain: u.hostname});
+    }
+  });
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+  document.head.appendChild(script);
+}
+</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+    
+
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Owned Media Index">
+<meta property="og:title" content="Home — Owned Media Index">
+<meta property="og:description" content="The Owned Media Index: patterns, tools, evidence, and standards for producing, packaging, publishing, measuring, and preserving owned media.">
+<meta property="og:url" content="https://index.riggg.com/">
+<meta property="og:image" content="https://index.riggg.com/assets/og-image.png">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Home — Owned Media Index">
+<meta name="twitter:description" content="The Owned Media Index: patterns, tools, evidence, and standards for producing, packaging, publishing, measuring, and preserving owned media.">
+<meta name="twitter:image" content="https://index.riggg.com/assets/og-image.png">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://riggg.com/#organization", "@type": "Organization", "logo": "https://index.riggg.com/assets/riggg-logo-white.png", "name": "Riggg Inc.", "url": "https://riggg.com"}, {"@id": "https://index.riggg.com/#website", "@type": "WebSite", "description": "Open patterns, tools, standards, and benchmarks for producing, publishing, measuring, and preserving owned media.", "name": "Owned Media Index", "publisher": {"@id": "https://riggg.com/#organization"}, "url": "https://index.riggg.com/"}, {"@id": "https://index.riggg.com/#webpage", "@type": "CollectionPage", "dateModified": "2026-09-30T20:41:14Z", "description": "The Owned Media Index: patterns, tools, evidence, and standards for producing, packaging, publishing, measuring, and preserving owned media.", "isPartOf": {"@id": "https://index.riggg.com/#website"}, "name": "Owned Media Index", "url": "https://index.riggg.com/"}]}</script>
+
+
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#owned-media-index" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Owned Media Index" class="md-header__button md-logo" aria-label="Owned Media Index" data-md-component="logo">
+      
+  <img src="assets/riggg-logo-white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Owned Media Index
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Owned Media Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Riggg-Inc/owned-media-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Riggg-Inc/owned-media-index
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="owned-media/" class="md-tabs__link">
+        
+  
+    
+  
+  What Is Owned Media
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="framework/" class="md-tabs__link">
+        
+  
+    
+  
+  Framework
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="patterns/" class="md-tabs__link">
+          
+  
+    
+  
+  Patterns
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="tools/" class="md-tabs__link">
+          
+  
+    
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="quadrants/" class="md-tabs__link">
+          
+  
+    
+  
+  Quadrants
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="scoring/" class="md-tabs__link">
+        
+  
+    
+  
+  Scoring
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="evidence/" class="md-tabs__link">
+        
+  
+    
+  
+  Evidence
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="roadmap/" class="md-tabs__link">
+        
+  
+    
+  
+  Roadmap
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="contribute/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribute
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Owned Media Index" class="md-nav__button md-logo" aria-label="Owned Media Index" data-md-component="logo">
+      
+  <img src="assets/riggg-logo-white.png" alt="logo">
+
+    </a>
+    Owned Media Index
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Riggg-Inc/owned-media-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Riggg-Inc/owned-media-index
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-inside" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's Inside
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why This Exists
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#published-by-riggg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Published by Riggg
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="owned-media/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    What Is Owned Media
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="framework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="patterns/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Patterns
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Patterns
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="patterns/produce/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Produce
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="patterns/package/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Package
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="patterns/publish/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Publish
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="patterns/prove/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Prove
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="patterns/preserve/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Preserve
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="tools/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tools/hosting/video-podcast-hosting-support/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hosting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="quadrants/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Quadrants
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Quadrants
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/titles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Title Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/descriptions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Description Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/clips/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Clip Styles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/recording/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Recording Methods
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/mastering-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mastering Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quadrants/distribution-platforms/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distribution Platforms
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="scoring/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Scoring
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="evidence/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evidence
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contribute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-inside" class="md-nav__link">
+    <span class="md-ellipsis">
+      What's Inside
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-exists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why This Exists
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#published-by-riggg" class="md-nav__link">
+    <span class="md-ellipsis">
+      Published by Riggg
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+<section class="omi-section omi-intro" aria-labelledby="owned-media-index">
+  <img class="omi-brand-shape omi-brand-shape--left" src="assets/brand/riggg-teal-halftone.webp" alt="" aria-hidden="true" width="720" height="640">
+  <img class="omi-brand-shape omi-brand-shape--right" src="assets/brand/riggg-burgundy-halftone.webp" alt="" aria-hidden="true" width="720" height="782">
+  <div class="omi-brand-rule" aria-hidden="true"></div>
+  <h1 id="owned-media-index">Owned Media Index</h1>
+  <p>The Owned Media Index (OMI) is an open library of patterns, tools, benchmarks, and standards for turning expert conversations into published owned media. Use it to plan, produce, package, publish, measure, and reuse your content.</p>
+  <p class="omi-credit">Maintained by Riggg · Open to the community</p>
+</section>
+
+<!-- ═══ Section 1: The Framework ═══ -->
+<div class="omi-section omi-framework">
+  <h2 id="the-framework">The Framework</h2>
+  <p class="omi-subtitle">
+    Every entry in the index maps to one of five stages of the owned media operating system.
+  </p>
+
+  <div class="riggg-pipeline">
+    <div class="riggg-step"><span class="step-label">Produce</span><span class="step-sub">Capture · Record · Live</span></div>
+    <div class="riggg-step"><span class="step-label">Package</span><span class="step-sub">Titles · Clips · Reels · Copy</span></div>
+    <div class="riggg-step"><span class="step-label">Publish</span><span class="step-sub">RSS · YouTube · LinkedIn · Live</span></div>
+    <div class="riggg-step"><span class="step-label">Prove</span><span class="step-sub">Analytics · Benchmarks · ROI</span></div>
+    <div class="riggg-step"><span class="step-label">Preserve</span><span class="step-sub">Transcripts · Memory · Reuse</span></div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 2: Everything You Need ═══ -->
+<div class="omi-section omi-section--alt">
+  <h2 id="whats-inside">Everything You Need</h2>
+  <p class="omi-subtitle">
+    Ranked patterns, evidence-backed standards, and opinionated guidance for every stage of owned media.
+  </p>
+
+  <div class="omi-cards">
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">🎬</span>
+      <h3><a href="patterns/produce/">Production Patterns</a></h3>
+      <p>Real-time production standards, OBS workflows, recording setups, and live show production guides. From raw capture to broadcast-quality output.</p>
+    </div>
+    <div class="omi-card omi-card--navy">
+      <span class="omi-card-icon">✂️</span>
+      <h3><a href="patterns/package/">Packaging Standards</a></h3>
+      <p>Top-performing title styles, RSS descriptions, clip selection criteria, reel packaging, thumbnail hooks, and everything that wraps your content for publishing.</p>
+    </div>
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">🚀</span>
+      <h3><a href="patterns/publish/">Publishing Playbooks</a></h3>
+      <p>Website-first canonical pages, YouTube packaging, LinkedIn release posts, RSS metadata, simulcast standards, and live premiere checklists.</p>
+    </div>
+    <div class="omi-card omi-card--burgundy">
+      <span class="omi-card-icon">📊</span>
+      <h3><a href="patterns/prove/">Performance Benchmarks</a></h3>
+      <p>Session performance scorecards, per-episode metrics, conversion events, attribution models, and the numbers that prove owned media works.</p>
+    </div>
+    <div class="omi-card omi-card--navy">
+      <span class="omi-card-icon">🧠</span>
+      <h3><a href="patterns/preserve/">Content Memory</a></h3>
+      <p>Transcript standards, vector search indexing, content library architecture, AEO visibility, and how to make every session findable forever.</p>
+    </div>
+    <div class="omi-card omi-card--teal">
+      <span class="omi-card-icon">⭐</span>
+      <h3><a href="scoring/">Riggg Scored</a></h3>
+      <p>Every pattern earns a 1–5 score based on evidence, reliability, and real-world production results. Nothing gets a 5 without proof.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 3: How Patterns Work ═══ -->
+<div class="omi-section">
+  <h2>How Patterns Work</h2>
+  <p class="omi-subtitle">
+    Every entry in the index follows the same structure. No blog posts disguised as guides. No vibes without evidence.
+  </p>
+
+  <div class="omi-anatomy">
+    <div class="omi-anatomy-visual">
+      <div class="anat-row">
+        <span class="anat-label">What</span>
+        <span class="anat-desc">What this pattern is for</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">When</span>
+        <span class="anat-desc">When you should use it</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Why</span>
+        <span class="anat-desc">Why it works</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Examples</span>
+        <span class="anat-desc">Concrete, usable examples</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Quality</span>
+        <span class="anat-desc">What good looks like</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Score</span>
+        <span class="anat-desc">1–5 Riggg score with evidence</span>
+      </div>
+      <div class="anat-row">
+        <span class="anat-label">Tradeoffs</span>
+        <span class="anat-desc">When not to use it</span>
+      </div>
+    </div>
+    <div class="omi-anatomy-text">
+      <h3>Opinionated. Sourced. Specific.</h3>
+      <p>Most owned media advice is scattered across blog posts, vendor marketing, and Twitter threads. The Index cuts through that by forcing every entry through a structured template.</p>
+      <p>Each pattern answers three questions: What is this for? When do you use it? What does good look like? If it can't answer all three with evidence, it doesn't ship.</p>
+      <p>Patterns are scored on a 1–5 scale. A 5 means industry standard with production data behind it. A 1 means it's documented for context but not recommended.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 4: Built For Practitioners ═══ -->
+<div class="omi-section omi-section--navy">
+  <h2 id="why-this-exists">Built for Practitioners</h2>
+  <p class="omi-subtitle">
+    Not for vendors. Not for executives who want a deck. For the people actually building and running owned media programs.
+  </p>
+
+  <div class="omi-audience">
+    <div class="omi-audience-card">
+      <h4>🎙️ Podcast Teams</h4>
+      <p>Producers, editors, and hosts running recurring shows. Find title patterns, clip workflows, and distribution playbooks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>📹 Webinar Teams</h4>
+      <p>Marketing teams running webinars as lead-gen. Get simulcast standards, repurposing pipelines, and performance benchmarks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>🌐 Virtual Event Teams</h4>
+      <p>Event producers turning sessions into content libraries. Find packaging standards and post-event publishing playbooks.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>💡 Founder-Led Media</h4>
+      <p>Founders and executives building thought leadership through content. Get expert interview patterns and authority-building guides.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>🎯 Agency Strategists</h4>
+      <p>Consultants managing owned media for clients. Use the Index as your operational playbook and quality standard.</p>
+    </div>
+    <div class="omi-audience-card">
+      <h4>📊 Marketing Leaders</h4>
+      <p>In-house teams integrating owned media into the full marketing stack. Prove ROI with benchmarks and attribution models.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 5: What's New ═══ -->
+<div class="omi-section">
+  <h2>What's New</h2>
+  <p class="omi-subtitle">
+    Explore published patterns from across the Index. These highlights are not a dated release log.
+  </p>
+
+  <div class="omi-updates">
+    <div class="omi-update">
+      <div class="omi-update-tag">Package</div>
+      <h4><a href="patterns/package/titles/">Top Performing Title Styles</a></h4>
+      <p>Compare ranked title patterns for expert interviews, roundtables, and solo episodes, with the evidence labels documented in each entry.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Publish</div>
+      <h4><a href="patterns/publish/simulcast-standard/">Simulcast Standard</a></h4>
+      <p>The complete guide to simultaneous live streaming across LinkedIn, YouTube, Facebook, and vertical social platforms.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Produce</div>
+      <h4><a href="patterns/produce/obs-production-standard/">OBS Production Standard</a></h4>
+      <p>Real-time production workflows using OBS Studio for broadcast-quality shows with lower thirds, transitions, and multi-cam.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Preserve</div>
+      <h4><a href="patterns/preserve/content-memory-standard/">Content Memory Standard</a></h4>
+      <p>How to build a searchable, reusable content library using vector databases and transcript indexing.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Package</div>
+      <h4><a href="patterns/package/descriptions/">RSS Feed Description Patterns</a></h4>
+      <p>Ranked description styles that improve discoverability across Apple Podcasts, Spotify, and podcast directories.</p>
+    </div>
+    <div class="omi-update">
+      <div class="omi-update-tag">Prove</div>
+      <h4><a href="patterns/prove/session-performance-scorecard/">Session Performance Scorecard</a></h4>
+      <p>A standardized framework for measuring what each session produced, where it shipped, and what it generated.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══ Section 6: Open Source CTA ═══ -->
+<div class="omi-section omi-section--dark omi-cta-banner">
+  <h2 id="published-by-riggg">Open Source. Opinionated.</h2>
+  <p>
+    The Owned Media Index is open to the community. Submit a pattern. Correct an entry. Propose a new section. Every contribution is reviewed by the Riggg team.
+  </p>
+  <div class="omi-cta-btns">
+    <a href="contribute/" class="omi-btn omi-btn--p">How to Contribute</a>
+    <a href="https://github.com/Riggg-Inc/owned-media-index" class="omi-btn omi-btn--o">View on GitHub</a>
+  </div>
+</div>
+
+
+<!-- ═══ Section 7: Published by Riggg ═══ -->
+<div class="omi-section omi-riggg-footer">
+  <img src="assets/riggg-mark.svg" alt="Riggg" style="filter:none;">
+  <p>
+    <strong>Riggg</strong> is the owned media engine for expert-led companies.
+    We produce podcasts, webinars, livestreams, and virtual events like real shows,
+    turn every session into a complete media package, and publish it across the right channels.
+  </p>
+  <p style="font-size:0.82em;color:#999;">
+    The Owned Media Index is how we contribute to the community building the practice of owned media.
+  </p>
+  <div class="omi-footer-links">
+    <a href="https://riggg.com">Riggg.com</a>
+    <a href="https://github.com/Riggg-Inc/owned-media-index">GitHub</a>
+    <a href="https://www.linkedin.com/company/riggg">LinkedIn</a>
+    <a href="framework/">Framework</a>
+    <a href="patterns/">Patterns</a>
+    <a href="roadmap/">Roadmap</a>
+  </div>
+  <p style="font-size:0.72em;color:#aaa;margin-top:2rem;">
+    © 2026 Riggg Inc. · CC BY-SA 4.0 · Open to community contribution
+  </p>
+</div>
+
+
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2026 <a href="https://riggg.com/">Riggg Inc.</a> &nbsp;·&nbsp; <a href="https://riggg.com/">Explore Riggg’s services</a> &nbsp;·&nbsp; <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+ &nbsp;·&nbsp; <a href="#__consent">Analytics preferences</a>
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Riggg-Inc/owned-media-index" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/riggg" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+<h4>Optional analytics</h4>
+<p>With your permission, we use Google Analytics to understand which resources are useful. You can reject optional analytics. <a href="https://riggg.com/privacy-policy/">Privacy policy</a>.</p>
+<input type="checkbox" name="analytics" hidden>
+<div class="md-consent__controls">
+  <button type="submit" class="md-button md-button--primary"
+          onclick="this.form.elements.analytics.checked = true">Accept analytics</button>
+  <button type="reset" class="md-button md-button--primary">Reject</button>
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "header.autohide"], "search": "assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+    
+  </body>
+</html>

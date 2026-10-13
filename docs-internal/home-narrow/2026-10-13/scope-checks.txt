@@ -1,0 +1,7 @@
+PASS: Oct7 current-source pair equals fresh origin/main pair; no intervening homepage edits reset.
+PASS: HTML tag sequence/attributes, template directives, CSS/layout bytes unchanged; all links and anchors retained.
+PASS: protected marketing headings, broadcast-quality wording, contribution review and complete service pitch retained.
+PASS: shared framework and score5 wording synchronized in Markdown/template.
+PASS: public diff only paired homepage sources; no scoring/framework policy, article/nav/privacy/tracking/registry changes.
+PASS: built homepage contains new factual copy and retained marketing; obsolete guarantees absent. HTML-only, not browser visual inspection.
+PASS: live homepage section text equals current-origin template text (all homepage sections), snapshot SHA256 8ba24e48005e244cdb53ba6cc79001a3bccc15f9e6a8b49116e23603dbc6281a

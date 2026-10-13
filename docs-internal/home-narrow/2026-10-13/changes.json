@@ -1,0 +1,70 @@
+{
+  "docs/index.md": [
+    [
+      "Everything in this index maps to five stages of the owned media operating system.",
+      "The pattern library maps to five stages of the owned media operating system."
+    ],
+    [
+      "What's coming next and how the index evolves quarterly",
+      "What's coming next, including a proposed quarterly issue"
+    ],
+    [
+      "Entries are scored and sourced. Nothing earns a 5 without evidence.",
+      "Entries are scored and sourced. A 5 means recommended default, with strong evidence and broad usefulness."
+    ]
+  ],
+  "docs/overrides/home.html": [
+    [
+      "Every entry in the index maps to one of five stages of the owned media operating system.",
+      "The pattern library maps to five stages of the owned media operating system."
+    ],
+    [
+      "Top-performing title styles,",
+      "Editorially ranked title styles,"
+    ],
+    [
+      ">Performance Benchmarks</a>",
+      ">Performance Measurement</a>"
+    ],
+    [
+      "the numbers that prove owned media works.",
+      "the numbers that show how your owned media is working."
+    ],
+    [
+      "how to make every session findable forever.",
+      "how to make sessions easier to find and reuse."
+    ],
+    [
+      "Every pattern earns a 1–5 score based on evidence, reliability, and real-world production results. Nothing gets a 5 without proof.",
+      "Patterns earn an editorial 1–5 score based on usefulness, evidence, repeatability, and fit for real production. A 5 means recommended default, with strong evidence and broad usefulness."
+    ],
+    [
+      "Every entry in the index follows the same structure.",
+      "Patterns in the index follow a shared structure."
+    ],
+    [
+      "A 5 means industry standard with production data behind it.",
+      "A 5 means recommended default, with strong evidence and broad usefulness."
+    ],
+    [
+      "Get simulcast standards, repurposing pipelines, and performance benchmarks.",
+      "Get simulcast standards, repurposing pipelines, and performance scorecards."
+    ],
+    [
+      "Prove ROI with benchmarks and attribution models.",
+      "Measure ROI with scorecards and attribution models."
+    ],
+    [
+      ">Top Performing Title Styles</a>",
+      ">Riggg-Ranked Title Styles</a>"
+    ],
+    [
+      "The complete guide to simultaneous live streaming across LinkedIn, YouTube, Facebook, and vertical social platforms.",
+      "Plan your simulcast: destinations, horizontal and vertical outputs, promotion, recording backup, and replay."
+    ],
+    [
+      "Ranked description styles that improve discoverability across Apple Podcasts, Spotify, and podcast directories.",
+      "Ranked description styles designed to help listeners find and choose your episodes across Apple Podcasts, Spotify, and podcast directories."
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "internal draft awaiting exact paired owner approval",
+  "card": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e",
+  "base_commit": "42ddb64b5dfe341004f70111178c5e159893f5e6",
+  "supersedes_homepage_proposal": "9bc305cca18145c94372b9303d1755e2ed6e33c4",
+  "branch": "review/home-narrow-20261013",
+  "public_url": "https://index.riggg.com/",
+  "files": {
+    "docs/index.md": "ec19dabfb35900a0cde4da5cc07f09375ee36884885a3ed1424780c73ebefded",
+    "docs/overrides/home.html": "1a4d80e1b11234fbd0e89d331dc633681fda1417019cd51ca604d6070e7fe801"
+  },
+  "quality_assessment_created": false,
+  "publication_authorized": false,
+  "owner_review_confirmation": "Owner Oct13 20:10 UTC confirms every submission approved by team; contribution-review claim preserved.",
+  "independent_review": "independent-review.md",
+  "technical_checks": "validation.txt",
+  "scope_checks": "scope-checks.txt"
+}
