@@ -15,6 +15,32 @@ Read the entire published Markdown body and its rendered presentation. Judge whe
 
 All six must pass for overall pass. Material defects mean needs_revision, not an invented pass. Specific material factual claims need proportionate credible sources read in context. Pure guidance may legitimately need no external citation; explain why. Never fabricate citations, source reads, comparisons, dates, reviewer identity or findings. A URL count is not evidence of truth. The validator checks structure, not editorial truth; human/agent review of report substance remains mandatory.
 
+## Practitioner reader gate (owner direction, October 13, 2026)
+
+OMI is a practical best-practice guide, not a legal memo or research audit. Preserve useful confident advice and marketing voice. Practitioner recommendations do not all need experimental proof; measured outcomes, guarantees and material factual assertions still need proportionate support under EVIDENCE.md. Make the smallest accurate correction rather than weakening every sentence.
+
+Before passing a page or proposing a correction, record these reader-task checks in the internal report with a specific passage/example and pass or revise for each (not a numerical score):
+
+- **Purpose:** Can the practitioner quickly tell what this is for and when to use it?
+- **First action:** Can they identify what to do first without translating analyst terminology?
+- **Example:** Is there a concrete example that makes the advice usable? Preserve substantive examples when shortening.
+- **Quality Bar:** Can they inspect their work against plain observable checks? For definition/reference pages, use the equivalent decision test; do not force a pattern template onto them.
+- **Meaning and voice:** Compared with the original, is the revision at least as useful, with its substantive intent and confident recommendations preserved? Explain necessary conceptual changes for owner review.
+- **Essential limits:** Are specific unsupported guarantees corrected and material privacy/rights/uncertainty limits retained once, beside the decision they affect? Reject stacked caveats, generic disclaimers and audit narration that obscure the advice.
+
+A material failure blocks editorial pass: revise the smallest affected passage or return the exact owner choice. Map failures to the existing six dimensions (usually usefulness, substance, reasonable_claims or usability); no new store schema, score or daily quota. Keep detailed claim ledgers, legal analysis and methodology in the internal report, not the reader's path. Keep useful citations. If a source is inaccessible, seek another permitted primary source or identify the exact unresolved claim; do not delete useful sections merely because one URL failed.
+
+### Calibration fixtures — review meaning, not keyword matching
+
+| Case | Before | After / decision |
+|---|---|---|
+| Useful confident advice | “Open the clip with the customer's question. Then show the expert's answer. Quality Bar: the question is understandable without the full episode.” | **Pass unchanged.** Concrete practitioner advice; no blanket demand for a controlled study. |
+| Unsupported guarantee | “Publishing a transcript guarantees AI citations.” | **Revise:** “Publish a clean transcript so readers can find and reuse the answer. Track AI citations separately.” Retains the useful action; removes the unsupported guarantee. |
+| Material privacy limit | “Use a real customer example, removing names and confidential details before sharing.” | **Retain the privacy limit.** Brevity is not permission to expose customers or confidential material. |
+| Legalistic drift | “Subject to applicable contractual arrangements and platform contingencies, evaluate continuity mechanisms; exports alone do not assure persistence.” | **Revise:** “Keep a backup of your content and export your subscriber list with its permission records. Check how to move your feed before changing hosts.” Actionable, with the relevant permission constraint, not a licence lecture. |
+
+Scribe includes this comparison in the draft handoff; Auditor independently performs the reader task check rather than accepting self-certification; Beacon confirms that the exact approved revision and review are the ones released. Label an AI reader review as **AI editorial review**, with actual model identity. It is not human readability testing or owner signoff. Mechanical tests establish conformance only, never readability. Material rewrites still need exact-revision owner review in the same card flow; no whole-site style sweep or arbitrary word-count target is authorized.
+
 ## Stable API and storage contract
 
 scripts.quality_checks.public_view(root, src, body_hash=None, now=None) returns exactly state, label, date, timestamp, reviewer, method. src is docs-relative. The latest completed pass on the exact current body yields state passed, label Last quality checked on, and its actual assessment date, even when its review cadence has expired. This is a truthful historical event, not certification that a review is currently fresh; an expired unchanged pass remains due in the queue. Otherwise state pending, label Quality review pending, and null date/timestamp/reviewer/method. Supplied body_hash must also match disk. New bodies, later needs_revision/aborted records and malformed registries fail closed; cadence expiry alone does not erase the historical date. The homepage is included in inventory; its existing public freshness/display exception remains a presentation-layer exception.
