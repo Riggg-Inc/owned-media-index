@@ -1,0 +1,12 @@
+{
+  "base_commit": "94c7bbd228c41b1dbd02e15b83cba475ea1b7af9",
+  "file_sha256": "d98efbc96e3936244800d172bcf0a4f90ee0c6fd34656f1d82635234d4f2e584",
+  "body_sha256": "f29d20289ca0302afc54540f7a59d19a8ce2cdd250d1133e7bf74afd996f31f6",
+  "body_algorithm": "frontmatter removed; strip; trailing newline",
+  "base_file_sha256": "392a974ce0355425ffee41c8127d795ef8ebccff6d0e2f657618e2fd2743b84b",
+  "words_whitespace": 959,
+  "base_words_whitespace": 1736,
+  "primary_links": 9,
+  "human_signoff": false,
+  "publication_hold": true
+}

@@ -1,0 +1,476 @@
+INFO    -  Cleaning site directory
+INFO    -  Building documentation to directory: /home/production/omi-measurement-readable-20261013/site
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - patterns/package/podcast-show-name.md
+  - patterns/package/clips/index.md
+  - patterns/package/clips/data-drop.md
+  - patterns/package/clips/debate-moment.md
+  - patterns/package/clips/golden-nugget.md
+  - patterns/package/clips/hot-take.md
+  - patterns/package/clips/story-beat.md
+  - patterns/package/descriptions/index.md
+  - patterns/package/descriptions/audience-pain-breakdown.md
+  - patterns/package/descriptions/big-question-summary.md
+  - patterns/package/descriptions/credential-context-learn.md
+  - patterns/package/descriptions/guest-story-arc.md
+  - patterns/package/descriptions/problem-credibility-takeaway.md
+  - patterns/package/descriptions/thesis-takeaways-cta.md
+  - patterns/package/quote-graphics/index.md
+  - patterns/package/quote-graphics/audiogram-card.md
+  - patterns/package/quote-graphics/branded-pull-quote.md
+  - patterns/package/quote-graphics/conversation-exchange.md
+  - patterns/package/quote-graphics/speaker-quote.md
+  - patterns/package/quote-graphics/stat-callout.md
+  - patterns/package/reels/index.md
+  - patterns/package/reels/before-after-reveal.md
+  - patterns/package/reels/hook-insight-cta.md
+  - patterns/package/reels/quote-card-motion.md
+  - patterns/package/reels/rapid-fire.md
+  - patterns/package/reels/teaser-trailer.md
+  - patterns/package/social-posts/index.md
+  - patterns/package/social-posts/types/behind-the-scenes/index.md
+  - patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
+  - patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
+  - patterns/package/social-posts/types/clip-companion/index.md
+  - patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
+  - patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
+  - patterns/package/social-posts/types/episode-announcement/index.md
+  - patterns/package/social-posts/types/episode-announcement/instagram-caption.md
+  - patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
+  - patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
+  - patterns/package/social-posts/types/evergreen-reshare/index.md
+  - patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
+  - patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
+  - patterns/package/social-posts/types/guest-tag/index.md
+  - patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
+  - patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
+  - patterns/package/social-posts/types/key-takeaway/index.md
+  - patterns/package/social-posts/types/key-takeaway/linkedin-insight.md
+  - patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md
+  - patterns/package/social-posts/types/quote-share/index.md
+  - patterns/package/social-posts/types/quote-share/linkedin-quote-post.md
+  - patterns/package/social-posts/types/quote-share/twitter-quote-card.md
+  - patterns/package/social-posts/types/thread-breakdown/index.md
+  - patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
+  - patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
+  - patterns/package/thumbnails/index.md
+  - patterns/package/thumbnails/branded-template.md
+  - patterns/package/thumbnails/data-visual.md
+  - patterns/package/thumbnails/emotion-close-up.md
+  - patterns/package/thumbnails/guest-headshot-text.md
+  - patterns/package/thumbnails/scene-still.md
+  - patterns/package/titles/index.md
+  - patterns/package/titles/authority-claim.md
+  - patterns/package/titles/before-after-playbook.md
+  - patterns/package/titles/big-question.md
+  - patterns/package/titles/contrarian-hook.md
+  - patterns/package/titles/future-of.md
+  - patterns/package/titles/guest-authority.md
+  - patterns/package/titles/hidden-cost.md
+  - patterns/package/titles/how-to-outcome.md
+  - patterns/package/titles/inside-look.md
+  - patterns/package/titles/numbered-insight.md
+  - patterns/package/titles/role-guide.md
+  - patterns/preserve/content-memory-standard.md
+  - patterns/preserve/geo-aeo-citation-volatility.md
+  - patterns/produce/obs-production-standard.md
+  - patterns/produce/obs-scene-collection-template.md
+  - patterns/produce/standardized-micro-segments.md
+  - patterns/produce/master/index.md
+  - patterns/produce/master/audio-mastering.md
+  - patterns/produce/master/export-specs.md
+  - patterns/produce/master/video-mastering.md
+  - patterns/produce/record/index.md
+  - patterns/produce/record/google-meet.md
+  - patterns/produce/record/hybrid-recording.md
+  - patterns/produce/record/in-studio-multi-camera.md
+  - patterns/produce/record/remote-isolated.md
+  - patterns/produce/record/streamyard.md
+  - patterns/produce/record/zoom-cloud.md
+  - patterns/produce/record/zoom-local.md
+  - patterns/produce/recording/hls-video-podcast-distribution.md
+  - patterns/produce/rough-cut/index.md
+  - patterns/prove/amp-accords-play-standard.md
+  - patterns/prove/session-performance-scorecard.md
+  - patterns/prove/video-threshold-economics.md
+  - patterns/publish/canonical-episode-page.md
+  - patterns/publish/feed-metadata-standard.md
+  - patterns/publish/linkedin-release-post-patterns.md
+  - patterns/publish/owned-email-newsletter.md
+  - patterns/publish/simulcast-standard.md
+  - patterns/publish/youtube-title-and-description-standard.md
+  - patterns/publish/ai-search-optimization/index.md
+  - patterns/publish/ai-search-optimization/citation-architecture.md
+  - patterns/publish/ai-search-optimization/measurement.md
+  - patterns/publish/ai-search-optimization/platform-visibility.md
+  - patterns/publish/ai-search-optimization/show-notes-for-llms.md
+  - patterns/publish/ai-search-optimization/structured-data.md
+  - patterns/publish/ai-search-optimization/transcript-optimization.md
+INFO    -  Documentation built in 58.85 seconds
+Audited 128 HTML pages and 8366 internal link/resource references; 0 errors.
+
+AEO: 127 pages; {'WebPage': 12, 'CollectionPage': 28, 'Article': 87}; 0 errors.
+
+Audited freshness on 127 published pages; 0 errors.
+
+{"articles": 87, "due": 127, "errors": 0, "needs_review": 127, "page_types": {"Article": 87, "CollectionPage": 28, "WebPage": 12}, "pages": 127, "record_file_present": true, "selected": 127, "shown": 20, "states": {"partial": 6, "stale": 1, "unreviewed": 120}}
+stale      high      patterns/publish/ai-search-optimization/measurement.md — body hash changed since review; partial review; unresolved claims remain; review cadence expired
+unreviewed high      evidence.md — no content-bound evidence review record
+unreviewed high      framework.md — no content-bound evidence review record
+unreviewed high      index.md — no content-bound evidence review record
+unreviewed high      owned-media.md — no content-bound evidence review record
+unreviewed high      patterns/package/clips/data-drop.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/big-question-summary.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/credential-context-learn.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/guest-story-arc.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/problem-credibility-takeaway.md — no content-bound evidence review record
+unreviewed high      patterns/package/descriptions/thesis-takeaways-cta.md — no content-bound evidence review record
+unreviewed high      patterns/package/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/podcast-show-name.md — no content-bound evidence review record
+unreviewed high      patterns/package/quote-graphics/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/before-after-reveal.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/hook-insight-cta.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/index.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/quote-card-motion.md — no content-bound evidence review record
+unreviewed high      patterns/package/reels/rapid-fire.md — no content-bound evidence review record
+test_all_published_metadata (test_aeo.AeoTests.test_all_published_metadata) ... ok
+test_home_cards_link_to_published_pages (test_aeo.AeoTests.test_home_cards_link_to_published_pages) ... ok
+test_metadata_parser_preserves_duplicates (test_aeo.AeoTests.test_metadata_parser_preserves_duplicates) ... ok
+test_summary_gate_rejects_empty_or_uncited_evidence (test_aeo.AeoTests.test_summary_gate_rejects_empty_or_uncited_evidence) ... ok
+test_types_are_conservative (test_aeo.AeoTests.test_types_are_conservative) ... ok
+test_whole_graph_escapes_hostile_strings (test_aeo.AeoTests.test_whole_graph_escapes_hostile_strings) ... ok
+test_archive_bytes_and_provenance (test_anchoring_supersession.AnchoringSupersessionTests.test_archive_bytes_and_provenance) ... ok
+test_no_standalone_source_or_public_recommendation (test_anchoring_supersession.AnchoringSupersessionTests.test_no_standalone_source_or_public_recommendation) ... ok
+test_accept_is_explicit_and_reject_remains_available (test_consent.ConsentTests.test_accept_is_explicit_and_reject_remains_available) ... ok
+test_body_change_is_stale (test_fact_checks.FactCheckTests.test_body_change_is_stale) ... ok
+test_cadence_caps_explicit_date (test_fact_checks.FactCheckTests.test_cadence_caps_explicit_date) ... ok
+test_cli_bounded_summary_and_validation_exit (test_fact_checks.FactCheckTests.test_cli_bounded_summary_and_validation_exit) ... ok
+test_every_published_page_and_unknown_target_rejected (test_fact_checks.FactCheckTests.test_every_published_page_and_unknown_target_rejected) ... ok
+test_hash_excludes_only_yaml (test_fact_checks.FactCheckTests.test_hash_excludes_only_yaml) ... ok
+test_invalid_dates_and_proof_fail (test_fact_checks.FactCheckTests.test_invalid_dates_and_proof_fail) ... ok
+test_missing_empty_malformed_and_duplicate_store (test_fact_checks.FactCheckTests.test_missing_empty_malformed_and_duplicate_store) ... ok
+test_oldest_overdue_precedes_newer_and_partial_requires_reason (test_fact_checks.FactCheckTests.test_oldest_overdue_precedes_newer_and_partial_requires_reason) ... ok
+test_partial_retry_is_not_fresh_and_is_bounded (test_fact_checks.FactCheckTests.test_partial_retry_is_not_fresh_and_is_bounded) ... ok
+test_rank_measurement_then_high_risk_then_evergreen (test_fact_checks.FactCheckTests.test_rank_measurement_then_high_risk_then_evergreen) ... ok
+test_unreviewed_never_uses_git_or_metadata (test_fact_checks.FactCheckTests.test_unreviewed_never_uses_git_or_metadata) ... ok
+test_every_published_page_including_home_hubs_and_webpages (test_freshness.BuiltFreshnessTests.test_every_published_page_including_home_hubs_and_webpages) ... FAIL
+test_missing_build_fails_closed (test_freshness.BuiltFreshnessTests.test_missing_build_fails_closed) ... ok
+test_body_pending_then_committed_and_revert (test_freshness.HistoryTests.test_body_pending_then_committed_and_revert) ... ok
+test_frontmatter_template_build_do_not_change_date (test_freshness.HistoryTests.test_frontmatter_template_build_do_not_change_date) ... ok
+test_future_and_shallow_fail_closed (test_freshness.HistoryTests.test_future_and_shallow_fail_closed) ... ok
+test_legacy_fact_review_states_and_canonical_hash (test_freshness.HistoryTests.test_legacy_fact_review_states_and_canonical_hash) ... ok
+test_quality_hook_bound_to_current_body_not_legacy_fact_record (test_freshness.HistoryTests.test_quality_hook_bound_to_current_body_not_legacy_fact_record) ... ok
+test_rename_preserves_body_origin (test_freshness.HistoryTests.test_rename_preserves_body_origin) ... ok
+test_schema_parity_pending_omits_date (test_freshness.HistoryTests.test_schema_parity_pending_omits_date) ... ok
+test_untracked_pending (test_freshness.HistoryTests.test_untracked_pending) ... ok
+test_legacy_standalone_stamps_are_rejected (test_freshness.InlineMetadataTests.test_legacy_standalone_stamps_are_rejected) ... ok
+test_rendered_template_duplicates_rejected_but_prose_allowed (test_freshness.InlineMetadataTests.test_rendered_template_duplicates_rejected_but_prose_allowed) ... ok
+test_source_snapshots_claim_dates_and_examples_remain (test_freshness.InlineMetadataTests.test_source_snapshots_claim_dates_and_examples_remain) ... ok
+test_home_never_renders_even_with_current_pass (test_freshness.QualityTemplateTests.test_home_never_renders_even_with_current_pass) ... ok
+test_missing_needs_revision_stale_and_nonpass_never_show_dates (test_freshness.QualityTemplateTests.test_missing_needs_revision_stale_and_nonpass_never_show_dates) ... ok
+test_passed_quality_is_only_compact_semantic_date (test_freshness.QualityTemplateTests.test_passed_quality_is_only_compact_semantic_date) ... ok
+test_archive_bytes_and_no_active_source (test_full_cleanup_20261007.CleanupTests.test_archive_bytes_and_no_active_source) ... ok
+test_no_manufactured_training_survey_archive (test_full_cleanup_20261007.CleanupTests.test_no_manufactured_training_survey_archive) ... ok
+test_suppressed_topics_absent_from_publication_inputs (test_full_cleanup_20261007.CleanupTests.test_suppressed_topics_absent_from_publication_inputs) ... ok
+test_intro_then_existing_framework (test_home.HomeTests.test_intro_then_existing_framework) ... ERROR
+test_aborted_not_first_pass_and_untouched_first (test_quality_checks.QualityTests.test_aborted_not_first_pass_and_untouched_first) ... ok
+test_cadence_rolls_30_90_and_no_forced_work (test_quality_checks.QualityTests.test_cadence_rolls_30_90_and_no_forced_work) ... ok
+test_cross_page_reference_and_pass_dimension_guard (test_quality_checks.QualityTests.test_cross_page_reference_and_pass_dimension_guard) ... ok
+test_current_pass_dirty_body_and_frontmatter (test_quality_checks.QualityTests.test_current_pass_dirty_body_and_frontmatter) ... ok
+test_daily_cap_across_reruns_utc_reset (test_quality_checks.QualityTests.test_daily_cap_across_reruns_utc_reset) ... ok
+test_empty_bootstrap_homepage_and_no_fact_uplift (test_quality_checks.QualityTests.test_empty_bootstrap_homepage_and_no_fact_uplift) ... ok
+test_latest_revision_not_historical_pass (test_quality_checks.QualityTests.test_latest_revision_not_historical_pass) ... ok
+test_malformed_nested_values_are_errors_not_attestations (test_quality_checks.QualityTests.test_malformed_nested_values_are_errors_not_attestations) ... ok
+test_needs_revision_completes_first_pass_and_rolling (test_quality_checks.QualityTests.test_needs_revision_completes_first_pass_and_rolling) ... ok
+test_retry_park_changed_body_and_queue_age (test_quality_checks.QualityTests.test_retry_park_changed_body_and_queue_age) ... ok
+test_schema_duplicate_keys_paths_history (test_quality_checks.QualityTests.test_schema_duplicate_keys_paths_history) ... ok
+test_sources_not_url_count_and_cross_page_checks (test_quality_checks.QualityTests.test_sources_not_url_count_and_cross_page_checks) ... ok
+test_strict_invalid_records_fail_closed (test_quality_checks.QualityTests.test_strict_invalid_records_fail_closed) ... ok
+test_rejected_patterns_are_quarantined_not_published (test_reconciliation.ReconciliationTests.test_rejected_patterns_are_quarantined_not_published) ... ok
+test_evidence_examples_and_safety_survive_transform (test_recurring_segments.RecurringSegmentsTests.test_evidence_examples_and_safety_survive_transform) ... ok
+test_one_canonical_draft_and_archived_standalone (test_recurring_segments.RecurringSegmentsTests.test_one_canonical_draft_and_archived_standalone) ... ok
+test_related_links_resolve_in_site_source (test_recurring_segments.RecurringSegmentsTests.test_related_links_resolve_in_site_source) ... ok
+test_active_not_scribe_eligible (test_research_pipeline.ResearchTests.test_active_not_scribe_eligible) ... ok
+test_aliases_do_not_add_slots (test_research_pipeline.ResearchTests.test_aliases_do_not_add_slots) ... ok
+test_duplicate_rejected (test_research_pipeline.ResearchTests.test_duplicate_rejected) ... ok
+test_expired_not_assigned (test_research_pipeline.ResearchTests.test_expired_not_assigned) ... ok
+test_extension_requires_source (test_research_pipeline.ResearchTests.test_extension_requires_source) ... ok
+test_fourth_topic_blocked (test_research_pipeline.ResearchTests.test_fourth_topic_blocked) ... ok
+test_free_slot_replenishes_only_scoped_queue (test_research_pipeline.ResearchTests.test_free_slot_replenishes_only_scoped_queue) ... ok
+test_holds_excluded (test_research_pipeline.ResearchTests.test_holds_excluded) ... ok
+test_independent_alias_running_fails (test_research_pipeline.ResearchTests.test_independent_alias_running_fails) ... ok
+test_missing_card_fail_closed (test_research_pipeline.ResearchTests.test_missing_card_fail_closed) ... ok
+test_no_source_not_supported_draft (test_research_pipeline.ResearchTests.test_no_source_not_supported_draft) ... ok
+test_no_unknown_auto_release (test_research_pipeline.ResearchTests.test_no_unknown_auto_release) ... ok
+test_one_extension (test_research_pipeline.ResearchTests.test_one_extension) ... ok
+test_owner_hold_cannot_retire (test_research_pipeline.ResearchTests.test_owner_hold_cannot_retire) ... ok
+test_queue_finite (test_research_pipeline.ResearchTests.test_queue_finite) ... ok
+test_reversible_unsupported_not_false (test_research_pipeline.ResearchTests.test_reversible_unsupported_not_false) ... ok
+test_stale_snapshot_fail_closed (test_research_pipeline.ResearchTests.test_stale_snapshot_fail_closed) ... ok
+test_supported_proposal_requires_explicit_drafting_release (test_research_pipeline.ResearchTests.test_supported_proposal_requires_explicit_drafting_release) ... ok
+test_three_topic_slots (test_research_pipeline.ResearchTests.test_three_topic_slots) ... ok
+test_todo_promotion_rejected (test_research_pipeline.ResearchTests.test_todo_promotion_rejected) ... ok
+test_actual_retired_source_mechanism (test_scope_preflight.ScopeTests.test_actual_retired_source_mechanism) ... ok
+test_all_explicit_blocked_mechanisms (test_scope_preflight.ScopeTests.test_all_explicit_blocked_mechanisms) ... ok
+test_archive_hash (test_scope_preflight.ScopeTests.test_archive_hash) ... ok
+test_facilitated_peer_retirement_and_duplicate (test_scope_preflight.ScopeTests.test_facilitated_peer_retirement_and_duplicate) ... ok
+test_missing_each_field (test_scope_preflight.ScopeTests.test_missing_each_field) ... ok
+test_positive_medium_examples (test_scope_preflight.ScopeTests.test_positive_medium_examples) ... ok
+test_real_recurring_draft_not_suppressed (test_scope_preflight.ScopeTests.test_real_recurring_draft_not_suppressed) ... ok
+test_retired_slug_and_duplicate_ids (test_scope_preflight.ScopeTests.test_retired_slug_and_duplicate_ids) ... ok
+test_snippet_counts_and_semantic_duplicate_do_not_pass (test_scope_preflight.ScopeTests.test_snippet_counts_and_semantic_duplicate_do_not_pass) ... ok
+test_training_topic_is_not_media_practice (test_scope_preflight.ScopeTests.test_training_topic_is_not_media_practice) ... ok
+test_all_published_metadata (test_seo.SEOTests.test_all_published_metadata) ... FAIL
+test_analytics_disabled_by_default (test_seo.SEOTests.test_analytics_disabled_by_default) ... ok
+test_analytics_opt_in (test_seo.SEOTests.test_analytics_opt_in) ... ok
+test_analytics_requires_valid_id_and_privacy (test_seo.SEOTests.test_analytics_requires_valid_id_and_privacy) ... ok
+test_json_serialization_handles_quotes (test_seo.SEOTests.test_json_serialization_handles_quotes) ... ok
+test_sitemap (test_seo.SEOTests.test_sitemap) ... FAIL
+test_all_links_and_breadcrumb_schemas (test_site.SiteTests.test_all_links_and_breadcrumb_schemas) ... FAIL
+test_auditor_detects_broken_raw_html_link_and_fragment (test_site.SiteTests.test_auditor_detects_broken_raw_html_link_and_fragment) ... ok
+test_breadcrumb_json_is_serialized_not_interpolated (test_site.SiteTests.test_breadcrumb_json_is_serialized_not_interpolated) ... ok
+test_home_is_not_duplicated (test_site.SiteTests.test_home_is_not_duplicated) ... ok
+test_missing_intermediate_index_is_not_invented (test_site.SiteTests.test_missing_intermediate_index_is_not_invented) ... ERROR
+test_off_nav_deep_leaf (test_site.SiteTests.test_off_nav_deep_leaf) ... ERROR
+test_related_patterns_use_published_equivalents (test_site.SiteTests.test_related_patterns_use_published_equivalents) ... ERROR
+test_section_does_not_link_to_itself (test_site.SiteTests.test_section_does_not_link_to_itself) ... ERROR
+test_templates_and_unapproved_drafts_are_not_published (test_site.SiteTests.test_templates_and_unapproved_drafts_are_not_published) ... FAIL
+test_body_and_metadata_drift_fail (test_video_reference.VideoReferenceTests.test_body_and_metadata_drift_fail) ... ok
+test_equal_copies_pass (test_video_reference.VideoReferenceTests.test_equal_copies_pass) ... ok
+test_missing_copy_fails (test_video_reference.VideoReferenceTests.test_missing_copy_fails) ... ok
+test_repository_copies_match (test_video_reference.VideoReferenceTests.test_repository_copies_match) ... ok
+test_approved_cta_preserved_except_superseded_pointer (test_website_hub_supersession.WebsiteHubSupersessionTests.test_approved_cta_preserved_except_superseded_pointer) ... ok
+test_archive_and_no_duplicate (test_website_hub_supersession.WebsiteHubSupersessionTests.test_archive_and_no_duplicate) ... ok
+test_score_and_new_section_parity (test_website_hub_supersession.WebsiteHubSupersessionTests.test_score_and_new_section_parity) ... ok
+
+======================================================================
+ERROR: test_intro_then_existing_framework (test_home.HomeTests.test_intro_then_existing_framework)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_home.py", line 7, in test_intro_then_existing_framework
+    html = Path('site/index.html').read_text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pathlib.py", line 1059, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pathlib.py", line 1045, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'site/index.html'
+
+======================================================================
+ERROR: test_missing_intermediate_index_is_not_invented (test_site.SiteTests.test_missing_intermediate_index_is_not_invented)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 28, in test_missing_intermediate_index_is_not_invented
+    trail = self.trail("patterns/package/social-posts/types/episode-announcement/linkedin-long-form/")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 17, in trail
+    return self.docs[BASE + path][1].breadcrumbs
+           ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/linkedin-long-form/'
+
+======================================================================
+ERROR: test_off_nav_deep_leaf (test_site.SiteTests.test_off_nav_deep_leaf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 24, in test_off_nav_deep_leaf
+    trail = self.trail("patterns/package/titles/contrarian-hook/")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 17, in trail
+    return self.docs[BASE + path][1].breadcrumbs
+           ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'https://index.riggg.com/patterns/package/titles/contrarian-hook/'
+
+======================================================================
+ERROR: test_related_patterns_use_published_equivalents (test_site.SiteTests.test_related_patterns_use_published_equivalents)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 49, in test_related_patterns_use_published_equivalents
+    doc = self.docs[BASE + "patterns/produce/recording/hls-video-podcast-distribution/"][1]
+          ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'https://index.riggg.com/patterns/produce/recording/hls-video-podcast-distribution/'
+
+======================================================================
+ERROR: test_section_does_not_link_to_itself (test_site.SiteTests.test_section_does_not_link_to_itself)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 37, in test_section_does_not_link_to_itself
+    self.assertEqual([c["name"] for c in self.trail("patterns/package/titles/")], ["Home", "Pattern Library", "Package", "Titles"])
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 17, in trail
+    return self.docs[BASE + path][1].breadcrumbs
+           ~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'https://index.riggg.com/patterns/package/titles/'
+
+======================================================================
+FAIL: test_every_published_page_including_home_hubs_and_webpages (test_freshness.BuiltFreshnessTests.test_every_published_page_including_home_hubs_and_webpages)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_freshness.py", line 200, in test_every_published_page_including_home_hubs_and_webpages
+    self.assertEqual(count, len(sources))
+AssertionError: 16 != 127
+
+======================================================================
+FAIL: test_all_published_metadata (test_seo.SEOTests.test_all_published_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_seo.py", line 53, in test_all_published_metadata
+    self.assertEqual(len(descriptions), len([p for p in Path('docs').rglob('*.md') if 'overrides' not in p.relative_to('docs').parts]))
+AssertionError: 1 != 127
+
+======================================================================
+FAIL: test_sitemap (test_seo.SEOTests.test_sitemap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_seo.py", line 61, in test_sitemap
+    self.assertEqual(len(urls), len(list(Path('site').rglob('index.html'))))
+AssertionError: 127 != 1
+
+======================================================================
+FAIL: test_all_links_and_breadcrumb_schemas (test_site.SiteTests.test_all_links_and_breadcrumb_schemas)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 20, in test_all_links_and_breadcrumb_schemas
+    self.assertGreaterEqual(len(self.docs), 124)
+AssertionError: 2 not greater than or equal to 124
+
+======================================================================
+FAIL: test_templates_and_unapproved_drafts_are_not_published (test_site.SiteTests.test_templates_and_unapproved_drafts_are_not_published)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/production/omi-measurement-readable-20261013/scripts/test_site.py", line 45, in test_templates_and_unapproved_drafts_are_not_published
+    self.assertEqual(set(self.docs) - {BASE + "404.html"}, expected)
+AssertionError: Items in the second set but not the first:
+'https://index.riggg.com/patterns/package/titles/authority-claim/'
+'https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/instagram-caption/'
+'https://index.riggg.com/patterns/package/descriptions/'
+'https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/twitter-thread/'
+'https://index.riggg.com/patterns/publish/simulcast-standard/'
+'https://index.riggg.com/patterns/produce/master/export-specs/'
+'https://index.riggg.com/patterns/produce/rough-cut/'
+'https://index.riggg.com/patterns/package/titles/role-guide/'
+'https://index.riggg.com/patterns/publish/owned-email-newsletter/'
+'https://index.riggg.com/patterns/package/social-posts/types/quote-share/twitter-quote-card/'
+'https://index.riggg.com/patterns/produce/record/hybrid-recording/'
+'https://index.riggg.com/patterns/package/descriptions/thesis-takeaways-cta/'
+'https://index.riggg.com/patterns/produce/record/remote-isolated/'
+'https://index.riggg.com/patterns/package/quote-graphics/'
+'https://index.riggg.com/patterns/produce/recording/hls-video-podcast-distribution/'
+'https://index.riggg.com/patterns/package/descriptions/credential-context-learn/'
+'https://index.riggg.com/tools/'
+'https://index.riggg.com/patterns/publish/feed-metadata-standard/'
+'https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story/'
+'https://index.riggg.com/patterns/publish/youtube-title-and-description-standard/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/'
+'https://index.riggg.com/patterns/package/titles/future-of/'
+'https://index.riggg.com/patterns/package/titles/numbered-insight/'
+'https://index.riggg.com/quadrants/distribution-platforms/'
+'https://index.riggg.com/patterns/package/thumbnails/guest-headshot-text/'
+'https://index.riggg.com/patterns/publish/linkedin-release-post-patterns/'
+'https://index.riggg.com/patterns/prove/amp-accords-play-standard/'
+'https://index.riggg.com/patterns/package/quote-graphics/speaker-quote/'
+'https://index.riggg.com/evidence/'
+'https://index.riggg.com/patterns/package/reels/teaser-trailer/'
+'https://index.riggg.com/patterns/prove/'
+'https://index.riggg.com/patterns/preserve/geo-aeo-citation-volatility/'
+'https://index.riggg.com/patterns/package/thumbnails/scene-still/'
+'https://index.riggg.com/quadrants/titles/'
+'https://index.riggg.com/patterns/package/thumbnails/data-visual/'
+'https://index.riggg.com/patterns/package/clips/debate-moment/'
+'https://index.riggg.com/tools/hosting/video-podcast-hosting-support/'
+'https://index.riggg.com/patterns/produce/master/'
+'https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel/'
+'https://index.riggg.com/patterns/package/descriptions/guest-story-arc/'
+'https://index.riggg.com/patterns/package/titles/how-to-outcome/'
+'https://index.riggg.com/patterns/package/quote-graphics/branded-pull-quote/'
+'https://index.riggg.com/patterns/package/descriptions/audience-pain-breakdown/'
+'https://index.riggg.com/patterns/package/quote-graphics/stat-callout/'
+'https://index.riggg.com/patterns/package/titles/guest-authority/'
+'https://index.riggg.com/patterns/produce/record/'
+'https://index.riggg.com/framework/'
+'https://index.riggg.com/patterns/prove/session-performance-scorecard/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/platform-visibility/'
+'https://index.riggg.com/contribute/'
+'https://index.riggg.com/patterns/package/clips/'
+'https://index.riggg.com/patterns/package/clips/golden-nugget/'
+'https://index.riggg.com/patterns/package/titles/inside-look/'
+'https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/'
+'https://index.riggg.com/patterns/package/reels/rapid-fire/'
+'https://index.riggg.com/patterns/package/social-posts/types/guest-tag/'
+'https://index.riggg.com/quadrants/'
+'https://index.riggg.com/patterns/package/titles/big-question/'
+'https://index.riggg.com/quadrants/mastering-tools/'
+'https://index.riggg.com/patterns/produce/record/streamyard/'
+'https://index.riggg.com/patterns/produce/obs-scene-collection-template/'
+'https://index.riggg.com/patterns/package/titles/before-after-playbook/'
+'https://index.riggg.com/patterns/package/social-posts/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/measurement/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/transcript-optimization/'
+'https://index.riggg.com/patterns/package/descriptions/problem-credibility-takeaway/'
+'https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface/'
+'https://index.riggg.com/patterns/'
+'https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/'
+'https://index.riggg.com/patterns/preserve/content-memory-standard/'
+'https://index.riggg.com/patterns/package/social-posts/types/clip-companion/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/structured-data/'
+'https://index.riggg.com/patterns/package/'
+'https://index.riggg.com/patterns/package/titles/hidden-cost/'
+'https://index.riggg.com/patterns/package/thumbnails/branded-template/'
+'https://index.riggg.com/roadmap/'
+'https://index.riggg.com/patterns/produce/standardized-micro-segments/'
+'https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/twitter-one-liner/'
+'https://index.riggg.com/patterns/package/quote-graphics/audiogram-card/'
+'https://index.riggg.com/patterns/package/quote-graphics/conversation-exchange/'
+'https://index.riggg.com/patterns/package/podcast-show-name/'
+'https://index.riggg.com/owned-media/'
+'https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/'
+'https://index.riggg.com/patterns/publish/'
+'https://index.riggg.com/patterns/package/reels/before-after-reveal/'
+'https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post/'
+'https://index.riggg.com/patterns/package/reels/'
+'https://index.riggg.com/patterns/package/social-posts/types/guest-tag/twitter-shoutout/'
+'https://index.riggg.com/patterns/publish/canonical-episode-page/'
+'https://index.riggg.com/patterns/package/thumbnails/emotion-close-up/'
+'https://index.riggg.com/patterns/prove/video-threshold-economics/'
+'https://index.riggg.com/patterns/package/clips/hot-take/'
+'https://index.riggg.com/patterns/package/clips/data-drop/'
+'https://index.riggg.com/patterns/produce/'
+'https://index.riggg.com/patterns/package/social-posts/types/clip-companion/linkedin-video-post/'
+'https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/'
+'https://index.riggg.com/patterns/produce/record/zoom-cloud/'
+'https://index.riggg.com/quadrants/descriptions/'
+'https://index.riggg.com/patterns/package/social-posts/types/quote-share/'
+'https://index.riggg.com/patterns/package/titles/'
+'https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/linkedin-long-form/'
+'https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/'
+'https://index.riggg.com/patterns/package/reels/quote-card-motion/'
+'https://index.riggg.com/patterns/package/social-posts/types/guest-tag/linkedin-gratitude/'
+'https://index.riggg.com/patterns/package/descriptions/big-question-summary/'
+'https://index.riggg.com/patterns/package/thumbnails/'
+'https://index.riggg.com/patterns/package/social-posts/types/quote-share/linkedin-quote-post/'
+'https://index.riggg.com/patterns/package/clips/story-beat/'
+'https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback/'
+'https://index.riggg.com/patterns/package/titles/contrarian-hook/'
+'https://index.riggg.com/patterns/produce/master/audio-mastering/'
+'https://index.riggg.com/patterns/produce/record/google-meet/'
+'https://index.riggg.com/quadrants/recording/'
+'https://index.riggg.com/quadrants/clips/'
+'https://index.riggg.com/scoring/'
+'https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/twitter-punchy/'
+'https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/linkedin-insight/'
+'https://index.riggg.com/patterns/preserve/'
+'https://index.riggg.com/patterns/produce/record/in-studio-multi-camera/'
+'https://index.riggg.com/patterns/produce/master/video-mastering/'
+'https://index.riggg.com/patterns/produce/record/zoom-local/'
+'https://index.riggg.com/patterns/package/social-posts/types/clip-companion/instagram-reel-caption/'
+'https://index.riggg.com/patterns/package/reels/hook-insight-cta/'
+'https://index.riggg.com/patterns/produce/obs-production-standard/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/citation-architecture/'
+'https://index.riggg.com/patterns/publish/ai-search-optimization/show-notes-for-llms/'
+
+----------------------------------------------------------------------
+Ran 109 tests in 7.422s
+
+FAILED (failures=5, errors=5)

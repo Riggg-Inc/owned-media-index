@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "passages": [
+      " To be eligible to be shown as a supporting link in AI Overviews or AI Mode, a page must be indexed\n and eligible to be shown in Google Search with a snippet, fulfilling the\n [Search technical requirements](https://developers.google.com/search/docs/essentials/technical). There are no\n additional technical requirements.",
+      " Just like the rest of the search results page, sites appearing in AI features (such as AI Overviews\n and AI Mode) are included in the overall search traffic in\n [Search Console](https://search.google.com/search-console/about).\n In particular, they're reported on in the [Performance report](https://support.google.com/webmasters/answer/7576553),\n within the [\"Web\" search type](https://support.google.com/webmasters/answer/7576553#by_search_type).\n Learn more about how [AI Overviews](https://support.google.com/webmasters/answer/7042828#ai-overviews&zippy=%2Ct%2Cai-overviews)\n and [AI Mode](https://support.google.com/webmasters/answer/7042828#ai-mode&zippy=%2Ct%2Cai-mode) are counted\n towards the overall data in Search Console, how to\n [analyze traffic changes](https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops)\n overall, and how to [combine Search Console and Analytics data](https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console)."
+    ]
+  },
+  {
+    "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+    "passages": [
+      "We are happy to introduce AI Performance in [Bing Webmaster Tools](https://aka.ms/BWTAIpref), a new set of insights that shows how publisher content appears across Microsoft Copilot, AI-generated summaries in Bing, and select partner integrations. For the first time, you can understand how often your content is cited in generative answers, with clear visibility into which URLs are referenced and how citation activity changes over time.",
+      "Total Citations",
+      "Shows the total number of citations that are displayed as sources in AI-generated answers during the selected time frame. This highlights how often your content is referenced by AI systems, without indicating placement or presentation within a specific answer.",
+      "Grounding queries",
+      "Shows the key phrases the AI used when retrieving content that was referenced in AI-generated answers. The data shown represents a sample of overall citation activity. We will continue to refine this metric as additional data is processed.",
+      "Shows citation counts for specific URLs from your site, making it easy to see which individual pages are most often referenced across AI-generated answers during the selected date range. This reflects how often pages are cited, not page importance, ranking, or placement."
+    ]
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "passages": [
+      " AI Assistant is the channel by which users arrive at your site from sources like ChatGPT, Gemini, Deepseek, Copilot, or Grok. It excludes Google’s [AI Overviews and AI Mode](https://blog.google/products/search/ai-mode-search/).",
+      " Organic Search is the channel by which users arrive at your site/app via non-ad links in organic-search results, including Google’s [AI Overviews and AI Mode](https://search.google/ways-to-search/ai-overviews/)."
+    ]
+  },
+  {
+    "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+    "passages": [
+      "Search results and citations can be incomplete, outdated, or incorrect. Open a cited source to check that it supports the answer, review when it was published or updated, and use an authoritative source when accuracy matters. If a result looks wrong, ask ChatGPT to search again using a specific source, date, or location.",
+      "If memory is enabled, ChatGPT may use relevant saved memories when rewriting a search query. For example, if you have shared that you are vegan and live in San Francisco, ChatGPT may search for “good vegan restaurants San Francisco” when you ask for nearby restaurants you might like.",
+      "ChatGPT may use an approximate location based on your IP address to provide relevant local results. Device location sharing is optional and off by default.",
+      "A VPN or network location may affect the approximate location inferred from your IP address. If memory is enabled, saved location information may also influence search results."
+    ]
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/12923437?hl=en",
+    "passages": [
+      "- On the left, select Acquisition > Traffic acquisition.",
+      " Session source / medium",
+      " Sessions",
+      " The number of sessions that began on your website or application."
+    ]
+  },
+  {
+    "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+    "passages": [
+      "The \"(direct)\" source and \"(none)\" medium (that is, \"(direct) / (none)\") in Google Analytics represents website traffic that doesn't have a clear referral source. Understanding your (direct) / (none) traffic helps you:",
+      "- When links to your site lack UTM parameters or your site isn't integrated with marketing and advertising platforms, traffic source information is lost.",
+      "- Redirects (for example, from one site to another or from a secure site (https) to a non-secure site (http)) can strip UTM parameters from the URL.",
+      "If this applies to you, check your marketing links, email campaigns, and social media posts to confirm they include correct UTM tags. You should ensure these tracking parameters remain intact when visitors arrive at your website."
+    ]
+  },
+  {
+    "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+    "passages": [
+      "The URL Inspection tool provides information about Google's indexed version of a specific page, and also allows you to test whether a URL might be indexable. Information includes details about structured data, video, linked AMP, and indexing/indexability.",
+      "- This is not a live test. The results shown are from most recently indexed version of a page, not the live version on the web. The information from the index is used by Google in search results. Your page may have changed or become unavailable since Google last saw it. To test the current version of the page as Google would see it, select the Live Test button on the page.",
+      "- \"URL is on Google\" doesn't actually guarantee that your page will appear in Search results. The report [doesn't check all conditions](https://support.google.com/webmasters/answer/9012289?hl=en#not_tested) for appearing on Google. For a definitive test of whether your URL is appearing, search for the page URL on Google."
+    ]
+  },
+  {
+    "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+    "passages": [
+      "- The site: operator doesn't necessarily return all the URLs that are indexed"
+    ]
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "passages": [
+      " These quality guidelines are not easily testable using an automated tool.\n Violating a quality guideline can prevent syntactically correct structured data from being\n displayed as a rich result in Google Search, or possibly cause it\n to be [marked as spam](https://support.google.com/webmasters/answer/3498001)."
+    ]
+  }
+]

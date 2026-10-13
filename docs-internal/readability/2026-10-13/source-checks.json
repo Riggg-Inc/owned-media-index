@@ -1,0 +1,82 @@
+[
+  {
+    "i": 0,
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "finalUrl": "https://developers.google.com/search/docs/appearance/ai-features",
+    "status": 200,
+    "truncated": false,
+    "verifiedAt": "2026-10-13T20:44:09.889Z"
+  },
+  {
+    "i": 1,
+    "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+    "finalUrl": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+    "status": 200,
+    "truncated": false,
+    "verifiedAt": "2026-10-13T20:44:10.671Z"
+  },
+  {
+    "i": 2,
+    "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "finalUrl": "https://support.google.com/analytics/answer/9756891?hl=en",
+    "status": 200,
+    "truncated": true,
+    "verifiedAt": "2026-10-13T20:44:11.214Z"
+  },
+  {
+    "i": 3,
+    "url": "https://help.openai.com/en/articles/12627856-publishers-and-developers-faq?%7Butm_content=null%7D",
+    "finalUrl": "https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement?%7Butm_content=null%7D",
+    "status": 200,
+    "truncated": false,
+    "verifiedAt": "2026-10-13T20:44:42.933Z"
+  },
+  {
+    "i": 4,
+    "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+    "finalUrl": "https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt",
+    "status": 200,
+    "truncated": false,
+    "verifiedAt": "2026-10-13T20:44:12.573Z"
+  },
+  {
+    "i": 5,
+    "url": "https://support.google.com/analytics/answer/12923437?hl=en",
+    "finalUrl": "https://support.google.com/analytics/answer/12923437?hl=en",
+    "status": 200,
+    "truncated": true,
+    "verifiedAt": "2026-10-13T20:44:43.430Z"
+  },
+  {
+    "i": 6,
+    "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+    "finalUrl": "https://support.google.com/analytics/answer/15258820?hl=en",
+    "status": 200,
+    "truncated": true,
+    "verifiedAt": "2026-10-13T20:44:43.881Z"
+  },
+  {
+    "i": 7,
+    "url": "https://support.google.com/webmasters/answer/9012289?hl=en",
+    "finalUrl": "https://support.google.com/webmasters/answer/9012289?hl=en",
+    "status": 200,
+    "truncated": true,
+    "verifiedAt": "2026-10-13T20:44:44.881Z"
+  },
+  {
+    "i": 8,
+    "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+    "finalUrl": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+    "status": 200,
+    "truncated": false,
+    "verifiedAt": "2026-10-13T20:44:45.745Z"
+  },
+  {
+    "i": 9,
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "status": 200,
+    "truncated": true,
+    "verifiedAt": "2026-10-13T20:44:46.439Z"
+  }
+]
