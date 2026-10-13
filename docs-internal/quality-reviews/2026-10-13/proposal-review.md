@@ -1,0 +1,5 @@
+# Scoped quality correction proposals — not approved
+
+Four complete files, URLs, SHA256 and meaningful diffs are in proposal-manifest.json. Descriptions replaces obsolete Google Podcasts and unsupported uniform limits with official YouTube/Spotify guidance and destination preview checks. Problem removes unsupported show references, fixed preview claim and automatic trust wording; sample CTA becomes singular. Thesis removes broken/unverified named-show references without claiming replacement episode research. Package stops describing editorial formats as tested or ranked on measured click performance.
+
+Official YouTube descriptions, Spotify formatting and Google retirement announcement read October13. Source warnings and 404s retained in run evidence. No private data. Scores/framework unchanged. Problem internal production data label preserved for explicit evidence-policy resolution, NOT certified or silently downgraded. Release requires this resolution, contextual audit, exact approval and all gates. Shared contrast correction remains existing CSS proposal on card8006e12e. These artifacts are not publication permission.

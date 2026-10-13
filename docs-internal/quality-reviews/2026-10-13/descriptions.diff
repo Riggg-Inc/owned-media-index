@@ -1,0 +1,42 @@
+--- docs/patterns/package/descriptions/index.md
++++ docs-internal/quality-reviews/2026-10-13/proposed/descriptions.md
+@@ -28,29 +28,19 @@
+ - Tell the listener what they will learn — specifically
+ - Include key takeaways, timestamps, or chapter markers where appropriate
+ - End with a clear CTA (subscribe, visit, follow)
+-- Work within platform truncation limits (first 120 chars matter most)
++- Make the opening useful on its own and preview it in the actual destination.
+ 
+-## Platform Constraints
++## Platform Checks
+ 
+-Hard limits and truncation behavior for episode descriptions.
++Do not assume one character limit or preview length covers every podcast app. Check the actual publishing host, field and device before release.
+ 
+-| Platform | Max Length | Visible Before Truncation | Format Notes |
+-|---|---|---|---|
+-| Apple Podcasts | 4,000 chars | ~120 chars before "more" | Supports basic line breaks, no HTML |
+-| Spotify | 4,000 chars | ~150 chars in episode view | Limited formatting |
+-| YouTube | 5,000 chars | ~100-150 chars before "Show more" | Supports links, timestamps, hashtags |
+-| Google Podcasts | 4,000 chars | ~120 chars | Plain text |
+-| Amazon Music | 4,000 chars | ~100 chars | Plain text |
+-| Pocket Casts | 4,000 chars | ~200 chars | Supports basic HTML in some views |
+-| Overcast | 4,000 chars | ~200 chars | Supports show notes links |
+-| RSS (standard) | No hard limit | Varies by reader | CDATA sections support HTML |
+-| Website/Blog | No limit | Full page | Full HTML, SEO structured data |
++- **YouTube:** Descriptions allow up to 5,000 characters. Put the main promise in the first few lines and inspect desktop and mobile previews. [Official guidance](https://support.google.com/youtube/answer/12948449?hl=en).
++- **Spotify:** Show notes support links, headers, lists, paragraphs and line breaks through supported HTML. Other listening platforms can render the same feed differently. [Official formatting guidance](https://support.spotify.com/us/creators/article/formatting-your-show-notes/).
++- **Other podcast apps and RSS:** Check current host and destination requirements; verify links, line breaks and the first visible sentence in the actual app. This guide does not establish universal hard limits for these destinations.
++- **Website:** Use readable headings, relevant links and a clear next action rather than filling an arbitrary word allowance.
+ 
+-### Recommended Defaults
++Google Podcasts is not a current publishing destination; Google's [transition announcement](https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/) scheduled its discontinuation in 2024.
+ 
+-- **First sentence:** Must stand alone — this is all most people see (~120 chars)
+-- **Total length:** 150-300 words (covers all platforms without hitting limits)
+-- **YouTube:** Include timestamps for chapter markers
+-- **RSS:** Include links in full description for apps that render them
++### Recommended Working Defaults
+ 
+-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
++Start with a self-contained opening and only the details needed to make an informed listening decision. A 150–300-word draft can be a useful editorial starting point, not a platform guarantee. Use a shorter format when the episode promise needs less explanation. Add accurate timestamps for YouTube chapters when appropriate and check links in the feed's rendered description.

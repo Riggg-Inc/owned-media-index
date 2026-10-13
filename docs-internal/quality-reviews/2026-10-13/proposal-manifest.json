@@ -1,0 +1,30 @@
+[
+  {
+    "path": "patterns/package/descriptions/index.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-13/proposed/descriptions.md",
+    "sha256": "afdfa73f283b596a8a6711f9cbb4052511942c30d2d1f9c8eb8d3a3c5367fa4e",
+    "current_url": "https://index.riggg.com/patterns/package/descriptions/",
+    "diff": "docs-internal/quality-reviews/2026-10-13/descriptions.diff"
+  },
+  {
+    "path": "patterns/package/descriptions/problem-credibility-takeaway.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-13/proposed/problem.md",
+    "sha256": "e08771c10656fb6aca48b3ab8ef61339843d3bd04362bb34986603bc884ff8c6",
+    "current_url": "https://index.riggg.com/patterns/package/descriptions/problem-credibility-takeaway/",
+    "diff": "docs-internal/quality-reviews/2026-10-13/problem.diff"
+  },
+  {
+    "path": "patterns/package/descriptions/thesis-takeaways-cta.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-13/proposed/thesis.md",
+    "sha256": "1fb9dbb7c534b56e1822ac5c21910e4133b02ff3b8f83b009e7d106269bc0afc",
+    "current_url": "https://index.riggg.com/patterns/package/descriptions/thesis-takeaways-cta/",
+    "diff": "docs-internal/quality-reviews/2026-10-13/thesis.diff"
+  },
+  {
+    "path": "patterns/package/index.md",
+    "proposal": "docs-internal/quality-reviews/2026-10-13/proposed/package.md",
+    "sha256": "ee5c95c4bd6911089fb8730b9c45382a3ae2919e92f3b92247c01361c267bb3e",
+    "current_url": "https://index.riggg.com/patterns/package/",
+    "diff": "docs-internal/quality-reviews/2026-10-13/package.diff"
+  }
+]

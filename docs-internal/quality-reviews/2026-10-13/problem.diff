@@ -1,0 +1,45 @@
+--- docs/patterns/package/descriptions/problem-credibility-takeaway.md
++++ docs-internal/quality-reviews/2026-10-13/proposed/problem.md
+@@ -20,13 +20,13 @@
+ 
+ ## Why It Works
+ 
+-This pattern front-loads relevance. The listener sees their problem in the first sentence, trusts the guest by the second, and knows what they will get by the third.
++This pattern front-loads relevance. The opening identifies a relevant problem, the credential explains why this guest can address it, and the takeaway preview makes the listening promise specific.
+ 
+ ## Example
+ 
+ Illustrative copy, not verified quotations, customer outcomes, or factual claims about named people or companies. Replace names, credentials, numbers, and links with verified episode details before use.
+ 
+-> Most B2B marketing teams create content no one reads. In this episode, Sarah Chen — VP of Content at HubSpot and former editor at TechCrunch — breaks down the system her team uses to turn one expert conversation into 15 publishable assets in under a week. You'll learn the exact repurposing workflow, the tools involved, and the metrics that prove it works. Subscribe and leave a review if this changes how you think about content ops.
++> Most B2B marketing teams create content no one reads. In this episode, Sarah Chen — VP of Content at HubSpot and former editor at TechCrunch — breaks down the system her team uses to turn one expert conversation into 15 publishable assets in under a week. You'll learn the exact repurposing workflow, the tools involved, and the metrics that prove it works. Subscribe for more practical content operations conversations.
+ 
+ ## Quality Bar
+ 
+@@ -40,15 +40,9 @@
+ Avoid when the guest is not well-credentialed or when the episode is more exploratory than prescriptive.
+ 
+ 
+-## Shows That Use This Pattern
++## Check an Example Before Reusing It
+ 
+-These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
+-
+-| Show | Why | Link |
+-|---|---|---|
+-| **Marketing Against the Grain** | Opens with marketing problem, establishes HubSpot host credentials, lists tactical takeaways | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-against-the-grain/id1636010234) |
+-| **Exit Five** | Frames the B2B marketing pain, leverages host credibility, specific lesson list | [Spotify](https://open.spotify.com/show/exit-five) |
+-| **Revenue Vitals** | Leads with pipeline/revenue problem, backs with data-driven credibility, explicit takeaways | [Spotify](https://open.spotify.com/show/revenue-vitals) |
++Use a specific published episode description, not a show name alone, when evaluating this structure. Check the exact wording against the episode and distinguish a useful editorial example from measured performance evidence. The illustration above is a writing model, not proof that a named show uses this format or that it improves results.
+ 
+ ## Prompt Template
+ 
+@@ -71,7 +65,7 @@
+ - Guest credential must be specific (title, company, achievement)
+ - Takeaways must be concrete, not vague
+ - Under 300 words
+-- First 120 characters must stand alone (platform truncation)
++- Make the opening sentence useful on its own; preview it in the intended app
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

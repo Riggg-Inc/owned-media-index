@@ -1,0 +1,18 @@
+--- docs/patterns/package/index.md
++++ docs-internal/quality-reviews/2026-10-13/proposed/package.md
+@@ -1,5 +1,5 @@
+ ---
+-description: "Packaging patterns for owned media. Titles, descriptions, clips, reels, thumbnails, quote graphics, and social posts — ranked styles and tested formats."
++description: "Packaging patterns for owned media. Titles, descriptions, clips, reels, thumbnails, quote graphics, and social posts — styles and practical selection guidance."
+ ---
+ 
+ # Package
+@@ -26,7 +26,7 @@
+ 
+ | Category | What It Covers |
+ |---|---|
+-| [Thumbnails](thumbnails/index.md) | 5 thumbnail hook patterns ranked for click performance |
++| [Thumbnails](thumbnails/index.md) | 5 thumbnail hook patterns with editorial selection guidance |
+ | [Quote Graphics](quote-graphics/index.md) | 5 shareable static asset formats — speaker cards, stat callouts, conversation exchanges |
+ 
+ ## Social Copy
