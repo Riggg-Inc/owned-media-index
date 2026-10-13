@@ -1,0 +1,10 @@
+{
+  "approved_commit": "8f712f3dc00d9735f84ce27f10fb078410b4cc8f",
+  "base_commit": "94c7bbd228c41b1dbd02e15b83cba475ea1b7af9",
+  "path": "docs/patterns/publish/ai-search-optimization/measurement.md",
+  "file_sha256": "d98efbc96e3936244800d172bcf0a4f90ee0c6fd34656f1d82635234d4f2e584",
+  "registry_body_sha256": "acd35f456e29634e3edb8392a4f86d14d7db7da9b6e1ebfc4819068fcdcd822e",
+  "review_normalized_body_sha256": "f29d20289ca0302afc54540f7a59d19a8ce2cdd250d1133e7bf74afd996f31f6",
+  "card": "c9c7c0d8-fd08-47cc-8b90-6b4b08888ca2",
+  "owner_approved_at": "2026-10-13T20:52:00Z"
+}
