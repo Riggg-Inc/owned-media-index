@@ -1661,6 +1661,100 @@
         "retry_at": "2026-10-15T16:50:57Z",
         "reason": "Existing exact-body correction remains preparation: homepage template scoring contradiction and unsupported promises; delivery must be recovered and exact artifact approved.",
         "correction_card": "42dce931-c8d7-47b5-82a0-ce1c6a3c603e"
+      },
+      {
+        "id": "quality-20261014-home",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-14T16:48:01Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "db3ce0f46a9beaa743f0da2211e3b9e5ca9684f146f123b4bc5a881d796ee223",
+        "report_ref": "docs-internal/quality-reviews/2026-10-14/home.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening and five stage navigation give practitioners a clear route from their production task to patterns, scoring and contribution guidance."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete OBS, title, simulcast and scorecard examples give this orientation page useful substance without requiring the homepage to duplicate full pattern tutorials."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The progression from framework to library contents, pattern anatomy, audiences, highlights and contribution/Riggg routes is internally understandable; highlights explicitly are not a dated release log."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Current score5 wording matches Scoring exactly; five stages match Framework, the simulcast checklist and session-performance examples reflect linked pages, and the owned-asset/distribution distinction is not contradicted."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Editorial rankings and recommended-default scores are not sold as measured performance. Riggg service positioning agrees with its public site; contribution review is established by owner evidence, not inferred from a build."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile light/dark screenshots show material dark-mode navy headings and #555/#666 explanatory text against dark backgrounds. No overflow is insufficient: section navigation and pattern guidance must remain readable."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked public first-party service positioning; internal policy and inventory claims checked against complete current repository pages, not experimental outcomes.",
+          "items": [
+            {
+              "url": "https://riggg.com/",
+              "claim": "Riggg provides end-to-end expert-conversation production, packaging and publishing services.",
+              "finding": "Public homepage describes recording, packaging, publishing and distribution, including podcast/video/clips/articles/newsletters. Supports service scope only; no independent outcome or turnaround verification claimed.",
+              "checked_at": "2026-10-14T16:46:58Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "All five stage names and tasks align with homepage pipeline; publishing channels are distribution destinations, not claims of platform ownership.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Score5 is Recommended default with strong evidence and broad usefulness; corrected homepage repeats this policy instead of an exceptional-performance definition.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            },
+            {
+              "path": "contribute.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Pattern contributions require use case, examples, quality bar, evidence and tradeoffs, matching homepage anatomy and community route.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            },
+            {
+              "path": "patterns/publish/simulcast-standard.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Destination, format, promotion, backup and replay checklist supports linked summary without promising unavailable measurement.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            },
+            {
+              "path": "patterns/prove/session-performance-scorecard.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Suggested qualitative categories justify scorecard inventory example; homepage does not claim these are validated benchmarks.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            },
+            {
+              "path": "owned-media.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Current asset-versus-distribution explanation remains compatible with homepage production/publishing pipeline and reuse positioning.",
+              "checked_at": "2026-10-14T16:48:01Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-13T16:48:01Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Supported dark mode obscures homepage navigation headings and explanatory text; reuse existing contrast correction ownership and retain homepage follow-through evidence on its original card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "owned-media.md": [
@@ -2783,6 +2877,321 @@
         "retry_at": null,
         "reason": "Apply exact approved shared dark-mode code/link contrast correction and reassess actual rendered usability; no body rewrite needed.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/quote-graphics/audiogram-card.md": [
+      {
+        "id": "quality-20261014-audiogram-card",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-14T16:49:17Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "e9da3fdfb491d59dff6cb369ffa74ec726dc484df16ff485610230afdc754423",
+        "report_ref": "docs-internal/quality-reviews/2026-10-14/audiogram-card.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening clearly tells producers to select this format when recorded voice adds value and avoid it when a static quote is stronger."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The copyable prompt only requests quote text, speaker and brand; it lacks actual source-audio input, excerpt boundaries, captions or an audio/video output example for the promised asset."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Definition promises actual speaker voice paired with graphics but the production instructions can yield only a static graphic; this is a material mismatch between promise and process."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The related directory lists Audiogram as audio snippets with visual context, supporting the leaf definition; its generic static-assets introduction needs separate hub clarification, not removal of audio from this pattern."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Advice is openly practitioner observation and selection guidance. Word counts and aspect ratios are editorial constraints; no invented performance evidence is needed to justify them."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh rendered slate-mode prompt uses dark red text on a dark panel, reducing the readability of the primary reusable instruction. Mobile layout does not overflow but requires horizontal code scrolling."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No material named platform limit, statistic or empirical outcome claim is made in this leaf; production guidance assessed directly rather than inventing external proof.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/quote-graphics/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Directory best-for explicitly says audio snippets with visual context, while its broad static-assets opening does not encompass audiograms correctly.",
+              "checked_at": "2026-10-14T16:49:17Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/speaker-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Static speaker quote prompt appropriately asks for a headshot and exact text; copying that generic graphic structure is insufficient for an audio-bearing deliverable.",
+              "checked_at": "2026-10-14T16:49:17Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package stage requires usable assets; a finished audiogram needs actual voice playback, not only a visual card.",
+              "checked_at": "2026-10-14T16:49:17Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-12T16:49:17Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "The audio-led pattern supplies only a generic static quote-graphic prompt; audio source, excerpt alignment and playable export checks are missing. Shared dark-mode prompt contrast also blocks usability.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/quote-graphics/branded-pull-quote.md": [
+      {
+        "id": "quality-20261014-branded-pull-quote",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-14T16:49:59Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "58101b4d7cd4a1759901ba8707ac41d2ee2e745309d91784b23a35be4cae031e",
+        "report_ref": "docs-internal/quality-reviews/2026-10-14/branded-pull-quote.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The page gives a clear series-consistency use case and lets a producer create repeatable episode graphics with minimal setup."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "A concrete quote/speaker/color/episode prompt plus five inspectable layout requirements is sufficient for this simple brand-template task; a mock quotation is optional embellishment."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, quality checks and prompt all describe the same repeatable visual template; rotating designs when fatigue occurs is compatible with retaining a stable brand identity."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The directory identifies this pattern for series-consistent assets and the Speaker Quote sibling emphasizes portrait recognition instead, a useful distinction without conflicting instructions."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Builds show recognition is ordinary practitioner advice, not a quantified guarantee. Template fatigue is a conditional observation; editorial aspect ratios and word count are not advertised as platform limits."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh dark mobile screenshot shows low-contrast dark red prompt text against a dark panel, making the central copyable workflow difficult to read. Light desktop is legible and layouts do not overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This short pattern makes practitioner design recommendations rather than factual platform limits, named examples or measured effects; no external claim certification is implied.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/quote-graphics/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "The directory best-for label series-consistent social assets matches this pattern; unsupported highest-performing claim belongs to the hub, not this leaf.",
+              "checked_at": "2026-10-14T16:49:59Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/speaker-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Speaker Quote centers a portrait; Branded Pull Quote centers consistent visual identity, providing a useful separate choice.",
+              "checked_at": "2026-10-14T16:49:59Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/conversation-exchange.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Dialogue layout serves a different information structure; shared brand and attribution checks do not conflict.",
+              "checked_at": "2026-10-14T16:49:59Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-12T16:49:59Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark-mode code foreground makes the copyable prompt materially hard to read; reuse pending shared stylesheet correction, no body rewrite required.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/quote-graphics/conversation-exchange.md": [
+      {
+        "id": "quality-20261014-conversation-exchange",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-14T16:50:37Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7856b02cae44b8cef8bc6d362d8cc7c5db5797184f5b899dac556cc4943d71fe",
+        "report_ref": "docs-internal/quality-reviews/2026-10-14/conversation-exchange.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a useful selection rule: use dialogue when the exchange itself carries the point and choose a single quote when it needs too much context."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The short-format definition, input slots, source episode reference and inspectable attribution/mobile requirements support a simple quote-layout task without unnecessary narrative padding."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The page consistently describes brief host/guest dialogue, a short total text requirement and rejection of context-dependent exchanges; no internal contradiction requires a rewrite."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Parent directory positions this for host/guest dialogue and debate, while Speaker Quote and Branded Pull Quote provide single-voice/brand-led alternatives; those boundaries remain compatible."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Captures the energy of conversation is qualitative practitioner guidance rather than evidence of higher engagement. Thirty-word and aspect-ratio rules are design defaults, not platform certifications."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The fresh dark desktop capture shows dark-red prompt text on a dark block, materially impeding the copyable workflow; light mobile is readable, with contained horizontal code scrolling and no page overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The leaf has no material statistic, named attribution or platform specification requiring external verification; evaluation concerns practical dialogue packaging and rendered readability.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/quote-graphics/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Parent labels Conversation Exchange for dialogue/debate, matching the leaf use case rather than a universal performance promise.",
+              "checked_at": "2026-10-14T16:50:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/branded-pull-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Series-consistent brand identity remains a separate emphasis; the two patterns can share attribution rules without being interchangeable.",
+              "checked_at": "2026-10-14T16:50:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/speaker-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Single-speaker portrait format is a sensible alternative when dialogue adds no meaning, consistent with the target opening.",
+              "checked_at": "2026-10-14T16:50:37Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-12T16:50:37Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "The shared dark-mode prompt contrast defect impairs the page\u2019s central reusable instruction. Existing stylesheet correction owns this required work; no speculative body rewrite.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/quote-graphics/index.md": [
+      {
+        "id": "quality-20261014-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-14T16:51:37Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "0e56543f9ec80dce7dacafb202b61969268a6964cf5758bcce9d134f547d3c3c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-14/index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Five-style best-for comparison and direct leaf links make this a useful selection hub for producers repackaging expert conversations."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The format comparison, attribution/length requirements, platform table and legibility checks contain concrete operational detail rather than fluff; retain useful examples while fixing specifics."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Opening defines all quote graphics as static assets while listing audio-bearing Audiogram Card. A square default claimed to work everywhere also conflicts with recommended vertical story and Pinterest formats."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Scores and best-for labels match the five linked leaves, and stand-alone attribution guidance fits their quality bars. Audio-definition inconsistency is localized to this hub rather than an excuse to rewrite useful siblings."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Highest-performing has no comparative evidence and platform-agnostic/works everywhere overstates portability. Pinterest official specs distinguish desktop20MB and app32MB for standard ads, so a universal20MB row lacks scope. W3C supports contrast targets but warns image-editor point sizes do not ensure rendered size."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh supported dark-mode render hides text in alternating pale table rows, including format selection and specifications. Mobile contained scrolling avoids page overflow but does not resolve contrast or too-small typography guidance."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked proportionate primary references for material contrast and Pinterest size claims; inaccessible X and unverified platform rows remain explicit limitations, not certified source checks.",
+          "items": [
+            {
+              "url": "https://help.pinterest.com/en/business/article/pinterest-product-specs",
+              "claim": "Pinterest standard image file size and recommended aspect ratio are correctly scoped.",
+              "finding": "Official ad guide recommends2:3/1000x1500 and says desktop20MB versus in-app32MB for standard image ads; this is ad-format guidance, not a universal organic-Pin limit. The hub leaves those distinctions unstated.",
+              "checked_at": "2026-10-14T16:49:33Z"
+            },
+            {
+              "url": "https://help.pinterest.com/en/article/create-a-pin-from-an-image-or-video",
+              "claim": "Organic publishing workflow is distinct from ad format specifications.",
+              "finding": "Official creation instructions describe separate image/video upload and aspect-ratio editing, but do not establish the hub universal20MB claim. No organic size limit inferred from absence.",
+              "checked_at": "2026-10-14T16:50:49Z"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/w3c/wcag/main/understanding/20/contrast-minimum.html",
+              "claim": "Contrast and image text sizing guidance must reflect actual rendered readability.",
+              "finding": "Official W3C source discusses4.5:1 normal and3:1 large-text thresholds, images of text and unreliable point-size settings across image-editing resolutions. Supports contrast advice, not a guarantee from18\u201324pt at1080pixels.",
+              "checked_at": "2026-10-14T16:50:49Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "patterns/package/quote-graphics/audiogram-card.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Audiogram uses actual voice paired with a graphic, so the directory static-only definition is incomplete.",
+              "checked_at": "2026-10-14T16:51:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/branded-pull-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Series-consistency use case and score4 match; leaf makes no highest-performing empirical assertion.",
+              "checked_at": "2026-10-14T16:51:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/conversation-exchange.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Dialogue selection and score4 match; brief stand-alone exchange guidance remains useful.",
+              "checked_at": "2026-10-14T16:51:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/speaker-quote.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Portrait-plus-quote description and score5 match directory; no score redesign authorized by this assessment.",
+              "checked_at": "2026-10-14T16:51:37Z"
+            },
+            {
+              "path": "patterns/package/quote-graphics/stat-callout.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Credible number with context/source attribution supports data-point use case; do not strip that meaningful source requirement.",
+              "checked_at": "2026-10-14T16:51:37Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-13T16:51:37Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Unsupported highest-performing/universal-format assertions, insufficiently scoped platform limits and static-only definition need targeted correction; shared dark-mode stripes hide comparison cells.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
     ]
   }
