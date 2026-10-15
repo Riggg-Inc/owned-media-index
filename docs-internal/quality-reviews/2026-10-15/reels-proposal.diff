@@ -1,0 +1,45 @@
+--- docs/patterns/package/reels/index.md	2026-10-15 16:50:55.016223072 +0000
++++ docs-internal/quality-reviews/2026-10-15/proposed/reels-index.md	2026-10-15 16:50:55.052222972 +0000
+@@ -23,25 +23,25 @@
+ A strong reel should:
+ 
+ - Hook in the first 2 seconds — no logos, no intros
+-- Use burned-in captions (80%+ of social video is watched without sound)
++- Use readable captions so the reel makes sense without sound
+ - Deliver one clear idea in 15–60 seconds
+ - End with a reason to follow, subscribe, or watch the full episode
+ - Be natively vertical — not a cropped horizontal video
+ 
+ ## Platform Constraints
+ 
+-Hard limits for vertical short-form video (9:16).
++The table below is a retained May 2026 planning snapshot, not current hard limits. Check the destination’s current upload documentation before export. For YouTube, square or vertical uploads up to three minutes can qualify as Shorts; Shorts over one minute with an active copyright claim are blocked until that claim is resolved. See [YouTube’s current Shorts eligibility guidance](https://support.google.com/youtube/answer/15424877?hl=en).
+ 
+-| Platform | Max Duration | Recommended Duration | Aspect Ratio | Resolution | Max File Size |
++| Platform | Legacy Duration Snapshot | Editorial Starting Duration | Aspect Ratio | Resolution | Legacy File-Size Snapshot |
+ |---|---|---|---|---|---|
+ | Instagram Reels | 90 seconds | 15-30 seconds | 9:16 | 1080x1920 | 4 GB |
+-| YouTube Shorts | 60 seconds | 15-60 seconds | 9:16 | 1080x1920 | N/A (upload limit) |
++| YouTube Shorts | Up to 3 minutes (current linked guidance) | 15-60 seconds | 9:16 | 1080x1920 | N/A (upload limit) |
+ | TikTok | 10 minutes | 15-60 seconds | 9:16 | 1080x1920 | 287.6 MB (mobile), 4 GB (desktop) |
+ | LinkedIn (vertical) | 10 minutes | 15-30 seconds | 9:16 | 1080x1920 | 5 GB |
+ | Facebook Reels | 90 seconds | 15-30 seconds | 9:16 | 1080x1920 | 4 GB |
+ | Pinterest Idea Pins | 60 seconds per clip | 15-30 seconds | 9:16 | 1080x1920 | 20 MB per clip |
+ 
+-### Platform-Specific Notes
++### Legacy Platform-Specific Notes
+ 
+ | Platform | Cover Image | Hashtags | Audio | Captions |
+ |---|---|---|---|---|
+@@ -50,9 +50,9 @@
+ | TikTok | Auto-selected or custom | 3-5 recommended | Original or library | Auto-gen + editable |
+ | LinkedIn | First frame | 3-5 recommended | Original | Burned-in recommended |
+ 
+-### Recommended Defaults
++### Recommended Production Defaults
+ 
+-- **Duration:** 15-30 seconds (optimal across all platforms)
++- **Duration:** 15-30 seconds as a starting point; adjust to the idea and the destination
+ - **Aspect ratio:** 9:16 (never crop from 16:9 — shoot or produce natively vertical)
+ - **Safe zone:** Keep text within center 80% to avoid UI overlap (profile icons, captions, buttons)
+ - **Captions:** Always burn in
