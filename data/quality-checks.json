@@ -3193,6 +3193,392 @@
         "reason": "Unsupported highest-performing/universal-format assertions, insufficiently scoped platform limits and static-only definition need targeted correction; shared dark-mode stripes hide comparison cells.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/quote-graphics/speaker-quote.md": [
+      {
+        "id": "quality-20261015-speaker-quote",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-15T16:48:19Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "8e92a325db30522bec14e435540e709a872853bff198cd9f10d9312cb3e7b333",
+        "report_ref": "docs-internal/quality-reviews/2026-10-15/speaker-quote.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening tells an editor to choose the portrait treatment when the speaker matters to this audience, and the avoidance rule keeps anonymous faces from overpowering a stronger quote."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The template requests exact words, a headshot, attribution and brand colors, with two export shapes and a mobile-legibility check; this is usable production guidance rather than filler."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening, use case, avoidance rule and template consistently prioritize the quote and appropriate speaker recognition; repeated definition is a minor editorial preference, not a blocking defect."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The quote-graphics parent lists the same style and score; Framework defines Package as usable derivatives and Scoring calls ratings editorial judgments. Parent performance/spec defects are not evidence that this specific template fails."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Thirty words and two output shapes are house design choices, not claimed platform limits. Recognizable speaker selection is practitioner advice, not a measured reach guarantee; most direct is ordinary editorial characterization."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Live desktop1440/mobile390 light/dark captures show organized headings and no document overflow, but dark-mode red prompt text on dark background makes the central reusable template difficult to read. Existing shared CSS correction is material."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is practitioner design advice, not measured performance evidence; no quoted statistic or external attribution requires certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package explicitly asks for understandable reusable assets; the concrete template serves that task.",
+              "checked_at": "2026-10-15T16:48:19Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Scores are editorial judgments, not measured outcomes; this assessment does not redesign or certify score evidence.",
+              "checked_at": "2026-10-15T16:48:19Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-13T16:48:19Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material low-contrast prompt text in supported dark mode prevents comfortable use; existing shared CSS correction awaits exact approval.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/quote-graphics/stat-callout.md": [
+      {
+        "id": "quality-20261015-stat-callout",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-15T16:48:40Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "52d45672da103e88638187cbcafb4cd39bdd5cf978e5a931113025b47fd96e4c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-15/stat-callout.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening makes a credible context-bearing number the selection test, and the prompt tells the designer to make that number visually dominant with a visible source."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Number, context line, source, optional speaker and colors are concrete production inputs; clear context and attribution requirements support an actual export rather than abstract advice."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The generic Quality Bar mentions quotes and mandatory speaker attribution while the statistic-specific template makes the speaker optional. This deserves a small optional tailoring, but the opening and explicit source requirement resolve the task without a materially misleading instruction."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Speaker Quote uses the same mobile-reading and brand rules; Quote Graphics lists Stat Callout for data and benchmarks. Framework Package is served by retaining context; no platform-size claim in this page is treated as a hard limit."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "There are no sample statistics to certify and no empirical performance promise. Credible sourcing and avoiding context-heavy numbers are sound editorial decision rules; suggested shapes are design output choices."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light desktop is readable and mobile has no document overflow. In dark mode the core prompt is low-contrast red on a dark panel, and link contrast is weak, materially impeding the actual copy-and-customize task."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is practitioner design advice, not measured performance evidence; no quoted statistic or external attribution requires certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package explicitly asks for understandable reusable assets; the concrete template serves that task.",
+              "checked_at": "2026-10-15T16:48:40Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Scores are editorial judgments, not measured outcomes; this assessment does not redesign or certify score evidence.",
+              "checked_at": "2026-10-15T16:48:40Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-01-13T16:48:40Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material low-contrast prompt text in supported dark mode prevents comfortable use; existing shared CSS correction awaits exact approval.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/reels/before-after-reveal.md": [
+      {
+        "id": "quality-20261015-before-after-reveal",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-15T16:49:04Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "59d268b148ca74a6d2a44d195cc7b39240ea0e10b3838ef5c6b8a6132c32b598",
+        "report_ref": "docs-internal/quality-reviews/2026-10-15/before-after-reveal.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The real and immediately visible transformation rule tells an editor when this format is appropriate; the avoid rule rejects subtle differences needing lengthy explanation."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The before0-5s, transition5-7s, after7-20s and CTA20-25s sequence is sufficiently specific to draft a real edit; inputs include both states and what changed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The first sentence is visibly truncated at raw recording vs., but the complete What It Is sentence immediately restores its meaning. This is a minor copy defect, not enough by itself to fail a useful page."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The25-second sequence fits the Reels house duration guidance and the Framework Package task. Other styles use different structures; no score or framework change is inferred from the comparison."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Visual contrast engagement language is ordinary practitioner rationale in a format recommendation, not quantified retention research. Real-not-staged and immediately-obvious constraints are appropriate; timings and vertical-native rules are house choices."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The central timed script is low-contrast in dark mode, seen on390px mobile and1440px desktop; light mode and heading organization are usable with no horizontal document overflow. This blocks a whole-page pass."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is practitioner design advice, not measured performance evidence; no quoted statistic or external attribution requires certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package explicitly asks for understandable reusable assets; the concrete template serves that task.",
+              "checked_at": "2026-10-15T16:49:04Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Scores are editorial judgments, not measured outcomes; this assessment does not redesign or certify score evidence.",
+              "checked_at": "2026-10-15T16:49:04Z"
+            },
+            {
+              "path": "patterns/package/reels/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub recommends short mobile-first assets; target25-second template fits but does not inherit certification of obsolete hub platform limits.",
+              "checked_at": "2026-10-15T16:49:04Z"
+            },
+            {
+              "path": "patterns/package/reels/hook-insight-cta.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Both specify a single self-contained takeaway, readable captions and an explicit next step; transformation page provides a distinct visual sequence.",
+              "checked_at": "2026-10-15T16:49:04Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-14T16:49:04Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material low-contrast prompt text in supported dark mode prevents comfortable use; existing shared CSS correction awaits exact approval.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/reels/hook-insight-cta.md": [
+      {
+        "id": "quality-20261015-hook-insight-cta",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-15T16:49:29Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "bbb06204b303dc8df39abfcca809740ccf4df1f280a991fe18b2bb95fd67d9b7",
+        "report_ref": "docs-internal/quality-reviews/2026-10-15/hook-insight-cta.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening promises one self-contained tactical takeaway and one next step, and the avoid rule excludes insights needing more than30 seconds of context; the intended editing decision is clear."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The prompt asks for topic, insight, audience and CTA and allocates0-2s,2-25s and25-30s segments. An embedded explanatory video and text alternative supplement rather than replace the usable written template."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Hook, insight and next action stay aligned from description to timed prompt. The15-30second requirement allows shortening the example30second schedule without contradicting the scope."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The page matches the Reels hub tactical-advice row and Framework Package definition. Its most reliable phrasing can be read as editorial default in the context of Scoring, not a separately measured ranking."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Stop-scroll/value/action is a practitioner model for planning the edit, not a disclosed ranking algorithm or guaranteed conversion. No numeric uplift is claimed. No experimental proof demanded for the recommendation; score evidence is not newly certified."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The embedded player poster and watch link render on desktop/mobile, but playback was not tested. Headings and light layout work without document overflow. Dark-mode low-contrast code impairs the main script template and remains a material shared styling defect."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is practitioner design advice, not measured performance evidence; no quoted statistic or external attribution requires certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package explicitly asks for understandable reusable assets; the concrete template serves that task.",
+              "checked_at": "2026-10-15T16:49:29Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Scores are editorial judgments, not measured outcomes; this assessment does not redesign or certify score evidence.",
+              "checked_at": "2026-10-15T16:49:29Z"
+            },
+            {
+              "path": "patterns/package/reels/index.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Hub presents this as the tactical-advice default; page gives actual timing and restricts scope to one insight rather than claiming every topic fits.",
+              "checked_at": "2026-10-15T16:49:29Z"
+            },
+            {
+              "path": "patterns/package/reels/before-after-reveal.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Transformation is the alternative for a visible change; both preserve one idea and a clear next action.",
+              "checked_at": "2026-10-15T16:49:29Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-14T16:49:29Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material low-contrast prompt text in supported dark mode prevents comfortable use; existing shared CSS correction awaits exact approval.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/reels/index.md": [
+      {
+        "id": "quality-20261015-reels-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-15T16:50:04Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "009d579d24dd15c9d9bdc47c3270f02528bc661d02252396c87223779e0cd587",
+        "report_ref": "docs-internal/quality-reviews/2026-10-15/reels-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The five linked styles and best-for column help an editor choose between a takeaway, quotation, transformation, list and trailer; this is a useful comparison hub."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Style links, an observable hook/captions/CTA checklist and production defaults give enough concrete direction; obsolete constraints need correction rather than deleting the helpful selection guide."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The overall progression from selection to production constraints is clear. A trailing legacy-snapshot note does not neutralize the earlier hard-limits heading or transform obsolete limits into safe current advice."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "All five linked style pages were read and match the hub use cases and unchanged scores. Framework Package supports reusable mobile assets. The30second script examples are editorial choices, not evidence for the outdated60second Shorts maximum."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Official YouTube Help contradicts the60second maximum: qualifying Shorts can be three minutes. The80percent-plus sound-off assertion has no source or defined population, and optimal across all platforms is an unsupported universal claim. Other table values were not fully verified and must not be certified."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light-mode selection table is organized and mobile uses contained horizontal table scrolling without page overflow. In supported dark mode pale zebra stripes and pale text obscure several rows; links are low-contrast. This materially obstructs selecting a style and reading constraints."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked the decisive Shorts duration claim against current official YouTube Help. Did not certify the remaining platform table or find support for the universal sound-off percentage.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/15424877?hl=en",
+              "claim": "The hub labels60 seconds as the hard maximum for YouTube Shorts.",
+              "finding": "Official Help states square or vertical uploads up to three minutes qualify, including standard channels sinceOctober15 2024; Shorts over one minute with active copyright claims have separate blocking rules. The hub60second hard maximum is false. Retrieved relevant article text, not every linked document.",
+              "checked_at": "2026-10-15T16:46:57Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete related published pages and compared their actual operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Package explicitly asks for understandable reusable assets; the concrete template serves that task.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Scores are editorial judgments, not measured outcomes; this assessment does not redesign or certify score evidence.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "patterns/package/reels/hook-insight-cta.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "The tactical insight option provides a clear30second script but that editorial duration is not a platform maximum.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "patterns/package/reels/before-after-reveal.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Transformation option supplies actual before/after sequence and a real-not-staged constraint.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "patterns/package/reels/quote-card-motion.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Animated speaker quotation is a distinct selection option matching the hub sound-bites row.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "patterns/package/reels/rapid-fire.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Multiple quick insights match hub list-use case and are the stated exception to one idea.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            },
+            {
+              "path": "patterns/package/reels/teaser-trailer.md",
+              "claim": "Compatibility with the target selection task and published framework.",
+              "finding": "Two or three episode highlights with release information match the episode-promotion row.",
+              "checked_at": "2026-10-15T16:50:04Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-14T16:50:04Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Outdated Shorts hard limit and unsupported80percent sound-off statistic require a scoped reference correction; dark-mode tables also require the existing shared CSS correction.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
