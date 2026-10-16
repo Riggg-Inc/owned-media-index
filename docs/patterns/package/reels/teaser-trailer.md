@@ -16,19 +16,30 @@ A reel designed to promote an upcoming or recent episode. Combines the best 2-3 
 
 ## Why It Works
 
-Trailers build anticipation and give the audience a reason to come back. They also perform well as paid promotion content.
+Trailers build anticipation and give the audience a reason to come back. You can also test a trailer as paid promotion, using episode visits or listening starts to judge the result.
 
 ## Quality Bar
 
 - Hook must land in the first 2 seconds
 - Captions must be burned in and readable on mobile
-- Vertical native (9:16) — never a cropped horizontal video
+- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
 - One clear idea per reel (except rapid-fire)
 - CTA must be specific: follow, subscribe, link in bio, full episode
 
 ## When Not To Use
 
 Avoid overusing — one trailer per episode is enough. More feels like advertising.
+
+## Example
+
+Illustrative trailer for an episode titled “A Better Guest Brief”:
+
+- 0–5s: Guest highlight: “Send the question you actually need answered.”
+- 5–10s: Host highlight: “And tell the guest who needs that answer.”
+- 10–15s: Title card: “A Better Guest Brief — out Friday.”
+- 15–20s: CTA: “Watch the full episode on our website.”
+
+These lines demonstrate the structure; select actual recorded highlights for a real trailer.
 
 ## Prompt Template
 

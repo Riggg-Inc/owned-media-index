@@ -1,0 +1,22 @@
+[
+  {
+    "path": "docs/patterns/package/reels/quote-card-motion.md",
+    "sha256": "2ef0628c66d2c132224eb893c60f87a0d858c24a72c4677145aa799e103d1b8d",
+    "base_sha256": "91a8bdd7b286146ca9135f9da2eafef3ebaeff39f366ae29811c0964cf02abe4"
+  },
+  {
+    "path": "docs/patterns/package/reels/rapid-fire.md",
+    "sha256": "41305b6d9b4fdff0018d25883a918bc592a2ad2dfa5d44c64f68b17ca44b332c",
+    "base_sha256": "59fd8013f0ec7f23c56a879d244678d749f88ffd8961f5833f43bf9bf6c4cc62"
+  },
+  {
+    "path": "docs/patterns/package/reels/teaser-trailer.md",
+    "sha256": "0db845106613d55a11ac43a55c69fea690ee4059ea09b012c3a7717e95720f8f",
+    "base_sha256": "5aa8d5ade9c42db884dee9cc641efda018e5c8bbfe67e07c1f7e3431635c6473"
+  },
+  {
+    "path": "docs/patterns/package/social-posts/index.md",
+    "sha256": "0d88eb65148cc3dda85b8061876cedc2da5c1cf8a05b2dd9c65cdfe70dade668",
+    "base_sha256": "2ff4ba076f887c96c621f949d4b6c2cf6d2b291ddef8104df1cb1735e24ee76d"
+  }
+]

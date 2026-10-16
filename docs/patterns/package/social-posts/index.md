@@ -34,50 +34,37 @@ Social posts are organized in two levels:
 - Tag guests and collaborators when appropriate
 - Never post the same copy to every platform
 
-## Platform Constraints
+## Platform Checks Before Publishing
 
-Character limits, formatting rules, and engagement mechanics for social post copy.
+Choose the post type first, then preview the actual version in the platform's current composer. Treat a writing target as an editorial choice, not a promise about reach or a permanent technical maximum.
 
-### Character Limits
+### Confirmed Reference Points
 
-| Platform | Max Length | Visible Before Truncation | Link Behavior |
-|---|---|---|---|
-| LinkedIn | 3,000 chars | ~140 chars before "see more" | Links reduce organic reach; put in comments or at end |
-| Twitter/X | 280 chars (free), 25,000 (Premium) | Full tweet visible | Links count ~23 chars (t.co wrapping) |
-| Instagram (caption) | 2,200 chars | ~125 chars before "more" | Links not clickable in captions; use "link in bio" |
-| Facebook | 63,206 chars | ~477 chars before "See more" | Links create preview cards |
-| TikTok (caption) | 4,000 chars | ~150 chars before "more" | Links not clickable for most accounts |
-| Threads | 500 chars | Full post visible | Links supported |
-| YouTube (community) | 5,000 chars | ~100 chars before "Read more" | Links supported |
+| Platform | What to check | Source-backed reference |
+|---|---|---|
+| LinkedIn | Photo selection and preview | A multi-photo post can contain up to 20 photos. Check each image and its order before publishing. [LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a527229) |
+| X | Weighted length and links | Ordinary posts allow 280 weighted characters; a URL counts as 23. Emoji and some scripts use more than one unit. Check the composer rather than counting visible glyphs. [X character-counting documentation](https://docs.x.com/fundamentals/counting-characters) |
 
-### Formatting Support
+These reference points do not verify Premium features or every account's available formats. Use the current composer and relevant official help for those features.
 
-| Platform | Line Breaks | Emoji | Hashtags | Mentions | Bold/Italic |
-|---|---|---|---|---|---|
-| LinkedIn | ✅ | ✅ | ✅ (3-5 recommended) | ✅ (@name) | ✅ (Unicode) |
-| Twitter/X | ✅ | ✅ | ✅ (1-2 recommended) | ✅ (@handle) | ❌ |
-| Instagram | ✅ | ✅ | ✅ (5-10 recommended) | ✅ (@handle) | ❌ |
-| Facebook | ✅ | ✅ | ✅ (limited impact) | ✅ (@name) | ✅ (limited) |
-| TikTok | ✅ | ✅ | ✅ (3-5 recommended) | ✅ (@handle) | ❌ |
-| Threads | ✅ | ✅ | ❌ (no hashtag support yet) | ✅ (@handle) | ❌ |
+### Format the Post for Its Job
 
-### Media Attachment Limits
-
-| Platform | Images per Post | Video per Post | Carousel/Multi | Polls |
-|---|---|---|---|---|
-| LinkedIn | 9 images | 1 video | ✅ (document carousel) | ✅ |
-| Twitter/X | 4 images | 1 video | ❌ (thread instead) | ✅ |
-| Instagram | 10 images (carousel) | 1 video or Reel | ✅ (carousel) | ✅ (stories only) |
-| Facebook | 10 images | 1 video | ✅ (carousel via ads) | ✅ |
-| TikTok | 10 images (carousel) | 1 video | ✅ (photo mode) | ❌ |
+| Platform | Useful drafting default | Check before publishing |
+|---|---|---|
+| LinkedIn | Put the professional lesson in the opening; use short paragraphs | Preview the opening, photo or document order, mentions and destination. Keep ordinary readable text rather than relying on look-alike Unicode letters for emphasis. |
+| X | Put one clear idea in each post; use a thread when the explanation needs sequence | Check weighted length, link destination and the order of the thread. |
+| Instagram | Lead with the visual and a self-contained first line | Preview the selected post, Reel or Story format; check available media slots, cropping, tags and where the audience can reach the destination. |
+| Facebook | Explain why the episode or clip is relevant before asking for a click | Check the link preview, thumbnail, destination and selected media format. |
+| TikTok | Make the visual and caption serve the same point | Check the account's current photo/video options, text placement and available destination route. |
+| Threads | Start with the point or question that invites a relevant response | Check current length, topic-tag options, attached media and link preview. |
+| YouTube posts | Give subscribers a reason to act beyond the episode title | Check the available post type, text preview, attached media and destination in the current channel interface. |
 
 ### Recommended Defaults
 
-- **LinkedIn hook:** First 140 characters must earn the click on "see more"
-- **Twitter/X:** One idea per tweet; use threads for depth
-- **Instagram:** First 125 characters visible; front-load value
-- **Hashtags:** Platform-specific count (LinkedIn 3-5, Instagram 5-10, Twitter 1-2)
-- **Links:** LinkedIn in comments, Instagram in bio, Twitter inline, Facebook inline
-- **Never** post the same copy to every platform
+- **Opening:** Make the first sentence useful on its own. Truncation changes with format, device and interface; preview it instead of relying on a fixed character threshold.
+- **Links:** Put the destination where readers can find it and use the route the selected format supports. Test inline versus comment placement against the actual goal; neither is a universal reach guarantee.
+- **Hashtags and tags:** Use relevant tags where supported; verify current options and avoid treating a fixed hashtag count as a performance formula.
+- **Media:** Choose enough images or clips to explain the point, not simply the maximum allowed. Check current attachment limits before planning a large carousel.
+- **Voice:** Tailor the hook, context and CTA to the audience and format. Do not paste identical copy everywhere by default.
 
-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform limits change frequently — verify before relying on edge cases._
+For example, an episode announcement can lead with the professional problem on LinkedIn, one concise claim on X, and a recognisable visual on Instagram. Keep the same underlying promise; adapt how the reader encounters it.

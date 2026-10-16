@@ -22,13 +22,25 @@ Multiple quick hits keep the viewer watching. Each new point resets the attentio
 
 - Hook must land in the first 2 seconds
 - Captions must be burned in and readable on mobile
-- Vertical native (9:16) — never a cropped horizontal video
+- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
 - One clear idea per reel (except rapid-fire)
 - CTA must be specific: follow, subscribe, link in bio, full episode
 
 ## When Not To Use
 
 Avoid when the insights are too nuanced for 5-second treatment.
+
+## Example
+
+Illustrative three-point reel for first-time podcast guests:
+
+- Hook: “Three checks before your next recording.”
+- Point 1: “Put on headphones so your microphone does not pick up the other speaker.” Overlay: HEADPHONES.
+- Point 2: “Turn off notifications before you start.” Overlay: NO INTERRUPTIONS.
+- Point 3: “Record and play back ten seconds to check your sound.” Overlay: TEST FIRST.
+- CTA: “Save this for your next interview.”
+
+Use the 25-second template and read it aloud before editing.
 
 ## Prompt Template
 
@@ -50,10 +62,10 @@ POINT 3 (14-20s): [insight + text overlay]
 CTA (20-25s): [call to action]
 
 Requirements:
-- Each point gets 5-8 seconds max
+- For the three-point template above, give each point about 6 seconds and finish in 25 seconds
+- For four or five points, add one POINT slot per insight; allow 5–8 seconds per point, 2 seconds for the hook and 3 seconds for the CTA (25–45 seconds total)
 - Text overlays for each point
-- Pacing must be energetic
-- 20-30 seconds total
+- Pacing must be energetic; cut a point rather than rush an explanation
 ```
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

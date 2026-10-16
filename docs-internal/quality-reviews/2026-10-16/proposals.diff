@@ -1,0 +1,185 @@
+--- a/docs/patterns/package/reels/quote-card-motion.md
++++ b/docs/patterns/package/reels/quote-card-motion.md
+@@ -16,19 +16,25 @@
+ 
+ ## Why It Works
+ 
+-Quotes are the most shareable unit of owned media. Adding motion and the speaker's face transforms a static quote graphic into a dynamic, platform-native format.
++Use a specific guest quote when one sentence carries the idea. Adding motion and the speaker’s face gives the quote an on-camera delivery rather than leaving it as a static graphic.
+ 
+ ## Quality Bar
+ 
+ - Hook must land in the first 2 seconds
+ - Captions must be burned in and readable on mobile
+-- Vertical native (9:16) — never a cropped horizontal video
++- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
+ - One clear idea per reel (except rapid-fire)
+ - CTA must be specific: follow, subscribe, link in bio, full episode
+ 
+ ## When Not To Use
+ 
+ Avoid when the quote is generic or when the speaker's delivery is flat.
++
++## Example
++
++Illustrative quote: “Record the answer your customer keeps asking for, not the pitch you wish they wanted.”
++
++Break the overlay into three beats: “Record the answer” / “your customer keeps asking for” / “not the pitch you wish they wanted.” Keep the speaker visible and close with “Watch the full conversation.” For a real edit, check the exact wording against the recording and keep the context that gives the quote its meaning.
+ 
+ ## Prompt Template
+ 
+--- a/docs/patterns/package/reels/rapid-fire.md
++++ b/docs/patterns/package/reels/rapid-fire.md
+@@ -22,13 +22,25 @@
+ 
+ - Hook must land in the first 2 seconds
+ - Captions must be burned in and readable on mobile
+-- Vertical native (9:16) — never a cropped horizontal video
++- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
+ - One clear idea per reel (except rapid-fire)
+ - CTA must be specific: follow, subscribe, link in bio, full episode
+ 
+ ## When Not To Use
+ 
+ Avoid when the insights are too nuanced for 5-second treatment.
++
++## Example
++
++Illustrative three-point reel for first-time podcast guests:
++
++- Hook: “Three checks before your next recording.”
++- Point 1: “Put on headphones so your microphone does not pick up the other speaker.” Overlay: HEADPHONES.
++- Point 2: “Turn off notifications before you start.” Overlay: NO INTERRUPTIONS.
++- Point 3: “Record and play back ten seconds to check your sound.” Overlay: TEST FIRST.
++- CTA: “Save this for your next interview.”
++
++Use the 25-second template and read it aloud before editing.
+ 
+ ## Prompt Template
+ 
+@@ -50,10 +62,10 @@
+ CTA (20-25s): [call to action]
+ 
+ Requirements:
+-- Each point gets 5-8 seconds max
++- For the three-point template above, give each point about 6 seconds and finish in 25 seconds
++- For four or five points, add one POINT slot per insight; allow 5–8 seconds per point, 2 seconds for the hook and 3 seconds for the CTA (25–45 seconds total)
+ - Text overlays for each point
+-- Pacing must be energetic
+-- 20-30 seconds total
++- Pacing must be energetic; cut a point rather than rush an explanation
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+--- a/docs/patterns/package/reels/teaser-trailer.md
++++ b/docs/patterns/package/reels/teaser-trailer.md
+@@ -16,19 +16,30 @@
+ 
+ ## Why It Works
+ 
+-Trailers build anticipation and give the audience a reason to come back. They also perform well as paid promotion content.
++Trailers build anticipation and give the audience a reason to come back. You can also test a trailer as paid promotion, using episode visits or listening starts to judge the result.
+ 
+ ## Quality Bar
+ 
+ - Hook must land in the first 2 seconds
+ - Captions must be burned in and readable on mobile
+-- Vertical native (9:16) — never a cropped horizontal video
++- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
+ - One clear idea per reel (except rapid-fire)
+ - CTA must be specific: follow, subscribe, link in bio, full episode
+ 
+ ## When Not To Use
+ 
+ Avoid overusing — one trailer per episode is enough. More feels like advertising.
++
++## Example
++
++Illustrative trailer for an episode titled “A Better Guest Brief”:
++
++- 0–5s: Guest highlight: “Send the question you actually need answered.”
++- 5–10s: Host highlight: “And tell the guest who needs that answer.”
++- 10–15s: Title card: “A Better Guest Brief — out Friday.”
++- 15–20s: CTA: “Watch the full episode on our website.”
++
++These lines demonstrate the structure; select actual recorded highlights for a real trailer.
+ 
+ ## Prompt Template
+ 
+--- a/docs/patterns/package/social-posts/index.md
++++ b/docs/patterns/package/social-posts/index.md
+@@ -34,50 +34,37 @@
+ - Tag guests and collaborators when appropriate
+ - Never post the same copy to every platform
+ 
+-## Platform Constraints
++## Platform Checks Before Publishing
+ 
+-Character limits, formatting rules, and engagement mechanics for social post copy.
++Choose the post type first, then preview the actual version in the platform's current composer. Treat a writing target as an editorial choice, not a promise about reach or a permanent technical maximum.
+ 
+-### Character Limits
++### Confirmed Reference Points
+ 
+-| Platform | Max Length | Visible Before Truncation | Link Behavior |
+-|---|---|---|---|
+-| LinkedIn | 3,000 chars | ~140 chars before "see more" | Links reduce organic reach; put in comments or at end |
+-| Twitter/X | 280 chars (free), 25,000 (Premium) | Full tweet visible | Links count ~23 chars (t.co wrapping) |
+-| Instagram (caption) | 2,200 chars | ~125 chars before "more" | Links not clickable in captions; use "link in bio" |
+-| Facebook | 63,206 chars | ~477 chars before "See more" | Links create preview cards |
+-| TikTok (caption) | 4,000 chars | ~150 chars before "more" | Links not clickable for most accounts |
+-| Threads | 500 chars | Full post visible | Links supported |
+-| YouTube (community) | 5,000 chars | ~100 chars before "Read more" | Links supported |
++| Platform | What to check | Source-backed reference |
++|---|---|---|
++| LinkedIn | Photo selection and preview | A multi-photo post can contain up to 20 photos. Check each image and its order before publishing. [LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a527229) |
++| X | Weighted length and links | Ordinary posts allow 280 weighted characters; a URL counts as 23. Emoji and some scripts use more than one unit. Check the composer rather than counting visible glyphs. [X character-counting documentation](https://docs.x.com/fundamentals/counting-characters) |
+ 
+-### Formatting Support
++These reference points do not verify Premium features or every account's available formats. Use the current composer and relevant official help for those features.
+ 
+-| Platform | Line Breaks | Emoji | Hashtags | Mentions | Bold/Italic |
+-|---|---|---|---|---|---|
+-| LinkedIn | ✅ | ✅ | ✅ (3-5 recommended) | ✅ (@name) | ✅ (Unicode) |
+-| Twitter/X | ✅ | ✅ | ✅ (1-2 recommended) | ✅ (@handle) | ❌ |
+-| Instagram | ✅ | ✅ | ✅ (5-10 recommended) | ✅ (@handle) | ❌ |
+-| Facebook | ✅ | ✅ | ✅ (limited impact) | ✅ (@name) | ✅ (limited) |
+-| TikTok | ✅ | ✅ | ✅ (3-5 recommended) | ✅ (@handle) | ❌ |
+-| Threads | ✅ | ✅ | ❌ (no hashtag support yet) | ✅ (@handle) | ❌ |
++### Format the Post for Its Job
+ 
+-### Media Attachment Limits
+-
+-| Platform | Images per Post | Video per Post | Carousel/Multi | Polls |
+-|---|---|---|---|---|
+-| LinkedIn | 9 images | 1 video | ✅ (document carousel) | ✅ |
+-| Twitter/X | 4 images | 1 video | ❌ (thread instead) | ✅ |
+-| Instagram | 10 images (carousel) | 1 video or Reel | ✅ (carousel) | ✅ (stories only) |
+-| Facebook | 10 images | 1 video | ✅ (carousel via ads) | ✅ |
+-| TikTok | 10 images (carousel) | 1 video | ✅ (photo mode) | ❌ |
++| Platform | Useful drafting default | Check before publishing |
++|---|---|---|
++| LinkedIn | Put the professional lesson in the opening; use short paragraphs | Preview the opening, photo or document order, mentions and destination. Keep ordinary readable text rather than relying on look-alike Unicode letters for emphasis. |
++| X | Put one clear idea in each post; use a thread when the explanation needs sequence | Check weighted length, link destination and the order of the thread. |
++| Instagram | Lead with the visual and a self-contained first line | Preview the selected post, Reel or Story format; check available media slots, cropping, tags and where the audience can reach the destination. |
++| Facebook | Explain why the episode or clip is relevant before asking for a click | Check the link preview, thumbnail, destination and selected media format. |
++| TikTok | Make the visual and caption serve the same point | Check the account's current photo/video options, text placement and available destination route. |
++| Threads | Start with the point or question that invites a relevant response | Check current length, topic-tag options, attached media and link preview. |
++| YouTube posts | Give subscribers a reason to act beyond the episode title | Check the available post type, text preview, attached media and destination in the current channel interface. |
+ 
+ ### Recommended Defaults
+ 
+-- **LinkedIn hook:** First 140 characters must earn the click on "see more"
+-- **Twitter/X:** One idea per tweet; use threads for depth
+-- **Instagram:** First 125 characters visible; front-load value
+-- **Hashtags:** Platform-specific count (LinkedIn 3-5, Instagram 5-10, Twitter 1-2)
+-- **Links:** LinkedIn in comments, Instagram in bio, Twitter inline, Facebook inline
+-- **Never** post the same copy to every platform
++- **Opening:** Make the first sentence useful on its own. Truncation changes with format, device and interface; preview it instead of relying on a fixed character threshold.
++- **Links:** Put the destination where readers can find it and use the route the selected format supports. Test inline versus comment placement against the actual goal; neither is a universal reach guarantee.
++- **Hashtags and tags:** Use relevant tags where supported; verify current options and avoid treating a fixed hashtag count as a performance formula.
++- **Media:** Choose enough images or clips to explain the point, not simply the maximum allowed. Check current attachment limits before planning a large carousel.
++- **Voice:** Tailor the hook, context and CTA to the audience and format. Do not paste identical copy everywhere by default.
+ 
+-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform limits change frequently — verify before relying on edge cases._
++For example, an episode announcement can lead with the professional problem on LinkedIn, one concise claim on X, and a recognisable visual on Instagram. Keep the same underlying promise; adapt how the reader encounters it.

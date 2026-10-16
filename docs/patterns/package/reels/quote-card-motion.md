@@ -16,19 +16,25 @@ A reel that features a guest quote as animated text over the speaker's video. Th
 
 ## Why It Works
 
-Quotes are the most shareable unit of owned media. Adding motion and the speaker's face transforms a static quote graphic into a dynamic, platform-native format.
+Use a specific guest quote when one sentence carries the idea. Adding motion and the speaker’s face gives the quote an on-camera delivery rather than leaving it as a static graphic.
 
 ## Quality Bar
 
 - Hook must land in the first 2 seconds
 - Captions must be burned in and readable on mobile
-- Vertical native (9:16) — never a cropped horizontal video
+- Deliver a deliberate 9:16 edit: shoot vertically or reframe the source so the speaker, action and captions stay clear
 - One clear idea per reel (except rapid-fire)
 - CTA must be specific: follow, subscribe, link in bio, full episode
 
 ## When Not To Use
 
 Avoid when the quote is generic or when the speaker's delivery is flat.
+
+## Example
+
+Illustrative quote: “Record the answer your customer keeps asking for, not the pitch you wish they wanted.”
+
+Break the overlay into three beats: “Record the answer” / “your customer keeps asking for” / “not the pitch you wish they wanted.” Keep the speaker visible and close with “Watch the full conversation.” For a real edit, check the exact wording against the recording and keep the context that gives the quote its meaning.
 
 ## Prompt Template
 
