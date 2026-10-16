@@ -3579,6 +3579,380 @@
         "reason": "Outdated Shorts hard limit and unsupported80percent sound-off statistic require a scoped reference correction; dark-mode tables also require the existing shared CSS correction.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/reels/quote-card-motion.md": [
+      {
+        "id": "quality-20261016-quote-card-motion",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-16T16:52:03Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; independent semantic/source review by same-model subagent)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7aca0e23d65b87685d9de5e80e6d065a1aadc43f7d36fda1f2f612296dca230e",
+        "report_ref": "docs-internal/quality-reviews/2026-10-16/quote-card-motion.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies animated guest quotations and correctly excludes generic quotations and flat delivery. A producer knows which source moment to select."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The 30-word limit, two or three overlay lines, and 15\u201330-second edit are useful operating constraints. However every supposed example remains a placeholder: no actual quote or finished overlay illustrates selection. The reader Example gate is not met."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The quote-first explanation and visual/text/caption prompt are coherent; the energetic source delivery requirement supports the intended format."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Package placement and distinct reel purposes agree with the framework and reel hub. The absolute prohibition on cropped horizontal source conflicts with the clip guide\u2019s deliberate subject-preserving reframing route. Preserve native-looking composition without excluding a usable source workflow. Evidence-label and score policy questions remain separate owner decisions, not autonomous relabeling."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "\u201cQuotes are the most shareable unit of owned media\u201d is an unsupported comparative performance assertion, not merely advice to use quotes. Replace that single assertion with an actionable reason to choose a quote; no study is required for the remaining production advice."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live desktop1440/mobile390 light/dark inspection finds the essential prompt text nearly invisible against its dark code panel. Light-mode instructions and heading structure are readable, but supported dark-mode users cannot reliably use the working template."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No external source attestation is made for this production recipe. Internal timing and comparison reasoning were reviewed; unsupported comparative or paid-performance wording is explicitly unresolved rather than certified. Practical editing advice does not itself require experimental proof.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Relevant framework, format neighbors and actual linked routes were read in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "These assets belong to Package rather than an invented distribution stage.",
+              "finding": "Framework Package turns source media into usable assets; these formats fit that definition.",
+              "checked_at": "2026-10-16T16:48:09Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Vertical video should never be cropped from horizontal source.",
+              "finding": "Clip guidance explicitly adapts horizontal/square/vertical framing and chooses a crop preserving subject and captions. Shared reel prohibition unnecessarily excludes that legitimate production route.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "evidence.md",
+              "claim": "Platform observation supplies an intelligible evidence basis.",
+              "finding": "Public evidence rules distinguish teardown, platform documentation and practitioner judgment; no actual platform observation is named here.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "patterns/package/reels/index.md",
+              "claim": "Individual pattern purpose and scope fit the collection.",
+              "finding": "Hub distinguishes guest sound bites, quick lists and episode promotions consistently; shared obsolete platform specifications were not adopted as factual proof.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-15T16:52:03Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark-mode readability remains unresolved on existing contrast correction; semantic corrections also need exact-artifact owner review on the existing package guidance card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/reels/rapid-fire.md": [
+      {
+        "id": "quality-20261016-rapid-fire",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-16T16:52:11Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; independent semantic/source review by same-model subagent)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "2bbf59db469bb3447fc3458e5bf62e5b92f4cc67c2b7d83b108767afbd38dbb1",
+        "report_ref": "docs-internal/quality-reviews/2026-10-16/rapid-fire.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening distinguishes quick standalone points from nuanced explanations and identifies when this format is appropriate."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Three timed points and overlay instructions give an editor a usable scaffold, but there is no populated example of distinct insights, only generic placeholders. Supply one concise illustrative sequence."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The prompt requests 3\u20135 points but only supplies three slots and a 20\u201330-second total. Five points at its permitted eight seconds need forty seconds before hook/CTA. Resolve the concrete timing conflict rather than silently dropping points."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Package placement and distinct reel purposes agree with the framework and reel hub. The absolute prohibition on cropped horizontal source conflicts with the clip guide\u2019s deliberate subject-preserving reframing route. Preserve native-looking composition without excluding a usable source workflow. Evidence-label and score policy questions remain separate owner decisions, not autonomous relabeling."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "\u201cEach new point resets the attention clock\u201d is a metaphor for pacing, not a scientific model needing a study. Keep confident pacing advice; optional wording can say the new point gives viewers a reason to continue. No measured retention claim is established here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live desktop1440/mobile390 light/dark inspection finds the essential prompt text nearly invisible against its dark code panel. Light-mode instructions and heading structure are readable, but supported dark-mode users cannot reliably use the working template."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No external source attestation is made for this production recipe. Internal timing and comparison reasoning were reviewed; unsupported comparative or paid-performance wording is explicitly unresolved rather than certified. Practical editing advice does not itself require experimental proof.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Relevant framework, format neighbors and actual linked routes were read in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "These assets belong to Package rather than an invented distribution stage.",
+              "finding": "Framework Package turns source media into usable assets; these formats fit that definition.",
+              "checked_at": "2026-10-16T16:48:09Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Vertical video should never be cropped from horizontal source.",
+              "finding": "Clip guidance explicitly adapts horizontal/square/vertical framing and chooses a crop preserving subject and captions. Shared reel prohibition unnecessarily excludes that legitimate production route.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "evidence.md",
+              "claim": "Platform observation supplies an intelligible evidence basis.",
+              "finding": "Public evidence rules distinguish teardown, platform documentation and practitioner judgment; no actual platform observation is named here.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "patterns/package/reels/index.md",
+              "claim": "Individual pattern purpose and scope fit the collection.",
+              "finding": "Hub distinguishes guest sound bites, quick lists and episode promotions consistently; shared obsolete platform specifications were not adopted as factual proof.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-15T16:52:11Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark-mode readability remains unresolved on existing contrast correction; semantic corrections also need exact-artifact owner review on the existing package guidance card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/reels/teaser-trailer.md": [
+      {
+        "id": "quality-20261016-teaser-trailer",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-16T16:52:11Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; independent semantic/source review by same-model subagent)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "f3f4439fedfef30e876bdbb871750109a3a69cd35a3c3b93aca8e79ef7f66fc2",
+        "report_ref": "docs-internal/quality-reviews/2026-10-16/teaser-trailer.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The introduction correctly separates a release promotion from a complete lesson and tells the producer to select real highlights."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The 0\u201320-second sequence, title card contents and CTA are useful. No actual highlight, episode title or completed title card provides the concrete example required by the reader gate."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The two-highlight template is compatible with choosing two or three highlights: a user can select two. \u201cOne clear idea\u201d reasonably means the episode promise, not one literal clip; no correction required on that basis."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Package placement and distinct reel purposes agree with the framework and reel hub. The absolute prohibition on cropped horizontal source conflicts with the clip guide\u2019s deliberate subject-preserving reframing route. Preserve native-looking composition without excluding a usable source workflow. Evidence-label and score policy questions remain separate owner decisions, not autonomous relabeling."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "\u201cThey also perform well as paid promotion content\u201d claims performance without campaign, audience or outcome evidence. Recommend testing a trailer as paid creative instead; do not demand experimental proof for anticipation or the one-trailer default."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live desktop1440/mobile390 light/dark inspection finds the essential prompt text nearly invisible against its dark code panel. Light-mode instructions and heading structure are readable, but supported dark-mode users cannot reliably use the working template."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No external source attestation is made for this production recipe. Internal timing and comparison reasoning were reviewed; unsupported comparative or paid-performance wording is explicitly unresolved rather than certified. Practical editing advice does not itself require experimental proof.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Relevant framework, format neighbors and actual linked routes were read in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "These assets belong to Package rather than an invented distribution stage.",
+              "finding": "Framework Package turns source media into usable assets; these formats fit that definition.",
+              "checked_at": "2026-10-16T16:48:09Z"
+            },
+            {
+              "path": "patterns/package/clips/index.md",
+              "claim": "Vertical video should never be cropped from horizontal source.",
+              "finding": "Clip guidance explicitly adapts horizontal/square/vertical framing and chooses a crop preserving subject and captions. Shared reel prohibition unnecessarily excludes that legitimate production route.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "evidence.md",
+              "claim": "Platform observation supplies an intelligible evidence basis.",
+              "finding": "Public evidence rules distinguish teardown, platform documentation and practitioner judgment; no actual platform observation is named here.",
+              "checked_at": "2026-10-16T16:48:22Z"
+            },
+            {
+              "path": "patterns/package/reels/index.md",
+              "claim": "Individual pattern purpose and scope fit the collection.",
+              "finding": "Hub distinguishes guest sound bites, quick lists and episode promotions consistently; shared obsolete platform specifications were not adopted as factual proof.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-15T16:52:11Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark-mode readability remains unresolved on existing contrast correction; semantic corrections also need exact-artifact owner review on the existing package guidance card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/index.md": [
+      {
+        "id": "quality-20261016-social-posts",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-16T16:52:11Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; independent semantic/source review by same-model subagent)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "93d12811afaecc1a9316f93996593dae8d0e877be645223a00ff6f30d752222f",
+        "report_ref": "docs-internal/quality-reviews/2026-10-16/social-posts.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "needs_revision",
+            "rationale": "The eight-type matrix usefully distinguishes purposes, but the same page promises current platform constraints and provides a confirmed incorrect LinkedIn photo maximum. Readers cannot safely use the reference for its stated lookup task."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Type-purpose examples are sufficient for a hub; a completed post is not necessary here. The technical reference is substantial but includes a confirmed wrong LinkedIn photo maximum, making it unsafe as a specifications lookup."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Types versus platform versions is clearly explained. Editorial defaults and purported hard constraints are mixed: exact truncation thresholds and link-placement advice look like universal platform rules."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Its asset/distribution distinction fits owned-media.md and Package. Linked child process guidance is compatible. \u201cUnicode bold\u201d is a character substitution workaround, not native formatting; clarify the distinction instead of presenting equivalent support."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "LinkedIn Help says twenty photos, not nine. X documentation supports ordinary 280 weighted characters and 23-character URLs, but does not establish Premium lengths, full-post visibility, or the rest of this matrix. \u201cLinks reduce organic reach\u201d is unqualified performance causality without support. The legacy snapshot note does not repair present-tense hard limits."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live desktop1440/mobile390 light/dark inspection finds pale alternating table rows with nearly white text in dark mode, obscuring the actual platform and purpose choices. Light mode is readable and there is no document horizontal overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Numerical platform specifications and performance claims need proportionate credible verification.",
+          "items": [
+            {
+              "url": "https://www.linkedin.com/help/linkedin/answer/a527229",
+              "claim": "LinkedIn permits at most nine images per post.",
+              "finding": "Full official Help body read. Both upload steps and multi-photo requirements explicitly allow a maximum of 20 photos. This directly contradicts the page\u2019s nine-image maximum.",
+              "checked_at": "2026-10-16T16:48:02Z"
+            },
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "Ordinary X posts allow 280 characters and links count about 23.",
+              "finding": "Full official developer page read: ordinary limit is 280 weighted characters; URLs count exactly 23, emoji/CJK can count double. Does not establish Premium 25,000 length, rendering truncation or formatting support.",
+              "checked_at": "2026-10-16T16:48:30Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Relevant framework, format neighbors and actual linked routes were read in full.",
+          "items": [
+            {
+              "path": "owned-media.md",
+              "claim": "Social posts remain owned assets distributed through shared platforms.",
+              "finding": "Definition explicitly distinguishes content ownership from platform audience control, consistent with this hub.",
+              "checked_at": "2026-10-16T16:48:09Z"
+            },
+            {
+              "path": "patterns/package/index.md",
+              "claim": "Choose social copy by purpose and platform.",
+              "finding": "Package selection guide explicitly directs readers to post purpose and platform version, matching the type/version hierarchy.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-15T16:52:11Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark-mode readability remains unresolved on existing contrast correction; semantic corrections also need exact-artifact owner review on the existing package guidance card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/behind-the-scenes/index.md": [
+      {
+        "id": "quality-20261016-behind-the-scenes",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-16T16:52:12Z",
+        "reviewer": "Cass Reelman (AI, openai/gpt-6-astra; independent semantic/source review by same-model subagent)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "a29f0b04ce9a5b157fb9fd0b42a6b0a063cc357d6689579d1af9de8bfe938d51",
+        "report_ref": "docs-internal/quality-reviews/2026-10-16/behind-the-scenes.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "As a small category hub, the page names its job (show production process) and offers two meaningful routes: Instagram production snaps or LinkedIn workflow breakdown."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Studio, setup, team and tools are concrete subject examples sufficient for a navigational definition; this is not a full production tutorial. No mandatory long-form expansion is needed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The definition and two-row version table are tightly aligned. Repeated opening language is cosmetic, not a material coherence defect."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Both linked versions were read: Instagram explains a real recording moment; LinkedIn explains a process decision. That supports the parent distinction. The descendants have placeholder examples and Instagram Story/caption ambiguity, but those are separate pages, not a defect to silently rewrite here."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "\u201cBuilds authenticity and interest\u201d is acceptable practitioner rationale, not a measured or guaranteed lift. No outside study is needed for this definition. The score/evidence policy discrepancy is a framework-owner issue, not permission to invent new scores."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live desktop1440/mobile390 light/dark inspection finds pale alternating table rows with nearly white text in dark mode, obscuring the actual platform and purpose choices. Light mode is readable and there is no document horizontal overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Definition and selection guidance are practitioner judgments, without measured factual claims requiring external studies.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Relevant framework, format neighbors and actual linked routes were read in full.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md",
+              "claim": "Instagram route should show real production moments.",
+              "finding": "Full linked page describes a real recording moment with contextual value, matching the hub\u2019s visual-snaps choice; missing descendant example does not change the hub\u2019s category definition.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md",
+              "claim": "LinkedIn route should explain production workflow.",
+              "finding": "Full linked page asks for a concrete lesson from a production decision, matching workflow-breakdown selection.",
+              "checked_at": "2026-10-16T16:47:09Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-15T16:52:12Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark-mode readability remains unresolved on existing contrast correction; short hub meaning remains sound and does not need a body rewrite.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
