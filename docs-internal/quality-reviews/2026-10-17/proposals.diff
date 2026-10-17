@@ -1,0 +1,343 @@
+diff --git a/docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md b/docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
+index 263b4a5..9e801a2 100644
+--- a/docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
++++ b/docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md
+@@ -24,52 +24,45 @@ Choose it when the visual adds context beyond the episode announcement, not mere
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Start with one production decision you can show. Use approved visuals; keep confidential screens and unapproved people out of frame.
+ 
+-[Body — value, context, or story]
++- **Frame 1 — moment:** Show the setup or action. Add one short line explaining what the viewer is seeing.
++- **Frame 2 — reason:** Show the relevant detail and explain why you chose it.
++- **Frame 3 — next action, if useful:** Connect the moment to the episode or invite one specific response. Use a destination you have checked in the current app.
+ 
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++Two frames are enough when the moment and reason tell the whole story. Preview the on-image text on a phone rather than drafting a long feed caption.
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- A viewer can identify the production decision without reading an episode announcement.
++- Each frame adds a new detail; the sequence works without sound.
++- Text is readable over the actual visual and stays clear of app controls.
++- Any next action is singular and its destination works.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+-
+-## Prompt Template
+-
+-Copy and customize this prompt to generate this pattern:
+-
+-```
+-Write a Behind The Scenes social post for Instagram (Instagram Bts Story version).
++_Hypothetical production example, not a reported customer result:_
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
++1. Wide shot of a microphone beside a hard desk: “The desk was reflecting the guest's voice.”
++2. Close-up of a folded blanket beneath the mic: “We added a soft surface before the sound check.”
++3. Producer listening on headphones: “Listen for room reflections before recording. What do you check first?”
+ 
+-Platform: Instagram
+-Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
++Use this sequence only when it describes what actually happened; do not stage a fix and present it as a measured result.
+ 
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Instagram norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++## Prompt Template
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++~~~
++Create an Instagram behind-the-scenes Story sequence, not a feed caption.
++Actual production moment: [what happened]
++Approved visuals: [describe each available image or short video]
++Decision and reason: [what changed and why]
++Audience: [who should learn from this]
++Optional next action and checked destination: [one action, or none]
++
++Return two or three frames. For each, name the supplied visual and write
++one short on-image line. Keep the sequence understandable without sound.
++Do not invent events, results, quotes or unavailable visuals.
++Flag any missing detail rather than filling it in.
++~~~
++
++Preview the assembled Story in the current app and check legibility before publishing.
+diff --git a/docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md b/docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
+index 3944675..283d6f7 100644
+--- a/docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
++++ b/docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md
+@@ -24,52 +24,42 @@ Use it when you can share a concrete lesson from the process, not just announce
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Choose one real production decision and the constraint behind it. Share only approved details and visuals; remove confidential screens before posting.
+ 
+-[Body — value, context, or story]
+-
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++~~~
++[The production problem or constraint]
++[The decision we made and why]
++[The specific check or observation that informed the decision]
++[One lesson another team can use]
++[One relevant question or next action]
++~~~
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The post names an actual decision, not merely that a recording happened.
++- The reason is specific enough for another team to apply or reject in its own context.
++- Any result is an observation you can support, not an invented improvement metric.
++- The final question or action follows naturally from the lesson.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+-
+-## Prompt Template
+-
+-Copy and customize this prompt to generate this pattern:
+-
+-```
+-Write a Behind The Scenes social post for LinkedIn (Linkedin Process Post version).
++_Hypothetical example, not a reported production result:_
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
++“We moved the sound check ahead of the guest briefing. The room had a reflective desk, so we wanted to hear the microphone in position before settling into the conversation. Our check: record a short answer, then listen back on headphones. Test the setup you will actually record with—not just whether the microphone connects. What is on your pre-recording checklist?”
+ 
+-Platform: LinkedIn
+-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++## Prompt Template
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++~~~
++Write a LinkedIn production-process post.
++Actual decision: [what we chose]
++Constraint: [what made the choice necessary]
++Reason and observed check: [what we know, with no invented result]
++Useful lesson for this audience: [lesson and audience]
++Approved supporting visual, if any: [visual]
++One next action: [question or destination]
++
++Lead with the decision or constraint, explain the reasoning, then give
++one reusable lesson. About 1300 characters is an editorial drafting
++target, not a platform limit or proven engagement optimum.
++Use only supplied facts. Flag missing context. Preview before posting.
++~~~
+diff --git a/docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md b/docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
+index 7fdd003..51aea7e 100644
+--- a/docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
++++ b/docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md
+@@ -24,52 +24,42 @@ Use it alongside a self-contained reel; add context rather than repeat the episo
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Watch the actual reel first. Identify one piece of context the viewer needs beyond the clip itself. Keep quotations faithful to the source; do not invent outcomes or imply the clip says something it does not.
+ 
+-[Body — value, context, or story]
+-
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++~~~
++[The specific problem or question this clip answers]
++[One useful piece of context or application]
++[One clear next action with a checked destination, if needed]
++[Relevant guest mention or hashtags only when useful]
++~~~
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The first line identifies the clip's subject without relying on the episode title.
++- The caption adds context rather than transcribing the whole reel.
++- A viewer receives what the caption promises when watching the reel.
++- The next action is specific; any destination works in the current app.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+-
+-## Prompt Template
++_Hypothetical caption for a reel demonstrating a microphone sound check:_
+ 
+-Copy and customize this prompt to generate this pattern:
++“Your mic is connected. Does the room sound right? This clip shows the short record-and-listen check before an interview. Try it with the microphone in its recording position. Save this for your next setup.”
+ 
+-```
+-Write a Clip Companion social post for Instagram (Instagram Reel Caption version).
++This example is usable only with a clip that actually demonstrates that check; it is not a claim about a real show's results.
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+-
+-Platform: Instagram
+-Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Instagram norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++## Prompt Template
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++~~~
++Write an Instagram Reel caption using this actual clip:
++Clip transcript or accurate visual summary: [source]
++Audience and practical problem: [audience/problem]
++Context not already clear in the clip: [context]
++One next action and checked destination if required: [action]
++Approved guest mention, if relevant: [mention]
++
++Write a self-contained first line, add useful context, and end with one
++action. Do not invent quotes or performance results. Use relevant tags
++only when helpful. Draft no more than 2200 characters as an editorial
++ceiling, not a freshly verified platform limit. Preview in the current app.
++~~~
+diff --git a/docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md b/docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
+index cce3a79..cd201b0 100644
+--- a/docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
++++ b/docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md
+@@ -24,52 +24,42 @@ Choose it when the clip illustrates a specific lesson or point of view, not for
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Watch the clip and choose one professional decision it informs. Use the actual source words and an honest application; do not manufacture a business outcome to make the post sound stronger.
+ 
+-[Body — value, context, or story]
+-
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++~~~
++[The professional problem or decision]
++[Why this clip is worth watching]
++[One concrete application beyond the clip itself]
++[One relevant next action]
++~~~
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The post gives a professional reason to watch, not just an episode announcement.
++- The clip delivers the specific lesson promised in the opening.
++- The application is concrete and distinct from a transcript summary.
++- Quotes and reported results match the source; the next action is singular.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+-
+-## Prompt Template
++_Hypothetical post for a clip demonstrating a pre-interview sound check:_
+ 
+-Copy and customize this prompt to generate this pattern:
++“A connected microphone is not a finished sound check. In this clip, the producer records a short answer and listens back with the microphone in its final position. Add that playback step to your interview checklist before the guest settles in. What do you listen for before pressing record?”
+ 
+-```
+-Write a Clip Companion social post for LinkedIn (Linkedin Video Post version).
++Use this wording only with a clip that actually shows the described process; no measured production benefit is implied.
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+-
+-Platform: LinkedIn
+-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++## Prompt Template
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++~~~
++Write a LinkedIn video post for this actual clip.
++Clip transcript or accurate visual summary: [source]
++Professional audience: [audience]
++Decision or problem the clip informs: [decision/problem]
++Concrete application: [what the reader could do]
++One next action: [question or checked destination]
++
++Open with the professional reason to watch. Add one application rather
++than repeating the episode title. Keep quotes and outcomes faithful to
++the source; flag missing information. About 1300 characters is an editorial
++target, not a platform limit or proven engagement optimum.
++~~~

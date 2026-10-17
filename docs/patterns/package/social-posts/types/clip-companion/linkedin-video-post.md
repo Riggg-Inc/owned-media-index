@@ -24,52 +24,42 @@ Choose it when the clip illustrates a specific lesson or point of view, not for 
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Watch the clip and choose one professional decision it informs. Use the actual source words and an honest application; do not manufacture a business outcome to make the post sound stronger.
 
-[Body — value, context, or story]
-
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+~~~
+[The professional problem or decision]
+[Why this clip is worth watching]
+[One concrete application beyond the clip itself]
+[One relevant next action]
+~~~
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- The post gives a professional reason to watch, not just an episode announcement.
+- The clip delivers the specific lesson promised in the opening.
+- The application is concrete and distinct from a transcript summary.
+- Quotes and reported results match the source; the next action is singular.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+_Hypothetical post for a clip demonstrating a pre-interview sound check:_
+
+“A connected microphone is not a finished sound check. In this clip, the producer records a short answer and listens back with the microphone in its final position. Add that playback step to your interview checklist before the guest settles in. What do you listen for before pressing record?”
+
+Use this wording only with a clip that actually shows the described process; no measured production benefit is implied.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+~~~
+Write a LinkedIn video post for this actual clip.
+Clip transcript or accurate visual summary: [source]
+Professional audience: [audience]
+Decision or problem the clip informs: [decision/problem]
+Concrete application: [what the reader could do]
+One next action: [question or checked destination]
 
-```
-Write a Clip Companion social post for LinkedIn (Linkedin Video Post version).
-
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
-
-Platform: LinkedIn
-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
-
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Open with the professional reason to watch. Add one application rather
+than repeating the episode title. Keep quotes and outcomes faithful to
+the source; flag missing information. About 1300 characters is an editorial
+target, not a platform limit or proven engagement optimum.
+~~~

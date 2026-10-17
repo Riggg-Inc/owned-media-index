@@ -24,52 +24,42 @@ Use it when you can share a concrete lesson from the process, not just announce 
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Choose one real production decision and the constraint behind it. Share only approved details and visuals; remove confidential screens before posting.
 
-[Body — value, context, or story]
-
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+~~~
+[The production problem or constraint]
+[The decision we made and why]
+[The specific check or observation that informed the decision]
+[One lesson another team can use]
+[One relevant question or next action]
+~~~
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- The post names an actual decision, not merely that a recording happened.
+- The reason is specific enough for another team to apply or reject in its own context.
+- Any result is an observation you can support, not an invented improvement metric.
+- The final question or action follows naturally from the lesson.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+_Hypothetical example, not a reported production result:_
+
+“We moved the sound check ahead of the guest briefing. The room had a reflective desk, so we wanted to hear the microphone in position before settling into the conversation. Our check: record a short answer, then listen back on headphones. Test the setup you will actually record with—not just whether the microphone connects. What is on your pre-recording checklist?”
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+~~~
+Write a LinkedIn production-process post.
+Actual decision: [what we chose]
+Constraint: [what made the choice necessary]
+Reason and observed check: [what we know, with no invented result]
+Useful lesson for this audience: [lesson and audience]
+Approved supporting visual, if any: [visual]
+One next action: [question or destination]
 
-```
-Write a Behind The Scenes social post for LinkedIn (Linkedin Process Post version).
-
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
-
-Platform: LinkedIn
-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
-
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Lead with the decision or constraint, explain the reasoning, then give
+one reusable lesson. About 1300 characters is an editorial drafting
+target, not a platform limit or proven engagement optimum.
+Use only supplied facts. Flag missing context. Preview before posting.
+~~~

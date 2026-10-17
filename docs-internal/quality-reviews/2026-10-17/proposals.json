@@ -1,0 +1,34 @@
+[
+  {
+    "path": "docs/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story/",
+    "base_file_sha256": "9ee824c5ea607df1682d665ee2c91d8efb8fda758dc8d813b99579fa356d217a",
+    "proposed_file_sha256": "7db23e60069ea858d83d5162ac5215412823d067f09f440556bdad256db337fd",
+    "what_why": "The only template is generic hook/body/CTA copy and Example is Coming soon. Neither a Story frame sequence nor a worked visual treatment shows how to execute the promised production story.",
+    "reader_check": "Purpose pass: real production moment with a reason. First action revise: choose an approved visual and identify its lesson before drafting. Example revise: Coming soon is not an example. Quality Bar revise: check legible on-image copy and meaningful frame sequence, not merely generic first-line advice. Meaning/voice preserve: practical production context remains the thesis. Essential limits revise: add a specific permission/confidential-screen check beside visual selection."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post/",
+    "base_file_sha256": "c8b20c0251480cec176bd37e705c7695532335fc28d47866cacc4e0d3e2c54f3",
+    "proposed_file_sha256": "68cc0e8d0e71061fdad9c26ae56dfd09b70717f8aa72b812c96a2d34dfaef2c9",
+    "what_why": "The page repeats its opening, offers a generic hook/body/CTA skeleton and explicitly has no worked example. Its prompt asks for guest and quote but not the actual decision, alternatives or observable lesson, so it does not yet teach the promised process breakdown.",
+    "reader_check": "Purpose pass: a production lesson for professionals. First action revise: identify one decision and the constraint that drove it. Example revise: Coming soon fails to demonstrate an actual process lesson. Quality Bar revise: require a decision, reason and reusable lesson. Meaning/voice preserve: do not turn practical advice into a caveat-heavy audit. Essential limits revise: use only approved production details and no confidential screens."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/clip-companion/instagram-reel-caption/",
+    "base_file_sha256": "87971b13d7d76d988ceef06ad5a84e08a70d34ca68569f1362a019d062b70e9e",
+    "proposed_file_sha256": "6f1bd843a9879fe6ce628643cf255e7029807514e611c5e3e4637fd876440724",
+    "what_why": "The generic hook/body/CTA skeleton is a start but the Example is Coming soon, and the prompt lacks the actual clip transcript or visual takeaway. A reader cannot see what useful added context looks like instead of repetition.",
+    "reader_check": "Purpose pass: contextual caption alongside a self-contained reel. First action revise: read the actual clip, then choose the missing context. Example revise: replace Coming soon with a labelled hypothetical caption. Quality Bar revise: inspect whether the first line names the clip-specific problem and CTA destination works. Meaning/voice preserve: keep concise confident advice. Essential limits revise: do not invent quotes or results absent from the supplied clip."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/clip-companion/linkedin-video-post.md",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/clip-companion/linkedin-video-post/",
+    "base_file_sha256": "ad298778ef2c6f777173ed50fe78a340b91cd42d52fe219c45e04be5ae5dfda3",
+    "proposed_file_sha256": "607741e193a85e951512768e2ee2ba386d8b85db5abf67da0f9d95f4fddd99d6",
+    "what_why": "The title-specific introduction does not carry through to a worked post. Coming soon leaves the central example missing, while the prompt supplies episode metadata instead of the actual clip and professional application needed to avoid invented context.",
+    "reader_check": "Purpose pass: a professional reason to watch. First action revise: select the actual clip and one professional decision it informs. Example revise: Coming soon is not usable instruction. Quality Bar revise: check the posted text adds a concrete application and promises only what the clip delivers. Meaning/voice preserve confident recommendation. Essential limits revise: quote only supplied words and do not fabricate business outcomes."
+  }
+]

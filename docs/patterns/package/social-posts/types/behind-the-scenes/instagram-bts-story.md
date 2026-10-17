@@ -24,52 +24,45 @@ Choose it when the visual adds context beyond the episode announcement, not mere
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Start with one production decision you can show. Use approved visuals; keep confidential screens and unapproved people out of frame.
 
-[Body — value, context, or story]
+- **Frame 1 — moment:** Show the setup or action. Add one short line explaining what the viewer is seeing.
+- **Frame 2 — reason:** Show the relevant detail and explain why you chose it.
+- **Frame 3 — next action, if useful:** Connect the moment to the episode or invite one specific response. Use a destination you have checked in the current app.
 
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+Two frames are enough when the moment and reason tell the whole story. Preview the on-image text on a phone rather than drafting a long feed caption.
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- A viewer can identify the production decision without reading an episode announcement.
+- Each frame adds a new detail; the sequence works without sound.
+- Text is readable over the actual visual and stays clear of app controls.
+- Any next action is singular and its destination works.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+_Hypothetical production example, not a reported customer result:_
+
+1. Wide shot of a microphone beside a hard desk: “The desk was reflecting the guest's voice.”
+2. Close-up of a folded blanket beneath the mic: “We added a soft surface before the sound check.”
+3. Producer listening on headphones: “Listen for room reflections before recording. What do you check first?”
+
+Use this sequence only when it describes what actually happened; do not stage a fix and present it as a measured result.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+~~~
+Create an Instagram behind-the-scenes Story sequence, not a feed caption.
+Actual production moment: [what happened]
+Approved visuals: [describe each available image or short video]
+Decision and reason: [what changed and why]
+Audience: [who should learn from this]
+Optional next action and checked destination: [one action, or none]
 
-```
-Write a Behind The Scenes social post for Instagram (Instagram Bts Story version).
+Return two or three frames. For each, name the supplied visual and write
+one short on-image line. Keep the sequence understandable without sound.
+Do not invent events, results, quotes or unavailable visuals.
+Flag any missing detail rather than filling it in.
+~~~
 
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
-
-Platform: Instagram
-Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
-
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per Instagram norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Preview the assembled Story in the current app and check legibility before publishing.

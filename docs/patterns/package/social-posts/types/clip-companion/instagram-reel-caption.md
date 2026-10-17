@@ -24,52 +24,42 @@ Use it alongside a self-contained reel; add context rather than repeat the episo
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Watch the actual reel first. Identify one piece of context the viewer needs beyond the clip itself. Keep quotations faithful to the source; do not invent outcomes or imply the clip says something it does not.
 
-[Body — value, context, or story]
-
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+~~~
+[The specific problem or question this clip answers]
+[One useful piece of context or application]
+[One clear next action with a checked destination, if needed]
+[Relevant guest mention or hashtags only when useful]
+~~~
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- The first line identifies the clip's subject without relying on the episode title.
+- The caption adds context rather than transcribing the whole reel.
+- A viewer receives what the caption promises when watching the reel.
+- The next action is specific; any destination works in the current app.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+_Hypothetical caption for a reel demonstrating a microphone sound check:_
+
+“Your mic is connected. Does the room sound right? This clip shows the short record-and-listen check before an interview. Try it with the microphone in its recording position. Save this for your next setup.”
+
+This example is usable only with a clip that actually demonstrates that check; it is not a claim about a real show's results.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+~~~
+Write an Instagram Reel caption using this actual clip:
+Clip transcript or accurate visual summary: [source]
+Audience and practical problem: [audience/problem]
+Context not already clear in the clip: [context]
+One next action and checked destination if required: [action]
+Approved guest mention, if relevant: [mention]
 
-```
-Write a Clip Companion social post for Instagram (Instagram Reel Caption version).
-
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
-
-Platform: Instagram
-Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
-
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per Instagram norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Write a self-contained first line, add useful context, and end with one
+action. Do not invent quotes or performance results. Use relevant tags
+only when helpful. Draft no more than 2200 characters as an editorial
+ceiling, not a freshly verified platform limit. Preview in the current app.
+~~~
