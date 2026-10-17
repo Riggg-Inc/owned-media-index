@@ -3953,6 +3953,337 @@
         "reason": "Material dark-mode readability remains unresolved on existing contrast correction; short hub meaning remains sound and does not need a body rewrite.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/package/social-posts/types/behind-the-scenes/instagram-bts-story.md": [
+      {
+        "id": "quality-20261017-instagram-bts-story",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-17T16:49:20Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "b0673ff4b68ff142d56ff5a043504bb925078d3f0b38f311fb83eee57eef40af",
+        "report_ref": "docs-internal/quality-reviews/2026-10-17/instagram-bts-story.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening usefully distinguishes a meaningful production visual from proof that recording happened."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The only template is generic hook/body/CTA copy and Example is Coming soon. Neither a Story frame sequence nor a worked visual treatment shows how to execute the promised production story."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The title and parent promise Story-format production snaps, but the prompt requests a long social post with a 2200-character drafting target. The output format does not implement the promised visual story."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The Behind The Scenes parent explicitly calls this Story-format production snaps, unlike the LinkedIn workflow breakdown. The leaf loses that useful distinction by sharing the generic caption template."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 2200 figure is explicitly a drafting target, not a verified Story feature limit. Stop the scroll is a creative aim, not reported evidence. No empirical result, quotation or attributed exemplar is asserted; do not demand experimental proof of creative advice."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The 2200 figure is explicitly a drafting target, not a verified Story feature limit. Stop the scroll is a creative aim, not reported evidence. No empirical result, quotation or attributed exemplar is asserted; do not demand experimental proof of creative advice. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/behind-the-scenes/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The Behind The Scenes parent explicitly calls this Story-format production snaps, unlike the LinkedIn workflow breakdown. The leaf loses that useful distinction by sharing the generic caption template.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-16T16:49:20Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/behind-the-scenes/linkedin-process-post.md": [
+      {
+        "id": "quality-20261017-linkedin-process-post",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-17T16:49:20Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "138f2c46982eb8c1a28beda54b0f6f666fd3b0a231e24b666f5bf3486c148d83",
+        "report_ref": "docs-internal/quality-reviews/2026-10-17/linkedin-process-post.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The professional-audience opening gives a useful reason to share a production decision rather than a recording announcement."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The page repeats its opening, offers a generic hook/body/CTA skeleton and explicitly has no worked example. Its prompt asks for guest and quote but not the actual decision, alternatives or observable lesson, so it does not yet teach the promised process breakdown."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The purpose and platform remain internally consistent; the 1300-character instruction is clearly an editorial target, not a hard technical constraint."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The parent correctly distinguishes a LinkedIn workflow breakdown from Instagram production snaps. The current leaf agrees in its opening but needs process-specific inputs to deliver that distinction; Framework Package asks for usable assets without extra explanation."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "No measured production benefit or performance guarantee is claimed. The length target explicitly disclaims a limit or proven optimum. Generic hook advice can remain confident practitioner guidance; the gap is execution detail rather than missing experiments."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No measured production benefit or performance guarantee is claimed. The length target explicitly disclaims a limit or proven optimum. Generic hook advice can remain confident practitioner guidance; the gap is execution detail rather than missing experiments. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/behind-the-scenes/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent correctly distinguishes a LinkedIn workflow breakdown from Instagram production snaps. The current leaf agrees in its opening but needs process-specific inputs to deliver that distinction; Framework Package asks for usable assets without extra explanation.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-16T16:49:20Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/clip-companion/index.md": [
+      {
+        "id": "quality-20261017-clip-companion",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-17T16:49:20Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "192fb96575b904ec2b8f534bda66e5440e04c16324352e2f9fe51ecd214c48ab",
+        "report_ref": "docs-internal/quality-reviews/2026-10-17/clip-companion.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub identifies the narrow reader task: choose the written packaging that goes with a video clip."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Two platform links plus short descriptions are enough for this small navigation hub; it should not be padded into a complete caption tutorial that duplicates its leaves."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The description and table concern complementary text, not video editing. Neither should be redundant means adding context rather than banning all reinforcement of a clip takeaway."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Both linked leaves say to give a self-contained clip context and one next action; this matches the hub and the Package framework. Hashtag-optimized is vague editorial shorthand, not a quantitative reach promise; changing it is optional."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "No statistics, attributed quotes, exact technical limits or measured performance claims occur. Short hashtag-oriented copy is a suggested style, not empirical certification. No fresh external factual verification is represented."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Instagram selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No statistics, attributed quotes, exact technical limits or measured performance claims occur. Short hashtag-oriented copy is a suggested style, not empirical certification. No fresh external factual verification is represented. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Both linked leaves say to give a self-contained clip context and one next action; this matches the hub and the Package framework. Hashtag-optimized is vague editorial shorthand, not a quantitative reach promise; changing it is optional.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/clip-companion/linkedin-video-post.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Both linked leaves say to give a self-contained clip context and one next action; this matches the hub and the Package framework. Hashtag-optimized is vague editorial shorthand, not a quantitative reach promise; changing it is optional.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-16T16:49:20Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction; hub prose does not require a rewrite.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/social-posts/types/clip-companion/instagram-reel-caption.md": [
+      {
+        "id": "quality-20261017-instagram-reel-caption",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-17T16:49:20Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "26652442756485305d8a14b1165f252949c66df76e17a8882671c96a97223e65",
+        "report_ref": "docs-internal/quality-reviews/2026-10-17/instagram-reel-caption.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening usefully requires a self-contained reel and a caption that adds context rather than just an episode title."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The generic hook/body/CTA skeleton is a start but the Example is Coming soon, and the prompt lacks the actual clip transcript or visual takeaway. A reader cannot see what useful added context looks like instead of repetition."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The caption format, one next action and Instagram focus agree throughout. The length is labelled a drafting target and includes a current-app preview check, so it is not presented as a freshly verified technical maximum."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Clip Companion hub and LinkedIn sibling both call for contextual copy alongside a clip. The reel leaf keeps this scope; the shared Framework Package task supports adding the missing clip-specific input and illustration."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The page reports no engagement result, named exemplar or quotation. Its 2200-character drafting ceiling is editorial and current-app preview is explicitly recommended. No claim of comprehensive Instagram limit verification is made by this review."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The page reports no engagement result, named exemplar or quotation. Its 2200-character drafting ceiling is editorial and current-app preview is explicitly recommended. No claim of comprehensive Instagram limit verification is made by this review. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/clip-companion/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The Clip Companion hub and LinkedIn sibling both call for contextual copy alongside a clip. The reel leaf keeps this scope; the shared Framework Package task supports adding the missing clip-specific input and illustration.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-17T16:49:20Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-16T16:49:20Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/clip-companion/linkedin-video-post.md": [
+      {
+        "id": "quality-20261017-linkedin-video-post",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-17T16:49:21Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4bf999d23794e4f67d70e800a1707c141fadfaba8cddcbb0e32bba497fd522b4",
+        "report_ref": "docs-internal/quality-reviews/2026-10-17/linkedin-video-post.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly targets a professional reason to watch an episode clip, not a generic release announcement."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The title-specific introduction does not carry through to a worked post. Coming soon leaves the central example missing, while the prompt supplies episode metadata instead of the actual clip and professional application needed to avoid invented context."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The post format and singular next action are consistent. About 1300 characters is explicitly editorial, not a limit or performance optimum; no technical correction to that target is necessary."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub labels this Context + clip + CTA and the Instagram sibling uses the same contextual principle. The leaf agrees, but a professional application and actual clip input would make its promised platform-specific distinction executable."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "No statistics, empirical outcome or attributed quote is supplied. Strong first-line and CTA recommendations remain practitioner advice. The text itself prevents misreading the length target as a platform or engagement fact, so no external benchmark is required to retain it."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No statistics, empirical outcome or attributed quote is supplied. Strong first-line and CTA recommendations remain practitioner advice. The text itself prevents misreading the length target as a platform or engagement fact, so no external benchmark is required to retain it. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/clip-companion/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The hub labels this Context + clip + CTA and the Instagram sibling uses the same contextual principle. The leaf agrees, but a professional application and actual clip input would make its promised platform-specific distinction executable.",
+              "checked_at": "2026-10-17T16:49:21Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-17T16:49:21Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-16T16:49:21Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
