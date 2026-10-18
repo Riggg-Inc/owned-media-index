@@ -24,52 +24,38 @@ Use it when the promise fits a short post; leave a multi-part explanation to a t
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Choose one reason to listen and the actual episode link. If the explanation needs several distinct points, use a thread instead.
 
-[Body — value, context, or story]
 
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+one clear listening reason + episode context + link
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- The hook promises something the episode actually delivers.
+- The post adds a reason to listen beyond announcing the title.
+- One CTA leads to the correct episode.
+- Check the final weighted count in the current X composer, including the URL and any mentions or hashtags.
+- Remove optional tags before sacrificing the context that makes the promise understandable.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+*Hypothetical episode/post, not a real guest quotation or performance result.*
+
+> Can your clip make sense without the host’s question? Our new episode shows how to keep the context an answer needs—and cut the setup it doesn’t. Watch: [episode URL]
+
+Replace the bracketed URL and preview the final count before posting. Keep the same focused promise rather than adding several episode takeaways.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+Copy and customize:
 
-```
-Write a Episode Announcement social post for Twitter/X (Twitter Punchy version).
 
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
+- audience: [who should listen]
+- episode title: [actual title]
+- listening reason: [one accurate episode insight]
+- episode URL: [verified destination]
+- public guest handle: [optional, confirmed]
 
-Platform: Twitter/X
-Character limit: 280 characters per tweet
+Write one short X episode-announcement post. Lead with the supplied listening reason, add only the context needed to understand it and end with the episode link. Use only the supplied facts; do not invent quotes, numbers or outcomes. Draft within the standard 280 weighted-character short-post budget, allowing 23 characters for a URL. Include a guest mention only if useful and it fits. Return one post and list any missing inputs separately. The human publisher must check the final composer count.
 
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per Twitter/X norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+[Official X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) explains the 280 weighted-character budget, 23-character URL count and special emoji/Unicode weights. This guide is for the short-post version, not longer-post features.

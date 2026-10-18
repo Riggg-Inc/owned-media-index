@@ -24,52 +24,46 @@ Choose it when useful context goes beyond the title; make the post valuable even
 
 ## Template
 
-```
-[Hook — first line earns the second line]
+Choose the professional problem and one episode insight that helps with it. Make that insight useful before asking for a click.
 
-[Body — value, context, or story]
 
-[CTA — one clear action]
-
-[Tags/Hashtags if appropriate]
-```
+specific professional problem → episode insight → practical application → invitation to the episode
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- The opener names a problem the intended reader recognizes.
+- The body explains a useful lesson, not just the episode title or guest credentials.
+- The application follows from what the episode actually says; quotations match the source.
+- The post is valuable without clicking and ends with one clear viewing/listening CTA.
+- Preview paragraph breaks and the opening in the current composer; tag the guest only when appropriate.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+*Hypothetical episode/post; not a real customer result or guest quotation.*
+
+> A good interview answer can become a confusing clip when you cut away the question.
+>
+> Our new episode, “Keep the answer, cut the setup,” walks through a simple editing test: play the proposed clip without the preceding question. Can a colleague tell what the speaker is answering?
+>
+> If not, restore the few words that establish the subject. Cutting setup is useful only when the answer still makes sense.
+>
+> Before exporting your next batch, try that check on one clip. Keep the necessary context; remove only what the viewer does not need.
+>
+> Watch the full walkthrough: [episode URL]
+
+The bracketed URL is the only placeholder in this illustration. Replace it with the actual episode destination. The example is shorter than the drafting target because the point is complete; do not pad it to hit a number.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+Copy and customize:
 
-```
-Write a Episode Announcement social post for LinkedIn (Linkedin Long Form version).
 
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
+- audience and work problem: [who this helps and what they are trying to do]
+- episode title and URL: [actual released episode]
+- source insight: [accurate point or exact quotation]
+- practical application: [an action supported by the episode]
+- public guest details: [approved name/role/handle, if relevant]
 
-Platform: LinkedIn
-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
+Write a LinkedIn long-form episode announcement. Name the reader’s problem, explain the supplied insight, show its practical application and end with one invitation to the episode. Make the post useful without a click. Use only the supplied facts; do not invent guest claims, numbers or results. Aim around 1300 characters if the explanation needs that space; this is an editorial target, not a platform maximum or proven engagement optimum. Use short readable paragraphs and relevant guest tags. Return the post and list missing inputs separately.
 
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
-```
-
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Preview the final post and check it against the Quality Bar.

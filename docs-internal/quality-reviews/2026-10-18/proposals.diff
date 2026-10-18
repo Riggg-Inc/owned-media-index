@@ -1,0 +1,246 @@
+diff --git a/docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md b/docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md
+index 7411fb1..ca5d81d 100644
+--- a/docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md
++++ b/docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md
+@@ -24,52 +24,45 @@ Use it with an episode asset and a clear listening or viewing action; make the f
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Start with the actual episode visual and one reason your audience should care. Choose the destination before writing the CTA.
+ 
+-[Body — value, context, or story]
+ 
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++description of the visual → one useful episode insight → one listening/viewing action
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The first line gives a specific reason to care, beyond the episode title.
++- The caption supports what the image or video actually shows.
++- The insight accurately reflects the episode; quotes match the source.
++- One CTA leads to a destination the reader can actually find. Check it in the published profile or post flow.
++- Preview line breaks and truncation in the current app; keep tags relevant.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++*Hypothetical episode and caption, not a real guest quotation or measured result.*
+ 
+-## Prompt Template
++Visual: an episode card titled “Keep the answer, cut the setup.” The episode demonstrates an editing check: play a clip without its preceding interview question.
++
++> Your best answer may need less setup, not a bigger headline.
++>
++> In this episode, we take one interview answer and test whether it makes sense without the host’s question. If it does not, keep the context that makes the answer clear.
++>
++> Watch “Keep the answer, cut the setup” through the episode link in our bio.
+ 
+-Copy and customize this prompt to generate this pattern:
++Use that CTA only after placing the matching episode destination in the profile. Choose a different, accurate route when that is not your setup.
++
++## Prompt Template
+ 
+-```
+-Write a Episode Announcement social post for Instagram (Instagram Caption version).
++Copy and customize:
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+ 
+-Platform: Instagram
+-Drafting target: no more than 2200 characters; keep the first line self-contained and preview truncation in the current app
++- audience: [who this episode helps]
++- episode: [title and accurate summary]
++- visual: [describe the actual accompanying image/video]
++- source insight: [verified episode point or exact quotation]
++- public guest details: [approved name/role/handle, if relevant]
++- viewing/listening route: [the destination and how readers reach it]
+ 
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Instagram norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++Write an Instagram episode-announcement caption. Open with one reason to care, connect it to the actual visual and episode insight, then give one CTA using the supplied route. Use only supplied facts; do not invent quotations, results or visual details. Keep it within an editorial drafting target of 2200 characters, use readable line breaks and preview the final caption in the current app. Include tags only when relevant. Return the caption, followed by any missing inputs separately.
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Check the draft against the Quality Bar before publishing.
+diff --git a/docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md b/docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
+index 866db6b..9dbfb36 100644
+--- a/docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
++++ b/docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md
+@@ -24,52 +24,46 @@ Choose it when useful context goes beyond the title; make the post valuable even
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Choose the professional problem and one episode insight that helps with it. Make that insight useful before asking for a click.
+ 
+-[Body — value, context, or story]
+ 
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++specific professional problem → episode insight → practical application → invitation to the episode
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The opener names a problem the intended reader recognizes.
++- The body explains a useful lesson, not just the episode title or guest credentials.
++- The application follows from what the episode actually says; quotations match the source.
++- The post is valuable without clicking and ends with one clear viewing/listening CTA.
++- Preview paragraph breaks and the opening in the current composer; tag the guest only when appropriate.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++*Hypothetical episode/post; not a real customer result or guest quotation.*
+ 
+-## Prompt Template
++> A good interview answer can become a confusing clip when you cut away the question.
++>
++> Our new episode, “Keep the answer, cut the setup,” walks through a simple editing test: play the proposed clip without the preceding question. Can a colleague tell what the speaker is answering?
++>
++> If not, restore the few words that establish the subject. Cutting setup is useful only when the answer still makes sense.
++>
++> Before exporting your next batch, try that check on one clip. Keep the necessary context; remove only what the viewer does not need.
++>
++> Watch the full walkthrough: [episode URL]
+ 
+-Copy and customize this prompt to generate this pattern:
++The bracketed URL is the only placeholder in this illustration. Replace it with the actual episode destination. The example is shorter than the drafting target because the point is complete; do not pad it to hit a number.
++
++## Prompt Template
+ 
+-```
+-Write a Episode Announcement social post for LinkedIn (Linkedin Long Form version).
++Copy and customize:
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+ 
+-Platform: LinkedIn
+-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
++- audience and work problem: [who this helps and what they are trying to do]
++- episode title and URL: [actual released episode]
++- source insight: [accurate point or exact quotation]
++- practical application: [an action supported by the episode]
++- public guest details: [approved name/role/handle, if relevant]
+ 
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++Write a LinkedIn long-form episode announcement. Name the reader’s problem, explain the supplied insight, show its practical application and end with one invitation to the episode. Make the post useful without a click. Use only the supplied facts; do not invent guest claims, numbers or results. Aim around 1300 characters if the explanation needs that space; this is an editorial target, not a platform maximum or proven engagement optimum. Use short readable paragraphs and relevant guest tags. Return the post and list missing inputs separately.
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Preview the final post and check it against the Quality Bar.
+diff --git a/docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md b/docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
+index 2b17ed5..95e9300 100644
+--- a/docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
++++ b/docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md
+@@ -24,52 +24,38 @@ Use it when the promise fits a short post; leave a multi-part explanation to a t
+ 
+ ## Template
+ 
+-```
+-[Hook — first line earns the second line]
++Choose one reason to listen and the actual episode link. If the explanation needs several distinct points, use a thread instead.
+ 
+-[Body — value, context, or story]
+ 
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
+-```
++one clear listening reason + episode context + link
+ 
+ ## Quality Bar
+ 
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The hook promises something the episode actually delivers.
++- The post adds a reason to listen beyond announcing the title.
++- One CTA leads to the correct episode.
++- Check the final weighted count in the current X composer, including the URL and any mentions or hashtags.
++- Remove optional tags before sacrificing the context that makes the promise understandable.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++*Hypothetical episode/post, not a real guest quotation or performance result.*
+ 
+-## Prompt Template
++> Can your clip make sense without the host’s question? Our new episode shows how to keep the context an answer needs—and cut the setup it doesn’t. Watch: [episode URL]
+ 
+-Copy and customize this prompt to generate this pattern:
++Replace the bracketed URL and preview the final count before posting. Keep the same focused promise rather than adding several episode takeaways.
++
++## Prompt Template
+ 
+-```
+-Write a Episode Announcement social post for Twitter/X (Twitter Punchy version).
++Copy and customize:
+ 
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+ 
+-Platform: Twitter/X
+-Character limit: 280 characters per tweet
++- audience: [who should listen]
++- episode title: [actual title]
++- listening reason: [one accurate episode insight]
++- episode URL: [verified destination]
++- public guest handle: [optional, confirmed]
+ 
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Twitter/X norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
+-```
++Write one short X episode-announcement post. Lead with the supplied listening reason, add only the context needed to understand it and end with the episode link. Use only the supplied facts; do not invent quotes, numbers or outcomes. Draft within the standard 280 weighted-character short-post budget, allowing 23 characters for a URL. Include a guest mention only if useful and it fits. Return one post and list any missing inputs separately. The human publisher must check the final composer count.
+ 
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++[Official X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) explains the 280 weighted-character budget, 23-character URL count and special emoji/Unicode weights. This guide is for the short-post version, not longer-post features.

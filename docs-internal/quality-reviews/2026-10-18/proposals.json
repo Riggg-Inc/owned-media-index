@@ -1,0 +1,24 @@
+{
+  "base": "2110850b9bdd9c3abbfdcf5abd656271ac496a45",
+  "approved": false,
+  "files": [
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+      "base_sha256": "8588ea057a01b3af795729581c18cd9bf6ae5fa7cb74e016331ba17c1093fc84",
+      "proposed_sha256": "a80c0635d66b3d28e8d033728bfa9beb982ef3dc38028b02b46a17a7d0fff333",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/linkedin-long-form/"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/twitter-punchy.md",
+      "base_sha256": "3b554823b91f6372641d46db7f46be39fa5ada1817525dd5cd2ba00456cd2336",
+      "proposed_sha256": "2b01738167660d0f76256c4a9383d7e017c86543bece6d7c8555902db923ccaa",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/twitter-punchy/"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/episode-announcement/instagram-caption.md",
+      "base_sha256": "87e458a801706f1ac3a81dd531a00dafd9aafb702e6f1da0569e98b469a7707c",
+      "proposed_sha256": "1db651469d1d0e2174d6cdde5c59f4caeb82cea42fdf1bec1d898f1b2b32fc33",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/episode-announcement/instagram-caption/"
+    }
+  ]
+}
