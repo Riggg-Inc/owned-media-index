@@ -4284,6 +4284,380 @@
         "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/social-posts/types/episode-announcement/index.md": [
+      {
+        "id": "quality-20261018-episode-announcement",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-18T16:48:54Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7cc29a85de4a350b352fd938ea1941ea8e00c646aa5a7dfc8458666ae5de144b",
+        "report_ref": "docs-internal/quality-reviews/2026-10-18/episode-announcement.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies the release-announcement task immediately, and the three platform links give a useful first choice rather than burying the action."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "For a navigation hub, the LinkedIn context, short X hook and visual-first Instagram distinctions provide enough decision detail. Repeating the definition is minor, not a material failure; a full drafting example belongs in the leaf guides."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The primary release post definition and platform Versions table follow a clear compact structure. The 1000\u20131300 character description describes the long-form version rather than a platform maximum."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The three complete leaf guides match the hub: professional relevance on LinkedIn, one reason and link on X, visual plus reason on Instagram. Package in Framework includes understandable reusable assets; Scoring treats the retained score as editorial, not measured performance."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The most-common wording is a loose practitioner generalization, not a quantified market share claim or critical decision basis. No measured reach or guaranteed outcome is asserted. Lengths describe these versions; no new empirical certification or rescoring is warranted."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Twitter/X selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The most-common wording is a loose practitioner generalization, not a quantified market share claim or critical decision basis. No measured reach or guaranteed outcome is asserted. Lengths describe these versions; no new empirical certification or rescoring is warranted. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/instagram-caption.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The three complete leaf guides match the hub: professional relevance on LinkedIn, one reason and link on X, visual plus reason on Instagram. Package in Framework includes understandable reusable assets; Scoring treats the retained score as editorial, not measured performance.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The three complete leaf guides match the hub: professional relevance on LinkedIn, one reason and link on X, visual plus reason on Instagram. Package in Framework includes understandable reusable assets; Scoring treats the retained score as editorial, not measured performance.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/twitter-punchy.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The three complete leaf guides match the hub: professional relevance on LinkedIn, one reason and link on X, visual plus reason on Instagram. Package in Framework includes understandable reusable assets; Scoring treats the retained score as editorial, not measured performance.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-17T16:48:54Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction; hub prose does not require a rewrite.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/social-posts/types/episode-announcement/instagram-caption.md": [
+      {
+        "id": "quality-20261018-instagram-caption",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-18T16:48:54Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4c985ab19b96c937d5a8f901a293d0ee62364195bab1e6eb093d8108b30f83e5",
+        "report_ref": "docs-internal/quality-reviews/2026-10-18/instagram-caption.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly identifies an image-led announcement and asks for one reason to care plus a listening or viewing action. A reader can identify the task and initial episode asset."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The body repeats its opening and supplies only generic hook/body/CTA placeholders. The Example is Coming soon and the prompt never requests the actual visual or chosen listening route, despite promising a visual-first caption. A concrete worked caption and asset/route inputs are materially missing."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The introduction, When To Use, template and singular CTA form a coherent sequence. The weakness is insufficient task-specific execution, not a contradictory overall concept."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub promises a caption supporting the image; this page repeats that promise but its prompt requests only episode metadata, not the image. Social Posts requires added value and platform tailoring. The mismatch is captured under substance; it does not require changing the framework."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "No more than 2200 is explicitly a drafting target with current-app truncation preview, not a freshly certified universal technical maximum. Stop the scroll is aspirational advice, not a measured guarantee. No external factual claim requires verification for this editorial scope."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No more than 2200 is explicitly a drafting target with current-app truncation preview, not a freshly certified universal technical maximum. Stop the scroll is aspirational advice, not a measured guarantee. No external factual claim requires verification for this editorial scope. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The hub promises a caption supporting the image; this page repeats that promise but its prompt requests only episode metadata, not the image. Social Posts requires added value and platform tailoring. The mismatch is captured under substance; it does not require changing the framework.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The hub promises a caption supporting the image; this page repeats that promise but its prompt requests only episode metadata, not the image. Social Posts requires added value and platform tailoring. The mismatch is captured under substance; it does not require changing the framework.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-17T16:48:54Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md": [
+      {
+        "id": "quality-20261018-linkedin-long-form",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-18T16:48:54Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4d8c17072132e45bafc7172d3875d3bf89b4d12191eca166e4148ac983985c90",
+        "report_ref": "docs-internal/quality-reviews/2026-10-18/linkedin-long-form.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening explains professional relevance before a viewing invitation and tells readers to make the post valuable without a click. That is a useful release-post task, not a generic announcement."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The template and prompt ask for value/context but never show how to turn an episode insight into a professional application. Coming soon replaces the only example. The promised standalone professional value needs one concrete worked post and audience/use-case inputs, not more introductory repetition."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The long-form context and approximately1300-character editorial target are compatible with the introduction. Hook, body and one CTA are a sensible progression; naming capitalization is only optional polish."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The parent describes thought-leadership framing, and the Instagram/X siblings distinguish visual support and short promises. This page maintains those roles; Framework Package expects independently usable assets, which the missing worked example should demonstrate."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The page explicitly labels1300characters an editorial target, not a platform limit or engagement optimum. Neither professional relevance nor stop-the-scroll advice asserts empirical results. No research certification is required for those recommendations."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The page explicitly labels1300characters an editorial target, not a platform limit or engagement optimum. Neither professional relevance nor stop-the-scroll advice asserts empirical results. No research certification is required for those recommendations. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent describes thought-leadership framing, and the Instagram/X siblings distinguish visual support and short promises. This page maintains those roles; Framework Package expects independently usable assets, which the missing worked example should demonstrate.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/instagram-caption.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent describes thought-leadership framing, and the Instagram/X siblings distinguish visual support and short promises. This page maintains those roles; Framework Package expects independently usable assets, which the missing worked example should demonstrate.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-18T16:48:54Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-17T16:48:54Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/episode-announcement/twitter-punchy.md": [
+      {
+        "id": "quality-20261018-twitter-punchy",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-18T16:48:55Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1da1142e35bdfea6144981cf1cda9bc1d94981d5a8b124f8fcf3f578f7b2fd0c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-18/twitter-punchy.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies one clear reason to listen plus the release link and sensibly sends multi-part explanations to a thread. The short-post reader task is immediately apparent."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The generic multiline template does not demonstrate fitting a benefit and link into the short format, and Example remains Coming soon. A short worked post and explicit count/preview action are needed to make the constraint operational without a model inventing source claims."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "One hook and a release link fit the punchy scope; the shared hook/body/CTA pattern can be concise. Tags are conditional, so they are not a contradictory mandatory overload."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub calls this short hook plus link under280characters, contrasting with LinkedIn context and Instagram visual support. Framework Package supports this distinct reusable asset. No framework or score change is indicated."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Official X Counting Characters read today supports the280weighted-character short-post budget and23-character URL count. Emoji and some Unicode weigh differently, so plain string length is not sufficient. This scope is the short version, not a statement that every X product has no longer-post option. The first Help URL returned403; it was not treated as evidence."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Official X Counting Characters read today supports the280weighted-character short-post budget and23-character URL count. Emoji and some Unicode weigh differently, so plain string length is not sufficient. This scope is the short version, not a statement that every X product has no longer-post option. The first Help URL returned403; it was not treated as evidence.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "The short post version uses a 280 character budget including its episode URL.",
+              "finding": "Official X documentation supports 280 weighted characters and 23 per URL; emoji and Unicode may count differently. This is short-post scope, not all paid longer-post features.",
+              "checked_at": "2026-10-18T16:46:46Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The hub calls this short hook plus link under280characters, contrasting with LinkedIn context and Instagram visual support. Framework Package supports this distinct reusable asset. No framework or score change is indicated.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The hub calls this short hook plus link under280characters, contrasting with LinkedIn context and Instagram visual support. Framework Package supports this distinct reusable asset. No framework or score change is indicated.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-17T16:48:55Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/evergreen-reshare/index.md": [
+      {
+        "id": "quality-20261018-evergreen-reshare",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-18T16:48:55Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "566c6eed2ffa95da8f9949340939fb5dddea6c70e85b9d1257cb9d86acff23fc",
+        "report_ref": "docs-internal/quality-reviews/2026-10-18/evergreen-reshare.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening distinguishes resurfacing older content with new framing from announcing a new release. LinkedIn Throwback and X Resurface are useful direct next steps."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The concise hub provides two platform examples of framing, including X months ago and a new hook on old content. This is adequate selection guidance for its scope, not a promise to teach the whole leaf workflow."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, content-library rationale and two-version table are aligned. Extends the lifespan means reusing the library, not a quantified promise of guaranteed traffic."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "LinkedIn Throwback says to give a current reason rather than present old content as new; X Resurface says to check time-sensitive claims. Those complete neighboring guides fit this hub and distinguish it from the new-release Episode Announcement."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The library-lifespan language describes a practical reuse opportunity, not permanent availability or guaranteed reach. No numerical platform limits, attributed quotations or empirical performance outcomes need an external source check here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Twitter/X selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The library-lifespan language describes a practical reuse opportunity, not permanent availability or guaranteed reach. No numerical platform limits, attributed quotations or empirical performance outcomes need an external source check here. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Throwback says to give a current reason rather than present old content as new; X Resurface says to check time-sensitive claims. Those complete neighboring guides fit this hub and distinguish it from the new-release Episode Announcement.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Throwback says to give a current reason rather than present old content as new; X Resurface says to check time-sensitive claims. Those complete neighboring guides fit this hub and distinguish it from the new-release Episode Announcement.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Throwback says to give a current reason rather than present old content as new; X Resurface says to check time-sensitive claims. Those complete neighboring guides fit this hub and distinguish it from the new-release Episode Announcement.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-18T16:48:55Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-17T16:48:55Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction; hub prose does not require a rewrite.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
