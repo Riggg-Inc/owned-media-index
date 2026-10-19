@@ -1,0 +1,201 @@
+diff --git a/docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md b/docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
+index 7137af0..415318b 100644
+--- a/docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
++++ b/docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md
+@@ -36,6 +36,9 @@ Give a current reason to revisit it rather than presenting an old release as new
+ 
+ ## Quality Bar
+ 
++- Identify the older episode without calling it new.
++- Explain a present-day reason to revisit the lesson.
++- Recheck any dated claims before quoting them.
+ - First line must stop the scroll
+ - Body must add value beyond the episode title
+ - CTA must be specific and singular
+@@ -43,7 +46,13 @@ Give a current reason to revisit it rather than presenting an old release as new
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++Fictional example, not a measured result:
++
++> Revisiting a useful lesson from our June episode: document who owns the next step before a project handoff.
++>
++> If your team is planning a new quarter, try adding an owner and due date to one handoff this week. That is the specific practice our fictional guest described—not a claim that every team needs a new process.
++>
++> Listen to the original conversation: [episode URL].
+ 
+ ## Prompt Template
+ 
+@@ -53,6 +62,9 @@ Copy and customize this prompt to generate this pattern:
+ Write a Evergreen Reshare social post for LinkedIn (Linkedin Throwback version).
+ 
+ Context:
++- Original publication date: [date]
++- Why this lesson matters now: [current reader problem]
++- Accuracy check: [what you rechecked; omit stale specifics]
+ - Episode title: [title of the episode]
+ - Guest name: [guest full name]
+ - Guest company/title: [their role]
+diff --git a/docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md b/docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
+index b6b0689..e42f291 100644
+--- a/docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
++++ b/docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md
+@@ -36,6 +36,9 @@ Choose an evergreen point that remains accurate; check time-sensitive claims bef
+ 
+ ## Quality Bar
+ 
++- Make clear this is an older conversation.
++- Keep one still-accurate idea and a current reason to revisit it.
++- Check the complete draft, including URL and mentions, in the composer.
+ - First line must stop the scroll
+ - Body must add value beyond the episode title
+ - CTA must be specific and singular
+@@ -43,7 +46,9 @@ Choose an evergreen point that remains accurate; check time-sensitive claims bef
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++Fictional short-post example:
++
++> From our June archive: give every project handoff a named owner and next step. Planning next quarter? Revisit this practical conversation: [episode URL]
+ 
+ ## Prompt Template
+ 
+@@ -53,6 +58,9 @@ Copy and customize this prompt to generate this pattern:
+ Write a Evergreen Reshare social post for Twitter/X (Twitter Resurface version).
+ 
+ Context:
++- Original publication date: [date]
++- Why resurface it now: [current audience need]
++- Accuracy check: [dated claims rechecked or removed]
+ - Episode title: [title of the episode]
+ - Guest name: [guest full name]
+ - Guest company/title: [their role]
+@@ -61,7 +69,7 @@ Context:
+ - Relevant hashtags: [industry hashtags if appropriate]
+ 
+ Platform: Twitter/X
+-Character limit: 280 characters per tweet
++Short-post budget: 280 weighted characters, including URL and mentions
+ 
+ Requirements:
+ - First line must stop the scroll
+@@ -72,4 +80,6 @@ Requirements:
+ - Never use the same copy across platforms
+ ```
+ 
++For this short-post version, [X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) counts URLs as 23 characters; emojis and some Unicode characters have different weights. Check the final draft in the composer.
++
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+diff --git a/docs/patterns/package/social-posts/types/guest-tag/index.md b/docs/patterns/package/social-posts/types/guest-tag/index.md
+index e62f75d..1871ede 100644
+--- a/docs/patterns/package/social-posts/types/guest-tag/index.md
++++ b/docs/patterns/package/social-posts/types/guest-tag/index.md
+@@ -4,7 +4,7 @@ description: "Guest Tag social post pattern: purpose, existing score, evidence l
+ 
+ # Guest Tag
+ 
+-A post designed to tag the guest and their company, activating cross-promotion and extending reach into the guest's network.
++A post that recognizes a guest's contribution and invites them to share the conversation. Tag the relevant guest or company when appropriate; give readers a useful idea, not just a mention.
+ 
+ **Stage:** Package → Social Posts  
+ **Score:** 4  
+@@ -12,7 +12,7 @@ A post designed to tag the guest and their company, activating cross-promotion a
+ 
+ ## What It Is
+ 
+-A post designed to tag the guest and their company, activating cross-promotion and extending reach into the guest's network.
++A post that recognizes a guest's contribution and invites them to share the conversation. Tag the relevant guest or company when appropriate; give readers a useful idea, not just a mention.
+ 
+ ## Versions
+ 
+diff --git a/docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md b/docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
+index 4292378..61eb460 100644
+--- a/docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
++++ b/docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md
+@@ -36,6 +36,9 @@ Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
+ 
+ ## Quality Bar
+ 
++- Name the contribution, not just the guest.
++- Verify the guest profile before selecting the mention.
++- Make the post useful even if the guest never reshares it.
+ - First line must stop the scroll
+ - Body must add value beyond the episode title
+ - CTA must be specific and singular
+@@ -43,7 +46,13 @@ Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++Fictional example; replace the bracketed mention with the verified guest profile:
++
++> Thank you, [guest], for making project handoffs concrete in our conversation.
++>
++> Your example—write down the next action and its owner before a meeting ends—gives team leads something to try in their next planning session.
++>
++> Listen to the full discussion: [episode URL].
+ 
+ ## Prompt Template
+ 
+@@ -53,6 +62,9 @@ Copy and customize this prompt to generate this pattern:
+ Write a Guest Tag social post for LinkedIn (Linkedin Gratitude version).
+ 
+ Context:
++- Contribution to thank the guest for: [specific explanation or example]
++- Verified guest profile: [profile to select when posting]
++- Reader application: [what the audience can do with the idea]
+ - Episode title: [title of the episode]
+ - Guest name: [guest full name]
+ - Guest company/title: [their role]
+diff --git a/docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md b/docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
+index 7dbda06..d5f0adf 100644
+--- a/docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
++++ b/docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md
+@@ -36,6 +36,9 @@ Keep appreciation specific, tag the appropriate guest, and give a reason to foll
+ 
+ ## Quality Bar
+ 
++- Recognize one actual contribution, not generic praise.
++- Verify the handle and leave room for the episode URL.
++- Check the complete draft in the composer; do not assume a tag earns a reshare.
+ - First line must stop the scroll
+ - Body must add value beyond the episode title
+ - CTA must be specific and singular
+@@ -43,7 +46,9 @@ Keep appreciation specific, tag the appropriate guest, and give a reason to foll
+ 
+ ## Example
+ 
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++Fictional short-post example; replace the mention with the verified handle:
++
++> Thanks, [guest], for a practical handoff rule: name the next action and its owner before the meeting ends. Hear the conversation: [episode URL]
+ 
+ ## Prompt Template
+ 
+@@ -53,6 +58,8 @@ Copy and customize this prompt to generate this pattern:
+ Write a Guest Tag social post for Twitter/X (Twitter Shoutout version).
+ 
+ Context:
++- Specific contribution to recognize: [one idea from the conversation]
++- Verified guest handle: [handle; never invent one]
+ - Episode title: [title of the episode]
+ - Guest name: [guest full name]
+ - Guest company/title: [their role]
+@@ -61,7 +68,7 @@ Context:
+ - Relevant hashtags: [industry hashtags if appropriate]
+ 
+ Platform: Twitter/X
+-Character limit: 280 characters per tweet
++Short-post budget: 280 weighted characters, including URL and mentions
+ 
+ Requirements:
+ - First line must stop the scroll
+@@ -72,4 +79,6 @@ Requirements:
+ - Never use the same copy across platforms
+ ```
+ 
++For this short-post version, [X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) counts URLs as 23 characters; emojis and some Unicode characters have different weights. Check the final draft in the composer.
++
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

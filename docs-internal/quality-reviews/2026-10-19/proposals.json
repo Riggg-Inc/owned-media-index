@@ -1,0 +1,42 @@
+[
+  {
+    "path": "docs/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md",
+    "sha256": "0ad91f529f94e7dc359ea7c9362a3e525416bc6764f31b46a57d23425f6cd1ed",
+    "base_sha256": "737aba3cb217da41339ab2ce046d4e6c7df99d40bd142017e181d70406758ab1",
+    "base_commit": "ef9eb99512c8a2af56c5f6f332ab7aaee126c200",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback/",
+    "why": "The Example is Coming soon and the generic hook/body/CTA template supplies neither original publication date nor present-day relevance inputs. The promised throwback execution remains underspecified."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md",
+    "sha256": "f445c277de2f4346a1a99ccd1043c40b34c8dbbd79cf165b919d5f9553de451c",
+    "base_sha256": "969038acfd0de9b9612fcedc3d10b97b4c3ee5c7bb0474aaa8cdad4894ddfcef",
+    "base_commit": "ef9eb99512c8a2af56c5f6f332ab7aaee126c200",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/evergreen-reshare/twitter-resurface/",
+    "why": "Coming soon replaces the worked example, and the prompt omits the original date, what was rechecked and the new audience reason. Generic placeholders do not operationalize resurfacing."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/guest-tag/index.md",
+    "sha256": "4b106cb4509f3d98322f6b356857da9b7b5bfe1f56d34bb60ca4777547cddc8d",
+    "base_sha256": "609a810375809002be00c9cfcd077f0f57d27af9e445f582aec3eebd74f0a4b6",
+    "base_commit": "ef9eb99512c8a2af56c5f6f332ab7aaee126c200",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/",
+    "why": "Activating cross-promotion and extending reach into the guest network are asserted consequences without support. Recognition can invite sharing but does not ensure guest action or distribution."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md",
+    "sha256": "e9a792319d3d1fa5cabfa974a6bf81d9539d9442176988a671326ea5f793c82a",
+    "base_sha256": "097275ff8c8c8aad078df13653d7f6e7d6f50a7f98d019a0ee39b00068bb1f95",
+    "base_commit": "ef9eb99512c8a2af56c5f6f332ab7aaee126c200",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/linkedin-gratitude/",
+    "why": "The promised gratitude example is Coming soon. The prompt does not ask for the contribution being thanked, verified guest profile or useful reader application, leaving the core differentiator implicit."
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/guest-tag/twitter-shoutout.md",
+    "sha256": "e7f5de373ab0dd2f153d6e34e07bc4ff5473313bfc5f8c3ab792a82a5cf12791",
+    "base_sha256": "1e3dd2d7ae01241dbd174d7b04f29d94ff02a097976dfb1892f3fdd08fff88de",
+    "base_commit": "ef9eb99512c8a2af56c5f6f332ab7aaee126c200",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/guest-tag/twitter-shoutout/",
+    "why": "Coming soon is not a worked shoutout. Generic guest name and insight fields omit verified handle and the exact contribution to acknowledge; a concise illustrative post is needed."
+  }
+]

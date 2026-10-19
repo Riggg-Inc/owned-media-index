@@ -36,6 +36,9 @@ Choose an evergreen point that remains accurate; check time-sensitive claims bef
 
 ## Quality Bar
 
+- Make clear this is an older conversation.
+- Keep one still-accurate idea and a current reason to revisit it.
+- Check the complete draft, including URL and mentions, in the composer.
 - First line must stop the scroll
 - Body must add value beyond the episode title
 - CTA must be specific and singular
@@ -43,7 +46,9 @@ Choose an evergreen point that remains accurate; check time-sensitive claims bef
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+Fictional short-post example:
+
+> From our June archive: give every project handoff a named owner and next step. Planning next quarter? Revisit this practical conversation: [episode URL]
 
 ## Prompt Template
 
@@ -53,6 +58,9 @@ Copy and customize this prompt to generate this pattern:
 Write a Evergreen Reshare social post for Twitter/X (Twitter Resurface version).
 
 Context:
+- Original publication date: [date]
+- Why resurface it now: [current audience need]
+- Accuracy check: [dated claims rechecked or removed]
 - Episode title: [title of the episode]
 - Guest name: [guest full name]
 - Guest company/title: [their role]
@@ -61,7 +69,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: Twitter/X
-Character limit: 280 characters per tweet
+Short-post budget: 280 weighted characters, including URL and mentions
 
 Requirements:
 - First line must stop the scroll
@@ -71,5 +79,7 @@ Requirements:
 - Tag guest when appropriate
 - Never use the same copy across platforms
 ```
+
+For this short-post version, [X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) counts URLs as 23 characters; emojis and some Unicode characters have different weights. Check the final draft in the composer.
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

@@ -36,6 +36,9 @@ Keep appreciation specific, tag the appropriate guest, and give a reason to foll
 
 ## Quality Bar
 
+- Recognize one actual contribution, not generic praise.
+- Verify the handle and leave room for the episode URL.
+- Check the complete draft in the composer; do not assume a tag earns a reshare.
 - First line must stop the scroll
 - Body must add value beyond the episode title
 - CTA must be specific and singular
@@ -43,7 +46,9 @@ Keep appreciation specific, tag the appropriate guest, and give a reason to foll
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+Fictional short-post example; replace the mention with the verified handle:
+
+> Thanks, [guest], for a practical handoff rule: name the next action and its owner before the meeting ends. Hear the conversation: [episode URL]
 
 ## Prompt Template
 
@@ -53,6 +58,8 @@ Copy and customize this prompt to generate this pattern:
 Write a Guest Tag social post for Twitter/X (Twitter Shoutout version).
 
 Context:
+- Specific contribution to recognize: [one idea from the conversation]
+- Verified guest handle: [handle; never invent one]
 - Episode title: [title of the episode]
 - Guest name: [guest full name]
 - Guest company/title: [their role]
@@ -61,7 +68,7 @@ Context:
 - Relevant hashtags: [industry hashtags if appropriate]
 
 Platform: Twitter/X
-Character limit: 280 characters per tweet
+Short-post budget: 280 weighted characters, including URL and mentions
 
 Requirements:
 - First line must stop the scroll
@@ -71,5 +78,7 @@ Requirements:
 - Tag guest when appropriate
 - Never use the same copy across platforms
 ```
+
+For this short-post version, [X character-counting guidance](https://docs.x.com/fundamentals/counting-characters) counts URLs as 23 characters; emojis and some Unicode characters have different weights. Check the final draft in the composer.
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.

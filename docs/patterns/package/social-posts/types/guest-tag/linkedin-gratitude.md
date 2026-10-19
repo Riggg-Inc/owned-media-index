@@ -36,6 +36,9 @@ Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
 
 ## Quality Bar
 
+- Name the contribution, not just the guest.
+- Verify the guest profile before selecting the mention.
+- Make the post useful even if the guest never reshares it.
 - First line must stop the scroll
 - Body must add value beyond the episode title
 - CTA must be specific and singular
@@ -43,7 +46,13 @@ Tie appreciation to a useful idea; a guest tag alone is not a reason to read.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+Fictional example; replace the bracketed mention with the verified guest profile:
+
+> Thank you, [guest], for making project handoffs concrete in our conversation.
+>
+> Your example—write down the next action and its owner before a meeting ends—gives team leads something to try in their next planning session.
+>
+> Listen to the full discussion: [episode URL].
 
 ## Prompt Template
 
@@ -53,6 +62,9 @@ Copy and customize this prompt to generate this pattern:
 Write a Guest Tag social post for LinkedIn (Linkedin Gratitude version).
 
 Context:
+- Contribution to thank the guest for: [specific explanation or example]
+- Verified guest profile: [profile to select when posting]
+- Reader application: [what the audience can do with the idea]
 - Episode title: [title of the episode]
 - Guest name: [guest full name]
 - Guest company/title: [their role]

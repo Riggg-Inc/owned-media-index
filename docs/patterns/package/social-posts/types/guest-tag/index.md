@@ -4,7 +4,7 @@ description: "Guest Tag social post pattern: purpose, existing score, evidence l
 
 # Guest Tag
 
-A post designed to tag the guest and their company, activating cross-promotion and extending reach into the guest's network.
+A post that recognizes a guest's contribution and invites them to share the conversation. Tag the relevant guest or company when appropriate; give readers a useful idea, not just a mention.
 
 **Stage:** Package → Social Posts  
 **Score:** 4  
@@ -12,7 +12,7 @@ A post designed to tag the guest and their company, activating cross-promotion a
 
 ## What It Is
 
-A post designed to tag the guest and their company, activating cross-promotion and extending reach into the guest's network.
+A post that recognizes a guest's contribution and invites them to share the conversation. Tag the relevant guest or company when appropriate; give readers a useful idea, not just a mention.
 
 ## Versions
 

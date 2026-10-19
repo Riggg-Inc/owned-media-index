@@ -36,6 +36,9 @@ Give a current reason to revisit it rather than presenting an old release as new
 
 ## Quality Bar
 
+- Identify the older episode without calling it new.
+- Explain a present-day reason to revisit the lesson.
+- Recheck any dated claims before quoting them.
 - First line must stop the scroll
 - Body must add value beyond the episode title
 - CTA must be specific and singular
@@ -43,7 +46,13 @@ Give a current reason to revisit it rather than presenting an old release as new
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+Fictional example, not a measured result:
+
+> Revisiting a useful lesson from our June episode: document who owns the next step before a project handoff.
+>
+> If your team is planning a new quarter, try adding an owner and due date to one handoff this week. That is the specific practice our fictional guest described—not a claim that every team needs a new process.
+>
+> Listen to the original conversation: [episode URL].
 
 ## Prompt Template
 
@@ -53,6 +62,9 @@ Copy and customize this prompt to generate this pattern:
 Write a Evergreen Reshare social post for LinkedIn (Linkedin Throwback version).
 
 Context:
+- Original publication date: [date]
+- Why this lesson matters now: [current reader problem]
+- Accuracy check: [what you rechecked; omit stale specifics]
 - Episode title: [title of the episode]
 - Guest name: [guest full name]
 - Guest company/title: [their role]
