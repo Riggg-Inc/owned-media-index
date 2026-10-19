@@ -1,35 +1,46 @@
-# Session performance scorecard - light worksheet
+# Session Performance Scorecard
 
-Proposed Riggg adaptation, not a validated numerical grade.
+Decide what to improve in your next episode. Keep five checks, two useful results and one clear action.
 Guide: https://index.riggg.com/patterns/prove/session-performance-scorecard/
-Keep one header, five checks, two or three evidence rows, and one decision.
 
-**Session header:** [ID/title + asset/report links; audience and goal; target or baseline-building; reviewer; actual release anchor; outcome window start/end/time zone; decision date. Note staggered asset windows.]
+**Episode and published links:**
+**Who was it for, and what did we want them to do or understand?**
+**Publication date:**
+**Dates covered by results:**
+**Reviewer:**
 
 ## Five checks
-Use verified / needs attention / not checked / not applicable, with evidence or an exception.
 
-| Check | Status + evidence/exception |
-| --- | --- |
-| Produce: source opens and required content is intelligible; repairs logged | [Answer; playback check link and full/sampled scope] |
-| Package: source meaning, accurate promise, usable captions/transcript, permitted use | [Answer; final-version check and restrictions] |
-| Publish: actual live destinations, correct version, playback/access and CTA | [Answer; URLs and actual release times; missing assets] |
-| Prove: evidence below answers the goal; availability and baseline explicit | [Answer; reports or missing-data reason] |
-| Preserve: teammate can find/open source, finals and transcript with context/restrictions | [Answer; inventory/retrieval check; candidate versus actual reuse] |
+Use checked / needs fixing / not checked / doesn't apply, plus a note or link. No points or total grade. For Prove, write what you learned or what is missing.
 
-## Two or three evidence rows
-Shared window is in the header. A concrete qualitative observation may replace a metric.
+- **Produce:** Is the recording usable for the content we planned? [Status + note/link]
+- **Package:** Are edits accurate, captions checked and permissions sorted? [Status + note/link]
+- **Publish:** Is the right version live, with working playback and links? [Status + note/link]
+- **Prove:** What do the results tell us about our goal? [Note, or what's missing]
+- **Preserve:** Can a teammate find and open the recording, final edits and transcript? [Status + folder link]
 
-| Measure or observation + source/asset | Result + comparison | Meaning or limit |
-| --- | --- | --- |
-| [Primary goal evidence; report link] | [Value/unit or unavailable + reason; target/baseline] | [What it supports and does not] |
-| [Diagnostic evidence; report link] | [Value/unit; numerator/denominator for a rate] | [Coverage or alternative explanation] |
-| [Optional third row - delete if unnecessary] | [Comparable window or labeled difference] | [What remains unknown] |
+## Two useful results
 
-**One decision:** [repeat / improve / stop / defer a specific practice, because evidence + uncertainty].
-**Next action:** [one change + completion check]. **Owner:** [one person].
-**Due / next review:** [chosen dates].
+**Result 1:**
+- What happened?
+- Where did we find it? [Report/link and dates]
+- What should we check or change?
 
-Before release: source/final/rights checks. At release: verify actual access and links. At the chosen outcome window: review evidence. Preserve now; recheck currency/context/permissions when reusing later. No universal review duration.
+**Result 2:**
+- What happened?
+- Where did we find it? [Report/link and dates]
+- What should we check or change?
 
-Unknown, thresholded or uncollected is not zero. Use compatible rate cohorts and release-age comparisons. Clicks are not inquiries; downloads are not confirmed listeners; do not sum platforms into unique reach. Keep personal details in authorized evidence systems, not this sheet. These checks are not a full legal or accessibility review.
+Add a third result only if it changes your decision. Audience questions or feedback can count as a result. If data isn't available, say why; don't write zero. Compare similar episodes at the same time after publication. When using a percentage, include the counts behind it from the same group and dates.
+
+## One next action
+
+Next time we will [change or keep a practice], because [what we noticed].
+**Person responsible:**
+**Specific task:**
+**Due date:**
+**Next review:**
+
+Check recording, edits and permissions before release; test playback and links once published. Mark what you actually checked, including whether playback was full or sampled. Fix release problems separately from judging audience response. Keep usage restrictions with saved files and recheck them before reuse. Link private reports rather than copying personal details into this sheet.
+
+A viewing dip is a clue, not proof of its cause. Clicks aren't inquiries; downloads aren't confirmed listening. This review doesn't replace production checks or prove that an episode caused a sale.

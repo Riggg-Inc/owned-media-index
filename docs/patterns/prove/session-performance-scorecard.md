@@ -1,133 +1,127 @@
 ---
-description: "Review one recorded session with five practical checks, two or three goal-relevant measures, and one owned action. Includes a worksheet and fictional example."
+description: "Decide what to improve in your next episode with five checks, two useful results and one clear action. Copy the worksheet or follow the worked example."
 ---
 
 # Session Performance Scorecard
 
-A session performance scorecard is a short review of one recorded session and the assets made from it. Use it to check what shipped, examine evidence against the session's goal, and decide what to repeat, improve, or stop. Start with five checks, two or three relevant measures, and one action—not a composite grade.
+You published an episode. What should you do differently next time? Use this scorecard to spot unfinished work, look at how your audience responded, and choose one improvement. Leave with a clear action—not another report nobody uses.
 
 **Stage:** Prove  
 **Score:** 4  
 **Evidence:** hypothesis
 
-The worksheet below is a proposed Riggg adaptation of third-party measurement and production guidance. The article's Score and Evidence labels above describe the pattern, not a session result. There are no validated session benchmarks or scoring weights here.
+Use it for a recorded interview, podcast episode or webinar recording and the clips or articles you made from it. Bring your published links, any audience results you have, and someone who can act on what you find.
 
-## Start with the decision
+[Get the Markdown worksheet](../../assets/downloads/riggg-session-scorecard-light-v1.md.txt){ download="riggg-session-scorecard-light-v1.md" } · [Get the spreadsheet (CSV)](../../assets/downloads/riggg-session-scorecard-light-v1.csv){ download="riggg-session-scorecard-light-v1.csv" }
 
-Use this for a recorded interview, episode, webinar recording, or similar source session and its derivatives. It works best when someone needs to make a concrete editorial or distribution decision before the next release. It does not assess live facilitation or replace media QA.
+## Copy this into your next episode review
 
-Write one goal: **Help [audience] do or understand [something useful], supporting [purpose], by [chosen review point].** Agree a target or explicitly choose baseline-building. “Publish three clips” describes work; it does not establish that anyone benefited. AMEC recommends setting objectives and measures before activity and distinguishing activity from audience effects. [M1, M2](#sources-and-practice-notes)
+**Episode and published links:**  
+**Who was it for, and what did we want them to do or understand?**  
+**Publication date / dates covered by results / reviewer:**
 
-If reviewing retrospectively, label the goal reconstructed. With sparse data, keep the operational checks and concrete feedback; defer effectiveness claims rather than manufacturing a grade.
+- **Produce:** Is the recording usable? [Status + note/link]
+- **Package:** Are edits, captions and permissions checked? [Status + note/link]
+- **Publish:** Is the right version live, with working playback and links? [Status + note/link]
+- **Prove:** What do the results tell us about our goal? [Note, or what's missing]
+- **Preserve:** Can a teammate find and open the files? [Status + folder link]
 
-## Copy the light worksheet
+**Result 1:** What happened? Where did we find it? What should we check or change?  
+**Result 2:** What happened? Where did we find it? What should we check or change?  
+**Next action / person responsible / due date / next review:**
 
-[Download Markdown worksheet](../../assets/downloads/riggg-session-scorecard-light-v1.md.txt){ download="riggg-session-scorecard-light-v1.md" } · [Download CSV worksheet](../../assets/downloads/riggg-session-scorecard-light-v1.csv){ download="riggg-session-scorecard-light-v1.csv" }
+Add a third result only if it changes the decision. Use links to existing reports instead of copying private audience or customer details into the sheet. The downloads use this same form; if the Markdown file saves with a .txt ending, rename it to .md.
 
-The Markdown download uses a plain-text transport filename so it remains a file, not a second article; save it as `.md` if your browser retains `.txt`. Both versions contain the same compact form. Link existing briefs, checks and reports instead of re-entering them.
+Use the four steps below when you need help filling it in.
 
-**Session header:** ID/title + asset/report links; audience and goal; target or baseline-building; reviewer; actual release anchor; outcome window (start/end/time zone) and decision date. Note per-asset windows when releases are staggered.
+## 1. Say what this episode was meant to do
 
-Use **verified / needs attention / not checked / not applicable** for checks, with a short evidence reference or exception. These are proposed operating statuses, not points.
+Finish this sentence: **“We made this for ___ so they could ___.”**
 
-| 5P check | One useful answer |
-| --- | --- |
-| **Produce — Create clean, flexible source media.** | Can we open and understand the source needed for the agreed assets? Note missing material or repairs and link the playback check. |
-| **Package — Turn the source media into usable assets.** | Do the final assets keep source meaning, deliver their title's promise, and have usable captions/transcript and cleared use? Link the final-version check; flag unresolved restrictions. |
-| **Publish — Get the assets into the right places.** | What actually went live, where and when? Link tested destinations; separate missing/processing assets from audience performance. |
-| **Prove — Measure whether the system worked.** | Do the two or three rows below answer the goal? Identify what is available, provisional or missing; no baseline is an acceptable answer. |
-| **Preserve — Make the content compound.** | Can an authorized teammate find and open source, final assets and transcript with context and restrictions? Separate a future reuse candidate from a reuse that actually happened. |
+For example: “We made this for marketing managers so they could plan their first remote recording and use our checklist.”
 
-These are the [Riggg 5Ps](../../framework.md), used as an organizer—not AMEC's evaluation stages. The checks are our mapping: source/context fidelity and captions draw on BBC and GSA guidance; retrieval and version context draw on DPC guidance. [O2, O5, O7](#sources-and-practice-notes)
+That gives you something useful to review. “We published an episode and three clips” tells you what your team produced, not whether it helped anyone.
 
-**Keep only two or three goal-relevant evidence rows.** A useful qualitative observation can take a row instead of a metric. Put shared window details in the header; record exceptions in the row.
+This idea comes from **AMEC (the International Association for Measurement and Evaluation of Communication)**, an industry body for measuring communications. Its [framework](https://amecorg.com/amecframework/) says to set your goal first, then check what changed for your audience, not just how much you made.
 
-| Measure or observation + source/asset | Result + comparison | Meaning or limit |
+Ideally, set the goal before recording. If you're reviewing an older episode, write down the goal now and note that you chose it after publication. If you have no previous results to compare with, use this review as your starting point.
+
+## 2. Check what worked—and what still needs fixing
+
+Work down these five questions. They follow the [Riggg 5Ps](../../framework.md), our five steps from making an episode to keeping it: Produce, Package, Publish, Prove and Preserve. Write **checked**, **needs fixing**, **not checked**, or **doesn't apply**, plus a link or short note. Don't award points or calculate a total.
+
+| Check | Ask this | Example note |
 | --- | --- | --- |
-| [Primary goal evidence; report link] | [Value/unit, or unavailable + reason; target/baseline] | [What it supports—and does not] |
-| [Diagnostic evidence; report link] | [Value/unit; numerator/denominator for a rate] | [Coverage or alternative explanation] |
-| [Optional third row; otherwise delete] | [Comparable window, or label the difference] | [What remains unknown] |
+| **Produce** | Is the recording usable for the content we planned? | “Audio dropout repaired from the backup.” |
+| **Package** | Are the edits accurate, the captions checked, and permissions sorted? | “Episode ready; one clip held until we can use its chart.” |
+| **Publish** | Is the right version actually available, and do playback and links work? | “Episode and one clip live; checklist link tested.” |
+| **Prove** | What can we learn about the goal from the results below? | “Checklist clicks recorded; no earlier episode to compare with yet.” |
+| **Preserve** | Could a teammate find and open the recording, final edits and transcript? | “Files and usage restrictions saved in the episode folder.” |
 
-**One decision:** repeat / improve / stop / defer **[specific practice]**, because **[evidence and uncertainty]**. **Next action:** [one change + completion check]. **Owner:** [one person]. **Due / next review:** [dates chosen for this decision].
+Check the recording and final edits before release, then test the published version. Review audience results when they've had time to arrive and you still have time to use the findings. Choose a review date that fits your publishing schedule; there isn't one correct waiting period for every episode.
 
-## Check at the right moment
+These questions help you keep track of checks, not replace them. “Checked” should point to work someone actually did. If you only sampled playback, say so. Keep unresolved permissions or misleading edits out of publication.
 
-- **Before release:** check source, final edits, accessibility, permissions and CTA destination. Record whether playback was full or sampled; a short review meeting is not full media QA. Hold an affected asset when a material source-context or permission issue is unresolved.
-- **At actual release:** test the intended audience's access, correct version, playback, captions/transcript and links. Uploaded or scheduled is not live. Apple's feed validation is a technical check, not approval or proof of audience reach. [O4](#sources-and-practice-notes)
-- **At the chosen outcome window:** use the release date, not recording date, to compare performance at a similar age. Choose timing around the decision and expected response lag; there is no universal 30-day requirement. YouTube retention usually needs 1–2 days to process; that is a processing note, not a deadline or success threshold. [M5, M6](#sources-and-practice-notes)
-- **Preserve now; evaluate reuse later:** keep the usable source and final versions, transcript, identifiers and restrictions during production. Test retrieval. When a real reuse opportunity arrives, check current accuracy, context and permissions again; record actual reuse separately. [O5, O7, O8](#sources-and-practice-notes)
+## 3. Pick two results that help you decide
 
-## Filled example: entirely fictional
+Don't copy your entire analytics dashboard. Pick one result connected to your goal and another that helps explain what to improve. A specific audience question or piece of feedback can be more useful than another number.
 
-!!! note "Invented demonstration—not Riggg or client results"
-    All identifiers, people, counts, evidence labels and events below are fictional. Relative dates describe this teaching scenario, not actual reviews. The example supplies no performance benchmark.
-
-**Header:** DEMO-001, “Planning a remote recording”; 24-minute episode for small marketing teams. Goal: help teams evaluate readiness and visit a planning checklist. Baseline-building; no numerical target. Reviewer: Mira (fictional). Episode/page released on Day 0 at 12:00 UTC; outcome window Day 0 at 12:00 to Day 14 at 12:00 UTC, end exclusive; decision on Day 16. Evidence labels refer to imaginary records, not real links. Clips released on Day 7 are outside the episode comparison.
-
-| Check | Fictional answer |
-| --- | --- |
-| Produce | **Verified:** source opens; dropout repaired from backup (edit log A). |
-| Package | **Verified for episode:** final playback and corrected captions checked; source qualifier restored. Second clip **needs attention:** supplied chart permission unresolved (review B). |
-| Publish | **Verified:** episode and page live, links tested on Day 0 (release log C). One of two planned clips shipped on Day 7; chart clip held. |
-| Prove | **Verified collection, limited inference:** two rows below use the stated episode window; no comparable baseline (reports D/E). |
-| Preserve | **Verified retrieval:** teammate finds and opens master/transcript with restrictions (inventory F). Onboarding excerpt is a candidate; no actual reuse yet. |
-
-| Measure or observation + source/asset | Result + comparison | Meaning or limit |
+| If your goal was to… | Start by looking at… | What you might do next |
 | --- | --- | --- |
-| Website sessions with a checklist CTA click / tracked episode-page sessions (report D) | 12/100 = **12%**, same consented session cohort/window. No baseline. | Sessions with at least one click, not total click events, people or inquiries. Untracked sessions excluded. |
-| YouTube episode retention (report E) | **62%** still watching at 30 seconds; dip near the setup preamble at 00:20. No baseline. | Inspect the passage. This does not establish that the preamble caused exits or that viewers understood the advice. |
+| Help viewers follow an explanation | Where viewing drops off, plus questions people asked | Watch that passage and check whether the explanation needs work. |
+| Send people to a useful resource | Clicks on the resource link | Check whether the invitation and destination are clear and useful. |
+| Start sales conversations | Relevant inquiries and what those people say brought them to you | Review which questions or topics deserve a follow-up episode. |
 
-**Decision: improve the opening.** The dip identifies a passage to inspect, not a proven cause. **Action:** editor Jo drafts a shorter setup and checks that the promise and qualifying context survive in the next cut. **Owner:** Jo (fictional). **Due:** Day 20, before next release; **next review:** after that episode's same 14-day window and processing. Changing the opening is a learning step, not a controlled experiment. Clip clearance remains a release blocker in review B, not a reason to call the whole topic unsuccessful.
+For each result, write **what happened, where you found it, and what it suggests you should check or change**. Include the dates covered by the report.
 
-## Choose measures without changing their meaning
+Keep comparisons fair: an episode published yesterday hasn't had the same chance as one published last month. Compare similar episodes at a similar time after publication, and note important differences such as paid promotion. If the data isn't available, write “not available” and why—not zero.
 
-Use only the definitions needed for your goal. These optional notes are not more required worksheet rows.
+## 4. Choose one thing to do next
 
-??? info "Exposure, consumption and action are different"
-    **Podcast downloads** describe delivered data under a provider's filtering and deduplication method—not confirmed listening. Raw download requests are not listeners. IAB's measurement rules are not a business-review schedule. [M3](#sources-and-practice-notes)
+Finish with a sentence someone can act on:
 
-    **YouTube thumbnail CTR** uses views from registered impressions, not all views divided by impressions. Retention describes viewing behavior; spikes may reflect rewatching or confusion, and dips may reflect skipping or leaving. Neither proves understanding. [M4, M5](#sources-and-practice-notes)
+> **Next time we will [change], because [what we noticed]. [Name] will [specific task] by [date]. We'll review it again on [date].**
 
-    **Apple consumption** describes the Apple audience, not every podcast listener. If calculating engaged-listener share, use engaged listeners / listeners for the same episode and window; Apple's definition is at least 20 minutes or 40% consumed. Average consumption is a different measure. [M6](#sources-and-practice-notes)
+Keep something that worked, improve a weak spot, stop an unhelpful practice, or wait for more information. You don't have to change something just to fill the box. A broken link needs fixing now; a disappointing view count needs investigation, not an automatic verdict that the topic failed.
 
-    **CTA clicks** are not inquiries. Verify inquiries separately; do not infer sales from either. For OMI, visits to riggg.com and confirmed riggg.com inquiries remain separate. Tracked referral, self-report and model-assigned attribution credit are different kinds of association—not proof of incremental impact. [M1, M7](#sources-and-practice-notes)
+## Example: turn a viewing dip into an editing decision
 
-    Never sum platform viewers, listeners and downloads into deduplicated reach. Use compatible numerators and denominators; if a cross-system join is not defensible, show separate counts instead of a conversion rate.
+**Fictional example—all people, numbers and events below are invented.**
 
-??? info "Comparisons, missing data and evidence access"
-    Compare the same definition and release-age window, with similar format, length, distribution and paid support where possible. Name the comparison cohort; disclose differences rather than hiding them in an average. Apple supports equal-age comparisons; our broader matching advice is an operating choice. [M6](#sources-and-practice-notes)
+A team publishes a 24-minute episode called “Planning a remote recording.” They want marketing managers to use a planning checklist. They review the episode's first 14 days, two days after that period ends. This is their first review, so they have no earlier result to beat.
 
-    Without a comparable baseline, say so. Show counts alongside rates and avoid declaring a winner from one small sample. A platform's reporting threshold is not a statistical adequacy test.
+Their five checks show that the recording is usable, the episode and captions are checked, and the published links work. One clip is still held because permission to use a chart hasn't arrived. The recording, final edit and transcript are easy to find.
 
-    **Available zero** means the measure was collected with sufficient coverage and returned zero. **Unavailable, thresholded, not collected or not yet processed** means unknown—not zero. Keep an export or dated report reference, and note a changed window or definition. GA4 may withhold some data for privacy. [M8](#sources-and-practice-notes)
+They keep just two results:
 
-    Link access-controlled evidence rather than copying personal details into a general sheet. Include permission scope and source restrictions; recheck them before reuse. These practical checks are not a full legal or accessibility review. Use a specialist review where the asset's risk requires one.
+| What they found | What they take from it |
+| --- | --- |
+| On the episode page, 12 of 100 visits counted by the website analytics included a checklist-link click: **12%**. Both counts cover the same 14 days and the same set of visits. | Some visits led to the resource. Analytics calls these visits “sessions”; one person can visit more than once. These are not sales inquiries, and visits the analytics could not count are left out. |
+| YouTube shows **62%** of viewers still watching at 30 seconds, with a dip around the opening setup. | Watch the opening again. The dip shows where people skipped or left; it doesn't tell the team why. |
 
-## Quality bar and when to stop
+On replay, the editor thinks the long setup can be shortened without losing important context. The team writes:
 
-A useful review lets another teammate follow the evidence and complete one change. It separates fixable release defects from audience response, and potential reuse from actual use. Stop adding fields when they no longer change the decision. Do not use this sheet to rank unlike sessions, prove causal ROI, or substitute for technical, editorial or rights review.
+> “For the next episode, we'll try a shorter opening that gets to the recording checklist sooner. Jo will draft it before Friday's edit review. We'll compare results after the next episode's first 14 days.”
+
+That is a useful next step, not proof the shorter opening will work. The held clip still needs permission; it isn't evidence that the episode's topic was unsuccessful.
+
+## Avoid three easy mistakes
+
+- **Don't treat every number as the same kind of success.** A download isn't confirmed listening. A click isn't an inquiry. Adding YouTube viewers to podcast listeners doesn't tell you how many different people you reached.
+- **Don't turn a clue into a cause.** A viewing dip tells you where to investigate. It doesn't prove why people left or that your next edit will fix it.
+- **Don't let the worksheet become the work.** Stop when you have enough information for a useful decision. This isn't a way to grade unlike episodes or prove that one recording caused a sale.
 
 ## Sources and practice notes
 
-These are issuer guidelines and platform definitions, not independent studies validating the worksheet. The 5P mapping, compact form, status labels, timing and decision format are our proposed adaptation. No growth estimate or universal threshold is established by this material.
+This worksheet is Riggg's practical adaptation of measurement, editing and preservation guidance. The sources below inform particular checks; they don't test or endorse this worksheet.
 
-**Measurement**
-
-- **M1 — AMEC, [A Taxonomy of Evaluation](https://amecorg.com/amecframework/home/supporting-material/taxonomy/):** stages table and footnotes 3, 4, 6, 8 distinguish evaluation levels and caution about causation. Not a linear session funnel.
-- **M2 — AMEC, [Integrated Evaluation Framework](https://amecorg.com/amecframework/):** introduction supports objectives, benchmarks and measures set before activity—not prescribed episode KPIs.
-- **M3 — IAB Tech Lab, [Podcast Measurement Technical Guidelines v2.2](https://iabtechlab.com/wp-content/uploads/2024/02/PodcastMeasurement_v2.2_final.pdf):** sections 2–3, 5.2–5.4 and 6 distinguish filtered delivery, inferred audiences and playback. No provider certification is asserted here.
-- **M4 — YouTube, [Thumbnail impressions and watch time](https://support.google.com/youtube/answer/9314486?hl=en):** “Where are impressions counted?” and “Metrics to know” define the eligible-impression denominator.
-- **M5 — YouTube, [Key moments for audience retention](https://support.google.com/youtube/answer/9314415?hl=en):** “Intros,” “Spikes,” “Dips” and segment guidance support inspection, not a causal diagnosis.
-- **M6 — Apple Podcasts, [Analytics](https://podcasters.apple.com/support/5392-listener-analytics):** “Episodes” and “Performance” define consumption measures and equal-days-since-release comparisons; Apple-only coverage.
-- **M7 — Google Analytics, [Get started with attribution](https://support.google.com/analytics/answer/10596866?hl=en):** overview and attribution settings explain model-assigned credit and windows, not proof of a single episode's incremental effect.
-- **M8 — Google Analytics, [About data thresholds](https://support.google.com/analytics/answer/9383630?hl=en):** “Why data may be withheld” supports recording availability rather than inventing zeros.
-
-**Production and preservation**
-
-- **O2 — GSA, [Captions and Transcripts](https://www.section508.gov/create/captions-transcripts/):** general guidelines and automatic-caption guidance support corrected text, timing and accessible transcripts; not a compliance determination.
-- **O4 — Apple Podcasts, [Validate your podcast](https://podcasters.apple.com/support/829-validate-your-podcast):** introduction and validation errors distinguish technical validation from approval. Live destination checks are our extension.
-- **O5 — BBC, [Accuracy guidelines](https://www.bbc.com/editorialguidelines/guidelines/accuracy/guidelines/):** gathering material, context, production techniques and archive sections support checking claims, non-misleading edits and current reuse context. BBC's internal procedures are not imposed here.
-- **O7 — Digital Preservation Coalition, [Creating digital materials](https://www.dpconline.org/handbook/organisational-activities/creating-digital-materials):** introduction and born-digital guidance support find/open/understand/trust checks and metadata at creation; not a promise of commercial return.
-- **O8 — Library of Congress, [Moving Image Works](https://www.loc.gov/preservation/resources/rfs/moving.html):** video, audio and metadata sections support identifiable complete masters distinct from viewing proxies. Its acquisition-format preferences are not mandatory creator codecs.
+- **AMEC:** [Integrated Evaluation Framework](https://amecorg.com/amecframework/) and [Taxonomy of Evaluation](https://amecorg.com/amecframework/home/supporting-material/taxonomy/)—set objectives first and distinguish work produced from audience effects.
+- **YouTube:** [Key moments for audience retention](https://support.google.com/youtube/answer/9314415?hl=en)—use viewing dips and spikes to inspect passages, not to assume what caused the behavior.
+- **Apple Podcasts:** [Analytics](https://podcasters.apple.com/support/5392-listener-analytics)—compare episode performance over the same number of days since release. Apple reports its own audience, not every podcast listener.
+- **IAB Tech Lab:** [Podcast Measurement Technical Guidelines v2.2](https://iabtechlab.com/wp-content/uploads/2024/02/PodcastMeasurement_v2.2_final.pdf)—download delivery and confirmed playback are different.
+- **Google Analytics:** [About data thresholds](https://support.google.com/analytics/answer/9383630?hl=en)—some report data can be withheld; missing data isn't a measured zero.
+- **BBC:** [Accuracy guidelines](https://www.bbc.com/editorialguidelines/guidelines/accuracy/guidelines/)—check meaning and context when editing or reusing material.
+- **U.S. General Services Administration:** [Captions and Transcripts](https://www.section508.gov/create/captions-transcripts/)—check automatic captions for accuracy and timing. Captions alone aren't a complete accessibility review.
+- **Digital Preservation Coalition:** [Creating digital materials](https://www.dpconline.org/handbook/organisational-activities/creating-digital-materials)—keep files and enough context for someone to find, open and understand them later. Recheck accuracy and permissions before reuse.
 
 Related: [The 5Ps framework](../../framework.md) · [What is owned media?](../../owned-media.md)
