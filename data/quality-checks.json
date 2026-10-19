@@ -4658,6 +4658,375 @@
         "reason": "Await exact owner-approved shared contrast correction; hub prose does not require a rewrite.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md": [
+      {
+        "id": "quality-20261019-linkedin-throwback",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-19T16:48:07Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "a388921a6c36075a48a1e4e934ca1cf535237478f528db85b41b47f33c37f309",
+        "report_ref": "docs-internal/quality-reviews/2026-10-19/linkedin-throwback.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly chooses an older lesson with a current reason to revisit it; useful framing prevents disguising a past release as new."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The Example is Coming soon and the generic hook/body/CTA template supplies neither original publication date nor present-day relevance inputs. The promised throwback execution remains underspecified."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The current-reason introduction and When To Use agree; repeated definition is minor padding, not an independent blocker."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Evergreen hub calls for new framing; this leaf agrees with the Twitter sibling on reusing accurate older material rather than announcing a new episode."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 1300-character instruction explicitly identifies an editorial target, not a platform limit or optimum. No statistical or reach guarantee is made."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The 1300-character instruction explicitly identifies an editorial target, not a platform limit or optimum. No statistical or reach guarantee is made. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Evergreen hub calls for new framing; this leaf agrees with the Twitter sibling on reusing accurate older material rather than announcing a new episode.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Evergreen hub calls for new framing; this leaf agrees with the Twitter sibling on reusing accurate older material rather than announcing a new episode.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-18T16:48:07Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/evergreen-reshare/twitter-resurface.md": [
+      {
+        "id": "quality-20261019-twitter-resurface",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-19T16:48:07Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d64c8c03a28889fda84641da02d104e316187dcba711854564f4cc9d8ec0d119",
+        "report_ref": "docs-internal/quality-reviews/2026-10-19/twitter-resurface.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a usable selection principle: choose an older insight that remains accurate and check time-sensitive claims."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Coming soon replaces the worked example, and the prompt omits the original date, what was rechecked and the new audience reason. Generic placeholders do not operationalize resurfacing."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Selecting an evergreen point and rechecking dated claims are compatible; hook/body/CTA is logically organized but insufficiently specific."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Evergreen hub and LinkedIn sibling both call for a new reason to revisit older content, not a false new-release announcement."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Official X counting guidance supports a 280 weighted-character short-post budget including 23 per URL. Read in this short-version context, the instruction is serviceable; not certification of every paid post format."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Official X counting guidance supports a 280 weighted-character short-post budget including 23 per URL. Read in this short-version context, the instruction is serviceable; not certification of every paid post format.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "The short post version uses a 280 character budget including its episode URL.",
+              "finding": "Official X documentation supports 280 weighted characters and 23 per URL; emoji and Unicode may count differently. This is short-post scope, not all paid longer-post features.",
+              "checked_at": "2026-10-19T16:46:25Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Evergreen hub and LinkedIn sibling both call for a new reason to revisit older content, not a false new-release announcement.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/evergreen-reshare/linkedin-throwback.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Evergreen hub and LinkedIn sibling both call for a new reason to revisit older content, not a false new-release announcement.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-18T16:48:07Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/guest-tag/index.md": [
+      {
+        "id": "quality-20261019-guest-tag",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-19T16:48:07Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "768188f6d6205a0f63aed69d8e576c0e53aab44b81cd30f32b62c19f99f71736",
+        "report_ref": "docs-internal/quality-reviews/2026-10-19/guest-tag.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Versions clearly routes a reader to a professional thank-you or a quick moment reference, making this a useful small selector."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Two distinct version descriptions and working destinations are sufficient for a hub; no forced pattern template or example is needed here."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition and table concern the same guest recognition task; repeated introductory sentence is optional editing rather than a failure."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "LinkedIn Gratitude explicitly says a guest tag alone is not a reason to read, while this hub states tagging activates cross-promotion and extends reach. The parent should describe an invitation, not an automatic result."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Activating cross-promotion and extending reach into the guest network are asserted consequences without support. Recognition can invite sharing but does not ensure guest action or distribution."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Twitter/X selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The hub supplies no evidence that tagging automatically activates sharing or expands reach. This unsupported causal wording is not accepted as verified; recommend an invitation-oriented correction, not a numerical counterclaim. No external source read is claimed for this narrow editorial finding.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Gratitude explicitly says a guest tag alone is not a reason to read, while this hub states tagging activates cross-promotion and extends reach. The parent should describe an invitation, not an automatic result.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/twitter-shoutout.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Gratitude explicitly says a guest tag alone is not a reason to read, while this hub states tagging activates cross-promotion and extends reach. The parent should describe an invitation, not an automatic result.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-18T16:48:07Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and targeted hub claim correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md": [
+      {
+        "id": "quality-20261019-linkedin-gratitude",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-19T16:48:07Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ae6e128e7c5025257e0f7c289f072591c7f4508485cb32c52efd9b38d0907228",
+        "report_ref": "docs-internal/quality-reviews/2026-10-19/linkedin-gratitude.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening correctly ties thanks to the specific contribution and useful idea rather than merely tagging a name."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The promised gratitude example is Coming soon. The prompt does not ask for the contribution being thanked, verified guest profile or useful reader application, leaving the core differentiator implicit."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Specific appreciation, useful idea and a single CTA fit together; generic prompt sections do not contradict that purpose."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Twitter Shoutout also asks for specific appreciation and a reason to follow the link. The hub overstates reach; correct that hub instead of weakening the leaf."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 1300-character drafting target is explicitly editorial. Stop the scroll is a writing aspiration, not a measured claim or guarantee; no experimental proof demanded."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The 1300-character drafting target is explicitly editorial. Stop the scroll is a writing aspiration, not a measured claim or guarantee; no experimental proof demanded. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Twitter Shoutout also asks for specific appreciation and a reason to follow the link. The hub overstates reach; correct that hub instead of weakening the leaf.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/twitter-shoutout.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Twitter Shoutout also asks for specific appreciation and a reason to follow the link. The hub overstates reach; correct that hub instead of weakening the leaf.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-18T16:48:07Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/guest-tag/twitter-shoutout.md": [
+      {
+        "id": "quality-20261019-twitter-shoutout",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-19T16:48:07Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7f55e29eeeaf583f0e99dba44f8f5e1071d4a7c963de191418db2be5fe3c09f5",
+        "report_ref": "docs-internal/quality-reviews/2026-10-19/twitter-shoutout.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The introduction asks for specific appreciation, appropriate tagging and a reason to follow the conversation, giving a recognizable short-post task."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Coming soon is not a worked shoutout. Generic guest name and insight fields omit verified handle and the exact contribution to acknowledge; a concise illustrative post is needed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Recognition and directing readers to the conversation are consistent; short format and single CTA remain sensible constraints."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "LinkedIn Gratitude similarly prioritizes the guest contribution rather than a tag. The hub automatic reach wording should be corrected at its source."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Official X documentation supports 280 weighted characters for the short post and 23 per URL, with new mentions counted. No reach increase follows merely from tagging."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; light desktop and dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Official X documentation supports 280 weighted characters for the short post and 23 per URL, with new mentions counted. No reach increase follows merely from tagging.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "The short post version uses a 280 character budget including its episode URL.",
+              "finding": "Official X documentation supports 280 weighted characters and 23 per URL; emoji and Unicode may count differently. This is short-post scope, not all paid longer-post features.",
+              "checked_at": "2026-10-19T16:46:25Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Gratitude similarly prioritizes the guest contribution rather than a tag. The hub automatic reach wording should be corrected at its source.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/guest-tag/linkedin-gratitude.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Gratitude similarly prioritizes the guest contribution rather than a tag. The hub automatic reach wording should be corrected at its source.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-19T16:48:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-18T16:48:07Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
