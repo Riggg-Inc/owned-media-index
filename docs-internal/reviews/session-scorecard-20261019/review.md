@@ -11,3 +11,5 @@ Content Lab lens: internal source 70 Research/Content Creation Lab/Videos/facebo
 Checks and independent editorial result to be appended after completion. Visual browser acceptance not performed in this revision and remains a publication gate. No main push, deployment, score change, public freshness or quality registry edits authorized.
 
 Independent editorial review: anthropic/claude-sonnet-5-5 returned pass with light revisions. Applied: copy-ready form moved immediately after introduction/downloads; 5Ps expanded; AMEC explanation simplified; website sessions explained as counted visits; dense CSV helper rows removed (guide remains linked). Did NOT adopt suggestion to delete/relabel Score/Evidence because that is the separately deferred scoring decision. These changes have not had a second independent review.
+
+Round 2 (Ledge 20:05 UTC): removed file-extension note; made checks an explicit check-fix-recheck quality gate; added AI-assisted workflow and prompt; worksheets aligned. Strict build, site/AEO validation, download parity and 109 regressions passed. Score/evidence unchanged; no visual acceptance or publication.

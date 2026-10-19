@@ -11,7 +11,7 @@ Guide: https://index.riggg.com/patterns/prove/session-performance-scorecard/
 
 ## Five checks
 
-Use checked / needs fixing / not checked / doesn't apply, plus a note or link. No points or total grade. For Prove, write what you learned or what is missing.
+Treat this as a quality gate: check, fix, recheck, then move on. Mark each item checked / needs fixing / not checked / doesn't apply, plus a note or link. Fix each needs-fixing item, recheck it and update its status; repeat until nothing is left as needs fixing, or the remaining problems have an owner and date. No points or total grade. For Prove, write what you learned or what is missing.
 
 - **Produce:** Is the recording usable for the content we planned? [Status + note/link]
 - **Package:** Are edits accurate, captions checked and permissions sorted? [Status + note/link]
@@ -40,6 +40,8 @@ Next time we will [change or keep a practice], because [what we noticed].
 **Specific task:**
 **Due date:**
 **Next review:**
+
+If using AI, ask it to quote its source for every answer, mark checked only when the materials show someone verified it, and write "not available" instead of estimating. Confirm its answers yourself before relying on them.
 
 Check recording, edits and permissions before release; test playback and links once published. Mark what you actually checked, including whether playback was full or sampled. Fix release problems separately from judging audience response. Keep usage restrictions with saved files and recheck them before reuse. Link private reports rather than copying personal details into this sheet.
 

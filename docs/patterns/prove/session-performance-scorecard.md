@@ -30,9 +30,9 @@ Use it for a recorded interview, podcast episode or webinar recording and the cl
 **Result 2:** What happened? Where did we find it? What should we check or change?  
 **Next action / person responsible / due date / next review:**
 
-Add a third result only if it changes the decision. Use links to existing reports instead of copying private audience or customer details into the sheet. The downloads use this same form; if the Markdown file saves with a .txt ending, rename it to .md.
+Add a third result only if it changes the decision. Use links to existing reports instead of copying private audience or customer details into the sheet. The downloads use this same form.
 
-Use the four steps below when you need help filling it in.
+Use the four steps below when you need help filling it in. Want an AI assistant to do the first pass? Jump to [Using AI to fill it in](#using-ai-to-fill-it-in).
 
 ## 1. Say what this episode was meant to do
 
@@ -48,7 +48,16 @@ Ideally, set the goal before recording. If you're reviewing an older episode, wr
 
 ## 2. Check what worked—and what still needs fixing
 
-Work down these five questions. They follow the [Riggg 5Ps](../../framework.md), our five steps from making an episode to keeping it: Produce, Package, Publish, Prove and Preserve. Write **checked**, **needs fixing**, **not checked**, or **doesn't apply**, plus a link or short note. Don't award points or calculate a total.
+Treat these five questions as a quality gate. They follow the [Riggg 5Ps](../../framework.md), our five steps from making an episode to keeping it: Produce, Package, Publish, Prove and Preserve.
+
+**Check, fix, recheck—then move on:**
+
+1. Mark each question **checked**, **needs fixing**, **not checked**, or **doesn't apply**, with a link or short note.
+2. Fix every **needs fixing** item. If you can't fix it yet, name who owns it and when.
+3. Recheck what you fixed and update its status.
+4. Repeat until nothing is left as **needs fixing**—or the remaining problems have owners and dates.
+
+Don't award points or calculate a total. The gate is simple: either it's ready, or there's a named next step.
 
 | Check | Ask this | Example note |
 | --- | --- | --- |
@@ -60,7 +69,7 @@ Work down these five questions. They follow the [Riggg 5Ps](../../framework.md),
 
 Check the recording and final edits before release, then test the published version. Review audience results when they've had time to arrive and you still have time to use the findings. Choose a review date that fits your publishing schedule; there isn't one correct waiting period for every episode.
 
-These questions help you keep track of checks, not replace them. “Checked” should point to work someone actually did. If you only sampled playback, say so. Keep unresolved permissions or misleading edits out of publication.
+This loop keeps track of checks; it does not replace them. “Checked” should point to work someone actually did. If you only sampled playback, say so. Keep unresolved permissions or misleading edits out of publication.
 
 ## 3. Pick two results that help you decide
 
@@ -104,6 +113,22 @@ On replay, the editor thinks the long setup can be shortened without losing impo
 > “For the next episode, we'll try a shorter opening that gets to the recording checklist sooner. Jo will draft it before Friday's edit review. We'll compare results after the next episode's first 14 days.”
 
 That is a useful next step, not proof the shorter opening will work. The held clip still needs permission; it isn't evidence that the episode's topic was unsuccessful.
+
+## Using AI to fill it in
+
+An AI assistant is useful for the first pass: reading your transcript, drafting the goal sentence, summarizing report exports, and spotting gaps. It can't replace the people who watched the final edit, tested the links, or hold permission to use the material. Treat what it writes as a draft for someone on your team to confirm.
+
+Paste this prompt, then add the worksheet, your published links, and any transcripts or exports you are allowed to share:
+
+> I'm reviewing one published episode. Use the worksheet below. Fill in only what the materials I've provided actually show, and quote or link the source for each answer.
+>
+> 1. Draft the goal sentence from the episode materials and say if you had to guess.
+> 2. Mark each check **checked**, **needs fixing**, **not checked** or **doesn't apply**. Mark **checked** only if the materials show someone verified it; otherwise write **not checked**.
+> 3. For each **needs fixing** item, suggest a fix and who might do it.
+> 4. Pick the two results most relevant to the goal. Show the counts behind any percentage and the dates they cover. If a number is missing, write "not available"—never estimate it.
+> 5. Suggest one next action in the "Next time we will…" format, and tell me what you couldn't determine.
+
+Then recheck it yourself: open the links, confirm the numbers against the reports, and change anything it guessed. Keep private audience, customer or personal details out of tools your organization hasn't approved for them. If you are using AI for the check-fix-recheck loop, rerun it after each fix and compare what changed.
 
 ## Avoid three easy mistakes
 
