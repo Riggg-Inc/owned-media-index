@@ -1,0 +1,48 @@
+# Session Performance Scorecard
+
+Decide what to improve in your next episode. Keep five checks, two useful results and one clear action.
+Guide: https://index.riggg.com/patterns/prove/session-performance-scorecard/
+
+**Episode and published links:**
+**Who was it for, and what did we want them to do or understand?**
+**Publication date:**
+**Dates covered by results:**
+**Reviewer:**
+
+## Five checks
+
+Treat this as a quality gate: check, fix, recheck, then move on. Mark each item checked / needs fixing / not checked / doesn't apply, plus a note or link. Fix each needs-fixing item, recheck it and update its status; repeat until nothing is left as needs fixing, or the remaining problems have an owner and date. No points or total grade. For Prove, write what you learned or what is missing.
+
+- **Produce:** Is the recording usable for the content we planned? [Status + note/link]
+- **Package:** Are edits accurate, captions checked and permissions sorted? [Status + note/link]
+- **Publish:** Is the right version live, with working playback and links? [Status + note/link]
+- **Prove:** What do the results tell us about our goal? [Note, or what's missing]
+- **Preserve:** Can a teammate find and open the recording, final edits and transcript? [Status + folder link]
+
+## Two useful results
+
+**Result 1:**
+- What happened?
+- Where did we find it? [Report/link and dates]
+- What should we check or change?
+
+**Result 2:**
+- What happened?
+- Where did we find it? [Report/link and dates]
+- What should we check or change?
+
+Add a third result only if it changes your decision. Audience questions or feedback can count as a result. If data isn't available, say why; don't write zero. Compare similar episodes at the same time after publication. When using a percentage, include the counts behind it from the same group and dates.
+
+## One next action
+
+Next time we will [change or keep a practice], because [what we noticed].
+**Person responsible:**
+**Specific task:**
+**Due date:**
+**Next review:**
+
+If using AI, ask it to quote its source for every answer, mark checked only when the materials show someone verified it, and write "not available" instead of estimating. Confirm its answers yourself before relying on them.
+
+Check recording, edits and permissions before release; test playback and links once published. Mark what you actually checked, including whether playback was full or sampled. Fix release problems separately from judging audience response. Keep usage restrictions with saved files and recheck them before reuse. Link private reports rather than copying personal details into this sheet.
+
+A viewing dip is a clue, not proof of its cause. Clicks aren't inquiries; downloads aren't confirmed listening. This review doesn't replace production checks or prove that an episode caused a sale.
