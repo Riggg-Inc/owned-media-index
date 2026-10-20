@@ -25,51 +25,56 @@ Choose a quote carrying a specific idea and add why it matters rather than merel
 ## Template
 
 ```
-[Hook — first line earns the second line]
+“[Exact words checked against the recording or transcript]” — [verified speaker]
 
-[Body — value, context, or story]
+[Context that preserves the meaning]
 
-[CTA — one clear action]
+[Why this matters to your reader]
 
-[Tags/Hashtags if appropriate]
+[One relevant question or verified episode link]
 ```
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- Name one idea the reader can understand without the episode.
+- Check the wording and context against the source; keep qualifications that change its meaning.
+- Make the practical step or question specific, not just “add value.”
+- Verify names, quotations, mentions and links before publishing. Do not add confidential details.
+- Use short paragraphs and one clear invitation; do not promise engagement.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+Illustrative example — fictional quotation and speaker, not a real attribution:
+
+> “The handoff fails when everyone assumes someone else owns the next step.” — Alex Morgan, fictional operations lead
+>
+> In this example conversation about editorial reviews, Alex is describing an unclear approval handoff—not arguing for more meetings.
+>
+> Before you send your next draft, name who decides and what they need to review.
+>
+> Where does ownership become unclear in your review process?
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+Select the source passage first. Supply it with the audience and intended action, then use this prompt:
 
 ```
-Write a Quote Share social post for LinkedIn (Linkedin Quote Post version).
+Write a LinkedIn quote post using ONLY the exact supplied quotation, with verified attribution and context. Never turn a paraphrase into a quotation.
 
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
-
-Platform: LinkedIn
-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
+Inputs:
+- Audience and the task they need help with: [who and what]
+- Source excerpt with surrounding context: [paste permitted material]
+- Exact quote and verified speaker, if quoting: [quote and name]
+- Episode title and verified URL: [title and URL, or omit link]
+- Practical action or question: [one action]
 
 Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
+- Use only the supplied facts. Flag missing inputs instead of inventing them.
+- Preserve the source meaning and distinguish advice from observed results.
+- Keep paraphrases outside quotation marks.
+- Return the post and a separate list of facts, quotes and links for a human to check.
+- Do not insert confidential details or unverified mentions.
+- Aim for about 1300 characters only if needed; this is an editorial target, not a platform limit or engagement optimum.
 ```
 
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Check the draft against the source, fix any errors, and recheck before publishing. Adapt the wording to this platform rather than copying a different post unchanged.

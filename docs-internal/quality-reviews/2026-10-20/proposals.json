@@ -1,0 +1,20 @@
+[
+  {
+    "path": "docs/patterns/package/social-posts/types/key-takeaway/linkedin-insight.md",
+    "sha256": "50d687713a6550014e58db2819ef7ccb4331271166b873b5cb88cda055813216",
+    "base_sha256": "c93ab64bdbc14af23fae870f8e05748460b2ed5207f9329afdd7de3bfeef5c0a",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/linkedin-insight/"
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md",
+    "sha256": "372f3ecf57f417380c5a2a98519b48680945fba572307646e175ebf696156b7b",
+    "base_sha256": "b5fcb26523425cabc3e85cb55735483ad6727639a851f9a8fe2f7813becddc64",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/key-takeaway/twitter-one-liner/"
+  },
+  {
+    "path": "docs/patterns/package/social-posts/types/quote-share/linkedin-quote-post.md",
+    "sha256": "8c149ccefd3d1b550666219e594553c41936f096c20be297e1682ec3e7ac1538",
+    "base_sha256": "c231c56374e10ae895c88cb52d3077d924a4cfc9148a0e6ea43ce98f2d07d79f",
+    "current_url": "https://index.riggg.com/patterns/package/social-posts/types/quote-share/linkedin-quote-post/"
+  }
+]
