@@ -5027,6 +5027,368 @@
         "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/social-posts/types/key-takeaway/index.md": [
+      {
+        "id": "quality-20261020-key-takeaway",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-20T16:47:34Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "631278c5af35e1dc8bf5746750309866aea390168ec195e883346ed57b09c96e",
+        "report_ref": "docs-internal/quality-reviews/2026-10-20/key-takeaway.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub quickly routes a practitioner seeking one actionable episode lesson to LinkedIn or Twitter/X versions."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "For a routing hub the two named versions and their distinct single-lesson versus short-post descriptions provide enough decision support; repetition is minor."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening and What It Is consistently prioritize standalone value even without a full-episode listen."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "LinkedIn Insight expands one idea while Twitter One Liner compresses it; both implement the hub promise without conflicting with Package."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Designed to deliver value describes intended usefulness, not a measured outcome guarantee. No statistics, named exemplars or platform limits appear in this hub."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Twitter/X selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; representative light desktop and all five dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Designed to deliver value describes intended usefulness, not a measured outcome guarantee. No statistics, named exemplars or platform limits appear in this hub. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/key-takeaway/linkedin-insight.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Insight expands one idea while Twitter One Liner compresses it; both implement the hub promise without conflicting with Package.",
+              "checked_at": "2026-10-20T16:47:34Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Insight expands one idea while Twitter One Liner compresses it; both implement the hub promise without conflicting with Package.",
+              "checked_at": "2026-10-20T16:47:34Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-20T16:47:34Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-19T16:47:34Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction on existing shared contrast card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/social-posts/types/key-takeaway/linkedin-insight.md": [
+      {
+        "id": "quality-20261020-linkedin-insight",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-20T16:47:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ffc1f8b195c261d91c37c95db2739f2598cb70dc55de99c217a60161a64f9ee2",
+        "report_ref": "docs-internal/quality-reviews/2026-10-20/linkedin-insight.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening usefully tells professionals to develop one episode insight instead of summarizing every topic."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The repeated hook/body/CTA skeleton and Coming soon example never demonstrate turning an actual lesson into a professional action. The prompt lacks supporting source context and a specific reader application."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Choosing one idea, adding context and inviting one action is logically sound; repeated introductory sentences are minor."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The parent promises actionable standalone value; this page preserves that intent but generic instructions do not fully operationalize it. Quote Share correctly differs by foregrounding an attributed quotation."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Advice is framed as practitioner observation, not measured lift. The 1300-character LinkedIn target explicitly disclaims a platform limit or optimum. Existing editorial scores are not empirical certification and are not changed."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; representative light desktop and all five dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Advice is framed as practitioner observation, not measured lift. The 1300-character LinkedIn target explicitly disclaims a platform limit or optimum. Existing editorial scores are not empirical certification and are not changed. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/key-takeaway/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent promises actionable standalone value; this page preserves that intent but generic instructions do not fully operationalize it. Quote Share correctly differs by foregrounding an attributed quotation.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/quote-share/linkedin-quote-post.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent promises actionable standalone value; this page preserves that intent but generic instructions do not fully operationalize it. Quote Share correctly differs by foregrounding an attributed quotation.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-19T16:47:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/key-takeaway/twitter-one-liner.md": [
+      {
+        "id": "quality-20261020-twitter-one-liner",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-20T16:47:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fbe568577a56f4220ab0f9dad3495422d5b005ccb696bfa58e8f2a5fb25a5d62",
+        "report_ref": "docs-internal/quality-reviews/2026-10-20/twitter-one-liner.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly favors a short standalone lesson and redirects context-heavy ideas to a thread."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "No worked one-liner is supplied: Coming soon plus generic hook/body/CTA fields do not show meaningful compression or checking context against the source."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The promised one-liner conflicts with the mandatory multi-part hook/body/CTA template and requirement that a first line earn a second. A usable short statement should be modeled directly."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The parent distinguishes a punchy takeaway from the longer LinkedIn lesson; the copied generic structure erases that useful distinction."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Official X counting documentation supports 280 weighted characters and 23 per URL for standard short posts. This is appropriate drafting scope, not proof that longer paid posts do not exist. No engagement guarantee is accepted."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; representative light desktop and all five dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Official X counting documentation supports 280 weighted characters and 23 per URL for standard short posts. This is appropriate drafting scope, not proof that longer paid posts do not exist. No engagement guarantee is accepted.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "The short post version uses a 280 character budget including its episode URL.",
+              "finding": "Official X documentation supports 280 weighted characters and 23 per URL; emoji and Unicode may count differently. This is short-post scope, not all paid longer-post features.",
+              "checked_at": "2026-10-20T16:46:25Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/key-takeaway/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent distinguishes a punchy takeaway from the longer LinkedIn lesson; the copied generic structure erases that useful distinction.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/key-takeaway/linkedin-insight.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "The parent distinguishes a punchy takeaway from the longer LinkedIn lesson; the copied generic structure erases that useful distinction.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-19T16:47:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/quote-share/index.md": [
+      {
+        "id": "quality-20261020-quote-share",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-20T16:47:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4c2844c9878bbe7cbe13634ac197447cf4e6c66710996f4177d34b56a9f1f7ca",
+        "report_ref": "docs-internal/quality-reviews/2026-10-20/quote-share.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub directs readers who have an episode quotation toward a professional quote post or short image-supported caption."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The two platform-specific version descriptions are adequate navigation for this small hub; it need not duplicate full leaf instructions."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Quote plus context and quote image plus caption are coherent variants of the stated quote-sharing purpose."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "LinkedIn Quote Post emphasizes attribution and professional context; Twitter Quote Card asks for readable self-contained quotations. These fit the parent and Package."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Powerful is qualitative editorial advice, not a factual engagement claim. No platform limits, performance statistics or attributed real quotations require external validation here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The second Versions row becomes pale text on a pale stripe in supported dark mode, obscuring Twitter/X selection guidance. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; representative light desktop and all five dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Powerful is qualitative editorial advice, not a factual engagement claim. No platform limits, performance statistics or attributed real quotations require external validation here. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/quote-share/linkedin-quote-post.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Quote Post emphasizes attribution and professional context; Twitter Quote Card asks for readable self-contained quotations. These fit the parent and Package.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/quote-share/twitter-quote-card.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "LinkedIn Quote Post emphasizes attribution and professional context; Twitter Quote Card asks for readable self-contained quotations. These fit the parent and Package.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-19T16:47:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction on existing shared contrast card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/social-posts/types/quote-share/linkedin-quote-post.md": [
+      {
+        "id": "quality-20261020-linkedin-quote-post",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-20T16:47:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "cfad3ebd8bd83b5a44243948ce228476782cfc18c98566152083f27f9347b227",
+        "report_ref": "docs-internal/quality-reviews/2026-10-20/linkedin-quote-post.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening explains sharing an attributed quotation with a relevant professional interpretation rather than repeating the quote."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Neither the template nor Coming soon demonstrates an attributed quotation followed by interpretation. The AI input accepts an insight or quote interchangeably and supplies no source excerpt for verification."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Quote, context and singular action form a sensible post; the generic hook/body scaffold is incomplete rather than an inherent logical contradiction."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Twitter Quote Card explicitly requires clear attribution; this page promises attribution but its operational prompt does not require exact wording or speaker/source verification."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The editorial length target is appropriately qualified. However the AI quotation workflow can turn a paraphrased insight into attributed speech without an exact-quote/source check; this is a material accuracy risk, not a demand for experimental proof of advice."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Template and Prompt Template show dark red text on the dark background in supported slate mode, making the central instructions hard to read. Fresh live Chromium captures at 1440 and 390 pixels show no document overflow; representative light desktop and all five dark mobile images were visually inspected, not just measured. Existing shared contrast proposal remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The editorial length target is appropriately qualified. However the AI quotation workflow can turn a paraphrased insight into attributed speech without an exact-quote/source check; this is a material accuracy risk, not a demand for experimental proof of advice. No external factual-source reading is claimed for this advice-only scope; internal scores are preserved, not rescored or empirically certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant published parent or sibling guidance and Framework were read for the actual reader task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/quote-share/index.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Twitter Quote Card explicitly requires clear attribution; this page promises attribution but its operational prompt does not require exact wording or speaker/source verification.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/quote-share/twitter-quote-card.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Twitter Quote Card explicitly requires clear attribution; this page promises attribution but its operational prompt does not require exact wording or speaker/source verification.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "The page should implement complementary and usable packaging guidance.",
+              "finding": "Framework Package asks whether an asset can be understood and used without extra explanation. A hub can route readers concisely; a leaf needs enough concrete input and examples to execute its promise.",
+              "checked_at": "2026-10-20T16:47:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-19T16:47:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
