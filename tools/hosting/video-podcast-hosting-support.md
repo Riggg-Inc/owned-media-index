@@ -6,11 +6,11 @@ description: "Video podcast hosting and player compatibility: MP4 RSS, open HLS,
 
 Video podcast hosting support depends on the delivery path, not just whether a service accepts a video upload. MP4 in RSS, open HLS video, Apple’s approved integration, Spotify’s native ingestion, and YouTube publishing are different capabilities. This reference separates them and identifies rollout limits and unresolved evidence.
 
-**Documented source-review date:** 2026-10-07
+**Documented source-review date:** 2026-10-20
 
-**Next source review due:** 2026-11-07 (monthly; earlier when a provider changes its documentation)
+**Next source review due:** 2026-11-20 (monthly; earlier when a provider changes its documentation)
 
-**Source-review provenance and scope:** Public documentation reviewed on 2026-10-07; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
+**Source-review provenance and scope:** Public documentation reviewed on 2026-10-20; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
 
 ## What “supported” means here
 
@@ -24,17 +24,17 @@ Video podcast hosting support depends on the delivery path, not just whether a s
 
 ## Hosts and publishing services
 
-All rows checked **2026-10-07**. The [PSP implementation list][psp] was itself updated September 2, 2026; its claims are attributed, not treated as fresh account tests.
+All rows checked **2026-10-20**. The [PSP implementation list][psp] was itself updated September 2, 2026; its claims are attributed, not treated as fresh account tests.
 
 | Host | Status and documented delivery | Limits / what is not established |
 |---|---|---|
 | **Buzzsprout** | **Live—documented:** Audio + Video plans publish video to Apple Podcasts, Spotify and YouTube; MP4/MOV upload becomes Apple HLS. [Vendor setup/FAQ][buzzsprout] | Apple API key/show approval and Spotify approval required. Vendor describes audio RSS for other apps. PSP lists open HLS RSS as **committed**, not shipped; do not infer it from Apple support. |
-| **Acast** | **Live—documented:** Apple video via the Video plan or creator-network activation; audio extracted automatically. [Current launch statement][acast] | Apple authorization is separate. Older [setup documentation][acast-setup] still says limited beta; current launch statement says open to all with plan/activation requirements. Open HLS RSS, Spotify video and YouTube video are **unknown** from these sources. |
+| **Acast** | **Live—documented:** Apple video via the Video plan or creator-network activation; audio extracted automatically. [Current launch statement][acast] | Apple authorization is separate. The older [setup documentation][acast-setup] (which described a limited beta) now returns “not found” (404) as of this review, so the conflict is unresolved rather than confirmed superseded; the current launch statement says any creator can publish, via the Video plan or the creator-network partner manager. Open HLS RSS, Spotify video and YouTube video are **unknown** from these sources. |
 | **CoHost** | **Live—vendor claim:** Its own hosting guide says CoHost allows video publishing to Apple Podcasts. [CoHost guide][cohost] | The guide does not specify MP4 RSS versus Apple HLS/API, open alternate enclosures, or account availability. Its comparison table separately describes CoHost multi-platform video publishing to YouTube, TikTok and Instagram as “in production,” so YouTube video delivery is **not established**. “Full video support” would overstate this evidence. |
 | **Spotify for Creators** (current product name) | **Live—documented:** Video uploaded to Spotify uses its native streaming system; other listening platforms receive audio via RSS. [Spotify][spotify] | Not open-RSS video distribution. Former “Spotify for Podcasters” naming has been replaced here. |
-| **Megaphone** (Spotify) | **Live—documented:** Spotify explicitly includes Megaphone video uploads in the native-video/audio-RSS workflow. [Spotify][spotify]; [Megaphone video documentation][megaphone] | Video enablement and monetization eligibility vary; Megaphone’s monetization article says the Spotify Partner Program and Premium video revenue become available in its listed markets on October 20, 2026. This is not evidence of Apple HLS, YouTube publishing or open HLS RSS. The old “no public video announcement” classification was wrong. |
+| **Megaphone** (Spotify) | **Live—documented:** Spotify explicitly includes Megaphone video uploads in the native-video/audio-RSS workflow. [Spotify][spotify]; [Megaphone video documentation][megaphone] | Video enablement and monetization eligibility vary; Megaphone’s monetization article says the Spotify Partner Program and Premium video revenue become available in its listed markets on October 20, 2026 (the date of this review; the article still uses future tense, so actual activation was not confirmed). This is not evidence of Apple HLS, YouTube publishing or open HLS RSS. The old “no public video announcement” classification was wrong. |
 | **Podbean** | **Live—documented:** HLS video in RSS, automatic audio version and separate Apple API delivery. [Podbean technical explanation][podbean] | Enable HLS for eligible video episodes; Apple delivery and RSS delivery are distinct. Other destinations require their own verification. |
-| **Transistor** | **Reported live** for open HLS RSS (PSP); **gradual rollout/early access** in its own feature page, which describes Apple-approved HLS plus Spotify/YouTube/RSS distribution. [PSP][psp]; [Transistor][transistor] | Vendor still offers a waitlist. Do not treat the destination list as generally available to every account. |
+| **Transistor** | **Live—documented:** Its feature page says an uploaded video is published to YouTube, Spotify and Apple Podcasts, with HLS in RSS; it hosts HLS for Apple Podcasts, Pocket Casts, iHeart, Amazon Music and other apps and calls itself one of Apple's approved HLS hosting partners. **Reported live** for open HLS RSS (PSP). [Transistor][transistor]; [PSP][psp] | The earlier waitlist/early-access wording no longer appears on the feature page (2026-10-20); the page lists a 14-day trial and does not state plan or account restrictions. Whether each destination works for every account was not tested. The page marks unified video/audio analytics “Coming soon.” |
 | **Captivate** | **Reported live:** PSP lists publishing HLS through alternate enclosures. [PSP][psp] | Its [public feature matrix][captivate] does not establish a video setup path. Account access, Apple/Spotify video integration and YouTube video delivery remain **unverified** in this review. |
 | **RSS.com** | **Live—documented:** Max plan offers Apple HLS, Podcasting 2.0 alternate enclosures and direct YouTube video publishing. [RSS.com][rsscom] | The same page explicitly says Spotify and Amazon Music receive the **audio** feed; “publish everywhere” does not mean video everywhere. |
 | **Omny Studio** (Triton Digital) | **Live—documented:** Organization-enabled video can emit both MP4 and HLS alternate enclosures; audio-first/video-first primary enclosure choices. [RSS documentation][omny] | Alternate media must be enabled/configured. Docs say Apple/Spotify ignore alternate enclosures. Apple separately named Omny an HLS launch provider. [Apple announcement][apple-launch] |
@@ -45,7 +45,7 @@ All rows checked **2026-10-07**. The [PSP implementation list][psp] was itself u
 | **TrueFans** (listed as “True Fans” by PSP) | **Reported live:** Listed as an open HLS RSS host and compatible player. [PSP][psp] | Public site retrieval did not establish host setup/eligibility; do not infer Apple/Spotify integration from player compatibility. |
 | **Blubrry** | **Live—documented:** MP4 upload generates HLS and MP3; original video, HLS and audio are published in one RSS feed. Apple workflow requires an API key and HLS enablement. [Blubrry][blubrry]; [PSP][psp] | Apple account enablement is a separate step, not automatic acceptance of RSS HLS: Blubrry says to ask Apple to enable HLS for the show after uploading the API key, and accepts 1080p only (no 4K). Added after the earlier reference omitted this PSP-listed host. |
 | **Castos** | **Live—documented:** Video podcast feeds submitted to Apple, Pocket Casts and Podcast Addict; video episodes can be republished to YouTube. [Castos distribution guide][castos] | Open HLS/alternate-enclosure and Apple HLS integration are **unknown**. Separate [YouTube setup][castos-youtube] describes audio-plus-image conversion. The distribution guide’s older Spotify-only-hosting assertion is not a current ecosystem-wide rule; direct integrations now exist elsewhere. |
-| **Libsyn** | **Live—vendor feature listing:** Audio/video hosting, Spotify video and YouTube video distribution. **Announced:** Apple HLS explicitly marked “Coming Soon.” [Libsyn features][libsyn] | Open HLS RSS is **unknown**. Traditional video hosting must not be conflated with the announced Apple HLS feature. |
+| **Libsyn** | **Live—vendor feature listing:** Audio/video hosting, Spotify video and YouTube video distribution (its plan list shows YouTube on Basic and Spotify video on Advanced and Max); the page also describes one-click distribution of video to Spotify and Apple Podcasts. **Announced:** Apple HLS explicitly marked “Coming Soon.” [Libsyn features][libsyn] | Open HLS RSS is **unknown**. Traditional video hosting must not be conflated with the announced Apple HLS feature. |
 | **Spreaker** | **Announced/committed:** PSP places it in the committed-to-shipping HLS RSS group. [PSP][psp] | [Upload documentation][spreaker] describes audio episodes (even though MP4 is among accepted containers). That does not prove video delivery. Shipped HLS status remains **unverified**, not definitively “not shipped.” |
 | **Simplecast** (SiriusXM, not Spotify) | **Announced Apple HLS provider:** Apple names SiriusXM, including Simplecast, among launch supporters. [Apple announcement][apple-launch] | Its [video/YouTube help article][simplecast] could not be fully retrieved in this review. Current account rollout and open HLS RSS remain **unverified**. The earlier audio-only/no-announcement label is not defensible. |
 
@@ -53,7 +53,7 @@ All rows checked **2026-10-07**. The [PSP implementation list][psp] was itself u
 
 ## Players / apps
 
-All rows checked **2026-10-07**. Support is specific to the route and app version, not a promise that any hosted video will appear.
+All rows checked **2026-10-20**. Support is specific to the route and app version, not a promise that any hosted video will appear.
 
 | App | Status and route | Important limit |
 |---|---|---|
