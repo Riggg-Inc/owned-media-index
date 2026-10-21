@@ -5389,6 +5389,382 @@
         "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/social-posts/types/quote-share/twitter-quote-card.md": [
+      {
+        "id": "quality-20261021-twitter-quote-card",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-21T16:48:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "6c88dc1f1907892805c20da6cf343a49ad9449b38769d662feee6d794a63c03c",
+        "report_ref": "docs-internal/quality-reviews/2026-10-21/twitter-quote-card.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly identifies an attributed quotation graphic with short supporting copy, a useful route for promoting a single episode insight."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The Example is Coming soon and the generic hook/body/CTA template never specifies the quote graphic, exact quotation or attribution layout. These are central outputs rather than optional editorial embellishments."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The opening promises a quote-card image, but the supplied prompt requests only a social post and treats an insight and an exact quote interchangeably; it cannot reliably produce the promised asset."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Quote Share parent explicitly pairs the quote with a graphic or clip; the LinkedIn sibling similarly requires attributed context. The Twitter leaf needs an image brief and verbatim source input to implement that shared intent."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 280-character budget is appropriate for ordinary short X posts, supported by official counting documentation; URLs count 23 and emoji may count two. No proof of every practitioner hook recommendation is demanded."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The central Template or Prompt Template uses dark red text against a dark background in slate mode, making executable instructions hard to read. Fresh live 1440/390 light/dark captures have no document overflow; all five dark mobile images and representative light desktop were visually inspected. Shared CSS correction remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "The 280-character budget is appropriate for ordinary short X posts, supported by official counting documentation; URLs count 23 and emoji may count two. No proof of every practitioner hook recommendation is demanded. No additional source verification or human testing is claimed.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "Ordinary short X posts use a 280 weighted character budget.",
+              "finding": "Official documentation supports 280 weighted characters, 23 per URL and special emoji/Unicode weights. This verifies ordinary short-post scope, not absence of paid longer posts.",
+              "checked_at": "2026-10-21T16:46:10Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant parent and sibling guidance plus Framework were read against the actual practitioner task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/quote-share/index.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Quote Share parent explicitly pairs the quote with a graphic or clip; the LinkedIn sibling similarly requires attributed context. The Twitter leaf needs an image brief and verbatim source input to implement that shared intent.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/quote-share/linkedin-quote-post.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Quote Share parent explicitly pairs the quote with a graphic or clip; the LinkedIn sibling similarly requires attributed context. The Twitter leaf needs an image brief and verbatim source input to implement that shared intent.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Framework Package asks whether the resulting asset can be understood and reused without extra explanation; current assessment distinguishes concise routing hubs from executable leaf guidance.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-20T16:48:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/thread-breakdown/index.md": [
+      {
+        "id": "quality-20261021-thread-breakdown",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-21T16:48:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d2f828ec61bae125470d7a124c4ea7bc27cf00404d6ef5a6f48c8d27b8d33d4f",
+        "report_ref": "docs-internal/quality-reviews/2026-10-21/thread-breakdown.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The short hub usefully routes a connected episode explanation into either an X thread or a LinkedIn slide document."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Two concise version links and format descriptions provide enough concrete choice guidance for this routing hub; a full worked tutorial belongs on each linked leaf."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "A structured multi-part narrative is a coherent umbrella for both text threads and slide documents; the versions table makes the distinction visible."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Both linked leaves explain ordered connected points rather than a one-insight caption. The hub matches that purpose, but its algorithmic reward sentence goes beyond their appropriately bounded advice."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Earns algorithmic favor asserts a platform distribution outcome without naming a platform condition or supporting evidence. It is not needed for the useful recommendation and should be replaced by a reader-oriented reason, not certified from engagement folklore."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The Versions table second row has pale text on a pale stripe in slate mode, obscuring the LinkedIn format comparison. Fresh live 1440/390 light/dark captures have no document overflow; all five dark mobile images and representative light desktop were visually inspected. Shared CSS correction remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Earns algorithmic favor asserts a platform distribution outcome without naming a platform condition or supporting evidence. It is not needed for the useful recommendation and should be replaced by a reader-oriented reason, not certified from engagement folklore. No additional source verification or human testing is claimed.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant parent and sibling guidance plus Framework were read against the actual practitioner task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Both linked leaves explain ordered connected points rather than a one-insight caption. The hub matches that purpose, but its algorithmic reward sentence goes beyond their appropriately bounded advice.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/twitter-thread.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Both linked leaves explain ordered connected points rather than a one-insight caption. The hub matches that purpose, but its algorithmic reward sentence goes beyond their appropriately bounded advice.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Framework Package asks whether the resulting asset can be understood and reused without extra explanation; current assessment distinguishes concise routing hubs from executable leaf guidance.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-20T16:48:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md": [
+      {
+        "id": "quality-20261021-linkedin-carousel",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-21T16:48:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "8d15af6817f24af08a10150e78eddf3711f7ef94430fcf15c8084d57692aef39",
+        "report_ref": "docs-internal/quality-reviews/2026-10-21/linkedin-carousel.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a useful selection rule: several connected steps belong in slides, while a single insight needs only one post."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The ordered slide outline is useful but the Example remains Coming soon and the prompt takes a single insight, not a sourced sequence; it does not supply a worked carousel or enough evidence input for the promised output."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The page template asks for cover, slides and post copy, but the prompt asks for a social post with a 1300-character target and generic first-line requirements. Slide-by-slide and caption outputs must be distinguished."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Thread Breakdown and Twitter Thread both promise connected explanation, so the carousel must preserve episode context across a sequence. The hub algorithmic claim remains a separate shared correction, not a reason to invent performance benefits here."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 1300-character value is explicitly an editorial target, not a platform limit or proven optimum. No empirical proof is required for the useful single-point-versus-sequence recommendation. Embedded video presence was observed; playback and complete video contents were not reviewed."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The central Template or Prompt Template uses dark red text against a dark background in slate mode, making executable instructions hard to read. Fresh live 1440/390 light/dark captures have no document overflow; all five dark mobile images and representative light desktop were visually inspected. Shared CSS correction remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The 1300-character value is explicitly an editorial target, not a platform limit or proven optimum. No empirical proof is required for the useful single-point-versus-sequence recommendation. Embedded video presence was observed; playback and complete video contents were not reviewed. No additional source verification or human testing is claimed.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant parent and sibling guidance plus Framework were read against the actual practitioner task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/index.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Thread Breakdown and Twitter Thread both promise connected explanation, so the carousel must preserve episode context across a sequence. The hub algorithmic claim remains a separate shared correction, not a reason to invent performance benefits here.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/twitter-thread.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Thread Breakdown and Twitter Thread both promise connected explanation, so the carousel must preserve episode context across a sequence. The hub algorithmic claim remains a separate shared correction, not a reason to invent performance benefits here.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Framework Package asks whether the resulting asset can be understood and reused without extra explanation; current assessment distinguishes concise routing hubs from executable leaf guidance.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-20T16:48:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/social-posts/types/thread-breakdown/twitter-thread.md": [
+      {
+        "id": "quality-20261021-twitter-thread",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-21T16:48:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "17d7ebba3e46c7c590b370ffd36fa32a29e59d99a2606a0f18fa27cc7d5368ce",
+        "report_ref": "docs-internal/quality-reviews/2026-10-21/twitter-thread.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Use a sequence needing more room than one post and close with one clear action is a clear and useful practitioner task."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The opening/next/closing outline helps ordering but Coming soon provides no worked thread. The prompt has one insight input and lacks the actual connected source material needed to draft a faithful explanation."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The multi-post template and single generic social-post prompt disagree about output structure. Request numbered posts with connected takeaways rather than relying on the model to invent the missing sequence."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Thread Breakdown hub and LinkedIn Carousel sibling share an ordered explanation purpose. Preserve source context and one final action; do not import the hub unsupported algorithmic favor claim."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The 280-character short-post drafting budget is supported by official X character-counting documentation. Weighted Unicode and 23-character links matter; the budget is not a claim that paid longer-post features do not exist."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The central Template or Prompt Template uses dark red text against a dark background in slate mode, making executable instructions hard to read. Fresh live 1440/390 light/dark captures have no document overflow; all five dark mobile images and representative light desktop were visually inspected. Shared CSS correction remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "The 280-character short-post drafting budget is supported by official X character-counting documentation. Weighted Unicode and 23-character links matter; the budget is not a claim that paid longer-post features do not exist. No additional source verification or human testing is claimed.",
+          "items": [
+            {
+              "url": "https://docs.x.com/fundamentals/counting-characters",
+              "claim": "Ordinary short X posts use a 280 weighted character budget.",
+              "finding": "Official documentation supports 280 weighted characters, 23 per URL and special emoji/Unicode weights. This verifies ordinary short-post scope, not absence of paid longer posts.",
+              "checked_at": "2026-10-21T16:46:10Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant parent and sibling guidance plus Framework were read against the actual practitioner task.",
+          "items": [
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/index.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "The Thread Breakdown hub and LinkedIn Carousel sibling share an ordered explanation purpose. Preserve source context and one final action; do not import the hub unsupported algorithmic favor claim.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "The Thread Breakdown hub and LinkedIn Carousel sibling share an ordered explanation purpose. Preserve source context and one final action; do not import the hub unsupported algorithmic favor claim.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Framework Package asks whether the resulting asset can be understood and reused without extra explanation; current assessment distinguishes concise routing hubs from executable leaf guidance.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-20T16:48:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/thumbnails/branded-template.md": [
+      {
+        "id": "quality-20261021-branded-template",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-21T16:48:35Z",
+        "reviewer": "Cass Reelman (AI editorial review; openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "15f8d41d59f6f55522affb816a1ee51745ca654edc62136f97e704f652ff00fe",
+        "report_ref": "docs-internal/quality-reviews/2026-10-21/branded-template.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening makes a clear tradeoff: use repeatable brand layout for recognition while keeping episode-specific detail so releases remain distinguishable."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete constraints\u2014short overlay, contrast, brand colors and a fill-in design prompt\u2014are enough to start a usable template; a visual example would help but its absence alone is not a material failure."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "What It Is prioritizes recognition while the introduction warns against interchangeable episodes; these are compatible design goals rather than a contradiction."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Thumbnails hub places this style under series consistency and show recognition, matching the leaf. Framework Package requires an understandable asset. Hub legacy specifications are explicitly historical and not freshly certified by this review."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "YouTube documentation supports 16:9 for ordinary video thumbnails and Apple supports square show art; neither proves a universal causal template-fatigue CTR decline. The When Not To Use sentence attributes a drop to fatigue without evidence. Reframe as an observable indistinguishability check, not a measured diagnosis. 120-pixel and 5\u20137-word checks are editorial heuristics here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The central Template or Prompt Template uses dark red text against a dark background in slate mode, making executable instructions hard to read. Fresh live 1440/390 light/dark captures have no document overflow; all five dark mobile images and representative light desktop were visually inspected. Shared CSS correction remains unapproved."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "YouTube documentation supports 16:9 for ordinary video thumbnails and Apple supports square show art; neither proves a universal causal template-fatigue CTR decline. The When Not To Use sentence attributes a drop to fatigue without evidence. Reframe as an observable indistinguishability check, not a measured diagnosis. 120-pixel and 5\u20137-word checks are editorial heuristics here. No additional source verification or human testing is claimed.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "The template recommends 16:9 for ordinary YouTube video thumbnails.",
+              "finding": "Retrieved best-practices section explicitly recommends 16:9 for videos, 9:16 for Shorts and 1:1 for podcast playlists. Fetch warned incomplete overall response; relevant section was readable. No causal template-fatigue finding is supplied.",
+              "checked_at": "2026-10-21T16:46:50Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5514-show-cover-template",
+              "claim": "Square artwork is appropriate for podcast show covers.",
+              "finding": "Apple describes square show art at 3000 by 3000 with legible recognizable title and high contrast. Scope is show cover, not every episode-art surface or app.",
+              "checked_at": "2026-10-21T16:46:50Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant parent and sibling guidance plus Framework were read against the actual practitioner task.",
+          "items": [
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "The Thumbnails hub places this style under series consistency and show recognition, matching the leaf. Framework Package requires an understandable asset. Hub legacy specifications are explicitly historical and not freshly certified by this review.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Published guidance should support a coherent usable packaging task.",
+              "finding": "Framework Package asks whether the resulting asset can be understood and reused without extra explanation; current assessment distinguishes concise routing hubs from executable leaf guidance.",
+              "checked_at": "2026-10-21T16:48:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-20T16:48:35Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
