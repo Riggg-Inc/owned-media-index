@@ -24,7 +24,7 @@ A consistent, templatized thumbnail design that uses the same layout, colors, an
 
 ## When Not To Use
 
-Avoid when every episode blends together visually and click-through rates drop due to "template fatigue."
+Change the template when viewers cannot distinguish one episode from the next at a glance. Keep the show identity, but vary the topic text or main visual. If click-through falls, compare topic, title and distribution as well as artwork before deciding what caused it.
 
 ## Prompt Template
 
@@ -43,7 +43,10 @@ Requirements:
 - Readable at 120x120px minimum
 - High contrast between text and background
 - Brand colors consistent with show identity
-- 16:9 for YouTube, 1:1 option for podcast apps
+- 16:9 for ordinary YouTube video thumbnails; square artwork for podcast show covers
+- Confirm the current requirements for your destination before export
 ```
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+
+Aspect-ratio references: [YouTube thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) and [Apple Podcasts show covers](https://podcasters.apple.com/support/5514-show-cover-template).

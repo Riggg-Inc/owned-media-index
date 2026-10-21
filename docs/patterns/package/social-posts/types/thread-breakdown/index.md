@@ -12,7 +12,7 @@ A multi-post thread that expands the episode's key ideas into a structured narra
 
 ## What It Is
 
-A multi-post thread that expands the episode's key ideas into a structured narrative. Earns algorithmic favor on platforms that reward thread engagement.
+A multi-post thread that expands the episode's key ideas into a structured narrative. Use it when the reader needs several connected ideas in order, rather than one standalone takeaway.
 
 ## Versions
 

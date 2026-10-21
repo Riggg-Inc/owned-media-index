@@ -1,0 +1,254 @@
+diff --git a/docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md b/docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md
+index 0e6ce78..acee8ad 100644
+--- a/docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md
++++ b/docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md
+@@ -28,7 +28,4 @@ Use a readable, self-contained quote and clear attribution rather than anonymous
+-[Hook — first line earns the second line]
+-
+-[Body — value, context, or story]
+-
+-[CTA — one clear action]
+-
+-[Tags/Hashtags if appropriate]
++[Graphic — one exact, self-contained quote]
++[Attribution — speaker name and episode]
++[Caption — why this quote matters to the reader]
++[CTA — episode link and one next action]
+@@ -39,4 +36,4 @@ Use a readable, self-contained quote and clear attribution rather than anonymous
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- The quote matches the recording or transcript word for word; paraphrases are not in quotation marks.
++- The speaker and source are clear, and the graphic is readable on a phone.
++- The caption adds context rather than repeating the image.
++- Check the final caption in the composer, including the link.
+@@ -46 +43,7 @@ Use a readable, self-contained quote and clear attribution rather than anonymous
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++**Illustrative example — invented quotation, not a real guest endorsement.**
++
++Graphic: “Check the recording before everyone leaves.” — Example speaker, recording checklist episode.
++
++Caption: A short playback check gives you a chance to catch missing audio while the guest is still available. Hear the full checklist: [episode link].
++
++For a real card, replace this with an exact approved quotation and verified attribution.
+@@ -50 +53 @@ _Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/
+-Copy and customize this prompt to generate this pattern:
++Start with the actual source passage, not only the episode title.
+@@ -53,20 +56,15 @@ Copy and customize this prompt to generate this pattern:
+-Write a Quote Share social post for Twitter/X (Twitter Quote Card version).
+-
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+-
+-Platform: Twitter/X
+-Character limit: 280 characters per tweet
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Twitter/X norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
++Create a Twitter/X quote-card brief and caption from the source below.
++
++Inputs:
++- Intended reader and question: [reader + question]
++- Episode title and public link: [title + verified URL]
++- Source passage with speaker and timestamps: [paste relevant transcript]
++- Public-use permissions and details to omit: [notes]
++
++Output:
++- Exact quotation, attribution, graphic layout brief and short caption.
++- Suggest a paraphrase separately if the quote needs context; do not present it as verbatim.
++- Give a source location for every quotation or substantive point in a separate review checklist.
++- If the source lacks a needed fact, mark it missing; do not invent facts, steps or results.
++- Keep any qualification that changes the meaning.
++- Adapt the wording to this reader, not a copy of another platform post.
+@@ -75 +73,3 @@ Requirements:
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Before publishing, check each point against the recording, confirm names and links, and remove private or unapproved details. Fix mismatches and recheck; publish only when the remaining issues are resolved.
++
++For ordinary short posts, [X counts weighted characters](https://docs.x.com/fundamentals/counting-characters), including 23 characters per URL; the composer is the final check.
+diff --git a/docs/patterns/package/social-posts/types/thread-breakdown/index.md b/docs/patterns/package/social-posts/types/thread-breakdown/index.md
+index 3f93ff1..7fc0184 100644
+--- a/docs/patterns/package/social-posts/types/thread-breakdown/index.md
++++ b/docs/patterns/package/social-posts/types/thread-breakdown/index.md
+@@ -15 +15 @@ A multi-post thread that expands the episode's key ideas into a structured narra
+-A multi-post thread that expands the episode's key ideas into a structured narrative. Earns algorithmic favor on platforms that reward thread engagement.
++A multi-post thread that expands the episode's key ideas into a structured narrative. Use it when the reader needs several connected ideas in order, rather than one standalone takeaway.
+diff --git a/docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md b/docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
+index 0bcb1fb..89e1697 100644
+--- a/docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
++++ b/docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md
+@@ -34,5 +34,3 @@ Choose it for several connected steps; use a single insight post when one point
+-[Cover — the question or lesson this breakdown answers]
+-
+-[Slide 1 — first point and its episode context]
+-[Following slides — one connected point per slide]
+-
++[Cover — the question this sequence answers]
++[Slide 1 — first supported step and its context]
++[Next slides — one connected step per slide]
+@@ -40 +38 @@ Choose it for several connected steps; use a single insight post when one point
+-[Post copy — why this sequence matters + episode link]
++[Post copy — why the sequence matters + episode link]
+@@ -45,4 +43,4 @@ Choose it for several connected steps; use a single insight post when one point
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- Each slide adds one distinct point supported by the episode.
++- Keep the context or qualification needed to understand each point.
++- Text is readable on a phone; the cover names a concrete question.
++- Close with one clear action; do not repeat the CTA at every step.
+@@ -52 +50,9 @@ Choose it for several connected steps; use a single insight post when one point
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++**Illustrative five-slide sequence, not a measured case study.**
++
++1. Cover: “Before you end a remote recording”
++2. Play a short sample from each speaker. Listen for missing or distorted audio.
++3. Confirm that each recording has finished saving.
++4. If a file is missing, ask the participant to stay while you check it.
++5. Use this check before ending your next recording. Full walkthrough: [episode link].
++
++Post copy: “Before everyone signs off, check that the audio you need is actually there. Here is the short sequence.” Adapt only the steps supported by your episode.
+@@ -56 +62 @@ _Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/
+-Copy and customize this prompt to generate this pattern:
++Start with the actual source passage, not only the episode title.
+@@ -59,20 +65,15 @@ Copy and customize this prompt to generate this pattern:
+-Write a Thread Breakdown social post for LinkedIn (Linkedin Carousel version).
+-
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+-
+-Platform: LinkedIn
+-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
++Create a LinkedIn carousel outline and separate post caption from the source below.
++
++Inputs:
++- Intended reader and question: [reader + question]
++- Episode title and public link: [title + verified URL]
++- Source passage with speaker and timestamps: [paste relevant transcript]
++- Public-use permissions and details to omit: [notes]
++
++Output:
++- Cover, one supported point per slide, final action and separate post caption.
++- Give each slide a short heading and readable body; keep the post caption around 1300 characters only as an editorial target.
++- Give a source location for every quotation or substantive point in a separate review checklist.
++- If the source lacks a needed fact, mark it missing; do not invent facts, steps or results.
++- Keep any qualification that changes the meaning.
++- Adapt the wording to this reader, not a copy of another platform post.
+@@ -81 +82 @@ Requirements:
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Before publishing, check each point against the recording, confirm names and links, and remove private or unapproved details. Fix mismatches and recheck; publish only when the remaining issues are resolved.
+diff --git a/docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md b/docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
+index 3c335bf..2692e23 100644
+--- a/docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
++++ b/docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md
+@@ -28,6 +28,3 @@ Use it for a sequence needing more room than one post; close with one clear acti
+-[Opening post — the central question and why the breakdown matters]
+-
+-[Next post — first takeaway with enough context to stand alone]
+-[Following posts — connected takeaways in a logical order]
+-
+-[Closing post — episode link and one clear next action]
++[Opening post — the question and useful takeaway]
++[Middle posts — one connected, supported point each]
++[Closing post — one next action and episode link]
+@@ -38,4 +35,4 @@ Use it for a sequence needing more room than one post; close with one clear acti
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
++- Each post adds one distinct point supported by the episode.
++- Keep the context or qualification needed to understand each point.
++- Check each post in the composer, including links and numbering.
++- Close with one clear action; do not repeat the CTA at every step.
+@@ -45 +42,8 @@ Use it for a sequence needing more room than one post; close with one clear acti
+-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
++**Illustrative thread, not a real episode transcript.**
++
++1. “Before ending a remote recording, check the files while everyone is still available. Here is a short sequence.”
++2. “Play a sample from each speaker. Listen for missing or distorted audio.”
++3. “Confirm the recordings have finished saving. If something is missing, ask that participant to stay while you check.”
++4. “Use the check at the end of your next session. Full walkthrough: [episode link].”
++
++Replace these points with the sequence actually supported by your episode.
+@@ -49 +53 @@ _Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/
+-Copy and customize this prompt to generate this pattern:
++Start with the actual source passage, not only the episode title.
+@@ -52,20 +56,15 @@ Copy and customize this prompt to generate this pattern:
+-Write a Thread Breakdown social post for Twitter/X (Twitter Thread version).
+-
+-Context:
+-- Episode title: [title of the episode]
+-- Guest name: [guest full name]
+-- Guest company/title: [their role]
+-- Key insight or quote: [the main moment to highlight]
+-- Episode link: [URL]
+-- Relevant hashtags: [industry hashtags if appropriate]
+-
+-Platform: Twitter/X
+-Character limit: 280 characters per tweet
+-
+-Requirements:
+-- First line must stop the scroll
+-- Body must add value beyond the episode title
+-- CTA must be specific and singular
+-- Platform-native formatting (line breaks, emojis, hashtags per Twitter/X norms)
+-- Tag guest when appropriate
+-- Never use the same copy across platforms
++Create a connected Twitter/X thread from the source below.
++
++Inputs:
++- Intended reader and question: [reader + question]
++- Episode title and public link: [title + verified URL]
++- Source passage with speaker and timestamps: [paste relevant transcript]
++- Public-use permissions and details to omit: [notes]
++
++Output:
++- Numbered posts: opening question, connected points, one closing action.
++- Keep each ordinary short post within 280 weighted characters, including links and numbering.
++- Give a source location for every quotation or substantive point in a separate review checklist.
++- If the source lacks a needed fact, mark it missing; do not invent facts, steps or results.
++- Keep any qualification that changes the meaning.
++- Adapt the wording to this reader, not a copy of another platform post.
+@@ -74 +73,3 @@ Requirements:
+-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++Before publishing, check each point against the recording, confirm names and links, and remove private or unapproved details. Fix mismatches and recheck; publish only when the remaining issues are resolved.
++
++For ordinary short posts, [X counts weighted characters](https://docs.x.com/fundamentals/counting-characters), including 23 characters per URL; the composer is the final check.
+diff --git a/docs/patterns/package/thumbnails/branded-template.md b/docs/patterns/package/thumbnails/branded-template.md
+index 45569d8..44e357c 100644
+--- a/docs/patterns/package/thumbnails/branded-template.md
++++ b/docs/patterns/package/thumbnails/branded-template.md
+@@ -27 +27 @@ A consistent, templatized thumbnail design that uses the same layout, colors, an
+-Avoid when every episode blends together visually and click-through rates drop due to "template fatigue."
++Change the template when viewers cannot distinguish one episode from the next at a glance. Keep the show identity, but vary the topic text or main visual. If click-through falls, compare topic, title and distribution as well as artwork before deciding what caused it.
+@@ -46 +46,2 @@ Requirements:
+-- 16:9 for YouTube, 1:1 option for podcast apps
++- 16:9 for ordinary YouTube video thumbnails; square artwork for podcast show covers
++- Confirm the current requirements for your destination before export
+@@ -49,0 +51,2 @@ Replace the bracketed placeholders with your specific details. The more context
++
++Aspect-ratio references: [YouTube thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) and [Apple Podcasts show covers](https://podcasters.apple.com/support/5514-show-cover-template).

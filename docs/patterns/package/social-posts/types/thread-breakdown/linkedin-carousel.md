@@ -31,51 +31,52 @@ Choose it for several connected steps; use a single insight post when one point 
 ## Template
 
 ```
-[Cover — the question or lesson this breakdown answers]
-
-[Slide 1 — first point and its episode context]
-[Following slides — one connected point per slide]
-
+[Cover — the question this sequence answers]
+[Slide 1 — first supported step and its context]
+[Next slides — one connected step per slide]
 [Final slide — one next action]
-[Post copy — why this sequence matters + episode link]
+[Post copy — why the sequence matters + episode link]
 ```
 
 ## Quality Bar
 
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per platform norms)
+- Each slide adds one distinct point supported by the episode.
+- Keep the context or qualification needed to understand each point.
+- Text is readable on a phone; the cover names a concrete question.
+- Close with one clear action; do not repeat the CTA at every step.
 
 ## Example
 
-_Coming soon — contribute an example on [GitHub](https://github.com/Riggg-Inc/owned-media-index)._
+**Illustrative five-slide sequence, not a measured case study.**
+
+1. Cover: “Before you end a remote recording”
+2. Play a short sample from each speaker. Listen for missing or distorted audio.
+3. Confirm that each recording has finished saving.
+4. If a file is missing, ask the participant to stay while you check it.
+5. Use this check before ending your next recording. Full walkthrough: [episode link].
+
+Post copy: “Before everyone signs off, check that the audio you need is actually there. Here is the short sequence.” Adapt only the steps supported by your episode.
 
 ## Prompt Template
 
-Copy and customize this prompt to generate this pattern:
+Start with the actual source passage, not only the episode title.
 
 ```
-Write a Thread Breakdown social post for LinkedIn (Linkedin Carousel version).
+Create a LinkedIn carousel outline and separate post caption from the source below.
 
-Context:
-- Episode title: [title of the episode]
-- Guest name: [guest full name]
-- Guest company/title: [their role]
-- Key insight or quote: [the main moment to highlight]
-- Episode link: [URL]
-- Relevant hashtags: [industry hashtags if appropriate]
+Inputs:
+- Intended reader and question: [reader + question]
+- Episode title and public link: [title + verified URL]
+- Source passage with speaker and timestamps: [paste relevant transcript]
+- Public-use permissions and details to omit: [notes]
 
-Platform: LinkedIn
-Drafting target: about 1300 characters; an editorial target, not a platform limit or proven engagement optimum
-
-Requirements:
-- First line must stop the scroll
-- Body must add value beyond the episode title
-- CTA must be specific and singular
-- Platform-native formatting (line breaks, emojis, hashtags per LinkedIn norms)
-- Tag guest when appropriate
-- Never use the same copy across platforms
+Output:
+- Cover, one supported point per slide, final action and separate post caption.
+- Give each slide a short heading and readable body; keep the post caption around 1300 characters only as an editorial target.
+- Give a source location for every quotation or substantive point in a separate review checklist.
+- If the source lacks a needed fact, mark it missing; do not invent facts, steps or results.
+- Keep any qualification that changes the meaning.
+- Adapt the wording to this reader, not a copy of another platform post.
 ```
 
-Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+Before publishing, check each point against the recording, confirm names and links, and remove private or unapproved details. Fix mismatches and recheck; publish only when the remaining issues are resolved.

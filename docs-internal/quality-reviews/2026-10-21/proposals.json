@@ -1,0 +1,35 @@
+{
+  "base": "3e20bb66223a5c610d9570575cbb095032b70f31",
+  "files": [
+    {
+      "path": "docs/patterns/package/social-posts/types/quote-share/twitter-quote-card.md",
+      "base_sha256": "e9411522e294f6fe422fde2ce43ad93839fd98a1aa143c7e82c71fd6c6455318",
+      "proposal_sha256": "11e91de4ee433afabcb843723f08ed0cfdd3547def3d5192f2b5dc449d6124e5",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/quote-share/twitter-quote-card/"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/index.md",
+      "base_sha256": "6514bd91e6db64f0997eb5027ceaba6084431ceb1bc839b4f54ccd77247aec96",
+      "proposal_sha256": "30b4d20765aef9682455675e542e960cc02a7d6c4c55f72e619bce4965912d0e",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel.md",
+      "base_sha256": "b15019300c1660fd6861f3ac3846895133f31d8410bac8fe3d2f35a9cc83abf7",
+      "proposal_sha256": "565ac433277c4978d2b2b70eccbb954efa68d76b822c1249c70dff938f9c5cd3",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/linkedin-carousel/"
+    },
+    {
+      "path": "docs/patterns/package/social-posts/types/thread-breakdown/twitter-thread.md",
+      "base_sha256": "07aa7706dba49469a79cc747ff742bd5b86009f6052bd6c460bd96488526ff2f",
+      "proposal_sha256": "c69dbe6cafe8b68e366dd1a86eaaeaa9c0f4c464560e5c88a948fcd6f7fcae28",
+      "current_url": "https://index.riggg.com/patterns/package/social-posts/types/thread-breakdown/twitter-thread/"
+    },
+    {
+      "path": "docs/patterns/package/thumbnails/branded-template.md",
+      "base_sha256": "71671f14d589cdc76f1ee332fb7717ff6ce25799b3cc48403bcc11cdcbe7580c",
+      "proposal_sha256": "6e5c3caa6cf3bdc27ee4a93da2778b718e8dbb8805f76479a1c4ca9455a1a097",
+      "current_url": "https://index.riggg.com/patterns/package/thumbnails/branded-template/"
+    }
+  ]
+}
