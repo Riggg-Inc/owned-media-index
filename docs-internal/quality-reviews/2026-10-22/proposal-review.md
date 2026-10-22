@@ -9,3 +9,5 @@ Sources freshly read October22: YouTube https://support.google.com/youtube/answe
 Practitioner reader checks: Purpose retained in each direct opening. First action now supplies a real number/photo/still or chooses destination. Examples are explicitly illustrative, not customer or performance evidence. Quality Bar gains source-fidelity checks and consistent overlay length; hub keeps style choice guidance. Meaning and confident voice retained; no blanket advice disclaimers. Essential limits are placed at source inputs and export decision, not an auditlog in the reader path.
 
 No scoring/framework changes, new media packages or body publication authorized. Shared dark CSS remains unapproved and is NOT fixed by these drafts. Proposed bodies receive no assessment in the public quality registry. Exact human approve/revise/park required after normal independent audit; previous card proposals and incomplete scope remain intact.
+
+Original legacy specification date May2026 remains retained in base55601e1 and the meaningful diff; no historical source record is changed.

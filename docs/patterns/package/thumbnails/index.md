@@ -1,5 +1,5 @@
 ---
-description: "5 ranked thumbnail styles for podcasts and video episodes. Platform specs for YouTube, Apple Podcasts, Spotify, and social."
+description: "Choose among five thumbnail styles for your episode, with current YouTube and Apple Podcasts artwork guidance."
 ---
 
 # Thumbnails
@@ -32,7 +32,7 @@ Choose the destination before exporting. A landscape video thumbnail, square pod
 
 ### YouTube videos
 
-[YouTube’s thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) recommends 3840x2160 pixels for videos, with a minimum width of 640 pixels and a 16:9 aspect ratio. Use JPG or PNG. Upload limits depend on the device: mobile video thumbnails must be under 2 MB; desktop video, Shorts and podcast thumbnails can be up to 50 MB. Shorts use a different 9:16 composition; podcast playlists use 1:1.
+[YouTube’s thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) recommends 3840x2160 pixels for videos, with a minimum width of 640 pixels and a 16:9 aspect ratio. Use JPG or PNG. Upload limits depend on the device: mobile video thumbnails must be under 2 MB; desktop video, Shorts and podcast thumbnails must remain under 50 MB. Shorts use a different 9:16 composition; podcast playlists use 1:1.
 
 ### Apple Podcasts episode artwork
 

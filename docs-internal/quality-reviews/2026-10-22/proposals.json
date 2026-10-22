@@ -25,7 +25,7 @@
     "current_url": "https://index.riggg.com/patterns/package/thumbnails/",
     "base_commit": "55601e1097eec95bfb8158856b0f0a476e008cf2",
     "base_file_sha256": "11b8476bd188d1b4bd23a744d9a91fa69ac0b370d9b52bfacbf0a09702002c51",
-    "proposed_file_sha256": "ba12dd916ce468b78fcbf650d2af39951cbd805a12bed481236a05c7b0b3b919"
+    "proposed_file_sha256": "ef8821a8bdeda135121fdffa73cf0e6ae5946b0da2d6784826dfbcdcbd249e33"
   },
   {
     "path": "docs/patterns/package/thumbnails/scene-still.md",
