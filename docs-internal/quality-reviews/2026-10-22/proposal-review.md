@@ -11,3 +11,5 @@ Practitioner reader checks: Purpose retained in each direct opening. First actio
 No scoring/framework changes, new media packages or body publication authorized. Shared dark CSS remains unapproved and is NOT fixed by these drafts. Proposed bodies receive no assessment in the public quality registry. Exact human approve/revise/park required after normal independent audit; previous card proposals and incomplete scope remain intact.
 
 Original legacy specification date May2026 remains retained in base55601e1 and the meaningful diff; no historical source record is changed.
+
+Preview:20 desktop/mobile light/dark captures, five complete light desktop screenshots inspected. No document overflow. Existing dark contrast remains unresolved. Local Data Visual iframe black; no playback claim. Source iframe bytes unchanged. Full examples/source-input prompts retained after transformation.
