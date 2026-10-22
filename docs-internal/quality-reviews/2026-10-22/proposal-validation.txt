@@ -110,4 +110,3 @@ INFO    -  Documentation built in 71.25 seconds
 Audited 128 HTML pages and 8404 internal link/resource references; 0 errors.
 
 AEO: 127 pages; {'WebPage': 12, 'CollectionPage': 28, 'Article': 87}; 0 errors.
-
