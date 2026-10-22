@@ -1,0 +1,263 @@
+diff --git a/docs/patterns/package/thumbnails/data-visual.md b/docs/patterns/package/thumbnails/data-visual.md
+index a61afac..828114f 100644
+--- a/docs/patterns/package/thumbnails/data-visual.md
++++ b/docs/patterns/package/thumbnails/data-visual.md
+@@ -20,6 +20,12 @@ A thumbnail featuring a key statistic, chart element, or number as the primary v
+ 
+ A thumbnail featuring a key statistic, chart element, or number as the primary visual. Works when the data point is the hook.
+ 
++Start with one verified number from the episode. Keep its unit and timeframe in the image; if that context will not fit, choose another thumbnail style.
++
++## Example
++
++Illustrative layout: an episode explains a documented change from 12 days to 8 days. Use “12 → 8 days” as the main visual and “Shorter onboarding” as the small supporting line. Do not turn that example into a claimed result for your show.
++
+ ## Quality Bar
+ 
+ - Readable at 120x120px minimum
+@@ -40,16 +46,27 @@ Copy and customize this prompt to generate this pattern:
+ Create a thumbnail using the Data Visual pattern.
+ 
+ Context:
++- Verified number, unit and timeframe: [exact values]
++- Source and location in episode: [link and timestamp or passage]
++- Comparison baseline, if used: [what is being compared]
+ - Episode topic: [what is this episode about]
+ - Key visual element: [what should dominate the thumbnail]
+ - Show brand colors: [hex codes or color names]
+ - Text overlay (if any): [maximum 5-7 words]
+ 
+ Requirements:
++- Use only the supplied numbers; do not estimate missing values or invent a chart.
++- Preserve units, dates and comparison context; ask for missing source details.
+ - Readable at 120x120px minimum
+ - High contrast between text and background
+ - Brand colors consistent with show identity
+-- 16:9 for YouTube, 1:1 option for podcast apps
++- Create the landscape YouTube video version at 16:9. Prepare podcast artwork separately for its destination.
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++
++## Export and check
++
++For landscape YouTube videos, use a 16:9 composition and the [current YouTube thumbnail specifications](https://support.google.com/youtube/answer/72431?hl=en). For [Apple Podcasts episode artwork](https://podcasters.apple.com/support/5516-episode-art-template), create a separate square image without text or the podcast logo, following Apple’s design recommendation. Check the destination rather than simply cropping the YouTube version.
++
++Review the AI output against the supplied source yourself. Check the small-size preview, fix misleading text or image changes, and recheck before publishing.
+diff --git a/docs/patterns/package/thumbnails/emotion-close-up.md b/docs/patterns/package/thumbnails/emotion-close-up.md
+index 4f3fc19..3a07c43 100644
+--- a/docs/patterns/package/thumbnails/emotion-close-up.md
++++ b/docs/patterns/package/thumbnails/emotion-close-up.md
+@@ -14,6 +14,12 @@ A thumbnail using a close-up frame of the speaker showing strong emotion — sur
+ 
+ A thumbnail using a close-up frame of the speaker showing strong emotion — surprise, excitement, intensity. The facial expression does the selling.
+ 
++Choose an actual frame where the speaker’s expression matches the moment in the episode. Then crop around the face before adding any words.
++
++## Example
++
++Illustrative layout: a guest raises their eyebrows while explaining an unexpected result. Crop that real frame closely and use “The surprising result” only if the episode delivers it. Do not manufacture a shocked face.
++
+ ## Quality Bar
+ 
+ - Readable at 120x120px minimum
+@@ -34,16 +40,27 @@ Copy and customize this prompt to generate this pattern:
+ Create a thumbnail using the Emotion Close Up pattern.
+ 
+ Context:
++- Actual source frame: [attach image and episode location]
++- What the speaker is reacting to: [brief context]
++- Permission to use the image: [confirmed or unresolved]
+ - Episode topic: [what is this episode about]
+ - Key visual element: [what should dominate the thumbnail]
+ - Show brand colors: [hex codes or color names]
+ - Text overlay (if any): [maximum 5-7 words]
+ 
+ Requirements:
++- Preserve the person’s real expression; do not generate a new reaction.
++- Keep the crop and text faithful to the supplied episode context.
+ - Readable at 120x120px minimum
+ - High contrast between text and background
+ - Brand colors consistent with show identity
+-- 16:9 for YouTube, 1:1 option for podcast apps
++- Create the landscape YouTube video version at 16:9. Prepare podcast artwork separately for its destination.
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++
++## Export and check
++
++For landscape YouTube videos, use a 16:9 composition and the [current YouTube thumbnail specifications](https://support.google.com/youtube/answer/72431?hl=en). For [Apple Podcasts episode artwork](https://podcasters.apple.com/support/5516-episode-art-template), create a separate square image without text or the podcast logo, following Apple’s design recommendation. Check the destination rather than simply cropping the YouTube version.
++
++Review the AI output against the supplied source yourself. Check the small-size preview, fix misleading text or image changes, and recheck before publishing.
+diff --git a/docs/patterns/package/thumbnails/guest-headshot-text.md b/docs/patterns/package/thumbnails/guest-headshot-text.md
+index b34b421..9c1ca4f 100644
+--- a/docs/patterns/package/thumbnails/guest-headshot-text.md
++++ b/docs/patterns/package/thumbnails/guest-headshot-text.md
+@@ -12,12 +12,18 @@ A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summ
+ 
+ ## What It Is
+ 
+-A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic. The most reliable thumbnail format for expert interviews.
++A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic. A strong starting point for expert interviews when the guest is recognizable to the intended audience.
++
++Start with a permitted headshot and a short topic line the target audience will understand. Make the guest the focal point only when their identity helps explain why the episode is worth watching.
++
++## Example
++
++Illustrative layout: place a recognizable guest on one side and “Fix your onboarding emails” on the other. The guest identifies the expert; the words identify the useful topic.
+ 
+ ## Quality Bar
+ 
+ - Readable at 120x120px minimum
+-- Maximum 5-7 words of text
++- Maximum 3-5 words of text
+ - High contrast between text and background
+ - Brand colors consistent with show identity
+ - Face visible when using headshot or emotion styles
+@@ -34,6 +40,8 @@ Copy and customize this prompt to generate this pattern:
+ Create a thumbnail using the Guest Headshot + Text pattern.
+ 
+ Context:
++- Permission to use the headshot: [confirmed or unresolved]
++- Episode source or summary: [material supporting the topic line]
+ - Guest name: [full name]
+ - Guest headshot: [attach or describe]
+ - Episode topic (3-5 words max): [the text overlay]
+@@ -41,11 +49,19 @@ Context:
+ - Show logo: [attach or describe]
+ 
+ Requirements:
++- Use the supplied headshot and episode facts; do not invent credentials or claims.
++- Use 3-5 words for the text overlay.
+ - Guest face clearly visible
+-- Text overlay: maximum 5-7 words, high contrast
++- Text overlay: maximum 3-5 words, high contrast
+ - Brand colors consistent with show identity
+-- Readable at 120x120px (podcast app grid)
+-- 16:9 aspect ratio for YouTube, 1:1 option for podcast apps
++- Readable at 120x120px (small-size preview test)
++- Create the landscape YouTube video version at 16:9. Prepare podcast artwork separately for its destination.
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++
++## Export and check
++
++For landscape YouTube videos, use a 16:9 composition and the [current YouTube thumbnail specifications](https://support.google.com/youtube/answer/72431?hl=en). For [Apple Podcasts episode artwork](https://podcasters.apple.com/support/5516-episode-art-template), create a separate square image without text or the podcast logo, following Apple’s design recommendation. Check the destination rather than simply cropping the YouTube version.
++
++Review the AI output against the supplied source yourself. Check the small-size preview, fix misleading text or image changes, and recheck before publishing.
+diff --git a/docs/patterns/package/thumbnails/index.md b/docs/patterns/package/thumbnails/index.md
+index 46c8a7e..4f9aa18 100644
+--- a/docs/patterns/package/thumbnails/index.md
++++ b/docs/patterns/package/thumbnails/index.md
+@@ -6,7 +6,7 @@ description: "5 ranked thumbnail styles for podcasts and video episodes. Platfor
+ 
+ **Stage:** Package
+ 
+-Thumbnails are the visual packaging that determines whether someone clicks on your episode in a podcast app, YouTube, or social feed. They are the visual equivalent of the title — the first impression of every asset.
++Thumbnails are the visual packaging that helps someone decide whether to click on your episode in a podcast app, YouTube, or social feed. They are the visual equivalent of the title — the first impression of every asset.
+ 
+ ## Thumbnail Styles
+ 
+@@ -20,7 +20,7 @@ Thumbnails are the visual packaging that determines whether someone clicks on yo
+ 
+ ## Quality Bar
+ 
+-- Readable at 120x120px (podcast app grid size)
++- Readable at 120x120px as a small-size design test
+ - Maximum 5-7 words of text
+ - Guest face visible when relevant
+ - Brand colors and show identity consistent
+@@ -28,26 +28,26 @@ Thumbnails are the visual packaging that determines whether someone clicks on yo
+ 
+ ## Platform Constraints
+ 
+-Image specs for episode thumbnails across platforms.
+-
+-| Platform | Recommended Size | Aspect Ratio | Max File Size | Format | Min Size |
+-|---|---|---|---|---|---|
+-| YouTube | 1280x720 | 16:9 | 2 MB | JPG, PNG, GIF, BMP | 640x360 |
+-| Apple Podcasts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
+-| Spotify | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 640x640 |
+-| Google Podcasts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 600x600 |
+-| Amazon Music | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
+-| Pocket Casts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
+-| LinkedIn (post image) | 1200x1200 | 1:1 or 1.91:1 | 10 MB | JPEG, PNG | 552x368 |
+-| Twitter/X (card image) | 1600x900 | 16:9 | 5 MB | JPEG, PNG, GIF | 600x335 |
+-| Facebook (link preview) | 1200x630 | 1.91:1 | 8 MB | JPEG, PNG | 600x315 |
+-| Open Graph (og:image) | 1200x630 | 1.91:1 | Varies | JPEG, PNG | 200x200 |
++Choose the destination before exporting. A landscape video thumbnail, square podcast episode image and social preview are different placements—not interchangeable crops.
++
++### YouTube videos
++
++[YouTube’s thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) recommends 3840x2160 pixels for videos, with a minimum width of 640 pixels and a 16:9 aspect ratio. Use JPG or PNG. Upload limits depend on the device: mobile video thumbnails must be under 2 MB; desktop video, Shorts and podcast thumbnails can be up to 50 MB. Shorts use a different 9:16 composition; podcast playlists use 1:1.
++
++### Apple Podcasts episode artwork
++
++[Apple’s Episode Art guide](https://podcasters.apple.com/support/5516-episode-art-template) specifies 3000x3000 pixels; RSS episode art can range from 1400x1400 to 3000x3000, with the largest size preferred. Export PNG or JPG with a solid background and no alpha channel. Apple recommends avoiding text and podcast logos because the interface already supplies the titles. Keep the episode’s visual idea, but design this version separately from the YouTube text overlay.
++
++### Other destinations
++
++For Spotify, Amazon Music, Pocket Casts or a social post, check the current requirements for the actual placement in your publishing tool before export. Do not substitute a show's cover-art specification for an episode image, or a link-preview specification for a post image. Google announced [Google Podcasts' discontinuation in 2024](https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/); it is not a current export destination.
+ 
+ ### Recommended Defaults
+ 
+-- **Produce two versions:** 3000x3000 (1:1 for podcast apps) and 1280x720 (16:9 for YouTube/social)
+-- **Readable at 120x120px** — this is the actual display size in many podcast app grids
+-- **Max 5-7 words** of text overlay
+-- **sRGB color space** — CMYK will render incorrectly on screens
++- Choose the style using the episode’s strongest real visual: guest, expression, brand layout, number or recording scene.
++- Prepare a landscape YouTube version and a separate podcast version only for the destinations you use.
++- Check readability in a small preview, such as 120x120px. This is a design test, not a universal app-grid specification.
++- Keep text short where the placement calls for it; omit it from Apple episode artwork following the guidance above.
++- Use an RGB export and inspect the uploaded preview for crops, hidden details and changed colors.
+ 
+-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
++Before publishing, check the image against the episode, correct misleading details, and repeat the preview check.
+diff --git a/docs/patterns/package/thumbnails/scene-still.md b/docs/patterns/package/thumbnails/scene-still.md
+index fe55e42..e788200 100644
+--- a/docs/patterns/package/thumbnails/scene-still.md
++++ b/docs/patterns/package/thumbnails/scene-still.md
+@@ -14,6 +14,12 @@ A thumbnail using a production still from the actual recording session. Choose i
+ 
+ A thumbnail using a production still from the actual recording session. Shows the studio, setup, or behind-the-scenes moment.
+ 
++Select a frame from the actual recording that shows the distinctive setup or demonstration. Check screens, notes and background details for private information before making the crop.
++
++## Example
++
++Illustrative layout: use a real frame of a host demonstrating microphone placement, keeping the microphone and gesture visible. “Hear the difference” can accompany it if the episode actually compares the sound. A stock studio would not demonstrate this pattern.
++
+ ## Quality Bar
+ 
+ - Readable at 120x120px minimum
+@@ -34,16 +40,27 @@ Copy and customize this prompt to generate this pattern:
+ Create a thumbnail using the Scene Still pattern.
+ 
+ Context:
++- Actual recording still: [attach frame and source location]
++- Detail to preserve in the crop: [equipment, gesture or scene]
++- Permission and private-background check: [confirmed or unresolved]
+ - Episode topic: [what is this episode about]
+ - Key visual element: [what should dominate the thumbnail]
+ - Show brand colors: [hex codes or color names]
+ - Text overlay (if any): [maximum 5-7 words]
+ 
+ Requirements:
++- Work from the attached real still; do not invent people, equipment or a studio.
++- Omit or obscure private screens and notes without changing the demonstrated setup.
+ - Readable at 120x120px minimum
+ - High contrast between text and background
+ - Brand colors consistent with show identity
+-- 16:9 for YouTube, 1:1 option for podcast apps
++- Create the landscape YouTube video version at 16:9. Prepare podcast artwork separately for its destination.
+ ```
+ 
+ Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
++
++## Export and check
++
++For landscape YouTube videos, use a 16:9 composition and the [current YouTube thumbnail specifications](https://support.google.com/youtube/answer/72431?hl=en). For [Apple Podcasts episode artwork](https://podcasters.apple.com/support/5516-episode-art-template), create a separate square image without text or the podcast logo, following Apple’s design recommendation. Check the destination rather than simply cropping the YouTube version.
++
++Review the AI output against the supplied source yourself. Check the small-size preview, fix misleading text or image changes, and recheck before publishing.

@@ -6,7 +6,7 @@ description: "5 ranked thumbnail styles for podcasts and video episodes. Platfor
 
 **Stage:** Package
 
-Thumbnails are the visual packaging that determines whether someone clicks on your episode in a podcast app, YouTube, or social feed. They are the visual equivalent of the title — the first impression of every asset.
+Thumbnails are the visual packaging that helps someone decide whether to click on your episode in a podcast app, YouTube, or social feed. They are the visual equivalent of the title — the first impression of every asset.
 
 ## Thumbnail Styles
 
@@ -20,7 +20,7 @@ Thumbnails are the visual packaging that determines whether someone clicks on yo
 
 ## Quality Bar
 
-- Readable at 120x120px (podcast app grid size)
+- Readable at 120x120px as a small-size design test
 - Maximum 5-7 words of text
 - Guest face visible when relevant
 - Brand colors and show identity consistent
@@ -28,26 +28,26 @@ Thumbnails are the visual packaging that determines whether someone clicks on yo
 
 ## Platform Constraints
 
-Image specs for episode thumbnails across platforms.
+Choose the destination before exporting. A landscape video thumbnail, square podcast episode image and social preview are different placements—not interchangeable crops.
 
-| Platform | Recommended Size | Aspect Ratio | Max File Size | Format | Min Size |
-|---|---|---|---|---|---|
-| YouTube | 1280x720 | 16:9 | 2 MB | JPG, PNG, GIF, BMP | 640x360 |
-| Apple Podcasts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
-| Spotify | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 640x640 |
-| Google Podcasts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 600x600 |
-| Amazon Music | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
-| Pocket Casts | 3000x3000 | 1:1 | 10 MB | JPEG, PNG | 1400x1400 |
-| LinkedIn (post image) | 1200x1200 | 1:1 or 1.91:1 | 10 MB | JPEG, PNG | 552x368 |
-| Twitter/X (card image) | 1600x900 | 16:9 | 5 MB | JPEG, PNG, GIF | 600x335 |
-| Facebook (link preview) | 1200x630 | 1.91:1 | 8 MB | JPEG, PNG | 600x315 |
-| Open Graph (og:image) | 1200x630 | 1.91:1 | Varies | JPEG, PNG | 200x200 |
+### YouTube videos
+
+[YouTube’s thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en) recommends 3840x2160 pixels for videos, with a minimum width of 640 pixels and a 16:9 aspect ratio. Use JPG or PNG. Upload limits depend on the device: mobile video thumbnails must be under 2 MB; desktop video, Shorts and podcast thumbnails can be up to 50 MB. Shorts use a different 9:16 composition; podcast playlists use 1:1.
+
+### Apple Podcasts episode artwork
+
+[Apple’s Episode Art guide](https://podcasters.apple.com/support/5516-episode-art-template) specifies 3000x3000 pixels; RSS episode art can range from 1400x1400 to 3000x3000, with the largest size preferred. Export PNG or JPG with a solid background and no alpha channel. Apple recommends avoiding text and podcast logos because the interface already supplies the titles. Keep the episode’s visual idea, but design this version separately from the YouTube text overlay.
+
+### Other destinations
+
+For Spotify, Amazon Music, Pocket Casts or a social post, check the current requirements for the actual placement in your publishing tool before export. Do not substitute a show's cover-art specification for an episode image, or a link-preview specification for a post image. Google announced [Google Podcasts' discontinuation in 2024](https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/); it is not a current export destination.
 
 ### Recommended Defaults
 
-- **Produce two versions:** 3000x3000 (1:1 for podcast apps) and 1280x720 (16:9 for YouTube/social)
-- **Readable at 120x120px** — this is the actual display size in many podcast app grids
-- **Max 5-7 words** of text overlay
-- **sRGB color space** — CMYK will render incorrectly on screens
+- Choose the style using the episode’s strongest real visual: guest, expression, brand layout, number or recording scene.
+- Prepare a landscape YouTube version and a separate podcast version only for the destinations you use.
+- Check readability in a small preview, such as 120x120px. This is a design test, not a universal app-grid specification.
+- Keep text short where the placement calls for it; omit it from Apple episode artwork following the guidance above.
+- Use an RGB export and inspect the uploaded preview for crops, hidden details and changed colors.
 
-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
+Before publishing, check the image against the episode, correct misleading details, and repeat the preview check.

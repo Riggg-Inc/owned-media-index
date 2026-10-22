@@ -12,12 +12,18 @@ A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summ
 
 ## What It Is
 
-A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic. The most reliable thumbnail format for expert interviews.
+A thumbnail featuring the guest's headshot alongside 3-5 words of bold text summarizing the episode topic. A strong starting point for expert interviews when the guest is recognizable to the intended audience.
+
+Start with a permitted headshot and a short topic line the target audience will understand. Make the guest the focal point only when their identity helps explain why the episode is worth watching.
+
+## Example
+
+Illustrative layout: place a recognizable guest on one side and “Fix your onboarding emails” on the other. The guest identifies the expert; the words identify the useful topic.
 
 ## Quality Bar
 
 - Readable at 120x120px minimum
-- Maximum 5-7 words of text
+- Maximum 3-5 words of text
 - High contrast between text and background
 - Brand colors consistent with show identity
 - Face visible when using headshot or emotion styles
@@ -34,6 +40,8 @@ Copy and customize this prompt to generate this pattern:
 Create a thumbnail using the Guest Headshot + Text pattern.
 
 Context:
+- Permission to use the headshot: [confirmed or unresolved]
+- Episode source or summary: [material supporting the topic line]
 - Guest name: [full name]
 - Guest headshot: [attach or describe]
 - Episode topic (3-5 words max): [the text overlay]
@@ -41,11 +49,19 @@ Context:
 - Show logo: [attach or describe]
 
 Requirements:
+- Use the supplied headshot and episode facts; do not invent credentials or claims.
+- Use 3-5 words for the text overlay.
 - Guest face clearly visible
-- Text overlay: maximum 5-7 words, high contrast
+- Text overlay: maximum 3-5 words, high contrast
 - Brand colors consistent with show identity
-- Readable at 120x120px (podcast app grid)
-- 16:9 aspect ratio for YouTube, 1:1 option for podcast apps
+- Readable at 120x120px (small-size preview test)
+- Create the landscape YouTube video version at 16:9. Prepare podcast artwork separately for its destination.
 ```
 
 Replace the bracketed placeholders with your specific details. The more context you provide about your audience, guest, and episode content, the better the output.
+
+## Export and check
+
+For landscape YouTube videos, use a 16:9 composition and the [current YouTube thumbnail specifications](https://support.google.com/youtube/answer/72431?hl=en). For [Apple Podcasts episode artwork](https://podcasters.apple.com/support/5516-episode-art-template), create a separate square image without text or the podcast logo, following Apple’s design recommendation. Check the destination rather than simply cropping the YouTube version.
+
+Review the AI output against the supplied source yourself. Check the small-size preview, fix misleading text or image changes, and recheck before publishing.
