@@ -5765,6 +5765,480 @@
         "reason": "Await exact owner approval for body guidance correction and shared dark contrast repair; unchanged pending proposals do not require duplicate research.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
       }
+    ],
+    "patterns/package/thumbnails/data-visual.md": [
+      {
+        "id": "quality-20261022-thumbnail-data-visual",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-22T16:50:48Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "902ce599a721b2255ad587d78100605db6e57494e3630d1c6d619211877da438",
+        "report_ref": "docs-internal/quality-reviews/2026-10-22/data-visual.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening supplies a clear selection decision: use the number only when it is the understandable hook; reject charts needing explanation."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The prompt never asks for the actual number, unit, source, date or comparison baseline. A generic key visual cannot reliably produce a truthful statistic; the video cover is not a worked numeric example and playback was not reviewed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, context exclusion and small-size test consistently favor a single readable statistic rather than an explanatory chart."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub distinguishes data-led from face-led thumbnails and Framework locates both in Package; scores remain editorial judgments, not measured click results."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The 16:9 video recommendation is supported, but the generic square podcast variant carries text-overlay instructions that conflict with Apple episode-art advice. No numerical performance promise is asserted."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile dark render shows low-contrast red prompt text on dark grey, obstructing the principal reusable tool; light desktop is readable and the video poster is present, without a playback claim."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official platform guidance in context for the actual format claims; practitioner design advice does not require experimental certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "YouTube landscape video and podcast artwork require different output choices; a square crop is not a universal adaptation.",
+              "finding": "Official image-size section recommends 16:9 videos, 9:16 Shorts and 1:1 podcast playlists. Current guidance recommends 3840x2160 video thumbnails and distinguishes 2 MB mobile from 50 MB desktop uploads. Relevant section read; fetch warned incomplete HTML, so no complete-site verification claimed.",
+              "checked_at": "2026-10-22T16:46:37Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5516-episode-art-template",
+              "claim": "Square episode artwork should simply reuse the same text-overlay thumbnail.",
+              "finding": "Apple specifies square episode artwork, 3000px preferred and RSS acceptance 1400\u20133000px; PNG/JPG without transparency. It recommends avoiding text and podcast logos because the interface already supplies titles. A square version of the text-heavy prompt needs explicit adaptation.",
+              "checked_at": "2026-10-22T16:48:12Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, thumbnail hub and all five published style pages before comparing their operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; each thumbnail is a packaging decision rather than a promised performance result.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about fit and evidence, not numeric evidence of click-through superiority.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/branded-template.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Branded Template prioritizes show recognition; distinct episode detail remains necessary, unlike source-number, expression or actual-scene choices.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "The hub names this style with the same score and matching use case, but its legacy platform specification matrix needs correction.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-21T16:50:48Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/thumbnails/emotion-close-up.md": [
+      {
+        "id": "quality-20261022-thumbnail-emotion-close-up",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-22T16:50:48Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "6feeeefe19916856c62ae096d16a0063dc6ae694fff8cf9d5371a3d8752f865f",
+        "report_ref": "docs-internal/quality-reviews/2026-10-22/emotion-close-up.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The reader can choose this style when a real expression conveys the episode energy and avoid forced reactions."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The reusable prompt requests only a generic key visual and no actual source frame. It cannot reliably implement the defining genuine-expression instruction, and there is no concrete selection example."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The opening rejects manufactured reactions but the generation prompt omits the source-photo constraint, creating a practical contradiction between selection and execution."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub assigns this style to high-energy episodes while headshots emphasize recognition; these are distinct, compatible Package tasks."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The facial expression does the selling is reasonable editorial advice, not a benchmark. However the square podcast variant needs adaptation because Apple advises avoiding text and logo overlays."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Dark mobile prompt text is visibly difficult to read against its block background; desktop light structure and breadcrumbs are usable."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official platform guidance in context for the actual format claims; practitioner design advice does not require experimental certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "YouTube landscape video and podcast artwork require different output choices; a square crop is not a universal adaptation.",
+              "finding": "Official image-size section recommends 16:9 videos, 9:16 Shorts and 1:1 podcast playlists. Current guidance recommends 3840x2160 video thumbnails and distinguishes 2 MB mobile from 50 MB desktop uploads. Relevant section read; fetch warned incomplete HTML, so no complete-site verification claimed.",
+              "checked_at": "2026-10-22T16:46:37Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5516-episode-art-template",
+              "claim": "Square episode artwork should simply reuse the same text-overlay thumbnail.",
+              "finding": "Apple specifies square episode artwork, 3000px preferred and RSS acceptance 1400\u20133000px; PNG/JPG without transparency. It recommends avoiding text and podcast logos because the interface already supplies titles. A square version of the text-heavy prompt needs explicit adaptation.",
+              "checked_at": "2026-10-22T16:48:12Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, thumbnail hub and all five published style pages before comparing their operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; each thumbnail is a packaging decision rather than a promised performance result.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about fit and evidence, not numeric evidence of click-through superiority.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/branded-template.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Branded Template prioritizes show recognition; distinct episode detail remains necessary, unlike source-number, expression or actual-scene choices.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "The hub names this style with the same score and matching use case, but its legacy platform specification matrix needs correction.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-21T16:50:48Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/thumbnails/guest-headshot-text.md": [
+      {
+        "id": "quality-20261022-thumbnail-guest-headshot-text",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-22T16:50:48Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d1a57e0cf579495a62e8d38c4065e7faf36a8cfac64f14cd67ddfcd435c696d7",
+        "report_ref": "docs-internal/quality-reviews/2026-10-22/guest-headshot-text.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Recognizable guest versus topic-first selection is an actionable audience-fit decision, with an explicit case for choosing another format."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The prompt supplies guest name, headshot, short topic and brand inputs; this is materially more specific than the generic sibling prompts, though a worked example would help."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The opening and context request 3\u20135 words, while the requirements permit 5\u20137; the reader gets inconsistent instructions for the main text deliverable."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Scoring calls scores editorial judgments, but the unqualified most reliable thumbnail format reads as a comparative performance fact rather than a recommendation conditional on guest recognition."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "No comparative benchmark is provided for most reliable. Keep a confident audience-fit recommendation without inventing evidence. Apple episode art guidance contradicts a blanket square reuse of text/logo overlays."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh dark mobile render makes the detailed prompt low contrast; light desktop is readable with a clear hierarchy and no page overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official platform guidance in context for the actual format claims; practitioner design advice does not require experimental certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "YouTube landscape video and podcast artwork require different output choices; a square crop is not a universal adaptation.",
+              "finding": "Official image-size section recommends 16:9 videos, 9:16 Shorts and 1:1 podcast playlists. Current guidance recommends 3840x2160 video thumbnails and distinguishes 2 MB mobile from 50 MB desktop uploads. Relevant section read; fetch warned incomplete HTML, so no complete-site verification claimed.",
+              "checked_at": "2026-10-22T16:46:37Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5516-episode-art-template",
+              "claim": "Square episode artwork should simply reuse the same text-overlay thumbnail.",
+              "finding": "Apple specifies square episode artwork, 3000px preferred and RSS acceptance 1400\u20133000px; PNG/JPG without transparency. It recommends avoiding text and podcast logos because the interface already supplies titles. A square version of the text-heavy prompt needs explicit adaptation.",
+              "checked_at": "2026-10-22T16:48:12Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, thumbnail hub and all five published style pages before comparing their operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; each thumbnail is a packaging decision rather than a promised performance result.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about fit and evidence, not numeric evidence of click-through superiority.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/branded-template.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Branded Template prioritizes show recognition; distinct episode detail remains necessary, unlike source-number, expression or actual-scene choices.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "The hub names this style with the same score and matching use case, but its legacy platform specification matrix needs correction.",
+              "checked_at": "2026-10-22T16:50:48Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-21T16:50:48Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/thumbnails/index.md": [
+      {
+        "id": "quality-20261022-thumbnail-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-22T16:50:49Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "bb386635feeec17461dfbceafee5724f77d0fa80002a1779f5a63dca07aa3516",
+        "report_ref": "docs-internal/quality-reviews/2026-10-22/index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The five-style comparison provides a useful first choice by episode type and links directly to the corresponding patterns."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The hub contains a substantial style table and concrete design checks; it is not empty filler. The specification matrix has substance but factual corrections are required."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The page describes current platform constraints while relegating their obsolete snapshot status to a footer; users encounter operational instructions before the qualification."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Style names, scores and use cases match the five sibling pages and the Package definition; no scoring redesign is needed to correct the operational specifications."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The YouTube 1280x720 recommendation and universal 2 MB maximum differ from current official guidance. The Google Podcasts row conflicts with the official 2024 discontinuation announcement. Apple size range is supported, but its 10 MB limit was not established by the episode-art source. Other platform rows were not certified."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Dark mobile style and specification tables use near-white striped backgrounds with pale text, obscuring decisions. The wide specification table requires horizontal navigation; absence of document overflow alone is not a usability pass."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official platform guidance in context for the actual format claims; practitioner design advice does not require experimental certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "YouTube landscape video and podcast artwork require different output choices; a square crop is not a universal adaptation.",
+              "finding": "Official image-size section recommends 16:9 videos, 9:16 Shorts and 1:1 podcast playlists. Current guidance recommends 3840x2160 video thumbnails and distinguishes 2 MB mobile from 50 MB desktop uploads. Relevant section read; fetch warned incomplete HTML, so no complete-site verification claimed.",
+              "checked_at": "2026-10-22T16:46:37Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5516-episode-art-template",
+              "claim": "Square episode artwork should simply reuse the same text-overlay thumbnail.",
+              "finding": "Apple specifies square episode artwork, 3000px preferred and RSS acceptance 1400\u20133000px; PNG/JPG without transparency. It recommends avoiding text and podcast logos because the interface already supplies titles. A square version of the text-heavy prompt needs explicit adaptation.",
+              "checked_at": "2026-10-22T16:48:12Z"
+            },
+            {
+              "url": "https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/",
+              "claim": "Google Podcasts remains a current destination needing episode thumbnail exports.",
+              "finding": "The official September 2023 announcement says Google Podcasts will be discontinued in 2024 while users move to YouTube Music. This contradicts treating it as an ordinary active destination in a current operational table; this source is the announcement, not a fresh product test.",
+              "checked_at": "2026-10-22T16:47:14Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, thumbnail hub and all five published style pages before comparing their operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; each thumbnail is a packaging decision rather than a promised performance result.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about fit and evidence, not numeric evidence of click-through superiority.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/branded-template.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Branded Template prioritizes show recognition; distinct episode detail remains necessary, unlike source-number, expression or actual-scene choices.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/data-visual.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read full sibling: its visual mechanism and score agree with the hub; production prompts need source-specific execution inputs.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/emotion-close-up.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read full sibling: its visual mechanism and score agree with the hub; production prompts need source-specific execution inputs.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/guest-headshot-text.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read full sibling: its visual mechanism and score agree with the hub; production prompts need source-specific execution inputs.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/scene-still.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read full sibling: its visual mechanism and score agree with the hub; production prompts need source-specific execution inputs.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-21T16:50:49Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/thumbnails/scene-still.md": [
+      {
+        "id": "quality-20261022-thumbnail-scene-still",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-22T16:50:49Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "8c1de7fc947dc5a16033f316ec4a65cd915bdd6d26855a10a5b7166edcf64d42",
+        "report_ref": "docs-internal/quality-reviews/2026-10-22/scene-still.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The reader can choose a distinctive actual recording moment and reject a visually unremarkable setup."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The prompt lacks an attached recording still or source time reference despite promising an actual production image; no concrete example shows which studio detail should survive the crop."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Actual recording session defines the pattern, but an unconstrained create-a-thumbnail prompt can fabricate a studio. The execution needs the same provenance boundary as the definition."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The hub distinguishes production-focused scenes from headshots and expressions, consistent with Packaging existing source media in Framework."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "No empirical performance promise needs experimental proof. The broad square podcast variant still requires platform adaptation; Apple recommends no text or podcast logo in episode artwork."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Dark mobile prompt text is materially low contrast; light desktop is readable, with useful heading navigation and no observed document overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official platform guidance in context for the actual format claims; practitioner design advice does not require experimental certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/72431?hl=en",
+              "claim": "YouTube landscape video and podcast artwork require different output choices; a square crop is not a universal adaptation.",
+              "finding": "Official image-size section recommends 16:9 videos, 9:16 Shorts and 1:1 podcast playlists. Current guidance recommends 3840x2160 video thumbnails and distinguishes 2 MB mobile from 50 MB desktop uploads. Relevant section read; fetch warned incomplete HTML, so no complete-site verification claimed.",
+              "checked_at": "2026-10-22T16:46:37Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5516-episode-art-template",
+              "claim": "Square episode artwork should simply reuse the same text-overlay thumbnail.",
+              "finding": "Apple specifies square episode artwork, 3000px preferred and RSS acceptance 1400\u20133000px; PNG/JPG without transparency. It recommends avoiding text and podcast logos because the interface already supplies titles. A square version of the text-heavy prompt needs explicit adaptation.",
+              "checked_at": "2026-10-22T16:48:12Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, thumbnail hub and all five published style pages before comparing their operating guidance.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; each thumbnail is a packaging decision rather than a promised performance result.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about fit and evidence, not numeric evidence of click-through superiority.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/branded-template.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Branded Template prioritizes show recognition; distinct episode detail remains necessary, unlike source-number, expression or actual-scene choices.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            },
+            {
+              "path": "patterns/package/thumbnails/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "The hub names this style with the same score and matching use case, but its legacy platform specification matrix needs correction.",
+              "checked_at": "2026-10-22T16:50:49Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-21T16:50:49Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
     ]
   }
 }
