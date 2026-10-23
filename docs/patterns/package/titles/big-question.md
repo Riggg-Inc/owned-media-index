@@ -53,7 +53,7 @@ These show-level references are teardown starting points, not episode-level veri
 | Show | Example Title | Link |
 |---|---|---|
 | **Lex Fridman Podcast** | Deep explorations of consciousness, AI, and physics | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
-| **The Knowledge Project** | Mental models and frameworks for decision-making | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+| **The Knowledge Project** | Mental models and frameworks for decision-making | [Official show](https://fs.blog/knowledge-project-podcast/) |
 | **Sean Carroll's Mindscape** | "How To Think About" framing for physics and philosophy | [Apple Podcasts](https://podcasts.apple.com/us/podcast/sean-carrolls-mindscape-science-society-philosophy/id1406534739) |
 
 ## Prompt Template

@@ -1,5 +1,5 @@
 ---
-description: "The Authority Claim title pattern used by The Diary Of A CEO. Format: [Expert Credential]: [Bold Declarative Claim]. Combines guest authority with a provocative statement."
+description: "The Authority Claim title pattern. Format: [Expert Credential]: [Bold Declarative Claim]. Pair a verified relevant credential with a claim the episode supports."
 ---
 
 # Authority Claim
@@ -18,7 +18,7 @@ A title that leads with the guest's credential or identity (not just their name,
 
 A title that leads with the guest's credential or identity (not just their name, but *what they are*), followed by a bold, often provocative declarative statement. The credential establishes trust, the claim creates urgency or curiosity.
 
-This pattern is the signature format of *The Diary Of A CEO*, one of the most successful podcasts in the world, and is increasingly adopted across B2B and thought leadership shows.
+Use this approach when the guest’s relevant experience helps your audience judge why the conversation matters. It can suit a broad interview or a focused professional episode; match the claim to the people you want to reach.
 
 ## Why It Works
 
@@ -28,69 +28,56 @@ This pattern works on two levels simultaneously:
 
 2. **Provocative claim** — The declarative statement creates tension, curiosity, or urgency. It makes a bold assertion that the audience feels compelled to verify, disagree with, or learn more about.
 
-The combination is powerful because the credential earns the right to make the claim. A bold claim from an anonymous source is clickbait. A bold claim from a credentialed expert is must-listen content.
+The credential explains why this guest is relevant; it does not prove the claim. Choose a bold statement supported by the actual episode, not a stronger assertion invented for the title. [YouTube’s title guidance](https://support.google.com/youtube/answer/12340300?hl=en) likewise emphasizes accurate representation and putting important words first.
 
 ## Structure Variations
 
+Illustrative titles, not quotations or claims about real people. Use only credentials and details you have verified for your episode.
+
 ### Credential: Claim
 
-The most common form. The credential comes first, the claim follows after a colon or period.
+Lead with relevant expertise, then the episode’s defensible claim.
 
-- World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic — Michio Kaku
-- Harvard's Behavior Expert: The Psychology of Why People Don't Like You
-- The Creator of AI: Many Jobs Won't Exist in 24 Months
-- CIA Whistleblower: They're Watching Everything You Do
+- Audio Engineer: Your Room Matters More Than Your Microphone
+- Newsletter Editor: Start With One Reader Question
+- Podcast Producer: A Better Brief Beats a Longer Recording
 
 ### Name: Credential + Claim
 
-Guest name leads, followed by credential context and the claim.
+Lead with the guest’s name when your intended audience recognizes it. These names are fictional.
 
-- Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No
-- Kevin Hart: How I Became a Millionaire
-- Brené Brown: We're In a Spiritual Crisis
+- Alex Morgan, Audio Engineer: Fix the Room Before Buying Gear
+- Jordan Lee, Newsletter Editor: Your Next Issue Needs One Clear Promise
 
 ### Emergency/Urgency Prefix
 
-An urgency signal added before the credential and claim.
+Use urgency only for a real deadline or timely decision explained in the episode, not to dress up an evergreen conversation.
 
-- EMERGENCY DEBATE: The Economy Is About To Collapse! The 2026 AI Crisis Nobody Sees
-- Chris Williamson: If You Don't Fix This Now, 2026 Is Already Over!
+- Before Your Next Recording: An Audio Engineer’s Room Check
 
 ### Question-Led Claim
 
-The claim is framed as a provocative question.
+Use a question when the conversation explores a claim rather than establishing it. Do not imply certainty the episode cannot deliver.
 
-- Are AI CEOs Exaggerating The Future To Raise Billions?
-- Could AI Move Too Fast For Society To Handle?
-- Which Jobs Are First To Disappear In The AI Shift?
+- Is Your Recording Room Holding Back Your Podcast?
+- Should Every Episode Become a Video?
 
-## Examples from The Diary Of A CEO
+## Worked Example
 
-| Title | Pattern Used |
-|---|---|
-| World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic — Michio Kaku | Credential: Claim + Name |
-| Harvard's Behavior Expert: The Psychology of Why People Don't Like You | Credential: Claim |
-| The Creator of AI: Many Jobs Won't Exist in 24 Months | Credential: Claim |
-| Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No | Name: Claim |
-| Microbiome Doctor Reveals 3 Foods For Perfect Gut Health | Credential + Claim |
-| Early Retirement Expert: The Truth About House vs Stocks | Credential: Claim |
-| Money Expert: Buying a House Is a Mistake. Getting Rich Is Simple | Credential: Claim |
-| Stanford Neuroscientist: What It Means When You Don't Remember Dreams | Credential: Claim |
-| Insulin Doctor: Keto Is Linked To Brain Decline and Dementia | Credential: Claim |
-| Sex Scientist: Your Phone Addiction Is Ruining Your Sex Life | Credential: Claim |
+Suppose an audio engineer explains a practical room-treatment checklist and demonstrates why moving the microphone alone did not solve echo. The title “Audio Engineer: Fix the Room Before Buying Gear” tells the listener who is speaking and the decision the episode helps them make. If the episode only compares microphones, that title promises the wrong discussion.
 
 ## Quality Bar
 
-- Credential must be specific and impressive — not "expert" alone, but *what kind* of expert
+- Credential must be accurate, relevant and specific — not "expert" alone, but *what kind* of expert
 - Claim must be bold enough to create tension but defensible in the episode
-- The credential must earn the right to make the claim — mismatched authority undermines trust
-- Use exclamation marks sparingly — DOAC uses them effectively but overuse dilutes impact
-- Total length can exceed 70 characters — this format prioritizes impact over brevity
+- Check the credential and the episode evidence separately — a relevant title does not make an unsupported claim true
+- Use exclamation marks sparingly; the statement should create interest without needing punctuation to inflate it
+- A longer title can work, but put the useful credential and promise first and check the actual destination preview
 - Works best for shows with large, general audiences or high-authority guests
 
 ## When Not To Use
 
-- When the guest lacks a recognizable or impressive credential
+- When the guest lacks a relevant, verifiable credential
 - When the claim cannot be defended in the episode (this becomes clickbait)
 - When the show is niche B2B and the audience expects precision over provocation
 - When every episode uses this format — variation prevents pattern fatigue
@@ -102,36 +89,34 @@ The claim is framed as a provocative question.
 - [Hidden Cost](hidden-cost.md) — reveals a cost without the authority framing
 
 
-## Shows That Use This Pattern
+## Show to Explore
 
-These show-level references are teardown starting points, not episode-level verification or measured performance evidence. Confirm the episode and exact wording before reusing an attributed example.
-
-| Show | Example Title | Link |
-|---|---|---|
-| **The Diary Of A CEO** | "World-Renowned Physicist: The Truth About Aliens! — Michio Kaku" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
-| **The Diary Of A CEO** | "Harvard's Behavior Expert: Why People Don't Like You" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
-| **The Diary Of A CEO** | "Insulin Doctor: Keto Is Linked To Brain Decline" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) |
+[The Diary Of A CEO with Steven Bartlett](https://podcasts.apple.com/us/podcast/the-diary-of-a-ceo-with-steven-bartlett/id1291423644) publishes conversations with experts and business leaders. Compare an episode’s title with the actual discussion before borrowing its approach; the show’s popularity does not establish that a title formula caused its results.
 
 ## Prompt Template
 
 ```
-Write an episode title using the Authority Claim pattern (as used by The Diary Of A CEO).
+Write an episode title using the Authority Claim pattern.
 
 Format: [Expert Credential]: [Bold Declarative Claim] — [Guest Name]
 
 Context:
 - Guest name: [full name]
-- Guest credential: [what makes them an authority — be specific: "World-Renowned Physicist" not just "Physicist"]
+- Verified guest credential: [actual relevant role or experience, with its source]
 - The bold claim: [what provocative, specific statement does the episode deliver]
 - Episode topic: [1-2 sentences about what the episode covers]
+- Supporting passage: [transcript excerpt or timestamp backing the claim]
 
 Requirements:
-- Credential must be specific and impressive (e.g., "Harvard's Behavior Expert" not "Psychology Professor")
+- Use the verified credential exactly; never invent prestige, affiliation or expertise
 - Claim must be bold, declarative, and defensible
-- The credential must earn the right to make the claim
-- Can exceed 70 characters — impact matters more than brevity for this style
-- Consider adding urgency words if appropriate (Truth, Nobody Sees, Definitely, Reveals)
+- Match the claim to evidence or explanation actually present in the episode
+- Put the useful words first; check destination length limits and mobile preview
+- Add urgency only for a genuine timely decision; do not turn a question into a certainty
 - Exclamation marks are optional — use only when energy is genuinely high
+
+If support is missing, ask for it instead of inventing a credential or claim.
+Have a human verify the chosen title against the recording and sources before publishing.
 
 Generate 3 variations:
 1. Credential: Claim — Name

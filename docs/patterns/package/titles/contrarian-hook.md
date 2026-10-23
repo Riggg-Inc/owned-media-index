@@ -20,7 +20,7 @@ A title that challenges a widely held assumption and frames it as a cost to a sp
 
 ## Why It Works
 
-Contrarian titles create tension. They tell the audience that something they believe or do is actively hurting them. That tension drives clicks, listens, and shares — especially in B2B where practitioners are wary of outdated best practices.
+Contrarian titles create tension. They tell the audience that something they believe or do is actively hurting them. Use that tension to invite the audience to reconsider the belief, then deliver the alternative. Judge the result by your own audience response, not by how provocative the title sounds. [YouTube recommends accurate titles and audience-specific performance checks](https://support.google.com/youtube/answer/12340300?hl=en).
 
 ## Examples
 
