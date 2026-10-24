@@ -6731,6 +6731,504 @@
         "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/package/titles/guest-authority.md": [
+      {
+        "id": "quality-20261024-title-guest-authority",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-24T16:49:05Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "673c62ccc3c74d2c0904b92f627b0f7354f3ff8b672c2ceede90ad7771ab9c47",
+        "report_ref": "docs-internal/quality-reviews/2026-10-24/guest-authority.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening clearly selects recognizable expertise and specific experience rather than generic celebrity name-dropping; a producer can choose the pattern immediately."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four labeled illustrative titles, genuine-credential checks, an exclusion rule and a four-input prompt give enough detail to draft a usable title."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Specific experience connects formula, examples and Quality Bar. Repetition of the definition is minor, not a material failure."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Inside Look distinguishes company/process from person-led authority, and framework Package supports a standalone episode promise. Scores remain editorial, not measured click evidence."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Social proof explanation is proportionate practitioner reasoning, not a quantified uplift. Named numerical examples are explicitly illustrative and show rows explicitly unverified starting points; no episode quotation or performance is certified."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440/390 light/dark renders show readable light layout but dark striped rows lose text against pale backgrounds and prompt code has very low contrast. This obstructs actual selection and copying, requiring the existing shared CSS correction, not a new body rewrite merely for style. Knowledge Project reference still needs link verification before reliance."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Proportionate check of named public guest example; no full catalogue, quotation or click-performance verification claimed.",
+          "items": [
+            {
+              "url": "https://lexfridman.com/mark-zuckerberg-3/",
+              "claim": "Lex Fridman uses named guest authority in public episode packaging.",
+              "finding": "Official episode page names Mark Zuckerberg as Meta CEO; actual title is First Interview in the Metaverse, not the table wording. The table explicitly remains a teardown starting point, not verified quotation.",
+              "checked_at": "2026-10-24T16:46:36Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, title hub, title quadrant, related Guest Authority/How-To Outcome/Inside Look and all five selected title guides.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; titles communicate the episode promise, while Prove measures actual performance.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about usefulness and evidence, not measured proof of clicks or universal superiority.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read the full hub: style names and scores agree; legacy platform limits are not newly verified and must not establish universal display guarantees.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read complete quadrant: placements describe audience breadth and attention mechanism; unsupported highest-reach language is not empirical corroboration.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/guest-authority.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Guest Authority centers genuine expertise or specific experience, unlike Authority Claim\u2019s stronger declaration or transformation-led positioning.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "How-To Outcome makes a concrete prescriptive promise; Big Question and Future Of instead promise strategic interpretation.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-23T16:49:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/package/titles/hidden-cost.md": [
+      {
+        "id": "quality-20261024-title-hidden-cost",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-24T16:49:05Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "e171c4def45d155e967cb470acd9bf267f0412693c67e80077bf20c3742bf993",
+        "report_ref": "docs-internal/quality-reviews/2026-10-24/hidden-cost.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies an underappreciated cost plus alternative, making this useful for problem-aware audiences rather than arbitrary fear-based headlines."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four examples, hidden-versus-obvious distinction and an input prompt are concrete enough; existing alternative requirement should be preserved."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Formula and exclusion example agree about a genuinely overlooked consequence. The argument can work without psychological superlatives."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "This cost-led curiosity differs from Guest Authority and Inside Look; the Package role is coherent. Quadrant placement is an editorial hypothesis, not corroborating empirical evidence."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The claim that this wording triggers loss aversion, one of the strongest motivators, converts a plausible title mechanism into an unsupported general psychological ranking. Nobel material concerns decisions under uncertainty, not a title intervention or relative headline performance. Replace the causal superlative with the concrete reader benefit."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440/390 light/dark renders show readable light layout but dark striped rows lose text against pale backgrounds and prompt code has very low contrast. This obstructs actual selection and copying, requiring the existing shared CSS correction, not a new body rewrite merely for style."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read primary institutional research context and official show description; distinguish general behavioral research from title effectiveness.",
+          "items": [
+            {
+              "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/",
+              "claim": "Hidden Cost titles trigger one of the strongest decision motivators.",
+              "finding": "Nobel release describes prospect theory and judgment under uncertainty. It does not test this title phrasing, rank headline motivators or establish click outcomes.",
+              "checked_at": "2026-10-24T16:47:27Z"
+            },
+            {
+              "url": "https://freakonomics.com/about/",
+              "claim": "Freakonomics is a relevant public teardown starting point.",
+              "finding": "Official description confirms a show about unexpected economics and a large episode archive; it does not verify the table wording as an exact episode title.",
+              "checked_at": "2026-10-24T16:46:29Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, title hub, title quadrant, related Guest Authority/How-To Outcome/Inside Look and all five selected title guides.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; titles communicate the episode promise, while Prove measures actual performance.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about usefulness and evidence, not measured proof of clicks or universal superiority.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read the full hub: style names and scores agree; legacy platform limits are not newly verified and must not establish universal display guarantees.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read complete quadrant: placements describe audience breadth and attention mechanism; unsupported highest-reach language is not empirical corroboration.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/guest-authority.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Guest Authority centers genuine expertise or specific experience, unlike Authority Claim\u2019s stronger declaration or transformation-led positioning.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "How-To Outcome makes a concrete prescriptive promise; Big Question and Future Of instead promise strategic interpretation.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-23T16:49:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/titles/how-to-outcome.md": [
+      {
+        "id": "quality-20261024-title-how-to-outcome",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-24T16:49:05Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "923a975baeacefbd163de6a276c52b8bcc7aa364385c544301b41291dd29abac",
+        "report_ref": "docs-internal/quality-reviews/2026-10-24/how-to-outcome.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Specific audience, outcome and objection create a clear drafting task; opening explicitly rejects a forced without promise on exploratory conversations."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four illustrative titles, audience checks and copy-ready prompt offer practical detail. Video is supplementary; text stands alone."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The formula maps directly to prompt inputs and the exclusion rule. Under 70 characters is presented as a preference rather than a proven universal technical ceiling on this leaf."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Framework Package and quadrant selection guide require the promised takeaway. Guest-led and exploration-led alternatives are differentiated. No score or evidence-level redesign is warranted by this review."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The three-part explanation is practitioner logic, not measured uplift. Illustrative promises are marked as examples to verify. Internal-data header is inherited provenance, not newly independently audited private data; no new verification claim made."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440/390 light/dark renders show readable light layout but dark striped rows lose text against pale backgrounds and prompt code has very low contrast. This obstructs actual selection and copying, requiring the existing shared CSS correction, not a new body rewrite merely for style. Published Marketing School Apple destination returned HTTP404; this is a concrete unusable reference, not merely lack of quotation certification. Video poster renders, playback not tested."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Check a material platform constraint and actual named-reference usability; do not imply private internal-data review or video playback.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/57404?hl=en",
+              "claim": "Seventy characters is a drafting preference, not YouTube hard limit.",
+              "finding": "Official settings documentation states 100-character video title limit; it does not guarantee visibility at 70. Relevant text was read despite partial response-body warning.",
+              "checked_at": "2026-10-24T16:46:29Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/marketing-school/id1183891923",
+              "claim": "Marketing School destination is usable public source navigation.",
+              "finding": "Published URL returned HTTP404 during this run. Exact episode wording and show catalogue could not be verified through this destination.",
+              "checked_at": "2026-10-24T16:47:28Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, title hub, title quadrant, related Guest Authority/How-To Outcome/Inside Look and all five selected title guides.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; titles communicate the episode promise, while Prove measures actual performance.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about usefulness and evidence, not measured proof of clicks or universal superiority.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read the full hub: style names and scores agree; legacy platform limits are not newly verified and must not establish universal display guarantees.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read complete quadrant: placements describe audience breadth and attention mechanism; unsupported highest-reach language is not empirical corroboration.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/guest-authority.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Guest Authority centers genuine expertise or specific experience, unlike Authority Claim\u2019s stronger declaration or transformation-led positioning.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "How-To Outcome makes a concrete prescriptive promise; Big Question and Future Of instead promise strategic interpretation.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-23T16:49:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/titles/index.md": [
+      {
+        "id": "quality-20261024-title-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-24T16:49:05Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7163cabfc03ff740444dbcedacc7fd2b1052da325fbd30cd315f499637e3a98f",
+        "report_ref": "docs-internal/quality-reviews/2026-10-24/index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "needs_revision",
+            "rationale": "Style selection table is valuable, but the current-looking platform constraints list includes retired Google Podcasts and a universal safe-length promise; a practitioner could make current publishing decisions from obsolete specifics."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Eleven linked styles with best-use cases and a standalone-title quality bar provide a substantive hub rather than a link dump. Keep this comparison table."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Recommended defaults call 70 characters safe across all platforms while the same table says many views truncate around50\u201360. This internal conflict directly affects the promised display guidance."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "How-To Outcome correctly calls under70 a preference; the hub turns that into full-display safety. Framework Prove requires actual results, so driving-click language and inherited quadrant reach ranking are not established performance evidence."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Official YouTube documentation confirms100 characters only; official migration announcement retires US Google Podcasts listening in March2024. No current sources substantiate universal255 limits or fixed pixel-dependent truncation windows. A legacy snapshot disclaimer does not make current recommendations reliable."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440/390 light/dark renders show readable light layout but dark striped rows lose text against pale backgrounds and prompt code has very low contrast. This obstructs actual selection and copying, requiring the existing shared CSS correction, not a new body rewrite merely for style. The comparison table is a core decision surface, so unreadable alternating dark rows are material even without a prompt block."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Platform availability and technical limits are material factual specifics, unlike subjective title advice.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/57404?hl=en",
+              "claim": "YouTube permits titles up to100 characters.",
+              "finding": "Official video settings states100-character title limit; no guarantee that70 characters displays fully on every screen.",
+              "checked_at": "2026-10-24T16:46:29Z"
+            },
+            {
+              "url": "https://blog.youtube/news-and-events/migrating-your-podcasts/",
+              "claim": "Google Podcasts remains a current publishing destination.",
+              "finding": "Official December2023 migration announcement says US listening available through March2024 and subscriptions migrate/export through July2024. Keeping it as current platform advice in2026 is misleading.",
+              "checked_at": "2026-10-24T16:46:35Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, title hub, title quadrant, related Guest Authority/How-To Outcome/Inside Look and all five selected title guides.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; titles communicate the episode promise, while Prove measures actual performance.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about usefulness and evidence, not measured proof of clicks or universal superiority.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read the full hub: style names and scores agree; legacy platform limits are not newly verified and must not establish universal display guarantees.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read complete quadrant: placements describe audience breadth and attention mechanism; unsupported highest-reach language is not empirical corroboration.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/guest-authority.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Guest Authority centers genuine expertise or specific experience, unlike Authority Claim\u2019s stronger declaration or transformation-led positioning.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "How-To Outcome makes a concrete prescriptive promise; Big Question and Future Of instead promise strategic interpretation.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-23T16:49:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/titles/inside-look.md": [
+      {
+        "id": "quality-20261024-title-inside-look",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-24T16:49:05Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "b2d7ffc64c2d91fd6921daa567477758b62e406363aa9b6295f08a6b49b404c3",
+        "report_ref": "docs-internal/quality-reviews/2026-10-24/inside-look.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening distinguishes distinctive behind-the-scenes detail from a superficial company profile, giving a producer an immediate selection rule."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four labeled examples, specificity checks and company/result/access prompt inputs offer enough substance for a first draft."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Formula, result-focused examples and exclusion rule consistently promise story plus lesson. Minor definition repetition is not a reason to fail."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Guest Authority explicitly separates person from process appeal, while Package requires understandable standalone assets. Illustrative business numbers are not framework evidence or score recalculations."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Exclusivity rationale is reasonable practitioner advice. Named company figures are explicitly illustrative, not asserted outcomes. Acquired source demonstrates company-story coverage, not exact Inside format or comparative success; keep that evidence scope explicit."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440/390 light/dark renders show readable light layout but dark striped rows lose text against pale backgrounds and prompt code has very low contrast. This obstructs actual selection and copying, requiring the existing shared CSS correction, not a new body rewrite merely for style."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Check relevant official company-story episode context without claiming podcast playback or literal matching title format.",
+          "items": [
+            {
+              "url": "https://www.acquired.fm/episodes/nvidia-the-dawn-of-the-ai-era",
+              "claim": "Acquired provides public company-story teardown context.",
+              "finding": "Official Nvidia PartIII page describes the company journey and AI era. It supports subject relevance, not the exact abbreviated table label as a quotation or proof that Inside wording performs better.",
+              "checked_at": "2026-10-24T16:46:36Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, title hub, title quadrant, related Guest Authority/How-To Outcome/Inside Look and all five selected title guides.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Package turns source media into usable assets; titles communicate the episode promise, while Prove measures actual performance.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Scores are editorial judgments about usefulness and evidence, not measured proof of clicks or universal superiority.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read the full hub: style names and scores agree; legacy platform limits are not newly verified and must not establish universal display guarantees.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Read complete quadrant: placements describe audience breadth and attention mechanism; unsupported highest-reach language is not empirical corroboration.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/guest-authority.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "Guest Authority centers genuine expertise or specific experience, unlike Authority Claim\u2019s stronger declaration or transformation-led positioning.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "Compatibility of published selection guidance and framework roles.",
+              "finding": "How-To Outcome makes a concrete prescriptive promise; Big Question and Future Of instead promise strategic interpretation.",
+              "checked_at": "2026-10-24T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-23T16:49:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
