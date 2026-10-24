@@ -17,7 +17,7 @@ Each style below is documented with examples, evidence, a quality bar, and a Rig
 | Style | Best For | Score |
 |---|---|---|
 | [How-To Outcome](how-to-outcome.md) | Practical episodes with clear takeaways | 5 |
-| [Contrarian Hook](contrarian-hook.md) | Challenging assumptions, driving clicks | 5 |
+| [Contrarian Hook](contrarian-hook.md) | Challenging a relevant assumption | 5 |
 | [Guest Authority](guest-authority.md) | Expert interviews, name recognition | 4 |
 | [Numbered Insight](numbered-insight.md) | List-driven, scannable episodes | 4 |
 | [Inside Look](inside-look.md) | Case studies, behind-the-scenes | 4 |
@@ -36,29 +36,23 @@ A strong title should:
 - Create curiosity or promise value
 - Work standalone in search, social, and feed contexts
 - Avoid clickbait that overpromises
-- Be under 70 characters for full display in most platforms
+- Aim for under 70 characters as a drafting target, then preview the actual destination
 
 ## Platform Constraints
 
-Hard limits and truncation behavior for episode titles across major platforms.
+Check the destination before publishing. A field limit and the amount visible on a particular screen are different things.
 
-| Platform | Max Length | Visible Before Truncation | Format Notes |
-|---|---|---|---|
-| Apple Podcasts | 255 chars | ~50-60 chars in list view | No HTML, no emoji rendering in some views |
-| Spotify | 255 chars | ~55-65 chars in browse | Plain text only |
-| YouTube | 100 chars | ~70 chars in search, ~50 on mobile | Supports emoji, avoid ALL CAPS |
-| Google Podcasts | 255 chars | ~60 chars in cards | Plain text |
-| Amazon Music | 255 chars | ~55 chars in browse | Plain text |
-| Pocket Casts | 255 chars | ~60 chars | Plain text |
-| Overcast | 255 chars | Full title shown in most views | Plain text |
-| LinkedIn (post) | No title field | First line of post acts as hook | ~140 chars before "see more" |
-| Twitter/X (post) | 280 chars total | Full tweet visible | Title + link must fit in 280 |
-| RSS (standard) | No hard limit | Varies by reader | Keep under 100 chars for safety |
+| Destination | What to check | Practical action |
+|---|---|---|
+| YouTube | [Video titles have a 100-character limit](https://support.google.com/youtube/answer/57404?hl=en). | Keep the main promise near the start and preview desktop and mobile. |
+| Podcast host and listening apps | Your host's accepted title length and how the episode appears in the apps your audience uses. | Preview the title in your host and your main listening apps; shorten wording if the important part is cut off. |
+| LinkedIn and X | The post composer, account limits and collapsed preview. | Write the first line to stand alone and check the final post with its link. |
+| Website and RSS | Your publishing system's fields and actual reader display. | Keep the title consistent with the episode promise and check the published page and feed. |
 
 ### Recommended Defaults
 
-- **Primary target:** Under 70 characters (safe across all platforms)
-- **Absolute max:** 100 characters (YouTube hard limit)
-- **Mobile priority:** First 50 characters must carry the value
+- **Primary target:** Under 70 characters is a useful starting point, not a full-display guarantee.
+- **YouTube maximum:** 100 characters. Other destinations have their own requirements.
+- **Mobile priority:** Put the audience or main value early enough to survive truncation, then inspect the actual preview.
 
-_Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Platform limits change — verify before relying on edge cases._
+Google Podcasts is not a current destination: Google announced the end of US listening after March 2024 and migration to YouTube Music. See the [official migration announcement](https://blog.youtube/news-and-events/migrating-your-podcasts/).

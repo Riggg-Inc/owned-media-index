@@ -56,7 +56,7 @@ These show-level references are teardown starting points, not episode-level veri
 |---|---|---|
 | **Lex Fridman Podcast** | "Mark Zuckerberg: Future of AI at Meta" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584) |
 | **Impact Theory** | "Simon Sinek on The Infinite Game of Leadership" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/impact-theory-with-tom-bilyeu/id1191775648) |
-| **The Knowledge Project** | "Daniel Kahneman: A Short Course on Thinking" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149903) |
+| **The Knowledge Project** | "Daniel Kahneman: A Short Course on Thinking" | [Official show](https://fs.blog/knowledge-project-podcast/) |
 
 ## Prompt Template
 

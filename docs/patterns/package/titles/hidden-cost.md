@@ -1,5 +1,5 @@
 ---
-description: "The Hidden Cost title pattern. Format: The Hidden Cost of [Broken Process]. Reveals unseen costs that trigger loss aversion."
+description: "The Hidden Cost title pattern. Format: The Hidden Cost of [Broken Process]. Helps readers recognize an overlooked cost and a practical alternative."
 ---
 
 # Hidden Cost
@@ -20,7 +20,7 @@ A title that reveals an unseen cost, risk, or consequence of a common process or
 
 ## Why It Works
 
-"Hidden cost" implies the audience is losing something they do not realize. It triggers loss aversion — one of the strongest motivators in decision-making.
+"Hidden cost" implies the audience is losing something they do not realize. Use that tension to show why the issue deserves attention and what the listener can do differently.
 
 ## Examples
 
@@ -74,7 +74,7 @@ Context:
 Requirements:
 - Under 70 characters
 - The cost must be genuinely hidden or underappreciated
-- Quantify the cost where possible
+- Quantify the cost only when the episode supplies a verifiable number; otherwise describe it concretely
 - Episode must deliver the alternative, not just the warning
 ```
 

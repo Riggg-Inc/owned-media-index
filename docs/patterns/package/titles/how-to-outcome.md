@@ -61,7 +61,7 @@ These show-level references are teardown starting points, not episode-level veri
 | Show | Example Title | Link |
 |---|---|---|
 | **The Tim Ferriss Show** | "How to Build a World-Class Network in Record Time" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-tim-ferriss-show/id863897795) |
-| **Marketing School** | "How To Get More Leads Without Spending More on Ads" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+| **Marketing School** | "How To Get More Leads Without Spending More on Ads" | [Official show](https://marketingschool.io/) |
 | **Online Marketing Made Easy** | "How To Launch a Digital Course Without a Big Audience" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545) |
 
 ## Prompt Template
