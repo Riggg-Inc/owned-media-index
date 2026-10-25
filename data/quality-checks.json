@@ -7229,6 +7229,472 @@
         "reason": "Material body guidance corrections and shared dark-mode readability defects require exact human approval before release; retain the current pending label.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/package/titles/numbered-insight.md": [
+      {
+        "id": "quality-20261025-patterns-package-titles-numbered-insight",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-25T17:12:47Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra; title semantic evidence independently reviewed by same-model child)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "a38033dacb0f70fbc7287b6fba9668c844fda1864e2b31950caf799e33ffe846",
+        "report_ref": "docs-internal/quality-reviews/2026-10-25/patterns-package-titles-numbered-insight.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening identifies distinct actionable items and warns against forcing a nuanced single-topic conversation into a list. A producer can choose this format immediately."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four usable illustrations, honest-count checks and a copy-ready context prompt supply enough detail for this narrowly scoped title task. No extra research essay is needed."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Why It Works asserts numbered titles perform well in search and social, while the prompt correctly says no numeric format guarantees performance. Replace the broad outcome assertion with its observable scope-setting mechanism."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Practical pattern choices agree with framework, title hub and How-To. However TEAM evidence caps and the displayed score 4 are unreconciled (practitioner/teardown observation capped at 3); Numbered Insight also uses platform observation outside canonical evidence labels. Escalate existing governance inconsistency without changing scores or framework. This is separate from the minimal body edits."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Numbers communicating scope is reasonable practitioner judgment. The unqualified search/social performance assertion has no supporting research here; show homepages cannot establish it. Marketing School link returns 404. Quoted attributed titles remain explicitly unverified starting points, not proven quotations."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Markdown structure, examples and prompt are actionable; How-To sibling exists and was fully read. Marketing School Apple route returns 404 and needs replacement. Rendered usability is NOT inspected and remains parent-owned. Parent inspected fresh live desktop light and mobile dark screenshots: pale striped table rows and dark red prompt text are materially unreadable in dark mode. Complete rendered article extraction retained; no document overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Check named show routes and distinguish observations from a generalized performance assertion; do not demand proof for the advice to count honest distinct items.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/marketing-school/id1183891923",
+              "claim": "Marketing School exemplar route supports a teardown starting point.",
+              "finding": "Fetch returned 404. The route cannot support the intended reader navigation; this does not prove the named episode never existed.",
+              "checked_at": "2026-10-25T16:48:14.435Z"
+            },
+            {
+              "url": "https://marketingschool.io/",
+              "claim": "A primary Marketing School show destination can replace the broken Apple route.",
+              "finding": "Fetched 200; read complete 1125-character extraction containing current episode links. Confirms the show destination, not quoted 7 SEO Mistakes wording or title-performance results.",
+              "checked_at": "2026-10-25T16:48:29.765Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499",
+              "claim": "School of Greatness is a usable show-level numbered-title research starting point.",
+              "finding": "Fetched 200; read partial show extraction. Includes The Ancient 4-Step Method to Clear Your Mind, demonstrating numbered packaging; the page does not verify the article\u2019s 5 Morning Habits quote or measured performance. No episode playback.",
+              "checked_at": "2026-10-25T16:48:30.690Z"
+            },
+            {
+              "url": "https://www.youtube.com/@aliabdaal",
+              "claim": "Ali Abdaal channel is offered as a Deep Dive starting point.",
+              "finding": "Extraction failed; neither channel-to-show relationship nor exact quoted title independently verified. No false claim of video playback or source verification. Existing explicit starting-point limitation retained.",
+              "checked_at": "2026-10-25T16:48:57.022Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete relevant framework, scoring, title hub and How-To sibling; comparisons concern these target pages only.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Titles belong to Package and must make assets understandable without explanation.",
+              "finding": "Both patterns give standalone audience-and-content promises, consistent with the Package quality question; neither introduces a new stage.",
+              "checked_at": "2026-10-25T16:48:14Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Published scores represent editorial judgment and evidence categories.",
+              "finding": "Both show score 4; Role Guide labels practitioner observation while Numbered Insight uses noncanonical platform observation. TEAM additionally caps practitioner/teardown observation at 3. This is an existing rule/score reconciliation issue, not permission to rescore or claim benchmark support.",
+              "checked_at": "2026-10-25T16:48:14Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "The hub distinguishes list-driven and role-specific title choices.",
+              "finding": "Hub choice guidance matches both pages. Its safe-across-all-platforms 70-character assertion is stronger than these prompt drafting constraints; no platform display guarantee is imported into these reviews. Hub was compared only, not separately assessed.",
+              "checked_at": "2026-10-25T16:48:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "How-To is the alternative for one prescriptive outcome.",
+              "finding": "Numbered Insight explicitly redirects single-outcome content to How-To; Role Guide redirects broader audiences. These are coherent alternatives. Shared exemplar language limits citations to show-level starting points, not measured outcomes.",
+              "checked_at": "2026-10-25T16:48:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-24T17:12:47Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/package/titles/role-guide.md": [
+      {
+        "id": "quality-20261025-patterns-package-titles-role-guide",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-25T17:12:47Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra; title semantic evidence independently reviewed by same-model child)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d9596c2b2b3b443c0d67d1f3d981c5fdcbaa19f6ebdf1f8d0ee6a0a3c6f53173",
+        "report_ref": "docs-internal/quality-reviews/2026-10-25/patterns-package-titles-role-guide.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening tells producers to use a role-specific promise only when content genuinely matches that role\u2019s priorities and expertise."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four role/outcome illustrations, four quality checks and role-specific prompt inputs provide a practical complete small task; no empirical proof needed for the audience qualification recommendation."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Pattern, examples, quality bar and when-not-to-use agree: relevance must be substantive, not a cosmetic job-title insertion. Tiny-audience caution is contextual advice, not a universal audience-size rule."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Practical pattern choices agree with framework, title hub and How-To. However TEAM evidence caps and the displayed score 4 are unreconciled (practitioner/teardown observation capped at 3); Numbered Insight also uses platform observation outside canonical evidence labels. Escalate existing governance inconsistency without changing scores or framework. This is separate from the minimal body edits."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Role-based targeting immediately qualifying an audience is reasonable editorial mechanism advice, not measured uplift. No benchmark or guarantee is stated. Show references are explicitly exploratory, though malformed/unverified routes require navigation repair."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Exit Five route fails with 500 and malformed ID; HBR route returns 404; SaaS Spotify slug yields only a generic player, not show identification. Repair first two to verified destinations and detach the unverifiable SaaS link while preserving its research lead. Rendered presentation remains parent-owned. Parent inspected fresh live desktop light and mobile dark screenshots: pale striped table rows and dark red prompt text are materially unreadable in dark mode. Complete rendered article extraction retained; no document overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Verify show navigation and role-oriented context; practitioner advice itself needs no performance study.",
+          "items": [
+            {
+              "url": "https://podcasts.apple.com/us/podcast/exit-five-b2b-marketing-with-dave-gerhardt/id1582c",
+              "claim": "Exit Five link identifies the cited show.",
+              "finding": "Fetch returned 500 on malformed id1582c route. This is a failed reference, not proof the show is unavailable.",
+              "checked_at": "2026-10-25T16:48:13.328Z"
+            },
+            {
+              "url": "https://exitfive.com/podcast/",
+              "claim": "Official Exit Five archive supports role-oriented B2B show research.",
+              "finding": "Fetched 200 and read complete extracted archive. Current entries name CMO, VP of Revenue Marketing and B2B marketing leaders; supports show-level relevance, not exact Role Guide formula or performance.",
+              "checked_at": "2026-10-25T16:48:28.766Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986",
+              "claim": "HBR IdeaCast route identifies the cited show.",
+              "finding": "Fetch returned 404; correct show identifier was located independently.",
+              "checked_at": "2026-10-25T16:48:14.187Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/hbr-ideacast/id152022135",
+              "claim": "Correct HBR IdeaCast listing offers leadership-oriented episodes.",
+              "finding": "Fetched 200 and read complete extraction: Harvard Business Review creator and episode about executives using AI for communication. Confirms leadership context, not the exact title formula or outcomes.",
+              "checked_at": "2026-10-25T16:48:29.291Z"
+            },
+            {
+              "url": "https://open.spotify.com/show/saas-marketing",
+              "claim": "SaaS Marketing Show reference routes to an identifiable show.",
+              "finding": "HTTP 200 yielded only Spotify Web Player, no show identity. This is unverified rather than a proven HTTP 404. Search recovery failed; retain the named research lead without a misleading clickable destination.",
+              "checked_at": "2026-10-25T16:48:13.503Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete relevant framework, scoring, title hub and How-To sibling; do not turn comparison into another queue review.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Titles belong to Package and must make assets understandable without explanation.",
+              "finding": "Both patterns give standalone audience-and-content promises, consistent with the Package quality question; neither introduces a new stage.",
+              "checked_at": "2026-10-25T16:48:14Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Published scores represent editorial judgment and evidence categories.",
+              "finding": "Both show score 4; Role Guide labels practitioner observation while Numbered Insight uses noncanonical platform observation. TEAM additionally caps practitioner/teardown observation at 3. This is an existing rule/score reconciliation issue, not permission to rescore or claim benchmark support.",
+              "checked_at": "2026-10-25T16:48:14Z"
+            },
+            {
+              "path": "patterns/package/titles/index.md",
+              "claim": "The hub distinguishes list-driven and role-specific title choices.",
+              "finding": "Hub choice guidance matches both pages. Its safe-across-all-platforms 70-character assertion is stronger than these prompt drafting constraints; no platform display guarantee is imported into these reviews. Hub was compared only, not separately assessed.",
+              "checked_at": "2026-10-25T16:48:05Z"
+            },
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "How-To is the alternative for one prescriptive outcome.",
+              "finding": "Numbered Insight explicitly redirects single-outcome content to How-To; Role Guide redirects broader audiences. These are coherent alternatives. Shared exemplar language limits citations to show-level starting points, not measured outcomes.",
+              "checked_at": "2026-10-25T16:48:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-24T17:12:47Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
+        "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      }
+    ],
+    "patterns/preserve/content-memory-standard.md": [
+      {
+        "id": "quality-20261025-patterns-preserve-content-memory-standard",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-25T17:12:47Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra; title semantic evidence independently reviewed by same-model child)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "69da0687dc5963a45d636ad605efb6e2214c6fcc270eaf572d9a5417a024fe26",
+        "report_ref": "docs-internal/quality-reviews/2026-10-25/patterns-preserve-content-memory-standard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening provides an immediate small-team starting point: shared storage, a spreadsheet and clear permissions; it answers what exists, what is approved and whether it can be recovered."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete asset inventory, folder example, CSV relationship row, five-step find/reuse workflow and four-step recovery drill supply operational substance rather than a generic archive pitch."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The separation of authoritative catalog, file storage, public delivery, search and backup remains consistent throughout; source-version links and correction propagation follow logically."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Canonical Episode Page explicitly links the independently retrievable library; framework Preserve and score-3 practitioner tradeoffs agree. Draft-status wording and excluded-activity mention are minor editorial cleanup, not permission to change scoring."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Recovery cadence is explicitly a working suggestion, examples are hypothetical and checksums are not presented as rights or editorial verification. No empirical effectiveness or legal-compliance guarantee is asserted."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile light/dark renders show alternating inventory and layer table rows with near-white text on pale backgrounds. These contain required preservation boundaries and cannot be dismissed as cosmetic; the shared CSS correction remains necessary."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is explicitly practitioner operating guidance with hypothetical data and suggested cadences, not empirical platform, legal or measured-result claims requiring external certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, canonical episode page, AI measurement and video economics; also read all three selected Preserve pages in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Preserve asks whether the organization can find and reuse its knowledge; the library and question-set tasks fit that stage without promising measured outcomes.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Score 3 means viable with tradeoffs; both detailed Preserve guides describe practitioner judgment rather than benchmark-backed results.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Public canonical pages present approved selected assets, while the linked library preserves masters, context and permissions; neither is a substitute for independent recovery.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Measurement separates mentions, citations, visits and inquiries, agreeing with unbranded discovery versus branded accuracy and bounded observations.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/prove/video-threshold-economics.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "The B2B decision sequence requires strategy, a value case and quality capacity; the question-set audio/video illustration is a conditional starting answer, not an ad-revenue gate.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-24T17:12:47Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/preserve/geo-aeo-citation-volatility.md": [
+      {
+        "id": "quality-20261025-patterns-preserve-geo-aeo-citation-volatility",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-25T17:12:47Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra; title semantic evidence independently reviewed by same-model child)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "727f3783b5ebd5850a65a747a29baaddc112258c45fb2217e9c3086b0dd87232",
+        "report_ref": "docs-internal/quality-reviews/2026-10-25/patterns-preserve-geo-aeo-citation-volatility.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening gives a clear audience-question-to-answer task and separates unbranded discovery from branded accuracy, preventing teams from treating prompted brand mentions as organic visibility."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Question register fields, four decision examples, an audio/video answer, fixed prompt rules and observation fields make the advice executable. The length supports a real workflow rather than substituting repetition for substance."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The question-evidence, interview, canonical-answer and sampled-check sequence is coherent; baseline and followup conversations are kept separate and changes do not become causal proof."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The related Measurement guide uses the same separation between citations, visits and outcomes; library provenance and canonical pages provide compatible supporting roles, and the video example remains conditional on audience and production capacity."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The sample sizes and repeat counts are explicitly workload choices, not statistics. Official OpenAI memory documentation supports the warning that a fresh chat does not necessarily remove account-level context. No claim of guaranteed AI inclusion or search lift is made."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile dark and desktop light rendering shows usable headings and content hierarchy but dark-mode pale striped tables obscure question examples and observation fields. These are central tools in the workflow, so the existing contrast defect blocks pass."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Verified the material account-personalization caveat against first-party documentation; other advice is openly labeled practitioner judgment, not a claim of measured AI behavior.",
+          "items": [
+            {
+              "url": "https://help.openai.com/en/articles/8590148-memory-faq",
+              "claim": "A fresh chat does not necessarily remove account-level personalization.",
+              "finding": "Read first-party Memory in ChatGPT documentation: enabled memory can use past chats, saved memories and other sources to personalize responses and web searches; controls vary by account. This supports documenting settings, not a guarantee of an unbiased baseline.",
+              "checked_at": "2026-10-25T16:48:11Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, canonical episode page, AI measurement and video economics; also read all three selected Preserve pages in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Preserve asks whether the organization can find and reuse its knowledge; the library and question-set tasks fit that stage without promising measured outcomes.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Score 3 means viable with tradeoffs; both detailed Preserve guides describe practitioner judgment rather than benchmark-backed results.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Public canonical pages present approved selected assets, while the linked library preserves masters, context and permissions; neither is a substitute for independent recovery.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Measurement separates mentions, citations, visits and inquiries, agreeing with unbranded discovery versus branded accuracy and bounded observations.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/prove/video-threshold-economics.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "The B2B decision sequence requires strategy, a value case and quality capacity; the question-set audio/video illustration is a conditional starting answer, not an ad-revenue gate.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-24T17:12:47Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/preserve/index.md": [
+      {
+        "id": "quality-20261025-patterns-preserve-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-25T17:12:48Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra; title semantic evidence independently reviewed by same-model child)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "e769550b4284823445efa3315aae5b5ef300424cfd48da3979e244c3072e1019",
+        "report_ref": "docs-internal/quality-reviews/2026-10-25/patterns-preserve-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Two clearly labeled routes help practitioners choose library recovery or audience-question discovery work; the Selection Guide supplies a useful first choice."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "This is a short navigation hub rather than a full tutorial; linked tasks and selection considerations give enough substance without duplicating the two detailed guides."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Library and discovery groups are intelligible and the selection table points to the correct current tasks. Repetition between listing and selection tables is minor, not a material logic defect."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The linked library and question-set guides explicitly avoid guaranteed continuing value and AI inclusion; the hub states a preserved episode keeps generating value years later without the conditions those guides require."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Preservation is the stage most programs skip is an unsupported prevalence assertion; a preserved episode keeps generating value years after publication reads as a general outcome promise. Replace only this paragraph with actionable preservation benefits and a first decision, retaining useful confident positioning."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The dark-mode second selection row renders near-white text on pale mint, obscuring the audience-question route and its limitations. Live desktop light rendering is readable and no document overflow occurred; that does not cure the supported dark-mode defect."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No external evidence is supplied for the broad prevalence or continuing-value assertions. Treat them as unsupported and propose a mechanism-based opening rather than invent research or demand proof for ordinary preservation advice.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current framework, scoring, canonical episode page, AI measurement and video economics; also read all three selected Preserve pages in full.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Preserve asks whether the organization can find and reuse its knowledge; the library and question-set tasks fit that stage without promising measured outcomes.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "scoring.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Score 3 means viable with tradeoffs; both detailed Preserve guides describe practitioner judgment rather than benchmark-backed results.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Public canonical pages present approved selected assets, while the linked library preserves masters, context and permissions; neither is a substitute for independent recovery.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "Measurement separates mentions, citations, visits and inquiries, agreeing with unbranded discovery versus branded accuracy and bounded observations.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            },
+            {
+              "path": "patterns/prove/video-threshold-economics.md",
+              "claim": "Compatibility of the preservation task with neighboring published guidance.",
+              "finding": "The B2B decision sequence requires strategy, a value case and quality capacity; the question-set audio/video illustration is a conditional starting answer, not an ad-revenue gate.",
+              "checked_at": "2026-10-25T17:12:47Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-24T17:12:48Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
