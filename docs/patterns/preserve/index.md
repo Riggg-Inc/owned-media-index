@@ -6,7 +6,7 @@ description: "Preservation patterns for owned media. Transcripts, vector memory,
 
 **Framework stage:** Preserve — making the content library compound over time.
 
-Preservation is the stage most programs skip. It's also where the long-term value of owned media accumulates: searchable transcripts, AI-citation-ready structure, reusable content libraries. A preserved episode keeps generating value years after it publishes.
+Make your existing media easier to find, verify and reuse. Start with the library standard if your team needs approved files, permissions and reliable recovery. Choose the audience-question workflow when you need to turn existing knowledge into useful public answers and check how AI assistants represent them.
 
 ## Owned Media Library and Content Memory
 

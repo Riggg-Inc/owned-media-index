@@ -1,0 +1,17 @@
+[
+  {
+    "path": "docs/patterns/package/titles/numbered-insight.md",
+    "sha256": "32ee1d055fce8d6b3ffc09f3a896b99e290466cda3734b4146d3c91eb517f588",
+    "current_url": "https://index.riggg.com/patterns/package/titles/numbered-insight/"
+  },
+  {
+    "path": "docs/patterns/package/titles/role-guide.md",
+    "sha256": "6b8459ead5c3701b85f453857bbf7d6e5f22da4aca2c1b2472e2fb7e6f871696",
+    "current_url": "https://index.riggg.com/patterns/package/titles/role-guide/"
+  },
+  {
+    "path": "docs/patterns/preserve/index.md",
+    "sha256": "dfed60976034fc84cc8d430afea64a217b307f1d982fc71df7ffbcf484bf0f38",
+    "current_url": "https://index.riggg.com/patterns/preserve/"
+  }
+]

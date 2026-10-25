@@ -53,9 +53,9 @@ These show-level references are teardown starting points, not episode-level veri
 
 | Show | Example Title | Link |
 |---|---|---|
-| **Exit Five** | B2B marketing role-specific guidance for CMOs and demand gen leaders | [Apple Podcasts](https://podcasts.apple.com/us/podcast/exit-five-b2b-marketing-with-dave-gerhardt/id1582c) |
-| **HBR IdeaCast** | Role-specific leadership and management episodes | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986) |
-| **The SaaS Marketing Show** | Demand gen and content marketing role-specific playbooks | [Spotify](https://open.spotify.com/show/saas-marketing) |
+| **Exit Five** | B2B marketing role-specific guidance for CMOs and demand gen leaders | [Show website](https://exitfive.com/podcast/) |
+| **HBR IdeaCast** | Role-specific leadership and management episodes | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152022135) |
+| **The SaaS Marketing Show** | Demand gen and content marketing role-specific playbooks | Current show link unavailable |
 
 ## Prompt Template
 

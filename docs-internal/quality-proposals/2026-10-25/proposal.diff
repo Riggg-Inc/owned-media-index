@@ -1,0 +1,52 @@
+diff --git a/docs/patterns/package/titles/numbered-insight.md b/docs/patterns/package/titles/numbered-insight.md
+index 9a6cbdc..5c006bd 100644
+--- a/docs/patterns/package/titles/numbered-insight.md
++++ b/docs/patterns/package/titles/numbered-insight.md
+@@ -20,7 +20,7 @@ A title structured around a specific number of insights, mistakes, lessons, or s
+ 
+ ## Why It Works
+ 
+-Numbers set expectations. The audience knows the scope before they click. Numbered titles also perform well in search and social because they imply structured, scannable content.
++Numbers set expectations. The audience knows the scope before they click. In search results and social feeds, the number signals a bounded list of takeaways.
+ 
+ ## Examples
+ 
+@@ -55,7 +55,7 @@ These show-level references are teardown starting points, not episode-level veri
+ |---|---|---|
+ | **Ali Abdaal's Deep Dive** | "7 Strategies That Made Me a Millionaire Before 30" | [YouTube](https://www.youtube.com/@aliabdaal) |
+ | **The School of Greatness** | "5 Morning Habits That Will Change Your Life" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499) |
+-| **Marketing School** | "7 SEO Mistakes That Are Killing Your Traffic" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
++| **Marketing School** | "7 SEO Mistakes That Are Killing Your Traffic" | [Show website](https://marketingschool.io/) |
+ 
+ ## Prompt Template
+ 
+diff --git a/docs/patterns/package/titles/role-guide.md b/docs/patterns/package/titles/role-guide.md
+index c064750..009e194 100644
+--- a/docs/patterns/package/titles/role-guide.md
++++ b/docs/patterns/package/titles/role-guide.md
+@@ -53,9 +53,9 @@ These show-level references are teardown starting points, not episode-level veri
+ 
+ | Show | Example Title | Link |
+ |---|---|---|
+-| **Exit Five** | B2B marketing role-specific guidance for CMOs and demand gen leaders | [Apple Podcasts](https://podcasts.apple.com/us/podcast/exit-five-b2b-marketing-with-dave-gerhardt/id1582c) |
+-| **HBR IdeaCast** | Role-specific leadership and management episodes | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152290986) |
+-| **The SaaS Marketing Show** | Demand gen and content marketing role-specific playbooks | [Spotify](https://open.spotify.com/show/saas-marketing) |
++| **Exit Five** | B2B marketing role-specific guidance for CMOs and demand gen leaders | [Show website](https://exitfive.com/podcast/) |
++| **HBR IdeaCast** | Role-specific leadership and management episodes | [Apple Podcasts](https://podcasts.apple.com/us/podcast/hbr-ideacast/id152022135) |
++| **The SaaS Marketing Show** | Demand gen and content marketing role-specific playbooks | Current show link unavailable |
+ 
+ ## Prompt Template
+ 
+diff --git a/docs/patterns/preserve/index.md b/docs/patterns/preserve/index.md
+index 7e10c7e..5da1e5d 100644
+--- a/docs/patterns/preserve/index.md
++++ b/docs/patterns/preserve/index.md
+@@ -6,7 +6,7 @@ description: "Preservation patterns for owned media. Transcripts, vector memory,
+ 
+ **Framework stage:** Preserve — making the content library compound over time.
+ 
+-Preservation is the stage most programs skip. It's also where the long-term value of owned media accumulates: searchable transcripts, AI-citation-ready structure, reusable content libraries. A preserved episode keeps generating value years after it publishes.
++Make your existing media easier to find, verify and reuse. Start with the library standard if your team needs approved files, permissions and reliable recovery. Choose the audience-question workflow when you need to turn existing knowledge into useful public answers and check how AI assistants represent them.
+ 
+ ## Owned Media Library and Content Memory
+ 

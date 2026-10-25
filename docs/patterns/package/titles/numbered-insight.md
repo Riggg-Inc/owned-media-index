@@ -20,7 +20,7 @@ A title structured around a specific number of insights, mistakes, lessons, or s
 
 ## Why It Works
 
-Numbers set expectations. The audience knows the scope before they click. Numbered titles also perform well in search and social because they imply structured, scannable content.
+Numbers set expectations. The audience knows the scope before they click. In search results and social feeds, the number signals a bounded list of takeaways.
 
 ## Examples
 
@@ -55,7 +55,7 @@ These show-level references are teardown starting points, not episode-level veri
 |---|---|---|
 | **Ali Abdaal's Deep Dive** | "7 Strategies That Made Me a Millionaire Before 30" | [YouTube](https://www.youtube.com/@aliabdaal) |
 | **The School of Greatness** | "5 Morning Habits That Will Change Your Life" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/the-school-of-greatness/id596047499) |
-| **Marketing School** | "7 SEO Mistakes That Are Killing Your Traffic" | [Apple Podcasts](https://podcasts.apple.com/us/podcast/marketing-school/id1183891923) |
+| **Marketing School** | "7 SEO Mistakes That Are Killing Your Traffic" | [Show website](https://marketingschool.io/) |
 
 ## Prompt Template
 
