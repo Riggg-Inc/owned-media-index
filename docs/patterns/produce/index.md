@@ -19,7 +19,7 @@ Capturing the source session — the raw material everything else is built from.
 | [Remote Isolated Recording](record/remote-isolated.md) | Recording remote guests with isolated audio/video tracks |
 | [In-Studio Multi-Camera](record/in-studio-multi-camera.md) | Multi-camera in-person sessions |
 | [Hybrid Recording](record/hybrid-recording.md) | Mixed in-person and remote setups |
-| [Zoom Local Recording](record/zoom-local.md) | Local recording via Zoom for maximum quality |
+| [Zoom Local Recording](record/zoom-local.md) | Audio-first fallback or backup with separate audio tracks and compressed video |
 | [Zoom Cloud Recording](record/zoom-cloud.md) | Cloud recording as a fallback or backup path |
 | [StreamYard](record/streamyard.md) | Browser-based recording and simulcast |
 | [Google Meet / Teams](record/google-meet.md) | Recording from Meet or Teams with quality considerations |
