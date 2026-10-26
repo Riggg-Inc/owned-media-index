@@ -4,7 +4,7 @@ description: "Audio mastering standard for podcast distribution. Loudness normal
 
 # Audio Mastering Standard
 
-The audio mastering pass that takes the rough cut audio and produces a distribution-ready podcast audio file meeting loudness, noise, and quality standards for Apple Podcasts, Spotify, and all major platforms. Use the targets as production settings, then check destination requirements and listen to the complete result.
+The audio mastering pass that takes the rough cut audio and produces a podcast audio master with consistent loudness and clear speech, ready for destination-specific delivery checks. Use the targets as production settings, then check destination requirements and listen to the complete result.
 
 **Stage:** Produce → Master  
 **Score:** 5  
@@ -12,7 +12,7 @@ The audio mastering pass that takes the rough cut audio and produces a distribut
 
 ## What It Is
 
-The audio mastering pass that takes the rough cut audio and produces a distribution-ready podcast audio file meeting loudness, noise, and quality standards for Apple Podcasts, Spotify, and all major platforms.
+The audio mastering pass that takes the rough cut audio and produces a podcast audio master with consistent loudness and clear speech, ready for destination-specific delivery checks.
 
 ## Target Specifications
 
@@ -20,11 +20,13 @@ The audio mastering pass that takes the rough cut audio and produces a distribut
 |---|---|---|
 | **Integrated loudness** | -16 LUFS | ±1 LUFS |
 | **True peak** | -1.5 dBTP | Must not exceed -1.0 dBTP |
-| **Noise floor** | Below -50dB | Below -40dB minimum |
+| **Noise during pauses** | No distracting noise at normal listening level | Use a digital full-scale (dBFS) meter to track changes; listen for gating artifacts |
 | **Sample rate** | 48 kHz | 44.1 kHz acceptable |
-| **Bit depth** | 16-bit (MP3) or 24-bit (WAV) | — |
+| **Bit depth** | 24-bit PCM WAV for archive; MP3 uses bitrate, not PCM bit depth | — |
 | **Channels** | Stereo (joint stereo for MP3) | Mono acceptable for speech-only |
 | **Format** | MP3 CBR 192kbps (distribution) or WAV (archive) | MP3 128kbps minimum |
+
+The settings below are starting points: adjust them to the voice and recording, then listen at normal speed. Keep an unprocessed copy.
 
 ## Mastering Chain
 
@@ -58,18 +60,17 @@ For faster turnaround, these tools handle most of the chain automatically:
 - No clipping or distortion
 - Speaker levels balanced (no participant significantly louder than others)
 - No plosives, sibilance, or mouth sounds distracting from content
-- File validates on Spotify loudness checker and Apple Podcasts requirements
+- Measure integrated loudness and true peak after the final encode; listen to the entire result at normal speed
+- Test the final file through the intended host or upload route before release
 
 ## Platform Requirements
 
 For matching audio, video and image export settings by deliverable, see [Export Specifications](export-specs.md).
 
-| Platform | Loudness | Format | Max File Size |
-|---|---|---|---|
-| Apple Podcasts | -16 LUFS recommended | MP3, M4A, MOV | 2 GB |
-| Spotify | -14 to -16 LUFS (normalized to -14) | MP3, OGG (converted) | Via RSS |
-| YouTube (audio) | -14 LUFS (normalized) | Extracted from video | N/A |
-| Amazon Music | -16 LUFS | MP3 | Via RSS |
-| RSS (general) | -16 LUFS standard | MP3 CBR preferred | Host-dependent |
+Use the -16 LUFS stereo target above as a production default, not a universal RSS or platform mandate. [Apple recommends approximately -16 LUFS (±1) with true peak no higher than -1 dBTP](https://podcasters.apple.com/support/893-audio-requirements). Its RSS audio guidance accepts MP3 or AAC; subscriber uploads have separate requirements.
+
+[Audacity's MP3 guidance](https://manual.audacityteam.org/man/mp3_export_options.html) includes 192 kbps stereo CBR as a podcast preset. Keep a lossless WAV archive and make the delivery copy required by your host.
+
+For Spotify, YouTube and Amazon destinations, check the podcast or video upload route you actually use. Spotify's [music normalization documentation](https://support.spotify.com/us/artists/article/loudness-normalization/) describes songs and albums; do not treat it as a podcast upload requirement. Measure your own finished file rather than depending on playback normalization to repair uneven speech.
 
 _Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._

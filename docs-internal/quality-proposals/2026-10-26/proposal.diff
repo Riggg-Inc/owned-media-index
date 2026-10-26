@@ -11,3 +11,210 @@ index 8fa1f6c..d6be528 100644
  | [Zoom Cloud Recording](record/zoom-cloud.md) | Cloud recording as a fallback or backup path |
  | [StreamYard](record/streamyard.md) | Browser-based recording and simulcast |
  | [Google Meet / Teams](record/google-meet.md) | Recording from Meet or Teams with quality considerations |
+diff --git a/docs/patterns/produce/master/audio-mastering.md b/docs/patterns/produce/master/audio-mastering.md
+index a44a1f9..b2b47c3 100644
+--- a/docs/patterns/produce/master/audio-mastering.md
++++ b/docs/patterns/produce/master/audio-mastering.md
+@@ -4,7 +4,7 @@ description: "Audio mastering standard for podcast distribution. Loudness normal
+ 
+ # Audio Mastering Standard
+ 
+-The audio mastering pass that takes the rough cut audio and produces a distribution-ready podcast audio file meeting loudness, noise, and quality standards for Apple Podcasts, Spotify, and all major platforms. Use the targets as production settings, then check destination requirements and listen to the complete result.
++The audio mastering pass that takes the rough cut audio and produces a podcast audio master with consistent loudness and clear speech, ready for destination-specific delivery checks. Use the targets as production settings, then check destination requirements and listen to the complete result.
+ 
+ **Stage:** Produce → Master  
+ **Score:** 5  
+@@ -12,7 +12,7 @@ The audio mastering pass that takes the rough cut audio and produces a distribut
+ 
+ ## What It Is
+ 
+-The audio mastering pass that takes the rough cut audio and produces a distribution-ready podcast audio file meeting loudness, noise, and quality standards for Apple Podcasts, Spotify, and all major platforms.
++The audio mastering pass that takes the rough cut audio and produces a podcast audio master with consistent loudness and clear speech, ready for destination-specific delivery checks.
+ 
+ ## Target Specifications
+ 
+@@ -20,12 +20,14 @@ The audio mastering pass that takes the rough cut audio and produces a distribut
+ |---|---|---|
+ | **Integrated loudness** | -16 LUFS | ±1 LUFS |
+ | **True peak** | -1.5 dBTP | Must not exceed -1.0 dBTP |
+-| **Noise floor** | Below -50dB | Below -40dB minimum |
++| **Noise during pauses** | No distracting noise at normal listening level | Use a digital full-scale (dBFS) meter to track changes; listen for gating artifacts |
+ | **Sample rate** | 48 kHz | 44.1 kHz acceptable |
+-| **Bit depth** | 16-bit (MP3) or 24-bit (WAV) | — |
++| **Bit depth** | 24-bit PCM WAV for archive; MP3 uses bitrate, not PCM bit depth | — |
+ | **Channels** | Stereo (joint stereo for MP3) | Mono acceptable for speech-only |
+ | **Format** | MP3 CBR 192kbps (distribution) or WAV (archive) | MP3 128kbps minimum |
+ 
++The settings below are starting points: adjust them to the voice and recording, then listen at normal speed. Keep an unprocessed copy.
++
+ ## Mastering Chain
+ 
+ ```
+@@ -58,18 +60,17 @@ For faster turnaround, these tools handle most of the chain automatically:
+ - No clipping or distortion
+ - Speaker levels balanced (no participant significantly louder than others)
+ - No plosives, sibilance, or mouth sounds distracting from content
+-- File validates on Spotify loudness checker and Apple Podcasts requirements
++- Measure integrated loudness and true peak after the final encode; listen to the entire result at normal speed
++- Test the final file through the intended host or upload route before release
+ 
+ ## Platform Requirements
+ 
+ For matching audio, video and image export settings by deliverable, see [Export Specifications](export-specs.md).
+ 
+-| Platform | Loudness | Format | Max File Size |
+-|---|---|---|---|
+-| Apple Podcasts | -16 LUFS recommended | MP3, M4A, MOV | 2 GB |
+-| Spotify | -14 to -16 LUFS (normalized to -14) | MP3, OGG (converted) | Via RSS |
+-| YouTube (audio) | -14 LUFS (normalized) | Extracted from video | N/A |
+-| Amazon Music | -16 LUFS | MP3 | Via RSS |
+-| RSS (general) | -16 LUFS standard | MP3 CBR preferred | Host-dependent |
++Use the -16 LUFS stereo target above as a production default, not a universal RSS or platform mandate. [Apple recommends approximately -16 LUFS (±1) with true peak no higher than -1 dBTP](https://podcasters.apple.com/support/893-audio-requirements). Its RSS audio guidance accepts MP3 or AAC; subscriber uploads have separate requirements.
++
++[Audacity's MP3 guidance](https://manual.audacityteam.org/man/mp3_export_options.html) includes 192 kbps stereo CBR as a podcast preset. Keep a lossless WAV archive and make the delivery copy required by your host.
++
++For Spotify, YouTube and Amazon destinations, check the podcast or video upload route you actually use. Spotify's [music normalization documentation](https://support.spotify.com/us/artists/article/loudness-normalization/) describes songs and albums; do not treat it as a podcast upload requirement. Measure your own finished file rather than depending on playback normalization to repair uneven speech.
+ 
+ _Legacy source/spec snapshot: May 2026 (date retained from the original reference; not a current fact-check). Recheck current source documentation before relying on these specifications._
+diff --git a/docs/patterns/produce/master/export-specs.md b/docs/patterns/produce/master/export-specs.md
+index 99c1905..cf47c01 100644
+--- a/docs/patterns/produce/master/export-specs.md
++++ b/docs/patterns/produce/master/export-specs.md
+@@ -4,7 +4,7 @@ description: "Export specifications for owned media deliverables. Platform-speci
+ 
+ # Export Specifications
+ 
+-A reference table of export settings for every deliverable format across every major distribution platform. Start with the destination and aspect ratio; distinguish workflow presets from platform upload limits.
++Working export presets for common video, audio and image deliverables. Start with the destination and aspect ratio; distinguish workflow presets from platform upload limits.
+ 
+ **Stage:** Produce → Master  
+ **Score:** 4  
+@@ -12,33 +12,42 @@ A reference table of export settings for every deliverable format across every m
+ 
+ ## What It Is
+ 
+-A reference table of export settings for every deliverable format across every major distribution platform. Use this to ensure your mastered files meet platform requirements on the first export.
++Working export presets for common video, audio and image deliverables. Choose a preset, check the current destination limits and test a representative export before rendering the whole batch.
+ 
+ ## Video Export Specs
+ 
++Resolution, codec and bitrate below are starting presets, not platform mandates. The 30fps examples assume a 30fps source; keep the source frame rate unless your delivery brief requires a conversion. Maximum size and duration depend on the account and upload route.
++
+ ### Horizontal (16:9)
+ 
+ | Platform | Resolution | Codec | Bitrate | Frame Rate | Container | Max Size |
+ |---|---|---|---|---|---|---|
+-| YouTube | 1920×1080 | H.264 | 12-15 Mbps | 30fps | MP4 | 256 GB |
++| YouTube | 1920×1080 | H.264 | 12-15 Mbps | 30fps | MP4 | 256 GB or 12 hours, whichever is less |
+ | LinkedIn | 1920×1080 | H.264 | 10-15 Mbps | 30fps | MP4 | 5 GB |
+-| Facebook | 1920×1080 | H.264 | 10-15 Mbps | 30fps | MP4 | 10 GB |
+-| Twitter/X | 1920×1080 | H.264 | 6-10 Mbps | 30fps | MP4 | 512 MB |
++| Facebook | 1920×1080 | H.264 | 10-15 Mbps | 30fps | MP4 | Check current upload route |
++| Twitter/X | 1920×1080 | H.264 | 6-10 Mbps | 30fps | MP4 | Check account/upload route |
+ | Website | 1920×1080 | H.264/H.265 | 8-12 Mbps | 30fps | MP4 | Host-dependent |
+-| Podcast (video) | 1920×1080 | H.264 | 8-12 Mbps | 30fps | MP4/MOV | 2 GB |
++| Podcast (video) | 1920×1080 | H.264 | 8-12 Mbps | 30fps | MP4/MOV | Check podcast host |
+ 
+ ### Vertical (9:16)
+ 
+ | Platform | Resolution | Codec | Max Duration | Frame Rate | Max Size |
+ |---|---|---|---|---|---|
+-| Instagram Reels | 1080×1920 | H.264 | 90s | 30fps | 4 GB |
++| Instagram Reels | 1080×1920 | H.264 | Check current account/upload route | 30fps | Check current upload route |
+ | YouTube Shorts | 1080×1920 | H.264 | 3min (eligible square/vertical uploads) | 30fps | N/A |
+-| TikTok | 1080×1920 | H.264 | 10min | 30fps | 4 GB |
+-| LinkedIn | 1080×1920 | H.264 | 10min | 30fps | 5 GB |
+-| Facebook Reels | 1080×1920 | H.264 | 90s | 30fps | 4 GB |
++| TikTok | 1080×1920 | H.264 | Check recording versus upload route | 30fps | Check current upload route |
++| LinkedIn | 1080×1920 | H.264 | 15min | 30fps | 5 GB |
++| Facebook Reels | 1080×1920 | H.264 | No universal 90s cap in the new unified video flow | 30fps | Check current upload route |
+ 
+ [YouTube documents Shorts up to three minutes](https://support.google.com/youtube/answer/15424877) for eligible square or vertical uploads. Shorts over one minute with an active Content ID claim are blocked globally. Other platform limits in this table still require destination-specific revalidation.
+ 
++### Check the destination before batch export
++
++- [YouTube upload limits](https://support.google.com/youtube/answer/71673): 256 GB or 12 hours, whichever is less; accounts need verification for videos longer than 15 minutes. [Encoding recommendations](https://support.google.com/youtube/answer/1722171) use the source frame rate and suggested variable bitrates. The higher-bitrate examples here are working presets, not upload requirements.
++- [LinkedIn video requirements](https://www.linkedin.com/help/linkedin/answer/a548377): up to 15 minutes and 5 GB. Check the same upload route you will use for release.
++- [Meta's unified Facebook video/Reels flow](https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/) removes length/format restrictions as it rolls out. That is not a promise of unlimited file size.
++- For Instagram, TikTok, X and podcast hosts, verify current limits in the target account before committing to the full render. Record the destination, account/route, date checked and one successful sample upload. Do not substitute a filming limit for an upload limit.
++
+ ## Audio Export Specs
+ 
+ | Deliverable | Format | Bitrate | Sample Rate | Channels | Loudness |
+diff --git a/docs/patterns/produce/master/index.md b/docs/patterns/produce/master/index.md
+index b76cba5..0c460ee 100644
+--- a/docs/patterns/produce/master/index.md
++++ b/docs/patterns/produce/master/index.md
+@@ -8,7 +8,7 @@ description: "Mastering patterns for owned media production. Final polish for ho
+ 
+ Mastering is the final production phase. The rough cut arrives as a produced show with layouts, graphics, and transitions already in place. The mastering editor polishes — fixing imperfections, balancing audio, color correcting, trimming dead air, and exporting to final deliverable formats.
+ 
+-Mastering should be fast because the rough cut did the heavy lifting. If mastering takes longer than the rough cut, something went wrong upstream.
++Mastering should be fast because the rough cut did the heavy lifting. If it runs long, check whether upstream fixes would help; restoration, accessibility and creative work can legitimately need more time.
+ 
+ ## What Mastering Produces
+ 
+@@ -29,34 +29,36 @@ Mastering should be fast because the rough cut did the heavy lifting. If masteri
+ 
+ ## Mastering Tools
+ 
++Choose tools by the work you need to finish. Prices and AI allowances vary by edition, billing plan and region; check the current plan before purchasing. Keep a short test project to confirm the required export and caption features.
++
+ ### Video Editing / NLE
+ 
+ | Tool | Best For | Price | Platform |
+ |---|---|---|---|
+-| **DaVinci Resolve** | Full mastering: edit, color, audio, effects. Industry standard for color grading. | Free / $295 (Studio) | Win, Mac, Linux |
+-| **Adobe Premiere Pro** | Established NLE with broad plugin ecosystem | $22.99/mo | Win, Mac |
+-| **Final Cut Pro** | Fast rendering, native Mac optimization | $299.99 (one-time) | Mac only |
+-| **CapCut (Desktop)** | Fast, simple edits with good auto-caption support | Free | Win, Mac |
+-| **Descript** | Transcript-based editing, filler word removal, studio sound | $24/mo+ | Win, Mac |
++| **DaVinci Resolve** | Full mastering: edit, color, audio, effects. Industry standard for color grading. | Free / paid Studio; [current edition pricing](https://www.blackmagicdesign.com/products/davinciresolve) | Win, Mac, Linux |
++| **Adobe Premiere Pro** | Established NLE with broad plugin ecosystem | Check current Premiere plan | Win, Mac |
++| **Final Cut Pro for Mac** | Fast rendering, native Mac optimization | $299.99 one-time Mac option; [other plans](https://www.apple.com/final-cut-pro/) | Mac only |
++| **CapCut (Desktop)** | Fast, simple edits; check current auto-caption entitlement | Free / paid features | Win, Mac |
++| **Descript** | Transcript-based editing, filler word removal, studio sound | [Current plans and allowances](https://www.descript.com/pricing) | Win, Mac |
+ 
+ ### Audio Processing
+ 
+ | Tool | Best For | Price | Platform |
+ |---|---|---|---|
+ | **DaVinci Resolve Fairlight** | Integrated audio mastering within the NLE | Included in Resolve | Win, Mac, Linux |
+-| **Adobe Audition** | Dedicated audio cleanup, noise reduction, mastering | Included with Premiere | Win, Mac |
+-| **Descript Studio Sound** | One-click audio cleanup and leveling | Included with Descript | Win, Mac |
+-| **Auphonic** | Automated loudness normalization, noise reduction, leveling | Free (2hrs/mo) / $11/mo | Web |
+-| **iZotope RX** | Professional noise reduction, de-reverb, de-click | $129+ | Win, Mac |
++| **Adobe Audition** | Dedicated audio cleanup, noise reduction, mastering | Check that your Adobe subscription includes Audition | Win, Mac |
++| **Descript Studio Sound** | Audio cleanup and leveling | Plan and AI allowance dependent | Win, Mac |
++| **Auphonic** | Automated loudness normalization, noise reduction, leveling | [Current credits and plans](https://auphonic.com/pricing) | Web |
++| **iZotope RX** | Professional noise reduction, de-reverb, de-click | Check current RX edition and price | Win, Mac |
+ 
+ ### Auto-Captioning
+ 
+ | Tool | Best For | Price |
+ |---|---|---|
+-| **CapCut** | Fast auto-captions with style templates | Free |
+-| **Descript** | Transcript-based captions with word-level timing | $24/mo+ |
++| **CapCut** | Auto-captions and templates; check current plan | Plan-dependent |
++| **Descript** | Transcript-based captions with word-level timing | [Current plans and allowances](https://www.descript.com/pricing) |
+ | **Premiere Pro (Speech to Text)** | Native captioning within Adobe ecosystem | Included |
+-| **DaVinci Resolve (Subtitle tools)** | SRT import/export, manual and auto | Included |
++| **DaVinci Resolve (Subtitle tools)** | SRT import/export and subtitle editing; check edition for automatic transcription | Edition-dependent |
+ 
+ ## Mastering Workflow
+ 
+@@ -87,11 +89,11 @@ Rough Cut (H + V) arrives
+ ## Quality Bar
+ 
+ - **Video:** No visible compression artifacts, consistent color, smooth transitions
+-- **Audio:** Loudness at -16 LUFS (±1), noise floor below -50dB, no clipping
+-- **Captions:** Burned-in captions on all vertical video (80%+ watched without sound)
++- **Audio:** Loudness at -16 LUFS (±1), no distracting background noise at normal listening level, no clipping
++- **Captions:** Burned-in readable captions on vertical exports so the message works without sound
+ - **Sync:** Audio and video perfectly synced across all exports
+ - **Formats:** All exports match platform-specific specs (see [Export Specifications](export-specs.md))
+-- **Turnaround:** Mastering should take less time than the rough cut. Target: same day or next day.
++- **Turnaround:** Aim to keep routine mastering shorter than the rough cut; do not rush required repairs. Use same-day or next-day delivery as a planning target when the source and scope allow it.
+ 
+ ## Selection Guide
+ 

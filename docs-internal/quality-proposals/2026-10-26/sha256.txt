@@ -1,1 +1,4 @@
 d503289859437893163d38cb7d94ee3e59496865ecdfb5409a32f25000b7f10e  docs/patterns/produce/index.md
+f61d39dc98b5b41eac36130e209965df280750fabd3f25bb91d6a6a50cb6e8de  docs/patterns/produce/master/audio-mastering.md
+3a656ca3f5ac2e09fcdc6df0505cf18127967ffb9578e6dda4004b204bc189fb  docs/patterns/produce/master/export-specs.md
+702c91b8a43cf8975184eb0a0a3b01b86cbaead7d45717f472ac6eeae50d2da0  docs/patterns/produce/master/index.md
