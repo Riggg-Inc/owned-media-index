@@ -62,6 +62,8 @@ For faster turnaround, these tools handle most of the chain automatically:
 
 ## Platform Requirements
 
+For matching audio, video and image export settings by deliverable, see [Export Specifications](export-specs.md).
+
 | Platform | Loudness | Format | Max File Size |
 |---|---|---|---|
 | Apple Podcasts | -16 LUFS recommended | MP3, M4A, MOV | 2 GB |

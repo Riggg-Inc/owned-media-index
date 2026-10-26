@@ -20,7 +20,7 @@ A LinkedIn long-form episode announcement explains a release’s professional re
 
 ## When To Use
 
-Choose it when useful context goes beyond the title; make the post valuable even without a click.
+Choose it when useful context goes beyond the title; make the post valuable even without a click. For other angles for a new release on LinkedIn, see [LinkedIn Release Post Patterns](../../../../publish/linkedin-release-post-patterns.md).
 
 ## Template
 

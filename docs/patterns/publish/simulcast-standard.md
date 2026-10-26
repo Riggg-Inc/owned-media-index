@@ -25,6 +25,8 @@ A standard for broadcasting a Program or Session live across multiple platforms.
 - Recording backup.
 - Post-live replay plan.
 
+For YouTube destinations, use the [YouTube Title and Description Standard](youtube-title-and-description-standard.md); for horizontal and vertical output settings, see [Export Specifications](../produce/master/export-specs.md).
+
 ## Quality Bar
 
 The stream should feel intentional on every destination, not like a single broadcast blindly sprayed everywhere.

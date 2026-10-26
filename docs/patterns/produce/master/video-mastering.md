@@ -12,7 +12,7 @@ The final video editing pass that takes the rough cut and produces a polished, d
 
 ## What It Is
 
-The final video editing pass that takes the rough cut and produces a polished, deliverable-ready master in both horizontal (16:9) and vertical (9:16) formats.
+The final video editing pass that takes the [rough cut](../rough-cut/index.md) and produces a polished, deliverable-ready master in both horizontal (16:9) and vertical (9:16) formats. Platform-specific file settings for those exports are in [Export Specifications](export-specs.md).
 
 ## Mastering Checklist
 

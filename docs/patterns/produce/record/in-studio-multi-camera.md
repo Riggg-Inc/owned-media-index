@@ -12,7 +12,7 @@ All participants are in the same physical studio. Choose it when participants sh
 
 ## What It Is
 
-All participants are in the same physical studio. Each person has their own camera and microphone, capturing individual isolated feeds that can be switched, cropped, and composed in the rough cut.
+All participants are in the same physical studio. Each person has their own camera and microphone, capturing individual isolated feeds that can be switched, cropped, and composed in the [rough cut](../rough-cut/index.md).
 
 ## Why It Works
 

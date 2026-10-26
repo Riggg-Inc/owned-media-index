@@ -17,7 +17,7 @@ A standard for using OBS or equivalent live production software to create show-s
 ## Best For
 
 - Podcasts with video.
-- Live shows.
+- Live shows; for broadcasting one session to several platforms, see the [Simulcast Standard](../publish/simulcast-standard.md).
 - Webinars.
 - Virtual event sessions.
 - Programs that need fast turnaround.
@@ -26,7 +26,7 @@ A standard for using OBS or equivalent live production software to create show-s
 
 Real-time production moves production decisions upstream. Lower thirds, titles, overlays, transitions, intro/outro moments, and layout choices happen before the asset reaches final mastering.
 
-This reduces post-production overhead and raises the quality floor.
+This reduces post-production overhead and raises the quality floor. The [Rough Cut](rough-cut/index.md) overview shows what this stage produces, and the [OBS Scene Collection Template](obs-scene-collection-template.md) provides a reusable scene setup.
 
 ## Quality Bar
 

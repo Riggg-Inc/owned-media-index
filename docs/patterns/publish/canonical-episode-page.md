@@ -49,6 +49,13 @@ Keep source media, approved transcripts, captions and metadata in an independent
 
 Check player embeds, transcript/chapter links and subscription destinations at release and after hosting changes. If an embed breaks, retain useful approved text and repair playback from an authorized delivery copy; do not assume the old platform can supply the source. Before a migration, inventory affected URLs, preserve stable addresses where possible, redirect changed URLs to their corresponding replacements, and test old links and replacement playback. Record dependencies or features that cannot transfer. A controlled site supports continuity; it does not guarantee search rankings, AI citations or discovery.
 
+## Related Standards
+
+- **YouTube:** when the episode is also on YouTube, link back to this page from the video description, as described in the [YouTube Title and Description Standard](youtube-title-and-description-standard.md).
+- **Live sessions:** a live session's replay can use this page as its home; the [Simulcast Standard](simulcast-standard.md) includes a post-live replay plan.
+- **Video delivery:** [HLS Video Podcast Distribution](../produce/recording/hls-video-podcast-distribution.md) covers one implementation option for video playback.
+- **Measurement:** to check whether the page is being cited or visited, see [Measurement](ai-search-optimization/measurement.md).
+
 ## When Not To Use
 
 Do not create thin episode pages that only embed a player and duplicate an RSS blurb.

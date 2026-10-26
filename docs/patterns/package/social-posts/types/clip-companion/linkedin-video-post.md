@@ -20,7 +20,7 @@ A LinkedIn video post pairs an episode clip with a professional reason to watch 
 
 ## When To Use
 
-Choose it when the clip illustrates a specific lesson or point of view, not for a generic release announcement.
+Choose it when the clip illustrates a specific lesson or point of view, not for a generic release announcement. For broader angles for announcing a release on LinkedIn, see [LinkedIn Release Post Patterns](../../../../publish/linkedin-release-post-patterns.md).
 
 ## Template
 

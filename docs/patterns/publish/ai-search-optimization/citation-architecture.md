@@ -86,6 +86,8 @@ Things that make your content **less** citable:
 - No critical content behind gates, collapses, or JS-only rendering
 - Schema.org markup validates cleanly
 
+To check afterward whether pages are cited or visited, see [Measurement](measurement.md).
+
 ## When Not To Use
 
 Apply this to public material intended to be found and reused. Do not expose private content, invent credentials or dates, or remove uncertainty merely to make an answer easier to quote.
