@@ -7695,6 +7695,406 @@
         "reason": "Material shared dark-mode readability defect and any page-specific claims/navigation findings require correction; exact human approval is not inferred from assessment maintenance.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/index.md": [
+      {
+        "id": "quality-20261026-patterns-produce-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-26T16:49:52Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "134e93f2d2ada82280826ee5915e5ba6fd72d31a3776243082e639ed57667f84",
+        "report_ref": "docs-internal/quality-reviews/2026-10-26/patterns-produce-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The three phase headings and final need-to-route table help a practitioner select capture, assembly or finishing work immediately."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "For a navigation hub the concrete recording options, named OBS guides and three mastering destinations give sufficient substance without duplicating tutorials."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Capture then rough cut then mastering is a coherent production path; selection table repeats it in task language rather than adding conflicting process steps."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The Zoom local row promises maximum quality while the linked Zoom Local page explicitly positions it as compressed-video audio-first fallback. This is a misleading selection cue and requires a narrow correction. Framework also lists long-form mastering under Package; report taxonomy overlap for owner clarification without changing stages."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The general advice that source quality constrains downstream work is reasonable practitioner guidance. Maximum-quality Zoom wording overstates the linked method; no invented platform benchmark supports it."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Live mobile-dark tables have pale text on pale alternating rows, obscuring recording and finishing route descriptions. Desktop light is legible; supported dark-mode failure is material for this navigation hub."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This hub provides navigation and practitioner production advice, not measured platform claims; the maximum-quality conflict is established directly by the linked published Zoom guidance.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete framework, Record, Rough Cut, Master and Zoom Local pages to compare the actual production tasks and selection advice.",
+          "items": [
+            {
+              "path": "patterns/produce/record/zoom-local.md",
+              "claim": "Zoom local is described as the maximum-quality recording option.",
+              "finding": "The linked page instead recommends audio-first fallback or backup and describes compressed mixed video without per-person framing; change the hub summary, not the useful destination limitations.",
+              "checked_at": "2026-10-26T16:49:51.720Z"
+            },
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "Rough cut assembles layouts and transitions before mastering.",
+              "finding": "The full guide describes OBS layouts, lower thirds and dual horizontal/vertical outputs, supporting the hub assembly route; its separate absolute claims are not certified by this review.",
+              "checked_at": "2026-10-26T16:49:51.720Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Produce includes capture and production before packaging.",
+              "finding": "The framework agrees on clean source capture but lists long-form mastering under Package while the navigation nests Master under Produce. Scope overlap merits owner clarification, not unilateral framework restructuring.",
+              "checked_at": "2026-10-26T16:49:51.720Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-25T16:49:52Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Misleading Zoom selection wording and material dark-mode table contrast require an approved scoped correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/master/video-mastering.md": [
+      {
+        "id": "quality-20261026-patterns-produce-master-video-mastering",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-26T16:51:10Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "f2ed2367d928679379c71f5a15780cb908257a01188dca148c875daa1b2bb62d",
+        "report_ref": "docs-internal/quality-reviews/2026-10-26/patterns-produce-master-video-mastering.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The page tells an editor exactly when to use the finishing pass and separates horizontal and vertical deliverables, with a clear limitation on unusable source footage."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Edit, color, vertical and final checks are concrete: lower-third accuracy, skin tones, caption readability, sync and runtime. A short checklist is appropriate; no generic essay or mandatory new worksheet is needed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The sequence from edit through color and framing to final viewing is intelligible. The repeated definition is a minor editorial preference, not a failure. Normal-speed spot checks would improve the 1.5x playback advice but no guaranteed detection claim is made."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Rough Cut supplies layouts/graphics and Master assigns finishing tasks; Export Specifications is the intended destination for delivery settings. Framework stage overlap remains an owner taxonomy question, not an authorization to move the page."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The checklist is reasonable production advice, not a measured business-result promise. Three-second pauses, center-80% positioning and one-frame sync are working targets, not verified universal platform standards. Internal-data provenance and score support were not independently certified or changed."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light desktop checklist and mobile dark body text are legible, with no pale table defect because this page has no tables. However required Rough Cut and Export Specifications links render rgb(0,128,128) on rgb(26,37,53), about 3.2:1 contrast, below normal-text readability criteria; fresh screenshots show these navigation words substantially darker than body copy. Shared link contrast requires correction, not a fictitious table finding."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This page offers production checklist targets rather than external empirical or platform-limit assertions. Internal production data and scores are retained but not independently certified; no private evidence accessed.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read current Rough Cut, Master, Export Specifications and framework to check finishing responsibilities and navigation context.",
+          "items": [
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "The mastering pass starts from an assembled rough cut.",
+              "finding": "Rough Cut produces horizontal and vertical versions with transitions, layouts and lower thirds; checking and polishing these in the target is coherent rather than redundant production.",
+              "checked_at": "2026-10-26T16:51:09.909Z"
+            },
+            {
+              "path": "patterns/produce/master/export-specs.md",
+              "claim": "Detailed export settings belong in the linked reference.",
+              "finding": "The reference supplies concrete deliverable presets but mixes some platform limits with working targets; this target appropriately delegates file settings rather than duplicating or guaranteeing them.",
+              "checked_at": "2026-10-26T16:51:09.909Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-25T16:51:10Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Required inline navigation links have insufficient dark-mode contrast; extend existing shared contrast review rather than duplicate the card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/master/audio-mastering.md": [
+      {
+        "id": "quality-20261026-patterns-produce-master-audio-mastering",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-26T16:59:42Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ade45fa03bffe6a950dcbaeb01ccf96298462f7904f03776284cbbac46ca1fbd",
+        "report_ref": "docs-internal/quality-reviews/2026-10-26/patterns-produce-master-audio-mastering.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "needs_revision",
+            "rationale": "The chain and targets help a producer finish speech audio, but the platform-requirements table and unlinked Spotify loudness-checker acceptance step can send readers toward incorrect requirements; those are material to the promised distribution-ready result."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Eight processing steps, integrated loudness/peak targets, tool options and audible acceptance checks provide real operational substance. The repeated definition is minor, not a reason to rewrite the entire guide."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Noise reduction through EQ/compression to normalization, limiting and export is a coherent suggested order. It should remain a starting chain adjusted by listening rather than a mandatory preset for every voice."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Master hub and Export Specifications use the same -16 LUFS stereo and 48 kHz workflow baseline. Those working presets can be consistent without proving every platform row is a requirement; distinguish prescribed workflow targets from external ingest limits."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Platform normalization assertions, all-major-platform scope, MP3 bit-depth wording and a Spotify loudness checker are insufficiently scoped or supported. A legacy snapshot disclaimer does not turn a requirements table into verified current guidance; retain useful working targets while correcting these precise claims."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh light desktop is usable, but mobile dark pale stripes obscure peak, sample-rate and platform rows and dark code obscures the mastering chain. This is a task-critical readability failure, not an optional visual preference."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Independent same-model AI read primary sources in context; parent read and synthesized retained source report. Inaccessible or partial sources are explicit limitations, not verified facts. Full ledger retained in independent-source-audit.md.",
+          "items": [
+            {
+              "url": "https://podcasters.apple.com/support/893-audio-requirements",
+              "claim": "Apple podcast loudness, formats and MP3 bit depth requirements.",
+              "finding": "Independent AI read complete extracted requirements: -16 LUFS plus/minus1 and true peak no higher than -1dBTP supported; RSS accepts MP3/AAC, PCM resolution applies to WAV/FLAC rather than MP3. No universal Apple2GB audio limit established.",
+              "checked_at": "2026-10-26T16:47:44.450Z"
+            },
+            {
+              "url": "https://support.spotify.com/us/artists/article/loudness-normalization/",
+              "claim": "Spotify normalizes podcast episodes to minus14 LUFS.",
+              "finding": "Independent AI read complete music artist documentation about tracks and albums, variable listening settings and device exceptions. It does not establish podcast-episode normalization or a podcast upload mandate; no cross-modality inference accepted.",
+              "checked_at": "2026-10-26T16:47:44.266Z"
+            },
+            {
+              "url": "https://manual.audacityteam.org/man/mp3_export_options.html",
+              "claim": "MP3 exports specify sixteen-bit depth and a192kbps podcast preset.",
+              "finding": "Complete export documentation reviewed independently: MP3 uses bitrate, channels and sample rate rather than PCM bit-depth;192kbps stereo CBR is a supported podcast working preset.",
+              "checked_at": "2026-10-26T16:48:39.837Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Parent read complete current Master hub and both audio/video/export guides, plus Rough Cut and framework, to compare the actual finishing handoff and shared settings.",
+          "items": [
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "Finishing receives an already assembled horizontal and vertical show.",
+              "finding": "Rough Cut describes layouts, graphics, transitions and dual output, supporting the finishing handoff without proving that every episode can finish faster than its rough cut.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            },
+            {
+              "path": "patterns/produce/master/export-specs.md",
+              "claim": "Sibling pages use consistent audio finishing targets.",
+              "finding": "Both reference48kHz stereo MP3 at192kbps and minus16LUFS as working settings; cross-page agreement is coherent but cannot certify external platform requirements or unavailable source evidence.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-25T16:59:42Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material technical claim and dark-mode readability corrections require exact human approval; source limitations are retained, not fabricated as verification.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/master/export-specs.md": [
+      {
+        "id": "quality-20261026-patterns-produce-master-export-specs",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-26T16:59:42Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "7f01b9056ee1a14b52d0a288ed95c0ac7bc1ca229277bc97872daf7cd3e16b8e",
+        "report_ref": "docs-internal/quality-reviews/2026-10-26/patterns-produce-master-export-specs.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "needs_revision",
+            "rationale": "The destination/aspect-ratio tables and editor presets answer a real export task, but old maximum durations and account-independent limits can cause avoidable delivery decisions; the reference cannot pass on usefulness merely because it is detailed."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Horizontal, vertical, audio and image settings plus Resolve/Premiere presets are concrete and substantial. Preserve those examples and do not replace the whole reference with a generic verify-everything disclaimer."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The opening tells readers to distinguish workflow presets from upload limits, but the body still mixes fixed 30fps/bitrate recommendations with Max Duration/Max Size requirements and promises the first export meets platform requirements. The distinction needs to exist in the tables, not just the opening caveat."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Audio targets agree with the neighboring Audio Mastering working presets; Video Mastering delegates destination settings here. That dependency makes the reference accuracy material, while shared numbers across siblings are not independent evidence."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Platform maxima require dated primary-source checks and account/upload-route qualifiers. The unqualified Reels/TikTok/LinkedIn limits and universal first-export promise are not made reliable by the May snapshot footnote; supported YouTube Shorts detail should remain."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light desktop tables and presets are understandable, but mobile dark alternating rows and code are materially unreadable. Wide tables use constrained horizontal regions rather than whole-page overflow; this does not cure low contrast in required cells."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Independent same-model AI read primary sources in context; parent read and synthesized retained source report. Inaccessible or partial sources are explicit limitations, not verified facts. Full ledger retained in independent-source-audit.md.",
+          "items": [
+            {
+              "url": "https://www.linkedin.com/help/linkedin/answer/a548377",
+              "claim": "LinkedIn video maximum is ten minutes and five gigabytes.",
+              "finding": "Independent AI read current official requirements:15minutes and5GB with10\u201360fps and broad aspect/resolution ranges. Ten-minute universal maximum is stale; fixed30fps is a house choice.",
+              "checked_at": "2026-10-26T16:48:13.974Z"
+            },
+            {
+              "url": "https://about.fb.com/news/2025/06/making-it-easier-create-videos-facebook/",
+              "claim": "Facebook Reels has a universal ninety-second maximum.",
+              "finding": "Full official announcement read independently: new unified video/Reels flow removes length/format restrictions with gradual rollout. It does not establish unlimited file size, but contradicts a universal90second limit.",
+              "checked_at": "2026-10-26T16:48:40.613Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/1722171",
+              "claim": "YouTube requires thirty frames per second and12\u201315Mbps for1080p.",
+              "finding": "Primary encoding guidance read independently: retain source frame rate, suggested VBR8Mbps for standard-frame-rate1080p SDR and12Mbps for high frame rate. Existing settings can be house presets but are not universal platform requirements.",
+              "checked_at": "2026-10-26T16:47:55.399Z"
+            },
+            {
+              "url": "https://support.google.com/youtube/answer/15424877",
+              "claim": "Eligible square or vertical Shorts can last three minutes.",
+              "finding": "Eligibility/copyright/FAQ substantive sections independently read; supports up to3minutes and active-claim blocking above1minute. Large HTML transport incomplete beyond available sections; not entire-site certification.",
+              "checked_at": "2026-10-26T16:47:55.218Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Parent read complete current Master hub and both audio/video/export guides, plus Rough Cut and framework, to compare the actual finishing handoff and shared settings.",
+          "items": [
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "Finishing receives an already assembled horizontal and vertical show.",
+              "finding": "Rough Cut describes layouts, graphics, transitions and dual output, supporting the finishing handoff without proving that every episode can finish faster than its rough cut.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            },
+            {
+              "path": "patterns/produce/master/audio-mastering.md",
+              "claim": "Sibling pages use consistent audio finishing targets.",
+              "finding": "Both reference48kHz stereo MP3 at192kbps and minus16LUFS as working settings; cross-page agreement is coherent but cannot certify external platform requirements or unavailable source evidence.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-25T16:59:42Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material technical claim and dark-mode readability corrections require exact human approval; source limitations are retained, not fabricated as verification.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/master/index.md": [
+      {
+        "id": "quality-20261026-patterns-produce-master-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-26T16:59:42Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1799334dd565dcd1e5205e130b0bfe2e4d3102ab0ed681a70f280b8e75be8e38",
+        "report_ref": "docs-internal/quality-reviews/2026-10-26/patterns-produce-master-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub gives a clear finishing job and directs practitioners to picture, sound and export standards, with tool categories to make an initial choice."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Deliverable examples, workflow tree, three tool categories and quality checks provide actionable substance rather than a bare index. Tools pricing is factual content that must be accurate, not filler to be removed merely for brevity."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Video and audio branches converge on deliverable exports coherently. The claim that longer mastering means an upstream mistake is overgeneralized; complex cleanup and accessibility work can legitimately take longer and should not be rushed to satisfy a universal ratio."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The three linked mastering guides share deliverable formats and working audio targets. Framework stage overlap should be resolved by owner rather than unilateral taxonomy edits; the selected tools and checks should continue to serve the existing finishing role."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The tool tables assert current plan prices and that Audition is included with Premiere, and the caption bar asserts 80%+ silent viewing without contextual evidence. These are material purchase/production claims, unlike ordinary advice to add readable captions. Replace inaccurate inclusion/price scope and unsupported numerical rationale, retaining the caption recommendation."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile dark tool tables have nearly invisible pale text on pale rows; workflow code is also dark on dark. Desktop-light hierarchy is clear, but readers cannot reliably choose tools or follow the chain in a supported theme."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Independent same-model AI read primary sources in context; parent read and synthesized retained source report. Inaccessible or partial sources are explicit limitations, not verified facts. Full ledger retained in independent-source-audit.md.",
+          "items": [
+            {
+              "url": "https://www.apple.com/final-cut-pro/",
+              "claim": "Final Cut Pro is299.99 dollars one-time and Mac only.",
+              "finding": "Independent AI read FAQ:299.99 one-time Mac edition is supported, but product also has iPad and subscription options. Label the specific Mac edition rather than all Final Cut Pro as Mac-only.",
+              "checked_at": "2026-10-26T16:48:41.116Z"
+            },
+            {
+              "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+              "claim": "Resolve is free or295 dollars Studio with Fairlight and desktop platform support.",
+              "finding": "Relevant overview and pricing sections independently read: free edition, Fairlight and Mac/Windows/Linux supported; Studio displayed reference295 and promotion236. Automatic transcription entitlement not established by general overview; peripheral hardware listing truncated.",
+              "checked_at": "2026-10-26T16:48:13.881Z"
+            },
+            {
+              "url": "https://www.adobe.com/products/audition.html",
+              "claim": "Adobe Audition is included with a Premiere subscription.",
+              "finding": "Official request returned403 so no current bundle contents or price verified. Unqualified included-with-Premiere remains unsupported, not a source-verified contradiction; require a specific bundle or neutral subscription-check wording.",
+              "checked_at": "2026-10-26T16:47:44.390Z"
+            },
+            {
+              "url": "https://www.descript.com/pricing",
+              "claim": "Descript costs24dollars per month and includes all listed AI tools.",
+              "finding": "Independent AI read extracted pricing text:free and paid plans plus AI/media allowance distinctions visible; paid dollar amounts absent. Do not certify24dollars or unrestricted feature inclusion from this retrieval.",
+              "checked_at": "2026-10-26T16:48:40.423Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Parent read complete current Master hub and both audio/video/export guides, plus Rough Cut and framework, to compare the actual finishing handoff and shared settings.",
+          "items": [
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "Finishing receives an already assembled horizontal and vertical show.",
+              "finding": "Rough Cut describes layouts, graphics, transitions and dual output, supporting the finishing handoff without proving that every episode can finish faster than its rough cut.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            },
+            {
+              "path": "patterns/produce/master/audio-mastering.md",
+              "claim": "Sibling pages use consistent audio finishing targets.",
+              "finding": "Both reference48kHz stereo MP3 at192kbps and minus16LUFS as working settings; cross-page agreement is coherent but cannot certify external platform requirements or unavailable source evidence.",
+              "checked_at": "2026-10-26T16:58:52.138Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-25T16:59:42Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material technical claim and dark-mode readability corrections require exact human approval; source limitations are retained, not fabricated as verification.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
