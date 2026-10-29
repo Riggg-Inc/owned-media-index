@@ -8095,6 +8095,84 @@
         "reason": "Material technical claim and dark-mode readability corrections require exact human approval; source limitations are retained, not fabricated as verification.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/obs-production-standard.md": [
+      {
+        "id": "quality-20261029-patterns-produce-obs-production-standard",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-29T16:48:28Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "afc3a17196961aa5ba50dc3d49ab92eff33238f42faa2a1c849e83aa5fd22ecd",
+        "report_ref": "docs-internal/quality-reviews/2026-10-29/patterns-produce-obs-production-standard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening makes the staffing and turnaround decision explicit: choose real-time production when someone can monitor the show, and raw capture for archival-only needs. This is useful selection guidance rather than a promise that every recording needs a live producer."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Lower thirds, titles, overlays, transitions and intro/outro moments specify which decisions move upstream. The concise standard links directly to the complete scene setup and observable rough-cut checklist; repeating the definition is optional cleanup, not a material defect for this overview."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening, upstream production mechanism, before-mastering quality bar and exclusions agree. Producing during or immediately around recording is compatible with the rough-cut guide allowing isolated-recording assembly after a session."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The linked Rough Cut page supplies concrete layout, audio and graphics checks; the scene template supplies implementation; Simulcast distinguishes producing a show from distributing it. The staffing and archival exclusions do not contradict these companion roles."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "OBS official features support scenes, multiple text/image/video sources, transitions, preview and recording. Reducing later production work by making those choices upstream is a scoped practitioner rationale, not a quantified benchmark. Existing internal-data provenance and score were not independently certified or changed."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh 1440px and 390px light/dark renders retain the whole readable article without horizontal overflow, but required dark-mode inline links to Rough Cut, Scene Collection and Simulcast are difficult to distinguish/read against the dark background. These links carry essential implementation detail and need the existing shared dark-link contrast correction."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read the official OBS feature descriptions in context to check capabilities; no private production data or empirical turnaround measurements were accessed.",
+          "items": [
+            {
+              "url": "https://obsproject.com/",
+              "claim": "OBS can combine sources into scenes with transitions and preview for real-time production and recording.",
+              "finding": "Official features describe image/text/browser/webcam sources, scene switching and transitions, recording, Studio Mode preview and Multiview. These support the production mechanism, not quantified time savings or Riggg internal-data provenance.",
+              "checked_at": "2026-10-29T16:47:01Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read all three linked published companion Markdown documents completely to compare the selection, setup and output boundaries.",
+          "items": [
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "The rough cut provides the output and acceptance checklist referenced by this short standard.",
+              "finding": "Names layout switching, lower thirds, intros/outros and audio checks, with live or immediate post-session assembly. Supplies concrete observable checks missing from the short overview without contradicting its before-mastering boundary.",
+              "checked_at": "2026-10-29T16:47:00Z"
+            },
+            {
+              "path": "patterns/produce/obs-scene-collection-template.md",
+              "claim": "The linked scene template offers a reusable setup rather than requiring raw archival sessions to use it.",
+              "finding": "Detailed plugin/script installation, branding, participant setup and show-flow steps match the standard\u2019s staffed-show recommendation. Template-specific numerical counts and internal 500-session claim were read for context, not independently audited or attested in this target review.",
+              "checked_at": "2026-10-29T16:47:00Z"
+            },
+            {
+              "path": "patterns/publish/simulcast-standard.md",
+              "claim": "Multiple destinations are a separate publication decision from creating a real-time rough cut.",
+              "finding": "Requires destination choices, backup and replay planning, and excludes private or heavy-edit sessions. The target\u2019s contextual Simulcast link correctly separates production from broadcast distribution.",
+              "checked_at": "2026-10-29T16:47:00Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-28T16:48:28Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Essential inline implementation links have poor dark-mode contrast; existing shared CSS correction must be approved and released before reassessment.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
