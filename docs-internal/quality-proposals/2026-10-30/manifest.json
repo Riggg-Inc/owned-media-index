@@ -1,0 +1,18 @@
+{
+  "base": "d097ff8b9362638a441509765f8a713b52a57f52",
+  "approval": "pending",
+  "pages": [
+    {
+      "path": "docs/patterns/produce/record/hybrid-recording.md",
+      "current_url": "https://index.riggg.com/patterns/produce/record/hybrid-recording/",
+      "base_full_sha256": "0ca4fd0443c6b910c7aa0f7a99340b087a27f72e180ad6ebca36a27fb1eb469d",
+      "proposal_full_sha256": "f72f6399c34cd43c318e2c9933bc1426591b507250c97f141cd04ce72e4da822"
+    },
+    {
+      "path": "docs/patterns/produce/record/in-studio-multi-camera.md",
+      "current_url": "https://index.riggg.com/patterns/produce/record/in-studio-multi-camera/",
+      "base_full_sha256": "412d3f47fe4f0d6a5bde006060676fa87351893a6f6ae85f37b1bfb72454040b",
+      "proposal_full_sha256": "cfeadf58a4f50cd4364bb53155028ac934b0a6325c9c47fdf377593335dc750a"
+    }
+  ]
+}

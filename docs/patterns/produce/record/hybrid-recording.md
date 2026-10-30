@@ -16,7 +16,7 @@ A recording setup where some participants (typically the host) are in a physical
 
 ## Why It Works
 
-Hybrid recording gives the host studio-quality production while accommodating guests who cannot travel. The host's feed is consistently high quality, and the remote guest's feed is captured via isolated remote recording.
+Hybrid recording gives the host studio-quality production while accommodating guests who cannot travel. The studio gives the host control over lighting, framing and sound; capture the remote guest on a separate local recording track and check both feeds before starting.
 
 ## Setup
 
@@ -40,4 +40,4 @@ Hybrid recording gives the host studio-quality production while accommodating gu
 
 ## When Not To Use
 
-When both participants can be in the same room — pure in-studio will always be higher quality than hybrid. Also avoid when the internet connection to the studio is unreliable — a dropped remote guest during a hybrid session is harder to recover than a pure remote session.
+When both participants can use the same well-equipped room, choose in-studio recording for a simpler setup and shared control of sound and lighting. If the studio connection is unreliable, arrange a backup and test how the guest rejoins before the session; local source recording does not keep a disconnected conversation going.

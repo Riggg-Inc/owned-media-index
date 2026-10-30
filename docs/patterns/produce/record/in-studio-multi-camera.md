@@ -16,17 +16,17 @@ All participants are in the same physical studio. Each person has their own came
 
 ## Why It Works
 
-In-studio multi-camera gives you the highest possible quality and the most creative flexibility. You control lighting, audio, framing, and environment for every participant. There is no internet compression, no latency, and no technical variability between participants.
+In-studio multi-camera gives you direct control over lighting, audio, framing and the environment for every participant. Local capture avoids the video-call compression path. Record a short test and check every feed for sound, framing and sync: cameras, capture devices and audio processing can still introduce different delays.
 
 ## Equipment Requirements
 
-### Minimum (Starter)
+### Minimum (Starter: two participants)
 
 | Equipment | Purpose | Example |
 |---|---|---|
 | 2 cameras | One per participant | Sony ZV-1, Canon M50 |
 | 2 microphones | Isolated audio per person | Shure SM7B, Rode PodMic |
-| Audio interface | Multi-channel input | Focusrite Scarlett 2i2+ |
+| Audio interface | At least two microphone inputs, recorded separately | Choose an interface with two or more microphone inputs |
 | Capture card(s) | Camera → computer input | Elgato Cam Link 4K |
 | Lighting | Consistent, flattering key light | Elgato Key Light |
 
@@ -34,9 +34,9 @@ In-studio multi-camera gives you the highest possible quality and the most creat
 
 | Equipment | Purpose | Example |
 |---|---|---|
-| 2-3 cameras | Per-person + wide shot | Sony A7 series, Blackmagic |
+| One camera per participant, plus an optional wide camera | Individual close-ups plus a shared view | Sony A7 series, Blackmagic |
 | 2-5 microphones | Per-person isolated | Shure SM7B, Electro-Voice RE20 |
-| Multi-channel interface | 4+ XLR inputs | RodeCaster Pro II, Zoom PodTrak P8 |
+| Multi-channel interface | Enough separate microphone inputs for the group | RØDECaster Pro II has four combo inputs; choose enough inputs for every wired microphone |
 | Capture cards | Per-camera input | Elgato Cam Link, Blackmagic Decklink |
 | Lighting kit | Key + fill + hair per person | Aputure, Elgato |
 | Acoustic treatment | Controlled sound environment | Panels, bass traps, diffusers |
@@ -47,7 +47,10 @@ In-studio multi-camera gives you the highest possible quality and the most creat
 - Isolated audio per participant via multi-channel interface
 - Minimum 1080p per camera, 4K preferred
 - Consistent lighting across all participants
-- Acoustic treatment sufficient for clean audio (noise floor below -50dB)
+- Record speech and a short room-tone sample at the intended recording gain. Listen on headphones for distracting room echo, fan noise and hum; fix the source or placement and repeat the test.
+- Play back every isolated camera and audio track and verify lip sync before the session.
+
+For the RØDECaster input and recording options, see the [manufacturer specifications](https://rode.com/en-au/products/rodecaster-pro-ii).
 
 ## When Not To Use
 
