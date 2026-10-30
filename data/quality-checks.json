@@ -8173,6 +8173,258 @@
         "reason": "Essential inline implementation links have poor dark-mode contrast; existing shared CSS correction must be approved and released before reassessment.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/obs-scene-collection-template.md": [
+      {
+        "id": "quality-20261030-patterns-produce-obs-scene-collection-template",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-30T16:49:30Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4e46b254e00eb797188e5ffb3dcee44a7aed7f70877621f575f091d9d2a1094a",
+        "report_ref": "docs-internal/quality-reviews/2026-10-30/patterns-produce-obs-scene-collection-template.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies staffed video shows, five participants, horizontal/vertical layouts and exclusions. The actual downloadable collection and ordered branding/participant workflow serve a specific producer task."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Named camera-box variants, participant fields, show-flow sequence and concrete rehearsal checks provide substantial usable detail. This is a real 2,318,677-byte downloadable collection, not a generic promise."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The setup promises a production-ready import and exactly 157 scenes, but the linked current artifact has 190 scene_order entries and 226 scene-typed source objects. Neither matches the undocumented count; the version and counting convention must be reconciled before operators can reliably verify the import."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The OBS Production Standard positions real-time production as a rough edit before final mastering. The template is a concrete implementation with a staffed-production opening and rehearsal gate. The Record hub explains why isolated capture is useful; a scene collection is not represented here as a substitute for isolated source recording. This comparison does not certify every separate platform table in the hub."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Primary plugin documentation supports vertical-canvas and moving-source capabilities, and the Lua implementation supports mutually exclusive visibility within configured groups. The public artifact confirms 317 sources and 1920x1080 base resolution, but not the claimed 157-scene count. The blanket 15 required plugins and OBS 30.0+ compatibility statement lack a version/platform test matrix; Stream Deck and Logitech hardware entries do not establish universal import dependencies. The 500+ session assertion is not verified by public artifact inspection or allowed evidence read in this run. Do not certify that outcome or change the underlying score."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile light/dark renders show working document hierarchy, download and no page-wide overflow, but dark-mode pale table cells with light inherited text make the dependency/architecture tables unreadable. Required setup also omits re-linking exported local media/script paths and checking the configured Scenes and Groups list after importing; the Lua code only toggles named configured groups. Installation alone does not establish a working collection on a different machine."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Check downloadable configuration and official capability documentation, not private customer evidence or runtime compatibility inferred from a link.",
+          "items": [
+            {
+              "url": "https://index.riggg.com/assets/downloads/riggg-obs-scene-collection-v1.json",
+              "claim": "Download size, scene/source counts and reusable configuration match the guide.",
+              "finding": "Live download is byte-identical to current repository artifact, SHA256 ae13d26640aec83ce0a76ed90f81b4564d32210e63e1fbe1a83382f816a8c19a. It has 317 sources, 226 scene-typed objects, 190 scene_order entries and 1920x1080 base resolution. It retains a local script path and explicit toggler group settings; no OBS runtime import was performed.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            },
+            {
+              "url": "https://github.com/Aitum/obs-vertical-canvas",
+              "claim": "Aitum adds a vertical canvas to OBS Studio.",
+              "finding": "Maintainer README explicitly describes a vertical canvas plugin. It does not prove this exported collection records both canvases without configuration or is compatible with every current plugin version.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            },
+            {
+              "url": "https://github.com/exeldro/obs-move-transition",
+              "claim": "Move Transition can animate sources during transitions.",
+              "finding": "Maintainer README describes moving sources to new positions during scene transitions. No playback or exported-collection compatibility was tested.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            },
+            {
+              "url": "https://raw.githubusercontent.com/exeldro/obs-lua/master/source-toggler.lua",
+              "claim": "Source toggler makes configured scene/group children mutually exclusive.",
+              "finding": "Read complete Lua: script_properties exposes Scenes and Groups; script_update and source_load attach item_visible callbacks by configured source name. Callback hides other visible children. This supports the mechanism but requires configured group names; merely downloading the script is insufficient.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete current OBS standard and recording hub to check capture versus live rough-production scope.",
+          "items": [
+            {
+              "path": "patterns/produce/obs-production-standard.md",
+              "claim": "This collection implements the staffed real-time rough-production approach.",
+              "finding": "The standard explicitly places overlays/layouts before final mastering and warns against unmonitored use. Template opening and rehearsal checks support the same audience and workflow.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            },
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "Live scene output and isolated source capture serve different editing needs.",
+              "finding": "The hub advocates isolated participant files for later reframing. Template describes composite show layouts rather than promising isolated capture; no direct contradiction established. Hub platform specifications were not independently certified in this comparison.",
+              "checked_at": "2026-10-30T16:48:26Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-29T16:49:30Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material dark table contrast and unreliable import/dependency/count instructions need correction; current downloadable artifact differs from the stated scene count.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/record/hybrid-recording.md": [
+      {
+        "id": "quality-20261030-patterns-produce-record-hybrid-recording",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-30T16:51:59Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1b42cd76975a592b085708ef81a2eda8bc1e83daea2c2ac22ee79187875fa533",
+        "report_ref": "docs-internal/quality-reviews/2026-10-30/patterns-produce-record-hybrid-recording.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening identifies mixed-location sessions and immediately names headphones, separate tracks and a sync point. A studio host and remote guest is a concrete decision context."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The host/guest/audio setup table plus separate-track and headphone checklist provide a practical starting configuration rather than promotional filler. The short scope is appropriate to an overview."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Definition, setup, monitoring challenge and checklist follow a logical progression. The operator can distinguish studio capture from remote guest capture and see why monitoring must be planned."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Record hub routes mixed-location sessions to hybrid, while the studio and remote guides address the other two location configurations. Those routing distinctions are consistent, even though categorical quality claims in this family need correction."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Local separate-track recording is supported by Riverside product documentation, but pure in-studio will always be higher quality is an unjustified universal outcome guarantee. Studio control does not itself guarantee better captured files. The statement that recovering a guest drop is harder than in pure remote recording also lacks a defined setup or mechanism; describe the backup/routing action instead."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current desktop/mobile/light/dark presentation has readable section order and no horizontal page overflow. In dark mode the remote-guest setup row inherits light text on a pale background, obscuring essential capture guidance. Shared table-contrast correction is required; the body also needs the small overclaim correction rather than a wholesale rewrite."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Verify the named local recording mechanism while treating headphone and sync guidance as practitioner recommendations.",
+          "items": [
+            {
+              "url": "https://riverside.com/",
+              "claim": "A remote guest can be locally recorded to separate tracks.",
+              "finding": "The current official product page explicitly advertises local recording, up to 4K video and uncompressed audio in separate tracks. This supports capability only, not guaranteed studio quality or every plan/browser. Earlier riverside.fm/local-recording URL returned 404; recovered through current official homepage.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the full recording hub and studio/remote companion guides, checking the location-based routing.",
+          "items": [
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "Mixed-location production should route to hybrid recording.",
+              "finding": "Hub selection guide explicitly sends studio hosts with remote guests to Hybrid Recording; its separate source-track emphasis matches this checklist.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            },
+            {
+              "path": "patterns/produce/record/in-studio-multi-camera.md",
+              "claim": "All-local and mixed-location production have different setup needs.",
+              "finding": "Studio guide covers all participants sharing a room; the hybrid guide covers the mixed case. Its control benefits should not be converted to a universal quality guarantee.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            },
+            {
+              "path": "patterns/produce/record/remote-isolated.md",
+              "claim": "Remote guest source files can remain separate for editing.",
+              "finding": "Remote guide requires per-person downloads, sync checks and backups, compatible with the hybrid checklist. Its separate claims were not independently certified here.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-29T16:51:59Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Unqualified always-higher-quality/recovery claims and dark-mode setup-table contrast require scoped correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/record/in-studio-multi-camera.md": [
+      {
+        "id": "quality-20261030-patterns-produce-record-in-studio-multi-camera",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-30T16:51:59Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "e20cf62b8afe73d21127c213fd9ac5b08891ed7498fca61d7f409a43f50c2d42",
+        "report_ref": "docs-internal/quality-reviews/2026-10-30/patterns-produce-record-in-studio-multi-camera.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Clearly serves co-located producers needing lighting, sound and framing control. Starter/professional equipment examples and isolated-feed quality checks provide concrete planning help."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Two equipment tables distinguish entry and professional setups, with camera, mic, interface, capture, lighting and acoustics roles. Individual-feed and lighting checks are useful detail, not fluff."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The professional table offers 2-3 cameras and 2-5 microphones, but the definition and Quality Bar require an individual camera feed per participant. Those quantities only support that requirement for some group sizes; size the example per participant or explicitly describe the two-person-plus-wide baseline."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The recording hub advocates isolated participant feeds and remote guide directs co-located participants to studio capture. This page links back to remote for distributed guests and rough cut for composition, preserving the intended stage boundary."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Control over the room is a valid recommendation, but no latency and no technical variability are categorical claims contradicted by real capture/sync considerations; OBS documents render delay specifically for audio/video synchronization. RODE confirms four combo inputs and multitrack recording for Pro II, supporting that example but not five wired XLR microphones on four inputs. A noise floor below -50dB lacks a reference/measurement method and is not an actionable universal acoustic-treatment guarantee."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile/light/dark renders show useful equipment hierarchy and no page-wide overflow, but pale striped table rows have light text in dark mode, hiding equipment guidance. The unqualified noise-floor check and per-participant equipment ambiguity also prevent reliable self-checking. Existing shared CSS plus small body clarifications are needed."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Use primary manufacturer specifications and official capture documentation proportionately; no bench testing or product purchasing.",
+          "items": [
+            {
+              "url": "https://rode.com/en-au/products/rodecaster-pro-ii",
+              "claim": "RODECaster Pro II provides multichannel microphone inputs and isolated recording options.",
+              "finding": "Current manufacturer page states four Neutrik combo inputs, multitrack/stereo recording and four headphone outputs. This supports a four-input example, not five wired XLR mic inputs without another route.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            },
+            {
+              "url": "https://obsproject.com/kb/filters-guide",
+              "claim": "Studio video/audio processing may need synchronization, not a universal no-latency claim.",
+              "finding": "Official filter guide explicitly describes Render Delay as delaying source rendering to help audio/video sync. It supports retaining a sync check rather than promising zero delay. Focusrite latency help returned 403; no inaccessible source is claimed read.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full Record hub, hybrid and remote pages to distinguish studio control from location/routing guarantees.",
+          "items": [
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "Studio production should retain separate source feeds for editing.",
+              "finding": "Hub identifies multi-camera plus interface as per-person camera and audio capture; studio Quality Bar matches that aim but equipment counts need clearer scaling.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            },
+            {
+              "path": "patterns/produce/record/hybrid-recording.md",
+              "claim": "Mixed-location sessions require a hybrid option.",
+              "finding": "Hybrid guide adds headphones and a sync point to connect studio and remote participants; studio page correctly redirects distributed guests rather than claiming one setup fits all.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            },
+            {
+              "path": "patterns/produce/record/remote-isolated.md",
+              "claim": "Location-based route should preserve separate downloadable tracks.",
+              "finding": "Remote guide emphasizes isolated files and verification; studio guide uses the same editing objective with local equipment. Comparison does not verify its session-count claim.",
+              "checked_at": "2026-10-30T16:51:57Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-29T16:51:59Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Absolute zero-latency/variability claim, ambiguous per-person equipment counts, unusable noise threshold and dark table contrast require revision.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
