@@ -12,11 +12,11 @@ Built-in Google Meet and Microsoft Teams recordings are meeting captures rather 
 
 ## What It Is
 
-Recording a Google Meet or Microsoft Teams call using the platform's built-in recording feature. The output is a single compressed mixed video file with no participant isolation.
+Recording a Google Meet or Microsoft Teams call using the platform's built-in recording feature. The standard video recording combines the meeting into one output rather than providing independent camera and microphone files for each participant.
 
 ## Why It Gets a 1
 
-Google Meet and Microsoft Teams recordings are designed for meeting documentation, not media production. The output is a **single compressed file** with automatic speaker-view switching, no isolated tracks, no separate audio, and heavy compression. It is the lowest quality recording method in the Index.
+Google Meet and Microsoft Teams recordings are designed for meeting documentation, not media production. The standard video output is a **mixed meeting recording**, not isolated participant source files. Meet captures the active speaker and presentations; Teams can capture multiple participant video streams in its meeting recording. Teams also offers audio-only recording. These options do not replace independent camera and microphone files for participant-level editing. This method has the lowest editorial score in the Index for that production workflow.
 
 It is documented here because teams sometimes ask: "Can we just record on Google Meet?" The answer is: you can, but you should not if the content is meant to be published as owned media.
 
@@ -24,9 +24,11 @@ It is documented here because teams sometimes ask: "Can we just record on Google
 
 | Output | Quality | Isolated? |
 |---|---|---|
-| Video | 720p compressed, auto speaker-switch | ❌ Single mixed file |
-| Audio | Compressed, mixed into video | ❌ No separate tracks |
-| Transcript | Auto-generated (Google) | N/A |
+| Video | Mixed meeting view; layout and resolution depend on the platform and settings | ❌ Not independent participant camera files |
+| Audio | Meeting audio in the recording; Teams also offers an audio-only option | ❌ Not independent participant microphone files |
+| Transcript | Available through recording/transcription features when enabled and supported by the account | N/A |
+
+[Google Meet recording guidance](https://support.google.com/meet/answer/9308681) describes active-speaker and presentation capture, including screen-share recordings up to 1080p when permitted by admin settings. [Microsoft Teams recording guidance](https://support.microsoft.com/en-us/teams/meetings/start-stop-and-find-meeting-recordings-in-microsoft-teams) describes meeting video, audio-only recording and live transcription. Before relying on either as a fallback, check recording permission and participant consent, then make a short test and confirm the files contain what you need.
 
 ## When To Use
 
