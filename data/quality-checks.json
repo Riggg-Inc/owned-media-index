@@ -8425,6 +8425,84 @@
         "reason": "Absolute zero-latency/variability claim, ambiguous per-person equipment counts, unusable noise threshold and dark table contrast require revision.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/record/google-meet.md": [
+      {
+        "id": "quality-20261031-patterns-produce-record-google-meet",
+        "status": "needs_revision",
+        "assessed_at": "2026-10-31T16:47:50Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1e220692db291d0c5184de381fbf7e2029e99369ce284e26fce36cb58eb58c9b",
+        "report_ref": "docs-internal/quality-reviews/2026-10-31/patterns-produce-record-google-meet.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies meeting-reference capture versus per-participant production sources and gives a clear default: choose isolated recording when the edit needs independent framing. This remains useful selection advice rather than a claim that every recommendation needs a benchmark."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The output table and concrete use/not-use scenarios explain the distinction without filler. A short selection reference need not become a full meeting-administration tutorial; its output examples are enough once their material inaccuracies are corrected."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The progression from definition through recommendation, outputs and use cases is easy to follow. The emphatic production preference is internally intelligible as editorial advice, though its underlying platform descriptions require the specific corrections recorded below."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Record hub similarly favors isolated sources, and Zoom Cloud distinguishes reference capture from planned participant-level edits. These pages agree about the intended production workflow. Their own platform and absolute-quality assertions are not used as independent factual evidence."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The combined 720p output row is materially too absolute: Google documents screen-share recordings up to 1080p. Microsoft documents audio-only recording and live transcription, contrary to a universal no-separate-audio description and Google-only transcript cue. Microsoft describes up to four video streams, not a universal automatic-speaker-only format. Preserve the isolated-track recommendation but distinguish ordinary mixed output from these actual options."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile light/dark captures show a readable heading hierarchy, breadcrumbs, output table and no page overflow. However the mobile dark table has near-white text on a pale alternating audio row, making the key comparison unreadable. Reuse the existing shared contrast correction; do not award a pass based on light rendering alone."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material product output claims were checked against actual official instructions, not inferred from the editorial score.",
+          "items": [
+            {
+              "url": "https://support.google.com/meet/answer/9308681",
+              "claim": "Meet recordings are always 720p speaker-switch video with an automatic transcript.",
+              "finding": "Official instructions describe active speaker and presentations, optional captions and separate automatic-feature settings; screen shares can be recorded up to 1080p subject to admin settings. The fetched body was marked incomplete near Related resources, so this does not claim full-document or edition-matrix certification.",
+              "checked_at": "2026-10-31T16:46:59Z"
+            },
+            {
+              "url": "https://support.microsoft.com/en-us/teams/meetings/start-stop-and-find-meeting-recordings-in-microsoft-teams",
+              "claim": "Teams has only mixed video, no separate audio, and no transcript option.",
+              "finding": "The complete official user guide explicitly offers Audio only recording and live transcription, and says recordings do not capture more than four video streams. These are not per-participant isolated tracks; licensing/admin policy still governs access. No universal Teams resolution or compression benchmark was established.",
+              "checked_at": "2026-10-31T16:46:59Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Both full companion pages were read to compare the production-source decision and fallback scope.",
+          "items": [
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "The preferred production workflow requires participant-level source control rather than a meeting composite.",
+              "finding": "The complete page favors isolated production sources while allowing meeting-reference or constrained fallback capture. This supports the editorial distinction, not unverified universal product specifications or quality rankings.",
+              "checked_at": "2026-10-31T16:46:59Z"
+            },
+            {
+              "path": "patterns/produce/record/zoom-cloud.md",
+              "claim": "The preferred production workflow requires participant-level source control rather than a meeting composite.",
+              "finding": "The complete page favors isolated production sources while allowing meeting-reference or constrained fallback capture. This supports the editorial distinction, not unverified universal product specifications or quality rankings.",
+              "checked_at": "2026-10-31T16:46:59Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-11-30T16:47:50Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material mixed-platform output descriptions and unreadable dark table require corrections before this exact public page is fit to pass.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
