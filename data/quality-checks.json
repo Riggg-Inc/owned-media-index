@@ -8665,6 +8665,84 @@
         "reason": "Material no-data-loss guarantee and shared dark-mode table/prompt readability require correction; comparative/internal evidence claims are not certified.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/record/streamyard.md": [
+      {
+        "id": "quality-20261103-patterns-produce-record-streamyard",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-03T16:48:03Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fa39fff7537c1b5ea56b032545adbfabfe88ee21d70b8f33c6141a90bb66dae0",
+        "report_ref": "docs-internal/quality-reviews/2026-11-03/patterns-produce-record-streamyard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies the composite-only workflow and tells the practitioner to test local-track options before participant-level editing; this is useful selection guidance, not a blanket product verdict."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The output table, use and avoid lists, and two-up layout example explain the editing tradeoff concretely. This short decision reference does not need a full recording tutorial."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening and capability caveat scope the score to composite-only output, and the final contrast between baked layout and isolated sources follows that scope. Absolute wording about reframing should be read as recovering independent sources, not impossibility of any pixel crop."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The Record hub still describes StreamYard product-wide as mixed composite only with no isolated tracks or local recording. That contradicts this page\u2019s explicit capability caveat and the official product page; the already-owned hub correction must resolve this shared conflict."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Official StreamYard recording information confirms local per-person audio/video and a parallel cloud recording, supporting the deliberate composite-only scope. Loss of independent source layers is a reasonable editing limitation, not an empirical performance promise. The official product page supports 1080p local output but does not fully certify every cloud-output setting; no comprehensive plan or codec certification is claimed."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop and mobile light/dark rendering shows the striped Audio output row as near-white text on a pale background in dark mode, making an essential capability comparison unreadable. Light layout and breadcrumb/section organization are usable, but the existing shared CSS defect blocks a whole-page pass."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Current platform capabilities matter to the composite-only scope; official product text was read rather than inferred from a citation count.",
+          "items": [
+            {
+              "url": "https://streamyard.com/recordings",
+              "claim": "StreamYard supports local separate audio and video alongside cloud recording.",
+              "finding": "Official product page states each user records separate audio/video on their device and uploads in the background, while a cloud recording is also created. It describes 1080p local recordings. This supports the capability caveat; it does not certify all cloud codec/plan limits or repeat vendor quality guarantees as independent evidence.",
+              "checked_at": "2026-11-03T16:48:02Z"
+            },
+            {
+              "url": "https://support.streamyard.com/hc/en-us/articles/10725401176596-Local-Recording-of-your-Live-Stream",
+              "claim": "The linked local-recording help article documents individual source tracks.",
+              "finding": "Direct retrieval returned HTTP403. Indexed snippet mentions individual tracks, but complete article was not read; the accessible official recording product page supplies independent current capability context instead.",
+              "checked_at": "2026-11-03T16:48:02Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the complete recording and rough-cut hubs to compare the article\u2019s selection boundary with its adjacent production guidance.",
+          "items": [
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "The hub should distinguish composite-only workflows from available isolated source modes.",
+              "finding": "Hub tables still categorically deny StreamYard isolated tracks and local recording. This contradicts the scoped article and official current feature description. Existing hub correction remains required, not a duplicate article rewrite.",
+              "checked_at": "2026-11-03T16:48:02Z"
+            },
+            {
+              "path": "patterns/produce/rough-cut/index.md",
+              "claim": "Independent sources preserve layout choice for the described OBS rough-cut workflow.",
+              "finding": "The rough-cut hub calls for isolated participant feeds and multiple layouts, consistent with the article\u2019s explanation of what a baked composite cannot restore. Other hub specifications were not separately certified in this comparison.",
+              "checked_at": "2026-11-03T16:48:02Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-03T16:48:03Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material companion-hub contradiction and unreadable dark-mode Audio table row require existing shared corrections; unchanged body cannot receive a pass.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
