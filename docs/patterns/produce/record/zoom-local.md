@@ -16,23 +16,25 @@ Recording a Zoom call using the local recording option, which saves files to the
 
 ## Why It Gets a 3
 
-Zoom local recording gives you **usable audio** (separate tracks per participant) but **limited video** (compressed, no isolated video per person). It is a viable fallback for audio-first shows but not suitable for video production that requires per-person framing, layout switching, or vertical reformatting.
+Zoom local recording gives you **usable audio** (separate tracks per participant) but **limited video** (compressed, no isolated video per person). It is a viable fallback for audio-first shows but not suitable when the planned edit needs independent participant views absent from the recording.
 
 ## What You Get
 
 | Output | Quality | Isolated? |
 |---|---|---|
-| Video (gallery/speaker) | 720p-1080p compressed | ❌ One mixed file |
+| Video (gallery/speaker) | Compressed; resolution depends on settings and layout | ❌ One mixed file |
 | Audio (per participant) | Acceptable for podcast | ✅ Separate tracks available |
 
 ## Setup
 
-1. Zoom → Settings → Recording → enable "Record a separate audio file for each participant"
+1. Confirm host recording permission and participant consent. In the desktop app, Zoom → Settings → Recording → enable "Record a separate audio file for each participant"
 2. Choose "Record on this computer" (not cloud)
 3. Start the meeting and hit Record
 4. After the meeting, Zoom processes and saves: video MP4 + individual audio M4A files per participant
 
 ## Quality Bar
+
+Make a short test before the session. Play back each speaker file, inspect the video resolution and confirm you can make the planned edit. Zoom documents 360p, 720p and 1080p configurations; the output is not guaranteed to be HD. Let conversion finish before shutting down the computer.
 
 - Audio: Usable for podcast distribution after mastering
 - Video: Not suitable for multi-camera rough cut production
@@ -47,6 +49,11 @@ Zoom local recording gives you **usable audio** (separate tracks per participant
 ## When Not To Use
 
 - Any show that requires per-person video framing
-- Shows that need vertical (9:16) video output
-- Shows with branded lower thirds, transitions, or multi-camera layouts
+- Vertical edits that need independent, clear close-ups absent from the recorded view
+- Multi-camera edits that require separate source angles. Graphics or transitions alone do not require isolated recordings.
 - When you have access to Riverside, SquadCast, or any isolated recording platform
+
+## Sources
+
+- [Zoom: Starting a computer recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076922)
+- [Zoom: Resolution of recorded video](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066421)

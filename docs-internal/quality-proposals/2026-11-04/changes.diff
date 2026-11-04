@@ -1,0 +1,95 @@
+diff --git a/docs/patterns/produce/record/zoom-cloud.md b/docs/patterns/produce/record/zoom-cloud.md
+index e66cd02..4499ac9 100644
+--- a/docs/patterns/produce/record/zoom-cloud.md
++++ b/docs/patterns/produce/record/zoom-cloud.md
+@@ -12,20 +12,28 @@ Recording a Zoom call using the cloud recording option, which saves files to Zoo
+ 
+ ## What It Is
+ 
+-Recording a Zoom call using the cloud recording option, which saves files to Zoom's servers. Cloud recording produces a heavily compressed mixed video and can provide separate audio tracks, but with lower quality than local recording.
++Recording a Zoom call using the cloud recording option, which saves files to Zoom's servers. Cloud recording can save active-speaker, gallery and shared-screen views as separate video files, plus separate participant audio when enabled. These views are not independent camera recordings of every participant.
+ 
+ ## Why It Gets a 2
+ 
+-Zoom cloud recording produces **heavily compressed video** that is not suitable for production. The video is a mixed composite — you cannot isolate individual participants. Audio quality is lower than local recording due to cloud processing. It exists as a convenience feature, not a production tool.
++Zoom cloud recording is a **fallback, not our default for planned video production**. Speaker and gallery views limit independent framing in the edit. Choose isolated participant capture when you need that flexibility; choose cloud capture when the available views and audio pass a test for your intended deliverable.
+ 
+ ## What You Get
+ 
+ | Output | Quality | Isolated? |
+ |---|---|---|
+-| Video (active speaker) | 720p compressed | ❌ Single mixed view |
+-| Video (gallery) | 720p compressed | ❌ Single mixed view |
+-| Audio | Compressed | ✅ Separate tracks possible (lower quality than local) |
+-| Transcript | Auto-generated | N/A |
++| Video (active speaker) | Depends on HD settings and meeting layout | ❌ Single mixed view |
++| Video (gallery) | Depends on HD settings and meeting layout | ❌ Single mixed view |
++| Audio | Compressed | ✅ Separate participant files when enabled |
++| Transcript | Auto-generated when enabled | N/A |
++
++## Setup and Quality Bar
++
++1. Confirm recording permission and participant consent. Check that your licensed account has cloud recording enabled; an admin may control the settings.
++2. In the Zoom web portal's Recording & Transcript settings, choose the speaker, gallery and screen views you need. Enable separate participant audio and audio transcription if required.
++3. Make a short test recording, then inspect the downloaded files: can you hear each speaker clearly and make the edit you planned? Zoom documents 360p, 720p and 1080p configurations; do not assume a resolution from the feature name. Phone callers can share a single audio file.
++
++For example, a content-led webinar may only need the slides and speaker view. An interview needing separate close-ups should use isolated participant capture instead.
+ 
+ ## When To Use
+ 
+@@ -35,7 +43,11 @@ Zoom cloud recording produces **heavily compressed video** that is not suitable
+ 
+ ## When Not To Use
+ 
+-- Any planned podcast, webinar, or owned media recording session
+ - Any show requiring per-person video isolation
+-- Any production workflow that feeds into rough cut or mastering
+-- When any alternative recording platform is available
++- A planned edit that requires camera angles or source detail absent from the test recording
++- When a suitable isolated recording platform is available and the deliverable needs independent participant framing
++
++## Sources
++
++- [Zoom: Cloud recording settings](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064676)
++- [Zoom: Resolution of recorded video](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066421)
+diff --git a/docs/patterns/produce/record/zoom-local.md b/docs/patterns/produce/record/zoom-local.md
+index e83a176..9a79d69 100644
+--- a/docs/patterns/produce/record/zoom-local.md
++++ b/docs/patterns/produce/record/zoom-local.md
+@@ -22,18 +22,20 @@ Zoom local recording gives you **usable audio** (separate tracks per participant
+ 
+ | Output | Quality | Isolated? |
+ |---|---|---|
+-| Video (gallery/speaker) | 720p-1080p compressed | ❌ One mixed file |
++| Video (gallery/speaker) | Compressed; resolution depends on settings and layout | ❌ One mixed file |
+ | Audio (per participant) | Acceptable for podcast | ✅ Separate tracks available |
+ 
+ ## Setup
+ 
+-1. Zoom → Settings → Recording → enable "Record a separate audio file for each participant"
++1. Confirm host recording permission and participant consent. In the desktop app, Zoom → Settings → Recording → enable "Record a separate audio file for each participant"
+ 2. Choose "Record on this computer" (not cloud)
+ 3. Start the meeting and hit Record
+ 4. After the meeting, Zoom processes and saves: video MP4 + individual audio M4A files per participant
+ 
+ ## Quality Bar
+ 
++Make a short test before the session. Play back each speaker file, inspect the video resolution and confirm you can make the planned edit. Zoom documents 360p, 720p and 1080p configurations; the output is not guaranteed to be HD. Let conversion finish before shutting down the computer.
++
+ - Audio: Usable for podcast distribution after mastering
+ - Video: Not suitable for multi-camera rough cut production
+ - Requires post-processing to sync and level audio tracks
+@@ -47,6 +49,11 @@ Zoom local recording gives you **usable audio** (separate tracks per participant
+ ## When Not To Use
+ 
+ - Any show that requires per-person video framing
+-- Shows that need vertical (9:16) video output
+-- Shows with branded lower thirds, transitions, or multi-camera layouts
++- Vertical edits that need independent, clear close-ups absent from the recorded view
++- Multi-camera edits that require separate source angles. Graphics or transitions alone do not require isolated recordings.
+ - When you have access to Riverside, SquadCast, or any isolated recording platform
++
++## Sources
++
++- [Zoom: Starting a computer recording](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076922)
++- [Zoom: Resolution of recorded video](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066421)

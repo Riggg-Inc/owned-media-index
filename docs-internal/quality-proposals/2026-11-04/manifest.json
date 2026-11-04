@@ -1,0 +1,17 @@
+{
+  "status": "preparation; not owner-approved or published",
+  "base": "de1cc6c84033f50df45dfb0eb5363d184b546eb2",
+  "card": "8006e12e-6551-440a-b9cc-27bce652996f",
+  "files": [
+    {
+      "path": "docs/patterns/produce/record/zoom-cloud.md",
+      "sha256": "f91e7f7404a3fa2157ed27915dcc988833dd23525da702c65a172c1ff7d90f48",
+      "current_url": "https://index.riggg.com/patterns/produce/record/zoom-cloud/"
+    },
+    {
+      "path": "docs/patterns/produce/record/zoom-local.md",
+      "sha256": "ef9c6c772ec6d03626839ef65c33c22ffe03b9eeba001da4e2e670d38184cfb7",
+      "current_url": "https://index.riggg.com/patterns/produce/record/zoom-local/"
+    }
+  ]
+}
