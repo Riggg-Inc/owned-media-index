@@ -8743,6 +8743,174 @@
         "reason": "Material companion-hub contradiction and unreadable dark-mode Audio table row require existing shared corrections; unchanged body cannot receive a pass.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/record/zoom-cloud.md": [
+      {
+        "id": "quality-20261104-patterns-produce-record-zoom-cloud",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-04T16:51:31Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "57dca8ae4b9c41588ee631134dd00764a794c9fd0d0c01e059814b69dbe70689",
+        "report_ref": "docs-internal/quality-reviews/2026-11-04/patterns-produce-record-zoom-cloud.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening distinguishes meeting reference and local-capture fallback from planned per-person editing. Named restricted-device and webinar scenarios help readers choose a recording route."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The output table and use cases give real detail, but the cloud fallback lacks the first setup/test action and treats automatic transcripts as an unconditional output. A short permission/settings/test instruction is needed for its recommended fallback."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "When To Use allows content-led webinars, while When Not To Use rejects any planned webinar and any mastering workflow. These instructions conflict for exactly the reader considering the documented fallback."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Produce explicitly offers cloud recording as fallback or backup, whereas this page excludes any planned production. Record hub also imposes universal separate video and uncompressed audio despite listing Zoom fallback paths; shared hub correction remains necessary."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Official Zoom resolution documentation lists 360p, 720p and 1080p conditions for cloud recordings, contradicting the unqualified 720p table. Cloud settings support distinct speaker/gallery/screen files and optional per-person M4A audio/transcripts. No read source establishes universally lower audio quality caused by cloud processing; retain production preference without that asserted comparison."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current desktop/mobile light presentation has useful headings and breadcrumbs, but mobile dark captures make gallery and transcript rows pale text on pale backgrounds. Important output guidance is unreadable. Shared CSS correction remains unapproved; no new public quality date is justified."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material resolution, file layout, audio and transcription claims checked against full rendered official support articles, not snippets or loading shells.",
+          "items": [
+            {
+              "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066421",
+              "claim": "Cloud recording always produces the listed 720p video output.",
+              "finding": "Official table includes 360p without HD, 720p with meeting HD, 1080p with full HD, and separate screen-sharing conditions. Fixed 720p description is materially incomplete.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0064676",
+              "claim": "Cloud video is mixed, separate audio is possible, and transcript is generated.",
+              "finding": "Standard settings can create separate active-speaker/gallery/shared-screen views, not general independent video per participant. Separate M4A audio is optional up to 200 speakers, phone callers merged; transcript requires setting. No universal local-versus-cloud audio quality test is supplied.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the complete Produce and Record hubs and local-recording sibling, comparing the actual choice and quality instructions.",
+          "items": [
+            {
+              "path": "patterns/produce/index.md",
+              "claim": "Recording selection and downstream editing guidance should remain compatible.",
+              "finding": "Cloud is described as fallback or backup, not an exclusion from all planned production; target absolute refusal needs narrowing.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "Recording selection and downstream editing guidance should remain compatible.",
+              "finding": "Hub lists Zoom fallback yet forbids mixed/compressed sources universally; existing owning hub correction remains preparation.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "path": "patterns/produce/record/zoom-local.md",
+              "claim": "Recording selection and downstream editing guidance should remain compatible.",
+              "finding": "Local sibling sensibly prioritizes audio-first fallback and separate audio; cloud superiority claims cannot be inferred from sibling recommendations.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-04T16:51:31Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material resolution/setup and contradictory fallback guidance require exact-version correction; shared dark table contrast also blocks usability.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/record/zoom-local.md": [
+      {
+        "id": "quality-20261104-patterns-produce-record-zoom-local",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-04T16:52:21Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "962dacd89d0cf85806899a92169ab6d6fa61caa4def51f36d9e4155cd7bfaf90",
+        "report_ref": "docs-internal/quality-reviews/2026-11-04/patterns-produce-record-zoom-local.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening identifies an audio-first fallback or backup rather than independent participant video. The separate-audio setup directly serves that reader task."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Four setup steps, expected MP4/M4A outputs and named backup scenarios give concrete operating detail. Repeated definition is minor and does not justify failure."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Usable separate audio and restricted composite-video flexibility form a consistent fallback argument. Quality Bar appropriately tells readers that mastering remains necessary."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Produce calls Zoom local maximum quality, while the target describes limited video. Record hub universally rejects compressed/mixed recordings despite explicitly recommending this audio fallback. Existing shared hub correction must preserve the fallback distinction."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Official documentation confirms the separate-audio checkbox, local conversion and MP4/M4A files, but the fixed 720p-1080p range omits documented 360p configurations. Rejecting all shows with lower thirds, transitions or vertical output overstates what a composite prevents; the real limit is independent source framing."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Desktop/mobile captures show usable heading hierarchy, breadcrumb and clear setup in light mode. The key per-participant audio table row becomes pale text on pale background in dark mode; shared stylesheet correction is necessary."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material resolution, file layout, audio and transcription claims checked against full rendered official support articles, not snippets or loading shells.",
+          "items": [
+            {
+              "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0066421",
+              "claim": "Local recording always lies in the listed 720p-1080p range.",
+              "finding": "Official resolution table includes 360p without HD, 720p and 1080p under specified configurations, plus screen-sharing conditions. The published range hides relevant setup dependence.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076922",
+              "claim": "Local recording can save separate audio and mixed-view MP4 files using the described setup.",
+              "finding": "Full official article confirms desktop Recording checkbox, host/granted privileges, conversion after meeting, MP4 and M4A outputs. It records the recorder view, lacks separate simultaneous speaker/gallery/screen capture, and may corrupt if conversion interrupted. No promise that every source is production-ready.",
+              "checked_at": "2026-11-04T16:52:20.748Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the complete Produce and Record hubs and local-recording sibling, comparing the actual choice and quality instructions.",
+          "items": [
+            {
+              "path": "patterns/produce/index.md",
+              "claim": "Recording selection and downstream editing guidance should remain compatible.",
+              "finding": "Produce calls Zoom local maximum quality, an overbroad label compared with target audio-first fallback; companion wording should be narrowed.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "path": "patterns/produce/record/index.md",
+              "claim": "Recording selection and downstream editing guidance should remain compatible.",
+              "finding": "Hub lists Zoom fallback yet forbids mixed/compressed sources universally; existing owning hub correction remains preparation.",
+              "checked_at": "2026-11-04T16:51:29.770Z"
+            },
+            {
+              "path": "patterns/produce/record/zoom-cloud.md",
+              "claim": "Cloud and local should be differentiated by actual recording outputs and setup.",
+              "finding": "Cloud sibling permits separate audio but asserts unsupported universal audio inferiority. Local setup remains supported; neither sibling proves a comparative quality benchmark.",
+              "checked_at": "2026-11-04T16:52:20.748Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-04T16:52:21Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material resolution and blanket editing exclusions need correction; shared hub consistency and dark table contrast remain open.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
