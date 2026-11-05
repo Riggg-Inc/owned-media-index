@@ -8911,6 +8911,156 @@
         "reason": "Material resolution and blanket editing exclusions need correction; shared hub consistency and dark table contrast remain open.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/recording/hls-video-podcast-distribution.md": [
+      {
+        "id": "quality-20261105-patterns-produce-recording-hls-video-podcast-distribution",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-05T16:50:54Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "dc16f0537a51b97732c75c3601847945ddcc0e99c5a413eae5120cd663c73bf3",
+        "report_ref": "docs-internal/quality-reviews/2026-11-05/patterns-produce-recording-hls-video-podcast-distribution.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies a two-path video distribution decision and tells teams to preserve audio continuity, consent, transcripts and a cost check; it serves a concrete production planning task."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The required-elements checklist specifies synchronized audio, horizontal capture, consent, compatible hosting and fallback MP3. The single-camera example and explicit exclusions make the recommendation usable without requiring multicamera production."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The article moves from audience fit to production requirements and reasons not to adopt video. HLS is consistently a conditional destination path, not a universal replacement for RSS or YouTube."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Canonical Episode Page explicitly treats HLS as optional and requires independently retrievable assets; this page likewise requires compatible hosts and an owned canonical page. RSS metadata guidance retains an audio file and website link, consistent with the fallback audio requirement."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Apple\u2019s actual February 16 announcement supports participating-host HLS delivery, dynamic video ads and existing-show continuity. The page explicitly avoids universal app support and measured uplift. Production quality and two-path portability are scoped recommendations, not fabricated benchmarks."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile dark rendering makes essential related-standard and source links very low contrast against the dark background; the shared dark-link correction remains necessary. Light desktop is readable, hierarchy and checklist are clear, and all four captures have no horizontal overflow. The raw unlinked reel path and repeated introductory sentence are secondary editorial preferences, not independent failure grounds."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "The material historical HLS launch and ad capability claims require a primary announcement, not a link-count check.",
+          "items": [
+            {
+              "url": "https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/",
+              "claim": "Apple announced participating-provider HLS video in February 2026 with dynamic ads and existing-show continuity.",
+              "finding": "The February 16 announcement names Acast, ART19, Omny Studio and SiriusXM providers, describes dynamic insertion and continuity, and distinguishes beta timing. This supports the historical statement, not universal current app support or audience gains.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the full linked canonical-page, feed-metadata and OBS standards to compare distribution and production scope.",
+          "items": [
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "HLS and native-platform delivery should not replace the controlled episode home.",
+              "finding": "The canonical standard calls HLS optional and separates embedding from backups; the target requires owned-page assets and compatible delivery, with no promise of permanent discovery.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            },
+            {
+              "path": "patterns/publish/feed-metadata-standard.md",
+              "claim": "Video delivery should preserve audio metadata and canonical website continuity.",
+              "finding": "The feed standard retains an audio file, duration and canonical link; the target\u2019s fallback MP3 and portable transcript/chapters are compatible.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-05T16:50:54Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Essential dark-mode links remain hard to read; reuse the existing shared contrast correction and reassess after approved deployment.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/produce/rough-cut/index.md": [
+      {
+        "id": "quality-20261105-patterns-produce-rough-cut-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-05T16:50:54Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "92d50f0ddc1b6e5fdd4a09eb070ae2222bf8f7ffae1beeffa0499384053399cd",
+        "report_ref": "docs-internal/quality-reviews/2026-11-05/patterns-produce-rough-cut-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub tells a producer what a rough cut delivers and chooses between workflow guidance and a reusable scene template; the opening and selection guide directly serve setup decisions."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Nine concrete activities include lower thirds, camera switching, screen shares and subtitle safe zones. Output sizes and the quality-bar checks provide usable detail rather than an abstract promise of efficiency."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The progression from outputs to patterns, production activities and observable checks is logical. Real-time production is clearly the selected workflow, not a claim that all editing must be live."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The hub repeats the companion template\u2019s 157-scene claim, but the actual linked JSON has 190 scene_order entries and 226 scene-type sources among 317 sources. Repeating the companion\u2019s inaccurate count is not consistency with the delivered artifact; both belong to the same existing template correction."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The downloadable 157-scene promise does not describe the current artifact counts. Aitum\u2019s official repository supports existence of a vertical-canvas plugin, not universal no-reformatting results. Keep the confident workflow preference but correct the concrete count and distinguish configured dual layouts from an automatic guarantee."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current dark desktop/mobile rendering makes alternating table rows nearly white-on-white, obscuring vertical output requirements and template selection. Light desktop is readable and all four captures have no horizontal overflow. This is the existing shared table-contrast issue, not a new styling proposal."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Verified the concrete downloadable template counts and the primary plugin description; no private performance evidence was used.",
+          "items": [
+            {
+              "url": "https://github.com/Aitum/obs-vertical-canvas",
+              "claim": "Aitum provides an OBS plugin adding a separate vertical canvas.",
+              "finding": "The official README explicitly describes a plugin for OBS Studio to add vertical canvas and supported distributions. It does not establish no reformatting for every production or all plugin compatibility.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            },
+            {
+              "url": "https://index.riggg.com/assets/downloads/riggg-obs-scene-collection-v1.json",
+              "claim": "The hub promises a downloadable 157-scene template.",
+              "finding": "Inspected the repository\u2019s published download JSON: 190 scene_order entries, 226 scene-type source records and 317 total sources. These are distinct counts; none equals 157. No import/runtime or complete compatibility test claimed.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read both full destination pages and inspected the actual published download data to evaluate the hub\u2019s choice guidance.",
+          "items": [
+            {
+              "path": "patterns/produce/obs-production-standard.md",
+              "claim": "The rough cut hub should describe the real-time workflow and its production limits.",
+              "finding": "The standard recommends staffed monitoring and excludes archival-only use; the hub\u2019s concrete live-production checks are compatible, but the selection guide can retain that staffing limit.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            },
+            {
+              "path": "patterns/produce/obs-scene-collection-template.md",
+              "claim": "The template description and delivered scene count should agree.",
+              "finding": "The companion repeats 157 scenes, specifies required plugin/script configuration and testing, while the delivered JSON exposes different scene counts. Correct the shared template/hub claim rather than treating repeated copy as evidence.",
+              "checked_at": "2026-11-05T16:50:52Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-05T16:50:54Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Published template count mismatch and unreadable dark alternating table rows require correction on the existing shared card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
