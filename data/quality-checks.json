@@ -9061,6 +9061,71 @@
         "reason": "Published template count mismatch and unreadable dark alternating table rows require correction on the existing shared card.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/produce/standardized-micro-segments.md": [
+      {
+        "id": "quality-20261106-patterns-produce-standardized-micro-segments",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-06T16:48:55Z",
+        "reviewer": "Cass Reelman (AI editorial review, openai/gpt-6-astra)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d621647ada014ea5bde00442b37735dd18e664b5c839e84178eba8af0530f08f",
+        "report_ref": "docs-internal/quality-reviews/2026-11-06/patterns-produce-standardized-micro-segments.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The purpose/setup/payoff model gives hosts and editors a specific way to retain valuable recurring beats and remove filler; the fill-in sentence is an immediately usable first action."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Three explicitly hypothetical formats and the editing Quality Bar provide enough practical detail without pretending these illustrations prove audience results."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Optional timing, placement and inclusion remain consistent throughout; the short setup and useful payoff requirements do not force every guest into a speed game."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The separate-track link agrees with the recording page editing rationale, and the Guest Story Arc comparison supports promising an actual payoff rather than inventing one. Unrelated companion overclaims are not attributed to this page."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Recognition is explicitly a design aim rather than measured retention. Private transcript assertions were not independently reverified and are not treated as public empirical proof; the advice stands as practitioner observation."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light desktop and dark mobile renders preserve hierarchy and no overflow. However dark teal related links/headings are difficult to distinguish on the dark background, consistent with the existing shared contrast correction. The live-facilitation exclusion also violates current reader-facing direction and the lengthy internal evidence narration distracts from an otherwise practical guide."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No new platform limits, statistics or empirical outcome claims require public source verification in this scoped practitioner advice. Private transcript evidence was not accessed or independently certified; its existing attribution remains limited.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read both complete linked companion pages to check the specific editorial promises made by the target.",
+          "items": [
+            {
+              "path": "patterns/produce/record/remote-isolated.md",
+              "claim": "Separate tracks support moving the recurring beat in an edit.",
+              "finding": "The linked page specifies individual downloadable tracks and per-person editing; this supports the narrow editorial link without certifying its unrelated reliability guarantees.",
+              "checked_at": "2026-11-06T16:48:54Z"
+            },
+            {
+              "path": "patterns/package/descriptions/guest-story-arc.md",
+              "claim": "Describe the actual narrative without promising an absent payoff.",
+              "finding": "The companion requires extractable lessons and listener application; the target uses the link appropriately and does not reproduce unsupported performance assertions.",
+              "checked_at": "2026-11-06T16:48:54Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-06T16:48:55Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark contrast remains unresolved; remove the reader-facing live-facilitation exclusion under current editorial direction, with exact proposal approval before body changes.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
