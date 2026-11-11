@@ -9126,6 +9126,84 @@
         "reason": "Shared dark contrast remains unresolved; remove the reader-facing live-facilitation exclusion under current editorial direction, with exact proposal approval before body changes.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/prove/amp-accords-play-standard.md": [
+      {
+        "id": "quality-20261111-amp-accords",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-11T16:55:07Z",
+        "reviewer": "Cass Reelman \u2014 openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "a18d1fafce889798a0104ad5dbc2426e320edeb18685a7cc7970c52a074f2e4b",
+        "report_ref": "docs-internal/quality-reviews/2026-11-11/amp-accords.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a clear reporting task: separate delivery from consumption and record definitions, methods and platforms instead of adding unlike counts."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Required Elements supplies five concrete fields and examples including server logs and client-side tracking; this is usable guidance even without a worked scorecard."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Consumption Type categorically puts ad impressions in the consumption-based bucket, while Why It Works explicitly says an impression is not proof of consumption. The operational instruction contradicts its own essential limitation."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Prove hub and Session Performance Scorecard both distinguish delivery from confirmed listening and discourage adding unlike audiences; the overall reporting purpose matches the five-stage framework."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The official AMP landing page supports the organization name and its self-described twelve-operator ratification, not detailed metric definitions. The body correctly labels the 30-second example illustrative but still directs readers to classify ad impressions as consumption without specifying measurement method."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Desktop light and mobile dark renders retain structure and no horizontal overflow, but Related Patterns exposes raw file paths and a NOT YET WRITTEN internal card reference instead of usable destinations. Dark teal evidence links are visibly difficult to distinguish/read, consistent with the existing shared contrast issue."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read public AMP primary source for organization and ratification; full metric definitions unavailable.",
+          "items": [
+            {
+              "url": "https://www.ampaccords.com/",
+              "claim": "AMP describes a twelve-operator cross-platform measurement standard.",
+              "finding": "Public landing text confirms the organization and attributed ratification claim, not detailed metric definitions or independent priority. No white paper read.",
+              "checked_at": "2026-11-11T16:51:10Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete Prove hub, scorecard and framework for reporting task consistency.",
+          "items": [
+            {
+              "path": "patterns/prove/index.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; no framework change is needed to correct this page internal classification contradiction.",
+              "checked_at": "2026-11-11T16:55:07Z"
+            },
+            {
+              "path": "patterns/prove/session-performance-scorecard.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; no framework change is needed to correct this page internal classification contradiction.",
+              "checked_at": "2026-11-11T16:55:07Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; no framework change is needed to correct this page internal classification contradiction.",
+              "checked_at": "2026-11-11T16:55:07Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-11T16:00:00Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Existing AMP revision requires Auditor scope review and exact owner approval; no-auto-draft hold preserved. Shared contrast remains unresolved.",
+        "correction_card": "45872a19-4e5c-4509-bb53-e38dc969ad4f"
+      }
     ]
   }
 }
