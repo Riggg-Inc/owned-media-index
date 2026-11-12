@@ -9204,6 +9204,90 @@
         "reason": "Existing AMP revision requires Auditor scope review and exact owner approval; no-auto-draft hold preserved. Shared contrast remains unresolved.",
         "correction_card": "45872a19-4e5c-4509-bb53-e38dc969ad4f"
       }
+    ],
+    "patterns/prove/index.md": [
+      {
+        "id": "quality-20261112-prove-hub",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-12T16:51:35Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "623f8f942c95295b58788f3e2a6c4f238a478fd8e1af29ff4275115d473ac53a",
+        "report_ref": "docs-internal/quality-reviews/2026-11-12/prove-hub.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub routes three distinct practitioner tasks: evaluate an episode, interpret listening metrics, and decide on video investment. The Selection Guide gives a clear first click instead of requiring readers to understand the whole framework first."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Short descriptions distinguish the scorecard, measurement standard and two-track investment rubric. A routing hub does not need to duplicate the full worksheets. The empty Benchmarks section is an optional cleanup, not a material failure."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening connects measurement to audience and business decisions, followed by grouped resources and a task-oriented chooser. Repeated links are useful navigation rather than contradictory guidance. There is no promise that this hub itself proves causal pipeline attribution."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Read the complete framework, Session Performance Scorecard, AMP Accords and Video Threshold Economics pages. The hub accurately identifies the five-stage Prove role, episode review task and creator/B2B distinction. AMP's detailed impression-classification contradiction remains on its existing correction; this hub's instruction to distinguish downloads, plays and impressions does not repeat that classification error."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The hub's measurement direction is descriptive, not a numerical adoption claim or guarantee. The official AMP landing page fetched November 12 describes a cross-platform standard ratified by twelve operators, supporting the existence of the initiative. It does not establish industry-wide adoption or detailed definitions; neither is certified here. No experimental proof is needed for the task-routing recommendations. No private evidence used."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live Chromium renders at 1440 and 390 pixels in light/default and dark/slate modes show no horizontal overflow and preserve navigation and pending metadata. Visually inspected desktop light and mobile dark screenshots: in dark mode the Selection Guide's second row uses a pale background with near-white body text, making the listening-metrics decision unreadable; dark teal links are also difficult to read. This is the existing shared CSS defect, not grounds to rewrite sound hub content. Same owning card 8006e12e-6551-440a-b9cc-27bce652996f; no duplicate proposal or approval inferred."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read public AMP primary source for organization and ratification; full metric definitions unavailable.",
+          "items": [
+            {
+              "url": "https://www.ampaccords.com/",
+              "claim": "AMP describes a twelve-operator cross-platform measurement standard.",
+              "finding": "Public landing text confirms the organization and attributed ratification claim, not detailed metric definitions or independent priority. No white paper read.",
+              "checked_at": "2026-11-12T16:49:22Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete Prove hub, scorecard and framework for reporting task consistency.",
+          "items": [
+            {
+              "path": "patterns/prove/amp-accords-play-standard.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; hub routing does not repeat the detailed companion classification contradiction.",
+              "checked_at": "2026-11-12T16:51:35Z"
+            },
+            {
+              "path": "patterns/prove/session-performance-scorecard.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; hub routing does not repeat the detailed companion classification contradiction.",
+              "checked_at": "2026-11-12T16:51:35Z"
+            },
+            {
+              "path": "patterns/prove/video-threshold-economics.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; hub routing does not repeat the detailed companion classification contradiction.",
+              "checked_at": "2026-11-12T16:51:35Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Separate delivery and consumption and connect metrics to useful decisions.",
+              "finding": "The companion supports distinguishing unlike measures; hub routing does not repeat the detailed companion classification contradiction.",
+              "checked_at": "2026-11-12T16:51:35Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-11T16:00:00Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark-mode table and link contrast requires exact approved correction release; no new hub body revision needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
