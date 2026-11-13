@@ -9288,6 +9288,108 @@
         "reason": "Shared dark-mode table and link contrast requires exact approved correction release; no new hub body revision needed.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/prove/session-performance-scorecard.md": [
+      {
+        "id": "quality-20261113-session-performance-scorecard",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-13T16:51:24Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "22e67415609b520c48329bbc7a6d32a715617c9799d11e581de481d780b9ea59",
+        "report_ref": "docs-internal/quality-reviews/2026-11-13/session-performance-scorecard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening asks what to do differently next episode and immediately supplies five checks, two results and one action. This serves a producer reviewing one release rather than imposing a general dashboard or scoring system. The AI prompt requires source-backed drafts and human checking."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The copy-ready worksheet, four operating steps and fictional 24-minute recording example provide enough detail to act. Twelve qualifying visits out of one hundred yields twelve percent correctly, with matching period and population. The held chart clip and named next action make permission and follow-through concrete rather than decorative."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Goal, production checks, result selection and next action follow a usable sequence. The permission hold is kept separate from audience judgment. Check-fix-recheck with explicit owners is not confused with causal proof; missing results are not zero. The fictional retention dip triggers inspection, not a guaranteed editing win."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Complete framework, Owned Media definition, Prove hub and Video Threshold Economics were read. The five checks map faithfully to the five stages. Separating platform reach from owned files and keeping permissions agrees with the definition. Goal-first review and an accountable pilot/next step agree with the B2B economics guidance without importing its creator break-even assumptions. Markdown and CSV downloads contain the same five-check/two-result/one-action structure and privacy limits."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Fresh AMEC framework text supports objectives before activity counts and separating outputs from outcomes. YouTube help explicitly defines intro retention at thirty seconds and dips as skipping or stopping, supporting investigation without causal inference. Apple Analytics explicitly compares episodes over days since release and limits its scope to Apple. Google Analytics explains withheld thresholded data, supporting missing-is-not-zero. These sources do not validate or endorse Riggg's worksheet; the article explicitly says that. Its example is clearly fictional, not a customer benchmark. Caption checking, permissions and preserving context are reasonable practitioner instructions, not claims of measured lift. BBC, IAB PDF, GSA and DPC were not freshly re-read in this bounded review; no exhaustive source certification is claimed. YouTube fetch warned of truncated transport, but the relevant intro/dips guidance was present and read."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current public page rendered at 1440 and 390 pixels in light and dark modes; complete article text/HTML captured, light desktop and dark mobile screenshots visually inspected. No horizontal page overflow. The light version has a clear worksheet and sequence. Dark-mode alternate table rows have near-white text on pale backgrounds: Package/Prove examples and the worked retention result are effectively unreadable, hiding material guidance. This is the existing shared CSS defect, not an editorial preference. Essential links are also subdued against dark background. Reuse correction card 8006e12e-6551-440a-b9cc-27bce652996f; no duplicate card or body rewrite."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Fresh primary guidance checked for goal setting, retention interpretation and comparable or missing results.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+              "checked_at": "2026-11-13T16:49:21.062Z",
+              "claim": "Retention patterns guide investigation and withheld analytics are not zeros.",
+              "finding": "Relevant official guidance supports the scoped interpretation; YouTube transport truncation does not establish exhaustive source verification."
+            },
+            {
+              "url": "https://amecorg.com/amecframework/",
+              "checked_at": "2026-11-13T16:49:20.482Z",
+              "claim": "Set objectives before judging communication outputs and outcomes.",
+              "finding": "Framework explicitly connects objectives and benchmarks to outputs, outcomes and impact, not worksheet validation."
+            },
+            {
+              "url": "https://support.google.com/analytics/answer/9383630?hl=en",
+              "checked_at": "2026-11-13T16:49:53.559Z",
+              "claim": "Retention patterns guide investigation and withheld analytics are not zeros.",
+              "finding": "Relevant official guidance supports the scoped interpretation; YouTube transport truncation does not establish exhaustive source verification."
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5392-listener-analytics",
+              "checked_at": "2026-11-13T16:49:21.940Z",
+              "claim": "Compare episode results over equal days since release.",
+              "finding": "Performance section specifies days since release comparison; Analytics describes its Apple audience scope."
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete framework, ownership definition and neighboring measurement guidance were read for task consistency.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Episode review should distinguish production, distribution and measured audience response.",
+              "finding": "Scorecard respects the five stages, rights and goal-first decisions without treating clues as causal business proof.",
+              "checked_at": "2026-11-13T16:51:24Z"
+            },
+            {
+              "path": "owned-media.md",
+              "claim": "Episode review should distinguish production, distribution and measured audience response.",
+              "finding": "Scorecard respects the five stages, rights and goal-first decisions without treating clues as causal business proof.",
+              "checked_at": "2026-11-13T16:51:24Z"
+            },
+            {
+              "path": "patterns/prove/index.md",
+              "claim": "Episode review should distinguish production, distribution and measured audience response.",
+              "finding": "Scorecard respects the five stages, rights and goal-first decisions without treating clues as causal business proof.",
+              "checked_at": "2026-11-13T16:51:24Z"
+            },
+            {
+              "path": "patterns/prove/video-threshold-economics.md",
+              "claim": "Episode review should distinguish production, distribution and measured audience response.",
+              "finding": "Scorecard respects the five stages, rights and goal-first decisions without treating clues as causal business proof.",
+              "checked_at": "2026-11-13T16:51:24Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-12T16:00:00Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Existing shared dark table contrast hides material worksheet examples; await exact approved CSS release and reassess.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
