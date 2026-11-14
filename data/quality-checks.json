@@ -9390,6 +9390,90 @@
         "reason": "Existing shared dark table contrast hides material worksheet examples; await exact approved CSS release and reassess.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/prove/video-threshold-economics.md": [
+      {
+        "id": "quality-20261114-video-threshold-economics",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-14T17:05:47Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "1b6cfcd07279716dcd52c4b01cf1c96c4afaff27c22453abc69132a3664064f4",
+        "report_ref": "docs-internal/quality-reviews/2026-11-14/video-threshold-economics.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The creator/B2B split answers a real investment decision rather than treating every show as an advertising business. The first action is explicit: identify the show's purpose. The B2B strategy brief, value case and pilot quality veto give a producer a concrete go/no-go sequence."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Shared and track-specific inputs cover costs, decision ownership, downside assumptions and review dates. Four explicitly hypothetical examples include the $900 incremental cost versus $600 contribution case and a failed-audio quality veto. These demonstrate decisions rather than padding the recommendation with generic video enthusiasm."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The opening distinction is maintained through Required Elements, examples and Quality Bar. Strategy precedes B2B economics, and quality can veto either a favorable budget or business case. The creator example correctly computes a $300 shortfall and avoids counting existing audio income twice. Repetition of the gates reinforces the decision without changing its meaning."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The complete framework, Prove hub and Session Performance Scorecard were read. The framework asks what worked and what changes next; this rubric makes that an investment decision. The hub accurately describes the creator/B2B distinction. The scorecard distinguishes audience clues from causal business impact, matching the warning not to count all pipeline as video-generated. No framework or numeric scoring redesign is warranted."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The complete Podnews analysis and report announcement were freshly read. The analysis explicitly supplies $388/$1,267 monthly, $67/$244 per episode, $0.56/$0.99 per attention hour and modeled 12,000/50,000 break-even units. The announcement supports 308 respondents, 50,000+ episodes, 3.7 billion downloads and 133 million YouTube views. The article labels these source-attributed historical survey/model inputs, not current universal benchmarks or comparable audience units. This verifies attribution, not the underlying respondent dataset or causal economics. B2B SEO/GEO discovery is a hypothesis, quality risk an editorial judgment, and the three-step gate is explicitly not validated by that research. No experimental proof is demanded of the practical recommendation. Video playback/transcript was not audited; this review does not certify its spoken claims."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop 1440 and mobile 390 light/dark captures show a readable hierarchy, no horizontal overflow and clear Quality Bar bullets. However, essential breadcrumb and Watch on YouTube links use rgb(0,128,128) against dark rgb(26,37,53), about 3.23:1, below the normal-text 4.5:1 contrast threshold. This is the existing shared CSS defect, not an optional stylistic preference. Related Patterns also shows unlinked repository-like paths rather than usable navigation; the core rubric remains actionable without them, so that is a secondary improvement, not a reason to rewrite the sound guidance. No table contrast defect is invented for this table-free page."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material numerical claims were checked against their actual attributed historical sources.",
+          "items": [
+            {
+              "url": "https://podnews.net/article/the-video-threshold",
+              "checked_at": "2026-11-14T16:48:02.753Z",
+              "claim": "Historical production costs and modeled programmatic break-even reference points.",
+              "finding": "Full analysis supplies all quoted cost and volume figures; attribution verified, not raw data or causal B2B validity."
+            },
+            {
+              "url": "https://podnews.net/press-release/video-vs-audio-podcasting",
+              "checked_at": "2026-11-14T16:48:19.496Z",
+              "claim": "Survey included 308 podcasters and the stated aggregate media volumes.",
+              "finding": "Complete announcement supports respondent and aggregate totals; press release is not independent dataset reanalysis."
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete framework, neighboring hub and scorecard read for routing and measurement consistency.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Investment decisions should distinguish strategy, observed signals and causal business impact.",
+              "finding": "Current guidance agrees on goal-first decisions and does not equate discovery with attributable revenue.",
+              "checked_at": "2026-11-14T17:05:47Z"
+            },
+            {
+              "path": "patterns/prove/index.md",
+              "claim": "Investment decisions should distinguish strategy, observed signals and causal business impact.",
+              "finding": "Current guidance agrees on goal-first decisions and does not equate discovery with attributable revenue.",
+              "checked_at": "2026-11-14T17:05:47Z"
+            },
+            {
+              "path": "patterns/prove/session-performance-scorecard.md",
+              "claim": "Investment decisions should distinguish strategy, observed signals and causal business impact.",
+              "finding": "Current guidance agrees on goal-first decisions and does not equate discovery with attributable revenue.",
+              "checked_at": "2026-11-14T17:05:47Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-14T17:05:47Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark-link contrast impairs essential navigation and video link; await exact approved CSS release then reassess.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
