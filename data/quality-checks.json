@@ -9474,6 +9474,78 @@
         "reason": "Shared dark-link contrast impairs essential navigation and video link; await exact approved CSS release then reassess.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/publish/ai-search-optimization/citation-architecture.md": [
+      {
+        "id": "quality-20261115-citation-architecture",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-15T16:54:22Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "b0b2ae7b21cc723f714234bca72a2506a2850a87f23bc267a679f45f232e7a21",
+        "report_ref": "docs-internal/quality-reviews/2026-11-15/citation-architecture.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies the reader's task: make existing episode evidence findable and attributable without manufacturing certainty. The three-level stack lets an editor audit a real episode page, and the Measurement link supplies an appropriate next step rather than promising traffic."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Canonical URL examples, attributed-claim syntax, two-to-three-sentence answer units, concrete metadata fields and a reusable prompt provide practical substance. Three Q&A pairs is a workable editorial target, not an experimentally established platform minimum; the recommendation need not be proven by a controlled trial to be useful."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The introduction explicitly says not to turn uncertainty into confident claims, but the Anti-Patterns row says 'It depends' and 'many experts say' are not citable. That categorical instruction can push editors to strip necessary uncertainty despite the later warning. Keep the useful request for specific attribution, but distinguish unsupported vagueness from genuinely conditional answers. The three-level structure itself is logical."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "The current Measurement companion properly separates observed citations, visits and inquiries and states that indexing and eligibility do not guarantee AI inclusion. The parent AI Search Optimization hub instead promises permanent AI-discoverable assets and says AI systems cannot parse an MP3. Its guarantee conflicts with this page's explicit no-citation guarantee. Correct the existing shared hub guidance rather than weakening the sound caveat in this page. No score or framework change is proposed."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Google's complete AI-features documentation was read on November 15: indexed and snippet-eligible pages are required for supporting links, no special AI schema is needed, and serving is not guaranteed. This supports the page's direct Google qualification. It does not establish general claims that AI systems match queries to heading text, love definitions, or skip PDFs. Those table entries read as established cross-system mechanisms rather than editorial choices, and the 'LLM retrieval testing' evidence line supplies no actual study. Retain practical clear-answer/attribution advice, but qualify unsupported mechanism assertions and identify evidence honestly. No private testing or empirical verification is asserted here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh Chromium desktop1440/mobile390 light/dark renders were captured. Both layouts have no horizontal overflow, with readable section order and a usable copy-ready prompt in light mode. Visually inspected desktop light and mobile dark screenshots show the existing severe dark table-row defect: pale row backgrounds with near-white text hide essential attribution and anti-pattern guidance. This is the same shared CSS correction, not a new duplicate issue. The existing low-contrast navigation context also remains; no numerical contrast measurement is invented in this run."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material Google eligibility claims checked against current full primary documentation.",
+          "items": [
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "checked_at": "2026-11-15T16:50:30.246Z",
+              "claim": "Google supporting AI links require indexing and snippet eligibility, without special AI schema.",
+              "finding": "Complete primary documentation supports these Google-specific requirements and no guarantee; it does not validate broad PDF, heading-match or definitional preference mechanisms."
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete parent hub and linked Measurement companion read for scope and citation consistency.",
+          "items": [
+            {
+              "path": "patterns/publish/ai-search-optimization/index.md",
+              "claim": "Citation guidance should distinguish practical editing advice from promised AI inclusion.",
+              "finding": "Measurement separates observed citations from visits and outcomes; parent hub permanence promise conflicts with the reviewed page no-guarantee guidance.",
+              "checked_at": "2026-11-15T16:54:22Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Citation guidance should distinguish practical editing advice from promised AI inclusion.",
+              "finding": "Measurement separates observed citations from visits and outcomes; parent hub permanence promise conflicts with the reviewed page no-guarantee guidance.",
+              "checked_at": "2026-11-15T16:54:22Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-15T16:54:22Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Dark table contrast hides essential guidance; anti-hedging contradiction and unsupported cross-engine mechanisms need exact reviewed corrections.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
