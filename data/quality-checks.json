@@ -9546,6 +9546,84 @@
         "reason": "Dark table contrast hides essential guidance; anti-hedging contradiction and unsupported cross-engine mechanisms need exact reviewed corrections.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/publish/ai-search-optimization/index.md": [
+      {
+        "id": "quality-20261116-ai-search-hub",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-16T16:51:31Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "eb2b6fbb13c7888ad71020494593bd9d449bad9b733d8fdcae08123ea9d10575",
+        "report_ref": "docs-internal/quality-reviews/2026-11-16/ai-search-hub.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub gives practitioners a useful map from transcripts, episode metadata and canonical pages to six focused implementation guides. The Selection Guide connects concrete needs such as exposing spoken content and tracking visibility to the appropriate next page; it is not merely a terminology essay."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five explained terms, a three-stage framework mapping and six need-to-pattern choices supply enough detail for a navigational hub. A standalone worked implementation is not necessary here because the page explicitly routes readers to task-specific guides. Keep these useful tables rather than replacing them with caveats."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The final Selection Guide correctly says to observe citation performance rather than assume guaranteed inclusion, but the preceding strategy section promises expertise will surface, guests will be cited and the show will become a source of record. The earlier permanent-knowledge-asset assertion repeats this deterministic outcome. These contradict the page's own observable-measurement instruction."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Measurement explicitly separates citations, visits and inquiries, retains failed attempts and rejects causal or universal inference from samples. Citation Architecture opens with no promised citation and preserving uncertainty. The hub's inevitable inclusion/permanence language conflicts with both linked guides; correct the hub, not those useful limits. Framework stage labels themselves remain consistent and need no redesign."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The categorical claim that AI systems cannot parse an MP3 is false at the scope stated: OpenAI's transcription documentation explicitly supports MP3 input. This does not prove that every search crawler processes audio; recommend readable text without claiming general AI incapacity. Google's complete AI-features guidance says indexing and snippet eligibility are required for supporting links, no special AI markup is required, and crawling/indexing/serving are not guaranteed. This conflicts with a universal mandatory stack and permanence promise. The fastest-growing discovery-channel assertion and blanket account of what traditional podcast agencies do have no cited substantiation here; remove or scope these specific comparisons, not all confident advice. Terminology varies across the market: present this taxonomy as this Index's working definitions, not a universal standard."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Light desktop layout has clear headings, breadcrumb and useful selection tables. Four live renders show no viewport overflow. Mobile dark visibly renders alternating table rows with pale backgrounds and near-invisible light text, including terminology, framework and selection guidance. This hides essential navigation/decision information, not an optional aesthetic preference. Reuse the existing shared contrast correction; no CSS or body change authorized by this assessment."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material Google eligibility claims checked against current full primary documentation.",
+          "items": [
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "checked_at": "2026-11-16T16:50:02.641Z",
+              "claim": "Google supporting AI links require indexing and snippet eligibility, without special AI schema.",
+              "finding": "Complete primary documentation supports these Google-specific requirements and no guarantee; it explicitly disclaims guaranteed indexing and serving despite compliance."
+            },
+            {
+              "url": "https://developers.openai.com/api/docs/guides/speech-to-text",
+              "checked_at": "2026-11-16T16:50:03Z",
+              "claim": "AI systems cannot parse an MP3 is a categorical technical assertion.",
+              "finding": "The supported-format introduction explicitly includes MP3 for transcription; search crawler support is not established by this source."
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete Citation Architecture and Measurement companions read for scope and citation consistency.",
+          "items": [
+            {
+              "path": "patterns/publish/ai-search-optimization/citation-architecture.md",
+              "claim": "Citation guidance should distinguish practical editing advice from promised AI inclusion.",
+              "finding": "Measurement separates observed citations from visits and outcomes; reviewed hub permanence promise conflicts with companion no-guarantee guidance.",
+              "checked_at": "2026-11-16T16:51:31Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Citation guidance should distinguish practical editing advice from promised AI inclusion.",
+              "finding": "Measurement separates observed citations from visits and outcomes; reviewed hub permanence promise conflicts with companion no-guarantee guidance.",
+              "checked_at": "2026-11-16T16:51:31Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-16T16:51:31Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Dark table contrast hides essential guidance; categorical MP3 incapacity and guaranteed AI inclusion need exact reviewed corrections.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
