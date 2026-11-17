@@ -9624,6 +9624,444 @@
         "reason": "Dark table contrast hides essential guidance; categorical MP3 incapacity and guaranteed AI inclusion need exact reviewed corrections.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/publish/ai-search-optimization/measurement.md": [
+      {
+        "id": "quality-20261117-measurement",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-17T16:57:24Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "acd35f456e29634e3edb8392a4f86d14d7db7da9b6e1ebfc4819068fcdcd822e",
+        "report_ref": "docs-internal/quality-reviews/2026-11-17/measurement.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The three opening questions separate citations, visits and useful outcomes; Quick Start offers an achievable three-question baseline without paid monitoring."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete podcast questions, six-response illustrative count, acquisition dimensions and repeatability checks provide sufficient detail for a first measurement report."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Sections follow the same three questions without confusing citations with conversions; unavailable tracking is explicitly not zero and repeated observations do not prove causation."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The five-stage framework supports this measurement task and the corrected transcript guidance also rejects guaranteed citations. The parent hub overpromises permanence; that is an existing hub defect, not grounds to rewrite this sound method."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Google primary documentation confirms Web reporting, no special AI schema and nonexhaustive site queries. OpenAI confirms citation errors and memory/location effects; Microsoft confirms sampled grounding queries and counts without rank. GA4 channel definitions confirm AI Assistant versus Google Organic Search. The article labels sample sizes as choices, not benchmarks."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop/mobile light/dark captures show a readable linear checklist without overflow, but essential teal source/navigation links remain low contrast on dark navy. This is the existing shared stylesheet issue; no table defect is alleged on this table-free page."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material platform and reporting statements checked proportionately against primary documentation, with retrieval limitations retained.",
+          "items": [
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "claim": "Google AI visibility and reporting requirements are scoped to Google Search.",
+              "finding": "Full source confirms indexing and snippet eligibility, no special schema, and Search Console Web aggregation.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            },
+            {
+              "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+              "claim": "Search answers may be wrong and location or memory may alter search results.",
+              "finding": "Full current OpenAI help article confirms these cautions and instructs readers to open cited sources.",
+              "checked_at": "2026-11-17T16:51:48Z"
+            },
+            {
+              "url": "https://support.google.com/analytics/answer/9756891?hl=en",
+              "claim": "AI Assistant and Organic Search are distinct reporting channel definitions.",
+              "finding": "Relevant channel definitions read: AI Assistant excludes Google AI Overviews and AI Mode, which Organic Search includes. Full unrelated channel table not audited.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            },
+            {
+              "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+              "claim": "Microsoft preview reports citations and sampled grounding phrases rather than answer placement.",
+              "finding": "Complete announcement confirms supported surfaces, sampled retrieval phrases and explicit nonranking scope; live property access was not tested.",
+              "checked_at": "2026-11-17T16:52:21Z"
+            },
+            {
+              "url": "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site",
+              "claim": "Missing site search results do not establish missing indexing.",
+              "finding": "Full primary guidance explicitly warns that indexed URLs are not guaranteed to appear and recommends URL Inspection.",
+              "checked_at": "2026-11-17T16:54:41Z"
+            },
+            {
+              "url": "https://support.google.com/analytics/answer/15258820?hl=en",
+              "claim": "Direct traffic is not automatically attributable to AI.",
+              "finding": "Relevant article body describes unclear referral sources and missing tracking information. Transport was incomplete; no complete-page verification claimed.",
+              "checked_at": "2026-11-17T16:54:32Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete framework, parent hub and transcript companion read to compare task and claims.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Measurement should distinguish delivery from outcomes and reusable knowledge.",
+              "finding": "Prove asks what shipped and worked; this guide supplies a compatible concrete observation method.",
+              "checked_at": "2026-11-17T16:57:24Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/index.md",
+              "claim": "Parent guidance should not guarantee permanent AI visibility.",
+              "finding": "Parent permanence and inclusion promises remain a separately owned hub defect; its selection guide correctly routes tracking to this page.",
+              "checked_at": "2026-11-17T16:57:24Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/transcript-optimization.md",
+              "claim": "Publishing transcripts should not be confused with guaranteed AI citations.",
+              "finding": "Companion explicitly disclaims guaranteed citations, matching this page observation-first measurement.",
+              "checked_at": "2026-11-17T16:57:24Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-17T16:57:24Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Essential dark-mode source and navigation links require the existing shared contrast correction; content rewrite is unnecessary.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/ai-search-optimization/platform-visibility.md": [
+      {
+        "id": "quality-20261117-platform-visibility",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-17T16:58:29Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d5da864090942e974114d716ac9fac19f18ceaa61607265eb5961f136ecdb65f",
+        "report_ref": "docs-internal/quality-reviews/2026-11-17/platform-visibility.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Platform-by-platform discovery factors and the crawler checklist give website operators a clear diagnosis task rather than an abstract AI strategy."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five platform tables, access controls and a final checklist contain concrete operational detail; missing crawler distinctions require correction rather than more filler."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Opening promises deliberate permissions and no guaranteed citation, but the Quality Bar demands all crawlers and the constraints table calls live discovery instant indexing. These blur optional policy choices with requirements."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Measurement correctly separates sampled observations from availability and the Structured Data introduction denies universal schema requirements. This page instead calls Bing submission and schema key requirements, creating actionable inconsistency."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Anthropic documentation separates training ClaudeBot from Claude-SearchBot and Claude-User. The page names ClaudeBot/anthropic-ai and tells operators to allow them, omitting actual search/user controls. ChatGPT GPT-4 browsing description is stale against current search help. Universal instant indexing and mandatory HTTPS/schema claims are not established by sources checked."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile dark screenshot shows pale striped table rows with pale text hiding platform requirements and access guidance. Desktop/mobile captures have no document overflow, but this does not make unreadable table cells acceptable."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Current primary documentation checked for the material crawler and Google eligibility claims; not a comprehensive all-platform certification.",
+          "items": [
+            {
+              "url": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+              "claim": "Claude search crawler identity and training permissions must be distinguished.",
+              "finding": "Full extracted article explicitly separates ClaudeBot training, Claude-SearchBot search indexing and Claude-User user retrieval. The reviewed checklist omits the latter two.",
+              "checked_at": "2026-11-17T16:53:47Z"
+            },
+            {
+              "url": "https://help.openai.com/en/articles/9237897-chatgpt-search",
+              "claim": "ChatGPT discovery is accurately represented by GPT-4 browsing and instant indexing.",
+              "finding": "Current help describes automatic/manual search across plans and OAI-Searchbot eligibility with no guaranteed placement; it does not establish instant indexing.",
+              "checked_at": "2026-11-17T16:51:48Z"
+            },
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "claim": "Google AI supporting links require indexing and snippet eligibility, not additional schema.",
+              "finding": "Full source supports the revised Google row and explicitly denies guaranteed crawling, indexing or serving; platform timelines remain unverified.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete measurement and structured-data companions compared with platform requirements.",
+          "items": [
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Availability and indexing should be checked rather than inferred from a fixed timetable.",
+              "finding": "Measurement distinguishes actual indexed status, unavailable reporting and observed citations; instant index language here undermines that discipline.",
+              "checked_at": "2026-11-17T16:58:29Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/structured-data.md",
+              "claim": "Schema validity should not imply universal AI discovery eligibility.",
+              "finding": "The companion introduction rejects universal requirements while this page calls structured data a Bing key requirement without substantiation.",
+              "checked_at": "2026-11-17T16:58:29Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-17T16:58:29Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Wrong Claude crawler controls, stale ChatGPT framing, unsupported platform requirements and unreadable dark tables need exact approved correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/ai-search-optimization/show-notes-for-llms.md": [
+      {
+        "id": "quality-20261117-show-notes-for-llms",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-17T16:59:36Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "9d5427a091a6b06cf246ed3e14737160a3c58856ef3428842d1baea0c0f5a9fc",
+        "report_ref": "docs-internal/quality-reviews/2026-11-17/show-notes-for-llms.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Four-part summary, questions, claims and resources template helps producers turn a recording into usable episode notes immediately."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Worked summary, three sample answers, attributed claims and a copy-ready prompt provide concrete detail; illustrative names and outcomes are explicitly labeled rather than represented as customer evidence."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Quality Bar says every answer must be accurate and verifiable, yet the copy-ready prompt requires three to five quotable claims and resource URLs from an excerpt without instructing omission of unsupported details or human verification. This invites invented attributions when the source is insufficient."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Transcript companion preserves recorded words and public-release permission; Measurement requires opening sources and retaining uncertainty. The show-notes prompt does not carry those safeguards into its copy-ready instructions and its mandatory counts may encourage filling gaps."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Google guidance supports readable textual content without special optimizations and Microsoft supports clearer structure, but neither substantiates the page evidence label LLM retrieval testing. No test protocol/results are supplied. Present practical Q&A advice as practitioner guidance, not an undocumented empirical test claim."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh slate mobile render makes the copy-ready examples and prompt dark red on dark code backgrounds, difficult to read; essential teal links also remain low contrast. Light layout and heading sequence are useful and document overflow was false."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Relevant primary guidance checked for AI content structure claims; illustrative quotations are not treated as empirical results.",
+          "items": [
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "claim": "Structured questions and answers are an empirically established special AI optimization.",
+              "finding": "Google says no special optimization is necessary and recommends helpful textual content; it does not document this page claimed LLM retrieval testing.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            },
+            {
+              "url": "https://blogs.bing.com/webmaster/2026/2/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview/",
+              "claim": "Clear headings and FAQ sections can help readers and AI systems locate information.",
+              "finding": "Microsoft recommends structure and clarity, supporting practical formatting advice without establishing the page sample asset counts or claimed testing.",
+              "checked_at": "2026-11-17T16:52:21Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete transcript and measurement pages read for preservation and verification standards.",
+          "items": [
+            {
+              "path": "patterns/publish/ai-search-optimization/transcript-optimization.md",
+              "claim": "Generated source summaries should preserve actual words and publication permission.",
+              "finding": "Companion explicitly requires public-release clearance and preserved voice; copy-ready show-notes instructions should not fabricate quotes from insufficient excerpts.",
+              "checked_at": "2026-11-17T16:59:36Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Citable claims need supporting sources rather than mere attribution.",
+              "finding": "Measurement instructs opening citations and checking support, compatible with a human verification step missing from this prompt.",
+              "checked_at": "2026-11-17T16:59:36Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-17T16:59:36Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Copy-ready prompt needs source insufficiency and human verification safeguards, undocumented testing label needs clarification, and dark code contrast requires shared correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/ai-search-optimization/structured-data.md": [
+      {
+        "id": "quality-20261117-structured-data",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-17T17:00:49Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4b28e27d3cdb8c80c681654964c35ec76f416916d41a724ed469cdbe16d9a1ae",
+        "report_ref": "docs-internal/quality-reviews/2026-11-17/structured-data.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Explains episode identity and offers JSON-LD examples and a prompt, giving site implementers a concrete starting point."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "PodcastEpisode, FAQPage and VideoObject examples contain useful fields, media URL distinctions and placeholder warnings; correction should retain these substantive examples."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The introduction says use applicable types and no universal AI requirement, while Required Schema Types and every episode must have PodcastEpisode imply a universal prescription. Quality Bar validation only via Google Rich Results Test conflicts with the prose instruction to validate vocabulary separately."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Measurement correctly separates valid markup from citation evidence and framework covers webinars as well as podcasts. Every episode PodcastEpisode framing needs scope to podcast episodes and a real vocabulary validation path."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "PodcastEpisode primary property listing inspected includes author, associatedMedia, episodeNumber and partOfSeries, but not guest; schema.org/guest returns404. The copy-ready example and Quality Bar require this unsupported property. Universal AI recency and no-benefit-from-omission claims are not justified by the checked Google documentation."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Long JSON examples are structured and document overflow is false, but slate mobile renders show poor contrast in syntax and especially the dark red prompt on navy. Shared dark-link contrast also affects the validation destination."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Vocabulary and Google policy sources checked for copy-ready implementation correctness, without claiming full rich-result testing.",
+          "items": [
+            {
+              "url": "https://schema.org/PodcastEpisode",
+              "claim": "The example guest property is supported PodcastEpisode vocabulary.",
+              "finding": "Relevant Episode and CreativeWork property listings inspected: episodeNumber, partOfSeries, associatedMedia, author and contributor are documented; guest was absent. Full unrelated inherited property corpus not audited.",
+              "checked_at": "2026-11-17T16:53:41Z"
+            },
+            {
+              "url": "https://schema.org/guest",
+              "claim": "The required guest field resolves to a defined Schema.org property.",
+              "finding": "Direct primary vocabulary URL returned404, reinforcing the missing-property problem rather than validating the copy-ready example.",
+              "checked_at": "2026-11-17T16:54:42Z"
+            },
+            {
+              "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+              "claim": "Valid syntax alone guarantees correctness or search display.",
+              "finding": "Complete guidelines distinguish content quality from technical testing, require visible accurate content and explicitly deny guaranteed display even after Rich Results Test.",
+              "checked_at": "2026-11-17T16:54:59Z"
+            },
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "claim": "All AI discovery requires a specific schema or extra markup.",
+              "finding": "Google explicitly requires no special schema; advice must be scoped to applicable episode metadata rather than universal AI eligibility.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Framework and Measurement compared for content scope and validation meaning.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Owned media includes more formats than podcast episodes.",
+              "finding": "Framework includes webinars, live production and reusable media; PodcastEpisode should not be presented as mandatory for every format.",
+              "checked_at": "2026-11-17T17:00:49Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Markup validation is not evidence of successful AI citation.",
+              "finding": "Measurement explicitly distinguishes technical checks from attribution and observed citations, agreeing with this page introduction but not categorical prescriptions.",
+              "checked_at": "2026-11-17T17:00:49Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-17T17:00:49Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Unsupported guest schema property and contradictory universal validation requirements need exact correction; dark examples remain difficult to read.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/ai-search-optimization/transcript-optimization.md": [
+      {
+        "id": "quality-20261117-transcript-optimization",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-17T17:02:03Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fdb83a900be81b755024170f3d858c4c65588660663b3ee4c2d5fa578ead1668",
+        "report_ref": "docs-internal/quality-reviews/2026-11-17/transcript-optimization.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Speaker labels, timestamps, topic headings, cleanup and canonical publishing form a practical workflow for making a recorded conversation usable as text."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Concrete dialogue and timestamp examples, cleanup table and prompt provide enough implementation detail without needing invented experimental proof for editorial choices."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The text requires actual recorded timestamps and preserved words, but the prompt asks to add timestamps from raw text without audio/timecodes or an instruction not to invent them. The 95-percent accuracy check also leaves material numbers and names potentially wrong despite the separate verification rule."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The public-release permission warning and no-guaranteed-citation introduction align with Measurement and framework Preserve. Parent hub MP3 incapacity remains a separately owned overclaim, not something this corrected introduction should adopt."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Google supports important textual content but does not establish independently indexed H2/H3 sections, universal accordion exclusion or the evidence label LLM training analysis. Preserve strong readability advice while distinguishing implementation choices from unverified cross-engine mechanisms."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile slate screenshot shows pale cleanup-table stripes obscuring False starts and Technical terms guidance and poor prompt/code contrast. Desktop/mobile captures avoid page overflow; readable light mode does not cure supported dark-mode defects."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Google primary documentation checked for textual-content and AI eligibility assertions; no recording or LLM training experiment claimed.",
+          "items": [
+            {
+              "url": "https://developers.google.com/search/docs/appearance/ai-features",
+              "claim": "Textual transcripts improve accessible content without guaranteeing AI discovery.",
+              "finding": "Complete source recommends important content in text and denies guaranteed indexing/serving. It does not establish universal accordion exclusion or independent indexing of every heading section.",
+              "checked_at": "2026-11-17T16:51:23Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete framework, measurement and parent hub read to distinguish reuse guidance from discovery guarantees.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Transcripts support preserving knowledge for retrieval and reuse.",
+              "finding": "Preserve explicitly covers transcripts and searchable archives, matching this concrete formatting workflow.",
+              "checked_at": "2026-11-17T17:02:03Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/measurement.md",
+              "claim": "Publication should not substitute for observed citation outcomes.",
+              "finding": "Measurement separates citations, visits and useful actions, consistent with this page no-guarantee introduction.",
+              "checked_at": "2026-11-17T17:02:03Z"
+            },
+            {
+              "path": "patterns/publish/ai-search-optimization/index.md",
+              "claim": "Audio processing limits should not be generalized across AI systems.",
+              "finding": "Parent hub says AI cannot parse MP3, while this page explicitly rejects that inference; fix the hub rather than weakening this qualification.",
+              "checked_at": "2026-11-17T17:02:03Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-17T17:02:03Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Timestamp-generation prompt needs source/timecode safeguard, unsupported crawler mechanisms need qualification, and dark cleanup-table/code contrast needs shared correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
