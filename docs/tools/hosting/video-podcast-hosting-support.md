@@ -6,11 +6,11 @@ description: "Video podcast hosting and player compatibility: MP4 RSS, open HLS,
 
 Video podcast hosting support depends on the delivery path, not just whether a service accepts a video upload. MP4 in RSS, open HLS video, Apple’s approved integration, Spotify’s native ingestion, and YouTube publishing are different capabilities. This reference separates them and identifies rollout limits and unresolved evidence.
 
-**Documented source-review date:** 2026-10-20
+**Documented source-review date:** 2026-11-20
 
-**Next source review due:** 2026-11-20 (monthly; earlier when a provider changes its documentation)
+**Next source review due:** 2026-12-20 (monthly; earlier when a provider changes its documentation)
 
-**Source-review provenance and scope:** Public documentation reviewed on 2026-10-20; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
+**Source-review provenance and scope:** Public documentation reviewed on 2026-11-20; not an account-level upload or playback certification. Every row below has that check date. “Unknown” means not established by the cited evidence, not unsupported.
 
 ## What “supported” means here
 
@@ -24,7 +24,7 @@ Video podcast hosting support depends on the delivery path, not just whether a s
 
 ## Hosts and publishing services
 
-All rows checked **2026-10-20**. The [PSP implementation list][psp] was itself updated September 2, 2026; its claims are attributed, not treated as fresh account tests.
+All rows checked **2026-11-20**. The [PSP implementation list][psp] was itself updated September 2, 2026; its claims are attributed, not treated as fresh account tests.
 
 | Host | Status and documented delivery | Limits / what is not established |
 |---|---|---|
@@ -53,7 +53,7 @@ All rows checked **2026-10-20**. The [PSP implementation list][psp] was itself u
 
 ## Players / apps
 
-All rows checked **2026-10-20**. Support is specific to the route and app version, not a promise that any hosted video will appear.
+All rows checked **2026-11-20**. Support is specific to the route and app version, not a promise that any hosted video will appear.
 
 | App | Status and route | Important limit |
 |---|---|---|
