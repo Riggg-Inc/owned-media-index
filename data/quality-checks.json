@@ -10199,6 +10199,369 @@
         "reason": "Complete the feed-standard example and technical validation guidance under exact owner approval; shared dark-link contrast remains on the existing owning correction card.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "patterns/publish/index.md": [
+      {
+        "id": "quality-20261121-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-21T16:51:01Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "2de593936a93e43fa9728c81f468adb00145bb3fd5d293f0b4514d8aebeb9a5a",
+        "report_ref": "docs-internal/quality-reviews/2026-11-21/index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Owned versus shared distribution gives a clear first decision; the Selection Guide routes episode-home, feed and live tasks to named standards."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The hub supplies concrete destination choices and short selection considerations; a routing page need not reproduce every linked standard."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Owned Channels, Shared Distribution and AI discovery group related tasks without conflating hosting control with distribution reach."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Publish matches the framework stage and the Canonical Episode Page anchors reusable resources; newsletter guidance qualifies the relationship claim with deliverability limits."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Citation Architecture is described as getting cited, not summarized, implying control over answer-engine treatment not established by the hub; change to structuring attributable source material without promising citation."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Mobile dark rendering makes alternating pale table rows nearly unreadable and important teal destination links low contrast; these are the hub primary decision controls."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This routing and practitioner guidance makes no material numeric or empirical outcome claim requiring external certification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the full framework, canonical page and newsletter to test routing and ownership distinctions.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "Publish means getting assets into intended channels.",
+              "finding": "Hub choices match the framework rather than inventing a new stage.",
+              "checked_at": "2026-11-21T16:51:01Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "The canonical page anchors episode assets.",
+              "finding": "Full standard supports page utility and independent backup rather than promising discovery.",
+              "checked_at": "2026-11-21T16:51:01Z"
+            },
+            {
+              "path": "patterns/publish/owned-email-newsletter.md",
+              "claim": "Owned email gives a permissioned relationship.",
+              "finding": "Companion explicitly retains filtering and reach limitations; hub simplification is reasonable.",
+              "checked_at": "2026-11-21T16:51:01Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-21T16:51:01Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark table/link readability and categorical citation-versus-summary description require correction on existing shared hub card.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/linkedin-release-post-patterns.md": [
+      {
+        "id": "quality-20261121-linkedin-release-post-patterns",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-21T16:51:21Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "5d6fa18ce6b9a2ea184570af0b35c8966190c39aa7cd19c6999b726cd01c40a0",
+        "report_ref": "docs-internal/quality-reviews/2026-11-21/linkedin-release-post-patterns.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "needs_revision",
+            "rationale": "The opening promises reusable release patterns but a reader receives only ten names, with no way to turn The Tension or The Guest POV into a usable post."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Example Patterns contains no actual examples or structures; repeating the definition in What It Is uses space without supplying the missing working model."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Value before a click, feed-native relevance and the exception for existing demand form a consistent editorial argument."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The Publish hub routes feed-native release work here and the canonical-page companion similarly asks for standalone value rather than click-only teasers."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Advice about giving a reason to care is practitioner judgment, not a claimed algorithm benefit or measured engagement guarantee; existing score is not rescored."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The ten labels lack a first drafting action or observable source-fidelity check; dark breadcrumb links are also difficult to distinguish on the actual mobile render."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No platform limits, numeric benchmarks or empirical mechanism claims are asserted; editorial advice does not require a controlled experiment.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Full Publish hub and canonical-page standard were read to compare routing and value-first promise.",
+          "items": [
+            {
+              "path": "patterns/publish/index.md",
+              "claim": "Hub promises post formats for launching an episode. ",
+              "finding": "Ten format labels without examples underdeliver that practical promise; routing itself is correct.",
+              "checked_at": "2026-11-21T16:51:21Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "Content should provide utility before playback or subscription.",
+              "finding": "Value-before-click direction agrees with the concrete independent worksheet example in the companion.",
+              "checked_at": "2026-11-21T16:51:21Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-21T16:51:21Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Supply concrete post structures and a worked hypothetical example while retaining all ten angles; shared dark navigation contrast also remains.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/owned-email-newsletter.md": [
+      {
+        "id": "quality-20261121-owned-email-newsletter",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-21T16:51:49Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "de4301e37ee7768478a7ba8a987cc579344a7fa379c0af174ad9f4b1ff69ea75",
+        "report_ref": "docs-internal/quality-reviews/2026-11-21/owned-email-newsletter.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The permission-based recurring relationship and reply use case clearly distinguish email from discovery channels and help a publisher choose whether to start."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five concrete requirements, a standalone worksheet example and separate visit/signup/inquiry measures supply actionable substance rather than newsletter advocacy alone."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Exportability and reduced lock-in are consistently separated from delivery guarantees; observed association is never recast as causal growth."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Canonical Episode Page repeats the same optional worksheet/signup distinction and retained useful content; Publish correctly routes owned email separately from shared platforms."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Original Atlas methodology and newsletter chart confirm5061, unweighted platform-user sample,24+15=39 and10+32+45=87; self-report and association limitations are explicit."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh mobile-dark rendering shows low-contrast teal source and related-standard links and poor inline draft-path contrast; important supporting context/navigation is difficult to read."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Fresh primary report images, author analysis and UK regulator guidance checked material numbers, denominators and consent scope.",
+          "items": [
+            {
+              "url": "https://soundsprofitable.com/wp-content/uploads/2026/07/The-Podcast-Atlas-2026-Downloadable-Report.pdf",
+              "claim": "5061 respondents;39percent of listeners subscribe and87percent of subscribers report listening at least sometimes.",
+              "finding": "Visually read all tiles of methodology p3 and newsletter p36. Confirms unweighted5061 adults18plus recent platform users;24multiple+15one and10always+32often+45sometimes. No fieldwork dates shown. Not a conversion experiment.",
+              "checked_at": "2026-11-21T16:51:49Z"
+            },
+            {
+              "url": "https://soundsprofitable.com/article/the-podcast-atlas-part-5/",
+              "claim": "Association may reflect pre-existing listener enthusiasm.",
+              "finding": "Full author article explicitly says the study cannot separate newsletter effects from enthusiasm and identifies subscribers as already-engaged listeners.",
+              "checked_at": "2026-11-21T16:51:49Z"
+            },
+            {
+              "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guide-to-pecr/electronic-and-telephone-marketing/electronic-mail-marketing/",
+              "claim": "UK electronic-mail rules have consent requirements and exceptions.",
+              "finding": "Full guidance distinguishes individuals, existing-customer soft opt-in and corporate recipients. Page correctly presents jurisdiction-specific context, not universal law.",
+              "checked_at": "2026-11-21T16:51:49Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full canonical page and Publish hub against the newsletter purpose, permission and optional next action.",
+          "items": [
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "Worksheet usefulness is independent of newsletter subscription.",
+              "finding": "Companion preserves separate fulfillment and ongoing-email permission, matching this example and measurement distinctions.",
+              "checked_at": "2026-11-21T16:51:49Z"
+            },
+            {
+              "path": "patterns/publish/index.md",
+              "claim": "Email belongs in owned distribution alongside the website and RSS.",
+              "finding": "Hub description matches relationship-oriented positioning without overriding this page explicit delivery limits.",
+              "checked_at": "2026-11-21T16:51:49Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-21T16:51:49Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Shared dark source-link and navigation contrast requires the existing approved-review CSS workflow; no substantive prose rewrite needed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/simulcast-standard.md": [
+      {
+        "id": "quality-20261121-simulcast-standard",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-21T16:52:10Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "9fc6a2eaf5d801539cc90358b66b7c1f75e54bae117786575276f9023b50957b",
+        "report_ref": "docs-internal/quality-reviews/2026-11-21/simulcast-standard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The page identifies public live-ready sessions and excludes private or edit-dependent material, giving a useful applicability decision before choosing destinations."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Eight planning nouns cover outputs and replay but no worked destination plan or preflight check explains how to know each stream is ready; a standard needs more than feel intentional."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Primary and secondary destinations, promotion, backup and replay follow the live episode lifecycle without promising universal reach."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "It sends readers to Export Specifications for output settings, but that page is file-upload/master presets and limits, not live encoder requirements; the link conflates export and live-stream settings."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "No numeric bitrate, platform eligibility or performance promise is made in this body; practical planning advice does not need experimental evidence."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The subjective quality bar lacks an observable destination-by-destination playback check, and both essential settings links are low contrast on fresh mobile-dark rendering."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Review concerns planning completeness and mismatch to a read local export reference; no external platform-limit claim is attested.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read the complete linked export and YouTube standards and canonical replay page.",
+          "items": [
+            {
+              "path": "patterns/produce/master/export-specs.md",
+              "claim": "Export Specifications supplies horizontal and vertical output settings.",
+              "finding": "This is a mastered-file/upload reference including codec/containers/max file sizes, not a live encoder/preflight standard; qualify or redirect that use.",
+              "checked_at": "2026-11-21T16:52:10Z"
+            },
+            {
+              "path": "patterns/publish/youtube-title-and-description-standard.md",
+              "claim": "YouTube destination metadata needs destination-specific packaging.",
+              "finding": "Title, description, chapters and canonical links support packaging, but do not establish live technical readiness.",
+              "checked_at": "2026-11-21T16:52:10Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "The post-live replay needs a durable home.",
+              "finding": "Canonical standard explicitly accommodates replay and preserves useful text and backup dependencies, consistent with the replay-plan bullet.",
+              "checked_at": "2026-11-21T16:52:10Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-21T16:52:10Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Add a concrete plan and actual destination preflight criteria; distinguish live encoder checks from mastered-file export settings and reuse shared dark-link correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "patterns/publish/youtube-title-and-description-standard.md": [
+      {
+        "id": "quality-20261121-youtube-title-and-description-standard",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-21T16:52:34Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "4883ade8d0c758967b1509c40fa581458a99e35c678490b752ef741854a93215",
+        "report_ref": "docs-internal/quality-reviews/2026-11-21/youtube-title-and-description-standard.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Helping a viewer choose, navigate and act gives a clear publishing task and the eight required elements provide a useful basic completeness checklist."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "Clear title and summary are not demonstrated; no title-description example or usable chapter syntax bridges the gap from field names to a publishable package."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Title-thumbnail alignment, summary, navigation and relevant next action support one consistent viewer task, with unrelated keyword stuffing explicitly rejected."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Canonical Episode Page explicitly expects a description backlink and the Publish hub routes YouTube packaging here; the checklist agrees with both."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Relevant tags where appropriate and chapters where possible avoid ranking guarantees. Official YouTube help supports the navigation purpose and explains eligibility limitations not contradicted by the body."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Readers lack an actual package example or link to the chapter instructions needed to apply the standard; dark breadcrumbs also have poor contrast in the fresh mobile capture."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Read official manual/automatic chapter instructions for practical navigation requirements; not a video-performance certification.",
+          "items": [
+            {
+              "url": "https://support.google.com/youtube/answer/9884579?hl=en",
+              "claim": "Chapters help viewers navigate relevant video sections.",
+              "finding": "Visible official guidance supports rewatch/navigation and specifies00:00,at least three ascending timestamps and minimum10-second chapters; automatic chapters not guaranteed. Fetch warned of incomplete trailing response, so only visible instructions are attested.",
+              "checked_at": "2026-11-21T16:52:34Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete Publish hub and canonical episode standard read for publishing promise and backlink consistency.",
+          "items": [
+            {
+              "path": "patterns/publish/index.md",
+              "claim": "YouTube standard covers packaging episodes for discovery.",
+              "finding": "The promised standard needs an actual package example; no guaranteed discovery claim should be added.",
+              "checked_at": "2026-11-21T16:52:34Z"
+            },
+            {
+              "path": "patterns/publish/canonical-episode-page.md",
+              "claim": "YouTube description should point to the canonical page.",
+              "finding": "The current required canonical/resource links correctly support that reciprocal navigation.",
+              "checked_at": "2026-11-21T16:52:34Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-21T16:52:34Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Add one worked title/description example and actionable navigation checks, retaining existing metadata choices; shared dark breadcrumb correction remains.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
