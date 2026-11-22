@@ -10562,6 +10562,351 @@
         "reason": "Add one worked title/description example and actionable navigation checks, retaining existing metadata choices; shared dark breadcrumb correction remains.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "quadrants/clips.md": [
+      {
+        "id": "quality-20261122-quadrants-clips",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-22T17:07:50Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d0a2bf5defce2ad326b1faff4ab647a7899dcccde8acccd8c00fa191632c2f0b",
+        "report_ref": "docs-internal/quality-reviews/2026-11-22/clips.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a direct source-moment decision: opinions, advice, narrative, disagreement or statistics, useful before clip extraction."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five selection criteria and the need/choose table supply actionable distinctions without padding; source walk-backs and statistical context are concrete checks."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The repeated planning-hypothesis qualification makes the chart an editorial aid, not a measured ranking. Golden Nugget prose says bottom-left while its point is above the midpoint; this minor orientation imprecision does not negate the explicit selection guidance."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Hot Take and Golden Nugget companions likewise require defensible context and measured comparable performance. The corrected guide no longer promises universal reach or save-rate advantages."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Possible audience appeal is explicitly hypothetical; no numerical performance claim or attributed exemplar needs external certification. Existing scores are preserved editorial judgments, not reassessed here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh public Chromium 1440/390 light/dark captures examined; desktop-light and mobile-dark screenshots visually inspected. No horizontal overflow. Pale alternating table rows retain near-white text in dark mode, hiding decision guidance; essential teal links also lose contrast. Reuse existing shared CSS correction, not a duplicate. In particular Golden Nugget and Debate table considerations disappear on pale rows; chart captions are faint and names hidden until hover."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This comparison uses editorial selection guidance and directly inspected internal inventory, not external numerical outcomes or attributed examples.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant companion pages and framework/scoring definitions read to compare actual meaning, not keyword overlap.",
+          "items": [
+            {
+              "path": "patterns/package/clips/hot-take.md",
+              "claim": "Comparison of current guidance: Clip selection and outcomes",
+              "finding": "Both require a defensible standalone position and comparable measurement, not an assumed viral advantage.",
+              "checked_at": "2026-11-22T17:07:50Z"
+            },
+            {
+              "path": "patterns/package/clips/golden-nugget.md",
+              "claim": "Comparison of current guidance: Useful advice and saves",
+              "finding": "Both prioritize specific audience-fit advice and treat saves or shares as observations, not guarantees.",
+              "checked_at": "2026-11-22T17:07:50Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-02-20T17:07:50Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "quadrants/descriptions.md": [
+      {
+        "id": "quality-20261122-quadrants-descriptions",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-22T17:08:33Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "6f930c23166eebfd4bce2ff38968084b45f82903ff30f5acc1e214f68dc4bd4e",
+        "report_ref": "docs-internal/quality-reviews/2026-11-22/descriptions.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Space available and reason to listen form an immediate useful decision between six description approaches."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The thesis/three-bullets/CTA structure and six need-to-pattern mappings supply enough substance for a comparison guide, with full examples delegated to linked articles."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Brevity/depth and information/emotion axes match the explanatory paragraphs and selection table; high-authority interviews and story-led episodes have distinct paths."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Thesis-Takeaways-CTA companion actually uses the three-part structure; Guest Story Arc uses story, lessons and application, matching the hub selection advice."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Best-fit language is practitioner advice, not an empirical advantage claim. No exact truncation limit or unsupported outcome statistic appears on this page."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh public Chromium 1440/390 light/dark captures examined; desktop-light and mobile-dark screenshots visually inspected. No horizontal overflow. Pale alternating table rows retain near-white text in dark mode, hiding decision guidance; essential teal links also lose contrast. Reuse existing shared CSS correction, not a duplicate. Audience Pain, expert interview and Guest Story rows lose their explanatory text; those are essential alternatives, not decorative content."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This comparison uses editorial selection guidance and directly inspected internal inventory, not external numerical outcomes or attributed examples.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant companion pages and framework/scoring definitions read to compare actual meaning, not keyword overlap.",
+          "items": [
+            {
+              "path": "patterns/package/descriptions/thesis-takeaways-cta.md",
+              "claim": "Current document assertion or comparison: Compact description structure",
+              "finding": "The actual companion uses thesis, three takeaways and a single CTA, consistent with this selection row.",
+              "checked_at": "2026-11-22T17:08:33Z"
+            },
+            {
+              "path": "patterns/package/descriptions/guest-story-arc.md",
+              "claim": "Current document assertion or comparison: Narrative description structure",
+              "finding": "Story, lessons and application correspond to the hub journey-led choice; illustrative examples remain in the companion.",
+              "checked_at": "2026-11-22T17:08:33Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-22T17:08:33Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "quadrants/distribution-platforms.md": [
+      {
+        "id": "quality-20261122-quadrants-distribution-platforms",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-22T17:08:34Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "2571f3bf201c840556e83c817c4517c8f995f3671e34bd99dfa9eccae5450b42",
+        "report_ref": "docs-internal/quality-reviews/2026-11-22/distribution-platforms.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening usefully distinguishes retained content from platform audience access and gives an owned-anchor starting point."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The ownership strategy examples and channel-by-goal table give substantial planning choices; preserve these instead of replacing the article with warnings."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The opening says owning content does not own the platform relationship, but Apple is then owned while YouTube notifications give some ownership. Complete ownership and immunity assertions contradict this careful premise."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Owned Media explicitly treats Apple and Spotify as shared distribution and requires backups, exports and provider migration checks. The quadrant instead promises complete relationships and no domain deplatforming, materially conflicting with that authoritative definition."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Spotify official RSS guidance explicitly enables feeds for other listening platforms, so the categorical closed ecosystem/no RSS portability presentation is misleading. No evidence supports universal Facebook pay-to-play, unmatched TikTok ceiling or the guarantee that nobody can deplatform a domain."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh public Chromium 1440/390 light/dark captures examined; desktop-light and mobile-dark screenshots visually inspected. No horizontal overflow. Pale alternating table rows retain near-white text in dark mode, hiding decision guidance; essential teal links also lose contrast. Reuse existing shared CSS correction, not a duplicate. Strategy and platform-choice rows vanish in dark mode; chart dots are non-link divs with hover-only labels, so the hub instruction to click through does not apply."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material platform/tool assertions checked against relevant primary documentation; source scope and access limits retained.",
+          "items": [
+            {
+              "url": "https://support.spotify.com/us/creators/article/finding-and-enabling-your-rss-feed/",
+              "claim": "Current document assertion or comparison: Spotify has no RSS portability",
+              "finding": "Official page states Spotify-hosted shows can enable RSS for other listening platforms. This disproves blanket absence of RSS distribution, but does not verify host migration redirect mechanics; three guessed redirect URLs returned page-not-found and are not evidence.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant companion pages and framework/scoring definitions read to compare actual meaning, not keyword overlap.",
+          "items": [
+            {
+              "path": "owned-media.md",
+              "claim": "Current document assertion or comparison: Audience ownership definition",
+              "finding": "Authoritative definition treats Apple and Spotify as shared distribution and requires backups and migration options, conflicting with the quadrant categorical ownership promises.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-22T17:08:34Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "quadrants/index.md": [
+      {
+        "id": "quality-20261122-quadrants-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-22T17:08:34Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "0542d41e9071a127e0f532447d7f4b48163c2b8432b1b7941ddaa1f4325db78e",
+        "report_ref": "docs-internal/quality-reviews/2026-11-22/index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The hub quickly routes readers to the right comparison category and names each decision axis."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Six concise links with axes and plotted inventory are sufficient substance for this routing page; another long tutorial would add friction."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "One opening, an interaction explanation and one inventory table form a coherent small navigation hub."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "Recording Methods actually plots eight dots, not the six claimed in Patterns Plotted. Distribution uses non-link divs, contradicting the hub instruction that dots click to full pattern pages; Mastering links mostly to a shared guide rather than individual tool pages."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The count and universal click-through claims are directly falsified by the actual linked source markup, not a matter of editorial preference. Other inventories match: 11 titles, six descriptions, five clips, nine tools and 13 platforms."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh public Chromium 1440/390 light/dark captures examined; desktop-light and mobile-dark screenshots visually inspected. No horizontal overflow. Pale alternating table rows retain near-white text in dark mode, hiding decision guidance; essential teal links also lose contrast. Reuse existing shared CSS correction, not a duplicate. The table is the central task interface; Description, Recording and Distribution axes/counts are almost invisible in dark mode."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This comparison uses editorial selection guidance and directly inspected internal inventory, not external numerical outcomes or attributed examples.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant companion pages and framework/scoring definitions read to compare actual meaning, not keyword overlap.",
+          "items": [
+            {
+              "path": "quadrants/recording.md",
+              "claim": "Current document assertion or comparison: Recording inventory count",
+              "finding": "Read full source: eight plotted entries, including Riverside and SquadCast separately, not the six claimed by the hub.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            },
+            {
+              "path": "quadrants/distribution-platforms.md",
+              "claim": "Current document assertion or comparison: Click-through interaction",
+              "finding": "All thirteen platform dots are div elements, not linked pattern destinations; universal click-through instruction is false.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            },
+            {
+              "path": "quadrants/mastering-tools.md",
+              "claim": "Current document assertion or comparison: Tool chart inventory",
+              "finding": "Nine plotted tools match the count; most link to the common mastering guide rather than individual pattern pages.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            }
+          ]
+        },
+        "next_review_at": "2027-02-20T17:08:34Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "quadrants/mastering-tools.md": [
+      {
+        "id": "quality-20261122-quadrants-mastering-tools",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-22T17:08:34Z",
+        "reviewer": "Cass Reelman — openai/gpt-6-astra (AI editorial review)",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "8c4e14a9cd05e6428567cf0045372b885bfff81f380eff4c81df0ea067ac2635",
+        "report_ref": "docs-internal/quality-reviews/2026-11-22/mastering-tools.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening separates full video finishing, specialist audio repair and automated cleanup, giving a useful purchase/workflow decision."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The recommendation and six practical tool categories supply an actionable starting shortlist with escalation to paid features; no need to strip confident advice."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Price versus capability is a coherent comparison, with distinct automation and specialist repair roles. Exact plotted positions remain editorial judgments, not precision measurements."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Master and Audio Mastering companions identify Resolve as an integrated editor and Auphonic as automated leveling/cleanup; that functional distinction matches this guide. Their older price/spec assertions are not silently certified by this review."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The exact claim that Resolve plus Auphonic covers 90% of needs at near-zero cost has no documented denominator or study. Blackmagic supports a free integrated editor, while Auphonic describes metered duration-based credits; neither establishes 90% coverage or near-zero cost across production volumes."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh public Chromium 1440/390 light/dark captures examined; desktop-light and mobile-dark screenshots visually inspected. No horizontal overflow. Pale alternating table rows retain near-white text in dark mode, hiding decision guidance; essential teal links also lose contrast. Reuse existing shared CSS correction, not a duplicate. Paid ecosystem, Descript and simple cleanup selection text is lost on pale rows; crowded mobile chart points and hover-only names further reduce discoverability."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Material platform/tool assertions checked against relevant primary documentation; source scope and access limits retained.",
+          "items": [
+            {
+              "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+              "claim": "Current document assertion or comparison: Free integrated video and audio editor",
+              "finding": "Official product description and free-download section support integrated editing/color/Fusion/Fairlight and a free version. Read relevant sections, not every product claim; no support for 90% coverage.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            },
+            {
+              "url": "https://auphonic.com/pricing",
+              "claim": "Current document assertion or comparison: Near-zero-cost automated mastering for most needs",
+              "finding": "Official pricing FAQ bills by processed duration and distinguishes recurring and one-time credits; extracted price grid is incomplete, so no exact price certified. No 90% coverage evidence appears.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Complete relevant companion pages and framework/scoring definitions read to compare actual meaning, not keyword overlap.",
+          "items": [
+            {
+              "path": "patterns/produce/master/index.md",
+              "claim": "Current document assertion or comparison: Integrated mastering tool roles",
+              "finding": "Resolve integrated finishing and Auphonic automation align; older price table and turnaround assertions are outside this page assessment.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            },
+            {
+              "path": "patterns/produce/master/audio-mastering.md",
+              "claim": "Current document assertion or comparison: Audio automation role",
+              "finding": "The companion differentiates automated leveling/cleanup from listening and final validation, compatible with a tool shortlist.",
+              "checked_at": "2026-11-22T17:08:34Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-22T17:08:34Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
