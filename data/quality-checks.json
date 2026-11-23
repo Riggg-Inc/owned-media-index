@@ -10907,6 +10907,423 @@
         "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
+    ],
+    "quadrants/recording.md": [
+      {
+        "id": "quality-20261123-quadrants-recording",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-23T16:48:27Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ce7dac653f471456fb0472e19c5ad63e5606981e1a7b659ad8799cf2acce9e71",
+        "report_ref": "docs-internal/quality-review-20261123-quadrants-recording.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening and location-based selection rows help producers choose a recording workflow before selecting equipment."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Six concrete need-to-method rows explain isolated tracks, mixed locations and meeting capture with relevant linked details."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The StreamYard point names the whole product while the linked pattern deliberately rates only composite-only capture; the visual comparison loses that essential scope."
+          },
+          "cross_page_consistency": {
+            "status": "needs_revision",
+            "rationale": "StreamYard guidance explicitly acknowledges isolated local tracks, whereas the quadrant comment says no isolation and the product-wide label remains unqualified."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The gap paragraph treats Zoom Cloud as inherently needing rescue and isolated platforms as studio quality without the microphone, room and test conditions identified in the remote recording checklist."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Actual light and dark desktop/mobile screenshots show hover-only point names and very faint quadrant labels; dark alternating table rows render near-white text on pale backgrounds, obstructing selection."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Fresh vendor reading checks isolated recording capability without claiming measured quality or account testing.",
+          "items": [
+            {
+              "url": "https://riverside.fm/",
+              "claim": "Remote local capture provides separate high quality source tracks.",
+              "finding": "Vendor homepage explicitly advertises up to 4K video and uncompressed audio in separate tracks; this supports capability, not guaranteed studio results from any room or equipment.",
+              "checked_at": "2026-11-23T16:48:26Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full recording neighbors to compare workflow scope and practical prerequisites.",
+          "items": [
+            {
+              "path": "patterns/produce/record/streamyard.md",
+              "claim": "The plotted StreamYard score describes the named recording choice.",
+              "finding": "Companion limits its score to composite-only livestream capture and explicitly recognizes local individual tracks; the quadrant product label needs that same scope.",
+              "checked_at": "2026-11-23T16:48:26Z"
+            },
+            {
+              "path": "patterns/produce/record/remote-isolated.md",
+              "claim": "Isolated recording supplies studio quality with minimal setup.",
+              "finding": "Companion requires external microphone, quiet room, lighting, local recording test and backup; preserve these practical conditions instead of presenting a platform guarantee.",
+              "checked_at": "2026-11-23T16:48:26Z"
+            },
+            {
+              "path": "patterns/produce/record/zoom-cloud.md",
+              "claim": "Zoom Cloud is the lower flexibility choice in the selection guide.",
+              "finding": "Companion supports meeting-reference use and warns against planned isolated-video edits, but its own absolute quality statements are not independent measurement evidence.",
+              "checked_at": "2026-11-23T16:48:26Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-23T16:48:27Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park pending exact-revision correction of workflow scope and shared chart/table readability.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "quadrants/titles.md": [
+      {
+        "id": "quality-20261123-quadrants-titles",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-23T16:49:06Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "46136d600698101a978543bcf55ff18748c3f8a14cd6b9578062d9edb6b76784",
+        "report_ref": "docs-internal/quality-review-20261123-quadrants-titles.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The introduction gives a clear audience-versus-attention choice and selection guide makes six practical title decisions approachable."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Eleven plotted styles and six need-based linked rows provide useful comparative detail without requiring a full pattern template here."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "Future Of is plotted at left 52 percent in the right half but the goal table places it bottom-left; the map and lookup disagree."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "How-To Outcome and Contrarian Hook neighbors support specific promises and genuine challenges; the selection guide correctly retains those conditions."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Highest potential reach ranks curiosity styles by performance without comparative evidence; keep the useful attention-mechanism recommendation without implying maximum downloads."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Live light/dark mobile/desktop inspection shows unreadable pale-striped dark tables and hidden dot names; the unlabelled dots cannot independently explain all eleven choices on touch."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is an editorial taxonomy, with no technical limits or attributed statistics to verify; no comparative reach dataset is supplied, so the ranking claim is identified as unsupported rather than source-certified.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Full linked title patterns were read to compare promises and selection conditions.",
+          "items": [
+            {
+              "path": "patterns/package/titles/how-to-outcome.md",
+              "claim": "How-To titles should deliver a practical outcome.",
+              "finding": "The pattern requires a specific audience and concrete desirable outcome, and warns against forced promises; the selection row preserves this meaningful condition.",
+              "checked_at": "2026-11-23T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/contrarian-hook.md",
+              "claim": "Curiosity-led titles rely on a genuine challenge.",
+              "finding": "Companion requires a common belief, real consequence and delivered alternative; no measured head-to-head reach comparison establishes highest potential reach.",
+              "checked_at": "2026-11-23T16:49:05Z"
+            },
+            {
+              "path": "patterns/package/titles/future-of.md",
+              "claim": "Future Of belongs in the strategic title selection group.",
+              "finding": "Companion distinguishes strategic thesis from tactical tips, supporting the use case but not the inconsistent left/right plotted designation.",
+              "checked_at": "2026-11-23T16:49:05Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-23T16:49:06Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park pending minimal map/table alignment, removal of unsupported reach ranking and shared readability correction.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "roadmap.md": [
+      {
+        "id": "quality-20261123-roadmap",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-23T16:49:44Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "f1ac61e756217418df21ccdedb537c01808c7f23c3c0820278af47e8e4ee0e8f",
+        "report_ref": "docs-internal/quality-review-20261123-roadmap.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening accurately frames development areas rather than promising delivery; a reader can distinguish the library sequence and proposed quarterly issue."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Specific packaging outputs, publishing channels and tool categories provide sufficient substance for this short roadmap reference, not a how-to pattern."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Versions progress from framework to packaging, publishing and tools, ending with an explicitly recommended first issue theme; no invented deadlines or completion claims appear."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The five stages match framework.md and Tools explicitly describes broader V0.4 coverage as planned; the roadmap does not contradict current limited hosting coverage."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "These are editorial plans and a clearly labeled recommendation, not externally testable platform or performance assertions requiring research."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Actual dark desktop/mobile render shows low-contrast teal headings and Home breadcrumb against dark navy. Body lists are readable and no overflow occurs, but navigation/section cues need the existing shared contrast repair."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "The page states product development intentions, no external technical claims or measured outcomes; repository framework and current public hubs are the relevant primary context.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read framework, Pattern Library and Tools bodies rather than assuming roadmap milestones shipped.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "The framework contains five named stages.",
+              "finding": "Produce, Package, Publish, Prove and Preserve appear in the same sequence and meaning; no stage addition or removal is proposed.",
+              "checked_at": "2026-11-23T16:49:43Z"
+            },
+            {
+              "path": "tools/index.md",
+              "claim": "Broader tool coverage remains a development area.",
+              "finding": "Tools identifies one current hosting reference and planned V0.4 categories, compatible with roadmap language and its no-guarantee opening.",
+              "checked_at": "2026-11-23T16:49:43Z"
+            },
+            {
+              "path": "patterns/index.md",
+              "claim": "The roadmap begins with framework and reusable patterns.",
+              "finding": "Current pattern hub exposes all five areas; roadmap gives development sequence, not a contradictory inventory of what is available today.",
+              "checked_at": "2026-11-23T16:49:43Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-23T16:49:44Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park solely for independently observed shared dark-theme navigation and heading contrast; no body correction required.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "scoring.md": [
+      {
+        "id": "quality-20261123-scoring",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-23T16:50:24Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "ed8ff9f99b580ef2c01ae1e18f94837dcec74f9c2f95fae9134367874d87aaea",
+        "report_ref": "docs-internal/quality-review-20261123-scoring.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The page tells readers what a one-to-five score means and explicitly distinguishes editorial judgment from popularity."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "All five score meanings and five evidence levels are defined succinctly; enough for interpreting scores without forcing a production worksheet onto a rules reference."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Score usefulness and evidence support remain separate concepts; the opening says usefulness, evidence, repeatability and fit jointly inform editorial judgment."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Score names match Pattern Library and canonical SCORING.md; public Evidence Rules distinguishes source types while this page lists support levels, not an incompatible replacement taxonomy."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Definitions are first-party editorial rules, not empirical performance claims; the published text matches canonical SCORING.md wording and does not promise universal outcomes."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Viewed desktop/mobile dark captures obscure the Strong fit and Niche rows with near-white text on pale striping; these are essential score definitions, not decorative content."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "First-party score definitions are checked against repository rule documents; external research cannot establish the intended editorial policy and no platform claim is made.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read actual public evidence and pattern-index bodies alongside full canonical SCORING.md and EVIDENCE.md.",
+          "items": [
+            {
+              "path": "patterns/index.md",
+              "claim": "The one-to-five labels help readers interpret recommendations.",
+              "finding": "Pattern Library uses the same default, strong fit, viable, niche and not recommended sequence; its explicit default wording is compatible with the scoring context.",
+              "checked_at": "2026-11-23T16:50:23Z"
+            },
+            {
+              "path": "evidence.md",
+              "claim": "Evidence identifies support behind an entry.",
+              "finding": "Evidence Rules names source types including platform documentation and privacy requirements; scoring calls platform documentation a possible support within external research exactly as canonical SCORING.md does.",
+              "checked_at": "2026-11-23T16:50:23Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-23T16:50:24Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for shared dark table readability repair; no score or framework-rule change authorized or necessary in this assessment.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "tools/hosting/video-podcast-hosting-support.md": [
+      {
+        "id": "quality-20261123-tools-hosting-video-podcast-hosting-support",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-23T16:52:33Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "0ed289f074a4bafadfe327682c14d60d6a038bc857ab8d40619244fa92014e40",
+        "report_ref": "docs-internal/quality-review-20261123-tools-hosting-video-podcast-hosting-support.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Separating file RSS, open HLS, Apple API and native Spotify paths directly helps teams avoid buying the wrong hosting capability."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Twenty host/service rows and nine player rows include named sources, eligibility limits and a concrete sample-feed/test checklist; substantial reference detail is warranted."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "All rows checked November 20 conflicts with Megaphone calling October 20 the date of this review; stale historical audit narration obscures the current decision."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "HLS production guidance and feed metadata guidance support audio continuity and destination verification, not universal video reach; this reference supplies the needed route distinctions."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "Current Megaphone documentation says monetization currently available, contradicting retained future-tense explanation. Transistor analytics coming-soon status is not in current retrieved feature text; Libsyn full-motion YouTube capability remains ambiguous behind generic video labels."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Actual desktop/mobile dark renders make alternating host/player rows nearly unreadable. Mobile table requires horizontal navigation to see essential limits; document overflow=false does not prove all columns visible."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Fresh read of eleven primary or first-party ecosystem sources covers core delivery distinctions and high-impact current vendor claims; other rows remain attributed dated evidence, not freshly reverified.",
+          "items": [
+            {
+              "url": "https://podcasters.apple.com/support/3684-video-podcasts",
+              "claim": "Traditional MOV, MP4 and M4V RSS video remains supported.",
+              "finding": "Apple explicitly confirms these formats and standard RSS submission separately from preferred HLS.",
+              "checked_at": "2026-11-23T16:50:32.467Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/5593-how-to-publish-video",
+              "claim": "Apple HLS needs a supporting host and API authorization.",
+              "finding": "Apple documents rolling availability, show claim, API key and audio-only subscriptions; these support the reference distinctions.",
+              "checked_at": "2026-11-23T16:50:32.860Z"
+            },
+            {
+              "url": "https://podstandards.org/2026/08/11/podcast-hosting-platforms-and-apps-that-support-hls-video-in-rss/",
+              "claim": "Open HLS RSS host/player statuses are attributed to PSP.",
+              "finding": "September 2 list matches reported-live hosts, committed Buzzsprout/Spreaker, Amazon beta and iHeart manual submission; it is ecosystem reporting, not account tests.",
+              "checked_at": "2026-11-23T16:50:33.125Z"
+            },
+            {
+              "url": "https://support.pocketcasts.com/knowledge-base/video-podcasts/",
+              "claim": "Pocket Casts streams feed video but downloads HLS episodes as audio.",
+              "finding": "Official guide confirms MP4 and HLS across mobile/web/desktop and standard audio downloads; proprietary-only video is excluded.",
+              "checked_at": "2026-11-23T16:50:33.907Z"
+            },
+            {
+              "url": "https://creators.spotify.com/features/video",
+              "claim": "Spotify native video differs from general RSS distribution.",
+              "finding": "Official feature page explicitly says Creators or Megaphone uploads use Spotify native video and other platforms receive audio RSS.",
+              "checked_at": "2026-11-23T16:50:49.147Z"
+            },
+            {
+              "url": "https://support.megaphone.fm/en/articles/12043371-video-monetization",
+              "claim": "Megaphone monetization is still described as an October 20 future launch.",
+              "finding": "Current official text says currently available, not future launch; page retains an obsolete October 20 date-of-this-review sentence despite November 20 blanket row date.",
+              "checked_at": "2026-11-23T16:50:49.753Z"
+            },
+            {
+              "url": "https://www.buzzsprout.com/features/video-podcasting",
+              "claim": "Buzzsprout video uses separate Apple, Spotify and YouTube connections.",
+              "finding": "FAQ confirms Audio + Video plans, MP4/MOV to Apple HLS, Apple review/API key, Spotify approval and YouTube authorization.",
+              "checked_at": "2026-11-23T16:50:50.068Z"
+            },
+            {
+              "url": "https://rss.com/features/video-podcasting/",
+              "claim": "RSS.com Max supports alternate enclosures but sends Spotify audio.",
+              "finding": "Vendor explicitly confirms Max HLS Apple, Podcasting 2.0 alternate enclosures and YouTube; Spotify and Amazon receive audio feed.",
+              "checked_at": "2026-11-23T16:50:50.272Z"
+            },
+            {
+              "url": "https://transistor.fm/features/video/",
+              "claim": "Transistor supports HLS RSS and labels unified analytics coming soon.",
+              "finding": "Current page supports available video, HLS RSS and Apple hosting partnership; retrieved feature text no longer includes the cited coming-soon analytics phrase, so that specific status is unestablished.",
+              "checked_at": "2026-11-23T16:51:43.012Z"
+            },
+            {
+              "url": "https://libsyn.com/libsyn-podcast-hosting-features/",
+              "claim": "Libsyn markets video publishing while Apple HLS is coming soon.",
+              "finding": "Feature list confirms Apple HLS coming soon and plan-based Spotify/YouTube labels; explanatory YouTube section describes audio-to-video conversion, so full-motion YouTube transfer is not established by the same page.",
+              "checked_at": "2026-11-23T16:51:43.288Z"
+            },
+            {
+              "url": "https://www.acast.com/en/press-room/video-on-apple-podcasts-now-open-to-all",
+              "claim": "Acast opens Apple video via a plan or partner manager.",
+              "finding": "Launch statement explicitly describes Video plan and creator-network manager activation; it does not establish every other video destination.",
+              "checked_at": "2026-11-23T16:51:43.528Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Full linked HLS distribution and feed metadata patterns were read for route scope and audio fallback.",
+          "items": [
+            {
+              "path": "patterns/produce/recording/hls-video-podcast-distribution.md",
+              "claim": "Video distribution needs destination compatibility and audio continuity.",
+              "finding": "Pattern requires capable hosting, audio fallback, consent and cost check; reference complements this with host/app-specific restrictions and does not justify universal adoption.",
+              "checked_at": "2026-11-23T16:52:32Z"
+            },
+            {
+              "path": "patterns/publish/feed-metadata-standard.md",
+              "claim": "Podcast feed metadata must remain useful inside listening apps.",
+              "finding": "Pattern retains audio file and canonical link requirements; the reference distinguishes alternate video paths without removing audio continuity.",
+              "checked_at": "2026-11-23T16:52:32Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-23T16:52:33Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park pending targeted stale vendor wording correction and shared dark-table readability; unresolved rows must retain evidence limits.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
     ]
   }
 }
