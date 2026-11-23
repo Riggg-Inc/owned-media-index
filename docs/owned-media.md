@@ -11,7 +11,7 @@ Owned media is the content you own and the channels where you manage publishing 
 A video master, transcript, clip or written post can be an owned asset even when you publish it on a rented platform. Posting your video on YouTube does not make YouTube yours—or stop the video from being yours.
 
 - **Owned assets:** content your organization owns and can reuse. Check that you have the rights needed to use contributor material, music and other third-party content. Licensed material is usable within its licence, not necessarily owned.
-- **Owned channels:** your website, email list and managed RSS feed give you more direct control over publishing and audience access than a social account. Keep content backups, subscriber exports and permission records, and know how to move providers.
+- **Owned channels:** your website, email list, podcast (through its managed RSS feed), webinars and owned community give you more direct control over publishing and audience access than a social account. Keep content backups, subscriber exports and permission records, and know how to move providers.
 - **Shared distribution:** LinkedIn, YouTube and other platforms help your content reach people, but control access to their own audiences.
 
 Start with one episode: keep the master and transcript, publish an episode page on your website, then distribute clips through social channels. You own the assets; you do not own the pipe.
@@ -106,7 +106,9 @@ Build these so you can keep publishing and stay in touch when you change provide
 |---|---|
 | **Website** | Canonical episode pages, show page, blog, show notes, transcripts |
 | **Email list / Newsletter** | Episode releases, audience nurture, evergreen sends |
+| **Podcast** | Your show, with its RSS feed as the canonical access point; choose a host that supports redirects and exports |
 | **RSS feed** | The feed you manage; check export and redirect options before changing hosts |
+| **Webinars** | Live or recorded sessions on your own registration page, with attendee lists you can export |
 | **Owned community** | Forum or community with content and member relationships you can carry to another provider |
 
 Podcast hosts such as Buzzsprout and Transistor provide the infrastructure for feed management, analytics and distribution. Keep copies of your files and check the host’s migration options; the account itself is not an audience relationship.
@@ -124,6 +126,7 @@ You own your content, not the platform or its algorithm. A shutdown or rule chan
 | **Instagram** | Reels, clips, quote graphics, stories |
 | **X / Twitter** | Posts, threads, clips |
 | **Facebook** | Posts, clips, live simulcasts |
+| **Reddit** | Community posts and discussions where community rules permit |
 
 !!! note "A note on YouTube"
     YouTube is treated as shared distribution — not owned — for the same reason Spotify and Apple Podcasts are. Google controls the algorithm, monetization rules, and account access. A channel termination can cut off access to that YouTube audience. Keep the video masters and give viewers a way to find you outside YouTube.
