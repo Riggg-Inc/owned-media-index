@@ -1833,6 +1833,76 @@
         "retry_at": "2026-10-15T16:50:57Z",
         "reason": "Existing exact-body rights/control correction remains blocked preparation; source/platform reconciliation and framework-owner approval required. Retired benefits add-on must not be revived.",
         "correction_card": "34d46539-4d50-4e07-9c23-6fed2edaa645"
+      },
+      {
+        "id": "quality-20261124-owned-media",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-24T16:48:31Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "01b2a84f86b65f3feab24cc02170179060865d57dd919ae605a96295db5daeb6",
+        "report_ref": "docs-internal/quality-review-20261124-owned-media.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The asset-versus-distribution opening and two ownership tests give a practitioner a concrete way to choose what to retain and where to publish."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The one-episode master/transcript/website/social example, stage inventory, channel tables and export/permission checks make the definition operational rather than abstract."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Assets, channels and operational stages are explicitly separated; the progression from definition to inventory to two practical ownership tests is consistent."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "All five stages match Framework, and the newly released distribution quadrant likewise treats podcasts through portable RSS, exportable webinars and communities as owned while platforms remain shared."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Rights, hosting and portability limits qualify control claims appropriately. Gini Dietrich’s original syndicated article explicitly dates the PESO launch to2014 and describes integrated communications; no measured performance guarantee appears here."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh live slate rendering makes the Package and Prove rows of the essential 5Ps table pale text on pale stripes; the same issue affects channel rows. Desktop/light structure is clear, but dark reference guidance is materially obscured."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked named historical attribution against an actual primary author article after the main Spin Sucks endpoint returned403.",
+          "items": [
+            {
+              "url": "https://medium.com/@ginidietrich/the-challenges-and-solutions-of-the-peso-model-e7c03558183",
+              "claim": "Gini Dietrich introduced PESO in2014 as an integrated communications model.",
+              "finding": "Complete March23 2017 author article says we launched the PESO model in2014, calls it an integrated communications tool and discusses paid, earned, shared and owned work. Supports attribution/history, not platform outcomes.",
+              "checked_at": "2026-11-24T16:46:59Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Compared complete current framework and owner-released distribution quadrant, not superseded correction drafts.",
+          "items": [
+            {
+              "path": "framework.md",
+              "claim": "The five operational stages retain their established names and purposes.",
+              "finding": "Produce capture, Package assets, Publish destinations, Prove measurements and Preserve reuse agree with the definition page table and inventories.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            },
+            {
+              "path": "quadrants/distribution-platforms.md",
+              "claim": "Owned versus shared channels reflect the current portability distinction.",
+              "finding": "Current quadrant lists website/email/podcast RSS/webinars/portable community as anchors and social applications as shared. This resolves earlier ownership inconsistency rather than perpetuating the pre-release finding.",
+              "checked_at": "2026-11-24T16:48:15Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-24T16:48:31Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Current body guidance is sound; dark striped tables obscure essential definitions. Reconcile existing shared CSS issue without reopening delivered content correction scope.",
+        "correction_card": "34d46539-4d50-4e07-9c23-6fed2edaa645"
       }
     ],
     "patterns/index.md": [
@@ -2097,6 +2167,69 @@
         "disposition": "park",
         "retry_at": null,
         "reason": "Qualify unsupported clip performance causality and prevent invented source/timestamps; shared dark contrast correction requires exact approval.",
+        "correction_card": "e911a436-cc49-48cf-90ec-3956ccca4d5e"
+      },
+      {
+        "id": "quality-20261124-patterns-package-clips-data-drop",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-24T16:49:02Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "5a63d69b4b49979ad5285926f206dd3c86bcca6145764f44d05a81148ba8ebc8",
+        "report_ref": "docs-internal/quality-review-20261124-patterns-package-clips-data-drop.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening names a credible contextualized number as the selection task and tells the editor to reject a statistic that needs excessive missing context."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Specific selection criteria, exclusions, named research starting points and a copy-ready extraction prompt supply a workable editorial procedure; no episode example or performance evidence is falsely claimed."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Why It Works now explains a possible communication benefit rather than guaranteed authority; source, population, timeframe and qualification safeguards agree throughout the selection and prompt sections."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The corrected Clip Styles quadrant selects Data Drops for source-context fit rather than universal reach, and Framework Package asks for stand-alone understandable assets, matching this revised guidance."
+          },
+          "reasonable_claims": {
+            "status": "needs_revision",
+            "rationale": "The revised advice and show-level starting-point qualification are proportionate, but the visible Evidence: internal production data assertion still lacks a retained qualifying evidence reference in this reviewed material. Approval explicitly left that inherited label uncertified; no private evidence was accessed or invented."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Actual current slate screenshots obscure the Freakonomics research row with pale-on-pale table stripes and render the essential copy-ready prompt in dark red on navy. Light mode is usable; these are material presentation defects."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "Current body offers guidance and explicitly unverified research starting points, not attributed episode statistics. No source playback or private production evidence was accessed; inherited evidence-label support remains unresolved.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full corrected companion and framework and compare selection criteria rather than stale pre-release claims.",
+          "items": [
+            {
+              "path": "quadrants/clips.md",
+              "claim": "Data Drop selection should preserve source scope and serve the intended audience.",
+              "finding": "Companion calls for source, scope and context and disclaims measured reach rankings, consistent with revised Why It Works and prompt safeguards.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Packaged clips should be understandable without extra explanation.",
+              "finding": "Framework Package quality question aligns with retaining essential context and rejecting unsuitable transcript moments rather than manufacturing statistics.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-24T16:49:02Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Dark research table and prompt remain unreadable; internal-production-data label remains unsupported by reviewed public/retained evidence. Preserve approved content scope and route label evidence decision separately from shared CSS.",
         "correction_card": "e911a436-cc49-48cf-90ec-3956ccca4d5e"
       }
     ],
@@ -4283,6 +4416,69 @@
         "retry_at": null,
         "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      },
+      {
+        "id": "quality-20261124-patterns-package-social-posts-types-clip-companion-linkedin-video-post",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-24T16:49:25Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "47d786ef1fa6822d615aad4f88e32fd95002056aaf243674c32f59220284fcde",
+        "report_ref": "docs-internal/quality-review-20261124-patterns-package-social-posts-types-clip-companion-linkedin-video-post.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The new opening distinguishes a clip illustrating one lesson from a generic episode announcement and gives a specific reason to choose this format."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The Template remains only Hook/Body/CTA placeholders and Example says Coming soon. The prompt adds no concrete clip-to-caption demonstration, so the named video-post pattern still leaves its defining craft to the reader."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Opening, When To Use and prompt consistently describe a clip companion with one action; the1300-character drafting target is explicitly not a platform limit or engagement optimum."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The full Release Post Patterns hub asks for value before a click and names Clip Companion as one angle; the current long-form sibling correctly targets broader release context instead."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Practitioner advice to add value and use one CTA does not need experimental proof. The numeric drafting target is clearly editorial, and stop the scroll reads as an aim rather than a measured guarantee."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current desktop-light layout is navigable, but mobile slate renders both essential template and prompt dark red on navy, with low-contrast linked guidance. Missing concrete example compounds the inability to inspect a finished caption."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No material factual platform limits or measured performance claims remain;1300 characters is explicitly an editorial target and no algorithmic result is asserted.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full hub, current long-form sibling and framework to compare the actual reader tasks.",
+          "items": [
+            {
+              "path": "patterns/publish/linkedin-release-post-patterns.md",
+              "claim": "Clip companion should give value before a reader clicks.",
+              "finding": "Hub says translate the asset into a feed-native reason to care, consistent with the revised opening; its list does not supply the missing worked caption.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/episode-announcement/linkedin-long-form.md",
+              "claim": "Clip companion and long-form announcement should serve distinct tasks.",
+              "finding": "Sibling opening focuses on release relevance beyond the title, while this page attaches a lesson to a clip; identical placeholder templates still underspecify practical execution.",
+              "checked_at": "2026-11-24T16:45:50Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-24T16:49:25Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Needs a concrete hypothetical clip/caption example and observable clip-specific checks; shared slate prompt/link contrast needs repair. Do not reopen completed clip-selection scope.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "patterns/package/social-posts/types/episode-announcement/index.md": [
@@ -4502,6 +4698,69 @@
         "retry_at": null,
         "reason": "Await exact owner-approved shared contrast correction and complete concrete pattern guidance correction on existing package card.",
         "correction_card": "e050b6be-b3e8-4872-83c4-a6e8fee980f8"
+      },
+      {
+        "id": "quality-20261124-patterns-package-social-posts-types-episode-announcement-linkedin-long-form",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-24T16:49:43Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "70540764eda07ae6ffd443461ae1aefeaec181b7cdd8a9d7219e17b634c3f296",
+        "report_ref": "docs-internal/quality-review-20261124-patterns-package-social-posts-types-episode-announcement-linkedin-long-form.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The current opening explains why a longer episode announcement is useful: give professional context beyond the title and value even if nobody clicks."
+          },
+          "substance": {
+            "status": "needs_revision",
+            "rationale": "The page promises long-form announcement guidance but supplies the same four placeholders as the clip sibling and a Coming soon example. No worked paragraph sequence demonstrates how to turn episode context into reader value."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "When To Use and prompt agree on an episode announcement rather than clip-only copy; the explicit editorial1300-character target avoids the previous implication of a technical LinkedIn limit."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Release Post Patterns and Framework Package both call for useful stand-alone assets, and the clip sibling addresses a different source moment. This page does not contradict them, although its placeholder execution remains thin."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Practitioner advice to add value and use one CTA does not need experimental proof. The numeric drafting target is clearly editorial, and stop the scroll reads as an aim rather than a measured guarantee."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Current mobile dark screenshot shows dark red template and prompt text against navy, while the essential linked release-pattern guidance is low contrast. Light headings and page organization work but cannot compensate for the unreadable copy-ready tools."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "No material factual platform limits or measured performance claims remain;1300 characters is explicitly an editorial target and no algorithmic result is asserted.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full hub, current long-form sibling and framework to compare the actual reader tasks.",
+          "items": [
+            {
+              "path": "patterns/publish/linkedin-release-post-patterns.md",
+              "claim": "Clip companion should give value before a reader clicks.",
+              "finding": "Hub says translate the asset into a feed-native reason to care, consistent with the revised opening; its list does not supply the missing worked caption.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            },
+            {
+              "path": "patterns/package/social-posts/types/clip-companion/linkedin-video-post.md",
+              "claim": "The announcement should be distinguishable from a clip companion.",
+              "finding": "Clip sibling asks for one lesson tied to a video; long-form opening correctly asks for broader release relevance, but neither identical scaffold demonstrates the intended finished output.",
+              "checked_at": "2026-11-24T16:45:50Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-24T16:49:43Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Long-form announcement lacks a concrete worked example and observable value-before-click check; essential dark prompt/template contrast remains broken.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "patterns/package/social-posts/types/episode-announcement/twitter-punchy.md": [
@@ -11322,6 +11581,71 @@
         "disposition": "park",
         "retry_at": null,
         "reason": "Park pending targeted stale vendor wording correction and shared dark-table readability; unresolved rows must retain evidence limits.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      }
+    ],
+    "tools/index.md": [
+      {
+        "id": "quality-20261124-tools-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-24T16:48:02Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "91945e6eacd571f065106dc18ca2596215923411573ed5e4ce962d3307088259",
+        "report_ref": "docs-internal/quality-review-20261124-tools-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening immediately limits the directory to video podcast hosting and points a practitioner to its single currently available reference."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "For this navigation hub, the named reference, coverage description and explicitly planned categories are enough substance; a miniature hosting tutorial is not required."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "The current Hosting section and Coming in V0.4 heading cleanly separate available material from planned recording and editing coverage."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "The full hosting reference supplies support, unknowns and dated limits, while Roadmap V0.4 names the same future tool categories; the hub does not promise universal video delivery."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The inventory statement is directly supported by current published files; monthly cadence describes the documented next source review, not account testing or a fresh certification."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop and mobile slate screenshots show the only essential reference link in low-contrast teal against the dark table; desktop Hosting side navigation is nearly invisible. Light presentation works, but dark navigation needs correction."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This directory makes internal inventory and roadmap claims, checked against complete repository pages rather than external empirical assertions.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete linked reference and roadmap to distinguish available coverage from announced categories.",
+          "items": [
+            {
+              "path": "tools/hosting/video-podcast-hosting-support.md",
+              "claim": "The directory describes the actual scope and cadence of its hosting reference.",
+              "finding": "Reference separates MP4, HLS, Apple and Spotify routes, unknowns and a November20 source review with December20 next date; hub summary accurately directs readers to these limits.",
+              "checked_at": "2026-11-24T16:46:20Z"
+            },
+            {
+              "path": "roadmap.md",
+              "claim": "The planned tool categories align with the current published roadmap.",
+              "finding": "V0.4 names recording, editing, mastering, transcription, repurposing, publishing, analytics and hardware, consistent with the hub prospective list.",
+              "checked_at": "2026-11-24T16:46:00Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-24T16:48:02Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Essential dark-theme hosting navigation lacks contrast; reuse existing shared contrast proposal, without reopening completed clip correction scope.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ]
