@@ -1398,6 +1398,82 @@
         "disposition": "rolling",
         "retry_at": null,
         "reason": null
+      },
+      {
+        "id": "quality-20261125-patterns-package-descriptions-audience-pain-breakdown",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-25T16:50:18Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "78ec612d80fdbd541dde9de4cb85e11648b5d21fc73b96bab565c3934abf30c5",
+        "report_ref": "docs-internal/quality-review-20261125-patterns-package-descriptions-audience-pain-breakdown.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "Opening distinguishes a tactical audience problem from an inspirational story and tells the writer when to choose this description."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The twenty-episodes repurposing illustration, three-part structure and copy-ready prompt supply enough detail to draft an actual description."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Problem recognition leads to the episode breakdown and resources; intended-effect wording avoids claiming guaranteed performance."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Description quadrant places this as compact tactical value, unlike Thesis-Takeaways-CTA which organizes a thesis and distinct bullets. Both fit Framework Package."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Illustration is clearly fictional and requires verified details; both show references are expressly starting points. Fresh publisher text supports only their broad topics, not pattern adoption or measured outcomes."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "The actual slate view renders the Marketing School row pale-on-pale and the reusable prompt dark red on navy. The central copy-ready tool is materially hard to read despite no page overflow."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked only the two modest show-topic claims in current publisher text; no episode playback, attribution reuse or outcome study performed.",
+          "items": [
+            {
+              "url": "https://marketingschool.io/",
+              "claim": "Neil and Eric discuss marketing and business topics.",
+              "finding": "Full extracted current homepage includes marketing strategy and business episode summaries, including Eric and Neil. Does not prove every description follows this pattern.",
+              "checked_at": "2026-11-25T16:50:17Z"
+            },
+            {
+              "url": "https://podcasts.apple.com/us/podcast/online-marketing-made-easy-with-amy-porterfield/id594703545",
+              "claim": "Amy Porterfield publisher describes sustainable business growth conversations.",
+              "finding": "Redirected current show description explicitly discusses sustainable revenue, audience and team growth and business conversations. No host financial claims were adopted or verified.",
+              "checked_at": "2026-11-25T16:50:17Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete description quadrant, Thesis-Takeaways-CTA and Framework text; did not watch sibling embedded video.",
+          "items": [
+            {
+              "path": "quadrants/descriptions.md",
+              "claim": "Audience Pain offers a tactical problem preview.",
+              "finding": "Selection guide specifically assigns practical audience problems to this pattern, agreeing with the article use case.",
+              "checked_at": "2026-11-25T16:50:17Z"
+            },
+            {
+              "path": "patterns/package/descriptions/thesis-takeaways-cta.md",
+              "claim": "Description patterns provide different usable structures.",
+              "finding": "Sibling uses thesis plus three bullets plus CTA; this page uses pain plus practical breakdown plus resources, a useful coherent distinction.",
+              "checked_at": "2026-11-25T16:50:17Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-25T16:50:18Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for shared dark code-prompt and table contrast correction; no prose rewrite needed for this reviewed body.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "contribute.md": [
@@ -1526,6 +1602,75 @@
         "disposition": "rolling",
         "retry_at": null,
         "reason": null
+      },
+      {
+        "id": "quality-20261125-evidence",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-25T16:51:05Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "fda7c2464edc7cbdcaf5aefd4e401bc0adcc3d55a0b4f2d50b49b66ffb48c513",
+        "report_ref": "docs-internal/quality-review-20261125-evidence.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The short reference explains what supports OMI entries and what private information must stay out, a clear reader and contributor task."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Five defined evidence types and a concrete list of prohibited information are enough for an overview; expanding it into an audit manual would not improve this task."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Evidence categories are kept distinct from public-safety restrictions; generalization is not presented as permission to publish confidential data."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Public Scoring calls scores editorial judgments and defines practitioner observation as experience; Contribute asks for evidence and tradeoffs. This overview does not promise every entry is benchmark-proven."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The page states the Index editorial policy rather than empirical platform or performance claims; root EVIDENCE.md supports the same five types and privacy restrictions."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Core prose is readable, but current dark breadcrumb Home and footer links, including Analytics preferences, have visibly poor contrast. Shared navigation and privacy-control access remain materially impaired on both viewport sizes."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is a first-party editorial policy summary, with no external performance, platform limit or attribution claim requiring a fresh outside source.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full public Scoring, Contribute and the actual Audience Pain pattern, alongside root EVIDENCE.md and TEAM.md.",
+          "items": [
+            {
+              "path": "scoring.md",
+              "claim": "Evidence provenance does not make scores popularity votes.",
+              "finding": "Scoring explicitly calls ratings editorial judgments and distinguishes observation, internal data and research; no conflict requiring a policy rewrite.",
+              "checked_at": "2026-11-25T16:51:03Z"
+            },
+            {
+              "path": "contribute.md",
+              "claim": "Contributions should state evidence and tradeoffs.",
+              "finding": "The full contribution checklist requests both evidence and when-not-to-use guidance, consistent with transparent support rather than proof of every recommendation.",
+              "checked_at": "2026-11-25T16:51:03Z"
+            },
+            {
+              "path": "patterns/package/descriptions/audience-pain-breakdown.md",
+              "claim": "Practitioner observation can support actionable guidance without fabricated outcomes.",
+              "finding": "Actual pattern labels its example illustrative and its references starting points, a concrete compatible instance; no claim that all library entries are compliant.",
+              "checked_at": "2026-11-25T16:51:03Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-25T16:51:05Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for shared low-contrast dark navigation and footer controls; no evidence-policy rewrite or score change justified.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "framework.md": [
@@ -1590,6 +1735,81 @@
         "disposition": "rolling",
         "retry_at": null,
         "reason": null
+      },
+      {
+        "id": "quality-20261125-framework",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-25T16:51:44Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "5d2081da100f8525c5c0a8ca6e552210ff6f758e9f5885165a6d06dedbf1669c",
+        "report_ref": "docs-internal/quality-review-20261125-framework.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening names the five stages and each section explains the operational job, allowing a practitioner to classify work quickly."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Each stage includes concrete assets or activities and a quality question. This is enough for a framework overview without requiring a full workflow tutorial."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Capture, transform, distribute, measure and reuse form a clear progression; overlapping AI visibility work need not imply contradictory stage definitions."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Owned Media maps the same five stages to assets, while Publish, Prove and Preserve hubs instantiate the corresponding jobs. Framework does not inherit every hub promotional assertion."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "These are explicitly the Index operating categories and practical quality questions, not empirical causal claims. Make content compound is a purpose, not a quantified guarantee."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Main text and quality questions are readable across fresh four-way views, but slate Home breadcrumb and shared footer links including Analytics preferences remain low-contrast. Required navigation/privacy controls are not reliably readable."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This first-party framework defines operational categories and intended quality questions; it asserts no material external statistics, platform limits or guaranteed outcomes.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete Owned Media, Publish, Prove and Preserve hub bodies, not just headings or keyword matches.",
+          "items": [
+            {
+              "path": "owned-media.md",
+              "claim": "The 5Ps classify work rather than ownership rights.",
+              "finding": "Owned Media explicitly says stages describe what you do, then separates assets/channels. Framework stages agree and do not make shared platforms owned.",
+              "checked_at": "2026-11-25T16:51:43Z"
+            },
+            {
+              "path": "patterns/publish/index.md",
+              "claim": "Publish gets finished assets into channels.",
+              "finding": "Hub gives owned and shared routes plus selection guide; framework Publish examples agree. No new certification of hub claims about AI citations.",
+              "checked_at": "2026-11-25T16:51:43Z"
+            },
+            {
+              "path": "patterns/prove/index.md",
+              "claim": "Prove measures what worked and what changes next.",
+              "finding": "Scorecards and investment/measurement choices instantiate framework quality question without requiring all success to be revenue attribution.",
+              "checked_at": "2026-11-25T16:51:43Z"
+            },
+            {
+              "path": "patterns/preserve/index.md",
+              "claim": "Preserve makes knowledge findable and reusable.",
+              "finding": "Library/search and audience question checks fit retrieval/reuse purpose; no need to repeat companion broad claims about years of generated value.",
+              "checked_at": "2026-11-25T16:51:43Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-25T16:51:44Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for shared dark navigation/footer contrast repair; no framework-stage or meaning revision proposed.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "index.md": [
@@ -11016,6 +11236,94 @@
         "retry_at": null,
         "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      },
+      {
+        "id": "quality-20261125-quadrants-distribution-platforms",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-25T16:48:28Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "cc94969608627fa70b00ed48db34094003ccb3c02d6acaba9aeab04cf558a9f1",
+        "report_ref": "docs-internal/quality-review-20261125-quadrants-distribution-platforms.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening gives a concrete owned-home and shared-discovery strategy; the goals table helps a practitioner pick a channel."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "Fifteen channel notes, the portable-feed check and Instagram-to-newsletter example provide usable choices rather than a list of logos."
+          },
+          "coherence": {
+            "status": "needs_revision",
+            "rationale": "The horizontal axis explicitly measures platform-assisted discovery, but Top-right says growing an owned audience moves it right. Audience size and native discovery are different variables; this undermines the chart decision rule."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Owned Media now consistently distinguishes content assets, portable RSS and platform-controlled follower relationships; the 5Ps Publish stage likewise separates channels from packaging."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "Fresh Spotify documentation supports discovery features, Apple supports redirect portability, and Barrett supports the attributed weekly-US ranking. Positions explicitly remain planning judgments; no comparative reach measurement was independently established."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh desktop and mobile slate renders make alternate strategy and choosing-channel table rows nearly invisible: pale inherited text on pale backgrounds. These rows contain essential decision guidance, not decoration."
+          }
+        },
+        "source_checks": {
+          "applicable": true,
+          "rationale": "Checked material ranking, recommendation and migration assertions in actual current source text; no platform experiments or listener survey microdata examined.",
+          "items": [
+            {
+              "url": "https://barrettmedia.com/2026/10/08/youtube-top-spot-weekly-podcasts/",
+              "claim": "US weekly podcast platform ranking and Spotify 17%, Apple 9%.",
+              "finding": "Read complete article body from retrieved spill after navigation truncation; reports these exact values, with audio versus video unresolved. This is secondary coverage, not independent survey verification.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            },
+            {
+              "url": "https://creators.spotify.com/resources/news/prompted-playlists",
+              "claim": "Spotify has podcast discovery beyond a passive directory.",
+              "finding": "Read complete Spotify article: personalized podcast playlists can recommend shows, episodes and chapters. It supports the capability, not a promised audience gain.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            },
+            {
+              "url": "https://podcasters.apple.com/support/837-change-the-rss-feed-url",
+              "claim": "Portable RSS should support a 301 redirect.",
+              "finding": "Read full official guidance: redirect plus preserved GUIDs and feed tag support migration; retain redirect at least four weeks. High-level channel advice is appropriate, not a full migration procedure.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            },
+            {
+              "url": "https://techcrunch.com/2025/05/28/spotify-amps-up-podcast-discovery-with-new-features",
+              "claim": "Spotify recommends podcasts on Home.",
+              "finding": "Full report describes Home recommendations and Following feed rollout. It does not quantify how much creator growth comes from directories versus elsewhere.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            }
+          ]
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read full current Owned Media and Framework bodies, not old correction proposals.",
+          "items": [
+            {
+              "path": "owned-media.md",
+              "claim": "Asset ownership is separate from platform access.",
+              "finding": "Both retain rights and export caveats and call YouTube shared distribution; previous stronger ownership conflict is corrected.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            },
+            {
+              "path": "framework.md",
+              "claim": "Publishing distributes packaged assets into channels.",
+              "finding": "Publish includes website, RSS, email and shared platforms without claiming the platform itself is owned.",
+              "checked_at": "2026-11-25T16:48:28Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-25T16:48:28Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for shared dark-table contrast correction and precise axis-versus-audience-growth owner decision; do not reopen delivered ownership correction scope.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
     "quadrants/index.md": [
@@ -11086,6 +11394,75 @@
         "disposition": "park",
         "retry_at": null,
         "reason": "Material readable-selection failure in current dark presentation; additional page-specific factual or consistency corrections are identified in the six findings.",
+        "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
+      },
+      {
+        "id": "quality-20261125-quadrants-index",
+        "status": "needs_revision",
+        "assessed_at": "2026-11-25T16:49:19Z",
+        "reviewer": "Cass — AI editorial review — openai/gpt-6-astra",
+        "method": "substantive-quality-review-v1",
+        "content_sha256": "d0f5bd6d0d2e76e107fd4578efa60a7800e4b0b7588c1b7881ab557f760fe5e8",
+        "report_ref": "docs-internal/quality-review-20261125-quadrants-index.md",
+        "dimensions": {
+          "usefulness": {
+            "status": "pass",
+            "rationale": "The opening identifies the six comparison families and tells readers to narrow a choice then read guidance."
+          },
+          "substance": {
+            "status": "pass",
+            "rationale": "The compact table provides axes and linked destinations; a hub need not reproduce six entire guides."
+          },
+          "coherence": {
+            "status": "pass",
+            "rationale": "Current wording correctly separates score-colored patterns/tools from role-labeled distribution dots, rather than claiming all dots are scored links."
+          },
+          "cross_page_consistency": {
+            "status": "pass",
+            "rationale": "Full Title, Description and Distribution pages confirm respective axes, eleven/six/fifteen entries and different dot roles."
+          },
+          "reasonable_claims": {
+            "status": "pass",
+            "rationale": "The hub describes its own editorial navigation and visual encodings, not measured marketing results; linked destinations and source counts are inspectable."
+          },
+          "usability": {
+            "status": "needs_revision",
+            "rationale": "Fresh four-way renders show near-invisible axis/count text on alternating slate table rows and low contrast essential links on dark rows. This prevents scanning the central choice tool."
+          }
+        },
+        "source_checks": {
+          "applicable": false,
+          "rationale": "This is an internal navigation index describing its own comparison pages; no external statistics or platform requirements need new third-party verification.",
+          "items": []
+        },
+        "cross_page_comparisons": {
+          "applicable": true,
+          "rationale": "Read complete Title, Description and Distribution pages and public Scoring definitions; not a certification of every neighboring claim.",
+          "items": [
+            {
+              "path": "quadrants/titles.md",
+              "claim": "Title entries and axes in the hub.",
+              "finding": "Eleven dot entries and Authority/Curiosity versus Niche/Broad axes agree; hub does not endorse neighboring reach superlatives.",
+              "checked_at": "2026-11-25T16:49:18Z"
+            },
+            {
+              "path": "quadrants/descriptions.md",
+              "claim": "Description entries and axes in the hub.",
+              "finding": "Six dot entries and Brevity/Depth versus Information/Emotion agree; selection guide gives non-chart navigation.",
+              "checked_at": "2026-11-25T16:49:18Z"
+            },
+            {
+              "path": "quadrants/distribution-platforms.md",
+              "claim": "Distribution roles differ from numerical scores.",
+              "finding": "Fifteen channel dots use A/H/S/D and current hub accurately describes those labels. The axis-growth ambiguity is on the companion page, not an excuse to rewrite this hub.",
+              "checked_at": "2026-11-25T16:49:18Z"
+            }
+          ]
+        },
+        "next_review_at": "2026-12-25T16:49:19Z",
+        "disposition": "park",
+        "retry_at": null,
+        "reason": "Park for existing shared dark table and link contrast correction; current hub prose correction itself is sound.",
         "correction_card": "8006e12e-6551-440a-b9cc-27bce652996f"
       }
     ],
